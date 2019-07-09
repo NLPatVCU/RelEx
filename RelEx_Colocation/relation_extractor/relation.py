@@ -1,7 +1,7 @@
-#Authour - Samantha Mahendran for RelEx_Collocation
+#Authour - Samantha Mahendran for RelEx_Colocation
 
-from RelEx_Collocation.utils.ann_to_json import Ann_To_Json
-from RelEx_Collocation.relation_extractor import traversal
+from RelEx_Colocation.utils.ann_to_json import Ann_To_Json
+from RelEx_Colocation.relation_extractor import traversal
 from operator import itemgetter
 import spacy
 import os
@@ -39,6 +39,7 @@ class Relation:
 
             with open(os.path.join(self.data_path, f)) as file_object:
                 file_input_path[f] = file_object.read().strip()
+
                 # read files and convert ann files to JSON format
                 ann_to_json = Ann_To_Json(file_input_path[f])
 
@@ -49,7 +50,6 @@ class Relation:
                 doc = self.nlp(text)
 
                 for id, start, end, label, mention in [ann_to_json.annotations['entities'][key] for key in ann_to_json.annotations['entities']]:
-
                     #using spaCy function to find the word using the given span
                     span = doc.char_span(start, end)
                     self.result['entities'].append((id, label, start, end, span, f))
@@ -59,18 +59,19 @@ class Relation:
                 sorted_entities.sort(key=itemgetter(1))
 
                 #Calls the traversal method according to the selection of the user. By default, it takes the left only direction
+                #traverse left side only
                 if traversal_direction == 'left':
                     rel = traversal.traverse_left_only(sorted_entities, self.result, f)
-
+                # traverse right side only
                 elif traversal_direction == 'right':
                     rel = traversal.traverse_right_only(sorted_entities, self.result, f)
-
+                # traverse left side first then right side
                 elif traversal_direction == 'left-right':
                     rel = traversal.traverse_left_right(sorted_entities, self.result,f)
-
+                # traverse right side then left side
                 elif traversal_direction == 'right-left':
                     rel = traversal.traverse_right_left(sorted_entities, self.result,f)
-
+                #traverse both sides within the sentence boundary
                 elif traversal_direction == 'sentence':
                     rel = traversal.traverse_within_sentence(sorted_entities, self.result, f, doc)
 

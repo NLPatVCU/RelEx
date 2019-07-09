@@ -1,6 +1,6 @@
-#Authour - Samantha Mahendran for RelEx_Collocation
+#Authour - Samantha Mahendran for RelEx_Colocation
 
-from RelEx_Collocation.utils import alternative_span
+from RelEx_Colocation.utils import alternative_span
 
 # traverse only the right side of the drug mention
 def traverse_right_only(sorted_entities, result, f):
@@ -8,6 +8,7 @@ def traverse_right_only(sorted_entities, result, f):
 
     for id, start, end, label, mention in sorted_entities:
         index = sorted_entities.index((id, start, end, label, mention))
+
         if label != 'Drug':
             ind_right = index + 1
             count = 1
@@ -24,6 +25,7 @@ def traverse_left_only(sorted_entities, result, f):
 
     for id, start, end, label, mention in sorted_entities:
         index = sorted_entities.index((id, start, end, label, mention))
+
         if label != 'Drug':
             ind_left = index - 1
             count = 1
@@ -41,6 +43,7 @@ def traverse_right_left(sorted_entities, result, f):
 
     for id, start, end, label , mention in sorted_entities:
         index = sorted_entities.index((id, start, end, label, mention))
+
         if label != 'Drug':
             ind_left = index - 1
             ind_right = index + 1
@@ -67,6 +70,7 @@ def traverse_left_right(sorted_entities, result, f):
 
     for id, start, end, label, mention in sorted_entities:
         index = sorted_entities.index((id, start, end, label, mention))
+
         if label != 'Drug':
             ind_left = index - 1
             ind_right = index + 1
@@ -87,6 +91,7 @@ def traverse_left_right(sorted_entities, result, f):
 
     return result
 
+#traverse both sides within the sentence boundary
 def traverse_within_sentence(sorted_entities, result, f,doc):
     len_SE = len(sorted_entities)
 
@@ -95,11 +100,11 @@ def traverse_within_sentence(sorted_entities, result, f,doc):
 
         if label != 'Drug':
             span = doc.char_span(start, end)
+            #finds the correct span if the given span doesn't match the correct span
             new_span = alternative_span.find_alternative_span(start, end, span, doc)
 
             if new_span:
                 span_sent = str(new_span.sent).split()
-
                 ind_left = index - 1
                 count_left = 1
 

@@ -1,9 +1,9 @@
-#Authour - Samantha Mahendran for RelEx_Collocation
-
+#Author - Samantha Mahendran for RelEx_Colocation
 """
 Converts ann file text to spacy annotation
 """
 class Ann_To_Json:
+
     def __init__(self, annotation_text):
         self.annotations = {'entities': {}, 'relations': []}
 
