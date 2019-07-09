@@ -3,8 +3,8 @@
 from RelEx_Colocation.relation_extractor.relation import Relation
 
 # Give path to the data folder and the folder needed to store the predictions
-data_folder = "/home/mahendrand/challenges/n2c2_2018_vcu_challenge/nlp/evaluation/n2c2_script/gold_sample"
-prediction_folder = "/home/mahendrand/challenges/n2c2_2018_vcu_challenge/nlp/evaluation/n2c2_script/system_sample"
+data_folder = "./sample_dataset/data"
+prediction_folder = "./sample_dataset/predictions"
 
 # create object of the Relation
 rel_obj = Relation(data_folder, prediction_folder)
