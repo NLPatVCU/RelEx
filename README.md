@@ -16,23 +16,22 @@ Following are the different traversal techniques used:
 - traversal bounded within a sentence
 
 ### Examples
-
 For example, the sentence
 ```
 Once  her  hematocrit  stabilized,  she  was  started  on  a  heparin  gtt  with  coumadinoverlap
 ```
-contains a non-drug entity,gtt  (Route)and two drugsHeparinandCoumadinand the non-drugentity has a relation with the closest drug occurrence Heparin.
+contains a non-drug entity, gtt (Route) and two drugs Heparinand Coumadin and the non-drug entity has a relation with the closest drug occurrence Heparin.
 
 ### Installation
 
 Create a python 3.6 virtual environment and install the packages given in the requirements.txt
-
 ```
 pip install requirements.txt
 ```
 ## Deployment
 
-Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx_Colocation/). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
+Sample dataset (N2C2 2018 corpus) and sample script are provided ( RelEx_Colocation/). This script takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relations using the method that traverses both sides of the drug entity within a sentence boundary.
+Both the data files and the predictions can be found in the sample_dataset folder (RelEx_Colocation/sample_dataset)
 
 ## Authors
 
