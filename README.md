@@ -26,7 +26,7 @@ contains a non-drug entity, gtt (Route) and two drugs Heparinand Coumadin and th
 
 Create a python 3.6 virtual environment and install the packages given in the requirements.txt
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ## Deployment
 
