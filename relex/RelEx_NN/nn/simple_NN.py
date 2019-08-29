@@ -41,15 +41,35 @@ class Simple_NN:
         if self.embedding:
             embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
                                   weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
-        conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
-        pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
 
-        conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
-        drop = Dropout(self.drop_out)(conv2)
-
-        flat = Flatten()(drop)
+        flat = Flatten()(embedding)
         dense1 = Dense(self.filters, activation=self.activation)(flat)
-        outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+        dense2 = Dense(self.filters, activation=self.activation)(dense1)
+        outputs = Dense(no_classes, activation=self.output_activation)(dense2)
+
+        model = Model(inputs=input_shape, outputs=outputs)
+        model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+        print(model.summary())
+
+        return model
+
+    def define_OneHot_model(self, no_classes):
+        """
+
+        :param no_classes:
+        :return:
+        """
+        input_shape = Input(shape=(self.data_model.maxlen,))
+        embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
+
+        if self.embedding:
+            embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                  weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
+
+        flat = Flatten()(embedding)
+        dense1 = Dense(self.filters, activation=self.activation)(flat)
+        dense2 = Dense(self.filters, activation=self.activation)(dense1)
+        outputs = Dense(no_classes, activation=self.output_activation)(dense2)
 
         model = Model(inputs=input_shape, outputs=outputs)
         model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
