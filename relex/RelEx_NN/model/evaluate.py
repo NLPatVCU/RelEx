@@ -11,12 +11,13 @@ import numpy as np
 
 def predict(model, x_test, y_test, encoder_classes):
     """
-
-    :param model:
-    :param x_test:
-    :param y_test:
-    :param encoder_classes:
-    :return:
+    Takes the predictions as input and returns the indices of the maximum values along an axis using numpy argmax function as true labels.
+    Then evaluates it against the trained model
+    :param model: trained model
+    :param x_test: test data
+    :param y_test: test true labels
+    :param encoder_classes: 
+    :return: predicted and true labels
     """
     pred = model.predict(x_test)
     y_pred_ind = np.argmax(pred, axis=1)
@@ -49,14 +50,13 @@ def evaluate_Model(y_pred, y_true, encoder_classes):
 
 def cv_evaluation_fold(y_pred, y_true, labels):
     """
-
-    :param y_pred:
-    :param y_true:
-    :param labels:
+    Evaluation metrics for each fold
+    :param y_pred: predicted labels
+    :param y_true: true labels
+    :param labels: list of the classes
     :return:
     """
     fold_statistics = {}
-    # Write the metrics for this fold.
     for label in labels:
         fold_statistics[label] = {}
         f1 = f1_score(y_true, y_pred, average='micro', labels=[label])
@@ -88,9 +88,9 @@ def cv_evaluation_fold(y_pred, y_true, labels):
 
 def cv_evaluation(labels, evaluation_statistics):
     """
-
-    :param labels:
-    :param evaluation_statistics:
+    considers the metrics of each fold and takes the average.
+    :param labels: list of the classes
+    :param evaluation_statistics: statistics
     """
     statistics_all_folds = {}
 

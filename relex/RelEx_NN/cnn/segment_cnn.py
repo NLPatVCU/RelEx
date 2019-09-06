@@ -30,6 +30,10 @@ class Segment_CNN:
             self.cross_validate()
 
     def define_model(self):
+        """
+
+        :return:
+        """
         input_shape = Input(shape=(self.data_model.maxlen,))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
                               weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
@@ -41,7 +45,11 @@ class Segment_CNN:
         return flat, input_shape
 
     def build_segment_cnn(self, no_classes):
+        """
 
+        :param no_classes:
+        :return:
+        """
         flat1, input_shape1 = self.define_model()
         flat2, input_shape2 = self.define_model()
         flat3, input_shape3 = self.define_model()
@@ -63,7 +71,10 @@ class Segment_CNN:
         return model
 
     def cross_validate(self, num_folds=5):
-    # def cross_validate(self, Pre_data, Mid_data, Suc_data, C1_data, C2_data, Y_data, num_folds=5):
+        """
+
+        :param num_folds:
+        """
         Pre_data = self.data_model.preceding
         Mid_data = self.data_model.middle
         Suc_data = self.data_model.succeeding

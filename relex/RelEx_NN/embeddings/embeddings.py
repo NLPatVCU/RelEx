@@ -34,7 +34,10 @@ class Embeddings:
         return embeddings_index
 
     def build_embedding_layer(self):
+        """
 
+        :return:
+        """
         embeddings_index = self.read_embeddings_from_file()
         self.embedding_matrix = np.zeros((self.data_model.common_words, self.embedding_dim))
 

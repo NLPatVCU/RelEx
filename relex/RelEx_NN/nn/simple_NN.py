@@ -35,7 +35,7 @@ class Simple_NN:
         :param no_classes:
         :return:
         """
-        input_shape = Input(shape=(self.data_model.maxlen,))
+        input_shape = Input(shape=(self.data_model.train.shape[1],))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
 
         if self.embedding:
@@ -59,7 +59,7 @@ class Simple_NN:
         :param no_classes:
         :return:
         """
-        input_shape = Input(shape=(self.data_model.maxlen,))
+        input_shape = Input(shape=(self.data_model.train.shape[1],self.data_model.train.shape[2]))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
 
         if self.embedding:
@@ -78,7 +78,14 @@ class Simple_NN:
         return model
 
     def fit_Model(self, model, x_train, y_train, validation=None):
+        """
 
+        :param model:
+        :param x_train:
+        :param y_train:
+        :param validation:
+        :return:
+        """
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
         print("epochs: ", self.epochs)
@@ -98,6 +105,10 @@ class Simple_NN:
         return model, loss, acc
 
     def cross_validate(self, num_folds=5):
+        """
+
+        :param num_folds:
+        """
         X_data =  self.data_model.train
         Y_data = self.data_model.train_label
 

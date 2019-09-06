@@ -57,7 +57,14 @@ class Sentence_CNN:
         return model
 
     def fit_Model(self, model, x_train, y_train, validation=None):
+        """
 
+        :param model:
+        :param x_train:
+        :param y_train:
+        :param validation:
+        :return:
+        """
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
         print("epochs: ", self.epochs)
@@ -77,6 +84,10 @@ class Sentence_CNN:
         return model, loss, acc
 
     def cross_validate(self, num_folds=5):
+        """
+
+        :param num_folds:
+        """
         X_data =  self.data_model.train
         Y_data = self.data_model.train_label
 

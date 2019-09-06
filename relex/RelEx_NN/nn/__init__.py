@@ -1,1 +1,1 @@
-from .nn import simple_NN
+from .simple_NN import Simple_NN

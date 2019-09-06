@@ -12,7 +12,7 @@ import os, logging, tempfile
 
 def read_from_file(file):
     """
-    Function to read external files and insert the content to a list. It also removes whitespace
+    Reads external files and insert the content to a list. It also removes whitespace
     characters like `\n` at the end of each line
 
     :param file: name of the input file.
@@ -30,7 +30,7 @@ def read_from_file(file):
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
-    Function splits the input data into training and validation. By default it takes first 1000 as the validation.
+    Splits the input data into training and validation. By default it takes first 1000 as the validation.
 
     :param num_data: number of files split as validation data
     :param train_label: list of the labels of the training data
@@ -50,7 +50,14 @@ def create_validation_data(train_data, train_label, num_data=1000):
 class Model:
 
     def __init__(self, segment=True, test=False, one_hot=False, common_words=10000, maxlen=100):
+        """
 
+        :param segment: Flag to be set to activate segment-CNN (default-True)
+        :param test: Flag to be set to validate the model on the test dataset (default-False)
+        :param one_hot: Flag to be set to create one-hot vectors (default-False)
+        :param common_words: Number of words to consider as features (default = 10000)
+        :param maxlen: maximum length of the vector (default = 100)
+        """
         self.one_hot = one_hot
         self.segment = segment
         self.test = test
@@ -74,7 +81,6 @@ class Model:
             self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
             self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.y_test = test_labels
-            # self.y_test = self.binarize_labels(test_labels)
         else:
             self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.train, self.word_index = self.vectorize_words(train_data, test_data)
@@ -91,19 +97,19 @@ class Model:
             train_concept1 = read_from_file("../data/concept1_seg")
             train_concept2 = read_from_file("../data/concept2_seg")
 
+            # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
                 train_data, train_preceding, train_middle, train_succeeding, train_concept1, train_concept2)
 
     def one_hot_encoding(self, train_list, test_list=None):
         """
-        Function takes a list as the input and tokenizes the samples via the `split` method.
+        Takes a list as the input and tokenizes the samples via the `split` method.
         Assigns a unique index to each unique word and returns a dictionary of unique tokens.
-        Then vectorize the train and test data passed and store the results in a matrix
+        Encodes the words into one-hot vectors and stores the results in a matrix
 
-        :param test_list:
-        :param train_list:
-        :param lists: train data, test data
-        :return matrix:matrix with one-hot encoding
+        :param test_list: test data
+        :param train_list: train data
+        :return matrix: matrix with one-hot encoding
         """
         token_index = {}
         for content in train_list:
@@ -133,17 +139,16 @@ class Model:
     def vectorize_words(self, train_list, test_list=None):
 
         """
-        Function takes train and test lists as the input and creates a Keras tokenizer configured to only take
-        into account the top given number most common words in the training data and builds the word index. Passing test data is optional.
-        If test data is passed it will be tokenized using the tokenizer and output the one-hot-encoding
-        Then directly outputs the one-hot encoding of the train, test and the word index
+        Takes training data as input (test data is optional), creates a Keras tokenizer configured to only take into account the top given number
+        of the most common words in the training data and builds the word index. If test data is passed it will be tokenized using the same
+        tokenizer and output the vector. If the one-hot flag is set to true, one-hot vector is returned if not vectorized sequence is returned
 
-        :param list: name of the list
-        :param integer: number of the common words (default = 10000)
-        :return list:list with the outputs the one-hot encoding of the input list
-        :return list:list with a unique index to each unique word
+        :param train_list: train data
+        :param test_list: test data
+        :return: one-hot encoding or the vectorized sequence of the input list, unique word index
         """
         tokenizer = Tokenizer(self.common_words)
+
         # This builds the word index
         tokenizer.fit_on_texts(train_list)
 
@@ -151,11 +156,11 @@ class Model:
             one_hot_train = tokenizer.texts_to_matrix(train_list, mode='binary')
             if self.test:
                 one_hot_test = tokenizer.texts_to_matrix(test_list, mode='binary')
-
         else:
             # Turns strings into lists of integer indices.
             train_sequences = tokenizer.texts_to_sequences(train_list)
             padded_train = pad_sequences(train_sequences, maxlen=self.maxlen)
+
             if self.test:
                 test_sequences = tokenizer.texts_to_sequences(test_list)
                 padded_test = pad_sequences(test_sequences, maxlen=self.maxlen)
@@ -176,14 +181,14 @@ class Model:
 
     def vectorize_segments(self, sentences, preceding, middle, succeeding, concept1, concept2):
         """
-
-        :param sentences:
-        :param preceding:
-        :param middle:
-        :param succeeding:
-        :param concept1:
-        :param concept2:
-        :return:
+        Takes in the sentences and segments and creates Keras tokenizer to return the vectorized segments
+        :param sentences: sentences
+        :param preceding: preceding segment
+        :param middle: middle
+        :param succeeding: succeeding
+        :param concept1: concept1
+        :param concept2: concept2
+        :return: vectorized segments
         """
         tokenizer = Tokenizer(self.common_words)
         # This builds the word index
@@ -211,12 +216,13 @@ class Model:
 
     def binarize_labels(self, label_list, binarize=False):
         """
-        Function takes a list as the input and binarizes labels in a one-vs-all fashion
-        Then outputs the one-hot encoding of the input list
+        Takes the input list and binarizes or vectorizes the labels
+        If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
+        the one-hot encoding of the input list
 
-        :param binarize:
+        :param binarize: binarize flag
         :param label_list: list of text labels
-        :return list:list of binarized labels
+        :return list:list of binarized / vectorized labels
         """
 
         if self.test or binarize:
