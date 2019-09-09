@@ -1,11 +1,10 @@
 # Author : Samantha Mahendran for RelEx
 
-from relex.data.annotation import Annotation
+from data import Annotation
 from operator import itemgetter
 from spacy.pipeline import Sentencizer
 from spacy.lang.en import English
 import spacy
-from RelEx_Colocation.utils import alternative_span
 
 def list_to_file(file, input_list):
     """
@@ -179,15 +178,16 @@ class Segmentation:
             # print the number of instances of each relation classes
             print([(i, self.segments['label'].count(i)) for i in set(self.segments['label'])])
 
+        print(self.segments)
         # write the segments to a file
-        list_to_file('sentence_train', self.segments['sentence'])
-        list_to_file('preceding_seg', self.segments['seg_preceding'])
-        list_to_file('concept1_seg', self.segments['seg_concept1'])
-        list_to_file('middle_seg', self.segments['seg_middle'])
-        list_to_file('concept2_seg', self.segments['seg_concept2'])
-        list_to_file('succeeding_seg', self.segments['seg_succeeding'])
-        if not self.test:
-            list_to_file('labels_train', self.segments['label'])
+        # list_to_file('sentence_train', self.segments['sentence'])
+        # list_to_file('preceding_seg', self.segments['seg_preceding'])
+        # list_to_file('concept1_seg', self.segments['seg_concept1'])
+        # list_to_file('middle_seg', self.segments['seg_middle'])
+        # list_to_file('concept2_seg', self.segments['seg_concept2'])
+        # list_to_file('succeeding_seg', self.segments['seg_succeeding'])
+        # if not self.test:
+        #     list_to_file('labels_train', self.segments['label'])
 
     def get_Segments_from_relations(self, ann):
 

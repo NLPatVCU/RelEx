@@ -2,10 +2,7 @@
 
 from keras.preprocessing.text import Tokenizer
 from sklearn import preprocessing
-from sklearn.metrics import precision_recall_fscore_support as score
-from sklearn.metrics import confusion_matrix
 from keras.preprocessing.sequence import pad_sequences
-import matplotlib.pyplot as plt
 import numpy as np
 import os, logging, tempfile
 
@@ -49,7 +46,7 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
-    def __init__(self, segment=True, test=False, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
         """
 
         :param segment: Flag to be set to activate segment-CNN (default-True)
@@ -61,16 +58,19 @@ class Model:
         self.one_hot = one_hot
         self.segment = segment
         self.test = test
+        self.multilabel = multilabel
         self.common_words = common_words
         self.maxlen = maxlen
 
         # read dataset from external files
-        train_data = read_from_file("../data/sentence_train")
-        train_labels = read_from_file("../data/labels_train")
+        train_data = read_from_file("../data/segments/sentence_train")
+        train_labels = read_from_file("../data/segments/labels_train")
+        print(train_data)
+        print(train_labels)
 
         if self.test:
-            test_data = read_from_file("../data/sentence_test")
-            test_labels = read_from_file("../data/labels_test")
+            test_data = read_from_file("../data/segments/sentence_test")
+            test_labels = read_from_file("../data/segments/labels_test")
         else:
             test_data = None
             test_labels = None
@@ -91,11 +91,11 @@ class Model:
                                                                                                   self.train_label)
 
         if segment:
-            train_preceding = read_from_file("../data/preceding_seg")
-            train_middle = read_from_file("../data/middle_seg")
-            train_succeeding = read_from_file("../data/succeeding_seg")
-            train_concept1 = read_from_file("../data/concept1_seg")
-            train_concept2 = read_from_file("../data/concept2_seg")
+            train_preceding = read_from_file("../data/segments/preceding_seg")
+            train_middle = read_from_file("../data/segments/middle_seg")
+            train_succeeding = read_from_file("../data/segments/succeeding_seg")
+            train_concept1 = read_from_file("../data/segments/concept1_seg")
+            train_concept2 = read_from_file("../data/segments/concept2_seg")
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
