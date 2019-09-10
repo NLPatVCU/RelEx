@@ -3,7 +3,9 @@
 from keras.preprocessing.text import Tokenizer
 from sklearn import preprocessing
 from keras.preprocessing.sequence import pad_sequences
+from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
+import pandas as pd
 import os, logging, tempfile
 
 
@@ -44,6 +46,28 @@ def create_validation_data(train_data, train_label, num_data=1000):
     return x_train, x_val, y_train, y_val
 
 
+def reduce_duplicate_data(train_data, train_labels):
+    """
+    Reads the data into one dataframe. Removes the duplicated data and merges the respective labels. Also drops the duplicates of the labels.
+    :param train_data: data
+    :param train_labels: labels
+    """
+    df_data = pd.DataFrame(train_data, columns=['sentence'])
+    df_label = pd.DataFrame(train_labels, columns=['label'])
+    #concatenate the dataframes
+    df_data.reset_index(drop=True, inplace=True)
+    df_label.reset_index(drop=True, inplace=True)
+    df_new = pd.concat((df_data, df_label), axis=1)
+    #drop duplicate data
+    df_new.drop_duplicates(inplace=True)
+    df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
+    df.reset_index(inplace=True)
+    df['label'] = df['label'].str.split(",")
+    df.columns = ['sentence', 'label']
+
+    return df
+
+
 class Model:
 
     def __init__(self, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
@@ -65,8 +89,6 @@ class Model:
         # read dataset from external files
         train_data = read_from_file("../data/segments/sentence_train")
         train_labels = read_from_file("../data/segments/labels_train")
-        print(train_data)
-        print(train_labels)
 
         if self.test:
             test_data = read_from_file("../data/segments/sentence_test")
@@ -77,18 +99,29 @@ class Model:
 
         self.train_label = train_labels
 
-        if self.test:
-            self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
-            self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.y_test = test_labels
+        if self.multilabel:
+            df_train = reduce_duplicate_data(train_data, train_labels)
+            print(df_train.label)
+            if self.test:
+                df_test = reduce_duplicate_data(test_data, test_labels)
+                self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
+                self.y_test = test_labels
+            else:
+                self.train, self.word_index = self.vectorize_words(df_train.sentence)
         else:
-            self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
-        # divides train data into partial train and validation data
-        self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-        self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                  self.train_label)
+            if self.test:
+                self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
+                self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                self.y_test = test_labels
+            else:
+                self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                self.train, self.word_index = self.vectorize_words(train_data, test_data)
+
+            # divides train data into partial train and validation data
+            self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
+            self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
+                                                                                                      self.train_label)
 
         if segment:
             train_preceding = read_from_file("../data/segments/preceding_seg")
@@ -214,6 +247,7 @@ class Model:
 
         return padded_preceding, padded_middle, padded_succeeding, padded_concept1, padded_concept2, word_index
 
+
     def binarize_labels(self, label_list, binarize=False):
         """
         Takes the input list and binarizes or vectorizes the labels
@@ -226,7 +260,8 @@ class Model:
         """
 
         if self.test or binarize:
-            self.encoder = preprocessing.LabelBinarizer()
+            # self.encoder = preprocessing.LabelBinarizer()
+            self.encoder = MultiLabelBinarizer()
         else:
             self.encoder = preprocessing.LabelEncoder()
         self.encoder.fit(label_list)
