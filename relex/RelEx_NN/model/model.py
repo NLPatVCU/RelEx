@@ -228,8 +228,8 @@ class Model:
 
         if self.test or binarize:
             self.encoder = preprocessing.MultiLabelBinarizer()
-            encoder_label = self.encoder.transform([[label] for label in label_list])
+            encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
             self.encoder = preprocessing.LabelEncoder()
-            encoder_label = self.encoder.transform(label_list)
+            encoder_label = self.encoder.fit_transform(label_list)
         return encoder_label
