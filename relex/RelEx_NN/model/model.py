@@ -63,19 +63,20 @@ class Model:
         self.maxlen = maxlen
 
         # read dataset from external files
-        train_data = read_from_file("../data/segments/sentence_train")
-        train_labels = read_from_file("../data/segments/labels_train")
+        train_data = read_from_file("../data/sentence_train")
+        train_labels = read_from_file("../data/labels_train")
         print(train_data)
         print(train_labels)
 
         if self.test:
-            test_data = read_from_file("../data/segments/sentence_test")
-            test_labels = read_from_file("../data/segments/labels_test")
+            test_data = read_from_file("../data/sentence_test")
+            test_labels = read_from_file("../data/labels_test")
         else:
             test_data = None
             test_labels = None
 
-        self.train_label = train_labels
+        self.train_label = self.binarize_labels(train_labels)
+        print(self.train_label)
 
         if self.test:
             self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
@@ -91,11 +92,11 @@ class Model:
                                                                                                   self.train_label)
 
         if segment:
-            train_preceding = read_from_file("../data/segments/preceding_seg")
-            train_middle = read_from_file("../data/segments/middle_seg")
-            train_succeeding = read_from_file("../data/segments/succeeding_seg")
-            train_concept1 = read_from_file("../data/segments/concept1_seg")
-            train_concept2 = read_from_file("../data/segments/concept2_seg")
+            train_preceding = read_from_file("../data/preceding_seg")
+            train_middle = read_from_file("../data/middle_seg")
+            train_succeeding = read_from_file("../data/succeeding_seg")
+            train_concept1 = read_from_file("../data/concept1_seg")
+            train_concept2 = read_from_file("../data/concept2_seg")
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
@@ -232,4 +233,3 @@ class Model:
             self.encoder = preprocessing.LabelEncoder()
             encoder_label = self.encoder.transform(label_list)
         return encoder_label
-        
