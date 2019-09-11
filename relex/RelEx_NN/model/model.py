@@ -226,22 +226,10 @@ class Model:
         """
 
         if self.test or binarize:
-            self.encoder = preprocessing.LabelBinarizer()
+            self.encoder = preprocessing.MultiLabelBinarizer()
+            encoder_label = self.encoder.transform([[label] for label in label_list])
         else:
             self.encoder = preprocessing.LabelEncoder()
-        self.encoder.fit(label_list)
-        encoder_label = self.encoder.transform(label_list)
-        # no_classes = len(self.encoder.classes_)
-
-        # bianry_encoder_label = []
-        # if len(encoder_label[0]) == 1:
-        #     for label in encoder_label:
-        #         if label == 0:
-        #             bianry_encoder_label.append([1, 0])
-        #         else:
-        #             bianry_encoder_label.append([0, 1])
-        #
-        # bianry_encoder_label = np.array(bianry_encoder_label)
-
+            encoder_label = self.encoder.transform(label_list)
         return encoder_label
-        # return bianry_encoder_label
+        
