@@ -36,6 +36,6 @@ model = Model(sentrain=args.sentrain, sentest=args.sentest, labeltest=args.label
 
 embedding_path = args.embedding
 # model = Model(True, False)
-# embedding=Embeddings(embedding_path, model)
-# seg_cnn = Segment_CNN(model, embedding)
-# seg_cnn.cross_validate(model.preceding, model.middle, model.succeeding, model.concept1, model.concept2, model.train_label)
+embedding=Embeddings(embedding_path, model)
+seg_cnn = Segment_CNN(model, embedding, cross_validation=True)
+

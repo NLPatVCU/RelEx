@@ -29,6 +29,7 @@ Create a python 3.6 virtual environment and install the packages given in the re
 
 ```
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 ## Deployment
 

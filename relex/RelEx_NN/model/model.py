@@ -81,7 +81,7 @@ class Model:
 
         if self.test:
             test_data = read_from_file(sentest)
-            test_labels = read_from_file(labeltrain)
+            test_labels = read_from_file(labeltest)
         else:
             test_data = None
             test_labels = None
@@ -102,11 +102,11 @@ class Model:
                                                                                                   self.train_label)
 
         if segment:
-            train_preceding = read_from_file("/home/neha/Documents/RelEx-relex_CNN/data/preceding_seg")
-            train_middle = read_from_file("/home/neha/Documents/RelEx-relex_CNN/data/middle_seg")
-            train_succeeding = read_from_file("/home/neha/Documents/RelEx-relex_CNN/data/succeeding_seg")
-            train_concept1 = read_from_file("/home/neha/Documents/RelEx-relex_CNN/data/concept1_seg")
-            train_concept2 = read_from_file("/home/neha/Documents/RelEx-relex_CNN/data/concept2_seg")
+            train_preceding = read_from_file("/home/neha/Desktop/P_Tr/preceding_seg")
+            train_middle = read_from_file("/home/neha/Desktop/P_Tr/middle_seg")
+            train_succeeding = read_from_file("/home/neha/Desktop/P_Tr/succeeding_seg")
+            train_concept1 = read_from_file("/home/neha/Desktop/P_Tr/concept1_seg")
+            train_concept2 = read_from_file("/home/neha/Desktop/P_Tr/concept2_seg")
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
