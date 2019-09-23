@@ -46,7 +46,9 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
+
     def __init__(self, sentrain, labeltrain, sentest, labeltest, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
+
         """
 
         :param segment: Flag to be set to activate segment-CNN (default-True)
@@ -59,6 +61,7 @@ class Model:
         self.segment = segment
         self.test = test
         self.multilabel = multilabel
+
         self.common_words = int(common_words)
         self.maxlen = int(maxlen)
         print("one hot: "+str(one_hot))
@@ -82,6 +85,7 @@ class Model:
         if self.test:
             test_data = read_from_file(sentest)
             test_labels = read_from_file(labeltest)
+
         else:
             test_data = None
             test_labels = None
@@ -102,11 +106,13 @@ class Model:
                                                                                                   self.train_label)
 
         if segment:
+
             train_preceding = read_from_file("/home/neha/Desktop/P_Tr/preceding_seg")
             train_middle = read_from_file("/home/neha/Desktop/P_Tr/middle_seg")
             train_succeeding = read_from_file("/home/neha/Desktop/P_Tr/succeeding_seg")
             train_concept1 = read_from_file("/home/neha/Desktop/P_Tr/concept1_seg")
             train_concept2 = read_from_file("/home/neha/Desktop/P_Tr/concept2_seg")
+
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
@@ -159,11 +165,12 @@ class Model:
         :return: one-hot encoding or the vectorized sequence of the input list, unique word index
         """
         tokenizer = Tokenizer(self.common_words)
+
         # This builds the word index
         tokenizer.fit_on_texts(train_list)
 
         if self.one_hot:
-            print("testing")
+
             one_hot_train = tokenizer.texts_to_matrix(train_list, mode='binary')
             if self.test:
                 one_hot_test = tokenizer.texts_to_matrix(test_list, mode='binary')

@@ -28,8 +28,10 @@ contains a non-drug entity,gtt  (Route)and two drugsHeparinandCoumadinand the no
 Create a python 3.6 virtual environment and install the packages given in the requirements.txt
 
 ```
+
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
 ```
 ## Deployment
 
