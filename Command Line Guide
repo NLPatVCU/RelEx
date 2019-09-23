@@ -1,0 +1,67 @@
+Adding command line parameters:
+
+If you want to add command line parameters, in __main__.py use the argparser.add_argument() method
+
+I've already done this but if you were doing this from scratch first you would initialize an argparser object
+
+Example:
+    parser = argparse.ArgumentParser(prog="RelEx")
+    #  prog is the name of the program - not really important
+
+
+
+
+After initializing an ArgumentParser object, call add_argument to add desired parameters.
+
+Example:
+    #  say you wanted to add a flag for crf output layer
+    #  you could do this
+    parser.add_argument("--crf")
+    #  The string passed here is the flag that users would type when running the program
+
+    >> python relex --crf TRUE
+    #   The value of crf here would be "TRUE"
+    #   Format should be two hyphens followed by name
+
+
+
+It's good practice to also add help text for users. Give a short description of what the flag is for.
+This will show up to users when they run the program with the -h or --help flag
+
+Example:
+    parser.add_argument("--crf", help="Use CRF output layer")
+
+
+
+
+If you want to have a default value, just add a default parameter
+
+Example:
+    parser.add_argument("--crf", help="Use CRF output layer", default="FALSE")
+
+    >>python relex
+    #  The value of crf here would be "FALSE"
+
+
+
+Finally, if you want to make a parameter required:
+
+    parser.add_argument("--crf", help="Use CRF output layer", default="FALSE", required=True)
+    #  set required=True. By default all command line parameters are not required.
+
+
+
+Do this for all the parameters you'd like to have and then parse them using ArgumentParser.parse_args()
+I have done this in the code already, but if you were to recreate this following the example used thus far,
+it would look like:
+
+    args = parser.parse_args()
+    #  I believe parse_args() returns some kind of object where all the command line parameters are stored
+
+
+Now to access the parameters: args.nameOfParameter
+The name of the parameter is the string of text that comes after the two hyphens.
+So to access "--crf" which we've been using as an example:
+
+    args.crf
+    #  The value of crf commandline parameter
