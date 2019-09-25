@@ -48,17 +48,18 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 def reduce_duplicate_data(train_data, train_labels):
     """
-    Reads the data into one dataframe. Removes the duplicated data and merges the respective labels. Also drops the duplicates of the labels.
-    :param train_data: data
-    :param train_labels: labels
+    Reads the data into one dataframe. Removes the duplicated data and merges the respective labels. Also drops the
+    duplicates of the labels. :param train_data: data :param train_labels: labels
     """
     df_data = pd.DataFrame(train_data, columns=['sentence'])
     df_label = pd.DataFrame(train_labels, columns=['label'])
-    #concatenate the dataframes
+
+    # concatenate the dataframes
     df_data.reset_index(drop=True, inplace=True)
     df_label.reset_index(drop=True, inplace=True)
     df_new = pd.concat((df_data, df_label), axis=1)
-    #drop duplicate data
+
+    # drop duplicate data
     df_new.drop_duplicates(inplace=True)
     df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
     df.reset_index(inplace=True)
@@ -73,6 +74,7 @@ class Model:
     def __init__(self, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
         """
 
+        :param multilabel: Flag to be set to run sentence-CNN for multi-labels
         :param segment: Flag to be set to activate segment-CNN (default-True)
         :param test: Flag to be set to validate the model on the test dataset (default-False)
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
@@ -87,6 +89,8 @@ class Model:
         self.maxlen = maxlen
 
         # read dataset from external files
+        # train_data = read_from_file("../data/segments/sentence_train")
+        # train_labels = read_from_file("../data/segments/labels_train")
         train_data = read_from_file("../data/segments/sentence_train")
         train_labels = read_from_file("../data/segments/labels_train")
 
@@ -97,11 +101,11 @@ class Model:
             test_data = None
             test_labels = None
 
-        self.train_label = train_labels
-
         if self.multilabel:
             df_train = reduce_duplicate_data(train_data, train_labels)
-            print(df_train.label)
+            self.train, self.word_index = self.vectorize_words(df_train.sentence)
+            self.train_label = df_train.label.tolist()
+
             if self.test:
                 df_test = reduce_duplicate_data(test_data, test_labels)
                 self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
@@ -109,7 +113,7 @@ class Model:
             else:
                 self.train, self.word_index = self.vectorize_words(df_train.sentence)
         else:
-
+            self.train_label = train_labels
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
                 self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
@@ -247,7 +251,6 @@ class Model:
 
         return padded_preceding, padded_middle, padded_succeeding, padded_concept1, padded_concept2, word_index
 
-
     def binarize_labels(self, label_list, binarize=False):
         """
         Takes the input list and binarizes or vectorizes the labels
@@ -260,8 +263,8 @@ class Model:
         """
 
         if self.test or binarize:
-            # self.encoder = preprocessing.LabelBinarizer()
-            self.encoder = MultiLabelBinarizer()
+            self.encoder = preprocessing.LabelBinarizer()
+            # self.encoder = MultiLabelBinarizer()
         else:
             self.encoder = preprocessing.LabelEncoder()
         self.encoder.fit(label_list)

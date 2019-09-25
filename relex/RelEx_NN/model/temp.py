@@ -5,6 +5,9 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
 
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Embedding, Flatten, GlobalMaxPool1D, Dropout, Conv1D
@@ -12,6 +15,7 @@ from keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint
 from keras.losses import binary_crossentropy
 from keras.optimizers import Adam
 import numpy as np
+import evaluate
 
 def read_from_file(file):
     """
@@ -90,7 +94,7 @@ model.add(Dense(num_classes))
 model.add(Activation('sigmoid'))
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
-model.summary()
+# model.summary()
 
 # callbacks = [
 #     ReduceLROnPlateau(),
@@ -101,17 +105,56 @@ model.summary()
 history = model.fit(x_train, y_train,
                     epochs=20,
                     batch_size=32,
-                    validation_split=0.1)
+                    validation_split=0.2)
                     # callbacks=callbacks)
 
 # cnn_model = keras.models.load_model('model-conv1d.h5')
 # metrics = cnn_model.evaluate(x_test, y_test)
 pred = model.predict(x_test)
-# print(pred)
-y_pred_ind = np.argmax(pred, axis=1)
+print(pred)
+np_pred = np.array(pred)
+np_pred[np_pred<0.5]=0
+np_pred[np_pred>0.5]=1
+np_pred= np_pred.astype(int)
+print(np_pred)
+# y_pred_ind = np.argmax(pred, axis=1)
 # print(y_pred_ind)
-# print(y_test)
+np_true = np.array(y_test)
+print(np_true)
 # print(x_test)
-metrics = model.evaluate(x_test, y_test)
-print("{}: {}".format(model.metrics_names[0], metrics[0]))
-print("{}: {}".format(model.metrics_names[1], metrics[1]))
+
+print(labels)
+# for label in labels:
+#     f1 = f1_score(np_true, np_pred, average='micro')
+#     print(f1)
+
+
+# fold_statistics = {}
+# for label in labels:
+#     fold_statistics[label] = {}
+#     f1 = f1_score(np_true, np_pred, average='micro', labels=[label])
+#     precision = precision_score(np_true, np_pred, average='micro', labels=[label])
+#     recall = recall_score(np_true, np_pred, average='micro', labels=[label])
+#     print(f1, precision, recall)
+#     fold_statistics[label]['precision'] = precision
+#     fold_statistics[label]['recall'] = recall
+#     fold_statistics[label]['f1'] = f1
+
+
+
+evaluate.evaluate_Model(np_pred, np_true, labels)
+# fold_statistics = evaluate.cv_evaluation_fold(np_pred, np_true, labels)
+# f1 = f1_score(np_true, np_pred, average='micro', labels=[labels])
+# precision = precision_score(np_true, np_pred, average='micro', labels=[labels])
+# recall = recall_score(np_true, np_pred, average='micro', labels=[labels])
+# metrics = model.evaluate(x_test, y_test)
+# print(metrics)
+# print("{}: {}".format(model.metrics_names[0], metrics[0]))
+# print("{}: {}".format(model.metrics_names[1], metrics[1]))
+
+# y_true = [0, 1, 1, 0, 1, 0]
+# y_pred = [0, 1, 1, 0, 0, 1]
+
+# y_true = np.array([[1,0,0,0], [1,1,0,0], [1,1,1,1]])
+# y_pred = np.array([[1,0,0,0], [1,1,1,0], [1,1,1,1]])
+# print(f1_score(y_true, y_pred, average='micro') )

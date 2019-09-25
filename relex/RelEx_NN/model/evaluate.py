@@ -9,10 +9,11 @@ from statistics import mean
 import numpy as np
 
 
-def predict(model, x_test, y_test, encoder_classes):
+def predict(model, x_test, y_test, encoder_classes, multilabel=True):
     """
     Takes the predictions as input and returns the indices of the maximum values along an axis using numpy argmax function as true labels.
     Then evaluates it against the trained model
+    :param multilabel:
     :param model: trained model
     :param x_test: test data
     :param y_test: test true labels
@@ -20,14 +21,21 @@ def predict(model, x_test, y_test, encoder_classes):
     :return: predicted and true labels
     """
     pred = model.predict(x_test)
-    y_pred_ind = np.argmax(pred, axis=1)
-    y_true_ind = np.argmax(y_test, axis=1)
-    y_pred = [encoder_classes[i] for i in y_pred_ind]
-    y_true = [encoder_classes[i] for i in y_true_ind]
-    test_loss, test_acc = model.evaluate(x_test, y_test)
+    if multilabel:
+        np_pred = np.array(pred)
+        np_pred[np_pred < 0.5] = 0
+        np_pred[np_pred > 0.5] = 1
+        y_pred = np_pred.astype(int)
+        y_true = np.array(y_test)
+    else:
+        y_pred_ind = np.argmax(pred, axis=1)
+        y_true_ind = np.argmax(y_test, axis=1)
+        y_pred = [encoder_classes[i] for i in y_pred_ind]
+        y_true = [encoder_classes[i] for i in y_true_ind]
+        test_loss, test_acc = model.evaluate(x_test, y_test)
 
-    print("Accuracy :", test_acc)
-    print("Loss : ", test_loss)
+        print("Accuracy :", test_acc)
+        print("Loss : ", test_loss)
 
     return y_pred, y_true
 
@@ -39,6 +47,7 @@ def evaluate_Model(y_pred, y_true, encoder_classes):
     :param y_true:
     :param encoder_classes:
     """
+    print(y_true)
     print(classification_report(y_true, y_pred, target_names=encoder_classes))
     print(f1_score(y_true, y_pred, average='micro'))
     print(f1_score(y_true, y_pred, average='macro'))
