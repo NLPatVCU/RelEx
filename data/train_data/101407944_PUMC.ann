@@ -1,0 +1,220 @@
+T1	test 5532 5554	a pathologic diagnosis
+T2	test 4825 4835	chest xray
+T3	problem 4864 4878	signs of edema
+T4	problem 4847 4860	consolidation
+T5	treatment 2564 2576	appendectomy
+T6	problem 3513 3524	thyromegaly
+T7	problem 2735 2739	nkda
+T8	problem 4377 4415	an intention tremor with the left hand
+T9	treatment 6952 6958	flomax
+T10	treatment 8075 8092	fluid restriction
+T11	problem 2323 2343	his laryngeal cancer
+T12	test 8013 8030	his plasma sodium
+T13	test 3059 3070	vital signs
+T14	problem 2366 2383	positive weakness
+T15	test 5332 5338	workup
+T16	problem 5342 5351	his tumor
+T17	treatment 2268 2285	radiation therapy
+T18	problem 6325 6346	post surgical changes
+T19	problem 1000 1030	difficulty buttoning his shirt
+T20	problem 3909 3915	hepato
+T21	problem 3536 3591	cervical , para-auricular or clavicular lymphadenopathy
+T22	problem 9443 9448	fever
+T23	test 4694 4716	white blood cell count
+T24	test 3094 3110	a blood pressure
+T25	problem 2472 2488	laryngeal cancer
+T26	problem 2101 2109	the mass
+T27	problem 7258 7269	mass affect
+T28	problem 9410 9422	any bleeding
+T29	problem 2131 2144	blurry vision
+T30	problem 7641 7649	his pain
+T31	test 7439 7452	his pathology
+T32	problem 7466 7489	a large grade iv glioma
+T33	treatment 1835 1843	a walker
+T34	test 6563 6578	dilantin levels
+T35	problem 849 868	problems ambulating
+T36	problem 2217 2226	confusion
+T37	treatment 8725 8729	zinc
+T38	problem 3934 3959	right lower quadrant scar
+T39	problem 2794 2797	cva
+T40	test 6349 6370	transcranial dopplers
+T41	problem 3392 3437	erythema or exudates in the posterior pharynx
+T42	problem 3048 3056	afebrile
+T43	problem 2783 2791	diabetes
+T44	treatment 6824 6843	a 16 coude catheter
+T45	problem 3919 3931	splenomegaly
+T46	problem 1856 1888	increasing difficulty with falls
+T47	treatment 6433 6441	decadron
+T48	problem 6461 6469	swelling
+T49	problem 1993 2026	a mass in the right parietal lobe
+T50	treatment 9232 9243	the staples
+T51	treatment 9104 9115	neutra-phos
+T52	problem 9504 9512	headache
+T53	problem 4224 4252	a slight left pronator drift
+T54	problem 2178 2190	paresthesias
+T55	test 4810 4815	an ef
+T56	problem 3168 3185	apparent distress
+T57	treatment 8454 8461	lipitor
+T58	test 6044 6067	preoperative assessment
+T59	problem 4108 4150	a slight deviation of the uvula and tongue
+T60	problem 2800 2820	hypercholesterolemia
+T61	problem 260 299	right parietal occipital temporal tumor
+T62	test 7966 7983	his sodium levels
+T63	treatment 7653 7672	po pain medications
+T64	problem 3699 3727	3/6 systolic ejection murmur
+T65	problem 7492 7516	the patient &apos;s pain
+T66	problem 5129 5149	primary cns neoplasm
+T67	treatment 2527 2549	total knee replacement
+T68	test 4736 4739	inr
+T69	test 7696 7724	a postoperative serum sodium
+T70	treatment 2637 2644	lipitor
+T71	problem 687 699	hypertension
+T72	treatment 2290 2299	resection
+T73	problem 5448 5460	his symptoms
+T74	problem 3497 3509	other masses
+T75	treatment 8106 8114	mannitol
+T76	problem 2147 2155	headache
+T77	problem 3290 3299	nystagmus
+T78	problem 9527 9535	numbness
+T79	problem 1677 1685	unsteady
+T80	problem 3454 3491	prominent salivary glands bilaterally
+T81	treatment 8646 8654	dilantin
+T82	problem 2521 2524	bph
+T83	problem 4019 4033	cva tenderness
+T84	treatment 7334 7345	iv decadron
+T85	problem 2430 2442	hypertension
+T86	problem 1365 1388	the increasing weakness
+T87	problem 3855 3864	nontender
+T88	test 4881 4883	ct
+T89	problem 4890 4951	a right parietal hyperdense and heterogenously enhancing mass
+T90	problem 4978 5009	the surrounding vasogenic edema
+T91	treatment 8860 8872	levofloxacin
+T92	treatment 8213 8246	physical and occupational therapy
+T93	treatment 6394 6401	surgery
+T94	problem 5764 5773	the tumor
+T95	treatment 6898 6912	voiding trials
+T96	problem 9470 9501	intractable nausea and vomiting
+T97	problem 2158 2164	nausea
+T98	problem 1285 1311	uncoordination of his feet
+T99	problem 663 666	cva
+T100	problem 5158 5170	glioblastoma
+T101	treatment 9758 9765	surgery
+T102	treatment 8516 8522	nexium
+T103	treatment 7382 7393	po decadron
+T104	problem 9538 9542	pain
+T105	treatment 2663 2667	hctz
+T106	test 7829 7851	his serum electrolytes
+T107	treatment 5486 5500	open debulking
+T108	problem 5396 5423	the tremendous tumor burden
+T109	treatment 8486 8495	captopril
+T110	problem 9546 9554	weakness
+T111	problem 3964 3985	inferior midline scar
+T112	problem 2167 2175	vomiting
+T113	treatment 6663 6689	a 16 french coude catheter
+T114	problem 6638 6658	an inability to void
+T115	problem 4046 4055	petechiae
+T116	treatment 7067 7080	the operation
+T117	treatment 8573 8579	ativan
+T118	problem 8607 8614	anxiety
+T119	treatment 5780 5802	stulz neuro navigation
+T120	treatment 8620 8627	allegra
+T121	test 5173 5176	mri
+T122	problem 5184 5241	a large heterogenous enhancing right parietal mass lesion
+T123	problem 5258 5274	ependymal spread
+T124	treatment 2503 2516	prostatectomy
+T125	treatment 8755 8764	vitamin c
+T126	problem 9425 9440	wound infection
+T127	problem 9515 9524	dizziness
+T128	problem 8406 8424	complaints of pain
+T129	test 4759 4775	relevant imaging
+T130	treatment 396 418	stulz neuro navigation
+T131	treatment 8785 8791	flomax
+T132	treatment 5880 5893	the procedure
+T133	treatment 2676 2684	monopril
+T134	problem 627 643	laryngeal cancer
+T135	treatment 6730 6744	voiding trials
+T136	problem 5094 5112	metastatic disease
+T137	problem 548 563	gait difficulty
+T138	treatment 6511 6526	dvt prophylaxis
+T139	test 4778 4792	echocardiogram
+T140	problem 1549 1561	his symptoms
+T141	problem 1527 1544	his gait weakness
+T142	problem 1058 1066	a stroke
+T143	treatment 7896 7902	sodium
+T144	problem 8369 8384	hard of hearing
+T145	problem 3867 3879	nondistended
+T146	test 2083 2097	further workup
+T147	problem 3640 3648	egophony
+T148	treatment 2612 2618	plavix
+T149	problem 1216 1235	a hard time walking
+T150	problem 3372 3386	poor dentition
+T151	problem 3681 3686	heave
+T152	problem 941 966	more difficulty with adls
+T153	problem 4175 4218	increased tone in his right upper extremity
+T154	treatment 371 389	debulking of tumor
+T155	treatment 8818 8825	fragmin
+T156	treatment 5709 5746	a right parietal occipital craniotomy
+T157	problem 2771 2774	cad
+T158	problem 2461 2469	diabetes
+T159	problem 3662 3677	palpable thrill
+T160	treatment 7428 7436	mannitol
+T161	treatment 2304 2318	reconstruction
+T162	treatment 331 366	right parietal occipital craniotomy
+T163	treatment 7919 7936	fluid restriction
+T164	treatment 7547 7566	iv pain medications
+T165	problem 2230 2238	seizures
+T166	problem 2445 2448	cva
+T167	treatment 8693 8705	a po regimen
+T168	treatment 9960 9968	dilantin
+T169	treatment 8547 8553	colace
+T170	treatment 2491 2500	right cea
+T171	test 1974 1983	a cg scan
+T172	treatment 8906 8919	dexamethasone
+T173	test 6245 6264	a postoperative mri
+T174	problem 6296 6315	remarkable findings
+T175	problem 3602 3634	crackles in the right lung field
+T176	problem 7243 7253	some edema
+T177	treatment 5751 5760	debulking
+T178	problem 3305 3324	retinal hemorrhages
+T179	treatment 1329 1335	a cane
+T180	treatment 7294 7316	an iv load of decadron
+T181	problem 733 769	progressive difficulty in ambulation
+T182	test 7219 7233	repeat imaging
+T183	treatment 6499 6506	fragmin
+T184	treatment 9037 9066	regular insulin sliding scale
+T185	problem 2193 2214	pain in mental status
+T186	treatment 2703 2709	viagra
+T187	treatment 8943 8954	the steroid
+R1	TeRP Arg1:T2 Arg2:T3
+R2	TeRP Arg1:T2 Arg2:T4
+R3	TeCP Arg1:T15 Arg2:T16
+R4	TrAP Arg1:T17 Arg2:T11
+R5	TeCP Arg1:T31 Arg2:T32
+R6	TrAP Arg1:T47 Arg2:T48
+R7	TrAP Arg1:T63 Arg2:T30
+R8	TrAP Arg1:T72 Arg2:T11
+R9	TeRP Arg1:T88 Arg2:T89
+R10	TeRP Arg1:T88 Arg2:T90
+R11	PIP Arg1:T100 Arg2:T66
+R12	TrAP Arg1:T107 Arg2:T108
+R13	PIP Arg1:T108 Arg2:T73
+R14	TrAP Arg1:T113 Arg2:T114
+R15	TrAP Arg1:T117 Arg2:T118
+R16	TrAP Arg1:T119 Arg2:T94
+R17	TeRP Arg1:T121 Arg2:T122
+R18	TeRP Arg1:T121 Arg2:T123
+R19	PIP Arg1:T122 Arg2:T123
+R20	TrAP Arg1:T124 Arg2:T82
+R21	PIP Arg1:T140 Arg2:T141
+R22	TeCP Arg1:T146 Arg2:T26
+R23	TrAP Arg1:T156 Arg2:T94
+R24	TrAP Arg1:T161 Arg2:T11
+R25	TrAP Arg1:T164 Arg2:T65
+R26	TeRP Arg1:T171 Arg2:T49
+R27	TeRP Arg1:T173 Arg2:T18
+R28	TeRP Arg1:T173 Arg2:T174
+R29	TrAP Arg1:T177 Arg2:T94
+R30	TrAP Arg1:T179 Arg2:T86
+R31	TrAP Arg1:T179 Arg2:T98
+R32	TeRP Arg1:T182 Arg2:T176
+R33	TeRP Arg1:T182 Arg2:T27

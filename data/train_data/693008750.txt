@@ -1,0 +1,28 @@
+693008750
+HLGMC
+6001356
+014235
+9/18/2001 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+HUHTLAND , CIE
+MRN :
+6001356
+Age :
+82y
+REGISTRATION DATE :
+09/18/2001 10:52 AM
+PRELIMINARY REPORT
+This is to notify you that your patient , HUHTLAND , CIE arrived in the Emergency Department at Heaonboburg Linpack Grant Medical Center on 09/18/2001 10:52 AM .
+The patient presented with a chief complaint of WHEEZES .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO HEAONBOBURG LINPACK GRANT MEDICAL CENTER .
+Your patient was admitted under the care of SAPSCLYSS , LEO R with a preliminary diagnosis of PNEUMONIA , .
+If you need additional information please call 605-304-8547 .
+PCP Name :
+SC , JUSONKIM N
+Provider Number :
+96078

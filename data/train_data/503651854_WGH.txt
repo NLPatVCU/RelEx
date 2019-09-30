@@ -1,0 +1,49 @@
+503651854 WGH
+4959433
+288418
+2823104
+7/31/2004 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+A , WALINA
+MRN :
+4959433
+Age :
+32y
+REGISTRATION DATE :
+07/31/2004 11:24 AM
+Provider :
+PADA MEEDHUANG
+PRELIMINARY REPORT
+PCP notified by MD :
+E-mail PCP
+Benefits Assigned :
+Y
+Discharge Date / Time :
+07/31/2004 12:58
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+S / P MVA
+Diagnosis :
+head trauma - mva
+Treatment Rendered :
+history , physical , neuro exam normal
+Discharge Medications :
+tylenol as needed .
+refrain from motrin at this time .
+Follow up Service :
+f / u with dr. white
+Disposition , Follow up and Instructions to Patient :
+monitor / return for nausea / vomiting , headache , visual / mental status changes or other concerns .
+PCP Name :
+WHITE , ELVNO R
+Provider Number :
+70468
+This report was created by MEEDHUANG , PADA 07/31/2004 12:59 PM

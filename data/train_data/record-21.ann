@@ -1,0 +1,214 @@
+T1	problem 7232 7273	left transverse mid shaft radial fracture
+T2	problem 7279 7297	ulnar displacement
+T3	test 1749 1775	ap and lateral compression
+T4	test 3877 3880	bun
+T5	problem 6618 6626	erythema
+T6	problem 1116 1133	apparent distress
+T7	problem 1778 1795	a 5 cm laceration
+T8	test 1837 1855	further inspection
+T9	problem 1864 1887	exposed underlying bone
+T10	treatment 6724 6753	a left upper extremity splint
+T11	treatment 4943 4961	her c-spine collar
+T12	treatment 5168 5205	a left radial fracture open reduction
+T13	problem 5881 5889	erythema
+T14	test 1986 2018	left upper extremity examination
+T15	problem 2258 2309	decreased sensation in the ulnar-nerve distribution
+T16	problem 2035 2052	gross deformities
+T17	problem 2055 2065	tenderness
+T18	problem 4499 4519	right thigh hematoma
+T19	test 4703 4751	a duplex evaluation of the right lower extremity
+T20	problem 4812 4843	major arterial or venous injury
+T21	problem 4665 4700	the patient 's right thigh hematoma
+T22	treatment 5210 5237	internal fixation procedure
+T23	problem 1584 1588	rubs
+T24	treatment 6859 6869	wound care
+T25	treatment 5262 5275	the procedure
+T26	test 2348 2361	radial pulses
+T27	treatment 6790 6807	adaptive training
+T28	test 2364 2397	right lower extremity examination
+T29	problem 2411 2424	mild swelling
+T30	problem 2429 2468	ecchymosis of the right posterior thigh
+T31	problem 2487 2521	a 3 cm laceration in the lower leg
+T32	test 1657 1668	examination
+T33	problem 6630 6639	purulence
+T34	treatment 6596 6603	sutures
+T35	problem 6507 6549	the patient 's right anterior tibial wound
+T36	test 1325 1356	the patient 's lung examination
+T37	problem 1421 1429	crepitus
+T38	test 867 878	examination
+T39	problem 571 579	confused
+T40	test 3010 3017	head ct
+T41	problem 3046 3067	intracranial bleeding
+T42	treatment 6919 6954	a figure-of-eight clavicular splint
+T43	problem 8105 8109	pain
+T44	problem 4526 4546	right leg laceration
+T45	test 6468 6484	capillary refill
+T46	treatment 8297 8347	her left forearm scalp and right lower leg sutures
+T47	test 1890 1923	right upper extremity examination
+T48	test 8240 8273	repeat x-rays of her left forearm
+T49	test 4355 4376	diagnostic procedures
+T50	problem 4398 4406	injuries
+T51	problem 4418 4446	a posterior scalp laceration
+T52	problem 4449 4472	left fractured clavicle
+T53	problem 4475 4496	left fractured radius
+T54	treatment 8352 8359	staples
+T55	treatment 4256 4278	packed red blood cells
+T56	problem 2736 2753	gross deformities
+T57	problem 6306 6319	mild swelling
+T58	test 1488 1499	examination
+T59	problem 1436 1463	a left clavicular deformity
+T60	test 1512 1531	cardiac examination
+T61	problem 1594 1601	gallops
+T62	problem 1574 1581	murmurs
+T63	problem 7364 7391	left midclavicular fracture
+T64	test 2608 2651	motor , sensory , and vascular examinations
+T65	test 5298 5324	a postoperative hematocrit
+T66	problem 6171 6181	saturation
+T67	problem 1621 1630	nontender
+T68	test 969 983	blood pressure
+T69	test 2687 2719	left lower extremity examination
+T70	problem 1633 1645	nondistended
+T71	test 1027 1044	oxygen saturation
+T72	test 2948 2961	trauma series
+T73	problem 2990 3007	a pelvic fracture
+T74	treatment 6812 6836	activities of daily life
+T75	problem 5345 5386	the scalp and right lower leg lacerations
+T76	treatment 7932 7941	dry gauze
+T77	problem 7825 7867	the left forearm and right lower leg wound
+T78	problem 2588 2605	gross deformities
+T79	test 1673 1679	guaiac
+T80	treatment 8092 8100	percocet
+T81	test 3903 3910	glucose
+T82	test 2832 2852	radiographic studies
+T83	problem 2866 2915	an inferior displaced left midclavicular fracture
+T84	problem 2933 2945	pneumothorax
+T85	test 3146 3168	cervical spine imaging
+T86	problem 3197 3218	cervical spine injury
+T87	problem 7957 7973	scalp laceration
+T88	test 2069 2097	palpation in the mid forearm
+T89	test 6039 6048	palpation
+T90	problem 6020 6035	mild tenderness
+T91	problem 6000 6015	a minor stepoff
+T92	test 3860 3871	bicarbonate
+T93	test 3886 3896	creatinine
+T94	test 6064 6082	prior examinations
+T95	test 3927 3930	inr
+T96	treatment 7746 7775	left posterior forearm splint
+T97	treatment 6085 6110	the left forearm dressing
+T98	test 3937 3940	ptt
+T99	problem 7561 7565	pain
+T100	treatment 7511 7519	percocet
+T101	test 3917 3919	pt
+T102	test 1005 1021	respiratory rate
+T103	test 3961 3979	arterial blood gas
+T104	problem 7452 7484	right anterior tibial laceration
+T105	problem 7420 7446	occipital scalp laceration
+T106	test 4008 4018	urinalysis
+T107	test 2199 2210	light touch
+T108	test 3948 3955	amylase
+T109	problem 3442 3463	fracture displacement
+T110	test 4075 4092	toxicology screen
+T111	test 3386 3413	right foot and femur series
+T112	problem 3128 3143	pelvic fracture
+T113	treatment 4229 4240	crystalloid
+T114	problem 3093 3118	mild pulmonary contusions
+T115	test 3466 3495	left forearm and wrist series
+T116	problem 3509 3545	transverse mid shaft radial fracture
+T117	problem 3551 3569	ulnar displacement
+T118	test 3070 3079	trauma ct
+T119	test 4057 4072	red blood cells
+T120	treatment 7704 7741	her figure-of-eight clavicular splint
+T121	problem 5893 5902	purulence
+T122	test 942 953	temperature
+T123	test 3572 3599	diagnosis peritoneum lavage
+T124	problem 3640 3664	intra-abdominal bleeding
+T125	problem 5941 5961	continued ecchymosis
+T126	treatment 7341 7358	internal fixation
+T127	test 1136 1153	boston coma scale
+T128	test 3221 3253	right tibial-fibular film series
+T129	problem 3282 3303	fracture displacement
+T130	problem 3371 3383	displacement
+T131	problem 3359 3367	fracture
+T132	treatment 7310 7336	left radial open reduction
+T133	test 5977 5994	prior examination
+T134	test 3306 3330	left humerus film series
+T135	treatment 665 683	the c-spine collar
+T136	test 3773 3783	hematocrit
+T137	test 3731 3747	white blood cell
+T138	problem 5547 5586	the patient 's left clavicular fracture
+T139	test 993 998	pulse
+T140	test 1391 1403	auscultation
+T141	treatment 5508 5530	nonoperative treatment
+T142	test 3755 3765	hemoglobin
+T143	test 3685 3692	studies
+T144	test 3845 3853	chloride
+T145	treatment 823 841	further management
+T146	problem 5779 5815	the patient 's head wound laceration
+T147	treatment 5851 5865	intact staples
+T148	test 3829 3838	potassium
+T149	test 3816 3822	sodium
+T150	treatment 7902 7926	regular dressing changes
+T151	test 3791 3805	platelet count
+T152	treatment 5760 5776	a foley catheter
+R1	PIP Arg1:T1 Arg2:T2
+R2	TeRP Arg1:T8 Arg2:T7
+R3	TeRP Arg1:T8 Arg2:T9
+R4	TeRP Arg1:T14 Arg2:T15
+R5	TeRP Arg1:T14 Arg2:T16
+R6	TeRP Arg1:T14 Arg2:T17
+R7	TeRP Arg1:T19 Arg2:T20
+R8	TeCP Arg1:T19 Arg2:T21
+R9	TeRP Arg1:T28 Arg2:T29
+R10	TeRP Arg1:T28 Arg2:T30
+R11	TeRP Arg1:T28 Arg2:T31
+R12	PIP Arg1:T29 Arg2:T30
+R13	TrAP Arg1:T34 Arg2:T35
+R14	PIP Arg1:T35 Arg2:T5
+R15	PIP Arg1:T35 Arg2:T33
+R16	TeRP Arg1:T36 Arg2:T37
+R17	TeRP Arg1:T40 Arg2:T41
+R18	TeRP Arg1:T49 Arg2:T50
+R19	TeRP Arg1:T49 Arg2:T51
+R20	TeRP Arg1:T49 Arg2:T52
+R21	TeRP Arg1:T49 Arg2:T53
+R22	TeRP Arg1:T49 Arg2:T18
+R23	TeRP Arg1:T49 Arg2:T44
+R24	PIP Arg1:T50 Arg2:T51
+R25	PIP Arg1:T50 Arg2:T52
+R26	PIP Arg1:T50 Arg2:T53
+R27	PIP Arg1:T50 Arg2:T18
+R28	PIP Arg1:T50 Arg2:T44
+R29	TeRP Arg1:T58 Arg2:T59
+R30	TeRP Arg1:T60 Arg2:T61
+R31	TeRP Arg1:T60 Arg2:T23
+R32	TeRP Arg1:T60 Arg2:T62
+R33	TeRP Arg1:T69 Arg2:T56
+R34	TeRP Arg1:T72 Arg2:T73
+R35	TrAP Arg1:T76 Arg2:T77
+R36	TrAP Arg1:T80 Arg2:T43
+R37	TeRP Arg1:T82 Arg2:T83
+R38	TeRP Arg1:T85 Arg2:T86
+R39	TeRP Arg1:T88 Arg2:T17
+R40	TeRP Arg1:T89 Arg2:T90
+R41	TeRP Arg1:T94 Arg2:T90
+R42	TeRP Arg1:T94 Arg2:T91
+R43	TrAP Arg1:T100 Arg2:T99
+R44	TeRP Arg1:T111 Arg2:T109
+R45	TeRP Arg1:T115 Arg2:T116
+R46	TeRP Arg1:T115 Arg2:T117
+R47	PIP Arg1:T116 Arg2:T117
+R48	TeRP Arg1:T118 Arg2:T114
+R49	TeRP Arg1:T118 Arg2:T112
+R50	TeRP Arg1:T123 Arg2:T124
+R51	TrAP Arg1:T126 Arg2:T2
+R52	TrAP Arg1:T126 Arg2:T1
+R53	TeRP Arg1:T128 Arg2:T129
+R54	TrAP Arg1:T132 Arg2:T1
+R55	TrAP Arg1:T132 Arg2:T2
+R56	TeRP Arg1:T133 Arg2:T125
+R57	TeRP Arg1:T134 Arg2:T131
+R58	TeRP Arg1:T134 Arg2:T130
+R59	TeRP Arg1:T140 Arg2:T37
+R60	TrAP Arg1:T141 Arg2:T138
+R61	TrAP Arg1:T147 Arg2:T146
+R62	TrAP Arg1:T150 Arg2:T77

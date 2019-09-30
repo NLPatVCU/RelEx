@@ -1,0 +1,61 @@
+655358166 WGH
+5367777
+33714
+8114836
+10/12/2004 12:00:00 AM
+OB Discharge Summary
+Signed
+DIS
+Report Status :
+Signed OB EMR L and D
+DISCHARGE SUMMARY
+NAME :
+JUARISY DUHESMITRE
+UNIT NUMBER :
+683-54-33
+ADMISSION DATE :
+20041012
+DISCHARGE DATE :
+20041015
+PRINCIPAL DISCHARGE DIAGNOSIS :
+Vaginal Delivery With Second Degree Laceration
+ASSOCIATED DIAGNOSES :
+Abnormal Pap Test , history of ; Bacterial Vaginitis ; Contraception Management ; Hiv Counseled
+PRINCIPAL PROCEDURE OR OPERATION :
+Spontaneous Vertex Vaginal Delivery
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Antimicrobial Therapy
+HISTORY AND REASON FOR HOSPITALIZATION :
+Srom In Labor
+PHYSICAL EXAMINATION :
+MOUTH NORMAL NECK NORMAL thyroid wnl BREASTS NORMAL no distinct masses NIPPLES NORMAL inverted [ b ] , evert w / stimulation CHEST NORMAL LCTA COR NORMAL RRR ABDOMEN NORMAL gravid EXTREM NORMAL SKIN NORMAL NODES NORMAL VULVA NORMAL no lesions , white d / c at introitus VAGINA NORMAL sml amt thin white d / c ph 4.5 , koh +amine , NS +clue , neg trich CERVIX NORMAL 1/100/0 srom clear OS NORMAL closed ADNEXAE NORMAL no palp masses , NT UTERUS NORMAL gravid UTERINE SIZE IN WEEKS NORMAL term RECTUM NORMAL no ext lesions
+HOSPITAL COURSE ( include complications if any ) :
+This 21 year old Gravida 2 Para 0010 was admitted to the Life Valley Medical Center Obstetrical service on 10/12/2004 at 08:41 am for the indication ( s ) :
+srom in labor .
+She delivered a 3680 gram male infant on 10/12/2004 at 10:17 pm with apgar scores of 9 and 9 at one and five minutes respectively at 40.0 weeks gestation via spontaneous vertex vaginal delivery .
+During her labor she encountered the following complication ( s ) :
+srom .
+During her delivery she encountered the following complication ( s ) :
+none .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 10/15/2004 at 01:52 pm in good condition .
+DISCHARGE ACTIVITY :
+No Restrictions
+DISCHARGE DIET :
+No Restrictions
+POSTPARTUM DISPOSITION :
+Home Under Care Of Home Health Agency
+POSTPARTUM CARE SITE :
+Alle Rehabilitation Hospital
+POSTPARTUM RETURN APPOINTMENT ( DAYS ) :
+42
+BREAST FEEDING AT DISCHARGE :
+Yes
+MEDICATION ( S ) ON DISCHARGE :
+Metronidazole Tablets ( Flagyl ) ; Multivitamins And Folate Capsules ( Stuart Prenatal With Folate )
+Electronically Signed :
+Thorerogodlethrelf , Cisperna M 10/17/2004 6:01:02 PM

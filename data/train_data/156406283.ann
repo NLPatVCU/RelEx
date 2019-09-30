@@ -1,0 +1,111 @@
+T1	test 4017 4031	blood pressure
+T2	test 1759 1778	cardiovascular exam
+T3	test 3109 3121	electrolytes
+T4	problem 3347 3388	old q wave inferior myocardial infarction
+T5	problem 4796 4808	hypertension
+T6	problem 2474 2501	decreased shrug on the left
+T7	problem 855 872	numb on that side
+T8	problem 1923 1933	non-tender
+T9	problem 767 795	a mild central dull headache
+T10	problem 748 755	slurred
+T11	problem 1936 1941	obese
+T12	treatment 1295 1299	soma
+T13	treatment 4580 4586	valium
+T14	test 2395 2404	pin prick
+T15	problem 3704 3724	movement in the hand
+T16	test 2688 2707	sensory examination
+T17	treatment 3987 3997	nifedipine
+T18	test 1624 1647	on physical examination
+T19	problem 1667 1681	acute distress
+T20	test 3293 3314	the electrocardiogram
+T21	problem 567 603	primary hemisensory loss on the left
+T22	test 4301 4317	resulting sugars
+T23	problem 4768 4793	right thalamic hemorrhage
+T24	test 3150 3157	glucose
+T25	test 3884 3891	plantar
+T26	problem 1141 1156	visual symptoms
+T27	treatment 4469 4476	vasotec
+T28	test 980 1010	a computerized tomography scan
+T29	problem 1062 1085	superficial mass effect
+T30	problem 1019 1053	a 1x2 thalamic capsular hemorrhage
+T31	test 4090 4098	systolic
+T32	test 4116 4126	heart rate
+T33	test 3553 3568	the chest x-ray
+T34	problem 4232 4249	diabetes mellitus
+T35	problem 3933 3945	hypertension
+T36	problem 1990 1995	stiff
+T37	problem 1160 1182	cortical-type symptoms
+T38	problem 1750 1756	bruits
+T39	problem 4175 4188	muscle spasms
+T40	test 3233 3247	platelet count
+T41	test 3191 3201	hematocrit
+T42	treatment 4286 4295	micronase
+T43	problem 1684 1692	afebrile
+T44	treatment 4495 4504	clonidine
+T45	test 3262 3267	polys
+T46	problem 1373 1393	known drug allergies
+T47	treatment 4604 4613	micronase
+T48	problem 1525 1531	cancer
+T49	problem 453 474	myocardial infarction
+T50	treatment 329 338	clonidine
+T51	problem 3070 3076	clonus
+T52	problem 4811 4828	diabetes mellitus
+T53	treatment 318 325	aldomet
+T54	test 3284 3290	lymphs
+T55	test 1695 1709	blood pressure
+T56	treatment 4002 4011	clonidine
+T57	treatment 1330 1339	clonidine
+T58	problem 517 562	left face and arm greater than leg hemiplegia
+T59	treatment 1273 1280	vasotec
+T60	test 3209 3226	white blood count
+T61	problem 416 438	ankylosing spondylitis
+T62	treatment 4153 4159	valium
+T63	problem 1492 1509	diabetes mellitus
+T64	problem 2000 2004	sore
+T65	test 2504 2521	motor examination
+T66	test 3164 3167	bun
+T67	problem 1810 1841	a i/vi systolic ejection murmur
+T68	problem 3545 3550	shift
+T69	test 3873 3879	flexor
+T70	treatment 1317 1327	demerolprn
+T71	problem 2276 2286	extinction
+T72	test 2837 2855	reflex examination
+T73	problem 3519 3534	mild distortion
+T74	problem 3432 3479	1.5 to 2 centimeter bleed in the right thalamus
+T75	problem 384 413	adult onset diabetes mellitus
+T76	test 2042 2066	neurological examination
+T77	test 1885 1895	percussion
+T78	treatment 3977 3984	vasotec
+T79	problem 2340 2392	lower left facial decreased sensation to temperature
+T80	problem 274 286	hypertension
+T81	test 1719 1729	heart rate
+T82	test 3172 3182	creatinine
+T83	test 3272 3277	bands
+T84	test 1088 1106	his blood pressure
+T85	treatment 297 312	his medications
+T86	problem 4683 4691	allergic
+T87	test 2791 2809	the finger-to-nose
+T88	test 3391 3424	head computerized tomography scan
+T89	test 4104 4113	diastolic
+T90	problem 2015 2036	localizing tenderness
+T91	treatment 4708 4716	percodan
+T92	treatment 4553 4561	flexeril
+T93	treatment 4695 4703	percocet
+T94	test 1868 1880	auscultation
+T95	test 3655 3683	the neurological examination
+T96	treatment 4207 4215	flexeril
+T97	treatment 4524 4534	nifedipine
+T98	test 3859 3870	wiggle toes
+R1	TeRP Arg1:T18 Arg2:T19
+R2	TeRP Arg1:T20 Arg2:T4
+R3	TeRP Arg1:T28 Arg2:T29
+R4	TeRP Arg1:T28 Arg2:T30
+R5	PIP Arg1:T64 Arg2:T36
+R6	PIP Arg1:T73 Arg2:T74
+R7	TeRP Arg1:T88 Arg2:T74
+R8	TeRP Arg1:T88 Arg2:T73
+R9	TeRP Arg1:T88 Arg2:T68
+R10	TrCP Arg1:T91 Arg2:T86
+R11	TrCP Arg1:T93 Arg2:T86
+R12	TeRP Arg1:T95 Arg2:T15
+R13	TrAP Arg1:T96 Arg2:T39

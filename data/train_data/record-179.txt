@@ -1,0 +1,139 @@
+Admission Date :
+2019-01-09
+Discharge Date :
+2019-01-15
+Date of Birth :
+1973-11-18
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Erythromycin Base
+Attending : Stephanie I Sept , M.D.
+Chief Complaint :
+Syncope .
+Major Surgical or Invasive Procedure :
+None .
+History of Present Illness :
+45M w/no PMH presented to Chelseahospital after a syncopal episode on the morning of admission .
+Pt was preparing lunch when suddenly felt lightheaded / faint and immediately fell to the kitchen floor face first .
+He denies LOC .
+Immediately there after he was very short of breath , felt lightheaded again and called 911 .
+At Springfield , CT chest was positive for saddle PE .
+VS were with stable BPs , tachy to 110-120 , sat 98% RA .
+He received Lovenox 91 mg SC prior to transport and was transferred to Arbour Hospital for further care .
+Mr. Anders states that 2 weeks prior to his presentation he hurt his left knee .
+He was sitting on the floor legs crossed and stood up when he heard his knee CMED CCU .
+Then again on Sunday , 3 days PTA , again from sitting to standing heard his knee CMED CCU .
+He was essentially bed bound for 3 days prior to admission , unable to ambulate .
+He started to notice inflammation of his L calf / leg worse 2 days prior to presentation .
+In this 2 week interval he denied having CP / chest discomfort or difficulty breathing , no cough or hemoptysis .
+No f/c/ sweats .
+Pt denied any bleeding or clotting disorders and has never had a clot in the past .
+Past Medical History :
+Left knee injury .
+Seasonal allergies .
+Social History :
+- Lives w/ wife & son in Jose , MA
+- Denies TOB use , occasional ETOH use
+Family History :
+- M :
+HTN , DM
+- F :
+COPD , Prostate CA
+- Grandfather died of MI at age 75
+Physical Exam :
+VS : 99.4 HR 111 BP 110/64 RR16 97% 2LNC
+GEN : NAD , pleasant speaking in full sentences
+HEENT : MMM , OP clear , dried blood in nasal mucosa
+RESP : CTABL , no crackles , no wheezing or rhonchi
+CV : Reg , tachy Nml S1 , S2 , no M/R/G
+ABD : soft ND/NT +BS
+EXT : L leg/calf swollen , + Johnson sign , not tense , no cord palpable , L knee w/ medial meniscus area inflammed , not warm , no crepitus , feet-2+DP pulses b/l
+Pertinent Results :
+1. CT OF HEAD WITHOUT CONTRAST :
+No evidence of acute intracranial hemorrhage or fractures .
+2. ECHO
+Conclusions :
+The left atrium is normal in size .
+The estimated right atrial pressure is 16-20 mmHg .
+Left ventricular wall thicknesses are normal .
+The left ventricular cavity is small .
+Left ventricular systolic function is hyperdynamic ( EF > 75% ) .
+There is no ventricular septal defect .
+The right ventricular cavity is mildly dilated .
+Right ventricular systolic function is borderline normal .
+The aortic valve leaflets ( 3 ) appear structurally normal with good leaflet excursion and no aortic regurgitation .
+The mitral valve leaflets are structurally normal .
+There is no mitral valve prolapse .
+There is moderate pulmonary artery systolic hypertension .
+There is no pericardial effusion .
+Impression : mildly dilated right ventricle ; small , hyperdynamic left ventricle ; at least moderate pulmonary hypertension
+3. BILATERAL LENI 's
+IMPRESSION :
+No evidence of DVT in either lower limb .
+OSH IMAGING :
+- saddle PE , no CD or report sent
+EKG :
+- Sinus Tach , normal axis HR 119 ST Depression V3-V5 ; S1Q3T3 , p-pulmonale .
+01-11 MRI Left Knee w/o Contrast
+1. Bucket handle medial meniscal tear with flipped fragment in the intercondylar notch .
+Complex tear involving the posterior Ellison and body .
+2. Moderate knee joint effusion with possible ganglion cyst at the insertion of the PCL .
+3. Discoid lateral meniscus .
+Brief Hospital Course :
+Mr. Anders was admitted for anticoagulation and hemodynamic monitoring in the setting of saddle pulmonary embolus and left knee injury .
+#. PE :
+Given no other risk factors or likely causes , the most likely etiology for his embolus is DVT from the left leg .
+He has no known clotting disorder but did have trauma to leg prompting immobility and stasis .
+He remained hemodynmically stable throughout his hospitalization and did not have an oxygen requirement upon discharge .
+Given no evidence of hemodynamic instability , lysis was not required .
+He was anticoagulated with heparin and coumadin .
+He will need to follow up with hematology for an outpatient thrombophilia work-up ( not done as inpatient as results would not change acute management of PE ).
+He will also require close follow up with his primary care provider for coumadin management .
+Duration of his coumadin therapy to be determined by hematology , but likely to be at least 6 months in duration .
+#. Syncope :
+In setting of PE .
+Remainder of his cardiac workup was negative .
+He did have a small troponin leak , felt to be related to right heart strain in the setting of P-pulmonale related to clot burden .
+His tronponin quickly trended down and he did not have EKG evidence of ischemia .
+An ECHO did not reveal any wall motion abnormalities related to ischemia .
+#. Hematocrit :
+Dropped from 42.7 to 36 in setting of anticoagulation for saddle PE and IV fluids .
+No active bleeding noted .
+Pt asymptomatic .
+#. L knee injury :
+Given his history and physical exam , Mr. Anders presented with an injury most consistent with meniscal tear .
+In order to facilitate therapy and to promote mobility , an MRI of the knee was done .
+He was seen by physical therapy and will need to follow up with orthopaedics upon discharge for repeat evaluation .
+#. CODE :
+FULL CODE .
+Medications on Admission :
+- Claritin prn
+- Flonase prn
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Pulmonary embolus
+Left knee meniscal tear
+Discharge Condition :
+Stable
+Discharge Instructions :
+You were admitted to the hospital for a pulmonary embolism .
+You were treated with blood thinners .
+You have been started on an oral blood thinner called Coumadin ( Warfarin ).
+Please continue to take this medication as prescribed .
+You must have your INR ( blood levels ) checked on a regular basis until your INR levels remain 01-19 .
+The MRI of your knee showed a meniscal tear .
+Please schedule an appointment with your orthopedic surgeon to determine a plan for treatment .
+Please follow-up with your Primary Care doctor Marion Bock as below .
+Please return to the hospital if you experience chest pain , shortness of breath , lightheadedness or dizziness .
+Followup Instructions :
+Please follow-up with your Primary care doctor Larry Bock 2019-01-16 at 8:30 AM .
+At this appointment , you should confirm orthopedic follow-up and request a hematology referral .
+Call to reschedule .
+Heidi Laura MD 44-725
+Completed by : Daniel Tapaha MD 73-060 2019-01-15 @ 0918
+Signed electronically by : DR. Steven W. Weekley on : Sandra 2019-01-15 10:22 AM
+( End of Report )

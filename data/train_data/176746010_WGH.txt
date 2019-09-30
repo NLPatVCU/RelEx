@@ -1,0 +1,49 @@
+176746010 WGH
+0014633
+546385
+8603421
+12/7/2004 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+GLOTZASRHALT , SHIRLH
+MRN :
+0014633
+Age :
+25y
+REGISTRATION DATE :
+12/07/2004 10:08 PM
+Provider :
+Gram Meedner
+PRELIMINARY REPORT
+Benefits Assigned :
+Y
+Discharge Date / Time :
+12/07/2004 22:57
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+FLANK PAIN URI ?
+Standardized Discharge Instructions :
+The patient was given printed instructions for urinary tract infection ( Portugese ) .
+Diagnosis :
+Urinary Tract Infection
+Treatment Rendered :
+Exam , urinalysis , medication
+Discharge Medications :
+Levofloxacin 500 mg every day for 7 days
+Follow up Service :
+If you do not have a primary care physician , it is recommended that you select one .
+If you would like an WGH primary care physician , please call the Eghelas Medical Centers at 265-573-2272 .
+Disposition , Follow up and Instructions to Patient :
+Return to the ER for high fevers , vomiting , uncontrolled pains or other concerns as needed .
+PCP Name :
+NONE , PHYSICIAN
+Provider Number :
+51669
+This report was created by Meedner , Shaza 12/07/2004 10:59 PM

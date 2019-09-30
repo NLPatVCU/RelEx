@@ -1,0 +1,45 @@
+T1	problem 2430 2436	pauses
+T2	treatment 2559 2572	outpt fitting
+T3	treatment 1171 1182	simvastatin
+T4	treatment 578 598	ativan ( lorazepam )
+T5	problem 2185 2193	ischemia
+T6	test 2208 2210	ef
+T7	problem 2102 2105	htn
+T8	problem 2408 2425	sinus bradycardia
+T9	problem 2132 2147	epigastric pain
+T10	treatment 888 892	vit.
+T11	problem 2150 2153	sob
+T12	problem 2225 2240	mild dilatation
+T13	treatment 545 566	folate ( folic acid )
+T14	problem 1750 1773	obstructive sleep apnea
+T15	problem 1861 1864	htn
+T16	treatment 2489 2493	cpap
+T17	treatment 1260 1287	nicotine patch ( nicotine )
+T18	problem 1627 1642	known allergies
+T19	treatment 680 735	mvi therapeutic w / minerals ( therap vits / minerals )
+T20	treatment 929 954	thiamine ( thiamine hcl )
+T21	problem 2063 2065	mi
+T22	problem 2248 2276	significant valvular disease
+T23	problem 1667 1669	mi
+T24	problem 1884 1901	sinus bradycardia
+T25	treatment 968 979	simvastatin
+T26	treatment 502 530	wellbutrin ( bupropion hcl )
+T27	treatment 863 874	simvastatin
+T28	treatment 1237 1247	lisinopril
+T29	treatment 1187 1193	niacin
+T30	test 2164 2167	ett
+T31	treatment 621 641	ativan ( lorazepam )
+T32	problem 2072 2091	significant cardiac
+T33	problem 2050 2052	cp
+T34	problem 2455 2486	desaturations in the 70 &apos;s
+T35	test 2196 2200	echo
+T36	treatment 1086 1117	mvi therapeutic w / minerals po
+T37	treatment 879 885	niacin
+T38	treatment 1196 1204	vit. b-3
+T39	treatment 893 896	b-3
+T40	problem 52 75	obstructive sleep apnea
+R1	TeRP Arg1:T30 Arg2:T5
+R2	PIP Arg1:T34 Arg2:T8
+R3	PIP Arg1:T34 Arg2:T1
+R4	TeRP Arg1:T35 Arg2:T12
+R5	TeRP Arg1:T35 Arg2:T22

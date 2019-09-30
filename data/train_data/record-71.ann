@@ -1,0 +1,75 @@
+T1	treatment 549 562	betamethasone
+T2	test 1163 1179	the birth length
+T3	treatment 2160 2182	an ad lib feeding plan
+T4	test 771 777	apgars
+T5	test 376 384	antibody
+T6	test 2212 2222	her weight
+T7	test 3032 3050	the blood cultures
+T8	test 396 403	rubella
+T9	test 3104 3121	a head ultrasound
+T10	test 2240 2250	her length
+T11	test 1110 1126	the birth weight
+T12	treatment 619 640	bartley fertilization
+T13	test 413 416	rpr
+T14	treatment 726 743	spinal anesthesia
+T15	problem 2922 2940	sepsis risk factor
+T16	treatment 1901 1914	enteral feeds
+T17	test 431 458	hepatitis b surface antigen
+T18	treatment 643 653	a cerclage
+T19	treatment 2766 2780	blood products
+T20	treatment 1978 1998	full volume feedings
+T21	test 472 493	group b streptococcus
+T22	treatment 2722 2736	elemental iron
+T23	treatment 2044 2072	calorie enhanced breast milk
+T24	treatment 689 705	cesarean section
+T25	test 2489 2494	total
+T26	treatment 2867 2877	ampicillin
+T27	test 2575 2589	her hematocrit
+T28	treatment 2534 2546	phototherapy
+T29	treatment 2882 2892	gentamycin
+T30	treatment 3848 3874	an ad lib feeding schedule
+T31	treatment 2668 2685	supplemental iron
+T32	test 2291 2313	her head circumference
+T33	test 2626 2635	platelets
+T34	test 2421 2426	total
+T35	test 2502 2508	direct
+T36	test 2434 2440	direct
+T37	problem 4594 4614	chronic lung disease
+T38	problem 953 977	some occasional grunting
+T39	treatment 1442 1452	surfactant
+T40	treatment 4504 4526	influenza immunization
+T41	problem 4478 4498	chronic lung disease
+T42	test 1225 1253	the birth head circumference
+T43	treatment 4120 4127	synagis
+T44	test 2365 2383	her peak bilirubin
+T45	treatment 4076 4099	the hepatitis b vaccine
+T46	problem 5032 5043	prematurity
+T47	test 4003 4016	state screens
+T48	test 2447 2465	the last bilirubin
+T49	problem 918 948	moderate subcostal retractions
+T50	treatment 3894 3902	ferinsol
+T51	problem 1013 1019	murmur
+T52	problem 218 238	rupture of membranes
+T53	treatment 3776 3807	breast milk with enfamil powder
+T54	test 1573 1588	her lung sounds
+T55	problem 260 285	progressive preterm labor
+T56	problem 1797 1803	murmur
+T57	treatment 197 213	cesarean section
+T58	problem 5124 5153	respiratory distress syndrome
+T59	treatment 4174 4197	synagis rsv prophylaxis
+T60	problem 1649 1661	desaturation
+T61	treatment 2943 2958	the antibiotics
+T62	problem 5088 5094	sepsis
+T63	test 1538 1554	her respirations
+T64	problem 4748 4757	influenza
+T65	problem 1626 1631	apnea
+T66	test 349 359	blood type
+T67	treatment 4727 4739	immunization
+T68	test 3956 3983	a car seat positioning test
+T69	problem 1634 1645	bradycardia
+R1	TrAP Arg1:T26 Arg2:T15
+R2	TrAP Arg1:T29 Arg2:T15
+R3	TrAP Arg1:T40 Arg2:T37
+R4	TrAP Arg1:T57 Arg2:T55
+R5	TrAP Arg1:T57 Arg2:T52
+R6	TrAP Arg1:T67 Arg2:T64

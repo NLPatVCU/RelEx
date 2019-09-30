@@ -1,0 +1,154 @@
+767751445 ELMVH
+45154940
+6035801
+12/6/2005 12:00:00 AM
+COPD exacerbation with NSTEMI
+DIS
+Admission Date :
+12/06/2005
+Report Status :
+Discharge Date :
+12/10/2005
+****** FINAL DISCHARGE ORDERS ******
+SCHOELLSULLKOTEFONG , MAUSTINIE
+161-66-98-5 W53
+Room :
+66R-249
+Service :
+MED
+DISCHARGE PATIENT ON :
+12/09/05 AT 08:00 PM
+CONTINGENT UPON
+Attending evaluation
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+FREIERMFUSC , SHAIGAYDONA , M.D. , M.DIV.
+CODE STATUS :
+Full code
+DISPOSITION :
+Home w/ services
+DISCHARGE MEDICATIONS :
+VITAMIN C ( ASCORBIC ACID ) 1,000 MG PO QD ECASA ( ASPIRIN ENTERIC COATED ) 81 MG PO QD CALCIUM CARBONATE ( 500 MG ELEMENTAL CA++ ) 500 MG PO BID PREDNISONE 20 MG PO QAM Starting Today ( 12/09 )
+Instructions :
+taper over 2 weeks MULTIVITAMIN THERAPEUTIC ( THERAPEUTIC MULTIVI ... ) 5 MILLILITERS PO QD
+Override Notice :
+Override added on 12/07/05 by BELB , BRITHERL , M.D. on order for ATORVASTATIN PO ( ref # 33823759 )
+POTENTIALLY SERIOUS INTERACTION :
+NIACIN , VIT .
+B-3 and ATORVASTATIN CALCIUM
+Reason for override :
+md aware
+Previous override information :
+Override added on 12/06/05 by BELB , BRITHERL , M.D. on order for ZOCOR PO ( ref # 33033281 )
+POTENTIALLY SERIOUS INTERACTION :
+NIACIN , VIT .
+B-3 and SIMVASTATIN
+Reason for override :
+md aware
+FLOVENT ( FLUTICASONE PROPIONATE ) 44 MCG INH BID Starting Today ( 12/09 ) LEVAQUIN ( LEVOFLOXACIN ) 500 MG PO QD
+Food / Drug Interaction Instruction
+Administer iron products a minimum of 2 hours before or after a levofloxacin or ciprofloxacin dose dose
+If on tube feeds , please cycle ( hold 1 hr before to 2 hr after )
+Take 2 hours before or 2 hours after dairy products .
+Alert overridden :
+Override added on 12/06/05 by BELB , BRITHERL , M.D.
+POTENTIALLY SERIOUS INTERACTION :
+SALMETEROL XINAFOATE and LEVOFLOXACIN
+Reason for override :
+md aware
+SEREVENT DISKUS ( SALMETEROL DISKUS ) 1 PUFF INH BID
+Override Notice :
+Override added on 12/06/05 by BELB , BRITHERL , M.D. on order for LEVAQUIN PO ( ref # 57095042 )
+POTENTIALLY SERIOUS INTERACTION :
+SALMETEROL XINAFOATE and LEVOFLOXACIN
+Reason for override :
+md aware
+LISINOPRIL 5 MG PO QD
+Alert overridden :
+Override added on 12/08/05 by :
+POTENTIALLY SERIOUS INTERACTION :
+POTASSIUM CHLORIDE and LISINOPRIL
+Reason for override :
+md aware
+TOPROL XL ( METOPROLOL SUCCINATE EXTENDED RELEASE ) 25 MG PO QD Starting Today ( 12/09 )
+Food / Drug Interaction Instruction
+Take consistently with meals or on empty stomach .
+ALENDRONATE 70 MG PO QWEEK
+Food / Drug Interaction Instruction
+Give on an empty stomach ( give 1hr before or 2hr after food )
+Take with 8 oz of plain water ALBUTEROL INHALER 2 PUFF INH QID Starting Today ( 12/09 ) ATROVENT INHALER ( IPRATROPIUM INHALER ) 2 PUFF INH QID Starting Today ( 12/09 )
+DIET :
+No Restrictions
+ACTIVITY :
+Resume regular exercise
+FOLLOW UP APPOINTMENT ( S ) :
+Gento Yaneslaunt 03/17/06 scheduled ,
+Arois Maillliepslighsint 02/18/06 scheduled ,
+ALLERGY :
+NKA ADMIT DIAGNOSIS :
+COPD exacerbation
+PRINCIPAL DISCHARGE DIAGNOSIS ;
+Responsible After Study for Causing Admission ) COPD exacerbation with NSTEMI
+OTHER DIAGNOSIS ;
+Conditions , Infections , Complications , affecting Treatment / Stay
+severe COPD Pneumonia recovering alcoholic recovering barbituate abuse unexplained hct drop poor appetite x 1 week
+STEROID PSYCHOSIS NO BENZOS
+OPERATIONS AND PROCEDURES :
+none
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+Heparin while having a demand ischemic episode
+BRIEF RESUME OF HOSPITAL COURSE :
+* CC :
+82F with COPD exacerpation
+* DDx :
+COPD exacerpation with troponin leak likely NSTEMI secondary to demand ischemia .
+* HPI :
+4 days of worsening SOB with sore throat and cough productive of yellow / green sputum .
+Fatigue secondary to worsening dyspnea .
+took Prednisone 40 at home and presented to ED where found to have 1mm lateral ST depressions and slight troponin and MB leak .
+no N / V/HA / D no sweats , no chills , of abdominal pain , no chest pain , no pleuricy , no LEE , no paresthesias , no numbness , no shoulder pain , no jaw pain .
+* PMH :
+COPD ( s / p lung resection FEV1 25% ) , chronic pericardial effusion , PVD , R renal artery stenosis , osteoporosis , presbylaryngis
+************** PATIENT STATUS ********************
+98.4 , 94 , 22 , 120/96 , 98% on 2L. NAD , using scalenes , AT / NC , no oral lesions , Bibasilar rales otherwise clear , good air movement , RRR , no MRG , NTND +BS , no CCE , 2+ DPs .
+Guiac negative
+*************** STUDIES ***********************
+LABS :
+WBC 12.91
+CXR :
+small pleural effusion , flat diaphrams no acute changes
+Echo -
+*********** HOSPITAL COURSE ****************
+1. CV :
+likely having a NSTEMI secondary to demand .
+Cardiac enzymes trending down on 12.7.05 , anticoagulated while having leak .
+I - heparin for PTT 50-70 durin enzyme leak . metoprolol 12 QID .
+Cardiac enzymes BID while actively having leak , ASA
+R - monitor on telemetry
+P - no evidence of failure
+- Echo :
+2. COPD :
+likely exacerbation possibly from URI / pneumonia .
+Aputum cultures pending .
+Treated with :
+atrovent NEB QID , albuterol Neb QID , ipratropium NEB BID , flovent INH BID , Serevent INH BID , and prednisone 30 QD taper .
+Levaquin 500 QD empirically
+3. GI :
+PPI prophylaxis
+4. FEN :
+MVI , Cardiac diet
+ADDITIONAL COMMENTS :
+Please make an appointment to see dr. Arois Maillliepslighsint within2-3 weeks after you leave the hospital
+Please taper off your prednisone within 2 weeks
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+PT :
+please evaluate ambutlation ability and O2 requirement
+Please evaluate resolution of cardiac troponin leak and stable EKG .
+Please evaluate resolution of COPD exacerbation and need for any further antibiocis
+No dictated summary
+ENTERED BY :
+BELB , BRITHERL , M.D. ( IL35 ) 12/10/05 02:50 PM
+****** END OF DISCHARGE ORDERS ******

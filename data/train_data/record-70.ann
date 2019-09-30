@@ -1,0 +1,139 @@
+T1	problem 2292 2310	two vessel disease
+T2	treatment 5204 5214	lisinopril
+T3	test 2240 2263	cardiac catheterization
+T4	problem 4085 4105	sudden cardiac death
+T5	treatment 5247 5255	coumadin
+T6	treatment 4602 4608	plavix
+T7	problem 4631 4645	a small stroke
+T8	problem 4299 4307	weakness
+T9	treatment 5225 5234	toprol xl
+T10	problem 451 474	some gerd-like symptoms
+T11	test 2148 2157	platelets
+T12	treatment 5284 5291	lovenox
+T13	treatment 5266 5272	plavix
+T14	test 2130 2140	hematocrit
+T15	problem 4176 4205	left lower extremity weakness
+T16	treatment 5326 5334	coumadin
+T17	test 4237 4264	her cardiac catheterization
+T18	problem 2189 2212	coronary artery disease
+T19	problem 4838 4853	apical akinesis
+T20	test 2015 2040	the dorsalis pedis pulses
+T21	problem 1988 2012	edema in the extremities
+T22	test 5495 5502	her inr
+T23	test 4311 4322	examination
+T24	problem 4858 4869	stroke risk
+T25	problem 673 681	the pain
+T26	test 2111 2122	white count
+T27	treatment 4825 4833	coumadin
+T28	problem 1914 1923	nontender
+T29	problem 5068 5102	st elevation myocardial infarction
+T30	problem 4547 4557	difficulty
+T31	treatment 5184 5191	aspirin
+T32	treatment 4963 4980	her coumadin dose
+T33	problem 1926 1938	nondistended
+T34	treatment 5117 5154	left anterior descending artery stent
+T35	problem 1753 1767	acute distress
+T36	problem 3338 3354	an akinetic apex
+T37	test 3296 3316	an ejection fraction
+T38	problem 1826 1833	murmurs
+T39	test 1870 1882	auscultation
+T40	treatment 3723 3731	coumadin
+T41	test 1644 1658	blood pressure
+T42	test 3861 3877	an ep evaluation
+T43	test 1668 1673	pulse
+T44	test 1679 1691	respirations
+T45	problem 3824 3842	significant events
+T46	test 3942 3963	a signal-averaged ekg
+T47	treatment 1401 1409	uniretic
+T48	problem 1449 1469	known drug allergies
+T49	test 3775 3784	telemetry
+T50	test 4005 4022	an echocardiogram
+T51	problem 1633 1641	afebrile
+T52	problem 1331 1335	gerd
+T53	treatment 1365 1373	atenolol
+T54	treatment 4119 4132	icd placement
+T55	problem 4684 4702	neurologic deficit
+T56	treatment 1382 1389	crestor
+T57	problem 3359 3389	apical mid and septal akinesis
+T58	treatment 3506 3514	coumadin
+T59	problem 3428 3455	significant apical akinesis
+T60	problem 3575 3590	apical akinesis
+T61	treatment 3630 3648	lovenox injections
+T62	problem 1236 1248	hypertension
+T63	problem 1094 1130	st depressions in ii , iii , and avf
+T64	problem 1303 1325	carpal tunnel syndrome
+T65	treatment 3477 3484	heparin
+T66	problem 2596 2622	proximal rca lesion of 80%
+T67	problem 1280 1297	chondrocalcinosis
+T68	treatment 2709 2719	an aspirin
+T69	problem 1254 1274	hypercholesterolemia
+T70	treatment 2525 2537	taxus stents
+T71	treatment 3539 3556	stroke prevention
+T72	treatment 2724 2730	plavix
+T73	problem 985 995	dissection
+T74	treatment 2460 2475	twin lad stents
+T75	treatment 3519 3534	anticoagulation
+T76	treatment 938 954	a tp3a inhibitor
+T77	test 2827 2845	her blood pressure
+T78	treatment 928 935	aspirin
+T79	problem 2906 2921	muscle cramping
+T80	treatment 2927 2939	atorvastatin
+T81	treatment 908 921	nitroglycerin
+T82	treatment 896 905	lopressor
+T83	problem 239 276	prior coronary artery disease history
+T84	problem 3120 3147	her coronary artery disease
+T85	treatment 2973 2984	pravastatin
+T86	test 4706 4717	examination
+T87	problem 631 637	nausea
+T88	test 5742 5760	further monitoring
+T89	treatment 5521 5538	her coumadin dose
+T90	treatment 4587 4597	an aspirin
+T91	treatment 3098 3116	further management
+T92	problem 642 653	diaphoresis
+T93	problem 1048 1089	elevations in i , avl , and v1 through v2
+T94	problem 528 536	the pain
+T95	problem 3174 3199	her remaining rca lesions
+T96	problem 823 831	the pain
+T97	test 3152 3170	further evaluation
+T98	problem 732 746	these symptoms
+T99	treatment 491 497	maalox
+T100	problem 2348 2360	a 90% lesion
+T101	problem 2387 2401	a 95% stenosis
+T102	problem 2429 2441	99% stenosis
+T103	treatment 5340 5351	pravastatin
+T104	problem 296 306	chest pain
+T105	problem 3011 3029	these side effects
+T106	problem 194 206	hypertension
+T107	treatment 2774 2794	maxine ace inhibitor
+T108	problem 211 231	hypercholesterolemia
+T109	test 3228 3245	an echocardiogram
+T110	problem 329 337	the pain
+T111	problem 2627 2653	a mid rca lesion of 80-90%
+T112	treatment 2758 2771	a beta elmore
+R1	TeRP Arg1:T3 Arg2:T1
+R2	TrAP Arg1:T6 Arg2:T7
+R3	TeRP Arg1:T23 Arg2:T8
+R4	TrAP Arg1:T27 Arg2:T19
+R5	TrAP Arg1:T27 Arg2:T24
+R6	TrAP Arg1:T34 Arg2:T29
+R7	TeRP Arg1:T49 Arg2:T45
+R8	TrAP Arg1:T54 Arg2:T4
+R9	TrAP Arg1:T58 Arg2:T59
+R10	TrAP Arg1:T58 Arg2:T60
+R11	TrAP Arg1:T65 Arg2:T59
+R12	TrAP Arg1:T65 Arg2:T60
+R13	TrAP Arg1:T71 Arg2:T60
+R14	TrAP Arg1:T71 Arg2:T59
+R15	TrAP Arg1:T75 Arg2:T60
+R16	TrAP Arg1:T75 Arg2:T59
+R17	TrNAP Arg1:T76 Arg2:T73
+R18	TrCP Arg1:T80 Arg2:T79
+R19	TeRP Arg1:T86 Arg2:T55
+R20	TrAP Arg1:T90 Arg2:T7
+R21	TrAP Arg1:T91 Arg2:T84
+R22	PIP Arg1:T94 Arg2:T92
+R23	PIP Arg1:T94 Arg2:T87
+R24	TeCP Arg1:T97 Arg2:T95
+R25	PIP Arg1:T100 Arg2:T101
+R26	PIP Arg1:T100 Arg2:T102
+R27	PIP Arg1:T105 Arg2:T79

@@ -1,0 +1,155 @@
+T1	problem 2023 2047	left basilar atelectasis
+T2	problem 6223 6237	ventral hernia
+T3	problem 919 922	htn
+T4	problem 2461 2486	spontaneous echo contrast
+T5	test 713 717	cath
+T6	problem 754 767	80% lm lesion
+T7	problem 1950 1968	interstitial edema
+T8	test 683 685	ef
+T9	problem 455 467	abnormal ekg
+T10	treatment 1613 1636	coronary bypass surgery
+T11	treatment 6260 6280	right facial plating
+T12	problem 6219 6222	htn
+T13	problem 236 254	recent mild angina
+T14	test 1512 1514	mg
+T15	test 590 592	ef
+T16	problem 602 619	perfusion defects
+T17	treatment 4311 4315	cabg
+T18	test 1534 1548	two view chest
+T19	problem 4028 4030	ai
+T20	treatment 1703 1745	a right internal jugular vascular catheter
+T21	test 566 582	pefusion imaging
+T22	test 1455 1460	urean
+T23	treatment 5919 5931	rosuvastatin
+T24	treatment 373 382	svg to om
+T25	test 1467 1472	creat
+T26	treatment 6030 6040	furosemide
+T27	problem 6215 6218	cad
+T28	problem 158 173	known allergies
+T29	treatment 502 523	ventral hernia repair
+T30	test 1401 1404	ptt
+T31	test 1449 1454	blood
+T32	treatment 6238 6255	right nephrectomy
+T33	treatment 177 182	drugs
+T34	test 1418 1420	pt
+T35	treatment 5349 5364	docusate sodium
+T36	problem 541 561	abnormal stress test
+T37	treatment 1665 1685	a swan-ganz catheter
+T38	test 1309 1314	blood
+T39	problem 3618 3634	mildly thickened
+T40	problem 3729 3755	trace aortic regurgitation
+T41	test 1346 1351	blood
+T42	test 1384 1389	blood
+T43	problem 2772 2815	mild symmetric left ventricular hypertrophy
+T44	test 1210 1213	hgb
+T45	problem 3796 3812	mildly thickened
+T46	problem 3818 3822	mass
+T47	test 1266 1269	rdw
+T48	test 1277 1283	plt ct
+T49	problem 3918 3938	pericardial effusion
+T50	problem 2050 2075	right basilar atelectasis
+T51	problem 3705 3726	aortic valve stenosis
+T52	treatment 358 370	svg to ramus
+T53	problem 3867 3895	trivial mitral regurgitation
+T54	treatment 3986 3999	phenylephrine
+T55	treatment 344 355	lima to lad
+T56	test 1479 1480	k
+T57	test 1182 1187	blood
+T58	problem 4017 4025	trace mr
+T59	test 1188 1191	wbc
+T60	test 4002 4006	lvef
+T61	problem 935 953	right facial droop
+T62	treatment 858 862	cabg
+T63	test 1277 1283	plt ct
+T64	test 1390 1392	pt
+T65	treatment 959 970	metal plate
+T66	problem 984 987	gsw
+T67	test 1412 1415	inr
+T68	test 1315 1318	hct
+T69	problem 502 516	ventral hernia
+T70	treatment 4939 4946	crestor
+T71	problem 3497 3512	simple atheroma
+T72	treatment 309 323	emergency cabg
+T73	test 636 650	scheduled cath
+T74	test 4661 4665	temp
+T75	problem 3450 3465	simple atheroma
+T76	problem 4674 4682	afebrile
+T77	treatment 4104 4118	this procedure
+T78	problem 3399 3414	simple atheroma
+T79	problem 2945 2970	left ventricular aneurysm
+T80	problem 923 934	elev. chol.
+T81	problem 3352 3367	simple atheroma
+T82	problem 797 816	severe systolic htn
+T83	treatment 4917 4927	bisoprolol
+T84	problem 3325 3339	mildly dilated
+T85	test 1254 1258	mchc
+T86	problem 3200 3225	mild inferior hypokinesis
+T87	treatment 6384 6390	creams
+T88	problem 6415 6428	any incisions
+T89	problem 2851 2894	mild symmetric left ventricular hypertrophy
+T90	problem 3149 3191	resting regional wall motion abnormalities
+T91	problem 3121 3146	ventricular septal defect
+T92	problem 2990 3041	mild regional left ventricular systolic dysfunction
+T93	treatment 6404 6411	powders
+T94	test 3044 3086	overall left ventricular systolic function
+T95	problem 3090 3106	mildly depressed
+T96	problem 3826 3836	vegetation
+T97	treatment 6393 6400	lotions
+T98	problem 3650 3661	vegetations
+T99	test 2747 2760	color doppler
+T100	problem 2709 2729	atrial septal defect
+T101	problem 3640 3646	masses
+T102	treatment 5780 5803	oxycodone-acetaminophen
+T103	problem 5871 5875	pain
+T104	treatment 991 1013	face right nephrectomy
+T105	test 2741 2743	2d
+T106	problem 4640 4655	scattered rales
+T107	treatment 5149 5167	potassium chloride
+T108	test 485 497	pre-op eval.
+T109	treatment 5473 5487	ranitidine hcl
+T110	problem 692 699	mild mr
+T111	problem 669 680	inferior hk
+T112	problem 2638 2651	mass/thrombus
+T113	treatment 4976 4986	lisinopril
+T114	problem 702 710	mild lae
+T115	test 1198 1201	rbc
+T116	test 622 626	echo
+T117	problem 658 666	mild lvh
+T118	treatment 5593 5600	aspirin
+T119	problem 2560 2568	thrombus
+T120	test 1234 1237	mcv
+T121	problem 2441 2455	mildly dilated
+T122	treatment 4411 4425	propofol drips
+T123	test 1506 1511	blood
+T124	problem 2531 2556	spontaneous echo contrast
+T125	treatment 4465 4476	chest tubes
+T126	treatment 4393 4406	phenylephrine
+T127	problem 2299 2327	persistent pleural effusions
+T128	test 1243 1246	mch
+T129	treatment 4959 4963	hctz
+T130	treatment 2160 2181	vascular catheter tip
+T131	problem 2223 2250	bibasilar minor atelectasis
+T132	treatment 4700 4712	pacing wires
+T133	treatment 4608 4613	foley
+T134	treatment 4487 4502	gentle diuresis
+T135	problem 2100 2127	bilateral pleural effusions
+T136	treatment 5025 5044	metoprolol tartrate
+T137	test 1222 1225	hct
+T138	treatment 4507 4520	beta blockade
+R1	TeRP Arg1:T5 Arg2:T6
+R2	TeRP Arg1:T21 Arg2:T16
+R3	TrCP Arg1:T33 Arg2:T28
+R4	TrAP Arg1:T65 Arg2:T66
+R5	TrNAP Arg1:T87 Arg2:T88
+R6	PIP Arg1:T90 Arg2:T86
+R7	TrNAP Arg1:T93 Arg2:T88
+R8	TeRP Arg1:T94 Arg2:T95
+R9	TrNAP Arg1:T97 Arg2:T88
+R10	TeRP Arg1:T99 Arg2:T100
+R11	TrAP Arg1:T102 Arg2:T103
+R12	TeRP Arg1:T105 Arg2:T100
+R13	TeRP Arg1:T108 Arg2:T9
+R14	TeRP Arg1:T116 Arg2:T117
+R15	TeRP Arg1:T116 Arg2:T111
+R16	TeRP Arg1:T116 Arg2:T110
+R17	TeRP Arg1:T116 Arg2:T114

@@ -1,0 +1,27 @@
+965367286 WGH
+4025213
+465655
+9246470
+12/19/2006 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+CIENNE , GUTAOI
+MRN :
+4025213
+Age :
+42y
+REGISTRATION DATE :
+12/19/2006 08:13 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , CIENNE , GUTAOI arrived in the Emergency Department at Well General Hospital on 12/19/2006 08:13 PM .
+The patient presented with a chief complaint of SOB .
+Following triage , the patient left without being seen .
+If you need additional information please call 366-686-5449 .
+PCP Name :
+ELKSOBEBEUCH , IEVE
+Provider Number :
+66130

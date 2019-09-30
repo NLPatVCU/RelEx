@@ -1,0 +1,193 @@
+Admission Date :
+2018-05-26
+Discharge Date :
+2018-05-31
+Date of Birth :
+1935-11-10
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Codeine / Iodine
+Attending : Derrick L. Mayo , M.D.
+Chief Complaint :
+large pericardial effusion , transfer from OSH
+Major Surgical or Invasive Procedure :
+Thoracentesis 2018-05-27
+History of Present Illness :
+82 F with h/o COPD , CAD , pafib and SSS s/p pacer on 05-08 for symptomatic pauses is transferred for large pericardial effusion ? needing drainage and CHF .
+She was admitted to Cambridge Hospital 2018-05-24 with ARF ( Cr 3.5 up from 0.9 ) and SOB .
+According to her guardian she was discharged to her NH for a few days after her pacer was placed 05-08 , which was complicated by a PTX requiring CT placement which had been d/c 'd in the hospital after resolution of her PTX .
+She had some nausea / vomiting and generally was taking poor pos at her NH .
+There had been some concern her nausea was due to her amiodarone which had been discontinued about 1 week ago .
+She was then sent to Franklin Medical Center 05-24 with lethargy and n/v .
+At Erich Lindemann Mental Health Center she was discovered to have ARF , a large pericardial effusion , and bilateral pleural effusions .
+She was treated with IVF for her ARF .
+She underwent a TTE at Erich Lindemann Mental Health Center today ( 05-26 ) showing mod-lg circumferential pericardial effusion without evidence of RV diastolic collapse and no MV inflow evidence of tamponade , pacer wire located in RV apex .
+There was still concern for her effusion contributing to her SOB at the OSH so she was transferred for drainage and treatment of CHF .
+Today she only complains of some SOB , which she says remains largely unchanged over the past few days .
+She denies any CP / cough / fever / abd pain / diarrhea / black or bloody stools / headache .
+Past Medical History :
+htn
+afib , SSS
+COPD
+CAD
+pacer DDDR ( Vitatron CL860 ) placed 05-08 for SSS with symptomatic bradycardia , c/b R PTX requiring chest tube
+GERD
+CVA
+hypothyroidism
+legally blind
+Social History :
+NH resident , guardian Robert Murrell
+Family History :
+NC
+Physical Exam :
+Exam : T 96.2 HR 70 BP 118/46 R 24 sat 90% on 60%FM
+pulsus parodoxus = 6-8 mm
+gen : mild resp distress speaking in full sentences but using accessory muscles
+HEENT : mmm , JVP at 14 cm , no bruits , supple
+CV : RRR , 02-19 sys m at RUSB
+pulm : no BS 01-15 way up bilat , no consolidation
+abd : s/nt/slightly distended , dec BS , no CVA tenderness
+ext : 1+ LE edema
+Pertinent Results :
+ECG : a paced at 70 bpm / nml axis , LBBB , no ST or TW changes
+CXR at Erich Lindemann Mental Health Center 05-26 : bilateral pleural eff and pericardial eff
+CT chest at Erich Lindemann Mental Health Center 05-25 : large pericardial effusion , bilat pleural eff with underlying consolidation which could represent PNA vs. atelectasis
+TTE at Erich Lindemann Mental Health Center 05-26 : mod-lg circumferential pericardial eff , no evidence of RV diastolic collapse , no MV inflow evidence of tamponade , pacer lead located in RV apex
+head CT at Erich Lindemann Mental Health Center 05-24 : atrophy , dense calcification of the tentorium , most likely of metabolic etiology
+IMAGING AT Providence Behavioral Health Hospital :
+ECHO 2018-05-28
+IMPRESSION : Moderate to large pericardial effusion ( minimal fluid anteriorly ( 1cm ), ? bloody ).
+No definite tamponade physiology .
+Pacer seen in RV apex , but cannot exclude perforation .
+CXR 2018-05-30
+FINDINGS : The lung volumes are Moderate bilateral pleural effusions are unchanged .
+Mild pulmonary edema is unchanged .
+Lung volumes are low .
+Bibasilar atelectasis is unchanged .
+IMPRESSION : Unchanged moderate bilateral pleural effusions and mild CHF .
+RENAL US 2018-05-28
+FINDINGS : The right kidney measures 11 cm in length , the left kidney measures 9.7 cm in length .
+No hydronephrosis is seen .
+No urinary calculi are seen .
+The bladder appears unremarkable and contains a Foley catheter .
+IMPRESSION : No evidence of hydronephrosis .
+Brief Hospital Course :
+A/P :
+82 y/o f w h/o afib , SSS s/p pacer 05-08 c/b PTX requiring CT , CAD , who was readmitted 05-24 with ARF and lethargy , found to have a large pericardial effusion and bilateral pleural effusions , with echo showing no evidence of tamponade , who is transferred for possible pericardial effusion drainage and treatment of CHF , as well as drainage of bilateral pleural effusions .
+She had a BNP of > 5000 on admission .
+Since admission , she ruled out for MI by enzymes , and had a right sided thoracentesis which yielded transudative fluid .
+WBC s since admission were as high as 14,000 but normalized .
+She also had 2 echocardiograms which revealed persistent pericardial effusions .
+She has been gently diuresed but has worsening ARF .
+Her O2 requirement has increased despite diuresis .
+She denies any CP / cough / fever , abdominal pain / diarrhea , black or bloody stools or headache .
+Her urine output decreased to nearly zero .
+In the setting of her ongoing pericardial effusion , she was transferred for closer observation to the CCU .
+The CCU fellow and team declined to do pericardial drainage , as the pt was hemodynamically stable , without change in appearance of effusion by echo performed at bedside by cards fellow .
+As she was felt by the CCU to be a poor candidate for right heart cath , was hemodynamically stable with blood pressure 110 s- 120 s systolic and pulse 70 s- 80 s , she was called out of the CCU and back to the cardiac floor without intervention .
+The procedure team was called to consider doing a left thoracentesis , but she was declined because it was felt that her effusions were transudative , secondary to CHF , and it was recommended to treat CHF .
+The pt continued to have low urine output .
+She was given a lasix drip IV upon call-out of the ICU , and additional boluses of IV lasix , 200 mg then 300 mg IV were given with a good response , however , she remained net positive fluid balance .
+Renal consultants did not feel there was an emergent need for dialysis .
+A nitro drip was started in an effort to decrease her preload and afterload .
+On call out from the CCU , the pt was satting 93% on 4-5L NC , and through the following night , her oxygen requirement increased to NRB , wherein she was satting upper 80 s- low 90 s.
+ABG that evening was 7.29/51/56 on 4L NC and early the next morning , was 7.25/62/64 on NRB .
+A CXR was performed the evening of 5/16 , showing moderate sized bilateral pleural effusions , stable cardiomegaly and a possible RLL infiltrate .
+Vancomycin and Zosyn were started .
+She was afebrile .
+The morning of 5/17 , her pulsus parodoxicus was 12 .
+Because of her ABG , and declining clinical status , the CCU was notified for possible transfer .
+The CMED CSRU Intern called the Murphy , Robert Leigh , to give her the update with regards to the pt 's deteriorating clinical status .
+It was felt that given her age , multiple co-morbidities , that her prognosis was poor even prior to CCU admission , possible pericardial drainage or repeat thoracenteses .
+Goals of care were clarified with her Murphy , Robert Sanchez .
+Explained to Lewin that pt will likely need to be intubated , as she cannot lie flat , and most likely cannot undergo pericardial drainage , thoracentesis , or right heart cath with BiPAP ( which would have been the next measure after NRB , and prior to intubation ).
+Explained that despite these invasive measures , she still has a very poor prognosis .
+Odell stated she had been thinking about this all night of 2018-05-30 , and agreed that this is not what the pt would have wanted .
+Odell does not believe the pt would want to be intubated , with central line , right heart cath , in the CCU .
+She requested the patient be made Comfort Measures Only .
+She was DNR/DNI on admission .
+This was documented in the computer , confirmed with Cardiology attending and fellow , and conveyed to the CCU staff , who were informed she may need to go for transfer ( which was subsequently cancelled ).
+The pt will be made comfortable , with goals of care shifted towards suppressing her air hunger and pain .
+#. SOB : Most consistent with CHF by exam , although unknown what the severity of her COPD is currently .
+TTE revealed large pericardial effusion .
+Pt is now s/p drainage of right pleural effusion , diagnostic and therapeutic , with studies consistent with transudate , etiology most likely 02-15 CHF .
+We continued her albuterol / atrovent nebs , diuresis with IV lasix drip and boluses .
+Her 05-27 CXR post procedure w/o PNX , effusion much improved , yet her 05-28 CXR worse than 05-27 with some reaccumulation of right pleural effusion .
+Then , on 05-29 , she demonstrated bilateral pleural effusions ( reaccumulated ), right lower lobe infiltrate ( started on vanco / zosyn )-> put on face mask , given lasix x 1 bolus 100 mg , responded somewhat and o2 sat stable in low 90 s.
+She was given 200 mg IV lasix X 1 with an additional 100 cc of urine output the evening of 5/16 .
+Her lasix gtt continued during this time .
+Her oxygen sats did not improve .
+She was then made CMO .
+See above .
+#. Pericardial effusion : unclear etiology , OSH had raised question of RV perforation from pacer , however she had a normal echo appearance of lead , no tamponade by exam .
+This has still be known to occur during the placement of pacemaker .
+It was felt posthumously that her large pericardial effusion was most likely secondary to a complication of pacer placement , although this was not seen on imaging .
+In the last 12 hours of her life , her pulsus was 12 , and she was felt to likely to have aspect of tamponade physiology , since her preload was reduced .
+#. CHF : normal EF on TTE so possibly with diastolic dysfunction , ruled out for MI
+- See course of diuresis above .
+- We continued ASA / imdur / CCB / hold diovan until pt was made CMO .
+#. Pleural effusions : Likely due to CHF although had some leukocytosis at admission to OSH .
+Mary studies c/w transudate .
+- After she was made CMO , the pt was started on Morphine gtt to maximize comfort and minimize air hunger .
+#. Afib/SSS : She was A-paced , pacer placed 05-08 in DDDR mode , complicated by PTX requiring chest tube which resolved and tube was removed during admit for pacer , no evidence of PTX on most recent CXR .
+Her pacer wires in correct position .
+We continued amiodarone until pt was made CMO .
+Anticoagulation has not been given this admission .
+She was a poor anticoagulation candidate .
+We started her on dilt for additional a fib control ( revert back to a fib on 05-29 ), which was stopped when the pt was made CMO .
+#. Oliguric ARF : likely prerenal due to n/v poor po intake and poor forward flow , However , need to continue diuresis .
+Her urine lytes consistent with ATN , FENA 4% .
+Renal u/s negative for hydronephrosis .
+Renal consultants did not feel that there was an indication for urgent hemodialysis .
+She continued to put out low amounts of urine throughout the admission , despite aggressive diuresis with IV lasix gtt and boluses .
+See above .
+#. ID : initially had leukocytosis at admission , with chest CT showing possible underlying consolidations vs. atelectasis , levoflox started 05-24 and subsequently stopped ( no consolidations on CXR and afebrile ).
+U/A on 05-27 c/w UTI .
+Pt now on IV Ceftriaxone ( was on levoflox since 05-24 however UA now floridly positive ( more so than UA at OSH ) so felt possibly levo-resistant .
+Pt started on CTX 05-27 .
+She was empirically started on vanco/zosyn for empiric hosp acquired pna coverage
+- possible opacity on CXR - along w/ leukocytosis .
+#. Anemia : Unclear source .
+She was guiaic negative .
+- no transfusions , CMO/DNR/DNI
+#. FEN : check lytes , most recently normal .
+cardiac/renal diet
+#. Access : PIV
+#. Code : DNR/DNI/CMO verified with Robert Marks 2018-05-29
+#. Communication : Guardian Robert Fitzgerald ( 520 ) 328 5499 .
+Medications on Admission :
+aranesp 100 mcg ( X1 05-26 )
+diltiazem CD 240 mg
+paxil 20 mg daily
+detrol LA 4 mg daily
+EC ASA 81 mg daily
+pepcid 20 mg daily
+amiodarone 200 mg daily
+levofloxacin 250 mg IV daily ( started 05-24 )
+levothyroxine 50 mcg daily
+diovan 160 mg daily
+imdur 60 mg daily
+albuterol-ipratroprium INH 2 sprays tid prn
+Discharge Disposition :
+Expired
+Discharge Diagnosis :
+1. Pulmonary Edema and Hypoxic Respiratory Failure
+2. Large pericardial effusion
+3. Moderate bilateral pleural effusions
+4. Congestive Heart Failure
+5. Paroxysmal Atrial Fibrillation
+6. Sick sinus syndrome status post pacer placement
+7. Coronary Artery Disease
+Discharge Condition :
+Expired
+Discharge Instructions :
+Not applicable
+Followup Instructions :
+Not applicable
+Jessica Ashley MD 19-617
+Completed by : James Weishaar MD 01-503 2018-05-31 @ 1428
+Signed electronically by : DR. Barry Smith on : FRI 2018-06-01 8:26 AM
+( End of Report )

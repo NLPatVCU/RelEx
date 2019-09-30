@@ -1,0 +1,50 @@
+037945397 RWH
+2690633
+194867
+151887
+10/17/2001 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+FYFEVAIA , LORERINDIL
+MRN :
+2690633
+Age :
+77y
+REGISTRATION DATE :
+10/17/2001 01:36 PM
+Provider :
+CH KOTEKOLL
+PRELIMINARY REPORT
+PCP notified by
+MD :
+Yes - Direct contact with PCP
+Benefits Assigned :
+N
+Discharge Date / Time :
+10/17/2001 16:28
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+NEAR SYNCOPE Standardized Discharge Instructions :
+The patient was given printed instructions for dizziness ( English ) .
+Diagnosis :
+near syncope , dehydration vs cardiogenic
+Treatment Rendered :
+IVF , cbc ( hct 36 ) , normal chem 7 , negative cardiac enzymes , negative stool guaiac , normal CXR
+Discharge Medications :
+none
+Disposition , Follow up and Instructions to Patient :
+Patient will follow-up with his PCP , Dr. Foutchner , on Monday .
+Dr. Foutchner will arrange for an outpatient Holter monitor .
+The patient is to return to the ED for recurrent dizziness , chest pain , shortness of breath or weakness .
+PCP Name :
+SUMCHIRDKAYSMAVVEINDREPS , YERTREY
+Provider Number :
+12298
+This report was created by KOTEKOLL , CH 10/17/2001 07:08 PM

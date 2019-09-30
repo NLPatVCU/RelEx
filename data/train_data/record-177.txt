@@ -1,0 +1,170 @@
+Admission Date :
+2014-04-23
+Discharge Date :
+2014-04-28
+Date of Birth :
+1980-02-05
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Penicillins / Sulfonamides
+Attending : Louie A. Keith , M.D.
+Chief Complaint :
+Benzo overdose
+Major Surgical or Invasive Procedure :
+Intubation for airway protection
+History of Present Illness :
+HPI :
+Ms. Franklin is a 34 - year-old woman with Bipolar disorder and group home resident who by way of EMS for apparent alprazolam overdose .
+In the St. Margaret 's Center for Women & Infants , the patient was lethargic and unable to give a history .
+She was promptly intubated for airway protection and in order to administer charcoal .
+Patient was found at group home in am laying on floor by bed unresponsive , last seen awake 8 hours prior at dinner .
+Group home states that patient " may have taken too many Xanax .
+Patient has a history of suicidal ideations and self mutilation .
+Later patient told CMED CCU that she was feeling down and impulsively ingested 5 days worth of medications , she states that her intent at that time was to end her life .
+Past Medical History :
+1. Bipolar disorder .
+2. Asthma .
+3. Posttraumatic stress disorder .
+4. GERD
+5. Chronic constipation from laxative abuse .
+Social History :
+Denies any recent use of EtOH or illicit drugs .
+Per OMR , h/o sporadic marijuana use .
+Now living at the DBT House on Treva Williamson in Westborough .
+In currently in a relationship with a man whom she met during a previous inpt admission .
+Per OMR , the patient is currently not in contact with her family .
+She was raised in multiple foster care homes because her mother could not care for her .
+She was physically abused and severely neglected as a child and been sexually assaulted .
+She has no current romantic relationship .
+She has never been married .
+She has completed up to the tenth grade of high school .
+She has no current legal issues .
+Family History :
+Substance abuse in mother and brother .
+Two sisters with h/o depression and suicidality .
+Physical Exam :
+VS 95.4 HR 62 BP 99/70 RR 20 O2Sat 100%
+Gen :
+Intubated and sedated
+HEENT :
+ATNC , Pupils dialted at 5 mm but minimally reactive , anicteric
+Chest :
+CTA ant/lat
+Cor :
+RR nl S1 S2 no m
+Abd :
+Soft , nd , hypoactive bowel sounds
+Ext :
+WWP , multiple linear scars and burns on hands and arms
+Neuro :
+Sedated , DTRs :
+Skin :
+No rashes or petechiae , linear and burn scars as above
+Pertinent Results :
+2014-04-23 07:56 AM
+WBC - 9.4 # RBC - 4.75 HGB - 14.7 HCT - 42.2 MCV - 89 MCH - 30.9 MCHC - 34.8 RDW - 13.6
+2014-04-23 07:56 AM
+PLT COUNT - 330
+2014-04-23 07:56 AM
+NEUTS - 73.0 * LYMPHS - 21.8 MONOS - 3.8 EOS - 1.1 BASOS - 0.3
+2014-04-23 07:56 AM
+ASA - NEG ETHANOL - NEG ACETMNPHN - NEG bnzodzpn - NEG barbitrt - NEG tricyclic - POS
+2014-04-23 07:56 AM
+LITHIUM - LESS THAN
+2014-04-23 07:56 AM
+DIGOXIN -< 0.2 *
+2014-04-23 07:56 AM
+GLUCOSE - 116 * UREA N - 14 CREAT - 1.0 SODIUM - 137 POTASSIUM - 4.5 CHLORIDE - 105 TOTAL CO2 - 20 * ANION GAP - 17
+2014-04-23 07:56 AM
+CALCIUM - 9.7 PHOSPHATE - 3.7 MAGNESIUM - 2.1
+2014-04-23 07:56 AM
+ALT ( SGPT )- 21 AST ( SGOT )- 40 ALK PHOS - 70 AMYLASE - 59 TOT BILI - 0.4
+2014-04-23 07:56 AM
+LIPASE - 66 *
+2014-04-23 08:00 AM URINE
+BLOOD - NEG NITRITE - NEG PROTEIN - NEG GLUCOSE - NEG KETONE - TR BILIRUBIN - NEG UROBILNGN - NEG PH - 6.5 LEUK - NEG
+2014-04-23 08:13 AM URINE bnzodzpn - POS barbitrt - NEG opiates - NEG cocaine - NEG amphetmn - NEG mthdone - NEG
+2014-04-23 01:38 PM
+CK ( CPK )- 4713 *
+2014-04-23 03:45 PM URINE
+UCG - NEGATIVE
+2014-04-23 03:56 PM
+D-DIMER - 7998 *
+CXR :
+Probable ateletasis of lingula , consistent with pneumonitis
+EKG :
+NSR R 60 Normal axis , intervals , incomplete RBBB , flat T aVL , V2 , TWI V1
+CT Chest - shows bilateral segmental , subsegmental PEs
+B/L LE LENIs - negative
+Brief Hospital Course :
+CMED CSRU Course :
+Patient was intubated in John for airway protection and administation of charcoal .
+Toxicology consulted and felt that patient most likely had benzo overdose .
+ABG revealed widened A-a gradient so a d-dimer was sent which was elevated .
+Patient had CTA which showed bilateral pulmonary embolisms .
+Patient was started on heparin drip and bilateral lower extremeties were done which were negative for DVT .
+Patient was exubated after 1 day in ICU after waking up .
+Overnight in the ICU patient was noticed to have painful bullae on hands and arm along with swelling .
+Dermatology and plastic surgery were consulted who felt that symptoms were due to trauma ; it was not felt that patient had compartment syndrome .
+Patient was splinted and UE were kept elevated .
+Patient was gradually put back on her outpatient xanax dose of 1 mg qid and clozaril was restarted .
+Patient was transferred to floor after spending 1 day in the ICU .
+Once on the floor patient stable .
+Plastic did not feel that patient had any compartment syndrome and recommended aggresive upper extremity elevation for swelling reduction .
+While on the floor patient 's hands improved with good range of motion of left hand , however Jones some poor range of motion of right .
+X-ray of the hands and wrist were obtained which were negative .
+Patient seen by PT and OT who recommended hand exercises and splints for patient .
+Patient was put on coumadin that was bridged with lovenox unti lINR theraputic 01-23 .
+Patient conitnued to have SI while on floor and was transferred to psychiatry .
+While on the floor patient 's urinalysis suggestive of UTI and was put on 6 day course of levofloxacin .
+Medications on Admission :
+Propanolol XL 80 mg qd
+Modifinal 100 mg po qd
+Lamictal 100 mg po bid
+Alprazolam 1 mg po qid
+Senna
+Trazadone 200 mg po qhs
+Clomipramine 100 mg po qhs
+Pantopraozle 40 mg po qd
+Clozapine 300 mg po qhs
+Folate 1 mg po qd
+Multivitamin
+Discharge Medications :
+1. Acetaminophen 325 mg Tablet Sig : 1-2 Tablets PO Q4-6H ( every 4 to 6 hours ) as needed .
+2. Lamotrigine 100 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+3. Pantoprazole Sodium 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ) .
+4. Folic Acid 1 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+5. Multivitamin Capsule Sig : One ( 1 ) Cap PO DAILY ( Daily ) .
+6. Senna 8.6 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+7. Clozapine 25 mg Tablet Sig : One ( 1 ) Tablet PO HS ( at bedtime ) .
+8. Warfarin Sodium 3 mg Tablet Sig : One ( 1 ) Tablet PO at bedtime .
+9. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) .
+10. Trazodone HCl 100 mg Tablet Sig : Two ( 2 ) Tablet PO HS ( at bedtime ) as needed .
+11. Alprazolam 1 mg Tablet Sig : One ( 1 ) Tablet PO QID ( 4 times a day ) .
+12. Levofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 3 days .
+13. Bisacodyl 5 mg Tablet , Delayed Release ( E.C. ) Sig : Two ( 2 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ) as needed .
+14. Nicotine 14 mg / 24 hr Patch 24 HR Sig : One ( 1 ) Patch 24 HR Transdermal DAILY ( Daily ) .
+Discharge Disposition :
+Extended Care
+Discharge Diagnosis :
+Benzodiazapine Overdose
+Traumatic / pressure bullae
+Bipolar Disorder
+Discharge Condition :
+Stable - Swelling in hands reduced and range of motion continue to improve .
+Discharge Instructions :
+Please continue to take coumadin as directed by your doctors until told to stop for clots found in your lungs .
+Please continue to take antibiotics as directed for urinary tract infection for 3 more days .
+Please conitnue to keep hands elevated in bed until follow up appointment with plastic surgery .
+Followup Instructions :
+Patient will be admitted to psychiatry service
+Patient should follow up with at plastic surgery clinic in 2 weeks .
+Appointment setup for Tues. 05-13 at 10 am .
+3rd floor Henderson Building with Dr. Black ( 650 ) 866-1361
+Raymond William MD 50-154
+Completed by : Simon Claudine Audrey MD 82-812 2014-04-28 @ 1227
+Signed electronically by : DR. Tracey Mccourtney on : MON 2014-05-05 10:26 PM
+( End of Report )

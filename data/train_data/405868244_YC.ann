@@ -1,0 +1,20 @@
+T1	problem 852 868	pregnancy , term
+T2	treatment 454 469	docusate sodium
+T3	problem 488 500	constipation
+T4	problem 1130 1151	perineal , 1st degree
+T5	treatment 640 680	maalox-tablets quick dissolve / chewable
+T6	problem 700 713	upset stomach
+T7	test 301 315	cnm evaluation
+T8	problem 1465 1487	observed abnormalities
+T9	problem 533 537	pain
+T10	treatment 1299 1305	repair
+T11	problem 1309 1341	first degree perineal laceration
+T12	test 1555 1561	weight
+T13	treatment 501 510	ibuprofen
+T14	problem 1117 1127	laceration
+T15	treatment 589 627	prenatal multivitamins ( stuartnatal )
+T16	test 1544 1550	apgars
+R1	TrAP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T5 Arg2:T6
+R3	TrAP Arg1:T10 Arg2:T11
+R4	TrAP Arg1:T13 Arg2:T9

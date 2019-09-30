@@ -1,0 +1,49 @@
+T1	problem 1604 1623	hepatic candidiasis
+T2	problem 1580 1598	burkitt's lymphoma
+T3	problem 327 384	the previously noted enumerable hepatic cyst in her liver
+T4	treatment 1451 1458	marinol
+T5	treatment 1396 1399	tpn
+T6	problem 251 264	liver lesions
+T7	treatment 1869 1875	colace
+T8	test 288 300	a repeat mri
+T9	problem 539 547	lymphoma
+T10	problem 1856 1863	itching
+T11	problem 485 504	hepatic candidiasis
+T12	problem 463 474	these cysts
+T13	treatment 774 782	ambisome
+T14	treatment 1931 1939	nystatin
+T15	treatment 1981 1988	peridex
+T16	treatment 826 837	fluconazole
+T17	treatment 1898 1906	protonix
+T18	treatment 1728 1736	ambisome
+T19	test 929 944	her white count
+T20	problem 954 962	elevated
+T21	problem 1162 1173	hypotension
+T22	test 1179 1184	sbp s
+T23	test 877 888	white count
+T24	treatment 1249 1269	two iv fluid boluses
+T25	problem 1026 1033	febrile
+T26	treatment 694 702	ambisome
+T27	treatment 1755 1762	marinol
+T28	treatment 985 994	her g-csf
+T29	problem 563 572	burkitt's
+T30	treatment 1815 1821	atarax
+T31	problem 184 202	berkitt's lymphoma
+T32	test 1329 1344	her vital signs
+T33	treatment 601 609	ambisome
+T34	problem 642 665	her hepatic candidiasis
+T35	problem 1532 1539	guarded
+T36	test 1298 1317	her blood pressures
+T37	test 1038 1053	her white count
+T38	test 895 905	hematocrit
+T39	treatment 1198 1211	her captopril
+T40	test 850 874	the patient 's platelets
+R1	TeCP Arg1:T8 Arg2:T3
+R2	PIP Arg1:T12 Arg2:T11
+R3	PIP Arg1:T12 Arg2:T9
+R4	TeRP Arg1:T19 Arg2:T20
+R5	TeRP Arg1:T22 Arg2:T21
+R6	TrNAP Arg1:T28 Arg2:T20
+R7	PIP Arg1:T29 Arg2:T9
+R8	TrAP Arg1:T30 Arg2:T10
+R9	TrAP Arg1:T33 Arg2:T34

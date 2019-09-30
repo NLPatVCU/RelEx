@@ -1,0 +1,77 @@
+T1	test 595 605	a chest ct
+T2	problem 613 636	left upper lobe nodules
+T3	test 2769 2797	the neurological examination
+T4	test 639 653	a head ct scan
+T5	problem 1671 1689	vasovagal activity
+T6	problem 1566 1592	potential seizure activity
+T7	test 2056 2061	pulse
+T8	treatment 1007 1024	radiation therapy
+T9	treatment 2866 2901	inferior vena cava filter placement
+T10	problem 1214 1244	right lower extremity swelling
+T11	problem 1305 1337	a femoral deep venous thrombosis
+T12	test 3339 3350	an mri scan
+T13	treatment 939 951	chemotherapy
+T14	problem 3119 3137	a neurologic event
+T15	problem 708 721	l5 metastasis
+T16	test 1940 1964	the physical examination
+T17	problem 2007 2021	acute distress
+T18	problem 557 588	lesions in the liver and spleen
+T19	problem 1894 1914	known drug allergies
+T20	treatment 3689 3709	ivc filter placement
+T21	treatment 1072 1093	the radiation therapy
+T22	problem 3599 3611	complication
+T23	problem 833 849	cord compression
+T24	problem 751 784	epidural and paraspinal extension
+T25	problem 3493 3512	metastatic melanoma
+T26	treatment 957 961	dtic
+T27	problem 62 109	deep venous thrombosis of right lower extremity
+T28	test 2664 2682	the extremity exam
+T29	problem 2699 2744	2+ pitting edema in the right lower extremity
+T30	test 3353 3370	neurology consult
+T31	problem 2282 2307	jugular venous distention
+T32	test 2452 2464	auscultation
+T33	test 2067 2079	respirations
+T34	problem 222 269	deep venous thrombosis of right lower extremity
+T35	test 2469 2479	percussion
+T36	problem 1453 1474	some seizure activity
+T37	treatment 3029 3042	the procedure
+T38	problem 727 737	a fracture
+T39	treatment 3451 3466	anticoagulation
+T40	problem 3533 3547	cns metastases
+T41	problem 1534 1548	cns metastases
+T42	test 2024 2042	the blood pressure
+T43	treatment 966 975	tamoxifen
+T44	treatment 3762 3770	decadron
+T45	problem 295 314	metastatic melanoma
+T46	test 3377 3383	an eeg
+T47	problem 1356 1375	a witnessed episode
+T48	problem 811 827	a t11 metastasis
+T49	problem 2352 2426	appreciable cervical , supraclavicular , axillary , or inguinal adenopathy
+T50	test 1809 1830	the review of systems
+T51	problem 2311 2328	increased thyroid
+T52	problem 2523 2556	a i / vi systolic ejection murmur
+T53	test 2113 2118	heent
+T54	test 673 697	an mri scan of the spine
+T55	problem 486 498	his melanoma
+T56	problem 464 483	metastatic melanoma
+T57	treatment 3785 3793	dilantin
+T58	test 1249 1277	lower extremity noninvasives
+T59	treatment 2995 3013	postoperative care
+T60	test 2089 2102	a temperature
+T61	problem 3217 3248	any further neurologic activity
+T62	problem 1178 1196	two major symptoms
+T63	treatment 3550 3573	an ivc filter placement
+T64	test 2853 2861	venogram
+R1	TeRP Arg1:T1 Arg2:T2
+R2	PIP Arg1:T5 Arg2:T6
+R3	PIP Arg1:T10 Arg2:T11
+R4	TeRP Arg1:T16 Arg2:T17
+R5	TeRP Arg1:T28 Arg2:T29
+R6	TrNAP Arg1:T39 Arg2:T25
+R7	TrNAP Arg1:T39 Arg2:T40
+R8	PIP Arg1:T47 Arg2:T36
+R9	PIP Arg1:T48 Arg2:T23
+R10	TeRP Arg1:T54 Arg2:T15
+R11	TeRP Arg1:T54 Arg2:T38
+R12	PIP Arg1:T55 Arg2:T18
+R13	TeRP Arg1:T58 Arg2:T11

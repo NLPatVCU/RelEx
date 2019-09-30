@@ -1,0 +1,208 @@
+T1	problem 3885 3900	calf tenderness
+T2	test 4322 4325	cbc
+T3	problem 4858 4877	left axis deviation
+T4	problem 4515 4535	right hydronephrosis
+T5	problem 3602 3613	tachycardia
+T6	test 1124 1127	bun
+T7	problem 1469 1499	prostate ca in the pelvic area
+T8	problem 1441 1461	obstructive uropathy
+T9	problem 1637 1675	the patient &apos;s hematocrit dropped
+T10	test 5363 5377	an arteriogram
+T11	test 1334 1352	further evaluation
+T12	problem 1356 1373	his renal failure
+T13	problem 1402 1426	bilateral hydronephrosis
+T14	treatment 547 573	nephrostomy tube placement
+T15	problem 514 534	persistent hematuria
+T16	problem 451 462	prostate ca
+T17	treatment 6860 6871	the hospice
+T18	test 3946 3957	examination
+T19	problem 3539 3583	some basilar crackles at the right lung base
+T20	treatment 2800 2811	bethanechol
+T21	problem 2319 2334	epigastric pain
+T22	test 4189 4208	liver function test
+T23	treatment 6920 6927	hospice
+T24	problem 2361 2369	headache
+T25	problem 246 268	metastatic prostate ca
+T26	test 4391 4394	inr
+T27	problem 5576 5590	renal function
+T28	problem 1513 1538	the increasing creatinine
+T29	problem 4446 4458	cardiomegaly
+T30	treatment 5918 5936	sodium bicarbonate
+T31	problem 5948 5970	his metabolic acidosis
+T32	treatment 6972 6983	bethanechol
+T33	treatment 7012 7021	clonidine
+T34	treatment 810 849	transurethral resection of the prostate
+T35	problem 874 902	persistent urinary retention
+T36	problem 2375 2384	bone pain
+T37	problem 3364 3393	mucous membranes slightly dry
+T38	problem 3616 3681	grade ii / vi systolic ejection murmur at the left sternal border
+T39	problem 331 343	hypertension
+T40	treatment 6534 6550	crisis treatment
+T41	problem 6554 6584	this well advanced prostate ca
+T42	problem 198 217	acute renal failure
+T43	test 4307 4315	globulin
+T44	treatment 2680 2686	colace
+T45	problem 4553 4601	an asymmetrically thickened urinary bladder wall
+T46	test 3903 3921	homan &apos;s sign
+T47	treatment 2589 2599	nitropaste
+T48	problem 3500 3511	thyromegaly
+T49	problem 349 355	anemia
+T50	treatment 7562 7569	hospice
+T51	problem 5679 5717	his electrolyte and metabolic acidosis
+T52	test 4225 4245	alkaline phosphatase
+T53	test 6236 6239	cpk
+T54	test 5821 5851	the patient &apos;s hematocrit
+T55	test 6072 6082	creatinine
+T56	test 1742 1756	his hematocrit
+T57	test 4154 4164	creatinine
+T58	problem 2480 2491	prostate ca
+T59	problem 72 85	renal failure
+T60	treatment 2546 2555	clonidine
+T61	test 5441 5461	urology consultation
+T62	test 6032 6050	his renal function
+T63	test 5293 5303	hematocrit
+T64	treatment 1570 1593	a left nephrostomy tube
+T65	problem 7156 7165	agitation
+T66	test 4482 4507	ct scan of the renal area
+T67	test 1211 1236	prostate specific antigen
+T68	test 3227 3243	respiratory rate
+T69	test 4338 4348	hematocrit
+T70	problem 297 325	status post left nephrostomy
+T71	problem 5239 5268	the patient &apos;s hematuria
+T72	problem 4604 4649	a mass like thickening of the urinary bladder
+T73	problem 4704 4709	tumor
+T74	problem 4671 4691	detrusor hypertrophy
+T75	test 3514 3531	chest examination
+T76	treatment 622 640	further management
+T77	treatment 1704 1739	two units of packed red blood cells
+T78	test 4133 4139	bicarb
+T79	treatment 5553 5572	a right nephrostomy
+T80	problem 4836 4855	atrial fibrillation
+T81	treatment 2662 2670	dulcolax
+T82	problem 1315 1331	body weight loss
+T83	treatment 1884 1894	kayexalate
+T84	problem 1899 1911	hyperkalemia
+T85	problem 6177 6196	atrial fibrillation
+T86	problem 274 294	obstructive uropathy
+T87	problem 2509 2529	known drug allergies
+T88	test 1132 1142	creatinine
+T89	treatment 7290 7303	senna tablets
+T90	treatment 7452 7462	nephrocaps
+T91	test 3172 3183	temperature
+T92	test 1160 1170	creatinine
+T93	test 4216 4219	ast
+T94	test 4145 4148	bun
+T95	problem 2245 2250	fever
+T96	treatment 7205 7224	nitroglycerin paste
+T97	test 3203 3217	blood pressure
+T98	problem 757 787	adenocarcinoma of the prostate
+T99	problem 654 669	present illness
+T100	test 4712 4723	the ct scan
+T101	problem 4731 4777	a cavitary lung lesion in the right lower lobe
+T102	test 4171 4182	blood sugar
+T103	test 5768 5782	his hematocrit
+T104	treatment 2653 2659	lupron
+T105	problem 361 392	gastroesophageal reflux disease
+T106	problem 3155 3169	acute distress
+T107	test 6202 6218	ventricular rate
+T108	treatment 2716 2731	ferrous sulfate
+T109	problem 1290 1310	urinary incontinence
+T110	problem 2210 2222	constipation
+T111	problem 2228 2235	dysuria
+T112	problem 2494 2503	allergies
+T113	treatment 1621 1634	the procedure
+T114	problem 2468 2474	anemia
+T115	problem 4886 4910	nonspecific st-t changes
+T116	test 4412 4423	chest x-ray
+T117	test 4401 4404	ptt
+T118	treatment 7255 7263	prilosec
+T119	test 2042 2062	angiographic studies
+T120	problem 1921 1954	the persistent blood in the urine
+T121	problem 2079 2096	vascular injuries
+T122	problem 2339 2355	body weight loss
+T123	treatment 6282 6295	beta blockers
+T124	test 4356 4370	platelet count
+T125	test 4825 4828	ekg
+T126	problem 4880 4883	lvh
+T127	treatment 7323 7341	sodium bicarbonate
+T128	test 1145 1148	bun
+T129	test 1820 1838	his renal function
+T130	problem 4464 4479	lung infiltrate
+T131	test 4944 4954	ck enzymes
+T132	problem 4808 4822	septic embolus
+T133	problem 2293 2305	palpitations
+T134	test 4102 4111	potassium
+T135	treatment 6767 6774	hospice
+T136	test 4381 4383	pt
+T137	problem 3779 3799	traced pitting edema
+T138	treatment 5474 5484	cystoscopy
+T139	treatment 5807 5818	transfusion
+T140	treatment 6471 6494	conservative management
+T141	problem 2277 2287	chest pain
+T142	problem 2431 2462	gastroesophageal reflux disease
+T143	treatment 2761 2773	lansopiacole
+T144	treatment 7168 7175	niferex
+T145	problem 3805 3813	cyanosis
+T146	problem 220 240	significant problems
+T147	problem 2266 2271	cough
+T148	test 4273 4286	total protein
+T149	test 4086 4092	sodium
+T150	treatment 7385 7392	proscar
+T151	problem 3324 3353	isocoric cataract bilaterally
+T152	problem 1806 1815	hematuria
+T153	problem 3399 3410	oral ulcers
+T154	problem 2413 2425	hypertension
+T155	treatment 5733 5750	blood transfusion
+T156	test 4251 4266	total bilirubin
+T157	problem 2254 2260	chills
+T158	problem 52 67	prostate cancer
+T159	treatment 928 934	lupron
+T160	test 4328 4331	wbc
+T161	problem 1049 1066	failure to thrive
+T162	test 5002 5012	troponin i
+T163	treatment 2617 2626	nilandron
+T164	test 3832 3849	peripheral pulses
+T165	treatment 7112 7118	haldol
+T166	problem 1115 1127	elevated bun
+T167	problem 4925 4941	digitalis affect
+T168	test 4118 4126	chloride
+T169	treatment 7076 7082	colace
+T170	test 3191 3196	pulse
+T171	treatment 939 964	nilandron hormone therapy
+T172	test 4293 4300	albumin
+T173	problem 3821 3829	clubbing
+T174	problem 5394 5438	further damage to the patient &apos;s kidney
+T175	treatment 7418 7425	casodex
+T176	problem 1071 1091	decreased hematocrit
+R1	PIP Arg1:T7 Arg2:T8
+R2	TeCP Arg1:T11 Arg2:T12
+R3	TeRP Arg1:T11 Arg2:T8
+R4	TeRP Arg1:T11 Arg2:T13
+R5	TeRP Arg1:T11 Arg2:T7
+R6	TrCP Arg1:T14 Arg2:T15
+R7	TrAP Arg1:T14 Arg2:T16
+R8	PIP Arg1:T16 Arg2:T15
+R9	TrAP Arg1:T30 Arg2:T31
+R10	TrAP Arg1:T34 Arg2:T35
+R11	TrNAP Arg1:T40 Arg2:T41
+R12	TrAP Arg1:T64 Arg2:T28
+R13	TeRP Arg1:T66 Arg2:T45
+R14	TeRP Arg1:T66 Arg2:T4
+R15	PIP Arg1:T72 Arg2:T73
+R16	PIP Arg1:T74 Arg2:T72
+R17	TeRP Arg1:T75 Arg2:T19
+R18	TrAP Arg1:T77 Arg2:T9
+R19	TrNAP Arg1:T79 Arg2:T27
+R20	TrAP Arg1:T83 Arg2:T84
+R21	TeRP Arg1:T100 Arg2:T101
+R22	PIP Arg1:T110 Arg2:T111
+R23	TrCP Arg1:T113 Arg2:T9
+R24	TeRP Arg1:T116 Arg2:T29
+R25	TeCP Arg1:T119 Arg2:T120
+R26	TeCP Arg1:T119 Arg2:T121
+R27	TeRP Arg1:T125 Arg2:T80
+R28	TeRP Arg1:T125 Arg2:T3
+R29	TeRP Arg1:T125 Arg2:T126
+R30	TeRP Arg1:T125 Arg2:T115
+R31	TrAP Arg1:T140 Arg2:T41
+R32	TrAP Arg1:T165 Arg2:T65

@@ -1,0 +1,142 @@
+T1	problem 2203 2225	bilateral arcussenilis
+T2	test 2718 2739	her peripheral pulses
+T3	problem 926 937	diaphoresis
+T4	problem 6149 6158	agitation
+T5	treatment 3830 3843	the procedure
+T6	problem 2976 3005	left ventricular hyper-trophy
+T7	test 6256 6292	the patient &apos;s prothrombin time
+T8	treatment 5701 5733	coumadin anticoagulation therapy
+T9	problem 2578 2584	gallop
+T10	problem 1845 1853	glaucoma
+T11	test 2901 2910	platelets
+T12	problem 860 876	light-headedness
+T13	problem 956 962	nausea
+T14	problem 902 921	shortness of breath
+T15	problem 3194 3236	70% stenosis of her left circumflex artery
+T16	test 2866 2869	ptt
+T17	problem 3361 3398	left internal carotid stenosis of 90%
+T18	treatment 1192 1216	aortic valve replacement
+T19	problem 512 529	exertional angina
+T20	problem 534 544	chest pain
+T21	problem 561 577	light-headedness
+T22	treatment 6033 6041	coumadin
+T23	problem 5173 5180	aphasia
+T24	problem 980 988	vomiting
+T25	problem 1077 1085	the pain
+T26	problem 2696 2704	cyanosis
+T27	problem 2274 2277	jvd
+T28	test 2856 2858	pt
+T29	problem 1676 1692	uterine fibroids
+T30	problem 1746 1777	known bilateral carotid disease
+T31	problem 1884 1908	claudication in her legs
+T32	problem 3239 3283	50% stenosis of the left anterior descending
+T33	test 2126 2140	blood pressure
+T34	treatment 1948 1972	medications on admission
+T35	treatment 3727 3755	right carotid endarterectomy
+T36	problem 2110 2118	afebrile
+T37	problem 179 195	carotid stenosis
+T38	treatment 5777 5805	her aortic valve replacement
+T39	test 2921 2924	ekg
+T40	problem 3011 3047	poor anterior progression of r-waves
+T41	treatment 5967 5977	nifedipine
+T42	problem 4538 4602	some noted right upper and right lower extremity discoordination
+T43	problem 1003 1015	the episodes
+T44	treatment 4622 4636	a heparin drip
+T45	treatment 455 480	aortic valve replace-ment
+T46	problem 391 406	aortic stenosis
+T47	problem 411 421	chest pain
+T48	problem 4095 4128	her left upper extremity weakness
+T49	treatment 5891 5909	her rehabilitation
+T50	treatment 3598 3626	coronary artery bypass graft
+T51	test 2081 2101	physical examination
+T52	problem 2685 2693	clubbing
+T53	test 2839 2849	creatinine
+T54	test 3332 3351	carotid angiography
+T55	problem 3401 3462	right internal carotid artery &quot; critical stenosis &quot;
+T56	treatment 5637 5652	heparin therapy
+T57	test 4741 4752	angiography
+T58	problem 4850 4897	significant stenosis of the left carotid artery
+T59	test 2801 2807	sodium
+T60	problem 1933 1945	hypertension
+T61	test 1603 1627	an aortic valve gradient
+T62	treatment 3541 3568	an aortic valve replacement
+T63	problem 1090 1106	light-headedness
+T64	treatment 4957 4986	a left carotid endarterectomy
+T65	treatment 5936 5945	lopressor
+T66	test 2885 2895	hematocrit
+T67	problem 1560 1598	right heart wall motion abnormali-ties
+T68	problem 2290 2325	a slow carotid upstroke bilaterally
+T69	problem 4700 4724	some elements of aphasia
+T70	test 2814 2823	potassium
+T71	test 440 450	evaluation
+T72	problem 5223 5243	the residual deficit
+T73	problem 5261 5295	some left upper extremity weakness
+T74	problem 2708 2713	edema
+T75	problem 4649 4673	the right-sided symptoms
+T76	treatment 3576 3595	# 19 st. jude valve
+T77	test 2830 2833	bun
+T78	problem 201 216	aortic stenosis
+T79	problem 2371 2389	transmitted murmur
+T80	problem 700 710	chest pain
+T81	treatment 1707 1735	total abdominal hysterectomy
+T82	test 1530 1547	ejection fraction
+T83	problem 1240 1260	hypercholesterolemia
+T84	problem 4502 4535	the left upper extremity weakness
+T85	problem 4357 4376	atrial fibrillation
+T86	test 2173 2190	heent examination
+T87	treatment 2002 2024	timoptic solution 0.5%
+T88	problem 2339 2363	bilateral carotid bruits
+T89	problem 222 245	coronary artery disease
+T90	problem 716 743	a dull pressure in her neck
+T91	treatment 5583 5612	her rehabilitation activities
+T92	test 2438 2457	cardiac examination
+T93	problem 2523 2572	systolic murmur at the right upper sternal border
+T94	problem 3288 3329	10% stenosis of the right coronary artery
+T95	problem 4473 4484	a new event
+T96	test 2875 2878	wbc
+T97	test 1419 1433	echocardiogram
+T98	problem 1497 1525	left ventricular hypertrophy
+T99	problem 1263 1275	hypertension
+T100	problem 4280 4308	diffuse small vessel disease
+T101	problem 3887 3921	some left upper extremity weakness
+T102	treatment 3642 3662	saphenous vein graft
+T103	treatment 5998 6015	timoptic solution
+T104	problem 6175 6184	confusion
+T105	treatment 5444 5452	a walker
+T106	treatment 1983 1990	aspirin
+T107	problem 1377 1392	aortic stenosis
+T108	test 2411 2423	auscultation
+T109	test 3153 3176	cardiac catheterization
+T110	problem 4239 4249	infarction
+T111	test 4204 4213	a ct scan
+T112	test 1168 1178	evaluation
+T113	problem 1306 1314	diabetes
+T114	treatment 6092 6098	haldol
+T115	test 2154 2164	heart rate
+T116	problem 2623 2632	nontender
+T117	problem 679 695	light-headedness
+R1	PIP Arg1:T12 Arg2:T13
+R2	PIP Arg1:T12 Arg2:T3
+R3	PIP Arg1:T12 Arg2:T14
+R4	PIP Arg1:T19 Arg2:T20
+R5	PIP Arg1:T19 Arg2:T21
+R6	TeRP Arg1:T39 Arg2:T6
+R7	TeRP Arg1:T39 Arg2:T40
+R8	TrAP Arg1:T45 Arg2:T46
+R9	PIP Arg1:T46 Arg2:T47
+R10	TeRP Arg1:T54 Arg2:T17
+R11	TeRP Arg1:T54 Arg2:T55
+R12	TeRP Arg1:T57 Arg2:T58
+R13	TrAP Arg1:T64 Arg2:T58
+R14	PIP Arg1:T72 Arg2:T73
+R15	TrAP Arg1:T81 Arg2:T29
+R16	TeRP Arg1:T86 Arg2:T1
+R17	TeRP Arg1:T92 Arg2:T93
+R18	TeRP Arg1:T97 Arg2:T98
+R19	TeRP Arg1:T97 Arg2:T67
+R20	PIP Arg1:T104 Arg2:T4
+R21	TeRP Arg1:T109 Arg2:T15
+R22	TeRP Arg1:T109 Arg2:T32
+R23	TeRP Arg1:T109 Arg2:T94
+R24	TrAP Arg1:T114 Arg2:T4
+R25	TrAP Arg1:T114 Arg2:T104

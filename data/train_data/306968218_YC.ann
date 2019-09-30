@@ -1,0 +1,25 @@
+T1	problem 526 530	pain
+T2	treatment 703 711	percocet
+T3	problem 731 735	pain
+T4	problem 846 861	known allergies
+T5	problem 619 623	pain
+T6	treatment 589 598	ibuprofen
+T7	problem 690 702	constipation
+T8	problem 1110 1148	insulin dependent gestational diabetic
+T9	treatment 531 557	colace ( docusate sodium )
+T10	problem 576 588	constipation
+T11	problem 1151 1162	prior c / s
+T12	test 323 343	attending evaluation
+T13	problem 1092 1095	iup
+T14	test 1421 1427	apgars
+T15	problem 880 896	repeat c / s pps
+T16	problem 977 980	iup
+T17	test 1432 1438	weight
+T18	treatment 624 664	milk of magnesia ( magnesium hydroxide )
+T19	problem 1165 1169	rsap
+T20	treatment 482 507	tylenol ( acetaminophen )
+R1	TrAP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T6 Arg2:T5
+R3	TrAP Arg1:T9 Arg2:T10
+R4	TrAP Arg1:T18 Arg2:T7
+R5	TrAP Arg1:T20 Arg2:T1

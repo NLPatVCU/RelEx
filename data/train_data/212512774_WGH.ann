@@ -1,0 +1,38 @@
+T1	problem 307 331	second degree laceration
+T2	test 938 941	efw
+T3	test 1329 1332	ctx
+T4	test 863 866	cta
+T5	test 772 777	heent
+T6	problem 908 914	murmur
+T7	problem 355 381	abnormal laboratory result
+T8	problem 1060 1087	copious amounts clear fluid
+T9	test 993 999	extrem
+T10	treatment 285 301	vaginal delivery
+T11	test 1681 1693	apgar scores
+T12	test 1134 1146	digital exam
+T13	treatment 2588 2594	folate
+T14	problem 975 990	mild irreg. ctx
+T15	test 1226 1233	adnexae
+T16	test 1156 1175	cervix digital exam
+T17	problem 1579 1609	premature rupture of membranes
+T18	problem 828 834	masses
+T19	test 1303 1307	fhts
+T20	treatment 1770 1805	spontaneous vertex vaginal delivery
+T21	test 1292 1295	efw
+T22	treatment 458 493	spontaneous vertex vaginal delivery
+T23	problem 1256 1283	advanced gest uterus gravid
+T24	test 1206 1208	os
+T25	problem 384 401	abnormal pap test
+T26	test 1090 1105	fluid amnioswab
+T27	problem 1110 1123	fern positive
+T28	problem 404 422	monilial vaginitis
+T29	treatment 642 666	routine post partum care
+T30	problem 923 929	gravid
+T31	problem 708 738	premature rupture of membranes
+T32	test 1346 1358	uterine size
+T33	test 1126 1129	sse
+T34	test 949 953	fhts
+T35	treatment 2570 2583	multivitamins
+T36	problem 879 887	wheezing
+R1	TrCP Arg1:T10 Arg2:T1
+R2	TeRP Arg1:T26 Arg2:T27

@@ -1,0 +1,19 @@
+T1	problem 435 449	r elbow injury
+T2	problem 641 655	r elbow strain
+T3	problem 699 707	effusion
+T4	treatment 1248 1280	gentle range of motion exercises
+T5	problem 559 566	bruises
+T6	treatment 744 750	motrin
+T7	problem 790 794	pain
+T8	problem 904 917	your symptoms
+T9	problem 535 542	sprains
+T10	problem 1216 1229	your symptoms
+T11	problem 545 554	fractures
+T12	test 677 681	xray
+T13	problem 711 719	fracture
+T14	treatment 1143 1146	ice
+T15	problem 1150 1160	sore areas
+R1	TrAP Arg1:T6 Arg2:T7
+R2	TeRP Arg1:T12 Arg2:T3
+R3	TeRP Arg1:T12 Arg2:T13
+R4	TrAP Arg1:T14 Arg2:T15

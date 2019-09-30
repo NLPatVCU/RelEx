@@ -1,0 +1,118 @@
+130959255
+FIH
+1431063
+10119/hy66
+738478
+6/15/1994 12:00:00 AM
+RIGHT OCCIPITAL HEMORRHAGIC STROKE .
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+6-15-94
+DISCHARGE DATE :
+6-26-94
+PRINCIPAL DIAGNOSIS :
+Right occipital hemorrhagic stroke .
+HISTORY OF PRESENT ILLNESS :
+Ms. Tlandkotesmitskote is a patient who came complaining of feeling dizzy and bumping into objects on her left side .
+She is a seventy-one year old female with a history of hypertension who is in otherwise good health .
+This morning while on a cruise ship , she was eating breakfast when she suddenly noticed she could not see a roll on her plate although she knew that it was there .
+She also felt dizzy and the room was spinning .
+While walking , she kept bumping into object on her left side .
+She also complained of a dull , right sided headache over the right eyebrow .
+Symptoms lasted about five hours and then gradually resolved except for the change in vision .
+She denied having any weakness , numbness , or pain .
+She also denies having hoarseness , difficulties in finding words , speaking , hiccups , or diplopia .
+PAST MEDICAL HISTORY :
+The past medical history is significant for hypertension .
+The past surgical history is negative .
+MEDICATIONS ON ADMISSION :
+Atenolol , 25 mg PO qd .
+ALLERGIES :
+The patient has no known drug allergies .
+REVIEW OF SYSTEMS :
+On review of systems , the patient denied any history of transient ischemic attacks .
+FAMILY HISTORY :
+Father and mother died in their eighties of heart disease .
+SOCIAL HISTORY :
+The patient denied using tobacco .
+PHYSICAL EXAMINATION :
+On physical examination , she was a very pleasant , moderately obese female in no apparent distress .
+She was afebrile and her vital signs were stable .
+The head was normocephalic and atraumatic .
+The pupils were equal , round , reactive to light .
+The tympanic membranes were gray .
+The fundi were sharp .
+The neck was supple with full range of movement .
+The lungs were clear to auscultation bilaterally , without rales or wheezes .
+The heart had a recovery regular rate and rhythm .
+The abdomen was soft , nontender , nondistended .
+Extremities revealed 2+ pitting edema in the knees bilaterally .
+The neurological examination revealed that the patient was awake , alert and oriented to person , place and time .
+She was able to subtract serial sevens , remember three out of three objects after five minutes , and there was notable aphasia or word finding difficulty .
+The cranial nerves showed pupils were bilaterally active from 3 to 2 mm .
+There was a dense hemianopsia on the left side .
+The extra ocular muscles were intact bilaterally .
+Corneals were present bilaterally .
+Sensation was intact to light touch and pin prick bilaterally .
+Face was symmetric .
+Eye closing was tight .
+Hearing was intact bilaterally .
+Palate was midline .
+Gag was intact .
+The sternocleidomastoid and trapezius had good strength .
+Tongue was midline .
+Strength was 5/5 in bilateral upper extremities and bilateral lower extremities in detail .
+There was no pronator drift .
+Sensation was intact to light touch , pin prick , and proprioception .
+Cerebellar examination revealed in intention tremor on the right side .
+The patient had considerable difficulty with left finger-to-nose movement , most likely secondary to hemianopsia .
+There was no nystagmus , except for some fine fast beat nystagmus bilateral extremes of abduction .
+Reflexes were symmetric and 2+ bilaterally at the biceps tendon , 2+ bilaterally at brachial radialis , 2+ bilaterally at the patellar tendon , 1+ bilaterally Achilles tendon .
+The toes were downgoing bilaterally .
+Gait :
+patient had difficulty with tandem gait and fell forward while standing on his his toes .
+Otherwise , the gait was normal .
+LABORATORY DATA :
+Laboratory studies on admission demonstrated a sodium of 144 , potassium 4.1 , chloride 106 , bicarbonate 20.0 , BUN and creatinine 12/0.7 , glucose 99 , white blood count of 5.7 , hematocrit of 40.6 , platelet count of 226 , prothrombin time was 9.4 , partial thromboplastin time was 29 .
+The computerized tomography scan was performed and showed a right occipital hemorrhage .
+SUMMARY :
+The patient is a seventy-one year old female with a history of hypertension who now presents with a right occipital hemorrhagic stroke .
+HOSPITAL COURSE :
+The patient was admitted to the hospital for further evaluation and work up .
+The patient was admitted to the Intermediate Care Unit in the Neurology Intensive Care Unit .
+However , she was soon moved out of there as her examination appeared to be stable .
+A Neurosurgery Service consultation was obtained and they felt that no surgical intervention was required .
+The patient underwent a number of tests .
+She had a magnetic resonance imaging study and magnetic resonance imaging angiogram performed which showed a large hemorrhagic lesion on the occipital lobe .
+There was no clear enhancing mass , but follow up was suggested .
+So an magnetic resonance imaging angiogram was obtained and showed the right parietal occipital hemorrhage .
+The MRA showed mild narrowing of the left ICA just distal to the bifurcation .
+There was also scattered T2 hyperintense foci within the periventricular and left frontal white matter consistent with small vessel disease , gliosis or demyelination .
+A Holter monitor was obtained and showed that the patient was in normal sinus rhythm .
+The heart rate was 53 to 106 .
+There were some very rare atrial premature contractions .
+There were no ventricular premature contractions .
+An echocardiogram was obtained and showed that the ejection fraction was 60% and there was no thrombus .
+It was felt to be within normal limits .
+Over the ensuing days , the patient had several episodes of confusion at night .
+However , these gradually resolved .
+She also developed what appeared to be urinary tract infection and was placed on PO Bactrim .
+By 6-26-94 , the patient was felt to be ready for discharge .
+At that time , she was afebrile and her vital signs were stable .
+She was tolerating a regular diet .
+She was awake , alert and oriented to person , place , and time .
+She continued to have a dense left hemianopsia , but otherwise was neurologically intact .
+The patient was discharged home with Santea Gehawhi General Hospital care and instructed to follow up .
+MEDICATIONS ON DISCHARGE :
+The patient was discharged on Tenormin , 25 mg PO qd ; Bactrim DS , one PO bid x5 days .
+TATAJO SEE , M.D.
+TR :
+ba / bmot
+DD :
+8-4-94
+TD :
+08/06/94
+CC :

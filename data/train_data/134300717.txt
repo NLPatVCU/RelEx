@@ -1,0 +1,86 @@
+134300717
+FIH
+9099750
+22777/5p0t
+355178
+2/23/1993 12:00:00 AM
+DEEP VENOUS THROMBOSIS OF RIGHT LOWER EXTREMITY .
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+2-23-93
+DISCHARGE DATE :
+2-24-93
+PRINCIPAL DIAGNOSIS :
+Deep venous thrombosis of right lower extremity .
+ASSOCIATED DIAGNOSIS :
+Metastatic melanoma .
+HISTORY OF PRESENT ILLNESS :
+This is the second Fairm of Ijordcompmac Hospital admission for Taroby Patient , a 70 year old male with a history of metastatic melanoma .
+His melanoma was originally diagnosed last fall when he presented with lesions in the liver and spleen , and a chest CT showed left upper lobe nodules .
+A head CT scan was negative , but an MRI scan of the spine showed an L5 metastasis with a fracture and had with epidural and paraspinal extension .
+In addition , there was a T11 metastasis with cord compression .
+Approximately one week ago , he was admitted to the Fairm of Ijordcompmac Hospital for chemotherapy with DTIC and Tamoxifen .
+At that time , he also began radiation therapy to his lumbosacral spine .
+He is continuing on the radiation therapy to date .
+On February 23 , Mr. Patient presented to Dr. Patient &apos;s office with two major symptoms .
+First , he had right lower extremity swelling and lower extremity noninvasives confirmed the diagnosis of a femoral deep venous thrombosis .
+Second , he had a witnessed episode in which his eyes rolled to the back of his head and there was a question of some seizure activity .
+In the past , he has not been known to have a history of CNS metastases .
+The episode of potential seizure activity occurred in the setting of a bowel movement and may have been associated with vasovagal activity .
+PAST MEDICAL HISTORY :
+The past medical history is as above .
+FAMILY HISTORY :
+Noncontributory .
+REVIEW OF SYSTEMS :
+The review of systems is negative , except as above .
+ALLERGIES :
+The patient has no known drug allergies .
+PHYSICAL EXAMINATION :
+The physical examination reveals a pleasant 70 year old male in no acute distress .
+The blood pressure was 113/70 , pulse 66 , respirations 20 , and a temperature of 96.8 .
+HEENT showed pupils equal , round , reactive to light and accommodation , and extra ocular movements intact .
+The sclerae were anicteric .
+The neck was supple , without jugular venous distention or increased thyroid .
+Nodes :
+There was no appreciable cervical , supraclavicular , axillary , or inguinal adenopathy .
+The chest was clear to auscultation and percussion .
+Cardiac :
+regular rate and rhythm , with a I / VI systolic ejection murmur .
+The abdomen showed a 10 cm liver with the edge palpable 2 fingerbreadths below the right costal margin .
+The extremity exam was notable for 2+ pitting edema in the right lower extremity extending to the knee .
+The neurological examination was nonfocal .
+HOSPITAL COURSE :
+Mr. Patient underwent venogram and inferior vena cava filter placement on February 23 , 1993 and was then he was admitted to the Fairm of Ijordcompmac Hospital for postoperative care .
+He tolerated the procedure well .
+In addition , the second major event that had occurred yesterday was a neurologic event of some kind .
+Over the 24 hours of in house hospitalization , he did not have any further neurologic activity and was able to ambulate without assistance prior to discharge .
+He will be scheduled for an MRI scan , Neurology consult , and an EEG next week as an out patient .
+Mr. Patient was a poor candidate for anticoagulation because of his history of metastatic melanoma and the question of CNS metastases .
+An IVC filter placement was accomplished without complication .
+He is stable on February 24 and ready for discharge to home .
+PROCEDURES :
+IVC filter placement .
+COMPLICATIONS :
+None .
+MEDICATIONS ON DISCHARGE :
+Decadron 4 mg PO bid , Dilantin 100 mg PO tid .
+CONDITION ON DISCHARGE :
+Stable .
+DISPOSITION :
+Mr. Patient will be discharged to home .
+He will have follow up arranged with Dr. Guabenfranda Patient .
+ESTIMATED DISABILITY AND PROBABLE DURATION :
+Permanent .
+CA SHUFF , M.D.
+DICTATING FOR :
+GUABENFRANDA PATIENT , M.D.
+TR :
+it / bmot
+DD :
+2-24-93
+TD :
+02/26/93
+CC :

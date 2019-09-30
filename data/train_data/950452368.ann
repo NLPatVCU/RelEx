@@ -1,0 +1,142 @@
+T1	problem 3153 3173	difficult ambulation
+T2	problem 3198 3230	a small ulcer in the sacral area
+T3	problem 2782 2787	yeast
+T4	test 4451 4468	vancomycin levels
+T5	treatment 3884 3910	maalox plus extra strength
+T6	problem 3956 3967	indigestion
+T7	treatment 3537 3545	tegretol
+T8	treatment 3576 3584	benadryl
+T9	treatment 3763 3768	lasix
+T10	test 4612 4629	vancomycin levels
+T11	treatment 2801 2809	diflucan
+T12	treatment 1099 1114	bypass grafting
+T13	problem 1070 1093	coronary artery disease
+T14	treatment 1286 1303	lumbar diskectomy
+T15	treatment 766 778	chemotherapy
+T16	problem 727 747	status post lymphoma
+T17	treatment 2677 2700	a change of antibiotics
+T18	problem 2556 2577	the persistent fevers
+T19	treatment 557 601	wound closure with bilateral pectoralis flap
+T20	treatment 618 646	coronary artery bypass graft
+T21	treatment 2909 2920	a picc line
+T22	test 1898 1914	respiratory rate
+T23	treatment 1584 1593	synthroid
+T24	treatment 662 682	saphenous vein graft
+T25	treatment 4932 4944	levofloxacin
+T26	treatment 4389 4405	slow iv infusion
+T27	treatment 1227 1253	reconstruction of the knee
+T28	treatment 4707 4717	nizatidine
+T29	treatment 2432 2442	ampicillin
+T30	problem 2503 2514	enterococci
+T31	problem 2537 2546	the wound
+T32	problem 2519 2533	staphylococcus
+T33	treatment 1687 1695	prilosec
+T34	problem 1935 1940	obese
+T35	treatment 1268 1283	cholecystectomy
+T36	treatment 3620 3626	colace
+T37	treatment 503 521	surgical treatment
+T38	treatment 1310 1323	tonsillectomy
+T39	test 2734 2772	further cultures from sputum and urine
+T40	treatment 1453 1467	coated aspirin
+T41	treatment 971 1004	excision in right upper extremity
+T42	test 1836 1850	blood pressure
+T43	problem 3748 3760	constipation
+T44	treatment 2445 2455	gentamicin
+T45	problem 2175 2184	purulence
+T46	treatment 1558 1565	vasotec
+T47	problem 950 958	melanoma
+T48	problem 2011 2053	i / vi and erythema over the sternal wound
+T49	treatment 4081 4087	asacol
+T50	treatment 4148 4161	miracle cream
+T51	problem 1007 1019	hypertension
+T52	treatment 1518 1523	ancef
+T53	problem 2188 2197	discharge
+T54	test 1863 1874	temperature
+T55	treatment 3694 3703	eoc / loc
+T56	treatment 4193 4219	nystatin swish and swallow
+T57	treatment 4042 4048	asacol
+T58	treatment 4321 4331	vancomycin
+T59	test 2489 2500	the culture
+T60	treatment 2704 2714	vancomycin
+T61	treatment 2315 2352	sternal wound debridement and closure
+T62	problem 909 917	lymphoma
+T63	problem 1022 1036	hypothyroidism
+T64	treatment 3657 3664	vasotec
+T65	problem 2999 3019	a small complication
+T66	problem 3041 3059	a left ankle wound
+T67	problem 4310 4314	pain
+T68	treatment 2462 2473	clindamycin
+T69	treatment 2719 2731	levofloxacin
+T70	treatment 783 792	radiation
+T71	test 1883 1888	pulse
+T72	test 4540 4557	vancomycin trough
+T73	treatment 1657 1666	lopressor
+T74	treatment 3800 3807	insulin
+T75	treatment 524 541	wound debridement
+T76	problem 190 213	sternal wound infection
+T77	treatment 3978 3986	magnesia
+T78	problem 4027 4039	constipation
+T79	treatment 1616 1622	asacol
+T80	treatment 1426 1432	elavil
+T81	problem 816 845	an insulin-dependent diabetic
+T82	treatment 2602 2628	vancomycin desensitization
+T83	treatment 1372 1382	vancomycin
+T84	treatment 3845 3854	synthroid
+T85	treatment 1329 1342	adenoidectomy
+T86	test 4516 4532	the trough level
+T87	treatment 2267 2272	ancef
+T88	problem 4594 4609	desensitization
+T89	problem 376 399	sternal wound infection
+T90	problem 460 478	the same diagnosis
+T91	treatment 3065 3087	saphenous vein harvest
+T92	problem 1039 1063	congestive heart failure
+T93	problem 2086 2113	a beefy red cellulitic area
+T94	treatment 2862 2906	expected long term antibiotic administration
+T95	treatment 3256 3272	duoderm dressing
+T96	treatment 1198 1222	multiple prior surgeries
+T97	treatment 2250 2264	iv antibiotics
+T98	treatment 1160 1181	left knee replacement
+T99	treatment 4109 4118	lopressor
+T100	problem 929 947	ulcerative colitis
+T101	problem 2072 2081	the wound
+T102	treatment 4880 4887	lovenox
+T103	treatment 4748 4755	insulin
+T104	treatment 1488 1496	tegretol
+T105	treatment 1357 1369	erythromycin
+T106	treatment 4253 4261	percocet
+T107	problem 1991 2008	a systolic murmur
+T108	treatment 3464 3470	elavil
+T109	treatment 3500 3508	dulcolax
+T110	treatment 1389 1399	bacitracin
+T111	treatment 1719 1726	insulin
+T112	treatment 4812 4819	insulin
+T113	problem 52 77	external wound infections
+T114	problem 871 906	insulin-dependent diabetes mellitus
+R1	PIP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T5 Arg2:T6
+R3	TrAP Arg1:T11 Arg2:T3
+R4	TrAP Arg1:T12 Arg2:T13
+R5	TrAP Arg1:T15 Arg2:T16
+R6	TrAP Arg1:T17 Arg2:T18
+R7	TrAP Arg1:T29 Arg2:T30
+R8	TrAP Arg1:T29 Arg2:T31
+R9	TrAP Arg1:T29 Arg2:T32
+R10	TeRP Arg1:T39 Arg2:T3
+R11	TrAP Arg1:T44 Arg2:T30
+R12	TrAP Arg1:T44 Arg2:T31
+R13	TrAP Arg1:T44 Arg2:T32
+R14	TrAP Arg1:T55 Arg2:T43
+R15	TeRP Arg1:T59 Arg2:T30
+R16	TeRP Arg1:T59 Arg2:T32
+R17	TeCP Arg1:T59 Arg2:T31
+R18	TrAP Arg1:T60 Arg2:T18
+R19	PIP Arg1:T65 Arg2:T66
+R20	TrAP Arg1:T68 Arg2:T30
+R21	TrAP Arg1:T68 Arg2:T31
+R22	TrAP Arg1:T68 Arg2:T32
+R23	TrAP Arg1:T69 Arg2:T18
+R24	TrAP Arg1:T70 Arg2:T16
+R25	TrAP Arg1:T77 Arg2:T78
+R26	TrAP Arg1:T82 Arg2:T18
+R27	TrAP Arg1:T95 Arg2:T2
+R28	TrAP Arg1:T106 Arg2:T67

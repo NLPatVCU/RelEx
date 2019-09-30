@@ -1,0 +1,23 @@
+932057504 DH
+5898830
+809200
+356490
+11/25/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+AGACHBRAUCH , RENSIAANARC
+MRN :
+5898830
+Age :
+44y
+REGISTRATION DATE :
+11/25/2000 01:36 AM
+PRELIMINARY REPORT
+This is to notify you that your patient , AGACHBRAUCH , RENSIAANARC arrived in the Emergency Department at Daughtersvillshamen&apos;s Hospital on 11/25/2000 01:36 AM .
+The patient presented with a chief complaint of AF-RESOLVED .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was TREATED AND RELEASED .
+If you need additional information please call 613-870-0699 .

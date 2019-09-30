@@ -1,0 +1,119 @@
+Admission Date :
+2018-05-24
+Discharge Date :
+2018-05-29
+Date of Birth :
+1964-03-11
+Sex :
+M
+Service :
+CARDIOTHORACIC
+Allergies :
+Keflex / Heparin Agents
+Attending : James F. Bard , M.D.
+Chief Complaint : pt sent to ER after routine F/U for UE DVT with vascular surgery .
+In ER c/o dyspnea and was noted to have mental status changes .
+Major Surgical or Invasive Procedure : none this admission
+AVR ( tissue ) 05-14
+History of Present Illness :
+s/p AVR 05-14 .
+Postop course c/b right upper extremity DVT and postop Afib .
+Discharged home 05-19 with instructions to f/u in vascular clinic .
+Had vascular clinic f/u on day of admission .
+At that time had UE duplex which revealed RUE DVT involving IJ , Axillary , subclav , brachial , and basilic veins .
+Then referred to ER for Tx
+Past Medical History :
+s/p AVR ( #27 pericardial )
+post-op Afib
+HTN
+renal calculi
+? sleep apnea
+seasonal allergies
+s/p 2 surgs. for spermatocele
+s/p oral surgery
+Social History : lives with partner
+professor / Kyra social worker
+quit smoking 20 years ago
+occasional ETOH
+Family History :
+non-contributory for premature CAD ; father had MI in his 70 's
+Physical Exam :
+admission PE
+VS : HR 103 BP 162/69 RR 14 Sat 92% RA
+Neuro : MAE , Follows commands , slightly confused
+Heent : PERRL/EOMI , no JVD
+Resp : CTAB
+CV : RRR S1-S2 , no murmur .
+Sternum stable
+Abdm : soft NT / ND / NABS
+Ext : + distal pulses , no edema
+Discharge PE
+VS : T 99 HR 68 BP 113/72 RR 18 Sat 98% RA
+Gen : comforable
+Neuro : A&Ox3 , MAE , Follows Commands
+Resp : CTA-bilat
+CV:RRR S1-S2 , no MRG
+Resp:CTA-bilat
+Abdm : soft , NT/ND/NABS
+Ext : warm well perfused No CCE
+Pertinent Results :
+2018-05-24 08:55 PM
+GLUCOSE - 193 * UREA N - 23 * CREAT - 1.2 SODIUM - 138 POTASSIUM - 4.6 CHLORIDE - 101 TOTAL CO2 - 21 * ANION GAP - 21 *
+2018-05-24 08:55 PM
+CALCIUM - 8.8 PHOSPHATE - 3.9 MAGNESIUM - 2.4
+2018-05-24 08:55 PM
+PT - 15.0 * PTT - 107.1 * INR ( PT )- 1.3 *
+2018-05-24 01:25 PM
+WBC - 13.3 *# RBC - 3.45 * HGB - 10.6 * HCT - 30.5 * MCV - 88 MCH - 30.6 MCHC - 34.7 RDW - 12.7
+2018-05-28 01:40 PM
+BLOOD WBC - 12.9 * RBC - 3.37 * Hgb - 10.4 * Hct - 29.4 * MCV - 87 MCH - 30.8 MCHC - 35.3 * RDW - 13.3 Plt Ct - 345
+2018-05-29 11:34 AM
+BLOOD PT - 39.1 * INR ( PT )- 4.4 *
+2018-05-25 09:00 AM
+BLOOD HEPARIN DEPENDENT ANTIBODIES - positive
+Brief Hospital Course :
+Pt admitted 05-24 from ER after positive RUE DVT finding in vascular lab .
+During ER evaluation pt was noted to have some degree of dyspnea as well as mental status changes , including loss of short term memory and brief unresponsive period after one dose of IV Benadry and steroids prior to CT scan .
+The CT was negative for CVA but positive for Pulmonary embolism .
+He was transferred to CSRU for evaluation .
+Neurology was consulted and the pt also had MRI which was negative .
+The pt was begun on heparin gtt and was noted to have platelet drop > 50% after infusion began , hepain was d/c 'd.
+Argatroban was started abd a HIT panel was sent , HIT panel was positive .
+Hematology was consulted .
+By the following mornig all mental status changes had cleared and the pt was transferred to the floors for continued care .
+Over the next several days the patient was maintained on Argatrobanwhile coumadin therapy was initiated .
+On HD#6 the pt had a therapeudic INR ( 4.4 ) off Argatroban and wad discharged home .
+He was to have f/u INR check with Dr Lewis on 05-31 .
+Additionally the pt should f/u with the hematology clinic .
+Medications on Admission :
+ASA 81 '
+Atorvastatin 10 '
+Lisinopril 5 '
+Lopressor 50 "
+Amiodarone 200 '
+Discharge Medications :
+1. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ) .
+2. Atorvastatin 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+3. Metoprolol Tartrate 50 mg Tablet Sig :One ( 1 ) Tablet PO BID ( 2 times a day ) .
+4. Amoxicillin-Pot Clavulanate 875-125 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) for 10 days .
+Disp :* 20 Tablet (s)* Refills :* 0 *
+5. Amiodarone 200 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+6. Warfarin 2 mg Tablet Sig : 1.5 Tablets PO as directed : 3 mg 1943-05-29 and 6/1 then as directed by Dr Mace .
+Disp :* 100 Tablet (s)* Refills :* 2 *
+Discharge Disposition :
+Home
+Discharge Diagnosis : s/p AVR 05-14 ( tissue ) readmitted 05-24 w/ pulmonary embolism , RUE DVT , HIT positive
+PMH : HTN , Renal calculi , sleep apnea ,
+Discharge Condition : good
+Discharge Instructions : keep wounds clean and dry .
+OK to shower , no bathing or swimming .
+Take all medications as prescribed .
+Follow-up INR to be drawn 06-01 , by Dr Lewis @ 597-4427
+Followup Instructions :
+Dr Pessolano in 3 days
+Dr Arnold in 3 weeks
+Hematology clinic in 1-2 weeks
+Messersmith della Blore MD 27-337
+Completed by : MARK Yvonne NP 80-AUO 2018-05-29 @ 1552
+Signed electronically by : DR. Edward von der Torros on : WED 2018-06-20 2:58 PM
+( End of Report )

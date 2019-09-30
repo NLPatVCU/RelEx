@@ -1,0 +1,189 @@
+T1	treatment 4127 4140	the procedure
+T2	test 2790 2802	auscultation
+T3	test 7742 7762	alkaline phosphatase
+T4	problem 2735 2756	sclera mildly icteric
+T5	treatment 4003 4029	cadaveric liver transplant
+T6	test 7712 7717	a cbc
+T7	problem 2623 2637	acute distress
+T8	test 7671 7675	labs
+T9	treatment 4223 4226	mmf
+T10	problem 2640 2649	lethargic
+T11	treatment 4291 4297	unasyn
+T12	test 2577 2583	weight
+T13	test 7765 7772	albumin
+T14	treatment 4243 4249	flagyl
+T15	test 7736 7739	alt
+T16	problem 2956 2968	nondistended
+T17	treatment 1883 1890	nadolol
+T18	test 7795 7808	prograf level
+T19	test 7720 7727	chem-10
+T20	test 7730 7733	ast
+T21	test 3589 3599	ultrasound
+T22	problem 3642 3668	severe portal hypertension
+T23	problem 3674 3702	massive peri splenic varices
+T24	treatment 3905 3915	transplant
+T25	problem 7541 7547	chills
+T26	test 2551 2562	vital signs
+T27	problem 7532 7538	fevers
+T28	test 7775 7790	total bilirubin
+T29	test 7872 7884	all cultures
+T30	problem 2502 2525	end stage renal disease
+T31	treatment 7164 7185	insulin sliding scale
+T32	test 7967 7980	blood culture
+T33	problem 7572 7586	abdominal pain
+T34	problem 3758 3784	repeat hepato fungal flare
+T35	treatment 3707 3724	splenorenal shunt
+T36	test 7910 7918	cultures
+T37	treatment 3405 3414	lactulose
+T38	problem 7561 7569	vomiting
+T39	problem 2461 2484	metastatic colon cancer
+T40	problem 7550 7556	nausea
+T41	test 7949 7962	urine culture
+T42	problem 1744 1765	peripheral neuropathy
+T43	treatment 6972 6981	lopressor
+T44	problem 3001 3021	1+ edema bilaterally
+T45	treatment 6951 6954	mmf
+T46	test 6713 6728	total bilirubin
+T47	problem 3476 3486	discomfort
+T48	treatment 6925 6935	prednisone
+T49	test 6596 6599	ast
+T50	problem 3116 3130	mild asterixis
+T51	problem 1722 1741	glucose intolerance
+T52	test 6544 6553	potassium
+T53	treatment 7058 7065	bactrim
+T54	test 6755 6763	fk level
+T55	problem 1707 1719	hypertension
+T56	treatment 1614 1624	four bands
+T57	problem 1542 1560	5 cores of varices
+T58	treatment 7037 7043	colace
+T59	problem 3520 3529	nontender
+T60	treatment 1382 1392	interferon
+T61	test 6605 6608	alt
+T62	test 6615 6635	alkaline phosphatase
+T63	treatment 6994 7002	percocet
+T64	test 1511 1514	egd
+T65	problem 2873 2880	murmurs
+T66	treatment 6375 6381	drains
+T67	treatment 7107 7112	lasix
+T68	problem 364 372	lethargy
+T69	treatment 1367 1376	treatment
+T70	test 6513 6522	platelets
+T71	treatment 7084 7094	tacrolimus
+T72	problem 340 359	worsening confusion
+T73	problem 1271 1277	fevers
+T74	problem 2884 2888	rubs
+T75	treatment 3199 3208	lactulose
+T76	problem 1341 1354	hcv cirrhosis
+T77	test 6176 6206	a heparin independent antibody
+T78	treatment 3260 3270	rifaximine
+T79	problem 1219 1237	any abdominal pain
+T80	test 6492 6502	hematocrit
+T81	problem 7621 7646	inability to eat or drink
+T82	test 6582 6589	glucose
+T83	problem 247 268	hepatitis c cirrhosis
+T84	problem 7589 7618	inability to take medications
+T85	treatment 1083 1098	his medications
+T86	test 6528 6534	sodium
+T87	treatment 3282 3287	lasix
+T88	problem 301 328	positive esophageal varices
+T89	problem 2983 2998	obvious ascites
+T90	treatment 7126 7133	valcyte
+T91	problem 1173 1185	night sweats
+T92	problem 952 966	yellowish eyes
+T93	problem 2115 2135	known drug allergies
+T94	treatment 5633 5642	acyclovir
+T95	problem 3417 3445	difficulty with word finding
+T96	test 4718 4759	duplex ultrasound of the patient 's liver
+T97	treatment 5645 5655	prednisone
+T98	problem 814 822	lethargy
+T99	problem 827 836	confusion
+T100	problem 5185 5233	thrombus within the left and right hepatic veins
+T101	treatment 5658 5661	mmf
+T102	problem 3464 3472	any pain
+T103	problem 969 981	some shaking
+T104	problem 5097 5118	diminished color flow
+T105	treatment 5803 5824	waltham-ludlow drains
+T106	problem 5236 5251	caval narrowing
+T107	treatment 2068 2080	testosterone
+T108	treatment 5942 5957	glucose control
+T109	treatment 2044 2054	retazepine
+T110	test 8082 8116	the pathology results of the liver
+T111	problem 2384 2387	hcv
+T112	problem 850 862	the symptoms
+T113	test 6433 6448	patient 's labs
+T114	treatment 5983 5991	steroids
+T115	treatment 5698 5702	fk 2
+T116	problem 734 752	increased lethargy
+T117	treatment 4396 4404	propofol
+T118	problem 1465 1487	hepatic encephalopathy
+T119	treatment 6115 6134	1 unit of platelets
+T120	test 6153 6167	platelet count
+T121	treatment 614 623	lactulose
+T122	problem 755 764	confusion
+T123	test 4610 4613	alt
+T124	test 4452 4456	labs
+T125	problem 1490 1508	esophageal varices
+T126	treatment 571 580	trazodone
+T127	treatment 2001 2016	insulin regular
+T128	test 537 555	infectious work-up
+T129	treatment 1797 1806	neurontin
+T130	treatment 6845 6853	protonix
+T131	treatment 1980 1985	lasix
+T132	treatment 6868 6877	moltipine
+T133	problem 4991 5070	loss of normal respiratory variations , wave forms and the intrahepatic portion
+T134	test 8020 8040	hepatitis viral load
+T135	treatment 628 638	rifaximine
+T136	test 4619 4639	alkaline phosphatase
+T137	treatment 6892 6903	fluconazole
+T138	problem 3499 3517	slightly distended
+T139	test 4554 4570	serum creatinine
+T140	treatment 4311 4322	fluconazole
+T141	treatment 4346 4353	insulin
+T142	problem 156 177	hepatitis c cirrhosis
+T143	test 4488 4498	hematocrit
+T144	test 4475 4478	wbc
+T145	problem 1432 1451	aggressive behavior
+T146	test 4601 4604	ast
+T147	test 4587 4594	glucose
+T148	problem 2891 2912	positive gynecomastia
+T149	test 4646 4648	pt
+T150	problem 284 298	encephalopathy
+T151	test 4524 4530	sodium
+T152	problem 6362 6372	difficulty
+T153	treatment 1957 1966	lactulose
+T154	test 4673 4676	inr
+T155	problem 2769 2772	lad
+T156	test 4659 4662	ptt
+T157	test 4509 4518	platelets
+T158	problem 467 481	encephalopathy
+T159	treatment 1906 1914	protonix
+T160	problem 4916 4985	a decreased and sluggish flow within the right and left hepatic veins
+T161	treatment 4367 4374	bactrim
+T162	test 5357 5379	short-term ultrasounds
+T163	treatment 101 125	liver transplant surgery
+T164	treatment 4356 4364	morphine
+T165	test 5347 5353	the ct
+T166	treatment 2019 2029	amlodipine
+T167	problem 2971 2980	nontender
+T168	treatment 4325 4332	heparin
+T169	treatment 5412 5444	the feeney gann-burlington drain
+T170	treatment 1935 1942	osamine
+T171	test 5512 5526	lateral output
+T172	treatment 4335 4343	protonix
+T173	test 5486 5499	medial output
+T174	problem 1248 1252	cold
+R1	TeRP Arg1:T21 Arg2:T22
+R2	TeRP Arg1:T21 Arg2:T23
+R3	PIP Arg1:T23 Arg2:T22
+R4	TrAP Arg1:T35 Arg2:T22
+R5	TrAP Arg1:T35 Arg2:T23
+R6	TeRP Arg1:T64 Arg2:T57
+R7	PIP Arg1:T72 Arg2:T68
+R8	PIP Arg1:T88 Arg2:T83
+R9	PIP Arg1:T112 Arg2:T98
+R10	PIP Arg1:T112 Arg2:T99
+R11	PIP Arg1:T122 Arg2:T116
+R12	PIP Arg1:T150 Arg2:T83
+R13	PIP Arg1:T160 Arg2:T133
+R14	TeCP Arg1:T162 Arg2:T106
+R15	TeCP Arg1:T165 Arg2:T106

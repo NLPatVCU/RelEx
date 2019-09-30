@@ -1,0 +1,28 @@
+T1	problem 1145 1152	anxiety
+T2	treatment 1492 1503	bicarb drip
+T3	problem 1234 1243	tremulous
+T4	problem 1208 1231	tca and celexa overdose
+T5	treatment 617 629	thiamine hcl
+T6	problem 880 892	tca overdose
+T7	problem 980 1005	depression ( depression )
+T8	problem 787 799	tca overdose
+T9	problem 1172 1193	prior suicide attempt
+T10	test 1462 1473	repeat hco3
+T11	problem 1157 1167	depression
+T12	treatment 437 451	rehabilitation
+T13	test 1306 1324	marijuana in urine
+T14	problem 1386 1406	acute medical issues
+T15	treatment 549 604	mvi therapeutic w / minerals ( therap vits / minerals )
+T16	treatment 476 497	folate ( folic acid )
+T17	test 1418 1428	psych eval
+T18	problem 1246 1258	light-headed
+T19	test 1506 1509	ekg
+T20	test 1327 1331	hco3
+T21	treatment 509 534	zantac ( ranitidine hcl )
+T22	problem 753 768	known allergies
+T23	problem 1435 1452	actively suicidal
+T24	treatment 1278 1286	charcoal
+T25	problem 50 62	tca overdose
+T26	test 1626 1645	nortriptyline level
+T27	test 1565 1579	best team eval
+R1	TrAP Arg1:T24 Arg2:T4

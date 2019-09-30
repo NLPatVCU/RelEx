@@ -1,0 +1,65 @@
+T1	problem 2097 2113	left tm scarring
+T2	problem 964 970	chills
+T3	problem 1226 1234	anorexia
+T4	problem 1038 1044	melena
+T5	problem 734 740	nausea
+T6	treatment 1684 1706	left tm reconstruction
+T7	treatment 1769 1782	multivitamins
+T8	problem 2180 2195	lymphadenopathy
+T9	problem 2434 2452	hepatosplenomegaly
+T10	problem 870 878	episodes
+T11	problem 337 360	recurrent biliary colic
+T12	problem 1007 1034	bright red blood per rectum
+T13	treatment 2750 2768	general anesthesia
+T14	problem 1146 1157	gallbladder
+T15	problem 2366 2369	rub
+T16	problem 574 582	symptoms
+T17	test 2382 2386	rate
+T18	problem 1209 1220	weight loss
+T19	problem 464 492	ultrasound proven gallstones
+T20	problem 2020 2037	apparent distress
+T21	treatment 1086 1114	over the counter medications
+T22	problem 426 449	recurrent biliary colic
+T23	problem 2065 2069	rash
+T24	test 2496 2511	her rectal exam
+T25	treatment 299 306	a chole
+T26	problem 2416 2425	nontender
+T27	problem 1330 1343	liver disease
+T28	problem 2485 2493	guarding
+T29	problem 1292 1305	cholecystitis
+T30	problem 671 707	right upper quadrant epigastric pain
+T31	problem 1161 1179	pancreatic disease
+T32	problem 639 665	classic biliary colic pain
+T33	problem 2927 2935	afebrile
+T34	problem 1269 1283	six gallstones
+T35	problem 2373 2379	gallop
+T36	test 2309 2321	cardiac exam
+T37	problem 2247 2253	bruits
+T38	treatment 2681 2693	the lap coli
+T39	problem 955 961	fevers
+T40	treatment 3140 3148	percocet
+T41	problem 3195 3199	pain
+T42	problem 2047 2056	anicteric
+T43	problem 973 993	respiratory symptoms
+T44	test 1237 1250	an ultrasound
+T45	problem 2357 2363	murmur
+T46	problem 2144 2152	drainage
+T47	problem 996 1004	diarrhea
+T48	problem 2456 2460	mass
+T49	problem 1800 1820	known drug allergies
+T50	problem 2257 2260	jvd
+T51	test 2699 2730	an intraoperative cholangiogram
+T52	test 517 548	an earlier obstetric ultrasound
+T53	problem 1346 1355	hepatitis
+T54	test 2294 2306	auscultation
+T55	problem 2474 2481	rebound
+T56	problem 755 763	vomiting
+T57	problem 2122 2140	acute inflammation
+T58	test 2938 2949	vital signs
+T59	problem 2860 2872	complication
+T60	treatment 1631 1651	a left ear operation
+R1	TrAP Arg1:T25 Arg2:T11
+R2	TrAP Arg1:T40 Arg2:T41
+R3	TeRP Arg1:T44 Arg2:T34
+R4	TeRP Arg1:T44 Arg2:T29
+R5	TeRP Arg1:T52 Arg2:T19

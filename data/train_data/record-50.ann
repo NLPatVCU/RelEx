@@ -1,0 +1,120 @@
+T1	problem 2142 2165	poor r-wave progression
+T2	problem 2181 2194	acute changes
+T3	problem 742 747	fever
+T4	test 2636 2646	a troponin
+T5	problem 2775 2802	her current cardiac failure
+T6	problem 751 757	chills
+T7	problem 344 361	increased dyspnea
+T8	problem 2675 2704	the wall motion abnormalities
+T9	problem 2719 2753	a non-q wave myocardial infarction
+T10	problem 1775 1788	non-distended
+T11	treatment 1095 1117	isosorbide mononitrate
+T12	test 2042 2059	electrocardiogram
+T13	test 1981 1992	chest x-ray
+T14	problem 2015 2039	congestive heart failure
+T15	problem 1805 1829	1+ lower extremity edema
+T16	test 1731 1743	bowel sounds
+T17	problem 309 326	easy fatigability
+T18	problem 2118 2137	left axis deviation
+T19	problem 3110 3125	the renal issue
+T20	test 1882 1885	bun
+T21	problem 1447 1461	acute distress
+T22	problem 2524 2559	the distal lateral wall hypokinesis
+T23	test 3065 3090	a cardiac catheterization
+T24	problem 2456 2504	hypokinesis of the lower half of septum and apex
+T25	treatment 3195 3203	diuresis
+T26	test 1397 1401	sao2
+T27	test 1498 1521	jugular venous pressure
+T28	problem 2389 2444	moderately depressed left ventricular systolic function
+T29	test 2348 2362	echocardiogram
+T30	problem 1665 1685	crackles bilaterally
+T31	problem 2311 2345	diastolic and systolic dysfunction
+T32	problem 3031 3062	her renal functioning worsening
+T33	problem 1623 1650	a 1-2/6 holosystolic murmur
+T34	test 3355 3373	a left kidney size
+T35	treatment 4791 4798	aspirin
+T36	treatment 4170 4182	hemodialysis
+T37	problem 1762 1772	non-tender
+T38	treatment 4823 4830	norvasc
+T39	problem 1293 1316	coronary artery disease
+T40	test 2832 2851	patient 's troponin
+T41	problem 1279 1287	diabetes
+T42	test 3156 3170	her creatinine
+T43	problem 3614 3672	moderate to severe focal stenosis of the left renal artery
+T44	test 1357 1371	blood pressure
+T45	problem 3548 3596	severe right renal artery stenosis at its origin
+T46	treatment 2944 2963	aggressive diuresis
+T47	treatment 3889 3933	subsequent stenting of the left renal artery
+T48	problem 2562 2591	the wall motion abnormalities
+T49	problem 987 1007	known drug allergies
+T50	problem 446 456	chest pain
+T51	test 1381 1391	heart rate
+T52	treatment 5000 5009	dinitrate
+T53	treatment 1032 1039	aspirin
+T54	test 3517 3534	mra of the kidney
+T55	problem 3472 3493	renal artery stenosis
+T56	treatment 4956 4966	carvedilol
+T57	treatment 3943 3951	dye load
+T58	problem 3392 3408	her hypertension
+T59	treatment 5102 5122	calcium acetate tums
+T60	treatment 1133 1142	terazosin
+T61	treatment 5031 5045	erythropoietin
+T62	problem 3971 3991	the coronary disease
+T63	test 3242 3252	creatinine
+T64	treatment 4890 4898	protonix
+T65	treatment 4854 4866	atorvastatin
+T66	test 3321 3340	a right kidney size
+T67	test 3869 3884	catheterization
+T68	test 3807 3813	volume
+T69	test 3277 3295	a renal ultrasound
+T70	treatment 4922 4934	multivitamin
+T71	treatment 5197 5209	iron sulfate
+T72	treatment 5235 5241	colace
+T73	treatment 5156 5163	tylenol
+T74	treatment 5299 5305	plavix
+T75	treatment 857 866	terazosin
+T76	treatment 5265 5276	hydralazine
+T77	test 4067 4081	her creatinine
+T78	problem 4086 4094	worsened
+T79	test 4117 4133	her urine output
+T80	problem 4342 4374	non-q wave myocardial infarction
+T81	problem 4506 4525	acute renal failure
+T82	treatment 4020 4033	the procedure
+T83	problem 534 553	some abdominal pain
+T84	problem 459 468	orthopnea
+T85	problem 4380 4427	systolic and diastolic congestive heart failure
+T86	problem 4433 4464	bilateral renal artery stenosis
+T87	problem 285 304	shortness of breath
+T88	problem 4531 4543	hypertension
+T89	problem 191 199	diabetes
+T90	problem 632 638	nausea
+T91	treatment 4477 4500	stent left renal artery
+T92	problem 666 688	bowel movement changes
+T93	test 1953 1955	ck
+T94	treatment 1064 1071	norvasc
+T95	problem 936 950	osteoarthritis
+T96	test 1938 1946	troponin
+T97	problem 652 663	diaphoresis
+T98	test 1962 1964	mb
+T99	problem 641 649	vomiting
+T100	problem 918 930	hypertension
+T101	treatment 837 843	diovan
+T102	problem 705 732	increased urinary frequency
+T103	treatment 782 807	recent medication changes
+T104	problem 204 216	hypertension
+T105	problem 895 912	diabetes mellitus
+T106	problem 471 499	paroxysmal nocturnal dyspnea
+T107	test 1891 1901	creatinine
+R1	TeRP Arg1:T4 Arg2:T5
+R2	PIP Arg1:T8 Arg2:T9
+R3	PIP Arg1:T8 Arg2:T5
+R4	PIP Arg1:T9 Arg2:T5
+R5	TeRP Arg1:T13 Arg2:T14
+R6	PIP Arg1:T18 Arg2:T1
+R7	TeRP Arg1:T29 Arg2:T28
+R8	TeRP Arg1:T29 Arg2:T24
+R9	TeCP Arg1:T54 Arg2:T55
+R10	TeRP Arg1:T54 Arg2:T45
+R11	PIP Arg1:T58 Arg2:T55
+R12	TeRP Arg1:T77 Arg2:T78
+R13	TrAP Arg1:T91 Arg2:T86

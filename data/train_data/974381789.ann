@@ -1,0 +1,97 @@
+T1	treatment 841 848	corgard
+T2	problem 906 917	intolerance
+T3	problem 634 696	infrequent short runs of non-sustained ventricular tachycardia
+T4	problem 586 629	frequent premature ventricular contractions
+T5	problem 2641 2670	asymmetric septal hypertrophy
+T6	test 996 1016	an ejection fraction
+T7	test 971 991	coronary angiography
+T8	problem 1418 1442	mild shortness of breath
+T9	treatment 820 828	tenormin
+T10	problem 2609 2637	left ventricular hypertrophy
+T11	problem 1390 1413	occasional palpitations
+T12	problem 1492 1504	hypertension
+T13	treatment 1054 1075	antiarrhythmic agents
+T14	treatment 3199 3209	amiodarone
+T15	test 2147 2174	a 12-lead electrocardiogram
+T16	problem 2182 2201	atrial fibrillation
+T17	problem 355 374	multinodular goiter
+T18	treatment 2840 2851	propafenone
+T19	test 3322 3346	pulmonary function tests
+T20	test 2347 2359	electrolytes
+T21	treatment 3098 3108	amiodarone
+T22	problem 1130 1149	atrial fibrillation
+T23	treatment 831 838	norpace
+T24	treatment 1655 1660	lasix
+T25	treatment 1714 1723	procardia
+T26	problem 2250 2293	diffuse st segment and t-wave abnormalities
+T27	test 2370 2380	creatinine
+T28	problem 66 85	atrial fibrillation
+T29	treatment 3622 3632	amiodarone
+T30	problem 1202 1230	decreased exercise tolerance
+T31	problem 1155 1179	a rapid ventricular rate
+T32	treatment 1529 1551	subtotal thyroidectomy
+T33	test 1792 1806	blood pressure
+T34	treatment 3041 3052	propafenone
+T35	treatment 1578 1589	cardizem cd
+T36	treatment 793 802	quinidine
+T37	problem 2073 2089	peripheral edema
+T38	treatment 3658 3666	coumadin
+T39	test 2437 2454	an echocardiogram
+T40	test 2410 2413	inr
+T41	problem 1849 1868	atrial fibrillation
+T42	test 2721 2738	an echocardiogram
+T43	treatment 463 487	electrical cardioversion
+T44	treatment 3594 3618	electrical cardioversion
+T45	treatment 1605 1613	monopril
+T46	treatment 3824 3834	amiodarone
+T47	treatment 1253 1261	coumadin
+T48	test 2020 2045	the abdominal examination
+T49	treatment 779 790	propranolol
+T50	test 1778 1789	examination
+T51	test 2322 2344	a complete blood count
+T52	treatment 1628 1635	digoxin
+T53	problem 3281 3296	qt prolongation
+T54	treatment 1702 1711	quinidine
+T55	treatment 1730 1747	sulfa antibiotics
+T56	treatment 2905 2929	electrical cardioversion
+T57	treatment 1349 1357	coumadin
+T58	test 2362 2365	bun
+T59	treatment 3870 3895	her admission medications
+T60	problem 1507 1526	multinodular goiter
+T61	problem 297 316	atrial fibrillation
+T62	problem 1902 1909	anxious
+T63	treatment 855 865	flecainide
+T64	treatment 414 436	subtotal thyroidectomy
+T65	problem 1950 1964	carotid bruits
+T66	treatment 1290 1317	dc electrical cardioversion
+T67	treatment 805 817	procainamide
+T68	problem 1926 1946	neck vein distension
+T69	problem 388 400	hypertension
+T70	test 3238 3258	an electrocardiogram
+T71	test 1821 1831	heart rate
+R1	TrNAP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T1 Arg2:T3
+R3	TrAP Arg1:T1 Arg2:T4
+R4	TrNAP Arg1:T9 Arg2:T2
+R5	TrAP Arg1:T9 Arg2:T3
+R6	TrAP Arg1:T9 Arg2:T4
+R7	TeRP Arg1:T15 Arg2:T16
+R8	TrNAP Arg1:T23 Arg2:T2
+R9	TrAP Arg1:T23 Arg2:T3
+R10	TrAP Arg1:T23 Arg2:T4
+R11	PIP Arg1:T30 Arg2:T22
+R12	PIP Arg1:T30 Arg2:T31
+R13	TrNAP Arg1:T36 Arg2:T4
+R14	TrAP Arg1:T36 Arg2:T3
+R15	TrAP Arg1:T36 Arg2:T2
+R16	TrNAP Arg1:T49 Arg2:T2
+R17	TrAP Arg1:T49 Arg2:T3
+R18	TrAP Arg1:T49 Arg2:T4
+R19	TrNAP Arg1:T63 Arg2:T2
+R20	TrAP Arg1:T63 Arg2:T3
+R21	TrAP Arg1:T63 Arg2:T4
+R22	TrNAP Arg1:T67 Arg2:T2
+R23	TrAP Arg1:T67 Arg2:T3
+R24	TrAP Arg1:T67 Arg2:T4
+R25	TeRP Arg1:T70 Arg2:T53
+R26	TeRP Arg1:T71 Arg2:T41

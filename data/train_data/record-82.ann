@@ -1,0 +1,257 @@
+T1	problem 5053 5074	a non-st elevation mi
+T2	test 3513 3536	posterior tibial pulses
+T3	problem 495 506	diaphoresis
+T4	test 3494 3508	dorsalis pedis
+T5	test 2688 2698	heart rate
+T6	problem 3468 3481	evident edema
+T7	treatment 6756 6773	his ace inhibitor
+T8	treatment 5738 5744	statin
+T9	problem 6569 6596	his baseline 02 requirement
+T10	treatment 1285 1300	stent placement
+T11	problem 1236 1253	a long lad lesion
+T12	treatment 6414 6427	nasal cannula
+T13	problem 6363 6367	copd
+T14	treatment 3392 3412	a right groin a line
+T15	test 5957 5977	an ejection fraction
+T16	test 7415 7437	outpatient colonoscopy
+T17	test 1565 1603	a bedside transthoracic echocardiogram
+T18	problem 1671 1682	an effusion
+T19	problem 1989 1998	gastritis
+T20	treatment 2505 2512	aspirin
+T21	test 3839 3842	bun
+T22	treatment 3449 3455	a swan
+T23	test 2674 2685	vital signs
+T24	test 1537 1555	further monitoring
+T25	problem 1378 1389	hypotensive
+T26	problem 1394 1406	bradycardiac
+T27	problem 1861 1870	pain-free
+T28	problem 8216 8226	complaints
+T29	treatment 5636 5647	angioplasty
+T30	problem 5584 5612	an 80 percent mid lad lesion
+T31	problem 6010 6041	focal wall motion abnormalities
+T32	test 4191 4206	catheterization
+T33	treatment 6853 6862	iv fluids
+T34	problem 7175 7183	gi bleed
+T35	problem 7200 7222	guaiac positive stools
+T36	problem 7249 7280	a slight drop in his hematocrit
+T37	problem 4099 4131	an old right bundle branch block
+T38	test 4760 4773	cardiac index
+T39	problem 4991 5000	gastritis
+T40	test 1758 1777	the catheterization
+T41	problem 7506 7514	gi bleed
+T42	treatment 2591 2603	heparin drip
+T43	problem 538 544	nausea
+T44	treatment 7949 7956	lipitor
+T45	test 1083 1106	cardiac catheterization
+T46	treatment 6408 6410	02
+T47	test 3774 3782	a sodium
+T48	treatment 2577 2580	mdi
+T49	problem 5821 5843	guaiac positive stools
+T50	problem 2452 2472	known drug allergies
+T51	treatment 849 856	heparin
+T52	problem 4007 4028	prolonged pr interval
+T53	problem 1959 1986	chronic renal insufficiency
+T54	treatment 1685 1691	a swan
+T55	problem 1307 1335	a total occlusion of the rca
+T56	test 3848 3858	creatinine
+T57	test 3353 3365	bowel sounds
+T58	treatment 7997 8004	flovent
+T59	test 732 736	a ck
+T60	problem 705 726	a non-st elevation mi
+T61	problem 6078 6097	shortness of breath
+T62	treatment 4617 4622	stent
+T63	problem 4542 4566	an 80 percent lad lesion
+T64	test 3916 3928	sinus rhythm
+T65	problem 1896 1899	tia
+T66	test 3932 3938	a rate
+T67	problem 511 530	shortness of breath
+T68	treatment 1483 1491	atropine
+T69	test 3959 3963	axis
+T70	problem 436 458	bilateral arm numbness
+T71	problem 376 398	severe epigastric pain
+T72	problem 218 245	chronic renal insufficiency
+T73	test 4651 4682	the right heart catheterization
+T74	test 4790 4804	an ra pressure
+T75	test 3230 3242	auscultation
+T76	test 3822 3833	bicarbonate
+T77	problem 5336 5350	vagal reaction
+T78	problem 5232 5243	hypotension
+T79	problem 5248 5259	bradycardia
+T80	test 1197 1220	cardiac catheterization
+T81	problem 461 473	the symptoms
+T82	problem 5007 5010	tia
+T83	treatment 7788 7799	angioplasty
+T84	problem 7744 7769	80 percent mid lad lesion
+T85	problem 7700 7738	non-st elevation myocardial infarction
+T86	problem 7662 7685	coronary artery disease
+T87	test 4255 4279	a bedside echocardiogram
+T88	problem 548 556	vomiting
+T89	treatment 6454 6466	atrovent mdi
+T90	treatment 8071 8080	combivent
+T91	treatment 5704 5711	aspirin
+T92	treatment 5751 5764	ace inhibitor
+T93	test 4734 4748	cardiac output
+T94	test 3702 3712	hematocrit
+T95	problem 265 270	a tia
+T96	problem 6199 6220	first-degree av block
+T97	test 3869 3876	glucose
+T98	problem 993 1014	myocardial infarction
+T99	test 4813 4824	rv pressure
+T100	test 8158 8184	the patient 's vital signs
+T101	test 4835 4846	pa pressure
+T102	treatment 2528 2538	metoprolol
+T103	problem 5079 5101	guaiac positive stools
+T104	treatment 6440 6449	albuterol
+T105	problem 5202 5216	mid lad lesion
+T106	treatment 7616 7627	his aspirin
+T107	treatment 7024 7041	his ace inhibitor
+T108	treatment 5295 5313	transient dopamine
+T109	test 5389 5405	close monitoring
+T110	problem 2912 2944	crusting around the right eyelid
+T111	test 6808 6822	his creatinine
+T112	treatment 5723 5735	beta blocker
+T113	test 5894 5924	a transthoracic echocardiogram
+T114	problem 6054 6074	recurrent chest pain
+T115	problem 3168 3175	murmurs
+T116	treatment 6867 6884	his ace inhibitor
+T117	problem 6155 6194	an underlying right bundle branch block
+T118	problem 885 894	pain-free
+T119	treatment 6550 6557	his mdi
+T120	treatment 2154 2160	a cane
+T121	test 6939 6955	close monitoring
+T122	test 774 782	troponin
+T123	test 7342 7365	an outpatient gi workup
+T124	treatment 5794 5804	his plavix
+T125	problem 5848 5863	hematocrit drop
+T126	treatment 2741 2761	a right groin a line
+T127	problem 180 192	hypertension
+T128	test 2714 2728	blood pressure
+T129	treatment 8048 8055	aspirin
+T130	treatment 2817 2839	2 liters nasal cannula
+T131	treatment 5281 5290	iv fluids
+T132	treatment 823 831	nitrates
+T133	problem 3188 3195	gallops
+T134	problem 4984 4988	copd
+T135	problem 3178 3182	rubs
+T136	problem 3012 3022	edentulous
+T137	test 3662 3669	the cbc
+T138	problem 6699 6711	hypertension
+T139	treatment 3417 3443	a left groin venous sheath
+T140	treatment 5656 5671	stent placement
+T141	problem 4954 4981	chronic renal insufficiency
+T142	test 2764 2776	respirations
+T143	problem 4141 4167	acute st or t wave changes
+T144	problem 6779 6781	mi
+T145	problem 4063 4076	a widened qrs
+T146	treatment 7548 7555	a stent
+T147	treatment 4224 4228	ptca
+T148	test 3747 3764	serum chemistries
+T149	problem 4500 4522	a totally occluded rca
+T150	problem 2001 2007	asthma
+T151	problem 4410 4418	effusion
+T152	test 3791 3800	potassium
+T153	test 4692 4726	pulmonary capillary wedge pressure
+T154	problem 4939 4951	hypertension
+T155	treatment 861 871	integrelin
+T156	problem 922 938	similar symptoms
+T157	test 6959 6973	his creatinine
+T158	test 3807 3815	chloride
+T159	problem 3980 4001	first-degree av block
+T160	test 5165 5188	cardiac catheterization
+T161	test 4467 4490	cardiac catheterization
+T162	test 8469 8480	colonoscopy
+T163	treatment 2555 2562	lipitor
+T164	test 3886 3901	the initial ekg
+T165	test 4170 4177	the ekg
+T166	treatment 1724 1730	stents
+T167	test 3679 3692	a white count
+T168	problem 1953 1956	bph
+T169	treatment 6500 6511	flovent mdi
+T170	treatment 5714 5720	plavix
+T171	problem 5545 5566	a non-st elevation mi
+T172	treatment 7971 7981	lisinopril
+T173	treatment 1821 1829	pressors
+T174	treatment 7440 7450	his plavix
+T175	test 7578 7593	catheterization
+T176	problem 1910 1914	copd
+T177	problem 3307 3316	nontender
+T178	test 749 761	a peak ck mb
+T179	problem 3060 3075	lymphadenopathy
+T180	treatment 5270 5278	atropine
+T181	treatment 2621 2636	integrelin drip
+T182	problem 7094 7109	guaiac positive
+T183	problem 7847 7884	chronic obstructive pulmonary disease
+T184	problem 7817 7844	chronic renal insufficiency
+T185	problem 983 989	angina
+T186	problem 7913 7919	anemia
+T187	treatment 8095 8104	toprol xl
+T188	problem 7887 7910	guaiac  positive stools
+T189	treatment 1472 1480	dopamine
+T190	problem 3079 3090	thyromegaly
+T191	problem 2887 2901	acute distress
+T192	treatment 1460 1469	iv fluids
+T193	problem 7802 7814	hypertension
+T194	test 2782 2799	oxygen saturation
+T195	treatment 1943 1950	home 02
+T196	test 3724 3733	platelets
+T197	treatment 5194 5198	ptca
+T198	problem 6651 6678	chronic renal insufficiency
+T199	problem 3299 3304	obese
+T200	test 6734 6746	a creatinine
+T201	problem 3319 3331	nondistended
+R1	TrAP Arg1:T10 Arg2:T11
+R2	TrAP Arg1:T12 Arg2:T13
+R3	TeRP Arg1:T17 Arg2:T18
+R4	TeCP Arg1:T24 Arg2:T25
+R5	TeCP Arg1:T24 Arg2:T26
+R6	TrAP Arg1:T29 Arg2:T30
+R7	PIP Arg1:T34 Arg2:T35
+R8	PIP Arg1:T34 Arg2:T36
+R9	PIP Arg1:T35 Arg2:T36
+R10	TrAP Arg1:T46 Arg2:T13
+R11	TeRP Arg1:T59 Arg2:T60
+R12	TrAP Arg1:T62 Arg2:T63
+R13	TrIP Arg1:T68 Arg2:T25
+R14	TrIP Arg1:T68 Arg2:T26
+R15	PIP Arg1:T77 Arg2:T78
+R16	PIP Arg1:T77 Arg2:T79
+R17	TeRP Arg1:T80 Arg2:T55
+R18	TeRP Arg1:T80 Arg2:T11
+R19	PIP Arg1:T81 Arg2:T3
+R20	PIP Arg1:T81 Arg2:T67
+R21	TrAP Arg1:T83 Arg2:T84
+R22	TrAP Arg1:T83 Arg2:T85
+R23	TrAP Arg1:T83 Arg2:T86
+R24	PIP Arg1:T86 Arg2:T85
+R25	PIP Arg1:T86 Arg2:T84
+R26	TrAP Arg1:T89 Arg2:T13
+R27	TrAP Arg1:T104 Arg2:T13
+R28	TrAP Arg1:T108 Arg2:T78
+R29	TrAP Arg1:T108 Arg2:T79
+R30	TeRP Arg1:T122 Arg2:T60
+R31	TrNAP Arg1:T124 Arg2:T49
+R32	TrNAP Arg1:T124 Arg2:T125
+R33	TrAP Arg1:T131 Arg2:T78
+R34	TrAP Arg1:T131 Arg2:T79
+R35	TrAP Arg1:T140 Arg2:T30
+R36	PIP Arg1:T159 Arg2:T52
+R37	TeRP Arg1:T161 Arg2:T63
+R38	TeRP Arg1:T161 Arg2:T149
+R39	TeRP Arg1:T164 Arg2:T159
+R40	TeRP Arg1:T164 Arg2:T52
+R41	PIP Arg1:T171 Arg2:T30
+R42	TrNAP Arg1:T174 Arg2:T41
+R43	TeRP Arg1:T178 Arg2:T60
+R44	TrAP Arg1:T180 Arg2:T78
+R45	TrAP Arg1:T180 Arg2:T79
+R46	PIP Arg1:T182 Arg2:T34
+R47	PIP Arg1:T182 Arg2:T35
+R48	PIP Arg1:T182 Arg2:T36
+R49	TrIP Arg1:T189 Arg2:T25
+R50	TrIP Arg1:T189 Arg2:T26
+R51	TrIP Arg1:T192 Arg2:T25
+R52	TrIP Arg1:T192 Arg2:T26
+R53	TrAP Arg1:T195 Arg2:T176
+R54	TrAP Arg1:T197 Arg2:T105
+R55	PIP Arg1:T198 Arg2:T138
+R56	TeRP Arg1:T200 Arg2:T198

@@ -1,0 +1,39 @@
+891864133 RWH
+4713221
+093061
+136986
+3/17/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+CUCHSPARDCAMPMOTTELAMN , LARIN
+MRN :
+4713221
+Age :
+47y
+REGISTRATION DATE :
+03/17/2000 01:25 PM
+Provider :
+VA LARDESPRABLEYL
+PRELIMINARY REPORT
+Benefits Assigned :
+Y
+Discharge Date / Time :
+03/17/2000 16:31
+Discharge Status :
+Discharged
+Patient States Complaint :
+R / O HEMMOROIDS
+Diagnosis :
+perianal and perivaginal pruritis
+Treatment Rendered :
+pelvic exam
+Discharge Medications :
+none
+Disposition , Follow up and Instructions to Patient :
+Please call ( 994 ) 944-4238 in 2-3 days to obtain results of the lab tests that were ordered .
+If tests are positive , follow up with your primary care doctor of gynecologist .
+This report was created by LARDESPRABLEYL , VA 03/17/2000 04:33 PM

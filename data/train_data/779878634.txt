@@ -1,0 +1,66 @@
+779878634
+TGCHO
+9260099
+612765
+12/11/2003 12:00:00 AM
+Discharge Summary
+Signed
+DIS
+Report Status :
+Signed
+DISCHARGE SUMMARY
+NAME :
+A , REBAY J
+UNIT NUMBER :
+984-98-62
+ADMISSION DATE :
+12/11/2003
+DISCHARGE DATE :
+01/08/2004
+The patient has a known history of pancreatic adenocarcinoma .
+He is admitted at this time because of significant GI bleeding .
+REVIEW OF SYSTEMS :
+Significant for fatigue and increased abdominal discomfort .
+MEDICATIONS AT THE TIME OF ADMISSION :
+Insulin , Celexa , Protonix , Ambien and Pancreas .
+PHYSICAL EXAMINATION :
+Vital signs showed his blood pressure to be slightly decreased at 120/60 , pulse 64 , respirations 16 , temperature 98.8 , O2 sat 95 .
+HEENT :
+Evidence of anemia with being pale , but anicteric , no oral lesions .
+Neck supple .
+Lungs clear .
+Back without CVA or spinal tenderness .
+Heart regular rate and rhythm .
+Abdomen :
+Bowel sounds positive , soft , mildly tender in the epigastrium without hepatosplenomegaly , mass or tenderness .
+Extremities :
+Trace edema without cyanosis or clubbing .
+His hematocrit at the time of admission was 20.5 , after having been 32 one week earlier .
+ASSESSMENT :
+The assessment was that he had a GI bleed .
+He was transfused and then evaluated by GI .
+Endoscopy showed multiple angio ectasias throughout the stomach .
+He received multiple treatments for this over the succeeding weeks .
+In addition , he was transfused .
+His platelet count was maintained with platelet transfusion as necessary .
+He was treated with Octreotide to try to slow down the bleeding .
+Despite all these measures , his bleeding was never totally controlled .
+He then had an angiogram with Gel foam to try to control his GI bleed .
+Again , this was unsuccessful .
+At that point he had a change in mental status and was no longer responsive .
+Given this , the decision was made to make his care comfort measures only .
+At this point , he was made comfort measures and expired comfortably .
+The cause of death was a combination of GI bleeding felt to be ultimately related to his known metastatic pancreatic cancer .
+TA KO FOSSA , M.D.
+DICTATING FOR :
+Electronically Signed TA KO FOSSA , M.D.
+02/05/2004 17:03
+_____________________________ TA KO FOSSA , M.D.
+TR :
+mb
+DD :
+01/23/2004
+TD :
+01/26/2004 2:16 A 612765
+cc :
+TA KO FOSSA , M.D.

@@ -1,0 +1,31 @@
+T1	problem 351 368	abnormal pap test
+T2	problem 970 994	white d / c at introitus
+T3	test 1539 1551	apgar scores
+T4	problem 780 795	distinct masses
+T5	test 1043 1046	koh
+T6	treatment 2248 2280	metronidazole tablets ( flagyl )
+T7	problem 811 819	inverted
+T8	treatment 1628 1663	spontaneous vertex vaginal delivery
+T9	treatment 406 430	contraception management
+T10	problem 303 327	second degree laceration
+T11	test 1056 1058	ns
+T12	problem 960 967	lesions
+T13	treatment 2283 2348	multivitamins and folate capsules ( stuart prenatal with folate )
+T14	treatment 281 297	vaginal delivery
+T15	problem 696 701	labor
+T16	treatment 482 517	spontaneous vertex vaginal delivery
+T17	treatment 828 849	evert w / stimulation
+T18	problem 1454 1458	srom
+T19	problem 688 692	srom
+T20	problem 1462 1467	labor
+T21	problem 1234 1245	ext lesions
+T22	treatment 625 646	antimicrobial therapy
+T23	problem 1145 1156	palp masses
+T24	problem 384 403	bacterial vaginitis
+T25	problem 1009 1033	sml amt thin white d / c
+T26	problem 1734 1738	srom
+T27	test 1034 1036	ph
+T28	problem 1099 1103	srom
+R1	TrCP Arg1:T14 Arg2:T10
+R2	PIP Arg1:T19 Arg2:T15
+R3	PIP Arg1:T20 Arg2:T18

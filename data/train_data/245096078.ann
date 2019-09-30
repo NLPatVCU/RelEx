@@ -1,0 +1,266 @@
+T1	treatment 980 1004	a left breast lumpectomy
+T2	problem 2728 2750	seventh nerve weakness
+T3	treatment 9950 9966	nasogastric tube
+T4	problem 6648 6656	afebrile
+T5	problem 4256 4279	&quot; locked in &quot;
+T6	problem 1605 1611	ectopy
+T7	treatment 9847 9852	juice
+T8	treatment 10168 10184	nasogastric tube
+T9	treatment 1198 1204	niacin
+T10	problem 4838 4860	severe memory deficits
+T11	treatment 9194 9201	isordil
+T12	problem 7429 7446	hypoproliferation
+T13	problem 6307 6317	bad thrush
+T14	treatment 7527 7531	iron
+T15	test 11198 11204	sodium
+T16	test 2290 2312	the cranial nerve exam
+T17	problem 5405 5592	infarction in bilateral basis pontis , mid brain , the superior cerebellar areas , left thalamus , bilateral temporal lobes medially and inferiorly and left posterior communicating artery
+T18	treatment 7506 7516	folic acid
+T19	problem 8890 8906	brief chest pain
+T20	test 2682 2696	corneal reflex
+T21	treatment 10023 10044	cardizem slow release
+T22	test 9023 9044	her electrocardiogram
+T23	problem 9052 9090	t wave inversions in the lateral leads
+T24	treatment 5074 5094	occupational therapy
+T25	problem 10920 10934	iron deficient
+T26	problem 10565 10665	recent infarct to pons , mid brain , left thalamus , bilateral temporal lobes and left visual cortex
+T27	problem 1804 1809	edema
+T28	problem 6572 6582	the thrush
+T29	treatment 6244 6255	antibiotics
+T30	treatment 5929 5939	gentamicin
+T31	problem 5880 5901	klebsiella pneumoniae
+T32	problem 5976 5979	bug
+T33	treatment 10231 10239	coumadin
+T34	problem 372 379	vertigo
+T35	treatment 6543 6553	fluconazol
+T36	test 927 937	evaluation
+T37	problem 7398 7404	anemia
+T38	treatment 7929 7948	fluids administered
+T39	problem 7984 7996	any problems
+T40	problem 5664 5689	rising white blood counts
+T41	test 2978 2993	cerebellar exam
+T42	treatment 8264 8281	lactinex granules
+T43	test 9649 9666	the liver enzymes
+T44	problem 6019 6042	a left pleural effusion
+T45	test 5359 5393	magnetic resonance imaging studies
+T46	problem 1781 1789	clubbing
+T47	problem 3856 3876	a small intimal tear
+T48	problem 3937 3945	sequelae
+T49	problem 798 814	high cholesterol
+T50	test 2342 2364	extra ocular movements
+T51	treatment 1135 1143	cardizem
+T52	problem 1727 1745	hepatosplenomegaly
+T53	test 6479 6496	her liver enzymes
+T54	test 3592 3612	admitting creatinine
+T55	treatment 10062 10072	folic acid
+T56	test 2413 2431	right lateral gaze
+T57	treatment 5191 5199	coumadin
+T58	treatment 952 977	an inguinal hernia repair
+T59	problem 5819 5825	fevers
+T60	test 11111 11127	prothrombin time
+T61	test 3789 3802	her angiogram
+T62	problem 534 542	aneurysm
+T63	problem 307 314	vertigo
+T64	treatment 10192 10199	peridex
+T65	test 6729 6762	the patient &apos;s liver enzymes
+T66	treatment 10671 10679	coumadin
+T67	treatment 6441 6448	peridex
+T68	treatment 9730 9761	the above cholesterol medicines
+T69	problem 3557 3589	some left lower lobe atelectasis
+T70	treatment 8141 8146	fiber
+T71	treatment 11008 11025	fluid restriction
+T72	problem 10981 10991	low sodium
+T73	treatment 8342 8351	metamucil
+T74	treatment 6621 6632	antibiotics
+T75	test 6078 6097	ultrasound guidance
+T76	problem 6150 6157	empyema
+T77	test 3212 3220	tibialis
+T78	test 3667 3677	hematocrit
+T79	problem 5717 5757	a progressing left lower lobe infiltrate
+T80	treatment 8076 8090	her tube feeds
+T81	problem 9605 9636	recently elevated liver enzymes
+T82	problem 7408 7423	chronic disease
+T83	test 3167 3175	gastroc.
+T84	treatment 10968 10978	gentamicin
+T85	problem 10937 10950	low potassium
+T86	test 3687 3700	liver enzymes
+T87	problem 7051 7078	common bile duct dilatation
+T88	test 1407 1425	her blood pressure
+T89	test 5864 5870	sputum
+T90	treatment 9914 9922	lactinex
+T91	test 9263 9284	her electrocardiogram
+T92	problem 9341 9365	congestive heart failure
+T93	test 8009 8020	her sodiums
+T94	test 613 625	an angiogram
+T95	problem 654 690	thrombosis at the mid basilar artery
+T96	test 7458 7479	multiple phlebotomies
+T97	treatment 10789 10805	oral antibiotics
+T98	problem 10744 10769	left lower lobe pneumonia
+T99	problem 4140 4152	acute sepsis
+T100	treatment 3846 3853	heparin
+T101	problem 1495 1503	afebrile
+T102	test 3119 3129	quadraceps
+T103	problem 7900 7921	her pulmonary process
+T104	problem 7804 7815	low sodiums
+T105	problem 9583 9600	her acute disease
+T106	problem 9225 9235	chest pain
+T107	problem 328 341	double vision
+T108	test 6973 7006	a right upper quadrant ultrasound
+T109	problem 7082 7102	active cholecystitis
+T110	problem 7018 7028	gallstones
+T111	problem 10512 10553	&quot; top of the basilar &quot; syndrome
+T112	test 9143 9145	ck
+T113	problem 10808 10818	gallstones
+T114	treatment 8315 8325	tube feeds
+T115	problem 4699 4705	drowsy
+T116	test 10890 10910	discharge hematocrit
+T117	problem 10881 10887	anemia
+T118	treatment 8210 8215	juice
+T119	problem 7266 7282	a steady decline
+T120	treatment 430 437	aspirin
+T121	treatment 10345 10352	tylenol
+T122	problem 10383 10387	pain
+T123	treatment 5944 5949	ancef
+T124	problem 8560 8571	her deficit
+T125	problem 4179 4223	substantial decrement in neurologic function
+T126	problem 11074 11090	high cholesterol
+T127	test 7286 7300	her hematocrit
+T128	test 5325 5354	computerized tomography scans
+T129	treatment 7619 7628	repletion
+T130	test 3255 3263	reflexes
+T131	test 2559 2580	the left lateral gaze
+T132	problem 3477 3492	mildly elevated
+T133	problem 1060 1080	known drug allergies
+T134	treatment 8745 8761	g tube placement
+T135	treatment 7308 7328	this hospitalization
+T136	treatment 9934 9941	tagamet
+T137	problem 496 518	basilar artery disease
+T138	problem 5611 5617	fevers
+T139	problem 858 864	angina
+T140	treatment 5099 5115	physical therapy
+T141	problem 7862 7896	her central nervous system process
+T142	treatment 5057 5071	speech therapy
+T143	problem 817 840	coronary artery disease
+T144	test 6881 6885	sgpt
+T145	treatment 9866 9882	nasogastric tube
+T146	problem 881 902	myocardial infarction
+T147	test 3013 3023	motor exam
+T148	treatment 10147 10154	kayciel
+T149	treatment 5803 5812	cefotetan
+T150	problem 1792 1800	cyanosis
+T151	test 9434 9449	her cholesterol
+T152	problem 9110 9121	an increase
+T153	problem 10489 10507	basilar thrombosis
+T154	treatment 1171 1179	questran
+T155	treatment 7209 7214	drugs
+T156	test 4062 4089	her systolic blood pressure
+T157	problem 4045 4058	an acute drop
+T158	treatment 8063 8073	tube feeds
+T159	problem 770 782	hypertension
+T160	test 905 923	exercise treadmill
+T161	treatment 10147 10154	kayciel
+T162	treatment 10089 10102	ciprofloxacin
+T163	problem 7370 7380	her anemia
+T164	test 3497 3513	the mb fractions
+T165	treatment 6178 6191	ciprofloxacin
+T166	treatment 6805 6824	her hospital course
+T167	treatment 7772 7781	potassium
+T168	treatment 7823 7843	this hospitalization
+T169	problem 8810 8816	angina
+T170	test 5692 5705	a chest x-ray
+T171	problem 1666 1699	minimal radiation to the carotids
+T172	test 2944 2956	sensory exam
+T173	treatment 1110 1117	mevicor
+T174	treatment 8389 8394	juice
+T175	problem 7124 7150	her liver enzyme elevation
+T176	test 1848 1857	angiogram
+T177	problem 11039 11062	coronary artery disease
+T178	treatment 7678 7688	gentamicin
+T179	treatment 9839 9844	juice
+T180	problem 10460 10483	basilar artery stenosis
+T181	test 7331 7343	iron studies
+T182	test 3622 3629	glucose
+T183	treatment 9485 9515	her hypercholesterol medicines
+T184	problem 10856 10878	liver enzyme elevation
+T185	test 3461 3471	ck &apos;s
+T186	test 1020 1026	benign
+T187	treatment 5838 5861	this antibiotic regimen
+T188	treatment 9973 9996	nystatin swish and spit
+T189	problem 344 354	dysarthria
+T190	test 7534 7564	the patient &apos;s potassiums
+T191	test 8423 8461	evaluation by the swallowing therapist
+T192	test 453 488	an magnetic resonance imaging study
+T193	treatment 9791 9800	metamucil
+T194	treatment 10390 10405	nystatin powder
+T195	test 7602 7614	daily checks
+T196	test 11158 11167	potassium
+T197	problem 2533 2556	right beading nystagmus
+T198	treatment 5787 5798	clindamycin
+T199	problem 3386 3411	st depression in v4 to v6
+T200	problem 8825 8846	myocardial infarction
+T201	problem 1614 1648	a ii / vi systolic ejection murmur
+T202	test 3909 3922	the angiogram
+T203	treatment 6384 6407	nystatin swish and spit
+T204	test 3536 3549	a chest x-ray
+T205	treatment 9892 9902	tube feeds
+T206	problem 9411 9421	chest pain
+T207	test 3636 3653	white blood count
+T208	treatment 5999 6014	these two drugs
+T209	treatment 8703 8722	an nasogastric tube
+T210	test 3342 3359	electrocardiogram
+T211	treatment 716 723	heparin
+T212	problem 11065 11071	thrush
+T213	test 9125 9132	the ldh
+T214	problem 1943 1953	chest pain
+T215	test 6872 6876	sgot
+T216	test 1812 1840	the neurological examination
+T217	treatment 6710 6726	oral antibiotics
+R1	TeRP Arg1:T22 Arg2:T23
+R2	TrAP Arg1:T30 Arg2:T31
+R3	TrAP Arg1:T30 Arg2:T32
+R4	PIP Arg1:T31 Arg2:T32
+R5	TrAP Arg1:T35 Arg2:T28
+R6	TrIP Arg1:T38 Arg2:T39
+R7	TeRP Arg1:T45 Arg2:T17
+R8	PIP Arg1:T47 Arg2:T48
+R9	TrIP Arg1:T71 Arg2:T72
+R10	TrAP Arg1:T74 Arg2:T28
+R11	TeRP Arg1:T75 Arg2:T44
+R12	TeRP Arg1:T75 Arg2:T76
+R13	TrCP Arg1:T84 Arg2:T85
+R14	TeRP Arg1:T89 Arg2:T31
+R15	TeRP Arg1:T91 Arg2:T92
+R16	TeRP Arg1:T94 Arg2:T95
+R17	TrIP Arg1:T97 Arg2:T98
+R18	TeRP Arg1:T108 Arg2:T87
+R19	TeRP Arg1:T108 Arg2:T109
+R20	TeRP Arg1:T108 Arg2:T110
+R21	TeRP Arg1:T116 Arg2:T117
+R22	TeRP Arg1:T116 Arg2:T25
+R23	TrAP Arg1:T121 Arg2:T122
+R24	TrAP Arg1:T123 Arg2:T31
+R25	TrAP Arg1:T123 Arg2:T32
+R26	TeRP Arg1:T127 Arg2:T119
+R27	TeRP Arg1:T128 Arg2:T17
+R28	TrIP Arg1:T135 Arg2:T119
+R29	PIP Arg1:T143 Arg2:T139
+R30	PIP Arg1:T152 Arg2:T23
+R31	TeRP Arg1:T156 Arg2:T157
+R32	PIP Arg1:T163 Arg2:T37
+R33	PIP Arg1:T163 Arg2:T82
+R34	PIP Arg1:T163 Arg2:T12
+R35	TrNAP Arg1:T168 Arg2:T104
+R36	TeRP Arg1:T170 Arg2:T79
+R37	PIP Arg1:T180 Arg2:T153
+R38	PIP Arg1:T180 Arg2:T111
+R39	TeRP Arg1:T185 Arg2:T132
+R40	TrWP Arg1:T187 Arg2:T59
+R41	TeRP Arg1:T192 Arg2:T62
+R42	TeRP Arg1:T192 Arg2:T137
+R43	TeRP Arg1:T202 Arg2:T47
+R44	TrAP Arg1:T203 Arg2:T13
+R45	TeRP Arg1:T204 Arg2:T69
+R46	TrAP Arg1:T208 Arg2:T32
+R47	TrAP Arg1:T208 Arg2:T31
+R48	TeRP Arg1:T210 Arg2:T199
+R49	TeRP Arg1:T213 Arg2:T152

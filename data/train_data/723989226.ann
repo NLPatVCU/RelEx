@@ -1,0 +1,215 @@
+T1	test 4863 4889	previous electrocardiogram
+T2	problem 4912 4931	significant changes
+T3	test 5301 5313	urine output
+T4	treatment 495 508	hemicolectomy
+T5	problem 470 482	colon cancer
+T6	problem 4055 4062	wheezes
+T7	problem 5926 5935	pneumonia
+T8	test 5742 5757	the chest x-ray
+T9	problem 5725 5738	the opacities
+T10	problem 5784 5799	pulmonary edema
+T11	problem 5829 5869	some abnormality in the right lower lobe
+T12	treatment 5938 5952	the antibiotic
+T13	treatment 1126 1149	his suprapubic catheter
+T14	problem 1159 1169	discomfort
+T15	problem 1182 1204	some blood at the site
+T16	treatment 7037 7045	prilosec
+T17	problem 6927 6961	the patient &apos;s abdominal pain
+T18	treatment 3466 3475	combivent
+T19	problem 1821 1830	orthopnea
+T20	treatment 5242 5259	intravenous lasix
+T21	problem 6143 6162	a serious pneumonia
+T22	problem 4799 4816	sinus tachycardia
+T23	problem 1759 1774	change in cough
+T24	test 4672 4694	white blood cell count
+T25	treatment 2207 2227	nebulizer treatments
+T26	treatment 3297 3303	ativan
+T27	treatment 1927 1951	his nasal oxygen at home
+T28	problem 1836 1864	paroxysmal nocturnal dyspnea
+T29	treatment 3545 3553	sorbitol
+T30	problem 6866 6872	nausea
+T31	treatment 7877 7893	physical therapy
+T32	test 4774 4791	electrocardiogram
+T33	problem 433 456	coronary artery disease
+T34	problem 749 758	pneumonia
+T35	problem 700 724	respiratory insuffiencey
+T36	problem 578 622	severe chronic obstructive pulmonary disease
+T37	treatment 8202 8212	prednisone
+T38	problem 325 349	congestive heart failure
+T39	problem 2989 3015	asymmetric pulmonary edema
+T40	problem 7745 7789	severe chronic obstructive pulmonary disease
+T41	treatment 2109 2115	40% 02
+T42	problem 3223 3235	colon cancer
+T43	treatment 2605 2625	intravenous steroids
+T44	problem 1747 1753	chills
+T45	test 2082 2105	his initial blood gases
+T46	problem 4118 4124	murmur
+T47	problem 6165 6203	the patient &apos;s respiratory status
+T48	treatment 8177 8182	lasix
+T49	treatment 3508 3515	aerobid
+T50	problem 6875 6883	vomiting
+T51	problem 1735 1741	fevers
+T52	treatment 6488 6493	lasix
+T53	treatment 3102 3119	a suprapubic tube
+T54	problem 3082 3096	atonic bladder
+T55	problem 1030 1040	discomfort
+T56	problem 1392 1418	slight shortness of breath
+T57	problem 3180 3186	angina
+T58	test 4256 4273	neurological exam
+T59	problem 4182 4197	masses palpable
+T60	treatment 8118 8126	levaquin
+T61	test 3703 3713	heart rate
+T62	treatment 2630 2653	intravenous antibiotics
+T63	treatment 8056 8062	ativan
+T64	problem 3954 3960	masses
+T65	test 4702 4716	urine analysis
+T66	treatment 7818 7834	a rehab facility
+T67	treatment 3329 3336	trusopt
+T68	treatment 1895 1916	his usual medications
+T69	treatment 4518 4524	40% 02
+T70	treatment 8086 8098	nasal oxygen
+T71	problem 2050 2079	moderate respiratory distress
+T72	problem 6577 6603	mild epigastric discomfort
+T73	treatment 401 420	suprapubic catheter
+T74	problem 381 395	atonic bladder
+T75	problem 2855 2925	new air space opacifications in the left apex and the right lower lobe
+T76	problem 3638 3667	moderate respiratory distress
+T77	problem 4066 4073	rhonchi
+T78	treatment 2353 2363	intubation
+T79	treatment 5486 5499	his treatment
+T80	test 4351 4371	deep tendon reflexes
+T81	problem 6694 6714	peptic ulcer disease
+T82	treatment 1338 1350	his catheter
+T83	problem 1551 1559	confused
+T84	problem 4164 4173	nontender
+T85	problem 303 322	respiratory failure
+T86	test 4234 4244	stool heme
+T87	problem 423 430	anxiety
+T88	problem 1490 1520	increasing shortness of breath
+T89	problem 3921 3946	jugular venous distention
+T90	problem 1629 1648	shortness of breath
+T91	problem 6899 6924	gastrointestinal bleeding
+T92	test 4527 4546	blood urea nitrogen
+T93	test 4552 4562	creatinine
+T94	treatment 6468 6482	brisk diuresis
+T95	treatment 5097 5117	nebulizer treatments
+T96	treatment 6626 6636	cimetidine
+T97	test 4756 4771	red blood cells
+T98	problem 2819 2841	scarring in both lungs
+T99	problem 2772 2813	his usual severe bilateral emphysema_____
+T100	problem 1694 1729	recent upper respiratory infections
+T101	problem 5658 5680	his respiratory status
+T102	test 3749 3765	respiratory rate
+T103	problem 4017 4038	crackles in the bases
+T104	test 3677 3693	a blood pressure
+T105	treatment 8005 8012	heparin
+T106	problem 6807 6838	gastroesophageal reflux disease
+T107	problem 3781 3810	moderate respiratory distress
+T108	treatment 1046 1072	a suprapubic catheter area
+T109	test 4443 4449	sodium
+T110	problem 3125 3132	anxiety
+T111	problem 3138 3161	coronary artery disease
+T112	test 2120 2123	p02
+T113	treatment 7578 7594	a rehab facility
+T114	test 4456 4465	potassium
+T115	test 4568 4577	uric acid
+T116	test 3899 3908	neck exam
+T117	treatment 5901 5912	antibiotics
+T118	test 2656 2669	a chest x-ray
+T119	problem 2731 2742	new changes
+T120	test 4507 4509	ph
+T121	treatment 5123 5132	albuterol
+T122	treatment 6745 6753	prilosec
+T123	problem 6794 6803	gastritis
+T124	problem 1805 1815	chest pain
+T125	test 4076 4086	heart exam
+T126	problem 4140 4142	s3
+T127	problem 2976 2985	pneumonia
+T128	problem 1777 1783	sputum
+T129	test 4200 4211	rectal exam
+T130	treatment 3241 3252	a colectomy
+T131	test 4496 4500	pc02
+T132	treatment 2558 2578	albuterol nebulizers
+T133	test 3813 3828	his temperature
+T134	test 2746 2761	his chest x-ray
+T135	treatment 5964 5972	levaquin
+T136	test 4472 4479	glucose
+T137	test 2141 2143	ph
+T138	problem 4610 4653	creatinine phosphokinase isoenzymes too low
+T139	treatment 5530 5550	nebulizer treatments
+T140	treatment 3416 3427	brimonidine
+T141	treatment 7839 7868	continued respiratory therapy
+T142	treatment 2173 2192	respiratory therapy
+T143	test 3963 3972	lung exam
+T144	problem 3982 4005	decreased breath sounds
+T145	test 5692 5705	a chest x-ray
+T146	test 4486 4489	p02
+T147	problem 3041 3068	associated medical problems
+T148	treatment 8261 8277	xalatan eyedrops
+T149	treatment 3375 3382	xalatan
+T150	treatment 2514 2544	continuous respiratory therapy
+T151	test 4730 4747	white blood cells
+T152	treatment 5158 5181	intravenous ticarcillin
+T153	problem 5195 5218	gram negative pneumonia
+T154	treatment 6674 6685	prophylaxis
+T155	treatment 7246 7262	physical therapy
+T156	treatment 5619 5647	the patient &apos;s diuresis
+T157	treatment 7978 7995	2.5 normal saline
+T158	test 3855 3896	head , eyes , ears , nose and throat exam
+T159	treatment 6062 6077	the ticarcillin
+T160	test 4656 4666	hematocrit
+T161	treatment 8409 8417	prilosec
+T162	treatment 5590 5613	intravenous solu-medrol
+T163	problem 256 300	severe chronic obstructive pulmonary disease
+T164	test 2130 2134	pc02
+T165	treatment 8360 8367	trusopt
+T166	problem 352 378	right lower lobe pneumonia
+T167	test 4584 4604	alkaline phosphatase
+T168	problem 1570 1581	disoriented
+T169	problem 6335 6357	his respiratory status
+T170	treatment 5562 5585	intravenous antibiotics
+T171	treatment 7958 7967	albuterol
+T172	treatment 8309 8317	alphagan
+T173	treatment 2590 2602	nasal oxygen
+R1	TeRP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T4 Arg2:T5
+R3	TeRP Arg1:T8 Arg2:T9
+R4	TeRP Arg1:T8 Arg2:T10
+R5	TeRP Arg1:T8 Arg2:T11
+R6	TrCP Arg1:T13 Arg2:T14
+R7	TrCP Arg1:T13 Arg2:T15
+R8	PIP Arg1:T14 Arg2:T15
+R9	TrAP Arg1:T16 Arg2:T17
+R10	TeRP Arg1:T32 Arg2:T22
+R11	PIP Arg1:T35 Arg2:T36
+R12	PIP Arg1:T35 Arg2:T34
+R13	PIP Arg1:T36 Arg2:T34
+R14	TrAP Arg1:T53 Arg2:T54
+R15	TrAP Arg1:T73 Arg2:T74
+R16	TrCP Arg1:T96 Arg2:T72
+R17	PIP Arg1:T98 Arg2:T99
+R18	TrCP Arg1:T108 Arg2:T55
+R19	PIP Arg1:T111 Arg2:T57
+R20	TeRP Arg1:T116 Arg2:T89
+R21	TeRP Arg1:T116 Arg2:T64
+R22	TrAP Arg1:T117 Arg2:T7
+R23	TeRP Arg1:T118 Arg2:T119
+R24	TeRP Arg1:T118 Arg2:T99
+R25	TeRP Arg1:T118 Arg2:T98
+R26	TrAP Arg1:T122 Arg2:T106
+R27	TrAP Arg1:T122 Arg2:T123
+R28	TeRP Arg1:T125 Arg2:T126
+R29	TeRP Arg1:T125 Arg2:T46
+R30	TrAP Arg1:T130 Arg2:T42
+R31	TeRP Arg1:T134 Arg2:T99
+R32	TeRP Arg1:T134 Arg2:T119
+R33	TeRP Arg1:T134 Arg2:T98
+R34	TeRP Arg1:T143 Arg2:T144
+R35	TeRP Arg1:T143 Arg2:T103
+R36	TeRP Arg1:T145 Arg2:T9
+R37	TeRP Arg1:T145 Arg2:T10
+R38	TeRP Arg1:T145 Arg2:T11
+R39	TrAP Arg1:T152 Arg2:T153
+R40	TrAP Arg1:T154 Arg2:T81
+R41	TrIP Arg1:T156 Arg2:T101
+R42	TrAP Arg1:T159 Arg2:T21

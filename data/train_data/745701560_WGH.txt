@@ -1,0 +1,49 @@
+745701560 WGH
+2217927
+991462
+4257841
+10/23/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+SMANTVERGE , TAWNEN
+MRN :
+2217927
+Age :
+78y
+REGISTRATION DATE :
+10/23/2005 09:30 AM
+Provider :
+VONNELIBRY POUSSCROOKESSEILLE
+PRELIMINARY REPORT
+PCP notified by MD :
+E-mail PCP
+Benefits Assigned :
+Y
+Discharge Note
+Date / Time :
+10/23/2005 10:35
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+APPT VONNELIBRY POUSSCROOKESSEILLE
+Diagnosis :
+Anxiety NOS
+Treatment Rendered :
+psychological assessment , past medication responses discussed .
+No new meds for now
+Discharge Medications :
+None today Disposition ,
+Follow up and Instructions to Patient :
+Keep follow-up medical appointments with Dr Trosgaugh .
+Continuing taking meds she prescribed .
+PCP Name :
+TROSGAUGH , NACOLE
+Provider Number :
+16660
+This report was created by POUSSCROOKESSEILLE , VONNELIBRY 10/23/2005 10:51 AM

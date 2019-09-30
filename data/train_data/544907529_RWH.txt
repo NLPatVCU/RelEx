@@ -1,0 +1,29 @@
+544907529 RWH
+2746299
+006349
+700114
+4/4/2002 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+JESCWIERST , MA
+MRN :
+2746299
+Age :
+55y
+REGISTRATION DATE :
+04/04/2002 01:09 AM
+PRELIMINARY REPORT
+This is to notify you that your patient , JESCWIERST , MA arrived in the Emergency Department at Ro Woodma Healthcare on 04/04/2002 01:09 AM .
+The patient presented with a chief complaint of EPIGASTRIC PAIN / ABD PAIN .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO RO WOODMA HEALTHCARE .
+The patient &apos;s preliminary admitting physician is PRIESDOUET , CH J and the preliminary diagnosis is CHOLECYSTITIS .
+Please note this information may have been updated on the inpatient unit .
+If you need additional information please call 662-747-1199 .
+PCP Name :
+GRENDZISKLEEB , FACISA T
+Provider Number :
+11181

@@ -1,0 +1,259 @@
+T1	problem 557 565	vomiting
+T2	treatment 3425 3428	asa
+T3	test 2770 2775	ck-mb
+T4	treatment 3431 3437	plavix
+T5	problem 568 579	diaphoresis
+T6	test 2752 2754	ck
+T7	treatment 3440 3452	heparin drip
+T8	test 2920 2924	mchc
+T9	test 2757 2760	cpk
+T10	test 591 597	an ecg
+T11	problem 653 680	new st depressions in v1-v4
+T12	test 2710 2717	ctropnt
+T13	problem 361 382	substernal chest pain
+T14	test 2745 2750	blood
+T15	test 2909 2912	mch
+T16	test 2681 2686	ck-mb
+T17	problem 548 554	nausea
+T18	test 2933 2936	rdw
+T19	test 2957 2964	glucose
+T20	test 831 841	her vitals
+T21	problem 3153 3156	htn
+T22	test 2662 2664	ck
+T23	test 3229 3232	ekg
+T24	problem 3241 3264	st depressions in v1-v4
+T25	test 847 849	hr
+T26	test 2667 2670	cpk
+T27	test 2655 2660	blood
+T28	test 855 857	bp
+T29	test 3269 3277	troponin
+T30	test 2604 2611	mb indx
+T31	test 2620 2627	ctropnt
+T32	problem 3291 3297	nstemi
+T33	test 2577 2580	cpk
+T34	treatment 696 699	asa
+T35	treatment 3369 3400	coronary artery catheterization
+T36	test 2591 2596	ck-mb
+T37	treatment 714 722	nitro sl
+T38	treatment 3728 3747	her metoprolol dose
+T39	test 3871 3878	an echo
+T40	problem 3919 3944	wall motion abnormalities
+T41	test 3711 3713	hr
+T42	problem 3524 3538	her chest pain
+T43	treatment 3559 3567	morphine
+T44	problem 3686 3705	atrial fibrillation
+T45	problem 3161 3182	substernal chest pain
+T46	test 3058 3062	phos
+T47	test 3570 3577	her sbp
+T48	test 2900 2903	mcv
+T49	test 3070 3072	mg
+T50	test 2888 2891	hct
+T51	treatment 4266 4276	lisinopril
+T52	test 2876 2879	hgb
+T53	problem 305 308	htn
+T54	test 2864 2867	rbc
+T55	test 2852 2855	wbc
+T56	treatment 3511 3521	lisinopril
+T57	problem 185 195	chest pain
+T58	treatment 3479 3491	atorvastatin
+T59	treatment 3494 3504	metoprolol
+T60	test 2815 2819	labs
+T61	test 2797 2804	ctropnt
+T62	test 2782 2789	mb indx
+T63	treatment 3466 3476	nitro drip
+T64	problem 1335 1355	macular degeneration
+T65	problem 4033 4041	her afib
+T66	problem 4974 4991	mild elevated wbc
+T67	problem 1356 1366	r ankle fx
+T68	test 4994 4996	ua
+T69	treatment 4080 4088	coumadin
+T70	problem 1319 1328	blindness
+T71	treatment 4015 4028	cardioversion
+T72	problem 4905 4916	weight gain
+T73	problem 1300 1318	hearing difficulty
+T74	problem 4920 4939	shortness of breath
+T75	treatment 4254 4261	lipitor
+T76	problem 4420 4460	bilateral crackles at bases and midlungs
+T77	test 1167 1171	cath
+T78	treatment 4343 4355	her new meds
+T79	problem 4946 4959	leukocytosis-
+T80	problem 305 308	htn
+T81	problem 4685 4707	respiratory difficulty
+T82	test 4373 4379	lft 's
+T83	test 1578 1580	rr
+T84	treatment 4648 4663	supplemental o2
+T85	test 1586 1592	o2 sat
+T86	test 1566 1568	bp
+T87	problem 4801 4816	mild pulm edema
+T88	test 4605 4615	her o2 sat
+T89	treatment 4895 4900	lasix
+T90	test 1549 1550	t
+T91	test 1558 1560	hr
+T92	test 3846 3852	her bp
+T93	treatment 4184 4191	aspirin
+T94	treatment 4207 4223	anti-coagulation
+T95	treatment 4196 4202	plavix
+T96	treatment 4136 4146	metoprolol
+T97	treatment 1376 1388	hysterectomy
+T98	test 4295 4305	her chem 7
+T99	test 973 976	ekg
+T100	problem 984 995	sinus brady
+T101	problem 1003 1042	old lad and new st depressions in v1-v4
+T102	treatment 5336 5346	metoprolol
+T103	problem 4463 4475	elevated jvp
+T104	treatment 5316 5331	artifical tears
+T105	treatment 5469 5484	docusate sodium
+T106	problem 5563 5575	constipation
+T107	problem 4478 4505	trace bilateral ankle edema
+T108	test 955 961	guaiac
+T109	treatment 5386 5391	senna
+T110	problem 4594 4602	acute mi
+T111	problem 4556 4571	pulmonary edema
+T112	problem 4521 4538	diffuse opacities
+T113	problem 934 952	bibasilar crackles
+T114	treatment 5273 5283	lisinopril
+T115	test 4767 4774	her cxr
+T116	test 4512 4515	cxr
+T117	problem 925 931	murmur
+T118	treatment 5261 5268	tylenol
+T119	test 892 896	exam
+T120	test 867 869	rr
+T121	treatment 5295 5303	protonix
+T122	treatment 1132 1143	heparin gtt
+T123	test 5121 5130	a culture
+T124	problem 5102 5110	afebrile
+T125	treatment 1115 1125	metoprolol
+T126	treatment 1104 1112	morphine
+T127	problem 5204 5212	positive
+T128	problem 5016 5028	few bacteria
+T129	treatment 1084 1092	nitro sl
+T130	test 5007 5013	wbc 's
+T131	treatment 1078 1081	asa
+T132	treatment 4842 4847	lasix
+T133	treatment 5060 5067	bactrim
+T134	treatment 5650 5661	clopidogrel
+T135	problem 1856 1885	trace ankle edema bilaterally
+T136	treatment 5581 5588	aspirin
+T137	problem 1612 1615	nad
+T138	problem 1843 1849	masses
+T139	treatment 5924 5941	polyvinyl alcohol
+T140	test 1948 1951	hgb
+T141	treatment 5795 5807	pantoprazole
+T142	test 1924 1927	wbc
+T143	treatment 5722 5734	atorvastatin
+T144	test 1936 1939	rbc
+T145	treatment 6168 6181	acetaminophen
+T146	test 1706 1709	jvp
+T147	treatment 6079 6098	metoprolol tartrate
+T148	problem 1748 1753	m/r/g
+T149	test 3816 3822	her hr
+T150	problem 1634 1639	blind
+T151	treatment 6008 6018	lisinopril
+T152	treatment 6361 6366	lasix
+T153	problem 6431 6450	shortness of breath
+T154	problem 6454 6462	wheezing
+T155	problem 1817 1819	nt
+T156	problem 1822 1824	nd
+T157	problem 1761 1803	crackles at base and mid-lungs bilaterally
+T158	problem 6343 6354	indigestion
+T159	treatment 6250 6256	maalox
+T160	test 2069 2071	na
+T161	test 2056 2061	creat
+T162	treatment 6477 6482	lasix
+T163	problem 6500 6511	weight gain
+T164	problem 6515 6534	shortness of breath
+T165	test 2044 2049	urean
+T166	test 2095 2099	hco3
+T167	problem 6602 6621	atrial fibrillation
+T168	test 2086 2088	cl
+T169	test 2078 2079	k
+T170	test 1992 1996	mchc
+T171	problem 6663 6673	chest pain
+T172	test 1981 1984	mch
+T173	test 1972 1975	mcv
+T174	problem 1296 1299	htn
+T175	test 1960 1963	hct
+T176	test 2029 2036	glucose
+T177	treatment 6739 6754	all medications
+T178	test 2016 2022	plt ct
+T179	test 6676 6686	heart rate
+T180	test 2005 2008	rdw
+T181	test 6691 6693	bp
+T182	problem 2201 2205	rbbb
+T183	problem 6893 6903	chest pain
+T184	problem 2222 2245	st depressions in v1-v4
+T185	treatment 6795 6818	several new medications
+T186	problem 2208 2219	q wave in i
+T187	problem 6906 6925	shortness of breath
+T188	problem 6937 6945	vomiting
+T189	problem 2248 2267	st elevation in iii
+T190	problem 6928 6934	nausea
+T191	problem 2270 2273	avf
+T192	problem 6948 6954	fevers
+T193	problem 2276 2286	twi in iii
+T194	test 2105 2110	angap
+T195	test 2116 2118	ck
+T196	problem 6957 6963	chills
+T197	test 2121 2124	cpk
+T198	test 875 881	o2 sat
+T199	problem 520 524	sscp
+T200	test 1045 1053	troponin
+T201	test 2132 2139	ctropnt
+T202	test 2159 2162	ekg
+T203	problem 2195 2198	lvh
+T204	treatment 1237 1255	further management
+T205	problem 3291 3297	nstemi
+T206	test 2480 2482	la
+T207	test 2468 2472	lvef
+T208	problem 2166 2177	sinus brady
+T209	test 2461 2465	echo
+T210	test 2694 2701	mb indx
+T211	problem 2495 2527	regional wall motion abnormality
+T212	test 2565 2570	blood
+T213	test 2530 2545	cardiac enzymes
+T214	test 3033 3038	angap
+T215	test 3044 3051	calcium
+T216	test 3023 3027	hco3
+T217	test 2572 2574	ck
+T218	test 2294 2297	cxr
+T219	test 3006 3007	k
+T220	test 3014 3016	cl
+T221	problem 2335 2365	the still mild pulmonary edema
+T222	test 2984 2989	creat
+T223	problem 2315 2331	slight worsening
+T224	problem 2380 2392	pneumothorax
+T225	test 2997 2999	na
+T226	test 2972 2977	urean
+T227	problem 2395 2423	small right pleural effusion
+T228	test 2944 2950	plt ct
+R1	TeRP Arg1:T10 Arg2:T11
+R2	TeRP Arg1:T23 Arg2:T24
+R3	TeRP Arg1:T39 Arg2:T40
+R4	TrIP Arg1:T43 Arg2:T42
+R5	TrAP Arg1:T69 Arg2:T65
+R6	PIP Arg1:T70 Arg2:T64
+R7	TrAP Arg1:T71 Arg2:T65
+R8	PIP Arg1:T79 Arg2:T66
+R9	TrAP Arg1:T89 Arg2:T72
+R10	TrAP Arg1:T89 Arg2:T74
+R11	TeRP Arg1:T99 Arg2:T100
+R12	TeRP Arg1:T99 Arg2:T101
+R13	TrAP Arg1:T105 Arg2:T106
+R14	PIP Arg1:T110 Arg2:T111
+R15	PIP Arg1:T111 Arg2:T76
+R16	PIP Arg1:T111 Arg2:T103
+R17	PIP Arg1:T111 Arg2:T107
+R18	PIP Arg1:T111 Arg2:T112
+R19	TeRP Arg1:T115 Arg2:T87
+R20	TeRP Arg1:T116 Arg2:T112
+R21	TeRP Arg1:T119 Arg2:T117
+R22	TeRP Arg1:T119 Arg2:T113
+R23	TeRP Arg1:T130 Arg2:T128
+R24	TrAP Arg1:T132 Arg2:T87
+R25	TrNAP Arg1:T133 Arg2:T124
+R26	TrAP Arg1:T152 Arg2:T153
+R27	TrAP Arg1:T152 Arg2:T154
+R28	TrAP Arg1:T159 Arg2:T158
+R29	TrAP Arg1:T162 Arg2:T163
+R30	TrAP Arg1:T162 Arg2:T164
+R31	PIP Arg1:T223 Arg2:T221

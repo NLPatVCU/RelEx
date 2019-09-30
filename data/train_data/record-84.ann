@@ -1,0 +1,188 @@
+T1	test 4441 4446	ekg s
+T2	problem 1819 1831	palpitations
+T3	problem 4670 4712	arresting regional wall motion abnormality
+T4	problem 4723 4747	focal apical hypokinesis
+T5	problem 1778 1785	dyspnea
+T6	problem 1667 1686	shortness of breath
+T7	problem 1401 1411	occlusions
+T8	test 1414 1445	the right heart catheterization
+T9	treatment 3994 4003	captopril
+T10	problem 2589 2606	apparent distress
+T11	test 1455 1477	a cardiac output index
+T12	test 2447 2461	blood pressure
+T13	test 1563 1575	pa pressures
+T14	problem 1800 1809	orthopnea
+T15	treatment 1209 1225	a hepacoat stent
+T16	test 2938 2949	examination
+T17	problem 2919 2924	lifts
+T18	problem 2928 2934	heaves
+T19	problem 6539 6548	dizziness
+T20	test 2802 2809	his pmi
+T21	test 1510 1521	ra pressure
+T22	problem 2785 2799	femoral bruits
+T23	test 4497 4514	an echocardiogram
+T24	problem 4556 4584	a mildly dilated left atrium
+T25	problem 4587 4605	mild symmetric lvh
+T26	problem 4632 4667	mild region lv systolic dysfunction
+T27	problem 4813 4845	a moderately dilated aortic root
+T28	problem 4848 4880	a mildly dilated ascending aorta
+T29	problem 4948 4969	pericardial effusions
+T30	treatment 4278 4290	beta blocker
+T31	problem 4248 4260	hypertension
+T32	problem 2765 2781	abdominal bruits
+T33	treatment 868 875	heparin
+T34	problem 2744 2762	any carotid bruits
+T35	problem 2982 2989	murmurs
+T36	test 2484 2500	respiratory rate
+T37	problem 3140 3152	nondistended
+T38	problem 6511 6517	nausea
+T39	treatment 1891 1919	antihypertensive medications
+T40	test 4198 4209	serial ck s
+T41	test 1010 1025	catheterization
+T42	test 4229 4238	a ck peak
+T43	treatment 7174 7181	aspirin
+T44	test 1531 1542	rv pressure
+T45	treatment 3963 3979	an ace inhibitor
+T46	treatment 6144 6146	pt
+T47	test 4159 4174	the lipid panel
+T48	treatment 3851 3858	lipitor
+T49	treatment 5725 5757	a low fat / low cholesterol diet
+T50	problem 3300 3306	bruits
+T51	treatment 7377 7385	atenolol
+T52	problem 3428 3476	significant coronary artery disease risk factors
+T53	problem 2992 2996	rubs
+T54	treatment 7060 7118	stent placement in the mid left anterior descending artery
+T55	test 3012 3036	his radial and dp pulses
+T56	problem 2436 2444	afebrile
+T57	treatment 5163 5179	a nicotine patch
+T58	test 5608 5620	the dye load
+T59	treatment 5387 5409	cardiac rehabilitation
+T60	treatment 1087 1097	integrilin
+T61	problem 5028 5049	chf signs or symptoms
+T62	treatment 7572 7600	a transdermal nicotine patch
+T63	problem 7643 7651	cravings
+T64	problem 1305 1319	the chest pain
+T65	treatment 4313 4323	integrilin
+T66	problem 4343 4345	mi
+T67	problem 1767 1775	pressure
+T68	problem 6309 6323	chest pressure
+T69	test 2471 2476	pulse
+T70	treatment 7237 7250	nitroglycerin
+T71	problem 7278 7288	chest pain
+T72	problem 7292 7300	pressure
+T73	problem 7304 7323	shortness of breath
+T74	treatment 6073 6088	dvt prophylaxis
+T75	treatment 3875 3885	metoprolol
+T76	treatment 3815 3821	plavix
+T77	problem 6460 6474	any chest pain
+T78	problem 6326 6345	shortness of breath
+T79	test 5575 5589	his creatinine
+T80	problem 2068 2073	an mi
+T81	treatment 5485 5502	these medications
+T82	problem 432 444	each episode
+T83	problem 3566 3584	an st elevation mi
+T84	treatment 5855 5869	gi prophylaxis
+T85	problem 6976 6988	hypertension
+T86	problem 3707 3711	pain
+T87	problem 5052 5068	the risk factors
+T88	treatment 3786 3793	aspirin
+T89	problem 3756 3783	his coronary artery disease
+T90	test 1100 1120	coronary angiography
+T91	problem 1177 1206	left lad with 99% midstenosis
+T92	problem 1689 1695	nausea
+T93	problem 6488 6508	difficulty breathing
+T94	treatment 6581 6596	his medications
+T95	test 1245 1254	residuals
+T96	problem 6477 6485	pressure
+T97	problem 1862 1874	hypertension
+T98	treatment 7196 7202	plavix
+T99	test 2818 2837	finger breath width
+T100	problem 3129 3137	scaphoid
+T101	problem 6936 6970	st elevation myocardial infarction
+T102	problem 6520 6535	light-headiness
+T103	problem 3287 3296	hematomas
+T104	problem 2624 2633	anicteric
+T105	problem 1745 1764	previous chest pain
+T106	problem 616 627	diaphoresis
+T107	test 1345 1369	a relook catheterization
+T108	problem 4432 4438	ectopy
+T109	problem 1652 1664	further pain
+T110	problem 3155 3164	nontender
+T111	test 5970 5989	the catheterization
+T112	problem 2667 2670	jvd
+T113	treatment 3665 3674	diltiazem
+T114	problem 3627 3636	residuals
+T115	test 4414 4423	telemetry
+T116	problem 3523 3535	hypertension
+T117	treatment 1075 1082	heparin
+T118	problem 564 586	unremitting 12-05 pain
+T119	problem 592 611	shortness of breath
+T120	problem 2674 2687	increased jvp
+T121	problem 1996 2014	any drug allergies
+T122	treatment 1293 1302	diltiazem
+T123	problem 226 249	coronary artery disease
+T124	treatment 926 937	iv retavase
+T125	treatment 4295 4308	ace inhibitor
+T126	problem 3235 3240	edema
+T127	problem 1699 1707	vomiting
+T128	problem 756 773	t wave inversions
+T129	problem 6292 6306	any chest pain
+T130	treatment 5316 5348	a low fat / low cholesterol diet
+T131	problem 6348 6355	dyspnea
+T132	treatment 6053 6068	pneumatic boots
+T133	test 5939 5948	platelets
+T134	test 4036 4049	a lipid panel
+T135	treatment 7461 7465	rest
+T136	treatment 880 898	nitroglycerin drip
+T137	test 1620 1630	monitoring
+T138	problem 3267 3279	minimal ooze
+T139	treatment 7326 7336	lisinopril
+T140	treatment 7216 7223	lipitor
+T141	problem 337 364	10/10 substernal chest pain
+T142	test 5625 5644	the catheterization
+T143	test 5909 5934	the patient 's hematocrit
+T144	treatment 3597 3606	lad stent
+T145	test 1550 1555	wedge
+T146	test 7032 7055	cardiac catheterization
+T147	test 686 699	the first ekg
+T148	problem 718 740	st elevations in v1-v3
+T149	treatment 7337 7356	hydrochlorothiazide
+T150	problem 2540 2550	very tense
+T151	problem 1812 1815	pnd
+T152	test 5760 5776	his electrolytes
+T153	treatment 3647 3660	nitroglycerin
+T154	problem 3000 3007	gallops
+T155	problem 285 297	hypertension
+T156	test 3098 3110	auscultation
+T157	treatment 1275 1288	nitroglycerin
+R1	PIP Arg1:T3 Arg2:T4
+R2	TeRP Arg1:T16 Arg2:T17
+R3	TeRP Arg1:T16 Arg2:T18
+R4	TeRP Arg1:T23 Arg2:T24
+R5	TeRP Arg1:T23 Arg2:T25
+R6	TeRP Arg1:T23 Arg2:T26
+R7	TeRP Arg1:T23 Arg2:T3
+R8	TeRP Arg1:T23 Arg2:T4
+R9	TeRP Arg1:T23 Arg2:T27
+R10	TeRP Arg1:T23 Arg2:T28
+R11	TeRP Arg1:T23 Arg2:T29
+R12	TrAP Arg1:T30 Arg2:T31
+R13	TrAP Arg1:T62 Arg2:T63
+R14	TrAP Arg1:T65 Arg2:T66
+R15	TrAP Arg1:T70 Arg2:T71
+R16	TrAP Arg1:T70 Arg2:T72
+R17	TrAP Arg1:T70 Arg2:T73
+R18	TrAP Arg1:T88 Arg2:T89
+R19	TeRP Arg1:T90 Arg2:T91
+R20	TeRP Arg1:T107 Arg2:T7
+R21	TeCP Arg1:T107 Arg2:T64
+R22	TrAP Arg1:T113 Arg2:T114
+R23	TeRP Arg1:T115 Arg2:T108
+R24	PIP Arg1:T118 Arg2:T106
+R25	PIP Arg1:T118 Arg2:T119
+R26	TrAP Arg1:T125 Arg2:T31
+R27	TrAP Arg1:T144 Arg2:T83
+R28	TrCP Arg1:T144 Arg2:T114
+R29	TeRP Arg1:T147 Arg2:T128
+R30	TeRP Arg1:T147 Arg2:T148
+R31	TrAP Arg1:T153 Arg2:T114

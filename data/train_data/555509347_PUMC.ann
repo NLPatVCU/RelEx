@@ -1,0 +1,18 @@
+T1	problem 351 369	low lying placenta
+T2	problem 730 742	active labor
+T3	test 766 772	height
+T4	treatment 281 297	vaginal delivery
+T5	problem 303 327	second degree laceration
+T6	treatment 1394 1429	spontaneous vertex vaginal delivery
+T7	test 776 781	heent
+T8	treatment 2106 2119	multivitamins
+T9	treatment 664 688	routine post partum care
+T10	problem 1500 1516	chorioamnionitis
+T11	problem 408 431	urinary tract infection
+T12	treatment 2106 2119	multivitamins
+T13	treatment 480 515	spontaneous vertex vaginal delivery
+T14	treatment 2124 2149	folate ( fam pren forte )
+T15	test 1305 1317	apgar scores
+T16	problem 1590 1601	nuchal cord
+T17	problem 1221 1233	active labor
+R1	TrCP Arg1:T4 Arg2:T5

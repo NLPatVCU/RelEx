@@ -1,0 +1,51 @@
+245317863 WGH
+9156109
+780576
+0720567
+04/20/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+KOORSKOTE , RETCO
+MRN :
+9156109
+Age :
+26y
+REGISTRATION DATE :
+04/20/2005 10:30 PM
+Provider :
+HE HERDES
+PRELIMINARY REPORT
+PCP notified by MD :
+E-mail PCP
+Benefits Assigned :
+Y
+Discharge Note Date / Time :
+04/21/2005 05:25
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+RLQ PAIN
+Standardized Discharge Instructions :
+The patient was given printed instructions for kidney stones ( English ) .
+Diagnosis :
+likely recently passed kidney stone
+Treatment Rendered :
+history , physical , lab , Abdominal CT scan
+Discharge Medications :
+Motrin as needed
+Follow up Service :
+Please follow up with your primary care physician within the next week .
+Also please follow up with urology regarding management of your kidney stones .
+Disposition , Follow up and Instructions to Patient :
+Please return if your symptoms return , you develop a fever .
+PCP Name :
+KOTEKOTEPRUESS , SUSNUM
+Provider Number :
+43264
+This report was created by HERDES , NEWSHALIE 04/21/2005 06:47 AM

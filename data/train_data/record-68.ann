@@ -1,0 +1,93 @@
+T1	problem 722 742	distant heart sounds
+T2	treatment 298 302	cabg
+T3	treatment 2593 2602	oxycodone
+T4	problem 2686 2690	pain
+T5	problem 396 406	severe 3vd
+T6	treatment 2953 2962	glipizide
+T7	test 1146 1148	na
+T8	test 960 966	plt ct
+T9	treatment 2605 2618	acetaminophen
+T10	treatment 2474 2489	docusate sodium
+T11	problem 370 382	positive ett
+T12	treatment 2734 2745	clopidogrel
+T13	problem 3434 3437	tia
+T14	treatment 1925 1934	metformin
+T15	test 926 929	mch
+T16	treatment 1937 1940	asa
+T17	treatment 1968 1975	aspirin
+T18	treatment 2843 2855	atorvastatin
+T19	test 917 920	mcv
+T20	problem 498 518	urinary incontinence
+T21	treatment 2351 2370	metoprolol tartrate
+T22	problem 764 775	extrem warm
+T23	treatment 1600 1638	a diet of thin liquids and soft solids
+T24	problem 1685 1700	his loose teeth
+T25	problem 781 786	edema
+T26	treatment 1889 1899	lisinopril
+T27	test 1554 1569	a video swallow
+T28	treatment 1902 1910	protonix
+T29	problem 158 182	known allergies to drugs
+T30	treatment 1913 1922	glipizide
+T31	treatment 3065 3075	lisinopril
+T32	test 1171 1175	hco3
+T33	problem 235 252	exertional angina
+T34	test 1155 1156	k
+T35	treatment 1284 1290	a cabg
+T36	test 949 952	rdw
+T37	test 663 666	nad
+T38	test 1134 1139	creat
+T39	treatment 1415 1435	his vasoactive drips
+T40	test 937 941	mchc
+T41	test 1123 1128	urean
+T42	test 1163 1165	cl
+T43	treatment 1530 1533	npo
+T44	problem 434 436	dm
+T45	problem 3547 3558	weight gain
+T46	test 1107 1114	glucose
+T47	test 1001 1007	plt ct
+T48	treatment 3654 3661	powders
+T49	problem 3665 3674	incisions
+T50	treatment 3634 3641	lotions
+T51	problem 349 366	exertional angina
+T52	problem 3521 3543	drainage from incision
+T53	treatment 3644 3650	creams
+T54	test 1101 1106	blood
+T55	problem 3348 3351	cad
+T56	problem 629 631	mi
+T57	test 1065 1072	inr(pt)
+T58	test 1054 1057	ptt
+T59	test 1181 1186	angap
+T60	test 810 822	pedal pulses
+T61	test 1042 1044	pt
+T62	problem 792 804	varicosities
+T63	problem 3356 3358	dm
+T64	problem 680 700	teeth in poor repair
+T65	test 1036 1041	blood
+T66	test 879 882	rbc
+T67	treatment 3373 3380	removal
+T68	problem 3359 3368	cataracts
+T69	test 995 1000	blood
+T70	test 869 872	wbc
+T71	test 904 907	hct
+T72	test 863 868	blood
+T73	test 892 895	hgb
+T74	problem 3411 3431	urinary incontinence
+T75	treatment 3174 3193	hydrochlorothiazide
+T76	problem 437 446	cataracts
+T77	problem 3510 3517	redness
+T78	treatment 451 458	removal
+T79	problem 3502 3507	fever
+T80	problem 430 433	htn
+T81	treatment 2153 2165	pantoprazole
+T82	problem 3352 3355	htn
+T83	test 386 390	cath
+R1	TrAP Arg1:T3 Arg2:T4
+R2	TrAP Arg1:T9 Arg2:T4
+R3	TrAP Arg1:T23 Arg2:T24
+R4	TrNAP Arg1:T48 Arg2:T49
+R5	TrNAP Arg1:T50 Arg2:T49
+R6	PIP Arg1:T51 Arg2:T11
+R7	TrNAP Arg1:T53 Arg2:T49
+R8	TrAP Arg1:T67 Arg2:T68
+R9	TrAP Arg1:T78 Arg2:T76
+R10	TeRP Arg1:T83 Arg2:T5

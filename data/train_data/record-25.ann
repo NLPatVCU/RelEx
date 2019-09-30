@@ -1,0 +1,176 @@
+T1	test 2478 2504	a ct scan with po contrast
+T2	problem 2512 2553	dilation of intrahepatic common bile duct
+T3	problem 1838 1844	masses
+T4	problem 5983 6010	the prerenal kidney failure
+T5	treatment 5252 5257	zosyn
+T6	test 3874 3890	white blood cell
+T7	problem 3858 3870	an elevation
+T8	treatment 580 603	an 8 caucasian catheter
+T9	treatment 5262 5279	empiric treatment
+T10	treatment 5816 5830	spironolactone
+T11	test 2257 2260	ast
+T12	test 5858 5879	his creatinine levels
+T13	problem 3263 3281	advanced cirrhosis
+T14	test 6296 6311	initial work-up
+T15	problem 3030 3048	cholangiocarcinoma
+T16	problem 5196 5207	the ascites
+T17	problem 5233 5236	svt
+T18	treatment 5847 5855	diuresis
+T19	test 5906 5940	the fractional excretion of sodium
+T20	problem 2972 3006	nodularity in the common bile duct
+T21	treatment 6162 6170	rocephin
+T22	treatment 5513 5522	midodrine
+T23	problem 5543 5557	this condition
+T24	test 1852 1858	guaiac
+T25	treatment 5579 5601	packed red blood cells
+T26	test 3177 3203	exploration of the abdomen
+T27	problem 3213 3248	significant nodularity of the liver
+T28	problem 773 809	nodularities in the common bile duct
+T29	problem 894 912	cholangiocarcinoma
+T30	test 4244 4274	fractional excretion of sodium
+T31	problem 4303 4322	a prerenal etiology
+T32	treatment 5755 5768	the midodrine
+T33	treatment 5806 5811	lasix
+T34	treatment 5734 5750	the somatostatin
+T35	treatment 3736 3749	the procedure
+T36	test 438 477	percutaneous transhepatic cholangiogram
+T37	test 3612 3625	cholangiogram
+T38	problem 3680 3711	leakage at the anastomosis site
+T39	problem 1531 1538	icteric
+T40	test 5297 5304	culture
+T41	problem 5308 5319	the ascites
+T42	problem 5339 5351	any organism
+T43	test 2047 2057	hematocrit
+T44	test 5039 5054	his oxygenation
+T45	test 2068 2082	platelet count
+T46	test 2861 2910	an endoscopic retrograde cholangiopancreatography
+T47	test 2012 2036	a white blood cell count
+T48	treatment 3125 3144	a whipple procedure
+T49	test 5282 5292	gram stain
+T50	treatment 991 1013	surgical interventions
+T51	test 669 719	the endoscopic retrograde cholangiopancreatography
+T52	test 2128 2136	chloride
+T53	treatment 3152 3171	hepaticojejunostomy
+T54	test 2096 2102	sodium
+T55	test 2112 2121	potassium
+T56	problem 3365 3382	region nodularity
+T57	treatment 5496 5508	somatostatin
+T58	test 2168 2178	creatinine
+T59	test 3419 3465	endoscopic retrograde cholangiopancreatography
+T60	test 3510 3519	pathology
+T61	test 2142 2153	bicarbonate
+T62	test 2159 2162	bun
+T63	problem 3549 3559	malignancy
+T64	problem 5713 5731	oxygen requirement
+T65	treatment 3574 3595	a hepaticojejunostomy
+T66	test 2237 2240	inr
+T67	test 340 386	endoscopic retrograde cholangiopancreatography
+T68	test 2247 2250	alt
+T69	test 2184 2200	prothrombin time
+T70	problem 269 299	primary sclerosing cholangitis
+T71	test 2208 2229	partial thrombin time
+T72	problem 1462 1476	acute distress
+T73	problem 5373 5391	oxygen requirement
+T74	treatment 649 666	external drainage
+T75	test 4906 4917	chest x-ray
+T76	treatment 1129 1184	placement of percutaneous transhepatic biliary drainage
+T77	treatment 4887 4903	fluid management
+T78	problem 2628 2640	splenomegaly
+T79	treatment 6395 6411	liver transplant
+T80	treatment 5005 5023	100% nonrebreather
+T81	treatment 6112 6123	a picc line
+T82	test 4922 4936	sputum culture
+T83	test 2577 2593	previous studies
+T84	problem 4680 4725	significant lower extremity and scrotum edema
+T85	treatment 2704 2759	a replacement of transhepatic biliary drainage catheter
+T86	problem 2816 2858	a distal stricture of the common bile duct
+T87	treatment 6468 6478	furosemide
+T88	test 6339 6356	electrocardiogram
+T89	treatment 6444 6452	rocephin
+T90	test 4764 4796	the patient 's oxygen saturation
+T91	test 2777 2790	cholangiogram
+T92	problem 1568 1583	lymphadenopathy
+T93	test 6361 6377	serology studies
+T94	test 6322 6336	echocardiogram
+T95	treatment 1356 1362	ambien
+T96	problem 1742 1751	nontender
+T97	test 1608 1620	auscultation
+T98	test 5107 5119	paracentesis
+T99	problem 1757 1763	masses
+T100	test 2389 2400	chest x-ray
+T101	problem 2410 2439	minimal left base atelectasis
+T102	problem 2444 2475	elevation of left hemidiaphragm
+T103	test 1939 1956	neurological exam
+T104	problem 1277 1297	known drug allergies
+T105	problem 1768 1780	nondistended
+T106	test 5170 5192	white blood cell count
+T107	problem 1039 1057	ulcerative colitis
+T108	problem 4124 4137	any pneumonia
+T109	test 387 433	endoscopic retrograde cholangiopancreatography
+T110	problem 1507 1517	atraumatic
+T111	problem 4189 4205	low urine output
+T112	problem 5476 5493	prerenal azotemia
+T113	treatment 3960 3966	unasyn
+T114	treatment 1330 1338	ursodiol
+T115	treatment 3971 3999	empiric antibiotic treatment
+T116	treatment 5439 5458	intravenous albumin
+T117	test 2332 2338	lipase
+T118	test 1816 1827	rectal exam
+T119	test 4052 4059	culture
+T120	treatment 5413 5434	normal saline boluses
+T121	problem 1709 1716	murmurs
+T122	test 4088 4101	a chest x-ray
+T123	test 2294 2309	total bilirubin
+T124	treatment 6666 6685	hepaticojejunostomy
+T125	problem 6648 6651	psc
+T126	test 2267 2287	alkaline phosphatase
+T127	problem 4593 4619	distentions of the abdomen
+T128	problem 4636 4665	accumulation of ascitic fluid
+T129	test 824 870	endoscopic retrograde cholangiopancreatography
+T130	treatment 6493 6507	spironolactone
+T131	test 2317 2324	amylase
+T132	treatment 1190 1235	placement of 8 caucasian nephrostomy catheter
+T133	test 4325 4346	the sodium creatinine
+T134	treatment 6523 6531	ursodiol
+T135	problem 1060 1090	primary sclerosing cholangitis
+T136	treatment 4394 4422	boluses of intravenous fluid
+T137	problem 1795 1813	hepatosplenomegaly
+T138	treatment 4427 4455	intravenous albumin infusion
+T139	treatment 480 542	the most recent percutaneous transluminal coronary angioplasty
+T140	treatment 4501 4513	this regimen
+T141	treatment 6231 6248	these medications
+R1	TeRP Arg1:T1 Arg2:T2
+R2	TeRP Arg1:T6 Arg2:T7
+R3	TeRP Arg1:T12 Arg2:T4
+R4	PIP Arg1:T16 Arg2:T17
+R5	TeRP Arg1:T19 Arg2:T4
+R6	PIP Arg1:T20 Arg2:T15
+R7	TrAP Arg1:T22 Arg2:T23
+R8	TeRP Arg1:T26 Arg2:T27
+R9	TeRP Arg1:T26 Arg2:T13
+R10	PIP Arg1:T27 Arg2:T13
+R11	PIP Arg1:T28 Arg2:T29
+R12	TeRP Arg1:T30 Arg2:T31
+R13	TeRP Arg1:T37 Arg2:T38
+R14	TeCP Arg1:T40 Arg2:T41
+R15	TeRP Arg1:T40 Arg2:T42
+R16	TeCP Arg1:T49 Arg2:T41
+R17	TeRP Arg1:T49 Arg2:T42
+R18	TrAP Arg1:T50 Arg2:T28
+R19	TrAP Arg1:T50 Arg2:T29
+R20	TrAP Arg1:T57 Arg2:T23
+R21	TeRP Arg1:T59 Arg2:T56
+R22	TeCP Arg1:T60 Arg2:T56
+R23	TrAP Arg1:T65 Arg2:T63
+R24	TeRP Arg1:T83 Arg2:T2
+R25	TeRP Arg1:T91 Arg2:T86
+R26	TeRP Arg1:T100 Arg2:T101
+R27	TeRP Arg1:T100 Arg2:T102
+R28	PIP Arg1:T102 Arg2:T101
+R29	TeCP Arg1:T106 Arg2:T16
+R30	TrAP Arg1:T116 Arg2:T112
+R31	TeRP Arg1:T118 Arg2:T3
+R32	TeRP Arg1:T122 Arg2:T108
+R33	TrAP Arg1:T124 Arg2:T125
+R34	PIP Arg1:T127 Arg2:T128
+R35	TeRP Arg1:T129 Arg2:T28

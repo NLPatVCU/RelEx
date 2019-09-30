@@ -1,0 +1,95 @@
+T1	problem 898 918	hepatorenal syndrome
+T2	treatment 3198 3217	fresh frozen plasma
+T3	treatment 3783 3793	oral lasix
+T4	problem 3100 3124	his estimated blood loss
+T5	treatment 3084 3097	the procedure
+T6	treatment 3173 3184	crystalloid
+T7	problem 947 968	hepatitis c cirrhosis
+T8	problem 177 200	end stage liver disease
+T9	problem 214 235	hepatitis c cirrhosis
+T10	test 2149 2167	the patient 's inr
+T11	treatment 1137 1162	miconazole nitrate powder
+T12	problem 1175 1185	groin rash
+T13	treatment 5677 5693	liver transplant
+T14	problem 486 493	ascites
+T15	treatment 4264 4292	an immunosuppressive regimen
+T16	treatment 3254 3263	platelets
+T17	problem 467 481	encephalopathy
+T18	treatment 4038 4058	the liver transplant
+T19	problem 816 832	further elevated
+T20	treatment 453 463	management
+T21	test 675 706	the patient 's serum creatinine
+T22	treatment 4296 4306	prednisone
+T23	treatment 1285 1295	vancomycin
+T24	treatment 5368 5375	valcyte
+T25	problem 2761 2794	spontaneous bacterial peritonitis
+T26	treatment 5342 5348	neoral
+T27	treatment 3420 3429	intubated
+T28	treatment 3959 3968	platelets
+T29	treatment 2616 2628	tube feeding
+T30	treatment 5428 5434	colace
+T31	treatment 5396 5401	lasix
+T32	treatment 4013 4027	blood products
+T33	treatment 3045 3076	continuous baker baker dialysis
+T34	test 1835 1860	the patient 's creatinine
+T35	treatment 5296 5306	prednisone
+T36	treatment 3892 3911	fresh frozen plasma
+T37	test 2996 3023	the patient 's fluid status
+T38	problem 648 672	worsening renal function
+T39	treatment 2928 2958	an orthotopic liver transplant
+T40	treatment 5324 5332	dilaudid
+T41	treatment 3849 3857	morphine
+T42	treatment 2842 2852	transplant
+T43	treatment 5240 5251	fluconazole
+T44	treatment 2319 2328	red cells
+T45	treatment 3740 3748	diuresis
+T46	treatment 5211 5221	metoprolol
+T47	problem 4892 4924	the patient 's surgical incision
+T48	problem 4992 5001	infection
+T49	problem 2347 2363	thrombocytopenic
+T50	treatment 1105 1117	back surgery
+T51	treatment 2305 2314	platelets
+T52	treatment 5185 5193	protonix
+T53	treatment 322 332	interferon
+T54	problem 3581 3589	distress
+T55	treatment 5270 5278	cellcept
+T56	treatment 3440 3453	the procedure
+T57	treatment 2433 2451	vancomycin therapy
+T58	problem 2456 2540	his previously diagnosed methicillin resistant , coagulase negative staph bacteremia
+T59	treatment 3935 3942	surgery
+T60	treatment 337 346	ribavirin
+T61	treatment 4488 4504	physical therapy
+T62	treatment 3231 3240	red cells
+T63	treatment 4761 4782	tube feed supplements
+T64	test 1981 2006	the patient 's creatinine
+T65	test 2369 2385	a platelet count
+T66	test 4802 4837	the patient 's liver function tests
+T67	treatment 1085 1099	knee surgeries
+T68	treatment 5141 5164	bactrim single strength
+T69	problem 3683 3695	any problems
+T70	treatment 4309 4315	neoral
+T71	treatment 2668 2692	therapeutic paracentesis
+T72	test 2052 2069	his fluid balance
+T73	treatment 3717 3729	a lasix drip
+T74	treatment 1218 1227	lactulose
+T75	treatment 1191 1199	protonix
+T76	treatment 3812 3839	the patient 's pain control
+T77	problem 1068 1079	hemorrhoids
+T78	treatment 307 316	treatment
+T79	treatment 4322 4330	cellcept
+T80	treatment 2272 2291	fresh frozen plasma
+T81	treatment 3288 3298	cell saver
+T82	treatment 3301 3314	the procedure
+T83	problem 3333 3346	complications
+T84	problem 1029 1041	hypertension
+T85	test 2196 2208	his pt level
+T86	treatment 2256 2268	transfusions
+T87	problem 1047 1062	nephrolithiasis
+R1	PIP Arg1:T8 Arg2:T9
+R2	TrAP Arg1:T11 Arg2:T12
+R3	TrAP Arg1:T20 Arg2:T14
+R4	TrAP Arg1:T20 Arg2:T17
+R5	PIP Arg1:T47 Arg2:T48
+R6	TrAP Arg1:T57 Arg2:T58
+R7	TeRP Arg1:T65 Arg2:T49
+R8	TrCP Arg1:T82 Arg2:T83

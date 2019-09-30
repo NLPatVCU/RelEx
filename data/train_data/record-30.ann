@@ -1,0 +1,91 @@
+T1	test 1477 1486	breathing
+T2	test 1918 1928	hematocrit
+T3	problem 2923 2944	a persistent acidemia
+T4	problem 1804 1812	cyanosis
+T5	test 2024 2031	glucose
+T6	treatment 2890 2909	ventilatory support
+T7	test 2004 2014	creatinine
+T8	problem 1139 1159	known drug allergies
+T9	test 1958 1964	sodium
+T10	test 575 598	cardiac catheterization
+T11	problem 1397 1411	acute distress
+T12	problem 1773 1782	nontender
+T13	problem 2131 2175	significant disease in the coronary arteries
+T14	treatment 875 894	mitral valve repair
+T15	problem 1827 1847	edema in extremities
+T16	treatment 2784 2807	minimal pressor support
+T17	problem 2357 2367	pa fistula
+T18	problem 2277 2294	a persistent flow
+T19	problem 2395 2430	the circumflex to pa branch fistula
+T20	test 1993 1996	bun
+T21	problem 2194 2235	an left anterior descending to pa fistula
+T22	treatment 2673 2687	this procedure
+T23	problem 1815 1823	clubbing
+T24	problem 4716 4726	any fevers
+T25	test 3663 3683	a renal consultation
+T26	treatment 4365 4371	colace
+T27	test 1414 1425	temperature
+T28	treatment 4259 4297	minimally invasive mitral valve repair
+T29	problem 4226 4246	mitral regurgitation
+T30	problem 1588 1612	cervical lymphadenopathy
+T31	treatment 135 154	mitral valve repair
+T32	problem 3773 3791	diabetes insipidus
+T33	test 1439 1444	pulse
+T34	test 3814 3834	the patient 's serum
+T35	treatment 2841 2853	this support
+T36	problem 258 285	severe mitral regurgitation
+T37	problem 4049 4063	some hematuria
+T38	test 1974 1983	potassium
+T39	problem 3739 3761	intracranial pathology
+T40	treatment 2992 3003	a swan-ganz
+T41	problem 923 949	mitral valve regurgitation
+T42	test 3712 3726	a head ct scan
+T43	problem 1533 1551	missing many teeth
+T44	test 3130 3148	venous saturations
+T45	test 1939 1948	platelets
+T46	test 1453 1467	blood pressure
+T47	test 1884 1908	a white blood cell count
+T48	test 3607 3619	urine output
+T49	test 3951 3958	his bun
+T50	treatment 3298 3317	ventilatory support
+T51	treatment 1092 1116	nitroglycerin sublingual
+T52	problem 3372 3397	a slight bit of confusion
+T53	problem 643 681	flow-limited disease in the coronaries
+T54	problem 435 449	severe dyspnea
+T55	test 3963 3973	creatinine
+T56	test 1726 1738	auscultation
+T57	problem 351 383	significant exercise intolerance
+T58	test 3839 3857	urine electrolytes
+T59	treatment 2969 2987	sodium bicarbonate
+T60	test 3026 3054	close hemodynamic monitoring
+T61	treatment 4327 4336	lopressor
+T62	problem 686 702	several fistulae
+T63	treatment 3992 4012	the patient 's foley
+T64	test 3905 3932	the patient 's urine output
+T65	treatment 3873 3886	this diuresis
+T66	problem 1667 1700	a iii/vi systolic ejection murmur
+T67	treatment 4401 4409	percocet
+T68	treatment 2472 2489	coil embolization
+T69	treatment 771 785	coil embolized
+T70	test 2091 2114	cardiac catheterization
+T71	treatment 1013 1021	atenolol
+T72	test 2492 2509	ejection fraction
+T73	problem 2062 2072	infiltrate
+T74	problem 2076 2088	pneumothorax
+T75	treatment 871 894	his mitral valve repair
+T76	treatment 4450 4457	aspirin
+T77	test 2041 2052	chest x-ray
+T78	treatment 1045 1067	enteric-coated aspirin
+T79	problem 4730 4762	difficulties with the wound care
+R1	TrAP Arg1:T6 Arg2:T3
+R2	PIP Arg1:T18 Arg2:T17
+R3	PIP Arg1:T18 Arg2:T19
+R4	TrAP Arg1:T28 Arg2:T29
+R5	PIP Arg1:T39 Arg2:T32
+R6	TeCP Arg1:T42 Arg2:T39
+R7	TrNAP Arg1:T68 Arg2:T18
+R8	TrNAP Arg1:T68 Arg2:T17
+R9	TrNAP Arg1:T68 Arg2:T19
+R10	TeRP Arg1:T70 Arg2:T13
+R11	TeRP Arg1:T77 Arg2:T73
+R12	TeRP Arg1:T77 Arg2:T74

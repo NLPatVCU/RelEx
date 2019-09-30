@@ -1,0 +1,96 @@
+Admission Date :
+2019-09-27
+Discharge Date :
+2019-10-07
+Date of Birth :
+1959-01-27
+Sex :
+M
+Service :
+CARDIOTHORACIC
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Luis JG Lavoie , M.D.
+Chief Complaint :
+exertional angina
+Major Surgical or Invasive Procedure :
+10-01 CABG x 3
+History of Present Illness :
+60 yo M with exertional angina -> positive ETT -> cath with severe 3VD
+Past Medical History :
+HTN
+DM
+cataracts s/p removal of in Mayotte c/b enucleated CMED CSRU
+urinary incontinence
+Social History :
+farmer in Mayotte
+- tob
+- etoh
+lives with wife and oldest son
+Family History :
+father with ? Mi at unknown age
+Physical Exam :
+NAD 76 184/87 18
+Teeth in poor repair
+lungs ctab ant / lat
+distant heart sounds , RRR
+Abdomen benign
+extrem warm , no edema , no varicosities , 2+ pedal pulses
+Pertinent Results :
+2019-10-07 05:30 AM BLOOD WBC - 6.5 RBC - 3.23 * Hgb - 9.5 * Hct - 27.6 * MCV - 86 MCH - 29.4 MCHC - 34.4 RDW - 14.0 Plt Ct - 356 #
+2019-10-07 05:30 AM BLOOD Plt Ct - 356 #
+2019-10-04 06:50 AM BLOOD PT - 13.2 * PTT - 32.1 INR(PT) - 1.2 *
+2019-10-07 05:30 AM BLOOD Glucose - 156 * UreaN - 20 Creat - 1.0 Na - 140 K - 3.8 Cl - 99 HCO3 - 31 AnGap - 14
+Brief Hospital Course :
+He was taken to the operating room on 2019-10-01 where he underwent a CABG x 3 .
+He was transferred to the CMED CCU in critical but stable condition .
+He was extubated by POD #1 .
+He was weaned from his vasoactive drips and transferred to the floor on POD #2 .
+He was seen by speech and swallowing who recommended NPO , he then underwent a video swallow after which he was changed to a diet of thin liquids and soft solids , and felt that his eeating may be limited by his loose teeth .
+Dentistry and OMFS were consulted , and he had four front teeth removed on 10-04 .
+He did well post operatively and he was ready for discharge on 2019-10-07 .
+Medications on Admission :
+lisinopril , protonix , glipizide , metformin , asa
+Discharge Medications :
+1. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 0 *
+2. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 0 *
+3. Metoprolol Tartrate 50 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 60 Tablet (s)* Refills :* 0 *
+4. Docusate Sodium 150 mg / 15 mL Liquid Sig : One ( 1 ) PO BID ( 2 times a day ).
+Disp :* QS 1 month * Refills :* 0 *
+5. Oxycodone - Acetaminophen 5-325 mg Tablet Sig : 1-2 Tablets PO every 4-6 hours as needed for pain .
+Disp :* 50 Tablet (s)* Refills :* 0 *
+6. Clopidogrel 75 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+7. Atorvastatin 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+8. Glipizide 5 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 60 Tablet (s)* Refills :* 0 *
+9. Lisinopril 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+10. Hydrochlorothiazide 25 mg Tablet Sig : One ( 1 ) Tablet PO once a day .
+Disp :* 30 Tablet (s)* Refills :* 0 *
+Discharge Disposition :
+Home with Service
+Discharge Diagnosis :
+CAD
+HTN
+DM
+cataracts s/p removal c/b enucleated left CMED CSRU
+urinary incontinence
+? TIA
+Discharge Condition :
+Good .
+Discharge Instructions :
+Call with fever , redness or drainage from incision or weight gain more than 2 pounds in one day or five in one week .
+Shower , no baths , no lotions , creams or powders to incisions .
+No lifting more than 10 pounds or driving until follow up with surgeon .
+Followup Instructions :
+Dr. Dewhurst 2 weeks
+Dr. Burns 4 weeks
+Chad Barbara MD 49-703
+Completed by : Theresa Leonore NP 80-BXH 2019-10-07 @ 1229
+Signed electronically by : DR. Eugene Offutt on : MON 2019-10-07 12:44 PM
+( End of Report )

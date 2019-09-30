@@ -1,0 +1,66 @@
+T1	problem 372 378	anemia
+T2	treatment 3046 3048	ah
+T3	problem 491 510	biliary obstruction
+T4	test 2152 2167	total bilirubin
+T5	treatment 939 958	difficult procedure
+T6	test 2040 2044	exam
+T7	test 2081 2092	white count
+T8	test 2142 2145	ldh
+T9	test 681 727	endoscopic retrograde cholangiopancreatography
+T10	problem 738 751	dilated ducts
+T11	test 1629 1635	02 sat
+T12	treatment 2624 2638	a second drain
+T13	treatment 1204 1226	antibiotic prophylaxis
+T14	problem 326 349	urinary tract infection
+T15	test 628 646	further evaluation
+T16	problem 1707 1721	acute distress
+T17	problem 2520 2526	nausea
+T18	test 1595 1605	heart rate
+T19	treatment 1332 1337	cipro
+T20	treatment 2951 2962	prophylaxis
+T21	problem 1472 1487	colon carcinoma
+T22	problem 54 73	biliary obstruction
+T23	treatment 2322 2333	antibiotics
+T24	problem 268 280	hypertension
+T25	treatment 823 842	percutaneous drains
+T26	treatment 1359 1366	vasotec
+T27	treatment 916 934	a prolonged course
+T28	problem 1804 1857	a ii / vi systolic murmur at the right sternal border
+T29	test 1746 1758	auscultation
+T30	problem 857 873	his biliary tree
+T31	problem 236 262	metastatic colon carcinoma
+T32	test 2119 2122	ast
+T33	problem 2530 2538	vomiting
+T34	test 2200 2220	alkaline phosphatase
+T35	test 2133 2136	alt
+T36	problem 1881 1890	nontender
+T37	problem 2414 2430	bilious material
+T38	treatment 781 805	interventional radiology
+T39	problem 2017 2022	edema
+T40	problem 355 366	cholangitis
+T41	problem 286 301	aortic stenosis
+T42	test 1548 1559	temperature
+T43	treatment 2388 2404	the intact drain
+T44	treatment 2936 2946	cipro p.o.
+T45	treatment 3053 3072	his home stent care
+T46	treatment 1166 1171	ancef
+T47	test 2103 2113	hematocrit
+T48	treatment 1925 1941	midline catheter
+T49	treatment 892 902	two drains
+T50	problem 447 471	metastatic rectal cancer
+T51	treatment 307 320	porcine valve
+T52	test 1571 1585	blood pressure
+T53	treatment 534 548	biliary stents
+T54	test 2179 2195	direct bilirubin
+T55	treatment 1176 1186	gentamicin
+T56	problem 2762 2774	any problems
+T57	problem 182 198	rectal carcinoma
+T58	test 1611 1623	respirations
+T59	treatment 1051 1082	his lateral percutaneous drains
+T60	treatment 213 230	partial colectomy
+T61	problem 2502 2512	belly pain
+R1	TeRP Arg1:T9 Arg2:T10
+R2	TrCP Arg1:T38 Arg2:T10
+R3	TrAP Arg1:T43 Arg2:T37
+R4	TrAP Arg1:T51 Arg2:T41
+R5	TrAP Arg1:T60 Arg2:T57

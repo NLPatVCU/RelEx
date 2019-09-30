@@ -1,0 +1,76 @@
+T1	problem 364 390	diagnosed liver laceration
+T2	test 834 841	glucose
+T3	test 1182 1190	chloride
+T4	test 1153 1159	sodium
+T5	test 1166 1175	potassium
+T6	problem 770 791	peritoneal irritation
+T7	test 1283 1291	alk phos
+T8	treatment 1926 1941	docusate sodium
+T9	problem 586 622	left forarm and right knee abrasions
+T10	test 1197 1206	total co2
+T11	test 1247 1256	alt(sgpt)
+T12	test 394 401	ct scan
+T13	test 2798 2807	the study
+T14	problem 2558 2567	dizziness
+T15	problem 1743 1757	biliary stasis
+T16	test 1064 1073	phosphate
+T17	test 1080 1089	magnesium
+T18	test 2390 2409	the ct scan abdomen
+T19	test 1701 1718	the liver enzimes
+T20	test 2744 2754	ct abdomen
+T21	test 2479 2511	abdominal ct scan of the abdomen
+T22	test 1048 1055	calcium
+T23	treatment 2060 2073	hydromorphone
+T24	problem 2148 2152	pain
+T25	test 1116 1123	glucose
+T26	treatment 1547 1552	a pca
+T27	problem 1525 1529	pain
+T28	test 1141 1146	creat
+T29	test 1454 1457	ptt
+T30	test 1212 1221	anion gap
+T31	problem 2528 2546	any abdominal pain
+T32	treatment 1568 1581	po medication
+T33	problem 1584 1604	the liver laceration
+T34	problem 1640 1660	further complication
+T35	problem 1629 1636	rupture
+T36	test 1465 1472	inr(pt)
+T37	test 870 876	sodium
+T38	problem 2549 2554	fever
+T39	test 858 863	creat
+T40	test 847 853	urea n
+T41	treatment 1680 1698	surgical managment
+T42	problem 690 697	murmors
+T43	test 1388 1391	mch
+T44	test 1013 1021	tot bili
+T45	test 1413 1416	rdw
+T46	test 999 1007	alk phos
+T47	test 1444 1446	pt
+T48	test 963 972	alt(sgpt)
+T49	treatment 2644 2666	analgesic ( percocet )
+T50	test 981 990	ast(sgot)
+T51	test 1265 1274	ast(sgot)
+T52	test 1401 1405	mchc
+T53	test 1342 1345	rbc
+T54	test 1129 1135	urea n
+T55	test 899 907	chloride
+T56	test 1366 1369	hct
+T57	test 883 892	potassium
+T58	test 1355 1358	hgb
+T59	test 1377 1380	mcv
+T60	test 929 938	anion gap
+T61	test 1297 1305	tot bili
+T62	test 640 652	auscultation
+T63	treatment 568 583	cervical collar
+T64	test 914 923	total co2
+T65	problem 700 714	abdominal pain
+T66	test 1332 1335	wbc
+R1	TeRP Arg1:T12 Arg2:T1
+R2	TrAP Arg1:T23 Arg2:T24
+R3	TrAP Arg1:T26 Arg2:T27
+R4	TrAP Arg1:T32 Arg2:T27
+R5	PIP Arg1:T33 Arg2:T34
+R6	PIP Arg1:T33 Arg2:T35
+R7	TrAP Arg1:T41 Arg2:T33
+R8	TrAP Arg1:T41 Arg2:T34
+R9	TrAP Arg1:T41 Arg2:T35
+R10	TeRP Arg1:T62 Arg2:T42

@@ -1,0 +1,57 @@
+T1	treatment 476 526	a matched , unrelated donor bone marrow transplant
+T2	problem 1117 1126	agitation
+T3	problem 1455 1463	agitated
+T4	treatment 226 248	bone marrow transplant
+T5	treatment 1703 1710	surgery
+T6	problem 1677 1702	the severity of the bleed
+T7	problem 377 403	an elevated platelet count
+T8	test 622 631	platelets
+T9	problem 1279 1299	respiratory distress
+T10	problem 1248 1274	the changing mental status
+T11	problem 46 74	chronic myelogenous leukemia
+T12	problem 856 871	a drug reaction
+T13	problem 1527 1551	this continued agitation
+T14	treatment 684 710	his bone marrow transplant
+T15	problem 760 766	fevers
+T16	problem 187 190	cml
+T17	problem 1606 1636	an intraparenchymal hemorrhage
+T18	treatment 807 818	antibiotics
+T19	problem 771 782	neutropenia
+T20	problem 823 844	a diffuse erythroderm
+T21	treatment 1206 1215	intubated
+T22	problem 1157 1187	increased respiratory distress
+T23	problem 1129 1152	change in mental status
+T24	test 960 974	a bronchoscopy
+T25	problem 998 1003	blood
+T26	problem 1050 1066	blood in alveoli
+T27	problem 1092 1095	dah
+T28	treatment 1333 1343	medication
+T29	treatment 1379 1421	the patient &apos;s pain and sedation meds
+T30	test 1554 1563	a head ct
+T31	test 585 607	white blood cell count
+T32	problem 916 937	pulmonary infiltrates
+T33	problem 1828 1832	dead
+T34	problem 254 276	intraparenchymal bleed
+T35	problem 942 957	some hemoptysis
+T36	treatment 1505 1513	the vent
+T37	problem 1348 1367	worsening mucositis
+T38	problem 438 441	cml
+R1	TrNAP Arg1:T5 Arg2:T6
+R2	TrAP Arg1:T18 Arg2:T19
+R3	TrAP Arg1:T18 Arg2:T15
+R4	TrCP Arg1:T18 Arg2:T20
+R5	TrCP Arg1:T18 Arg2:T12
+R6	PIP Arg1:T20 Arg2:T12
+R7	TrAP Arg1:T21 Arg2:T22
+R8	TrAP Arg1:T21 Arg2:T23
+R9	TrAP Arg1:T21 Arg2:T2
+R10	TeRP Arg1:T24 Arg2:T25
+R11	TeRP Arg1:T24 Arg2:T26
+R12	TeRP Arg1:T24 Arg2:T27
+R13	TrCP Arg1:T28 Arg2:T9
+R14	TrCP Arg1:T28 Arg2:T10
+R15	TrWP Arg1:T29 Arg2:T3
+R16	TeRP Arg1:T30 Arg2:T13
+R17	TeCP Arg1:T30 Arg2:T17
+R18	PIP Arg1:T37 Arg2:T10
+R19	PIP Arg1:T37 Arg2:T9

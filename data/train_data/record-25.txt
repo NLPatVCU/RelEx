@@ -1,0 +1,108 @@
+Admission Date :
+2009-08-17
+Discharge Date :
+2009-09-10
+Date of Birth :
+1951-04-02
+Sex :
+M
+Service :
+BLUE GENERAL SURGERY
+Attending : Terry U Cheatom , M.D.
+HISTORY OF PRESENT ILLNESS :
+Mr. Cordano is a 58-year-old gentlemen with a past medical history significant for primary sclerosing cholangitis who presented with a chief complaint of endoscopic retrograde cholangiopancreatography endoscopic retrograde cholangiopancreatography and percutaneous transhepatic cholangiogram .
+The most recent percutaneous transluminal coronary angioplasty was done in 2009-07-25 .
+At the time an 8 Caucasian catheter was placed in the common hepatic/bioduct for external drainage .
+The endoscopic retrograde cholangiopancreatography also showed the presence proximal common bile duct .
+Nodularities in the common bile duct visualized by endoscopic retrograde cholangiopancreatography was also worrisome for cholangiocarcinoma and the patient was admitted to the Blue General Surgery Service for possible surgical interventions .
+PAST MEDICAL HISTORY :
+Ulcerative colitis , primary sclerosing cholangitis .
+PAST SURGICAL HISTORY :
+Status post placement of percutaneous transhepatic biliary drainage with placement of 8 Caucasian nephrostomy catheter in the common bile duct .
+ALLERGIES :
+No known drug allergies .
+MEDICATIONS ON ADMISSION :
+1. Ursodiol 600 mg t.i.d.
+2. Ambien 5 mg q.h.s.
+PHYSICAL EXAMINATION ON ADMISSION :
+The patient is a jaundiced looking gentlemen in no acute distress .
+The head is normocephalic , atraumatic and eyes are icteric .
+The neck is supple with no lymphadenopathy .
+The chest is clear to auscultation bilaterally .
+The heart has a regular rate and rhythm with normal S1 , S2 .
+There is no murmurs .
+The abdomen was soft , nontender , no masses and nondistended .
+There is no hepatosplenomegaly .
+Rectal exam showed no masses and is guaiac negative .
+The extremities have distal pulses and were warm and well perfused .
+Neurological exam was grossly intact .
+LABORATORY STUDIES AT ADMISSION :
+A white blood cell count of 14.2 , hematocrit of 35.3 , platelet count of 449,000 .
+Sodium of 130 , potassium 3.5 , chloride 93 , bicarbonate 28 , BUN 15 , creatinine 1.1, prothrombin time 14.1 , partial thrombin time 29.7 .
+INR 1.4 .
+ALT 106 , AST 149 , alkaline phosphatase 242 .
+Total bilirubin 10.1 , amylase 90 and lipase 112 .
+RADIOLOGICAL STUDIES AT TIME OF ADMISSION :
+Chest x-ray revealed minimal left base atelectasis and elevation of left hemidiaphragm .
+A CT scan with po contrast showed dilation of intrahepatic common bile duct which is improved from previous studies .
+It is also noted that there was splenomegaly .
+HOSPITAL COURSE :
+Mr. Cordano was admitted on 2009-08-17 for a replacement of transhepatic biliary drainage catheter .
+At that time , cholangiogram confirmed that there was a distal stricture of the common bile duct .
+An endoscopic retrograde cholangiopancreatography also demonstrated similar findings
+and it is noted there was nodularity in the common bile duct which is worrisome for cholangiocarcinoma .
+Therefore , the patient was taken to the Operating Room on 2009-08-24 for a Whipple procedure versus hepaticojejunostomy .
+On exploration of the abdomen revealed significant nodularity of the liver indicating of advanced cirrhosis .
+Intraoperative frozen section of the distal and proximal common bile duct in the
+region nodularity , which is identified previously by endoscopic retrograde cholangiopancreatography , and regional lymph nodes were all sent to pathology .
+They were all negative for malignancy and therefore a hepaticojejunostomy
+was performed .
+Cholangiogram on postoperative day number two showed no evidence of leakage at the anastomosis site .
+The patient tolerated the procedure well and he was sent to the floor in stable condition .
+The patient 's postoperative course was notable for an elevation in white blood cell count peaking at 30.0 on postoperative day number two .
+He was given Unasyn for empiric antibiotic treatment .
+At the time , blood , urine and bile was sent for culture , which were all negative .
+A chest x-ray was also negative for any pneumonia .
+Postoperatively , Mr. Cordano also suffered from low urine output ranges between 25 to 30 cc per hour .
+Fractional excretion of sodium was less than 1% suggesting a prerenal etiology .
+The sodium creatinine peaked at 2.0 and the patient was treated with boluses of intravenous fluid and intravenous albumin infusion was also administered .
+He responded well to this regimen and made adequate urine output .
+At the same time , the patient also developed distentions of the abdomen consistent with accumulation of ascitic fluid .
+He also had significant lower extremity and scrotum edema .
+On postoperative day number eight , the patient 's oxygen saturation dropped to 85% on room air and he was transferred to the Surgical Intensive Care Unit for fluid management .
+Chest x-ray and sputum culture obtained at the time were negative and the patient was treated with 100% nonrebreather which improved his oxygenation .
+While he is in the Surgical Intensive Care Unit , paracentesis was performed and it
+revealed greater than 24,000 white blood cell count in the ascites which is consistent with SVT .
+He was given Zosyn for empiric treatment .
+Gram stain and culture of the ascites failed to identify any organism .
+He was weaned from oxygen requirement and was continued on normal saline boluses and
+intravenous albumin for treatment of prerenal azotemia .
+Somatostatin and midodrine were also given for this condition and he also received packed red blood cells .
+On postoperative day number ten , the patient returned to the floor with improved renal function and without oxygen requirement .
+The somatostatin and the midodrine were discontinued and the regimen of Lasix and spironolactone was started for diuresis .
+His creatinine levels trended toward normal and the fractional excretion of sodium also increased indicating a resolution of the prerenal kidney failure .
+On postoperative day number 17 , the patient was discharged .
+At the time he took good po .
+He has a PICC line in place for continued treatment with Rocephin and he will have a visiting nurse to help him to administer these medications .
+While in the hospital , the patient received initial work-up including echocardiogram , electrocardiogram and serology studies to be listed for liver transplant .
+MEDICATIONS ON DISCHARGE :
+1. Rocephin 1 gram q.d.
+2. Furosemide 10 mg q.d.
+3. Spironolactone 100 mg q.d.
+4. Ursodiol 600 mg po t.i.d.
+CONDITION ON DISCHARGE :
+Stable .
+DISCHARGE STATUS :
+To home with services .
+DISCHARGE DIAGNOSIS :
+PSC , status post hepaticojejunostomy .
+Hope Raymond , M.D. , Ph.D.
+02-366
+Dictated By : Alden B. Edwards , M.D.
+MEDQUIST36
+D : 2009-10-02 09:08
+T : 2009-10-02 09:08
+JOB #:
+86749
+Signed electronically by : DR. Mary Jones on : SUN 2009-10-04 1:08 PM
+( End of Report )

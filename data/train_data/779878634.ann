@@ -1,0 +1,54 @@
+T1	treatment 490 498	protonix
+T2	test 1041 1055	his hematocrit
+T3	test 621 626	pulse
+T4	problem 1018 1026	cyanosis
+T5	treatment 1498 1508	octreotide
+T6	problem 1529 1541	the bleeding
+T7	problem 801 825	cva or spinal tenderness
+T8	problem 399 429	increased abdominal discomfort
+T9	test 565 583	his blood pressure
+T10	problem 590 608	slightly decreased
+T11	problem 1573 1585	his bleeding
+T12	problem 387 394	fatigue
+T13	test 546 557	vital signs
+T14	treatment 471 478	insulin
+T15	problem 998 1009	trace edema
+T16	test 632 644	respirations
+T17	problem 901 933	mildly tender in the epigastrium
+T18	problem 745 757	oral lesions
+T19	test 1403 1421	his platelet count
+T20	test 1234 1243	endoscopy
+T21	problem 1251 1297	multiple angio ectasias throughout the stomach
+T22	problem 971 981	tenderness
+T23	problem 1959 1964	death
+T24	problem 1674 1686	his gi bleed
+T25	treatment 1312 1331	multiple treatments
+T26	test 650 661	temperature
+T27	treatment 512 520	pancreas
+T28	problem 1176 1186	a gi bleed
+T29	problem 1030 1038	clubbing
+T30	problem 1776 1796	no longer responsive
+T31	problem 1742 1767	a change in mental status
+T32	problem 963 967	mass
+T33	problem 942 960	hepatosplenomegaly
+T34	treatment 1442 1462	platelet transfusion
+T35	problem 258 283	pancreatic adenocarcinoma
+T36	problem 2031 2069	his known metastatic pancreatic cancer
+T37	problem 1986 1997	gi bleeding
+T38	treatment 481 487	celexa
+T39	problem 325 348	significant gi bleeding
+T40	test 1145 1159	the assessment
+T41	treatment 501 507	ambien
+T42	treatment 1629 1655	an angiogram with gel foam
+T43	problem 689 707	evidence of anemia
+T44	problem 713 723	being pale
+T45	test 669 675	o2 sat
+R1	TrAP Arg1:T5 Arg2:T6
+R2	TeRP Arg1:T9 Arg2:T10
+R3	TeRP Arg1:T20 Arg2:T21
+R4	PIP Arg1:T31 Arg2:T30
+R5	PIP Arg1:T36 Arg2:T37
+R6	PIP Arg1:T36 Arg2:T23
+R7	TeRP Arg1:T40 Arg2:T28
+R8	TrAP Arg1:T42 Arg2:T24
+R9	PIP Arg1:T44 Arg2:T43

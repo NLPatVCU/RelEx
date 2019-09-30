@@ -1,0 +1,59 @@
+T1	problem 999 1014	spinal stenosis
+T2	test 1351 1356	pulse
+T3	problem 1273 1293	known drug allergies
+T4	treatment 1232 1239	aspirin
+T5	problem 2075 2088	complications
+T6	problem 544 552	the pain
+T7	problem 598 623	an associated weight loss
+T8	problem 1762 1809	no gross evidence seating in the abdominal wall
+T9	problem 1812 1822	one nodule
+T10	problem 1881 1891	one nodule
+T11	test 2931 2959	surgical pathology specimens
+T12	treatment 1138 1153	an appendectomy
+T13	treatment 1183 1192	oxycontin
+T14	test 2002 2036	permanent specimens from the liver
+T15	problem 266 286	pancreatic carcinoma
+T16	test 1978 1997	peritoneal washings
+T17	test 928 954	an exploratory laparoscopy
+T18	test 725 734	a ct scan
+T19	problem 756 762	a mass
+T20	problem 2213 2252	subcutaneous emphysema over the abdomen
+T21	problem 1458 1465	murmurs
+T22	test 1400 1412	auscultation
+T23	treatment 2832 2840	estratab
+T24	treatment 1722 1741	peritoneal washings
+T25	problem 2421 2433	a mild ileus
+T26	treatment 2735 2742	aspirin
+T27	problem 1500 1515	palpable masses
+T28	test 2883 2906	cytopathology specimens
+T29	test 311 322	laparoscopy
+T30	problem 2825 2829	pain
+T31	treatment 1221 1229	estratab
+T32	treatment 1085 1102	cataract implants
+T33	treatment 1031 1041	operations
+T34	problem 2172 2195	some abdominal bloating
+T35	test 1692 1716	a diagnostic laparoscopy
+T36	test 1319 1337	the blood pressure
+T37	treatment 1105 1131	two partial hysterectomies
+T38	treatment 2761 2769	percocet
+T39	treatment 1210 1218	darvocet
+T40	test 1941 1950	specimens
+T41	problem 2041 2058	falciform nodules
+T42	problem 2263 2276	uncomfortable
+T43	treatment 2117 2130	the procedure
+T44	treatment 1052 1058	repair
+T45	problem 1062 1082	a ureteral stricture
+T46	problem 463 505	increasing pain in her left upper quadrant
+T47	treatment 2486 2515	repeated fleet &apos;s enemas
+T48	test 328 334	biopsy
+T49	test 1362 1374	respirations
+T50	test 3040 3051	these tests
+T51	problem 2398 2416	abdominal cramping
+R1	PIP Arg1:T7 Arg2:T6
+R2	PIP Arg1:T8 Arg2:T9
+R3	PIP Arg1:T8 Arg2:T10
+R4	TeRP Arg1:T18 Arg2:T19
+R5	TrAP Arg1:T38 Arg2:T30
+R6	TeCP Arg1:T40 Arg2:T41
+R7	TrCP Arg1:T43 Arg2:T5
+R8	TrAP Arg1:T44 Arg2:T45

@@ -1,0 +1,249 @@
+T1	treatment 8211 8223	chemotherapy
+T2	problem 3690 3705	lymphadenopathy
+T3	test 2112 2125	the pathology
+T4	problem 2154 2168	adenocarcinoma
+T5	test 8377 8384	calcium
+T6	treatment 4945 4968	an elective termination
+T7	problem 4972 4985	her pregnancy
+T8	test 5947 5960	ahead ct scan
+T9	problem 5970 5989	a metastatic lesion
+T10	problem 6034 6060	intracranial abnormalities
+T11	test 8252 8259	her ldh
+T12	problem 3929 3940	tachycardic
+T13	test 869 891	a fine needle aspirate
+T14	problem 895 904	this mass
+T15	problem 925 941	giant cell tumor
+T16	problem 821 856	a 3 x 7 cm left mid clavicular mass
+T17	test 8270 8294	her alkaline phosphatase
+T18	problem 7158 7195	the patient &apos;s low serum albumin
+T19	problem 7220 7239	her extensive edema
+T20	test 4732 4748	direct bilirubin
+T21	test 3588 3598	heent exam
+T22	test 6227 6260	the abdominal and pelvic ct scans
+T23	problem 6297 6312	pancreatic mass
+T24	problem 6271 6291	suspicious gi masses
+T25	problem 6315 6334	a 2 cm ovarian cyst
+T26	test 6479 6492	serum markers
+T27	problem 330 363	impending spinal cord compression
+T28	test 1318 1331	the pathology
+T29	problem 1359 1387	an aggressive adenocarcinoma
+T30	test 8306 8321	total bilirubin
+T31	treatment 1780 1800	an elective abortion
+T32	problem 1184 1221	significant discomfort in this region
+T33	problem 5731 5761	an isolated splenic metastases
+T34	test 6351 6364	the pathology
+T35	problem 6391 6418	a high grade adenocarcinoma
+T36	test 6622 6639	alphafeto protein
+T37	treatment 6818 6840	normal saline diuresis
+T38	test 7717 7742	the mri scan on admission
+T39	problem 7752 7781	an impending cord compression
+T40	treatment 2711 2724	multivitamins
+T41	problem 5250 5271	foraminal obstruction
+T42	problem 989 1003	a benign tumor
+T43	problem 6659 6672	hypercalcemia
+T44	test 3840 3852	auscultation
+T45	treatment 6928 6941	po etidronate
+T46	problem 5179 5190	a t3 lesion
+T47	problem 7581 7600	shortness of breath
+T48	test 7014 7021	ct scan
+T49	problem 7031 7066	obstruction of the intrahepatic ivc
+T50	test 6535 6555	the hcg on admission
+T51	test 8462 8465	ptt
+T52	test 8239 8242	ast
+T53	test 4546 4557	light touch
+T54	problem 2829 2855	metastatic prostate cancer
+T55	test 4697 4700	ast
+T56	test 4681 4687	an alt
+T57	test 1446 1469	further staging work-up
+T58	problem 7532 7561	increased work of respiration
+T59	problem 5125 5176	multiple metastatic lesions in the vertebral bodies
+T60	test 3912 3924	cardiac exam
+T61	problem 2544 2550	sweats
+T62	problem 3101 3115	this pregnancy
+T63	problem 3878 3885	wheezes
+T64	problem 5475 5502	bilateral pulmonary nodules
+T65	problem 3321 3359	a right posterior parietal scalp nodle
+T66	problem 1947 1976	obvious gior pancreatic tumor
+T67	problem 7492 7519	bilateral pleural effusions
+T68	test 8891 8923	the patient &apos;s electrolytes
+T69	problem 1647 1679	internal mammary lymphadenopathy
+T70	problem 2902 2917	cervical cancer
+T71	problem 8784 8834	the patient &apos;s medical and oncological issues
+T72	treatment 2689 2697	percocet
+T73	problem 2702 2706	pain
+T74	test 3242 3256	blood pressure
+T75	problem 2006 2024	a very firm nodule
+T76	test 1501 1519	a limited chest ct
+T77	problem 1547 1585	diffuse bilateral pulmonary metastases
+T78	problem 1588 1644	metastases to the sternum , rib , multiple spinal levels
+T79	treatment 8603 8611	decadron
+T80	problem 281 294	hypercalcemia
+T81	test 7285 7324	the patient &apos;s room air saturation
+T82	problem 5566 5600	narrowing of the intra hepatic ivc
+T83	problem 7655 7664	back pain
+T84	problem 2479 2511	incontinence of bowel or bladder
+T85	problem 5700 5724	multiple bony metastases
+T86	problem 2435 2453	abnormal sensation
+T87	test 6507 6514	the cea
+T88	problem 2534 2540	chills
+T89	problem 2467 2475	tingling
+T90	test 6702 6717	a serum calcium
+T91	problem 3787 3817	mild lower thoracic tenderness
+T92	problem 5605 5637	distention of the azygous system
+T93	problem 5652 5667	ivc obstruction
+T94	problem 5671 5687	liver metastases
+T95	problem 5507 5534	bilateral pleural effusions
+T96	problem 2418 2432	motor weakness
+T97	test 2085 2107	fine needle aspiration
+T98	treatment 8527 8537	etidronate
+T99	problem 3649 3674	jugular venous distention
+T100	problem 2278 2291	the pregnancy
+T101	treatment 8726 8735	bronkosol
+T102	test 6139 6150	a mammogram
+T103	problem 6209 6224	dominant masses
+T104	problem 6089 6106	the primary tumor
+T105	problem 6171 6201	suspicious microcalcifications
+T106	problem 7388 7417	increased shortness of breath
+T107	problem 3524 3542	a 1 cm firm nodule
+T108	problem 2248 2258	her cancer
+T109	treatment 2263 2274	termination
+T110	treatment 1299 1315	local anesthesia
+T111	treatment 7823 7831	decadron
+T112	problem 2378 2400	mid thoracic back pain
+T113	problem 4163 4172	nontender
+T114	test 6730 6740	an albumin
+T115	test 8448 8450	pt
+T116	test 6845 6862	the serum calcium
+T117	problem 3725 3739	cva tenderness
+T118	test 6063 6070	work-up
+T119	test 4198 4208	percussion
+T120	problem 3755 3774	scapular tenderness
+T121	treatment 8050 8064	the management
+T122	problem 8068 8082	her malignancy
+T123	treatment 2234 2244	management
+T124	test 3269 3274	pulse
+T125	problem 3984 4018	a ii / vi systolic ejection murmur
+T126	problem 2342 2373	progressive shortness of breath
+T127	test 6589 6599	the ca-125
+T128	problem 7242 7249	hypoxia
+T129	problem 3411 3463	a 1 cm firm nodule at the left upper thoracic region
+T130	test 4825 4835	hematocrit
+T131	problem 1113 1121	the mass
+T132	problem 7603 7636	impending spinal cord compression
+T133	test 8413 8435	white blood cell count
+T134	problem 244 278	intrauterine pregnancy at 23 weeks
+T135	treatment 8107 8128	chemotherapy with pfl
+T136	treatment 1255 1278	a local tumor debulking
+T137	treatment 6790 6812	intravenous etidronate
+T138	test 8332 8348	direct bilirubin
+T139	problem 2456 2464	numbness
+T140	problem 5029 5056	the patient &apos;s disease
+T141	problem 4351 4367	1+ bipedal edema
+T142	problem 7437 7487	the patient &apos;s extensive pulmonary metastases
+T143	test 3302 3311	skin exam
+T144	test 4383 4407	neurological examination
+T145	problem 503 555	diffuse metastatic adenocarcinoma of unknown primary
+T146	test 6421 6458	erica and basic cystic protein stains
+T147	test 3280 3296	respiratory rate
+T148	problem 175 219	metastatic adenocarcinoma of unknown primary
+T149	test 4999 5010	the work-up
+T150	problem 7148 7155	ascites
+T151	test 1803 1823	an abdominal ct scan
+T152	problem 1852 1931	diffuse metastatic lesions of the liverspine , ribs and most of the lymph nodes
+T153	test 4796 4803	calcium
+T154	problem 722 730	the mass
+T155	test 8391 8401	hematocrit
+T156	problem 5274 5290	an epidural mass
+T157	test 4758 4778	alkaline phosphatase
+T158	test 8226 8229	alt
+T159	problem 2525 2531	fevers
+T160	test 4786 4789	ldh
+T161	problem 7686 7714	any focal neurological signs
+T162	problem 5537 5563	extensive liver metastases
+T163	treatment 8558 8565	heparin
+T164	test 4560 4580	deep tendon reflexes
+T165	problem 682 704	a left clavicular mass
+T166	problem 429 461	a 22 week intrauterine pregnancy
+T167	problem 7090 7142	marked bilateral lower extremity and presacral edema
+T168	problem 5690 5697	ascites
+T169	problem 3901 3909	egophony
+T170	test 4896 4899	ptt
+T171	problem 5785 5857	increased uptake in the left chest wall , left anterior ribs four to six
+T172	test 4882 4884	pt
+T173	treatment 8636 8645	ms contin
+T174	test 5764 5775	a bone scan
+T175	problem 5864 5916	increased uptake in the left and right lateral skull
+T176	problem 4075 4080	heave
+T177	test 4710 4725	total bilirubin
+T178	test 5417 5465	an abdominal and pelvic ct scan with iv contrast
+T179	test 4847 4869	white blood cell count
+T180	problem 297 327	inferior vena cava obstruction
+T181	problem 2600 2612	constipation
+T182	problem 6944 6959	ivc obstruction
+T183	problem 7254 7273	shortness of breath
+T184	problem 2742 2762	known drug allergies
+T185	problem 3869 3874	rales
+T186	problem 4095 4101	gravid
+T187	treatment 8666 8672	pepcid
+T188	problem 2571 2588	gi or gu symptoms
+T189	treatment 8693 8700	senekot
+T190	test 5066 5109	mri scan of the cervical and thoracic spine
+T191	treatment 1071 1095	the delivery of her baby
+T192	problem 6978 7006	extensive hepatic metastases
+T193	test 8359 8366	albumin
+T194	test 4811 4818	albumin
+T195	treatment 7863 7887	ten radiation treatments
+R1	TeRP Arg1:T3 Arg2:T4
+R2	TrAP Arg1:T6 Arg2:T7
+R3	TeRP Arg1:T8 Arg2:T9
+R4	TeRP Arg1:T8 Arg2:T10
+R5	TeCP Arg1:T13 Arg2:T14
+R6	TeRP Arg1:T13 Arg2:T15
+R7	PIP Arg1:T15 Arg2:T14
+R8	PIP Arg1:T18 Arg2:T19
+R9	TeRP Arg1:T22 Arg2:T23
+R10	TeRP Arg1:T22 Arg2:T24
+R11	TeRP Arg1:T22 Arg2:T25
+R12	TeRP Arg1:T28 Arg2:T29
+R13	TeRP Arg1:T34 Arg2:T35
+R14	TeRP Arg1:T38 Arg2:T39
+R15	TeRP Arg1:T48 Arg2:T49
+R16	TeRP Arg1:T60 Arg2:T12
+R17	PIP Arg1:T67 Arg2:T58
+R18	PIP Arg1:T67 Arg2:T47
+R19	TrAP Arg1:T72 Arg2:T73
+R20	TeRP Arg1:T76 Arg2:T69
+R21	TeRP Arg1:T76 Arg2:T77
+R22	TeRP Arg1:T76 Arg2:T78
+R23	PIP Arg1:T92 Arg2:T93
+R24	PIP Arg1:T93 Arg2:T94
+R25	TeRP Arg1:T97 Arg2:T4
+R26	TeRP Arg1:T102 Arg2:T103
+R27	TeCP Arg1:T102 Arg2:T104
+R28	TeRP Arg1:T102 Arg2:T105
+R29	TrAP Arg1:T109 Arg2:T108
+R30	TrAP Arg1:T109 Arg2:T100
+R31	TeCP Arg1:T118 Arg2:T104
+R32	TrAP Arg1:T121 Arg2:T122
+R33	TrAP Arg1:T123 Arg2:T108
+R34	PIP Arg1:T142 Arg2:T58
+R35	PIP Arg1:T142 Arg2:T47
+R36	TeRP Arg1:T143 Arg2:T65
+R37	TeCP Arg1:T149 Arg2:T140
+R38	TeRP Arg1:T151 Arg2:T152
+R39	PIP Arg1:T167 Arg2:T150
+R40	TeRP Arg1:T174 Arg2:T175
+R41	TeRP Arg1:T174 Arg2:T171
+R42	TeRP Arg1:T178 Arg2:T162
+R43	TeRP Arg1:T178 Arg2:T168
+R44	TeRP Arg1:T178 Arg2:T85
+R45	TeRP Arg1:T178 Arg2:T33
+R46	TeRP Arg1:T178 Arg2:T64
+R47	TeRP Arg1:T178 Arg2:T82
+R48	TeRP Arg1:T178 Arg2:T92
+R49	TeRP Arg1:T178 Arg2:T93
+R50	TeRP Arg1:T178 Arg2:T95
+R51	TeRP Arg1:T190 Arg2:T46
+R52	TeRP Arg1:T190 Arg2:T41
+R53	TeRP Arg1:T190 Arg2:T59
+R54	TeCP Arg1:T190 Arg2:T140

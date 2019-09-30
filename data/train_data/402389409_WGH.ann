@@ -1,0 +1,19 @@
+T1	problem 1068 1078	sore areas
+T2	test 759 763	xray
+T3	problem 781 789	fracture
+T4	problem 846 850	pain
+T5	problem 720 737	muscle contusions
+T6	problem 655 662	bruises
+T7	problem 563 569	trauma
+T8	problem 1138 1152	worsening pain
+T9	test 1214 1232	further evaluation
+T10	problem 641 650	fractures
+T11	problem 1167 1185	any other concerns
+T12	problem 1118 1135	trouble breathing
+T13	problem 631 638	sprains
+T14	treatment 814 820	motrin
+T15	problem 1155 1163	vomiting
+T16	treatment 1061 1064	ice
+R1	TeRP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T14 Arg2:T4
+R3	TrAP Arg1:T16 Arg2:T1

@@ -1,0 +1,17 @@
+T1	treatment 773 791	current medication
+T2	problem 626 647	noncardiac chest pain
+T3	problem 589 599	chest pain
+T4	test 700 711	stress mibi
+T5	problem 729 737	ischemia
+T6	problem 956 962	nausea
+T7	problem 911 931	worsening chest pain
+T8	test 669 673	labs
+T9	problem 1028 1046	any other problems
+T10	problem 1004 1022	dizziness/numbness
+T11	problem 965 973	vomiting
+T12	problem 976 981	fever
+T13	treatment 683 697	ntg sublingual
+T14	problem 993 1001	weakness
+T15	problem 984 990	chills
+T16	problem 934 953	shortness of breath
+R1	TeCP Arg1:T4 Arg2:T5

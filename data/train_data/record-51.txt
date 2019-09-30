@@ -1,0 +1,76 @@
+Admission Date :
+2017-08-12
+Discharge Date :
+2017-08-16
+Date of Birth :
+1995-02-03
+Sex :
+F
+Service : SURGERY
+Allergies :
+Shellfish
+Attending : Maria X White , M.D.
+Chief Complaint :
+Motor vehicle accident
+Major Surgical or Invasive Procedure :
+None
+History of Present Illness :
+22 year old female transfer from outside hospital after a motor vehicle accident with diagnosed liver laceration by CT scan .
+Past Medical History :
+None
+Social History :
+Social alcohol
+Family History :
+Non pertinent to admission
+Physical Exam :
+Patient was alert , oriented x3 .
+Neck with cervical collar .
+Left forarm and right knee abrasions .
+Chest clear to auscultation bilateral , S1 S2 normal and with no murmors .
+Abdominal pain predominally on the right upper quadrant , no signs of peritoneal irritation .
+Pertinent Results :
+2017-08-12 11:41 PM
+GLUCOSE - 74 UREA N - 9 CREAT - 0.7 SODIUM - 139 POTASSIUM - 3.5 CHLORIDE - 106 TOTAL CO2 - 23 ANION GAP - 14
+2017-08-12 11:41PM
+ALT(SGPT) - 241 * AST(SGOT) - 207 * ALK PHOS - 51 TOT BILI - 0.8
+2017-08-12 11:41 PM
+CALCIUM - 8.2 * PHOSPHATE - 3.1 MAGNESIUM - 2.2
+2017-08-12 03:15 PM
+GLUCOSE - 75 UREA N - 10 CREAT - 0.6 SODIUM - 137 POTASSIUM - 3.7 CHLORIDE - 103 TOTAL CO2 - 23 ANION GAP - 15
+2017-08-12 03:15 PM
+ALT(SGPT) - 318 * AST(SGOT) - 307 * ALK PHOS - 61 TOT BILI - 0.9
+2017-08-12 03:15 PM
+WBC - 8.3 RBC - 3.64 * HGB - 12.6 HCT - 36.1 MCV - 99 * MCH - 34.7 * MCHC - 35.0 RDW - 12.4
+2017-08-12 03:15 PM
+PT - 11.6 PTT - 26.0 INR(PT) - 0.9
+Brief Hospital Course :
+Patient was admited , pain was managed with a PCA and later with PO medication .
+The liver laceration was stable , no sign of rupture or further complication , did not required surgical managment .
+The liver enzimes come down , no signs of biliary stasis .
+She was able to tolerate diet , ambulate , having a bowel movement and dischargo home in good conditions .
+Medications on Admission :
+None
+Discharge Medications :
+1. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) for 4 days .
+Disp :* 8 Capsule (s)* Refills :* 0 *
+2. Hydromorphone 2 mg Tablet Sig : One ( 1 ) Tablet PO Q2H ( every 2 hours ) as needed for Pain for 4 days .
+Disp :* 30 Tablet (s)* Refills :* 0 *
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Motor vehicle accident
+Discharge Condition :
+Good
+Discharge Instructions :
+- Follow up with Trauma Surgery Clinic with the Result from the CT scan abdomen
+- Call for appointment to ( 289 ) 411-5387 for the Trauma Clinic and Abdominal CT scan of the Abdomen in 4 weeks
+- If any abdominal pain , fever or dizziness , go to the Emergency Room
+- Avoid contact sport until seen in the Clinic
+- Analgesic ( Percocet ) as needed
+Followup Instructions :
+- Trauma Surgery Clinic in four weeks with CT abdomen results .
+Call Trauma Clinic to coordinate the study , result and appointment dates (( 289 ) 411-5387 ).
+Ida Doris MD 79-274
+Completed by : Jane Ashmore MD 50-063 2017-08-16 @ 0950
+Signed electronically by : DR. Jennifer Green on : FRI 2017-09-01 1:04 PM
+( End of Report )

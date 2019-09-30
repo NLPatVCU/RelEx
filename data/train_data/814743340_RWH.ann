@@ -1,0 +1,216 @@
+T1	problem 1304 1334	radiation to the left shoulder
+T2	problem 4942 4953	obstruction
+T3	problem 5037 5063	partial obstructive events
+T4	problem 4967 4989	obstruction to airflow
+T5	problem 5001 5023	some obstructive apnea
+T6	problem 2893 2917	widely patent diagonal 1
+T7	problem 6511 6531	his chest discomfort
+T8	problem 6557 6564	anxious
+T9	problem 754 766	hypertension
+T10	problem 5793 5799	murmur
+T11	problem 7571 7578	anxiety
+T12	treatment 2148 2168	further cardiac care
+T13	problem 1483 1498	short of breath
+T14	problem 328 340	hypertension
+T15	problem 4278 4304	trace mitral regurgitation
+T16	test 6108 6112	sgpt
+T17	treatment 1744 1771	3 sublingual nitroglycerins
+T18	problem 3648 3665	nodes in his neck
+T19	problem 4623 4643	pericardial effusion
+T20	test 2775 2779	cath
+T21	problem 2815 2817	af
+T22	problem 2846 2890	mild cad in the left coronary artery symptom
+T23	treatment 2267 2277	lisinopril
+T24	test 5440 5448	the pfts
+T25	treatment 2333 2342	toprol xl
+T26	problem 2046 2074	hyperacute t-wave anteriorly
+T27	test 870 876	a cath
+T28	problem 897 906	a 40% rca
+T29	problem 919 923	hazy
+T30	treatment 2458 2464	tricor
+T31	test 5589 5607	his blood pressure
+T32	problem 2220 2234	hyperlipidemia
+T33	problem 1157 1178	occasional chest pain
+T34	problem 1184 1200	emotional stress
+T35	problem 343 357	hyperlipidemia
+T36	problem 3204 3235	desaturation into the 80% range
+T37	test 3094 3115	lower extremity study
+T38	problem 3128 3146	a dvt in both legs
+T39	problem 3410 3426	pulmonary nodule
+T40	test 3330 3350	a formal sleep study
+T41	problem 3718 3730	any swelling
+T42	problem 3768 3780	the swelling
+T43	problem 6871 6881	chest pain
+T44	problem 302 325	coronary artery disease
+T45	treatment 2397 2404	avandia
+T46	problem 6767 6784	his anxiety level
+T47	test 5418 5422	pfts
+T48	test 4857 4871	hypopnea index
+T49	treatment 5128 5171	continuous positive pressure at the bedside
+T50	problem 5863 5869	masses
+T51	test 3027 3036	a ct scan
+T52	problem 3049 3053	a pe
+T53	problem 769 777	diabetes
+T54	test 5676 5687	temperature
+T55	problem 2544 2551	anxiety
+T56	treatment 7041 7048	avandia
+T57	test 4888 4907	the mean heart rate
+T58	treatment 1000 1024	a ptc stenting of an rca
+T59	test 3817 3841	an adenosine stress test
+T60	treatment 7105 7113	prilosec
+T61	test 3979 4010	the myocardial perfusion images
+T62	problem 4040 4048	ischemia
+T63	test 6176 6192	direct bilirubin
+T64	problem 2820 2843	widely patent rca stent
+T65	problem 1076 1090	a 99% stenosis
+T66	test 6154 6169	total bilirubin
+T67	treatment 7137 7143	ativan
+T68	problem 7170 7177	anxiety
+T69	problem 4262 4265	mvp
+T70	test 5506 5525	all the tests above
+T71	treatment 1030 1044	a vision stent
+T72	test 405 426	adenosine stress test
+T73	test 4051 4078	the lv contractile function
+T74	problem 4674 4681	dilated
+T75	test 6118 6122	sgot
+T76	treatment 1895 1902	lipitor
+T77	test 455 473	coronary angiogram
+T78	treatment 1911 1917	plavix
+T79	problem 3934 3944	chest pain
+T80	treatment 2300 2324	nitroglycerin sublingual
+T81	problem 2668 2673	an mi
+T82	problem 3968 3976	ischemia
+T83	test 6273 6276	a1c
+T84	test 487 498	chest x-ray
+T85	treatment 6685 6711	medication for antianxiety
+T86	treatment 6575 6581	ativan
+T87	test 6075 6085	creatinine
+T88	test 6128 6148	alkaline phosphatase
+T89	problem 4813 4834	75 respiratory events
+T90	problem 4849 4854	apnea
+T91	treatment 2958 3006	an angio-seal to the right common femoral artery
+T92	treatment 2427 2434	lipitor
+T93	problem 662 672	chest pain
+T94	problem 615 634	non st elevation mi
+T95	problem 5849 5857	guarding
+T96	test 6050 6059	potassium
+T97	test 476 484	chest ct
+T98	problem 1264 1298	intermittent substernal chest pain
+T99	test 6306 6316	hematocrit
+T100	test 3253 3270	pulmonary consult
+T101	test 2020 2027	his ekg
+T102	problem 4389 4415	trace aortic insufficiency
+T103	test 4222 4227	an ef
+T104	test 6092 6101	magnesium
+T105	treatment 1784 1792	dilaudid
+T106	problem 3470 3481	this nodule
+T107	problem 1106 1125	other noted disease
+T108	test 4189 4206	an echocardiogram
+T109	test 7611 7633	a followup sleep study
+T110	treatment 6409 6415	nexium
+T111	problem 6434 6445	acid reflux
+T112	problem 4562 4595	segmental wall-motion abnormality
+T113	problem 5961 5966	bruit
+T114	treatment 1695 1705	the script
+T115	treatment 6976 6983	aspirin
+T116	test 5232 5247	the sleep study
+T117	problem 784 800	high cholesterol
+T118	test 7523 7541	further gi testing
+T119	treatment 6740 6750	counseling
+T120	test 6037 6043	sodium
+T121	problem 374 389	diabetes type 2
+T122	treatment 1665 1682	his nitroglycerin
+T123	test 4450 4471	the systolic function
+T124	test 5881 5893	bowel sounds
+T125	test 6199 6216	total cholesterol
+T126	problem 2205 2217	hypertension
+T127	test 6721 6736	further testing
+T128	treatment 2458 2464	tricor
+T129	problem 1815 1824	pain-free
+T130	problem 4524 4538	lv hypertrophy
+T131	test 3369 3385	a repeat ct scan
+T132	test 5969 5991	lower extremity pulses
+T133	problem 6016 6021	edema
+T134	test 5628 5638	heart rate
+T135	treatment 6946 6952	plavix
+T136	treatment 1937 1960	integrelin double bolus
+T137	test 6223 6236	triglycerides
+T138	test 6324 6338	platelet count
+T139	treatment 1924 1934	heparin iv
+T140	test 4755 4768	a sleep study
+T141	test 6252 6255	ldl
+T142	test 6283 6299	white cell count
+T143	test 3947 3950	ekg
+T144	test 3353 3362	full pfts
+T145	test 6243 6246	hdl
+T146	test 5695 5706	lung sounds
+T147	problem 4102 4131	mild posterior vasal thinning
+T148	treatment 2367 2373	plavix
+T149	problem 360 371	sleep apnea
+T150	test 3671 3684	physical exam
+T151	problem 4361 4376	aortic stenosis
+T152	treatment 6401 6406	a ppi
+T153	problem 5949 5957	hematoma
+T154	test 429 452	part 1 of a sleep study
+T155	problem 599 602	cad
+T156	treatment 2933 2943	prior ptca
+T157	problem 1544 1555	diaphoresis
+T158	problem 2083 2094	progression
+T159	problem 820 841	a non st elevation mi
+T160	problem 2000 2008	his pain
+T161	test 4684 4705	the systolic function
+T162	test 5650 5669	room air saturation
+T163	test 3612 3635	a ct scan with contrast
+T164	problem 1559 1565	nausea
+T165	test 6066 6069	bun
+T166	problem 266 276	chest pain
+T167	treatment 1975 1981	a drip
+T168	problem 5911 5938	status post catheterization
+T169	treatment 7555 7566	medications
+T170	treatment 7071 7080	toprol xl
+T171	problem 4332 4345	la dilatation
+T172	test 1861 1875	his heart rate
+T173	test 6262 6272	hemoglobin
+T174	problem 2194 2202	diabetes
+T175	treatment 6814 6827	nitroglycerin
+T176	problem 3541 3573	intermittent right neck swelling
+T177	treatment 7008 7018	lisinopril
+T178	treatment 1827 1839	lopressor iv
+T179	test 926 933	an ivus
+T180	treatment 1631 1644	nitroglycerin
+T181	treatment 6915 6922	lipitor
+R1	PIP Arg1:T2 Arg2:T3
+R2	PIP Arg1:T2 Arg2:T4
+R3	PIP Arg1:T2 Arg2:T5
+R4	PIP Arg1:T4 Arg2:T5
+R5	PIP Arg1:T4 Arg2:T3
+R6	PIP Arg1:T7 Arg2:T8
+R7	TeRP Arg1:T20 Arg2:T21
+R8	TeRP Arg1:T20 Arg2:T22
+R9	TeRP Arg1:T27 Arg2:T28
+R10	PIP Arg1:T28 Arg2:T29
+R11	PIP Arg1:T33 Arg2:T34
+R12	TeCP Arg1:T37 Arg2:T38
+R13	PIP Arg1:T41 Arg2:T42
+R14	TeCP Arg1:T51 Arg2:T52
+R15	TeRP Arg1:T61 Arg2:T62
+R16	TrAP Arg1:T67 Arg2:T68
+R17	TrAP Arg1:T85 Arg2:T46
+R18	PIP Arg1:T89 Arg2:T90
+R19	PIP Arg1:T98 Arg2:T1
+R20	TeRP Arg1:T101 Arg2:T26
+R21	TrAP Arg1:T110 Arg2:T111
+R22	TrAP Arg1:T119 Arg2:T46
+R23	TeCP Arg1:T127 Arg2:T46
+R24	TeCP Arg1:T131 Arg2:T39
+R25	TeRP Arg1:T132 Arg2:T133
+R26	TeRP Arg1:T140 Arg2:T89
+R27	TeRP Arg1:T140 Arg2:T90
+R28	TeRP Arg1:T143 Arg2:T82
+R29	TeRP Arg1:T150 Arg2:T41
+R30	TeRP Arg1:T150 Arg2:T42
+R31	TrAP Arg1:T152 Arg2:T111
+R32	TeCP Arg1:T163 Arg2:T18
+R33	TrAP Arg1:T169 Arg2:T11
+R34	TrAP Arg1:T175 Arg2:T43
+R35	PIP Arg1:T176 Arg2:T18

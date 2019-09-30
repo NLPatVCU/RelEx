@@ -1,0 +1,17 @@
+T1	treatment 499 517	dermoplast topical
+T2	problem 530 534	pain
+T3	problem 893 896	nka
+T4	treatment 725 746	tucks ( witch hazel )
+T5	problem 766 770	pain
+T6	treatment 582 591	ibuprofen
+T7	problem 614 618	pain
+T8	problem 569 581	constipation
+T9	problem 915 928	labor at term
+T10	problem 1516 1538	observed abnormalities
+T11	test 1490 1510	initial newborn exam
+T12	treatment 670 712	prenatal multivitamins ( stuartnatal 1+1 )
+T13	treatment 535 550	docusate sodium
+R1	TrAP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T4 Arg2:T5
+R3	TrAP Arg1:T6 Arg2:T7
+R4	TrAP Arg1:T13 Arg2:T8

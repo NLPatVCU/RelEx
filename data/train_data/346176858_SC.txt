@@ -1,0 +1,71 @@
+346176858 SC
+29574503
+4164300
+12/9/2005 12:00:00 AM
+SVD
+DIS
+Admission Date :
+12/09/2005
+Report Status :
+Discharge Date :
+12/12/2005
+****** DISCHARGE ORDERS ******
+CHAFFBITZ , LI 183-67-53-0 U69
+Room :
+DEALPERSANDERSWAUKE MISSJEANES MACOMTOMA GLANDSTATE MEDICAL CENTER
+Service :
+OBS
+DISCHARGE PATIENT ON :
+12/12/05 AT 10:00 AM
+CONTINGENT UPON
+Not Applicable
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+GRENDZISKLEEB , DELMRU CENI , M.D.
+DISPOSITION :
+Home
+DISCHARGE MEDICATIONS :
+DERMOPLAST TOPICAL TP Q12H PRN Pain DOCUSATE SODIUM 100 MG PO BID PRN Constipation IBUPROFEN 400-600 MG PO Q6H PRN Pain
+Food / Drug Interaction Instruction
+Take with food PRENATAL MULTIVITAMINS ( STUARTNATAL 1+1 ) 1 TAB PO QD TUCKS ( WITCH HAZEL ) TOPICAL TP Q4H PRN Pain
+DIET :
+No Restrictions
+ACTIVITY :
+Walking as tolerated
+FOLLOW UP APPOINTMENT ( S ) :
+Dr Grendziskleeb 6 weeks ,
+ALLERGY :
+NKA
+ADMIT DIAGNOSIS :
+labor at term
+PRINCIPAL DISCHARGE DIAGNOSIS ; Responsible After Study for Causing Admission )
+SVD OTHER DIAGNOSIS ; Conditions , Infections , Complications , affecting Treatment / Stay
+SVD OPERATIONS AND PROCEDURES :
+Primary Anesthesia :
+Epidural Vaginal delivery :
+Spontaneous Episiotomy :
+Median Placenta :
+Delivery :
+Spontaneous Condition :
+Normal
+Staff Obstetrician ( supervising ) :
+BOORMKAYSSCAJE , PA A. , M.D. Delivery
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+none
+BRIEF RESUME OF HOSPITAL COURSE :
+G3 T1 P0 A1 L1
+Estimated EDC :
+12/09/05
+Maternal transfer :
+No
+Initial newborn exam :
+No observed abnormalities
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+BOORMKAYSSCAJE , PA A. , M.D. ( TI84 ) 12/10/05 02:58 AM
+****** END OF DISCHARGE ORDERS ******

@@ -1,0 +1,13 @@
+T1	treatment 682 685	ivf
+T2	problem 619 631	near syncope
+T3	problem 1033 1052	recurrent dizziness
+T4	problem 634 645	dehydration
+T5	test 963 991	an outpatient holter monitor
+T6	problem 1055 1065	chest pain
+T7	test 688 691	cbc
+T8	problem 583 592	dizziness
+T9	problem 649 660	cardiogenic
+T10	problem 1068 1087	shortness of breath
+T11	problem 485 497	near syncope
+T12	problem 1091 1099	weakness
+T13	test 694 697	hct

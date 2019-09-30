@@ -1,0 +1,121 @@
+T1	treatment 4459 4478	surgical management
+T2	problem 2184 2204	involuntary guarding
+T3	treatment 3315 3330	her antibiotics
+T4	problem 2609 2633	continued abdominal pain
+T5	test 1995 2000	pulse
+T6	treatment 4221 4233	hysterectomy
+T7	test 1975 1986	temperature
+T8	problem 2926 2934	elevated
+T9	problem 390 418	continuing vaginal discharge
+T10	problem 2290 2302	nondistended
+T11	test 4353 4369	a repeat ct scan
+T12	test 2638 2645	ct scan
+T13	problem 2656 2695	fluid and gas in the endometrial cavity
+T14	treatment 4124 4136	hysterectomy
+T15	problem 444 463	bacterial vaginosis
+T16	problem 939 947	vomiting
+T17	problem 3977 3997	post-surgical change
+T18	problem 2218 2254	mild right lower quadrant tenderness
+T19	treatment 4310 4326	oral antibiotics
+T20	problem 2208 2215	rebound
+T21	problem 3953 3972	an infected abscess
+T22	problem 4108 4119	the abscess
+T23	treatment 2770 2792	intravenous ampicillin
+T24	problem 2158 2176	voluntary guarding
+T25	problem 746 760	abdominal pain
+T26	problem 1579 1599	herpes simplex virus
+T27	problem 1007 1013	chills
+T28	test 3068 3086	her blood cultures
+T29	problem 3135 3176	gram-positive cocci in pairs and clusters
+T30	problem 3097 3105	positive
+T31	treatment 2795 2805	gentamicin
+T32	treatment 526 532	flagyl
+T33	treatment 1529 1553	dilatation and curettage
+T34	problem 1562 1565	sab
+T35	treatment 3630 3644	the ampicillin
+T36	treatment 3647 3657	gentamicin
+T37	test 2049 2066	oxygen saturation
+T38	test 2944 2960	her electrolytes
+T39	problem 1337 1350	some spotting
+T40	treatment 1813 1829	shoulder surgery
+T41	problem 3396 3415	a temperature spike
+T42	test 2007 2019	respirations
+T43	test 3461 3487	her white blood cell count
+T44	test 2899 2921	her sedimentation rate
+T45	test 950 965	her temperature
+T46	test 2824 2858	her initial white blood cell count
+T47	treatment 1225 1241	cesarean section
+T48	treatment 3662 3673	clindamycin
+T49	test 3427 3448	repeat blood cultures
+T50	problem 545 570	increasing abdominal pain
+T51	treatment 1172 1181	treatment
+T52	problem 1075 1080	fluid
+T53	problem 1097 1126	gas in the endometrial cavity
+T54	problem 929 935	nausea
+T55	treatment 2810 2821	clindamycin
+T56	problem 1248 1268	spontaneous abortion
+T57	problem 3341 3349	afebrile
+T58	treatment 1186 1195	admission
+T59	problem 1473 1487	fibroid uterus
+T60	treatment 3280 3291	clindamycin
+T61	problem 3211 3239	staphylococcus coag-negative
+T62	treatment 3265 3275	gentamicin
+T63	treatment 1427 1433	lupron
+T64	test 3179 3201	further identification
+T65	test 3109 3130	the anaerobic culture
+T66	treatment 1458 1470	embolization
+T67	treatment 1716 1732	cesarean section
+T68	treatment 3011 3034	intravenous antibiotics
+T69	treatment 1770 1781	neck fusion
+T70	treatment 1500 1512	embolization
+T71	treatment 4096 4104	drainage
+T72	problem 2430 2462	voluntary tensing of her abdomen
+T73	treatment 1739 1763	dilatation and curettage
+T74	test 1033 1057	a ct scan of her abdomen
+T75	treatment 526 532	flagyl
+T76	test 3752 3776	an abdomen and pelvis ct
+T77	problem 3794 3833	continued air in the endometrial cavity
+T78	problem 3841 3859	the fundal fibroid
+T79	problem 2344 2367	some brownish discharge
+T80	test 2305 2327	her pelvic examination
+T81	problem 262 282	lower abdominal pain
+T82	problem 367 375	fibroids
+T83	problem 1640 1659	abnormal pap smears
+T84	treatment 312 339	uterine artery embolization
+T85	test 2025 2039	blood pressure
+T86	test 3728 3747	a pelvic ultrasound
+T87	problem 882 899	some loose stools
+T88	problem 2585 2601	uterine fibroids
+T89	treatment 2524 2563	status post uterine artery embolization
+T90	treatment 3693 3711	intravenous unasyn
+T91	problem 2113 2127	acute distress
+R1	TeRP Arg1:T12 Arg2:T13
+R2	TeCP Arg1:T12 Arg2:T4
+R3	PIP Arg1:T15 Arg2:T9
+R4	TeRP Arg1:T28 Arg2:T29
+R5	TeRP Arg1:T28 Arg2:T30
+R6	PIP Arg1:T30 Arg2:T29
+R7	TrAP Arg1:T32 Arg2:T15
+R8	TrAP Arg1:T32 Arg2:T9
+R9	TrAP Arg1:T33 Arg2:T34
+R10	TeRP Arg1:T44 Arg2:T8
+R11	TrAP Arg1:T51 Arg2:T52
+R12	TrAP Arg1:T51 Arg2:T53
+R13	TrAP Arg1:T58 Arg2:T52
+R14	TrAP Arg1:T58 Arg2:T53
+R15	TrAP Arg1:T60 Arg2:T61
+R16	TrAP Arg1:T62 Arg2:T61
+R17	TeRP Arg1:T64 Arg2:T61
+R18	TeRP Arg1:T65 Arg2:T29
+R19	TeRP Arg1:T65 Arg2:T30
+R20	TrAP Arg1:T70 Arg2:T59
+R21	TrAP Arg1:T71 Arg2:T22
+R22	TeRP Arg1:T74 Arg2:T52
+R23	TeRP Arg1:T74 Arg2:T53
+R24	TeRP Arg1:T76 Arg2:T77
+R25	TeRP Arg1:T76 Arg2:T78
+R26	TeRP Arg1:T80 Arg2:T79
+R27	TrAP Arg1:T84 Arg2:T82
+R28	TeRP Arg1:T86 Arg2:T77
+R29	TeRP Arg1:T86 Arg2:T78
+R30	TrAP Arg1:T89 Arg2:T88

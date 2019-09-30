@@ -1,0 +1,190 @@
+T1	treatment 5645 5703	status post percutaneous transluminal coronary angioplasty
+T2	problem 1058 1066	headache
+T3	problem 2116 2139	coronary artery disease
+T4	treatment 6596 6604	atenolol
+T5	problem 2382 2397	type 2 diabetes
+T6	problem 5619 5642	coronary artery disease
+T7	treatment 2273 2331	status post percutaneous transluminal coronary angioplasty
+T8	treatment 5773 5790	medical treatment
+T9	problem 5735 5758	acute coronary syndrome
+T10	treatment 1792 1848	angio-jet percutaneous transluminal coronary angioplasty
+T11	test 7047 7050	inr
+T12	treatment 7063 7070	zestril
+T13	problem 5403 5416	apex akinesis
+T14	problem 2403 2423	hypercholesterolemia
+T15	problem 4003 4015	nondistended
+T16	test 4569 4578	potassium
+T17	problem 2491 2514	a myocardial infarction
+T18	problem 3907 3909	s4
+T19	problem 2429 2441	hypertension
+T20	treatment 1415 1418	tnk
+T21	problem 1437 1445	his pain
+T22	treatment 6002 6037	intra-aortic balloon pump placement
+T23	problem 1020 1046	slight shortness of breath
+T24	problem 5374 5396	inferior apex akinesis
+T25	treatment 5932 5978	percutaneous transluminal coronary angioplasty
+T26	test 4626 4636	creatinine
+T27	problem 1100 1106	nausea
+T28	treatment 1853 1861	stenting
+T29	test 4283 4305	neurologic examination
+T30	test 4458 4469	white count
+T31	treatment 305 360	3-vessel percutaneous transluminal coronary angioplasty
+T32	problem 201 224	coronary artery disease
+T33	test 4476 4486	hematocrit
+T34	test 6454 6469	catheterization
+T35	problem 1472 1480	symptoms
+T36	treatment 2157 2215	status post percutaneous transluminal coronary angioplasty
+T37	problem 4226 4236	tenderness
+T38	treatment 5805 5873	status post angio-jet percutaneous transluminal coronary angioplasty
+T39	treatment 5795 5798	tnk
+T40	treatment 4117 4142	intra-aortic balloon pump
+T41	problem 1521 1534	st elevations
+T42	treatment 1364 1382	nitroglycerin drip
+T43	treatment 5878 5927	stent of proximal left anterior descending artery
+T44	treatment 1385 1397	heparin drip
+T45	treatment 2027 2055	an intra-aortic balloon pump
+T46	treatment 1400 1408	dilaudid
+T47	problem 5349 5371	anterior apex akinesis
+T48	treatment 4152 4184	pulmonary artery catheterization
+T49	test 4617 4620	bun
+T50	test 4423 4435	laboratories
+T51	treatment 7369 7377	coumadin
+T52	treatment 6398 6404	plavix
+T53	test 4679 4682	inr
+T54	problem 774 782	the pain
+T55	treatment 6384 6391	aspirin
+T56	treatment 6311 6319	coumadin
+T57	treatment 7257 7265	atenolol
+T58	treatment 6372 6379	lipitor
+T59	test 3199 3224	pulmonary artery pressure
+T60	test 5041 5056	catheterization
+T61	problem 4084 4089	edema
+T62	problem 621 639	substernal burning
+T63	test 1643 1658	catheterization
+T64	test 3255 3269	cardiac output
+T65	problem 5427 5453	trace mitral regurgitation
+T66	problem 1069 1085	change in vision
+T67	test 4657 4659	pt
+T68	treatment 7338 7348	glucophage
+T69	treatment 7285 7292	zestril
+T70	problem 5563 5578	type 2 diabetes
+T71	problem 1759 1789	50% stenosis of first diagonal
+T72	problem 3987 3996	nontender
+T73	test 1661 1684	catheterization results
+T74	problem 1692 1754	100% occlusion of the proximal left anterior descending artery
+T75	problem 4021 4039	hepatosplenomegaly
+T76	problem 5458 5487	trace tricuspid regurgitation
+T77	problem 5600 5612	hypertension
+T78	problem 1137 1170	change in bowel or urinary habits
+T79	test 4537 4543	chem-7
+T80	test 4585 4593	chloride
+T81	problem 477 498	substernal chest pain
+T82	problem 3424 3441	apparent distress
+T83	problem 5581 5597	high cholesterol
+T84	problem 3955 3977	decreased bowel sounds
+T85	problem 5092 5127	j point elevations in v2 through v3
+T86	test 3308 3351	intra-aortic balloon pump augmented systole
+T87	treatment 3295 3303	dopamine
+T88	problem 5064 5087	continued st elevations
+T89	test 5130 5165	post catheterization echocardiogram
+T90	problem 5203 5232	moderate systolic dysfunction
+T91	problem 5235 5261	basal anterior hypokinesis
+T92	problem 5264 5285	mid anterior akinesis
+T93	problem 5288 5318	basal anteroseptal hypokinesis
+T94	problem 5321 5346	mid anteroseptal akinesis
+T95	test 4526 4529	rdw
+T96	problem 3925 3929	rubs
+T97	treatment 886 909	his nitroglycerin patch
+T98	test 5173 5193	an ejection fraction
+T99	problem 3747 3772	jugular venous distention
+T100	test 3669 3681	auscultation
+T101	treatment 7132 7139	lipitor
+T102	treatment 6501 6510	lopressor
+T103	treatment 960 984	sublingual nitroglycerin
+T104	treatment 7078 7086	atenolol
+T105	problem 3631 3646	lymphadenopathy
+T106	treatment 7187 7193	plavix
+T107	test 4498 4507	platelets
+T108	test 3362 3380	augmented diastole
+T109	test 3035 3040	pulse
+T110	treatment 7229 7237	prevacid
+T111	test 4643 4650	glucose
+T112	test 3008 3027	temperature current
+T113	problem 1109 1117	vomiting
+T114	treatment 6515 6524	captopril
+T115	treatment 7159 7166	aspirin
+T116	test 4667 4670	ptt
+T117	problem 1539 1574	j point elevations in v2 through v4
+T118	test 4553 4559	sodium
+T119	treatment 6124 6132	dopamine
+T120	test 2981 3000	temperature maximum
+T121	test 3156 3173	oxygen saturation
+T122	treatment 6252 6259	heparin
+T123	test 3125 3141	respiratory rate
+T124	problem 371 383	hypertension
+T125	problem 3915 3922	murmurs
+T126	treatment 6163 6192	the intra-aortic balloon pump
+T127	test 3064 3078	blood pressure
+T128	treatment 7312 7318	glyset
+T129	treatment 2862 2872	glucophage
+T130	treatment 1354 1361	aspirin
+T131	problem 1198 1204	sweats
+T132	problem 2902 2911	allergies
+T133	treatment 2804 2812	prevacid
+T134	treatment 2831 2841	metoprolol
+T135	problem 1185 1191	chills
+T136	test 6739 6746	his inr
+T137	problem 3843 3859	bilateral bruits
+T138	test 4239 4260	dorsalis pedis pulses
+T139	treatment 2936 2942	iodine
+T140	treatment 227 294	status post 2-vessel percutaneous transluminal coronary angioplasty
+T141	problem 3933 3940	gallops
+T142	problem 418 438	hypercholesterolemia
+T143	treatment 6573 6580	zestril
+T144	treatment 2921 2931	penicillin
+T145	problem 1176 1182	fevers
+T146	problem 386 411	new onset type 2 diabetes
+T147	problem 1120 1134	abdominal pain
+T148	test 4689 4704	creatine kinase
+T149	problem 3901 3903	s3
+T150	problem 1088 1097	dizziness
+T151	test 4746 4764	arterial blood gas
+T152	problem 2553 2576	a myocardial infarction
+T153	treatment 2779 2785	glyset
+T154	test 4517 4520	mcv
+T155	test 1483 1500	electrocardiogram
+T156	test 4600 4611	bicarbonate
+T157	test 4794 4810	creatine kinases
+T158	treatment 1924 1974	the percutaneous transluminal coronary angioplasty
+T159	treatment 2724 2733	diltiazem
+T160	test 5018 5035	electrocardiogram
+T161	treatment 2753 2760	lipitor
+R1	TrWP Arg1:T8 Arg2:T9
+R2	TrIP Arg1:T20 Arg2:T21
+R3	TrAP Arg1:T22 Arg2:T9
+R4	TrAP Arg1:T25 Arg2:T9
+R5	TrAP Arg1:T31 Arg2:T32
+R6	TrAP Arg1:T36 Arg2:T3
+R7	TrAP Arg1:T38 Arg2:T9
+R8	TrWP Arg1:T39 Arg2:T9
+R9	TrCP Arg1:T40 Arg2:T37
+R10	TrIP Arg1:T42 Arg2:T21
+R11	TrAP Arg1:T43 Arg2:T9
+R12	TrIP Arg1:T44 Arg2:T21
+R13	TrIP Arg1:T46 Arg2:T21
+R14	TrCP Arg1:T48 Arg2:T37
+R15	TeRP Arg1:T73 Arg2:T74
+R16	TeRP Arg1:T73 Arg2:T71
+R17	TeRP Arg1:T89 Arg2:T90
+R18	TeRP Arg1:T89 Arg2:T91
+R19	TeRP Arg1:T89 Arg2:T92
+R20	TeRP Arg1:T89 Arg2:T93
+R21	TeRP Arg1:T89 Arg2:T94
+R22	TrIP Arg1:T130 Arg2:T21
+R23	TrCP Arg1:T139 Arg2:T132
+R24	TrAP Arg1:T140 Arg2:T32
+R25	TrCP Arg1:T144 Arg2:T132
+R26	TeRP Arg1:T155 Arg2:T41
+R27	TeRP Arg1:T155 Arg2:T117
+R28	TeRP Arg1:T160 Arg2:T88
+R29	TeRP Arg1:T160 Arg2:T85

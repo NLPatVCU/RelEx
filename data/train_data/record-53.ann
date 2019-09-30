@@ -1,0 +1,19 @@
+T1	treatment 1111 1133	his intravenous fluids
+T2	problem 979 987	his pain
+T3	treatment 1013 1028	oral medication
+T4	treatment 1236 1253	his penrose drain
+T5	test 888 902	his hematocrit
+T6	treatment 1375 1391	a foley catheter
+T7	treatment 775 783	coumadin
+T8	treatment 633 646	the procedure
+T9	treatment 186 218	radical retropubic prostatectomy
+T10	treatment 597 608	the surgery
+T11	problem 307 319	elevated psa
+T12	problem 322 337	prostate cancer
+T13	treatment 708 721	1 mg coumadin
+T14	test 362 375	needle biopsy
+T15	treatment 519 551	radical retropubic prostatectomy
+T16	problem 134 149	prostate cancer
+T17	test 854 870	his laboratories
+R1	TrIP Arg1:T3 Arg2:T2
+R2	PIP Arg1:T11 Arg2:T12

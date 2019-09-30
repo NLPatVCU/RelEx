@@ -1,0 +1,27 @@
+T1	problem 1102 1113	hypotensive
+T2	problem 1136 1148	any symptoms
+T3	treatment 1015 1032	intravenous lasix
+T4	problem 938 949	hypotension
+T5	treatment 890 905	red blood cells
+T6	problem 1570 1580	her asthma
+T7	problem 241 261	respiratory distress
+T8	treatment 338 368	high-flow 60% oxygen face mask
+T9	treatment 1605 1616	antibiotics
+T10	test 778 803	the patient 's hematocrit
+T11	problem 769 775	anemia
+T12	problem 1345 1356	hypotension
+T13	test 1260 1278	her blood pressure
+T14	treatment 1545 1565	her prednisone taper
+T15	problem 134 154	respiratory distress
+T16	test 629 644	her saturations
+T17	treatment 721 726	lasix
+T18	test 1464 1482	recent chest x-ray
+T19	problem 1489 1525	resolving right lower lobe pneumonia
+T20	test 1151 1173	her oxygen saturations
+T21	treatment 419 440	the intravenous lasix
+T22	treatment 1242 1255	normal saline
+R1	PIP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T3 Arg2:T4
+R3	TeRP Arg1:T10 Arg2:T11
+R4	TrAP Arg1:T14 Arg2:T6
+R5	TeRP Arg1:T18 Arg2:T19

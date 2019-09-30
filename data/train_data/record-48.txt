@@ -1,0 +1,177 @@
+Admission Date :
+2019-01-19
+Discharge Date :
+2019-01-24
+Date of Birth :
+1981-03-17
+Sex :
+M
+Service : MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Antonio I Staples , M.D.
+Chief Complaint :
+nausea and vomiting
+Major Surgical or Invasive Procedure :
+01-23 PORT line removal .
+01-23 PICC placement .
+01-24 PICC removal .
+History of Present Illness :
+This is a 37 y/o male patient with PMH Type I DM , HTN , gastroparesis , ESRD on HD ( last in 12/26 per patient ) who presents to CMED CCU with hypertensive urgency unable from the Larry .
+The patient early this morning to the Ruthie with his usual nausea , vomiting , abdominal pain and was found to be hypertensive to 256/110 , HR 102 , T 99.2 , RR 22 , 92% RA .
+History is difficult to obtain from patient d/t somnolence and lack of desire to participate in interview , but per Frank note he was diaphoretic and ' writing in pain ', vomiting clear substance .
+He was given ativan a total of 4 mg of ativan , 6 mg of dilaudid , labetolol 20 mg IV x 1 and hydralazine 10 mg IV x 1 without good response ( 200/99 ).
+He recieved 2L NS and was started on labetolol gtt and BP decreased to 161/79 .
+Tranferred to CMED CCU for further management while on labetolol gtt .
+Of note , the patient is admitted to hospital 3 times every month for similar complaints with last admission 1/20-2/1/07 .
+At that time BP was attributed to abdominal pain and inability to take PO meds d/t nausea / vomiting .
+Also had labile blood sugars with repeated episodes of hypoglycemia , and Strickland recommended sugars in the range of 150-200 .
+He eloped prior to formal discharge when his FS was found to be critically high - recommended to patient that he stay for repeat , but left AMA without signing any forms .
+Upon transfer to the CMED CCU the patient appears somewhat uncomfortable , reporting nausea and abdominal pain , but when questioned he was unable / unwilling to participate in HPI or exam d/t sleepiness .
+He denied CP , SOB , HA , vision changes , neck stiffness , dysuria , or other symptoms .
+In the CMED CCU he became hypotensive to SBP 80 s.
+Labetalol was stopped and he received a 500 cc fluid bolus and his blood pressure rose to SBP 90 s.
+Cardiac and infectious sources of hypotension were considered , but cardiac enzymes were not changed from prior studies and he had no localizing signs of infection ; blood cultures were sent and a ultrasound of the L arm AVF ordered to rule out abscess at the site .
+He received a partial HD session , limited by hypotension .
+Over night , his blood pressure trended up to 130 s systolic .
+He was restarted on his home blood pressure regimen .
+Renal consult team saw him 2019-01-20 and plan to next dialyze him on 2019-01-21 .
+He was to be called out to the medical floor on 2019-01-20 but became somnolent after receiving pain and anti-nausea meds , so he stayed in the ICU for closer monitoring of respiratory status , which spontaneously improved .
+His blood sugar at 10 pm was low at 22 and he was disoriented , which resolved with two glasses of juice ; he did not receive his standing dose of NPH that evening .
+Blood cultures returned positive with GPC in pairs and clusters , so a TTE and surveillance cultures were ordered and vancomycin was started .
+He was then called out to the medical floor on 01-21 .
+Past Medical History :
+1. DM type I
+2. ESRD on hemodialysis started 2017-01-07 on Tu , Th , Sat
+3. Severe autonomic dysfunction with multiple hospitalizations for hypertensive emergency , gastroparesis , and orthostatic hypotension .
+4. History of esophageal erosion , MW tear
+5. CAD with 1-vessel disease ( 50% stenosis D1 in 2014-06-07 ), normal stress
+2015-10-07
+6. hx of Foot Ulcer
+7. h/o clot in AV graft x2 ( March and 2018-07-07 )
+Social History :
+Denies alcohol or tobacco use .
+Endorses occassional marijuana use .
+Lives with his Carney Hospital mother and their three children .
+Family History :
+His father recently died of ESRD and diabetes .
+His mother is in her 50 s and has hypertension .
+He has two sisters , one with diabetes , and six brothers , one with diabetes .
+Physical Exam :
+Vitals : 97.4 , 164/90 , 102 , 10 , 97% 4L
+General : sleepy , arouses to voice but limited participation with physical exam
+HEENT : PERRL , left pupil smaller than right , pt will not participate in EOMI , sclera anicteric , MM dry , No OP lesions
+Neck : Supple , no JVD
+CV : RRR , nl S1 , S2 , 2/6 systolic murmur at LUSB
+Lungs : CTAB post
+Chest : HD line in place without erythema
+Abd : Soft , ND , nontender , + BS , no guarding , no rebound , multiple well healed scars
+Ext : no c/c/e , left arm with fistula with good thrill
+Skin : no rashes
+Brief Hospital Course :
+Pt admitted to medical floor in hemodynamically stable condition without specific complaints .
+# hypertensive urgency :
+Upon presentation it was unclear when last time was that patient took meds , but hypertension likely d/t inability to take meds in setting of N/V .
+Also contribution of autonomic dysfunction .
+No evidence of active end organ damage .
+Pt was treated with labetalol gtt in CMED CCU which was weaned off on 01-20 .
+carduac enzymes mildly elevated , felt 02-08 demand ischemia in setting of hypertensive urgency , CK and MB trended Mcewen at time of admission to medical floor .
+Pt 's hypertensive urgency was resolved upon admission to the medical floor .
+His SBP s ranged 140 s- 170 s .
+He was restarted on his home regimen of antihypertensives without difficulty ( metoprolol 75 tid , clonidine patch and oral , nifedipine 30 SR q daily ).
+he was discharged home with change in his regimen .
+# bacteremia :
+pt with 2/4 bottles coag neg staph on 01-19 and again on 01-20 .
+PORT was felt most likely source , and pt has had at least 2 sets of + blood cultures since it was placed .
+TTE was obtained which was not concerning for endocarditis .
+pt without stigmata of SBE .
+ID consult obtained which recommended removal of PORT , which was taken out on 01-23 .
+Pt will compelete a 2 week course of vancomycin at hemodialysis , which has been arranged by renal service .
+A PICC was breifly placed , however removed as it is unclear if pt can reliably flush this .
+PORT will be replaced on 2019-02-11 per IR ( Dr. Welsh placed last PORT , then removed it on 01-23 ), ordered placed in OMR .
+Indication :
+diabetic gastropathy causing inability to toleral oral antihypertensive medication prompting repeated Donald presentation for hypertensive urgency .
+Pt with surveillance cultures and port tip cultures showing NGTD on 01-24 , he will have futher surveillance cultures drawn at hemodialysis and followed by his nephrologist .
+# n/v/ abdominal pain : pt with multiple admissions with similar complaints , etiology 02-08 gastroparesis , improves considerably with ativan , dilaudid , reglan , pt was tolerating PO meds / diet at time of admission to medical service and was restarted on oral reglan .
+# DMI : Pt on sliding scale as inpatient and taking NPH 2 units BID at home .
+pt with two episodes of hypoglycemia ( FSBS 22 and 27 ), etiology unclear , pt followed by Strickland , who recommend no changes to current insulin regimen .
+will discharge pt with instructions to continue NPH 2 UNITS BID as Frederick Tracey recs .
+# CAD - pt denied cp / sob throughout hospitalization .
+Troponins rose at admission , however CK and MB trending Mcewen wat time of admission to medical service .
+Etiology felt most likely demand ischemia in setting of original hypertensive urgency with persistent elevation of trop 02-08 ESRD .
+Pt was continued on aspirin , metoprolol , nifedipine .
+# ESRD : etiology likely 02-08 DM and HTN , pt tolerating HD well , and underwent dialysis without difficulty on 01-24 .
+pt will be discharged home with plan to continue current dialysis schedule ( Tue / Th / Sat ).
+In addition pt will be given vancomycin at dialysis x 2 week course ( last day 2019-02-05 ) given his PORT line infection .
+He will have levels drawn at dialysis and be dosed with vancomycin as appropriate .
+Plan is for surveillance cultures to be drawn at dialysis .
+If negative , pt is scheduled for presumptively replacement of PORT on 2019-02-11 with interventional radiology ( dr. Arevalo ).
+Pt continued on home regimen of calcium acetate 667 mg , 3 capsules TID .
+# AV fistula : pt with h/o numerous clots in AV fistula .
+No signs of infection presently , and tolerating dialysis without difficulty .
+Pt was subtherapeuticon INR on admission , thus treated with heparin gtt .
+coumadin held on 01-22 for PORT removal , and restarted on 01-24 .
+Pt discharged with instructions to continue coumadin 1.5 mg po q daily with goal INR 02-09 .
+# DISPO :
+pt discharged home on 01-24 with instructions to complete 2 week course of vancomycin at hemodialysis for his PORT line infection .
+an appointment was made with interventional radiology on 2019-02-11 to replace his PORT , under the assumption that his surveillance cultures from dialysis remain negative .
+discussed this plan with renal service ( Anthony Mcknight ) who will communicate with pt 's outpatient dialysis service .
+Medications on Admission :
+Metoclopramide 10 mg PO Q6
+Metoprolol Tartrate 75 mg PO TID
+Calcium Acetate 1340 mg tid with meals
+Anzemet 12.5 IV prn
+Prochlorperazine 10 mg IV Q6H prn
+Ativan 1 mg PO Q6H prn
+Dilaudid 4mg PO Q3-4H prn
+Insulin NPH 2 units Subcutaneous twice a day .
+Clonidine 0.3 mg / 24 hr Patch Weekly Transdermal QTHUR
+Clonidine 0.2 mg PO TID
+Prochlorperazine 10 mg q 6 h
+Coumadin 1.5 mg PO QHS
+Nifedipine 30 SR mg PO QD
+Bisacodyl prn
+Protonix 40 QD
+Discharge Medications :
+1. Metoclopramide 10 mg Tablet Sig : One ( 1 ) Tablet PO Q6H ( every 6 hours ).
+2. Metoprolol Tartrate 25 mg Tablet Sig : Three ( 3 ) Tablet PO TID ( 3 times a day ).
+3. Calcium Acetate 667 mg Capsule Sig : Three ( 3 ) Capsule PO TID W/ MEALS ( 3 TIMES A DAY WITH MEALS ).
+4. Ativan 1 mg Tablet Sig : One ( 1 ) Tablet PO q6h prn .
+5. Dilaudid 4 mg Tablet Sig : One ( 1 ) Tablet PO q3-4hr prn .
+6. Clonidine 0.3 mg / 24 hr Patch Weekly Sig : One ( 1 ) Patch Weekly Transdermal Q WED ( every Wednesday ).
+7. Clonidine 0.2 mg Tablet Sig : One ( 1 ) Tablet PO TID ( 3 times a day ).
+8. Warfarin 1 mg Tablet Sig : 1.5 Tablets PO DAILY ( Daily ).
+9. Nifedipine 30 mg Tablet Sustained Release Sig : One ( 1 ) Tablet Sustained Release PO DAILY ( Daily ).
+10. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ).
+11. Bisacodyl 5 mg Tablet Sig : One ( 1 ) Tablet PO once a day as needed for constipation .
+12. Vancomycin in Dextrose 1 g / 200 mL Piggyback Sig : One ( 1 ) Intravenous QHD ( each hemodialysis ): 2 week course to be given at dialysis , last day 2019-02-05 .
+Disp :* qs * Refills :* 2 *
+13. Aspirin 81 mg Tablet Sig : One ( 1 ) Tablet PO once a day .
+14. Humalog 100 unit / mL Solution Sig : USE AS DIRECTED Subcutaneous four times a day : please use attached sliding scale .
+Disp :* qs * Refills :* 2 *
+15. Insulin NPH Human Recomb 100 unit / mL Suspension Sig : 2 UNITS Subcutaneous twice a day .
+Disp :* qs * Refills :* 2 *
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+primary :
+bacteremia 02-08 PORT line infection
+hypertensive urgency
+diabetic gastropathy
+Discharge Condition :
+stable .
+Discharge Instructions :
+please continue to take all of your medications as prescribed .
+you were started on a 2 week course of vancomycin to be given at hemodialysis for your line infection .
+you will have your PORT replaced after 2 weeks of antibiotics if your blood cultures remain negative .
+if you have recurrent fevers , chills , naseau , vomitting , chest pain , shortness of breath , or other worrisome symptoms , please contact your primary care physician or the emergency department .
+Followup Instructions :
+please follow up with your primary care doctor within 4 weeks .
+please follow-up with your dialysis physician regarding replacing your PORT .
+please follow-up with dr. Lillian becker in gastroenterology within 1-2 weeks , an appointment has been made for on you 2019-02-11 at 3PM .
+( 447 ) 671-2034 ( Caldwell building , 1st floor , 1718 S. Sixth Blvd. ).
+upon arriving home please contact the King and arrange to be seen within 1-2 weeks .
+Adam Ruth MD 61-358
+Completed by : Elwood Edmond MD 68-884 2019-01-31 @ 1141
+Signed electronically by : DR. Pamula Pugh on : Russell 2019-01-31 12:12 PM
+( End of Report )

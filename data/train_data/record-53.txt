@@ -1,0 +1,48 @@
+Admission Date :
+2012-01-20
+Discharge Date :
+2012-01-23
+Date of Birth :
+1947-09-21
+Sex :
+M
+Service :
+UROLOGY
+PREOPERATIVE DIAGNOSIS :
+Prostate cancer .
+ADMITTING DIAGNOSIS :
+Status post radical retropubic prostatectomy .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 64 year old gentleman with a history of elevated PSA , prostate cancer .
+He was diagnosed with needle biopsy on either side of the prostate with 3+3 equals 6 on the right side and 3+4 equals 7 on the left side .
+HOSPITAL COURSE :
+The patient underwent radical retropubic prostatectomy on 2012-01-20 .
+Dr. Marie Anderson performed the surgery .
+The patient tolerated the procedure well .
+On postoperative day number one , he was administered 1 mg Coumadin per protocol as well as on the operative day 1 mg of Coumadin .
+The patient was advanced to regular diet on postoperative day one .
+His laboratories were checked and his hematocrit was noted to be stable .
+He was made to ambulate on postoperative day one .
+His pain was well controlled with oral medication at this time .
+On postoperative day two , he continued to convalesce as planned .
+His intravenous fluids were discontinued at this time .
+He was on a house diet and tolerating it well at this time as well .
+His Penrose drain was discontinued at this time .
+He was ready for discharge home on postoperative day three .
+He was discharged home with a Foley catheter and he will follow-up with Dr. Ross in one to two weeks .
+COMPLICATIONS DURING STAY :
+None .
+CONDITION ON DISCHARGE :
+Stable .
+DISCHARGE STATUS :
+To home .
+Terry CR Dennis , M.D.
+68-233
+Dictated By : Tracy C Rea , M.D.
+MEDQUIST36
+D : 2012-04-28 17:18
+T : 2012-05-01 20:32
+JOB #:
+21454
+Signed electronically by : DR. Antonio Hall on : FRI 2012-05-04 7:48 AM
+( End of Report )

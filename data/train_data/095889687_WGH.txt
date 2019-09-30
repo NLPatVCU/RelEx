@@ -1,0 +1,44 @@
+095889687 WGH
+9786774
+224527
+311732
+10/24/2001 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+SOURS , NANONIFF ELLMI
+MRN :
+9786774
+Age :
+31y
+REGISTRATION DATE :
+10/24/2001 07:57 AM
+Provider :
+LICHEREANYVE CHIRDKOTEKERTH
+PRELIMINARY REPORT
+Benefits Assigned :
+Y
+Discharge Date / Time :
+10/24/2001 10:07
+Discharge Status :
+Discharged Condition on Discharge :
+Stable Patient States Complaint :
+SWOLLEN PAINFUL L SIDE FC
+Diagnosis :
+L upper lip / L nostril abscess
+Treatment Rendered :
+5 cc of purulent material drained by needle aspiration
+Discharge Medications :
+Augmentin 875 mg twice a day for 10 days .
+Follow up Service :
+Please see your PCP in follow up .
+Disposition , Follow up and Instructions to Patient :
+Return immediately for worsening signs of infection ( increased swelling , pain , redness ) or for any neurologic changes ( blurry or double vision , headaches , trouble walking , etc ) .
+PCP Name :
+CLEV , NISHA
+Provider Number :
+53476
+This report was created by CHIRDKOTEKERTH , LICHEREANYVE 10/24/2001 10:09 AM

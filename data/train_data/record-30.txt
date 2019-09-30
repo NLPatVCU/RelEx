@@ -1,0 +1,102 @@
+Admission Date :
+2015-09-16
+Discharge Date :
+2015-09-21
+Date of Birth :
+1962-09-26
+Sex :
+M
+Service :
+CARDIOTHOR
+REASON FOR ADMISSION :
+Mitral valve repair .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 52 year old Czech speaking gentleman with a history of severe mitral regurgitation .
+For the past several years , the patient has continued to have significant exercise intolerance which has limited his ability to work .
+He reports severe dyspnea on exertion .
+The patient had a recent admission earlier in the month and he was discharged on 2015-09-10 , after undergoing cardiac catheterization .
+This was significant for demonstrating no flow-limited disease in the coronaries but several fistulae
+from the left anterior descending to the PA .
+Several of these were coil embolized during this admission .
+He tolerated this well , was sent home , and now returns for his mitral valve repair .
+PAST MEDICAL HISTORY :
+1. Mitral valve regurgitation .
+PAST SURGICAL HISTORY :
+None .
+MEDICATIONS ON ADMISSION :
+1. Atenolol 25 mg p.o. q. day .
+2. Enteric-coated aspirin 325 mg p.o. q. day .
+3. Nitroglycerin sublingual p.r.n.
+ALLERGIES :
+No known drug allergies .
+SOCIAL HISTORY :
+The patient is currently on Disability and lives at home with his wife .
+Kimberly was born in Great Britain .
+He denies any ETOH or tobacco use .
+FAMILY HISTORY :
+Negative .
+PHYSICAL EXAMINATION :
+The patient is in no acute distress .
+Temperature is 98.3 F. ; pulse is 76 ; blood pressure 113/52 ; breathing 18 ; 98% on room air .
+HEENT :
+The patient is missing many teeth .
+Oropharynx is clear .
+There is no cervical lymphadenopathy .
+Supple neck .
+Heart is regular rate and rhythm with a III/VI systolic ejection murmur .
+His lungs are clear to auscultation bilaterally .
+Abdomen is soft and nontender .
+The patient has no cyanosis , clubbing or edema in extremities .
+LABORATORY :
+On admission include a white blood cell count of 5.6 , hematocrit of 32.5 , platelets of 202 .
+Sodium of 140 , potassium of 3.5 , BUN of 4 , creatinine of 0.6 , glucose of 137 .
+Chest x-ray shows no infiltrate or pneumothorax .
+Cardiac catheterization demonstrates no significant disease in the coronary arteries .
+Two branches of an left anterior descending to PA fistula which was successfully coiled .
+There is a persistent flow through an inferior branch of the left anterior descending to PA fistula and a persistent branch of the circumflex to PA branch fistula which anatomically were not suitable for coil embolization .
+Ejection fraction was 60% .
+HOSPITAL COURSE :
+On the day of admission , the patient went to the Operating Room and underwent a minimally invasive
+mitral valve repair .
+He tolerated this procedure well .
+The patient was brought to the cardiothoracic Intensive Care Unit in stable condition on minimal pressor support .
+He was successfully weaned off this support .
+The patient was fully weaned from ventilatory support secondary to a persistent acidemia .
+This was treated with sodium bicarbonate and a Swan-Ganz was placed to provide close hemodynamic monitoring .
+The patient was found to have stable hemodynamics with appropriate mixed venous saturations in the 70% range .
+The patient was corrected to a normal pH of 7.41 by the first postoperative night and remained stable .
+He was then weaned off of ventilatory support and was successfully extubated .
+The patient did have a slight bit of confusion early in post-extubation course which cleared .
+This was also compounded by a language barrier since the patient cannot speak English .
+In addition , the patient 's early postoperative course had a tremendous urine output .
+It was equally up to 700 cc. an hour and a renal consultation was obtained .
+He underwent a head CT scan to rule out intracranial pathology leading to diabetes insipidus .
+This was negative .
+The patient 's serum and urine electrolytes indicated that this diuresis was appropriate .
+The patient 's urine output has decreased and his BUN and creatinine remained normal .
+The patient 's Foley was discontinued .
+He had developed some hematuria which has resolved .
+The patient has remained stable and is now ready for discharge to home with follow-up in approximately four weeks .
+DISCHARGE DIAGNOSES :
+1. Mitral regurgitation status post minimally invasive mitral valve repair .
+DISCHARGE MEDICATIONS :
+1. Lopressor 75 mg p.o. twice a day .
+2. Colace 100 mg p.o. twice a day .
+3. Percocet one to two p.o. q. four hours p.r.n.
+4. Aspirin 325 mg p.o. q. day .
+CONDITION ON DISCHARGE :
+Stable .
+DIGibsonE INSTRUCTIONS :
+1. The patient will follow-up with Dr. de las Grau in four weeks .
+2. He will follow-up with his primary care physician , Dr. Blake , in two weeks .
+3. The patient will call for any fevers or difficulties with the wound care , and will be instructed with an interpreter present .
+Bruce lou Murphy , M.D.
+07-760
+Dictated By : Ellen V Wise , M.D.
+MEDQUIST36
+D : 2015-09-21 08:34
+T : 2015-09-26 15:44
+JO B#:
+18430
+Signed electronically by : DR. Mary van den Mosley on : WED 2015-10-14 7:16 PM
+( End of Report )

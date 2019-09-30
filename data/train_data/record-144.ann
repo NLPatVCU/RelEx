@@ -1,0 +1,199 @@
+T1	test 2199 2202	tsh
+T2	problem 3069 3080	hypotension
+T3	treatment 6075 6095	his intravenous pole
+T4	problem 573 584	weight gain
+T5	test 2209 2222	digoxin level
+T6	problem 589 607	abdominal fullness
+T7	problem 6016 6034	extremely fatigued
+T8	problem 3033 3045	tachycardiac
+T9	test 2183 2193	creatinine
+T10	test 654 672	further evaluation
+T11	test 4882 4912	his gamma glutamyl transferase
+T12	problem 4854 4878	a confirmatory elevation
+T13	test 2158 2167	potassium
+T14	problem 725 745	chronic mild dyspnea
+T15	test 2174 2177	bun
+T16	test 2135 2138	inr
+T17	problem 313 351	a recent cardiac myocardial infarction
+T18	test 281 301	an ejection fraction
+T19	test 6227 6255	his neurological examination
+T20	problem 6299 6309	atraumatic
+T21	problem 6334 6344	a hematoma
+T22	test 2145 2151	sodium
+T23	problem 354 376	pulmonary hypertension
+T24	problem 3109 3127	mildly hypotensive
+T25	problem 1174 1180	chills
+T26	problem 6424 6460	any extra or intracranial hemorrhage
+T27	treatment 845 856	his digoxin
+T28	test 2353 2375	glucose tolerance test
+T29	test 2318 2333	total bilirubin
+T30	test 996 1008	a heart rate
+T31	problem 251 275	congestive heart failure
+T32	test 2340 2347	amylase
+T33	test 6347 6395	a computerized axial tomography scan of his head
+T34	test 2282 2285	ast
+T35	problem 939 963	an increasing heart rate
+T36	treatment 6542 6559	his brachytherapy
+T37	problem 6564 6583	his prostate cancer
+T38	problem 6513 6528	rectal bleeding
+T39	problem 1035 1069	some increased shortness of breath
+T40	test 2291 2311	alkaline phosphatase
+T41	problem 4728 4751	ischemic cardiomyopathy
+T42	problem 6466 6481	rectal bleeding
+T43	test 2273 2276	alt
+T44	treatment 210 238	an atrioseptal defect repair
+T45	problem 1074 1096	a 10 pound weight gain
+T46	problem 5165 5194	a partial biliary obstruction
+T47	treatment 3984 3993	verapamil
+T48	problem 4028 4047	mildly tachycardiac
+T49	treatment 1910 1919	vitamin e
+T50	treatment 3913 3922	lopressor
+T51	treatment 1886 1894	coumadin
+T52	problem 2834 2876	moderate to severe 3+ mitral regurgitation
+T53	problem 2651 2685	moderately dilated right ventricle
+T54	treatment 3857 3864	digoxin
+T55	problem 5081 5113	underlying chronic liver disease
+T56	problem 2698 2754	global hypokinesis apical throughout the right ventricle
+T57	treatment 1874 1883	pulmicort
+T58	problem 5412 5443	any obstructing pancreatic mass
+T59	problem 3789 3815	rapid ventricular response
+T60	problem 3764 3783	atrial fibrillation
+T61	problem 5387 5405	biliary dilatation
+T62	problem 2605 2646	severe left ventricular systolic function
+T63	treatment 1858 1867	albuterol
+T64	treatment 1847 1855	atrovent
+T65	test 5312 5355	magnetic resonance cholangiopancreatography
+T66	problem 3741 3759	his atrial flutter
+T67	treatment 1826 1832	diovan
+T68	test 5224 5270	an magnetic resonance cholangiopancreatography
+T69	problem 2557 2599	severe global left ventricular hypokinesis
+T70	test 3348 3375	his systolic blood pressure
+T71	problem 5541 5576	chronic hepatic vascular congestion
+T72	problem 5508 5529	dilated hepatic veins
+T73	problem 5461 5502	a slightly irregular contour of the liver
+T74	problem 381 401	mitral regurgitation
+T75	test 2119 2128	platelets
+T76	test 2101 2111	hematocrit
+T77	treatment 101 109	medicine
+T78	problem 408 427	atrial fibrillation
+T79	test 2071 2093	white blood cell count
+T80	problem 3605 3624	atrial fibrillation
+T81	test 3133 3157	systolic blood pressures
+T82	problem 2919 2965	moderate pulmonary early systolic hypertension
+T83	test 2978 2997	this echocardiogram
+T84	problem 5832 5859	some mild cirrhotic changes
+T85	treatment 1934 1949	iron supplement
+T86	problem 3232 3249	volume overloaded
+T87	problem 2881 2907	3+ tricuspid regurgitation
+T88	treatment 1922 1931	vitamin c
+T89	treatment 3301 3319	intravenous fluids
+T90	test 2239 2261	serial cardiac enzymes
+T91	problem 1435 1450	prostate cancer
+T92	test 4493 4518	a cardiac catheterization
+T93	problem 4583 4611	the patient 's heart failure
+T94	problem 1383 1402	atrial fibrillation
+T95	problem 1407 1421	atrial flutter
+T96	test 2480 2494	echocardiogram
+T97	problem 2502 2530	moderate dilated left atrium
+T98	problem 2536 2554	atrioseptal defect
+T99	problem 563 570	fatigue
+T100	problem 1308 1344	right-sided congestive heart failure
+T101	problem 4364 4379	short of breath
+T102	test 3591 3599	his rate
+T103	test 4382 4394	chest x-rays
+T104	problem 4416 4440	congestive heart failure
+T105	problem 528 558	increasing shortness of breath
+T106	problem 5758 5777	vascular congestion
+T107	problem 5783 5811	his congestive heart failure
+T108	problem 5020 5048	an irregular hepatic contour
+T109	problem 4972 4990	any cholelithiasis
+T110	problem 4994 5007	cholecystitis
+T111	treatment 1750 1759	toprol xl
+T112	test 2382 2399	electrocardiogram
+T113	problem 2407 2426	atrial fibrillation
+T114	problem 2432 2458	rapid ventricular response
+T115	problem 2463 2477	atrial flutter
+T116	test 4757 4786	abnormal liver function tests
+T117	problem 4805 4848	an isolated , elevated alkaline phosphatase
+T118	test 4915 4956	an ultrasound of the right upper quadrant
+T119	treatment 3869 3885	his beta blocker
+T120	problem 3253 3268	volume depleted
+T121	problem 1183 1189	nausea
+T122	treatment 1593 1599	barium
+T123	problem 1582 1589	allergy
+T124	problem 3422 3448	the patient 's hypotension
+T125	problem 3474 3504	his rapid ventricular response
+T126	problem 3509 3528	right heart failure
+T127	problem 6656 6675	his rectal bleeding
+T128	problem 1165 1171	fevers
+T129	treatment 1556 1570	ace inhibitors
+T130	treatment 6620 6639	argon laser therapy
+T131	problem 1141 1152	a dry cough
+T132	problem 2759 2781	abnormal septal motion
+T133	problem 2798 2831	right ventricular volume overload
+T134	treatment 1804 1811	lipitor
+T135	treatment 6748 6774	repeat argon laser therapy
+T136	treatment 1775 1784	trazodone
+T137	problem 1119 1135	pillow orthopnea
+T138	treatment 1690 1697	digoxin
+T139	treatment 1255 1280	atrioseptal defect repair
+T140	treatment 1631 1647	a barium swallow
+T141	problem 1492 1507	rectal bleeding
+T142	problem 1218 1229	diaphoresis
+T143	treatment 3627 3649	the patient 's digoxin
+T144	problem 4069 4093	congestive heart failure
+T145	treatment 1453 1478	status post brachytherapy
+T146	problem 4348 4359	symptomatic
+T147	problem 1291 1305	cardiomyopathy
+T148	problem 1347 1369	pulmonary hypertension
+T149	test 4000 4014	his heart rate
+T150	problem 1193 1201	vomiting
+T151	problem 4216 4231	volume depleted
+T152	treatment 1537 1541	cpap
+T153	problem 1510 1533	obstructive sleep apnea
+T154	problem 1204 1214	chest pain
+T155	treatment 3554 3563	treatment
+T156	problem 4195 4212	volume overloaded
+T157	treatment 4273 4291	intravenous fluids
+R1	TeRP Arg1:T11 Arg2:T12
+R2	TeRP Arg1:T19 Arg2:T20
+R3	TeRP Arg1:T19 Arg2:T21
+R4	TeRP Arg1:T33 Arg2:T26
+R5	TrAP Arg1:T36 Arg2:T37
+R6	TrCP Arg1:T36 Arg2:T38
+R7	TrAP Arg1:T47 Arg2:T48
+R8	PIP Arg1:T59 Arg2:T60
+R9	TeRP Arg1:T65 Arg2:T61
+R10	TeRP Arg1:T65 Arg2:T58
+R11	TeCP Arg1:T68 Arg2:T46
+R12	PIP Arg1:T71 Arg2:T72
+R13	PIP Arg1:T71 Arg2:T73
+R14	PIP Arg1:T73 Arg2:T72
+R15	TeRP Arg1:T81 Arg2:T24
+R16	TeCP Arg1:T92 Arg2:T93
+R17	TeRP Arg1:T96 Arg2:T97
+R18	TeRP Arg1:T96 Arg2:T98
+R19	TeRP Arg1:T96 Arg2:T69
+R20	TeRP Arg1:T96 Arg2:T62
+R21	TeRP Arg1:T96 Arg2:T53
+R22	TeRP Arg1:T103 Arg2:T104
+R23	PIP Arg1:T107 Arg2:T106
+R24	PIP Arg1:T108 Arg2:T55
+R25	TeRP Arg1:T112 Arg2:T113
+R26	TeRP Arg1:T112 Arg2:T114
+R27	TeRP Arg1:T112 Arg2:T115
+R28	PIP Arg1:T113 Arg2:T114
+R29	PIP Arg1:T113 Arg2:T115
+R30	TeRP Arg1:T116 Arg2:T117
+R31	TeRP Arg1:T116 Arg2:T12
+R32	TeRP Arg1:T118 Arg2:T109
+R33	TeRP Arg1:T118 Arg2:T110
+R34	TeRP Arg1:T118 Arg2:T108
+R35	TrCP Arg1:T122 Arg2:T123
+R36	PIP Arg1:T124 Arg2:T125
+R37	PIP Arg1:T124 Arg2:T126
+R38	TrAP Arg1:T130 Arg2:T127
+R39	PIP Arg1:T132 Arg2:T133
+R40	TrAP Arg1:T135 Arg2:T127
+R41	TeRP Arg1:T149 Arg2:T48
+R42	TrAP Arg1:T152 Arg2:T153

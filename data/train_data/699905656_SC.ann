@@ -1,0 +1,21 @@
+T1	treatment 184 214	right sided sciatica procedure
+T2	test 779 794	his examination
+T3	treatment 998 1025	l5-s1 right hemilaminectomy
+T4	treatment 1212 1228	physical therapy
+T5	problem 546 574	a lateral l-1 s-1 disc bulge
+T6	problem 361 376	lower back pain
+T7	treatment 217 234	right laminectomy
+T8	problem 579 596	small l-4-4 bulge
+T9	test 526 538	ct myelogram
+T10	treatment 1273 1288	oral analgesics
+T11	problem 1237 1241	pain
+T12	problem 468 505	recurrent severe right sided sciatica
+T13	treatment 239 249	discectomy
+T14	treatment 1030 1040	discectomy
+T15	treatment 1350 1356	colace
+T16	problem 623 627	pain
+T17	treatment 1339 1347	percocet
+T18	treatment 1361 1367	motrin
+R1	TeRP Arg1:T9 Arg2:T5
+R2	TeRP Arg1:T9 Arg2:T8
+R3	TrIP Arg1:T10 Arg2:T11

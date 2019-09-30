@@ -1,0 +1,188 @@
+T1	problem 4676 4710	positive tremor reflex on the left
+T2	problem 4715 4734	absent on the right
+T3	treatment 3214 3228	ace inhibitors
+T4	problem 3178 3186	allergic
+T5	problem 512 516	pain
+T6	problem 3483 3490	reduced
+T7	test 4802 4825	cross deductor reflexes
+T8	problem 572 586	abdominal pain
+T9	treatment 3204 3211	codeine
+T10	test 5601 5611	hematocrit
+T11	test 5552 5565	serum glucose
+T12	treatment 2747 2754	diabeta
+T13	problem 3515 3524	nontender
+T14	test 5708 5718	urinalysis
+T15	problem 5753 5764	citrobacter
+T16	problem 6496 6532	enhancing lesions of the spinal cord
+T17	problem 2294 2303	this pain
+T18	treatment 2791 2798	demerol
+T19	problem 3755 3764	nystagmus
+T20	treatment 6122 6149	prior surgical intervention
+T21	test 801 807	biopsy
+T22	problem 815 835	abnormal vasculature
+T23	problem 838 857	hemosiderin deposit
+T24	problem 896 930	a dural arteriovenous malformation
+T25	treatment 6899 6905	valium
+T26	problem 6930 6942	muscle spasm
+T27	problem 1091 1108	urinary retention
+T28	problem 756 791	intermedullary lesion at c1-2 level
+T29	problem 6238 6270	her former vascular malformation
+T30	problem 3336 3342	murmur
+T31	treatment 2922 2931	metamucil
+T32	problem 4250 4283	generalized reduction in strength
+T33	treatment 7592 7610	adequate analgesia
+T34	problem 7549 7559	spasticity
+T35	problem 1966 1973	dysuria
+T36	problem 6276 6295	intraspinal lesions
+T37	problem 477 507	increasing left sided weakness
+T38	problem 522 532	spasticity
+T39	problem 546 567	difficulty swallowing
+T40	treatment 7271 7311	ferromagnetic intracardiac pacing device
+T41	problem 2058 2092	severe intermittent abdominal pain
+T42	problem 2480 2492	hypertension
+T43	treatment 5809 5823	nitrofurantoin
+T44	problem 5309 5328	an intention tremor
+T45	problem 3880 3910	markedly increased in bot legs
+T46	problem 721 731	spasticity
+T47	problem 3447 3467	reduced bowel sounds
+T48	problem 5232 5268	a high cervical spinal sensory level
+T49	test 5535 5545	creatinine
+T50	treatment 2724 2730	zantac
+T51	test 3364 3388	auscultation bilaterally
+T52	treatment 3028 3034	valium
+T53	problem 3052 3064	muscle spasm
+T54	treatment 7581 7587	valium
+T55	test 7231 7257	magnetic resonance imaging
+T56	treatment 368 413	surgical correction of a c-1 to c-2 dural avm
+T57	test 5332 5346	finger to nose
+T58	treatment 2859 2874	kcl supplements
+T59	treatment 7426 7442	physical therapy
+T60	problem 7480 7499	functional capacity
+T61	test 7057 7068	angiography
+T62	test 5622 5636	platelet count
+T63	test 5503 5514	bicarbonate
+T64	problem 1363 1374	problematic
+T65	problem 2508 2541	frequent urinary tract infections
+T66	test 7141 7155	ct myelography
+T67	problem 5880 5887	p-waves
+T68	problem 2544 2569	neuropathic pain syndrome
+T69	problem 2574 2586	osteoporosis
+T70	test 5488 5496	chloride
+T71	problem 4863 4882	clonus on the right
+T72	test 5650 5666	prothrombin time
+T73	treatment 7521 7544	pharmacological regimen
+T74	treatment 2704 2710	zoloft
+T75	treatment 7570 7578	baclofen
+T76	treatment 2841 2854	multivitamins
+T77	treatment 5826 5838	tetracycline
+T78	treatment 6847 6854	aspirin
+T79	problem 6433 6462	extrinsic compressive lesions
+T80	treatment 3001 3012	hydrodiuril
+T81	treatment 6966 6973	demerol
+T82	problem 7003 7024	left arm and leg pain
+T83	test 5459 5465	sodium
+T84	problem 6224 6234	recurrence
+T85	treatment 2768 2778	proctofoam
+T86	test 5158 5176	pinprick sensation
+T87	treatment 1482 1500	upper body support
+T88	treatment 3246 3254	percocet
+T89	treatment 3096 3108	levofloxacin
+T90	problem 4887 4931	sustained clonus ( 10-12 beats ) on the left
+T91	treatment 2643 2651	coumadin
+T92	treatment 5843 5850	bactrim
+T93	problem 1527 1547	her functional level
+T94	treatment 2623 2629	cozaar
+T95	test 7050 7052	ct
+T96	problem 6024 6055	a missing posterior arch at c-1
+T97	problem 697 716	left sided weakness
+T98	treatment 2768 2778	proctofoam
+T99	problem 2463 2477	hypothyroidism
+T100	treatment 3067 3074	insulin
+T101	test 5142 5153	light touch
+T102	test 5472 5481	potassium
+T103	test 3493 3511	rectal examination
+T104	test 5680 5686	an inr
+T105	treatment 2679 2688	synthroid
+T106	problem 3982 4005	markedly increased tone
+T107	problem 1022 1053	transient swallowing difficulty
+T108	test 6538 6546	contrast
+T109	problem 4093 4117	reduction in motor power
+T110	treatment 7447 7467	occupational therapy
+T111	problem 3957 3977	a flexor contracture
+T112	treatment 2975 2984	neurontin
+T113	test 5523 5526	bun
+T114	problem 5118 5139	decreased temperature
+T115	test 4760 4777	patellar reflexes
+T116	problem 1668 1689	a flexure contraction
+T117	problem 2441 2460	atrial fibrillation
+T118	problem 6155 6182	arteriovenous malformations
+T119	problem 184 214	left sided spastic hemiparesis
+T120	test 6549 6560	angiography
+T121	problem 6601 6650	normal vascular distribution of the head and neck
+T122	problem 6659 6699	recurrence of arteriovenous malformation
+T123	treatment 2898 2905	senokot
+T124	problem 1839 1864	new swallowing difficulty
+T125	treatment 3190 3201	hydralazine
+T126	treatment 6797 6805	coumadin
+T127	problem 5393 5397	slow
+T128	treatment 6060 6105	metallic clips at the craniocervical junction
+T129	problem 5037 5113	diminished vibration and propioception in the left upper and lower extremity
+T130	problem 1706 1748	intermitttent pain in the left arm and leg
+T131	problem 1056 1086	increasing left sided weakness
+T132	test 5572 5589	white blood count
+T133	treatment 5780 5793	ciprofloxacin
+T134	problem 2495 2505	depression
+T135	problem 2403 2438	insulin dependent diabetes mellitus
+T136	problem 6784 6794	spasticity
+T137	problem 4028 4051	moderate increased tone
+T138	treatment 2954 2960	detrol
+T139	problem 3414 3442	marked suprapubic tenderness
+T140	treatment 5796 5806	gentamycin
+T141	treatment 2877 2885	dulcolax
+T142	treatment 2819 2824	oscal
+T143	problem 1977 2004	excessive urinary frequency
+T144	treatment 229 271	surgical correction of c-1 , c-2 dural avm
+T145	test 5853 5870	electrocardiogram
+T146	treatment 6753 6761	baclofen
+T147	treatment 1418 1435	pre-gait training
+T148	test 5952 5973	a ct scan of the head
+T149	problem 2222 2237	her hemorrhoids
+T150	treatment 3231 3241	nifedipine
+T151	test 6419 6421	ct
+T152	test 5696 5699	ptt
+R1	PIP Arg1:T1 Arg2:T2
+R2	TrCP Arg1:T3 Arg2:T4
+R3	TrCP Arg1:T9 Arg2:T4
+R4	TeRP Arg1:T14 Arg2:T15
+R5	TeRP Arg1:T21 Arg2:T22
+R6	TeRP Arg1:T21 Arg2:T23
+R7	TeRP Arg1:T21 Arg2:T24
+R8	TrAP Arg1:T25 Arg2:T26
+R9	TrAP Arg1:T33 Arg2:T34
+R10	PIP Arg1:T37 Arg2:T38
+R11	PIP Arg1:T37 Arg2:T39
+R12	PIP Arg1:T37 Arg2:T5
+R13	PIP Arg1:T37 Arg2:T8
+R14	TrAP Arg1:T52 Arg2:T53
+R15	TrAP Arg1:T54 Arg2:T34
+R16	TrAP Arg1:T59 Arg2:T60
+R17	TrAP Arg1:T73 Arg2:T34
+R18	TrAP Arg1:T75 Arg2:T34
+R19	TrAP Arg1:T81 Arg2:T82
+R20	PIP Arg1:T84 Arg2:T29
+R21	TeRP Arg1:T86 Arg2:T48
+R22	TrCP Arg1:T88 Arg2:T4
+R23	PIP Arg1:T97 Arg2:T46
+R24	TeRP Arg1:T101 Arg2:T48
+R25	TeRP Arg1:T103 Arg2:T13
+R26	TeRP Arg1:T108 Arg2:T16
+R27	TrAP Arg1:T110 Arg2:T60
+R28	PIP Arg1:T111 Arg2:T106
+R29	TeRP Arg1:T120 Arg2:T121
+R30	TeRP Arg1:T120 Arg2:T122
+R31	TrCP Arg1:T125 Arg2:T4
+R32	TeRP Arg1:T145 Arg2:T67
+R33	TrAP Arg1:T146 Arg2:T136
+R34	TeRP Arg1:T148 Arg2:T96
+R35	TrCP Arg1:T150 Arg2:T4
+R36	TeRP Arg1:T151 Arg2:T79

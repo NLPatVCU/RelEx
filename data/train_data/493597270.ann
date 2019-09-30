@@ -1,0 +1,149 @@
+T1	test 2757 2770	total protein
+T2	problem 213 227	acute leukemia
+T3	problem 2280 2292	nondistended
+T4	problem 3857 3874	urinary retention
+T5	problem 3705 3727	elevated liver enzymes
+T6	treatment 4970 4977	peridex
+T7	problem 750 760	chest pain
+T8	test 2559 2565	sodium
+T9	problem 685 709	some shortness of breath
+T10	problem 715 724	allergies
+T11	treatment 4808 4819	simethicone
+T12	problem 4845 4853	gas pain
+T13	problem 2317 2335	hepatosplenomegaly
+T14	problem 1231 1250	penicillin reaction
+T15	treatment 1050 1063	tonsillectomy
+T16	treatment 3427 3437	gentamicin
+T17	problem 1339 1351	her reaction
+T18	problem 1513 1525	colon cancer
+T19	problem 1886 1896	atraumatic
+T20	treatment 2976 2987	the regimen
+T21	problem 956 966	depression
+T22	problem 4598 4610	constipation
+T23	test 475 485	hemoglobin
+T24	treatment 4498 4504	colace
+T25	treatment 4527 4532	lasix
+T26	treatment 4456 4465	cefazolin
+T27	treatment 2961 2973	chemotherapy
+T28	problem 4701 4716	skin irritation
+T29	treatment 4275 4316	the patient &apos;s discharge medications
+T30	test 1812 1828	respiratory rate
+T31	treatment 2902 2920	a hickman catheter
+T32	treatment 4764 4777	senna tablets
+T33	treatment 4722 4735	sarna topical
+T34	problem 4750 4757	itching
+T35	problem 366 374	bruising
+T36	test 2588 2596	chloride
+T37	test 1846 1863	heent examination
+T38	test 2169 2181	cardiac exam
+T39	problem 2211 2240	a diffuse 2/6 systolic murmur
+T40	test 3190 3230	the patient &apos;s liver function tests
+T41	test 2735 2750	total bilirubin
+T42	treatment 4860 4868	citrucel
+T43	treatment 3060 3076	peg-asparaginase
+T44	problem 2043 2064	a partial upper plate
+T45	problem 1143 1163	hypercholesterolemia
+T46	problem 5070 5075	cough
+T47	problem 4005 4016	constipated
+T48	treatment 3491 3501	gentamicin
+T49	treatment 4901 4906	k-dur
+T50	treatment 3788 3797	nafcillin
+T51	test 3654 3670	an abdominal mri
+T52	treatment 3622 3651	ambisome antifungal treatment
+T53	problem 2301 2309	guarding
+T54	problem 1735 1752	apparent distress
+T55	treatment 3978 3983	ancef
+T56	problem 981 999	pleural thickening
+T57	treatment 4940 4946	zoloft
+T58	treatment 1082 1096	vein stripping
+T59	test 2831 2834	ptt
+T60	test 2868 2874	blasts
+T61	test 3740 3747	the mri
+T62	test 2154 2166	auscultation
+T63	test 2126 2140	the chest exam
+T64	problem 2266 2275	nontender
+T65	problem 45 59	acute leukemia
+T66	treatment 1355 1365	penicillin
+T67	problem 971 978	anxiety
+T68	treatment 3044 3055	vincristine
+T69	problem 1953 1982	decreased hearing bilaterally
+T70	test 2716 2719	ast
+T71	test 2821 2823	pt
+T72	problem 1178 1207	the patient &apos;s allergies
+T73	treatment 3455 3467	piperacillin
+T74	treatment 4667 4687	miracle creamtopical
+T75	test 2611 2621	creatinine
+T76	test 2572 2581	potassium
+T77	test 492 503	temperature
+T78	problem 343 361	increased weakness
+T79	treatment 3016 3028	daunorubicin
+T80	test 2807 2814	calcium
+T81	problem 653 659	nausea
+T82	test 2674 2684	hematocrit
+T83	treatment 3101 3125	the chemotherapy regimen
+T84	test 1834 1839	pulse
+T85	test 2628 2635	glucose
+T86	test 3354 3369	a blood culture
+T87	problem 3379 3399	staphylococcusaureus
+T88	treatment 1285 1295	ampicillin
+T89	test 2791 2800	globulins
+T90	treatment 2997 3013	cyclophosphamide
+T91	treatment 4555 4564	lactulose
+T92	treatment 4344 4361	albuterol inhaler
+T93	problem 4386 4408	breathing difficulties
+T94	treatment 3953 3962	nafcillin
+T95	problem 3939 3948	drug rash
+T96	problem 3302 3320	increased crackles
+T97	problem 3273 3291	pulmonary symptoms
+T98	test 2692 2706	platelet count
+T99	test 2725 2728	alk
+T100	problem 662 670	vomiting
+T101	treatment 4616 4635	magnesium hydroxide
+T102	problem 1015 1047	chronic left bundle branch block
+T103	test 1769 1780	temperature
+T104	problem 2484 2516	pale blue two centimeter macules
+T105	treatment 3506 3517	ceftazidime
+T106	test 532 539	a smear
+T107	problem 562 565	all
+T108	problem 944 953	allergies
+T109	treatment 3031 3041	prednisone
+T110	test 2602 2605	bun
+T111	test 2642 2664	white blood cell count
+T112	problem 1406 1423	platelet reaction
+T113	treatment 4414 4431	calcium gluconate
+T114	problem 2417 2449	a dark two centimeter ecchymosis
+T115	treatment 3440 3450	vancomycin
+T116	problem 639 647	headache
+T117	treatment 1066 1079	adenoidectomy
+T118	test 2537 2551	admitting labs
+T119	test 1788 1802	blood pressure
+T120	problem 2108 2123	lymphadenopathy
+T121	treatment 4038 4047	laxatives
+T122	test 452 461	platelets
+T123	problem 674 682	diarrhea
+T124	test 2366 2386	the skin examination
+T125	treatment 5012 5026	robituss in ac
+T126	problem 1108 1127	left wrist fracture
+T127	problem 3151 3162	neutropenic
+T128	test 1632 1672	the patient &apos;s physical examination
+T129	problem 1002 1012	asbestosis
+T130	test 2777 2784	albumin
+T131	test 2842 2858	peripheral smear
+R1	PIP Arg1:T9 Arg2:T10
+R2	TrAP Arg1:T11 Arg2:T12
+R3	TrAP Arg1:T33 Arg2:T34
+R4	TeRP Arg1:T37 Arg2:T19
+R5	TeRP Arg1:T38 Arg2:T39
+R6	TeCP Arg1:T51 Arg2:T5
+R7	TrCP Arg1:T66 Arg2:T17
+R8	TrAP Arg1:T74 Arg2:T28
+R9	TeRP Arg1:T86 Arg2:T87
+R10	TrAP Arg1:T91 Arg2:T22
+R11	TrAP Arg1:T92 Arg2:T93
+R12	TrCP Arg1:T94 Arg2:T95
+R13	TeRP Arg1:T106 Arg2:T107
+R14	TrIP Arg1:T121 Arg2:T47
+R15	TeRP Arg1:T124 Arg2:T114
+R16	TeRP Arg1:T124 Arg2:T104
+R17	TrAP Arg1:T125 Arg2:T46
+R18	TeRP Arg1:T128 Arg2:T54

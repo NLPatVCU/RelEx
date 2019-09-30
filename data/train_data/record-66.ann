@@ -1,0 +1,200 @@
+T1	test 863 866	cxr
+T2	problem 888 900	cardiomegaly
+T3	problem 905 915	pulm edema
+T4	treatment 6010 6020	lisinopril
+T5	test 5952 5971	your blood pressure
+T6	treatment 936 939	asa
+T7	test 4608 4616	an lf ef
+T8	test 1896 1898	dp
+T9	problem 318 326	le edema
+T10	treatment 5929 5940	medications
+T11	treatment 949 954	lasix
+T12	problem 5882 5904	hypertensive emergency
+T13	treatment 970 981	hydralazine
+T14	test 3875 3880	a tee
+T15	problem 3912 3946	an abnormality of the aortic valve
+T16	problem 1640 1656	sclera anicteric
+T17	problem 191 198	dyspnea
+T18	problem 5782 5803	lower extremity edema
+T19	problem 5709 5727	mild transaminitis
+T20	problem 1796 1803	s3/s4/r
+T21	problem 5703 5706	arf
+T22	problem 1448 1481	premature coronary artery disease
+T23	problem 4832 4862	acute hypertensive nephropathy
+T24	problem 4877 4911	long-standing hypertensive disease
+T25	problem 4777 4790	renal failure
+T26	problem 5678 5700	hypertensive emergency
+T27	problem 2380 2383	lvh
+T28	treatment 5510 5520	lisinopril
+T29	problem 1485 1497	sudden death
+T30	problem 2387 2401	strain pattern
+T31	problem 3216 3248	mild ( 1+ ) mitral regurgitation
+T32	test 2426 2429	cxr
+T33	treatment 5395 5404	labetalol
+T34	treatment 5278 5297	hydrochlorothiazide
+T35	test 2328 2331	ekg
+T36	problem 2407 2423	ischemic changes
+T37	test 4793 4803	creatinine
+T38	problem 1751 1790	2/6 systolic murmur radiating to axilla
+T39	treatment 5210 5217	aspirin
+T40	treatment 4682 4690	an ace-i
+T41	problem 1905 1934	2+ pitting edema to knees b/l
+T42	problem 3053 3072	minimally thickened
+T43	treatment 4643 4670	good blood pressure control
+T44	test 1042 1054	diastolic bp
+T45	problem 1064 1072	elevated
+T46	problem 6266 6269	sob
+T47	test 2251 2260	ast(sgot)
+T48	treatment 4559 4567	diuresis
+T49	problem 4519 4544	his lower extremity edema
+T50	problem 6272 6282	chest pain
+T51	test 4570 4577	an echo
+T52	problem 6294 6300	chills
+T53	treatment 1018 1023	lasix
+T54	problem 4257 4273	end-organ damage
+T55	problem 4296 4315	elevated creatinine
+T56	problem 4339 4356	a chronic problem
+T57	treatment 1106 1123	nitroprusside gtt
+T58	problem 6285 6291	fevers
+T59	problem 3710 3757	very small circumferential pericardial effusion
+T60	problem 2432 2488	moderate to severe enlargement of the cardiac silhouette
+T61	problem 2540 2569	pulmonary vascular congestion
+T62	problem 2574 2594	mild pulmonary edema
+T63	problem 6303 6312	dizziness
+T64	problem 3192 3213	mitral valve prolapse
+T65	problem 1325 1333	seizures
+T66	problem 3667 3707	moderate pulmonary arterial hypertension
+T67	test 2916 2920	pcwp
+T68	test 4479 4487	systolic
+T69	problem 2986 3014	severe free wall hypokinesis
+T70	problem 2966 2980	mildly dilated
+T71	problem 1337 1342	dt s.
+T72	test 4456 4464	systolic
+T73	test 2835 2857	tissue doppler imaging
+T74	problem 2867 2913	an increased left ventricular filling pressure
+T75	problem 4135 4155	hypertensive urgency
+T76	problem 6315 6337	decreased urine output
+T77	problem 2690 2737	moderate symmetric left ventricular hypertrophy
+T78	problem 2743 2763	mild cavity dilation
+T79	problem 2768 2793	severe global hypokinesis
+T80	problem 2799 2824	left ventricular thrombus
+T81	problem 1303 1322	withdrawal symptoms
+T82	problem 1621 1624	nad
+T83	problem 3573 3576	lvh
+T84	problem 4014 4022	le edema
+T85	problem 4027 4030	doe
+T86	problem 4043 4066	diastolic heart failure
+T87	problem 4112 4132	hypertensive urgency
+T88	problem 3541 3552	myocarditis
+T89	treatment 122 133	penicillins
+T90	test 3580 3583	ecg
+T91	problem 4204 4215	chronic htn
+T92	problem 3392 3438	moderate symmetric eft ventricular hypertrophy
+T93	problem 3444 3483	severe global biventricular hypokinesis
+T94	problem 3488 3503	diffuse process
+T95	test 2299 2306	amylase
+T96	test 2284 2292	alk phos
+T97	test 4494 4503	diastolic
+T98	test 2313 2321	tot bili
+T99	problem 3506 3511	toxin
+T100	test 2234 2243	alt(sgpt)
+T101	treatment 4386 4395	labetalol
+T102	problem 2660 2678	moderately dilated
+T103	test 2151 2156	ck-mb
+T104	problem 522 525	pnd
+T105	problem 499 517	2-pillow orthopnea
+T106	problem 3327 3376	a very small circumferential pericardial effusion
+T107	test 2268 2275	ck(cpk)
+T108	problem 538 559	any recent chest pain
+T109	problem 562 574	palpitations
+T110	treatment 4400 4410	lisinopril
+T111	problem 3268 3315	moderate pulmonary artery systolic hypertension
+T112	problem 356 368	b/l le edema
+T113	test 2084 2087	rdw
+T114	problem 3586 3609	an infiltrative process
+T115	test 2161 2167	probnp
+T116	test 4158 4160	bp
+T117	problem 447 454	dyspnea
+T118	test 786 796	evaluation
+T119	treatment 4928 4933	ace-i
+T120	test 2115 2124	plt count
+T121	problem 3828 3848	aortic regurgitation
+T122	test 2052 2055	mcv
+T123	test 836 839	bnp
+T124	problem 3769 3800	abnormality on the aortic valve
+T125	test 1516 1518	vs
+T126	test 2061 2064	mch
+T127	problem 2611 2624	heart failure
+T128	test 2072 2076	mchc
+T129	test 1521 1523	t,
+T130	problem 600 608	weakness
+T131	problem 611 619	numbness
+T132	test 2009 2012	wbc
+T133	problem 3639 3664	mild mitral regurgitation
+T134	problem 577 585	headache
+T135	test 2019 2022	rbc
+T136	test 2197 2204	ctropnt
+T137	problem 588 597	confusion
+T138	problem 636 645	hematuria
+T139	test 2030 2033	hgb
+T140	test 815 821	his bp
+T141	problem 622 630	abd pain
+T142	test 2041 2044	hct
+T143	problem 651 673	recent viral syndromes
+T144	treatment 6036 6040	hctz
+T145	test 1553 1555	o2
+T146	problem 1633 1637	ncat
+T147	problem 1852 1857	obese
+T148	test 1032 1035	uop
+T149	treatment 6056 6065	labetalol
+T150	problem 1873 1877	ntnd
+T151	treatment 6080 6083	asa
+T152	test 1711 1714	jvp
+T153	treatment 6138 6155	these medications
+T154	problem 1739 1746	loud s2
+T155	test 1524 1526	bp
+T156	test 4413 4431	his blood pressure
+T157	problem 3078 3093	aortic stenosis
+T158	test 1537 1539	hr
+T159	problem 677 683	uri s.
+T160	problem 1825 1833	crackles
+T161	problem 3097 3117	aortic regurgitation
+T162	problem 1837 1845	wheezing
+T163	test 1545 1547	rr
+R1	TeRP Arg1:T1 Arg2:T2
+R2	TeRP Arg1:T1 Arg2:T3
+R3	TeCP Arg1:T14 Arg2:T15
+R4	PIP Arg1:T23 Arg2:T24
+R5	PIP Arg1:T25 Arg2:T23
+R6	PIP Arg1:T30 Arg2:T27
+R7	TeRP Arg1:T35 Arg2:T36
+R8	TeRP Arg1:T35 Arg2:T27
+R9	TeRP Arg1:T35 Arg2:T30
+R10	TeRP Arg1:T37 Arg2:T23
+R11	TeRP Arg1:T37 Arg2:T24
+R12	TeRP Arg1:T44 Arg2:T45
+R13	TrIP Arg1:T48 Arg2:T49
+R14	PIP Arg1:T54 Arg2:T55
+R15	PIP Arg1:T55 Arg2:T56
+R16	TrAP Arg1:T57 Arg2:T45
+R17	PIP Arg1:T60 Arg2:T61
+R18	PIP Arg1:T60 Arg2:T62
+R19	PIP Arg1:T69 Arg2:T70
+R20	TeRP Arg1:T73 Arg2:T74
+R21	PIP Arg1:T77 Arg2:T78
+R22	PIP Arg1:T77 Arg2:T79
+R23	PIP Arg1:T84 Arg2:T85
+R24	PIP Arg1:T84 Arg2:T86
+R25	PIP Arg1:T84 Arg2:T87
+R26	PIP Arg1:T85 Arg2:T86
+R27	PIP Arg1:T85 Arg2:T87
+R28	TeRP Arg1:T90 Arg2:T83
+R29	PIP Arg1:T92 Arg2:T93
+R30	PIP Arg1:T92 Arg2:T94
+R31	PIP Arg1:T94 Arg2:T93
+R32	PIP Arg1:T117 Arg2:T105
+R33	PIP Arg1:T117 Arg2:T104
+R34	PIP Arg1:T124 Arg2:T121
+R35	PIP Arg1:T127 Arg2:T60
+R36	PIP Arg1:T127 Arg2:T61
+R37	PIP Arg1:T127 Arg2:T62

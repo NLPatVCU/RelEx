@@ -1,0 +1,145 @@
+T1	problem 533 558	acute shortness of breath
+T2	problem 563 578	pulmonary edema
+T3	test 2868 2879	temperature
+T4	treatment 4374 4379	lasix
+T5	problem 4316 4353	his high right-sided filling pressure
+T6	treatment 810 818	pressors
+T7	problem 777 799	multiple complications
+T8	test 1803 1814	chest x-ray
+T9	problem 1784 1799	pulmonary edema
+T10	problem 3074 3081	wheezes
+T11	treatment 1113 1133	this hospitalization
+T12	test 4590 4610	viability evaluation
+T13	problem 3008 3033	jugular venous distention
+T14	test 3348 3351	ptt
+T15	problem 236 266	anterior myocardial infarction
+T16	problem 4007 4017	a large om
+T17	treatment 4694 4702	coumadin
+T18	problem 4707 4732	his low ejection fraction
+T19	test 3836 3859	cardiac catheterization
+T20	test 2928 2944	respiratory rate
+T21	problem 968 1016	a high grade left circumflex lesion after the om
+T22	treatment 2396 2407	nph insulin
+T23	problem 1681 1691	chest pain
+T24	problem 3400 3415	pulmonary edema
+T25	problem 432 467	insulin dependent diabetes mellitus
+T26	test 4558 4584	an exercise tolerance test
+T27	test 3053 3065	auscultation
+T28	problem 3085 3090	rales
+T29	problem 2213 2233	undescended testicle
+T30	problem 180 215	insulin dependent diabetes mellitus
+T31	treatment 5157 5165	coumadin
+T32	problem 720 759	an acute anterior myocardial infarction
+T33	problem 2240 2263	coronary artery disease
+T34	problem 281 296	pulmonary edema
+T35	problem 923 938	an occluded rca
+T36	problem 3381 3392	infiltrates
+T37	treatment 5093 5104	simvastatin
+T38	problem 879 917	a three vessel coronary artery disease
+T39	problem 3743 3770	his coronary artery disease
+T40	test 2954 2974	an oxygen saturation
+T41	problem 3526 3551	flat t waves in i and avl
+T42	test 828 853	a cardiac catheterization
+T43	problem 1022 1054	distal left circumflex occlusion
+T44	problem 941 961	70%-80% proximal lad
+T45	problem 3987 4002	an 80% stenosis
+T46	test 3867 3881	an ra pressure
+T47	treatment 4397 4410	his captopril
+T48	test 1390 1410	an electrocardiogram
+T49	treatment 4932 4943	insulin nph
+T50	treatment 2530 2537	digoxin
+T51	test 1916 1923	his ecg
+T52	problem 1934 1950	ischemic changes
+T53	problem 2290 2310	known drug allergies
+T54	test 5267 5273	his pt
+T55	treatment 5185 5190	lasix
+T56	treatment 1865 1873	diuresed
+T57	treatment 2369 2376	capoten
+T58	treatment 2498 2509	simvastatin
+T59	problem 391 427	prior anterior myocardial infarction
+T60	problem 2120 2131	retinopathy
+T61	test 3942 3947	wedge
+T62	test 3266 3276	creatinine
+T63	problem 1892 1913	myocardial infarction
+T64	treatment 4429 4456	greater afterload reduction
+T65	test 1214 1234	an ejection fraction
+T66	test 3444 3461	electrocardiogram
+T67	test 3332 3338	an inr
+T68	treatment 2446 2461	regular insulin
+T69	treatment 4805 4826	an oral lasix regimen
+T70	problem 2135 2147	foot lesions
+T71	test 3283 3294	white count
+T72	treatment 4982 4997	insulin regular
+T73	test 4279 4307	his previous catheterization
+T74	test 3418 3428	urinalysis
+T75	test 3795 3818	cardiac catheterization
+T76	test 3301 3311	hematocrit
+T77	treatment 4500 4528	an augmented medical regimen
+T78	test 3580 3592	previous ecg
+T79	problem 300 320	hypercholesterolemia
+T80	test 2888 2898	heart rate
+T81	problem 4102 4120	a 50% lad stenosis
+T82	test 3255 3258	bun
+T83	problem 3214 3219	edema
+T84	problem 3664 3683	his pulmonary edema
+T85	treatment 4384 4392	diuresis
+T86	treatment 5034 5041	aspirin
+T87	test 4215 4243	this cardiac catheterization
+T88	test 1159 1189	his most recent echocardiogram
+T89	problem 1247 1269	a thin fibrotic septum
+T90	problem 1275 1283	akinesis
+T91	problem 1288 1338	moderately severe hypokinesis in all other regions
+T92	treatment 2340 2347	aspirin
+T93	problem 1694 1706	palpitations
+T94	test 2904 2918	blood pressure
+T95	problem 2065 2100	insulin dependent diabetes mellitus
+T96	treatment 4748 4756	diuresis
+T97	treatment 5125 5134	captopril
+T98	test 3359 3370	chest x-ray
+T99	treatment 2195 2208	an orchiopexy
+T100	problem 4123 4147	a 100% large dt stenosis
+T101	test 3915 3926	pa pressure
+T102	treatment 3642 3660	further management
+T103	test 5278 5281	inr
+T104	problem 1726 1732	nausea
+T105	problem 2767 2788	myocardial infarction
+T106	problem 2819 2842	a myocardial infarction
+T107	problem 2154 2173	bilateral cataracts
+T108	problem 4067 4087	left-to-left filling
+T109	treatment 5063 5070	digoxin
+T110	test 5302 5311	potassium
+T111	problem 3142 3160	extra heart sounds
+T112	treatment 2017 2035	further management
+T113	problem 1709 1720	diaphoresis
+T114	treatment 4762 4770	iv lasix
+T115	test 3889 3903	an rv pressure
+T116	treatment 4654 4671	revascularization
+T117	test 3319 3321	pt
+T118	problem 3168 3175	murmurs
+T119	problem 1620 1643	acutely short of breath
+T120	problem 4053 4061	occluded
+R1	PIP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T4 Arg2:T5
+R3	TrAP Arg1:T6 Arg2:T7
+R4	TeRP Arg1:T8 Arg2:T9
+R5	TrAP Arg1:T17 Arg2:T18
+R6	TeCP Arg1:T27 Arg2:T10
+R7	TeCP Arg1:T27 Arg2:T28
+R8	TeRP Arg1:T42 Arg2:T38
+R9	TeRP Arg1:T42 Arg2:T35
+R10	TeRP Arg1:T42 Arg2:T21
+R11	TeRP Arg1:T42 Arg2:T43
+R12	TeRP Arg1:T42 Arg2:T44
+R13	TrAP Arg1:T47 Arg2:T5
+R14	TeRP Arg1:T51 Arg2:T52
+R15	TrAP Arg1:T64 Arg2:T5
+R16	TeCP Arg1:T75 Arg2:T39
+R17	TeRP Arg1:T78 Arg2:T41
+R18	TrAP Arg1:T85 Arg2:T5
+R19	TeRP Arg1:T88 Arg2:T89
+R20	TeRP Arg1:T88 Arg2:T90
+R21	TeRP Arg1:T88 Arg2:T91
+R22	TeRP Arg1:T98 Arg2:T36
+R23	TeRP Arg1:T98 Arg2:T24
+R24	TrAP Arg1:T99 Arg2:T29
+R25	TrAP Arg1:T102 Arg2:T84

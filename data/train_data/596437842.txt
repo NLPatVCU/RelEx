@@ -1,0 +1,129 @@
+596437842
+CTMC
+63056604
+547591
+02/08/1991 12:00:00 AM
+Discharge Summary
+Signed
+DIS
+Admission Date :
+02/08/1991
+Report Status :
+Signed
+Discharge Date :
+02/18/1991
+DISCHARGE DIAGNOSES :
+1) ACQUIRED IMMUNODEFICIENCY SYNDROME .
+2) PNEUMOCYSTIS CARINII PNEUMONIA .
+3) ADULT RESPIRATORY DISTRESS SYNDROME .
+HISTORY OF PRESENT ILLNESS :
+Mr. Breutzfarstxei is a 30 year old man with recently diagnosed acquired immunodeficiency syndrome and Pneumocystis carinii pneumonia who presented with pneumonia , developed adult respiratory distress syndrome , and died in the hospital after failed efforts of ventilatory support .
+Mr. Breutzfarstxei was recently diagnosed with acquired immunodeficiency syndrome when he had Pneumocystis carinii pneumonia on 01/17/91 .
+He was admitted to the Retelk County Medical Center at that time and was treated with Bactrim and steroids .
+He was actually intubated and underwent bronchoscopy where the diagnosis was made with a positive toluidine blue study .
+He initially did well after extubation and completed approximately two weeks of Bactrim and a steroid taper .
+At discharge after about two weeks post-extubation , he had an O2 saturation of approximately 95% on room air .
+He was seen by Dr. Seen and Dr. Seen as an out-patient .
+On 02/06/91 , he was seen in FLFDMC and at that point , his temperature was noted to be 101.4 and he had malaise and diarrhea .
+He was evaluated in the Emergency Room .
+At that time , his oxygen saturation was only 90% on room air and his chest X-Ray showed no change .
+Cultures were taken and he was sent out .
+On 02/08/91 , the patient called Dr. Seen because of increased shortness of breath and malaise .
+He was seen in FLFDMC where he was noted to have jaundice and newly palpable liver edge .
+Review of liver function tests revealed a cholestatic picture which was not previously found and it was felt that this was secondary to the Bactrim which had been recently stopped anyway .
+His oxygen saturation at that time was only 86% on room air and he was admitted .
+PAST MEDICAL HISTORY :
+1) HIV positive with a CD4 count of 74 .
+2) Recent PCP .
+3) Status post right elbow surgery .
+4) Venereal disease history .
+5) PPD anergic .
+The patient &apos;s HIV risk factors include history of intravenous drug abuse , prostitution , and a former prisoner .
+PHYSICAL EXAMINATION :
+On presentation , the patient was a young appearing Hispanic male in mild respiratory distress with a blood pressure of 140/90 , heart rate 120 , respirations 32 , and temperature 101 .
+SKIN :
+Jaundiced .
+HEENT :
+Revealed icteric sclerae , the oropharynx with extensive thrush , and an ulcer under his tongue .
+NECK :
+He had no cervical adenopathy and his neck was supple .
+LUNGS :
+Had tubular breath sounds especially in the lower lung fields .
+CARDIAC :
+Showed regular rate and rhythm without murmurs , rubs , or gallops .
+There was no costovertebral angle tenderness .
+ABDOMEN :
+Soft with bowel sounds and there was mid epigastric and right upper quadrant tenderness .
+His liver was 10 cm and was felt three finger breadths below the costal margin .
+His spleen was not palpable .
+RECTAL :
+He had guaiac positive stools .
+EXTREMITIES :
+Unremarkable .
+GENITOURINARY :
+His penis had a 1/2 cm ulcer with yellowish discharge .
+NEUROLOGICAL :
+Non-focal .
+LABORATORY EXAMINATION :
+On admission , white count was 7.2 with 57% neutrophils , 40% lymphocytes , l mononuclear cell , and 1.6 eosinophils .
+PT was 12.6 and PTT was 29 .
+Sodium was 133 , potassium was 4.2 , chloride 100 , CO2 19 , BUN 21 , creatinine 1.2 , and glucose 122 .
+ALT was 181 , AST was 156 , LDH was 336 , alkaline phosphatase was 214 , and bilirubin was 12.7 total .
+( On 02/06 , his bilirubin had been 7.2 with 6 direct ) .
+His arterial blood gas on 50% was pO2 92 , pCO2 24 , and pH 7.46 .
+His chest X-Ray showed bilateral nodular infiltrates .
+HOSPITAL COURSE :
+The patient was admitted for work-up of his cholestatic jaundice picture along with work-up for his pulmonary process and treatment of both .
+In terms of pulmonary function , it was felt that one possibility was that the patient was a Bactrim failure for PCP although this was unusual .
+He was started on Pentamidine , especially in light of the fact that it was felt that his liver function tests were due possibly to Bactrim .
+The patient was also covered with Erythromycin and Gentamicin for coverage of community acquired pneumonias and gram negative rods .
+He was given supplemental oxygen .
+In terms of his liver abnormalities , it was felt that viral hepatitis was in the differential as well as several opportunistic infections of the liver but also was felt that Bactrim could be a cause of these abnormalities .
+Titers for CMV and Epstein-Barr virus were sent and a titer for toxoplasma was sent .
+Stool was sent for ova and parasites .
+Gastrointestinal was consulted .
+Initially , the patient did well in terms of his pre-status and required less oxygen .
+However , on 02/10/91 , his respiratory rate increased and his oxygen saturation decreased .
+Actually in reviewing the records at this point , it appears that Pentamidine was not started initially so on the antibiotics of Erythromycin and Gentamicin , the patient &apos;s respiratory status worsened and his LDH climbed so he began Pentamidine on 02/10/91 .
+On 02/11/91 , the patient again appeared more comfortable this time with 50% facemask but then required more oxygen , dropped his O2 saturations , and was intubated on 02/11/91 .
+He was transferred to the Intensive Care Unit on 12/12/90 on Gentamicin , Vancomycin , Pentamidine , and Prednisone .
+Also of note at that point , hepatitis C virus serologies had come back positive .
+However , at this point , his liver function test abnormalities appeared more consistent with a cholestatic picture with his direct bilirubin being 12.1 and total being 14.1 .
+The patient &apos;s abdominal CT scan showed no liver disease and no obstruction .
+The patient &apos;s liver function tests appeared to improve .
+The patient &apos;s penile ulcer was cultured and grew positive herpes simplex virus and the patient was started on Acyclovir .
+On 02/13/91 , the patient had a bronchoalveolar lavage performed which showed a toluidine blue with many pneumocysts noted .
+No other cultures grew out and the patient &apos;s clinical status deteriorated .
+The patient required 100% oxygen to maintain adequate oxygen saturations on the ventilator .
+He required elevated ventilatory pressures with PIPS often above 60 .
+Fortunately , no evidence of baratroma was ever discerned .
+However , the patient &apos;s respiratory status continued to decline and we were unable to maintain oxygen saturations above 80% even using reverse I to E ventilation , paralysis , sedation , and other modes of ventilation .
+Patient underwent liver biopsy on 02/16/91 and the results of this were pending when the patient died .
+The patient actually developed decreasing counts with white count as low as 1.75 , hematocrit as low as 26 , and platelets as low as 68 noted on 02/15/91 .
+These were supported with blood products and Hematology was consulted .
+They felt that it was most likely secondary to Bactrim and these actually were getting better when the patient died .
+Bone marrow biopsy was not attempted .
+Discussions were begun with the family regarding limits of supportive care .
+Due to continued worsening pulmonary status and an overall grim prognosis , the family decided , in consultation with the Medical Team , to withdraw ventilatory support .
+This was done on the evening of 02/18/91 .
+Patient expired after the endotracheal tube was withdrawn at 6:40 p.m.
+DISPOSITION :
+The patient died in hospital .
+An autopsy will be performed .
+An autopsy was performed as per the family &apos;s wishes .
+WE221/9850 TAKO C. INSKE , M.D. , PH. JT2 FF2
+D :
+02/18/91
+Batch :
+8600
+Report :
+V7238B57
+T :
+02/20/91
+Dicatated By :
+LATO L. TIKFREIERM , M.D.
+cc :
+1. LERMA N. WYNBRANTESXELL , M.D.
+2. ANA V. A , M.D.
+3. DALLI A. SEEN , M.D
+4. ARC N. SEEN , M.D.

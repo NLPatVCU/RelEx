@@ -1,0 +1,270 @@
+T1	problem 2534 2546	enterococcus
+T2	problem 2565 2575	klebsiella
+T3	treatment 6724 6734	rifaximine
+T4	treatment 6746 6755	lactulose
+T5	treatment 2512 2523	amoxicillin
+T6	treatment 6476 6486	octreotide
+T7	problem 6433 6444	hepatorenal
+T8	problem 2467 2477	klebsiella
+T9	test 6525 6539	her creatinine
+T10	problem 6578 6605	her worsening liver failure
+T11	problem 2448 2460	enterococcus
+T12	problem 4585 4588	sbp
+T13	problem 2609 2622	hcv cirrhosis
+T14	problem 2627 2645	esophageal varices
+T15	problem 2648 2655	ascites
+T16	problem 2658 2688	partial portal vein thrombosis
+T17	treatment 6791 6799	protonix
+T18	problem 4763 4772	confusion
+T19	test 2284 2286	cr
+T20	problem 2273 2281	syndrome
+T21	treatment 2236 2245	midodrine
+T22	problem 2177 2201	worsening renal function
+T23	problem 4749 4760	hypotension
+T24	problem 2441 2444	uti
+T25	problem 4295 4311	moderate ascites
+T26	problem 4777 4783	anemia
+T27	problem 2391 2399	mild dic
+T28	treatment 2423 2436	cryoglobulins
+T29	problem 4788 4803	liver cirrhosis
+T30	treatment 2017 2027	furosemide
+T31	treatment 2047 2058	propranolol
+T32	problem 6266 6275	pre-renal
+T33	problem 6279 6290	hepatorenal
+T34	test 6239 6241	na
+T35	treatment 2030 2044	spirinolactone
+T36	treatment 6360 6362	ns
+T37	problem 1536 1545	decreased
+T38	treatment 2248 2255	albumin
+T39	treatment 2143 2160	these medications
+T40	treatment 6344 6349	prbcs
+T41	test 6222 6233	urine lytes
+T42	test 1494 1498	temp
+T43	test 6376 6386	creatinine
+T44	treatment 1467 1478	bear hugger
+T45	problem 1435 1438	low
+T46	test 6293 6308	fluid challenge
+T47	treatment 6322 6329	albumin
+T48	problem 1843 1846	sbp
+T49	treatment 6464 6473	midodrine
+T50	treatment 6491 6498	albumin
+T51	test 1627 1637	creatinine
+T52	test 5796 5801	a map
+T53	treatment 1295 1299	plts
+T54	test 1215 1220	a hct
+T55	treatment 5775 5783	pressors
+T56	problem 1350 1359	decreased
+T57	treatment 5855 5867	the pressors
+T58	treatment 1314 1321	prbc s.
+T59	problem 5955 5977	bleed into her abdomen
+T60	test 1322 1328	her bp
+T61	problem 5899 5910	hct dropped
+T62	test 1418 1422	temp
+T63	treatment 1413 1415	ns
+T64	treatment 5921 5928	the tap
+T65	problem 5890 5896	anemia
+T66	treatment 976 983	albumin
+T67	treatment 6005 6012	prbc s.
+T68	problem 940 952	complication
+T69	test 1004 1010	her bp
+T70	problem 6064 6069	bleed
+T71	test 6013 6041	ct of the abdomen and pelvis
+T72	treatment 1168 1178	medication
+T73	problem 1122 1130	abd pain
+T74	test 6072 6086	her hematocrit
+T75	test 6146 6156	creatinine
+T76	problem 6140 6143	arf
+T77	test 1246 1250	plts
+T78	problem 4488 4501	hcv cirrhosis
+T79	problem 4506 4520	encephalopathy
+T80	problem 4523 4541	esophageal varices
+T81	problem 4546 4569	partial vein thrombosis
+T82	problem 670 678	abd pain
+T83	problem 690 696	chills
+T84	problem 4652 4659	ascites
+T85	treatment 720 747	a large volume paracentesis
+T86	test 752 759	her inr
+T87	treatment 806 809	ffp
+T88	treatment 4675 4712	diagnostic / therapeutic paracentesis
+T89	test 826 833	her inr
+T90	treatment 5479 5503	replacement with albumin
+T91	problem 5376 5393	recurrent ascites
+T92	treatment 5426 5453	a large volume paracentesis
+T93	problem 631 656	worsening lower ext edema
+T94	treatment 5583 5612	the large volume paracentesis
+T95	problem 5561 5572	hypotensive
+T96	problem 5537 5548	hypotension
+T97	problem 616 619	sob
+T98	problem 5705 5711	sepsis
+T99	problem 622 628	nausea
+T100	treatment 5621 5645	replacement with albumin
+T101	problem 681 687	fevers
+T102	problem 5748 5754	sepsis
+T103	problem 422 444	portal vein thrombosis
+T104	problem 387 401	encephalopathy
+T105	test 3866 3871	blood
+T106	test 3961 3966	creat
+T107	test 4044 4049	blood
+T108	test 3950 3955	urean
+T109	problem 359 372	hcv cirrhosis
+T110	problem 404 411	ascites
+T111	problem 568 594	increasing abdominal girth
+T112	test 3937 3944	glucose
+T113	test 3931 3936	blood
+T114	test 3897 3904	inr(pt)
+T115	test 3578 3583	blood
+T116	test 3443 3448	blood
+T117	test 3884 3887	ptt
+T118	treatment 298 310	paracentesis
+T119	test 3791 3797	target
+T120	test 3872 3874	pt
+T121	treatment 291 297	4u ffp
+T122	test 3675 3680	blood
+T123	treatment 5677 5697	the large volume tap
+T124	problem 4605 4631	increasing abdominal girth
+T125	problem 4352 4371	acute cholecystitis
+T126	problem 225 251	increasing abdominal girth
+T127	treatment 5301 5305	care
+T128	problem 4225 4246	small cirrhotic liver
+T129	treatment 159 173	heparin agents
+T130	treatment 122 130	morphine
+T131	problem 4317 4331	cholelithiasis
+T132	test 4199 4206	ammonia
+T133	problem 3072 3078	thrush
+T134	test 4151 4156	blood
+T135	treatment 5206 5218	a transplant
+T136	test 4050 4053	alt
+T137	problem 3154 3161	murmurs
+T138	test 4193 4198	blood
+T139	test 4157 4164	albumin
+T140	problem 3187 3203	mildly distended
+T141	test 3644 3648	baso
+T142	problem 3172 3177	obese
+T143	problem 3278 3301	large volume of ascited
+T144	test 3634 3637	eos
+T145	problem 3239 3249	tenderness
+T146	test 3621 3626	monos
+T147	test 3607 3613	lymphs
+T148	problem 3252 3270	liver non-palpable
+T149	test 3597 3602	bands
+T150	test 3584 3589	neuts
+T151	problem 2703 2717	morbid obesity
+T152	treatment 1815 1827	paracentesis
+T153	problem 1860 1878	her abdominal pain
+T154	problem 1766 1786	abdominal discomfort
+T155	test 3736 3743	microcy
+T156	test 3722 3729	macrocy
+T157	test 3770 3777	ovalocy
+T158	test 1900 1902	us
+T159	problem 5344 5351	expired
+T160	test 3753 3760	polychr
+T161	test 3709 3715	poiklo
+T162	test 3695 3702	anisocy
+T163	treatment 2223 2233	octreotide
+T164	test 3681 3688	hypochr
+T165	treatment 4271 4289	a portocaval shunt
+T166	test 4806 4816	meld score
+T167	problem 4848 4868	more encephalopathic
+T168	test 3498 3501	mcv
+T169	problem 3204 3208	dull
+T170	test 3449 3452	wbc
+T171	test 3459 3462	rbc
+T172	problem 3324 3339	pretibial edema
+T173	problem 5149 5168	the pt 's prognosis
+T174	problem 1586 1593	minimal
+T175	test 1565 1581	her urine output
+T176	problem 3372 3381	asterixis
+T177	problem 3387 3402	palmar erythema
+T178	treatment 480 497	portalcaval shunt
+T179	problem 4940 4951	her obesity
+T180	test 3518 3522	mchc
+T181	problem 5529 5532	sbp
+T182	test 3530 3533	rdw
+T183	test 3543 3549	plt ct
+T184	problem 6122 6137	the acute drop.
+T185	test 3472 3475	hgb
+T186	problem 4380 4394	hydronephrosis
+T187	test 3973 3975	na
+T188	test 3485 3488	hct
+T189	problem 4400 4423	borderline splenomegaly
+T190	test 3507 3510	mch
+T191	test 4100 4107	dirbili
+T192	problem 2760 2777	sickle cell trait
+T193	test 3811 3818	schisto
+T194	test 3006 3008	hr
+T195	test 3984 3985	k
+T196	test 2987 2988	t
+T197	test 4059 4062	ast
+T198	test 4117 4124	indbili
+T199	problem 2725 2738	cholecystitis
+T200	test 4083 4090	totbili
+T201	problem 2693 2702	gastritis
+T202	test 4001 4005	hco3
+T203	problem 3051 3066	scleral icterus
+T204	treatment 1065 1072	the tap
+T205	test 3212 3222	percussion
+T206	treatment 133 156	histamine h2 inhibitors
+T207	test 4070 4077	alkphos
+T208	test 3014 3016	rr
+T209	treatment 994 1001	the tap
+T210	treatment 870 877	the tap
+T211	test 4013 4018	angap
+T212	test 2994 2996	bp
+T213	test 3992 3994	cl
+T214	test 3029 3031	wt
+T215	problem 899 923	non-bloody ascitic fluid
+R1	TrAP Arg1:T5 Arg2:T1
+R2	TrAP Arg1:T5 Arg2:T2
+R3	TrAP Arg1:T6 Arg2:T7
+R4	TeRP Arg1:T9 Arg2:T10
+R5	PIP Arg1:T13 Arg2:T14
+R6	PIP Arg1:T13 Arg2:T15
+R7	PIP Arg1:T13 Arg2:T16
+R8	TeRP Arg1:T19 Arg2:T20
+R9	TrAP Arg1:T21 Arg2:T22
+R10	PIP Arg1:T24 Arg2:T8
+R11	PIP Arg1:T24 Arg2:T11
+R12	TrAP Arg1:T28 Arg2:T27
+R13	TeRP Arg1:T34 Arg2:T32
+R14	TeRP Arg1:T34 Arg2:T33
+R15	TrAP Arg1:T38 Arg2:T22
+R16	TeRP Arg1:T41 Arg2:T32
+R17	TeRP Arg1:T41 Arg2:T33
+R18	TrIP Arg1:T44 Arg2:T45
+R19	TrAP Arg1:T49 Arg2:T7
+R20	TrAP Arg1:T50 Arg2:T7
+R21	TeRP Arg1:T60 Arg2:T56
+R22	PIP Arg1:T61 Arg2:T59
+R23	TeRP Arg1:T62 Arg2:T45
+R24	TrIP Arg1:T63 Arg2:T56
+R25	TrCP Arg1:T64 Arg2:T61
+R26	TrCP Arg1:T64 Arg2:T59
+R27	TrCP Arg1:T64 Arg2:T65
+R28	PIP Arg1:T65 Arg2:T59
+R29	PIP Arg1:T65 Arg2:T61
+R30	TeRP Arg1:T71 Arg2:T70
+R31	TrAP Arg1:T72 Arg2:T73
+R32	TeRP Arg1:T75 Arg2:T76
+R33	PIP Arg1:T78 Arg2:T79
+R34	PIP Arg1:T78 Arg2:T80
+R35	PIP Arg1:T78 Arg2:T81
+R36	TrAP Arg1:T90 Arg2:T91
+R37	TrAP Arg1:T92 Arg2:T91
+R38	TrCP Arg1:T94 Arg2:T95
+R39	TrCP Arg1:T94 Arg2:T96
+R40	TrWP Arg1:T100 Arg2:T95
+R41	TrWP Arg1:T100 Arg2:T96
+R42	PIP Arg1:T109 Arg2:T104
+R43	PIP Arg1:T109 Arg2:T110
+R44	PIP Arg1:T109 Arg2:T103
+R45	PIP Arg1:T109 Arg2:T111
+R46	PIP Arg1:T110 Arg2:T111
+R47	PIP Arg1:T124 Arg2:T84
+R48	PIP Arg1:T131 Arg2:T125
+R49	PIP Arg1:T148 Arg2:T143
+R50	TrAP Arg1:T152 Arg2:T153
+R51	TrIP Arg1:T152 Arg2:T154
+R52	PIP Arg1:T154 Arg2:T153
+R53	TrAP Arg1:T163 Arg2:T22
+R54	TeRP Arg1:T175 Arg2:T174
+R55	TeRP Arg1:T205 Arg2:T169

@@ -1,0 +1,305 @@
+T1	problem 5551 5562	bradycardia
+T2	problem 5571 5604	subsequent fall in blood pressure
+T3	problem 3164 3172	clubbing
+T4	test 1060 1072	a chest xray
+T5	problem 1078 1103	a left apicalpneumothorax
+T6	problem 7349 7375	his rapid clinical decline
+T7	treatment 8940 8968	maalox plus , extra strength
+T8	problem 8996 9007	indigestion
+T9	treatment 8136 8143	tylenol
+T10	test 3520 3530	chloride97
+T11	treatment 2032 2041	combivent
+T12	treatment 5470 5477	albumin
+T13	problem 5500 5509	his fluid
+T14	treatment 4673 4699	broad spectrum antibiotics
+T15	problem 4766 4769	sbp
+T16	problem 4587 4597	the pocket
+T17	treatment 839 851	a chest tube
+T18	problem 867 895	a loculated pleural effusion
+T19	problem 1347 1364	some constipation
+T20	treatment 9582 9596	hydrocortisone
+T21	problem 9635 9642	itching
+T22	test 4073 4081	cultures
+T23	treatment 7799 7815	comfort measures
+T24	problem 4134 4157	rare gram negative rods
+T25	test 3459 3468	platelets
+T26	test 3187 3209	neurologic examination
+T27	problem 3237 3260	slurred and slow speech
+T28	problem 3263 3275	distractable
+T29	problem 699 756	a long segment of distal narrowing of the common bileduct
+T30	problem 3949 3954	signs
+T31	problem 5403 5418	volume overload
+T32	test 4932 4942	chest xray
+T33	problem 4963 4974	pleurodesis
+T34	treatment 9645 9657	levofloxacin
+T35	treatment 1928 1936	prilosec
+T36	problem 4845 4864	shortness of breath
+T37	problem 361 369	diabetes
+T38	treatment 9679 9706	albuterol and atrovent nebs
+T39	problem 9735 9741	wheeze
+T40	problem 1395 1417	lighter colored stools
+T41	problem 7168 7171	sbp
+T42	problem 8459 8466	itching
+T43	test 4274 4280	lymphs
+T44	treatment 9177 9198	sarna , topical cream
+T45	treatment 7567 7576	oxycontin
+T46	problem 7518 7526	his pain
+T47	problem 7595 7612	breakthrough pain
+T48	problem 6889 6908	his disease process
+T49	problem 7629 7657	progressively more somnolent
+T50	test 5688 5702	echocardiogram
+T51	problem 5737 5762	mild mitral regurgitation
+T52	problem 2816 2844	diffuse crackles bilaterally
+T53	problem 1509 1516	dyspnea
+T54	treatment 7131 7143	levofloxacin
+T55	treatment 9010 9027	magnesium sulfate
+T56	test 1122 1132	chest xray
+T57	treatment 8277 8289	clotrimazole
+T58	treatment 7307 7330	palliative chemotherapy
+T59	treatment 9333 9344	ocean spray
+T60	problem 9365 9378	nasal dryness
+T61	treatment 9381 9393	multivitamin
+T62	test 3533 3539	bicarb
+T63	treatment 1831 1836	lasix
+T64	treatment 2046 2054	morphine
+T65	problem 2903 2960	positive systolic murmur at the left upper sternal border
+T66	problem 5256 5274	third space fluids
+T67	problem 1769 1775	asthma
+T68	problem 8911 8925	very somnolent
+T69	treatment 7700 7719	iv pain medications
+T70	treatment 9438 9442	msir
+T71	problem 9481 9485	pain
+T72	test 551 559	chest ct
+T73	problem 569 587	a pulmonary nodule
+T74	test 6459 6471	a creatinine
+T75	problem 1668 1680	hypertension
+T76	problem 3021 3071	mildly tender epigastrium and right lower quadrant
+T77	treatment 9409 9435	morphine immediate release
+T78	test 3586 3589	ast
+T79	problem 963 977	a desaturation
+T80	problem 3747 3768	an elevated bilirubin
+T81	treatment 1844 1851	avandia
+T82	treatment 4049 4052	amp
+T83	problem 3077 3084	rebound
+T84	problem 263 284	his pancreatic cancer
+T85	problem 1495 1504	orthopnea
+T86	problem 4409 4426	those white cells
+T87	problem 4450 4460	his cancer
+T88	problem 3008 3018	tympanitic
+T89	problem 455 472	pancreatic cancer
+T90	problem 1564 1576	night sweats
+T91	test 590 602	abdominal ct
+T92	problem 612 665	a 3.0 to 4.0 centimeter lesion in the pancreatic head
+T93	test 7198 7213	continued taps,
+T94	test 4220 4237	white blood cells
+T95	test 4107 4121	one gram stain
+T96	test 3504 3513	potassium
+T97	problem 8851 8858	anxiety
+T98	problem 4867 4890	his apical pneumothorax
+T99	treatment 3823 3832	the drain
+T100	problem 1657 1665	diabetes
+T101	problem 6065 6071	anemic
+T102	problem 1713 1736	coronary artery disease
+T103	problem 1742 1766	congestive heart failure
+T104	treatment 1915 1920	zocor
+T105	problem 1292 1325	30 pound weight loss in six weeks
+T106	problem 8626 8641	bowel movements
+T107	problem 1463 1492	increased shortness of breath
+T108	test 6582 6596	his urinalysis
+T109	problem 6613 6629	a prerenal state
+T110	problem 1778 1789	hepatitis c
+T111	treatment 8317 8331	fentanyl patch
+T112	treatment 9215 9244	nystatin suspension mouthwash
+T113	treatment 8731 8740	lidocaine
+T114	problem 8780 8802	pain around foley site
+T115	treatment 913 924	pleurodesis
+T116	test 1208 1216	his ca99
+T117	treatment 6263 6282	the hospital course
+T118	problem 1792 1801	psoriasis
+T119	problem 5927 5950	the side effect profile
+T120	test 4387 4395	cytology
+T121	problem 5116 5127	hypotensive
+T122	test 4285 4290	monos
+T123	problem 9562 9579	breakthrough pain
+T124	test 4244 4253	red cells
+T125	test 7259 7265	workup
+T126	problem 7269 7286	pancreatic cancer
+T127	test 3603 3623	alkaline phosphatase
+T128	test 2486 2500	blood pressure
+T129	treatment 5885 5896	his avandia
+T130	problem 4331 4334	sbp
+T131	test 3555 3565	creatinine
+T132	test 2466 2476	heart rate
+T133	treatment 9105 9111	reglan
+T134	problem 7473 7484	his decline
+T135	problem 9323 9330	nsomnia
+T136	problem 372 395	coronary artery disease
+T137	treatment 7040 7066	broad spectrum antibiotics
+T138	problem 7091 7103	clinical sbp
+T139	problem 6345 6377	bilateral deep venous thromboses
+T140	treatment 5993 6014	sliding scale insulin
+T141	treatment 1199 1205	lavage
+T142	problem 43 60	pancreatic cancer
+T143	problem 2653 2668	lymphadenopathy
+T144	test 4073 4081	cultures
+T145	problem 5662 5685	a myocardial infarction
+T146	treatment 8469 8498	regular sliding scale insulin
+T147	treatment 5482 5487	lasix
+T148	treatment 5837 5856	his hospital course
+T149	problem 1420 1434	darkened urine
+T150	test 3647 3654	calcium
+T151	test 2509 2525	respiratory rate
+T152	problem 6081 6099	an elevated pt inr
+T153	test 3491 3497	sodium
+T154	treatment 8372 8381	glipizide
+T155	problem 3115 3158	2+ bilateral lower extremity edema to knees
+T156	treatment 9502 9518	a fentanyl patch
+T157	treatment 4055 4059	levo
+T158	treatment 1961 1970	oxycontin
+T159	problem 9156 9169	affected area
+T160	problem 1439 1446	fatigue
+T161	test 253 259	workup
+T162	problem 2695 2705	atraumatic
+T163	test 3630 3640	total bili
+T164	treatment 6179 6182	ffp
+T165	problem 6204 6220	his coagulopathy
+T166	problem 5186 5201	pulmonary edema
+T167	problem 5040 5059	restrictive deficit
+T168	problem 398 409	hepatitis c
+T169	treatment 1865 1874	glipizide
+T170	problem 1554 1560	chills
+T171	treatment 9131 9152	miracle topical cream
+T172	treatment 4746 4757	prophylaxis
+T173	test 6285 6292	his inr
+T174	problem 1545 1551	fevers
+T175	test 668 675	an ercp
+T176	problem 2359 2371	hypertension
+T177	test 3438 3448	hematocrit
+T178	test 980 982	vq
+T179	treatment 8931 8937	ativan
+T180	treatment 6431 6438	lovenox
+T181	test 3413 3430	white blood count
+T182	treatment 8201 8218	peridex mouthwash
+T183	test 3677 3684	albumin
+T184	problem 3088 3096	guarding
+T185	treatment 4064 4070	flagyl
+T186	treatment 9051 9069	potassium chloride
+T187	problem 2869 2883	irregular pvcs
+T188	problem 6678 6703	increased volume overload
+T189	problem 2601 2626	mild respiratory distress
+T190	test 3482 3485	mcv
+T191	treatment 6140 6159	his hospital course
+T192	test 3661 3670	magnesium
+T193	treatment 2549 2560	four liters
+T194	treatment 1984 2004	subcutaneous heparin
+T195	problem 2996 3005	distended
+T196	treatment 8556 8565	lactulose
+T197	test 1003 1008	lenis
+T198	problem 6722 6745	his hypoalbunemic state
+T199	test 1179 1193	a bronchoscopy
+T200	treatment 8501 8514	kbl mouthwash
+T201	problem 8537 8553	mouth discomfort
+T202	test 1148 1156	brain ct
+T203	treatment 1901 1912	allopurinol
+T204	treatment 7148 7159	prophylaxis
+T205	test 4262 4268	polyps
+T206	problem 2317 2330	heart failure
+T207	treatment 6537 6542	fluid
+T208	test 5091 5094	tap
+T209	problem 1618 1654	recently diagnosed pancreatic cancer
+T210	treatment 2007 2013	unasyn
+T211	treatment 7582 7590	morphine
+T212	test 4160 4207	the patient &apos;s abdominal fluid cell counts
+T213	test 3595 3600	alt33
+T214	problem 4992 5021	persistent abdomen distention
+T215	problem 3176 3184	cyanosis
+T216	problem 5874 5882	diabetes
+T217	problem 5797 5808	bradycardia
+T218	treatment 8401 8407	atarax
+T219	treatment 8805 8811	ativan
+T220	treatment 8235 8254	cholysteramineresin
+T221	problem 2455 2463	afebrile
+T222	treatment 6658 6666	diuresis
+T223	treatment 6385 6404	his hospital course
+T224	problem 1683 1687	gout
+T225	problem 416 422	asthma
+T226	treatment 1888 1893	imdur
+T227	problem 2386 2400	stomach cancer
+T228	treatment 7843 7858	his medications
+T229	test 5367 5377	chest xray
+T230	treatment 5137 5166	some mild fluid resuscitation
+T231	treatment 9542 9554	the morphine
+T232	treatment 4463 4498	he underwent abdominal paracentesis
+T233	treatment 5979 5988	glipizide
+T234	problem 3995 4018	an elevated white count
+T235	problem 3959 3967	symptoms
+T236	treatment 5231 5236	lasix
+T237	problem 2346 2354	diabetes
+T238	treatment 1944 1953	potassium
+T239	treatment 4726 4741	levofloxacin iv
+T240	treatment 5219 5226	albumin
+T241	test 3545 3548	bun
+T242	treatment 3807 3820	biliary drain
+T243	problem 3787 3803	decreased output
+T244	problem 1690 1710	hypercholesterolemia
+T245	test 3572 3579	glucose
+T246	treatment 8168 8179	allopurinol
+T247	treatment 9286 9291	serax
+T248	test 2534 2541	satting
+T249	treatment 761 789	a transhepatic biliary drain
+T250	treatment 6114 6132	a few transfusions
+T251	problem 3979 3982	sbp
+R1	PIP Arg1:T1 Arg2:T2
+R2	TeRP Arg1:T4 Arg2:T5
+R3	TrAP Arg1:T7 Arg2:T8
+R4	TrAP Arg1:T12 Arg2:T13
+R5	TrAP Arg1:T14 Arg2:T15
+R6	TrAP Arg1:T17 Arg2:T18
+R7	TrAP Arg1:T20 Arg2:T21
+R8	TeRP Arg1:T26 Arg2:T27
+R9	TeRP Arg1:T26 Arg2:T28
+R10	PIP Arg1:T28 Arg2:T27
+R11	TeRP Arg1:T32 Arg2:T33
+R12	TrAP Arg1:T38 Arg2:T39
+R13	TrIP Arg1:T45 Arg2:T46
+R14	TeRP Arg1:T50 Arg2:T51
+R15	TrAP Arg1:T54 Arg2:T41
+R16	TrAP Arg1:T59 Arg2:T60
+R17	TrAP Arg1:T70 Arg2:T71
+R18	TeRP Arg1:T72 Arg2:T73
+R19	TrAP Arg1:T77 Arg2:T71
+R20	PIP Arg1:T86 Arg2:T87
+R21	TeRP Arg1:T91 Arg2:T92
+R22	TeRP Arg1:T95 Arg2:T24
+R23	PIP Arg1:T102 Arg2:T103
+R24	TeRP Arg1:T108 Arg2:T109
+R25	TrAP Arg1:T113 Arg2:T114
+R26	TeCP Arg1:T125 Arg2:T126
+R27	TrNAP Arg1:T129 Arg2:T119
+R28	TrAP Arg1:T137 Arg2:T138
+R29	TrAP Arg1:T147 Arg2:T13
+R30	TeCP Arg1:T161 Arg2:T84
+R31	TrAP Arg1:T164 Arg2:T165
+R32	TrAP Arg1:T172 Arg2:T15
+R33	TeRP Arg1:T175 Arg2:T29
+R34	TrCP Arg1:T179 Arg2:T68
+R35	TrAP Arg1:T180 Arg2:T139
+R36	TrAP Arg1:T196 Arg2:T106
+R37	TrAP Arg1:T200 Arg2:T201
+R38	TrAP Arg1:T204 Arg2:T41
+R39	TeRP Arg1:T208 Arg2:T121
+R40	TrAP Arg1:T211 Arg2:T47
+R41	TrAP Arg1:T218 Arg2:T42
+R42	TrAP Arg1:T219 Arg2:T97
+R43	TrAP Arg1:T222 Arg2:T198
+R44	TrAP Arg1:T222 Arg2:T188
+R45	TeRP Arg1:T229 Arg2:T31
+R46	TrCP Arg1:T230 Arg2:T166
+R47	TrAP Arg1:T231 Arg2:T123
+R48	TrAP Arg1:T236 Arg2:T66
+R49	TrAP Arg1:T239 Arg2:T15
+R50	TrAP Arg1:T240 Arg2:T66
+R51	TrAP Arg1:T242 Arg2:T243
+R52	TrAP Arg1:T247 Arg2:T135
+R53	PIP Arg1:T251 Arg2:T30
+R54	PIP Arg1:T251 Arg2:T235

@@ -1,0 +1,58 @@
+T1	problem 1542 1570	community-acquired pneumonia
+T2	problem 1526 1536	bronchitis
+T3	problem 329 349	hypercholesterolemia
+T4	treatment 792 803	antibiotics
+T5	problem 817 827	bronchitis
+T6	problem 831 859	community-acquired pneumonia
+T7	problem 762 766	copd
+T8	problem 490 498	afebrile
+T9	problem 1470 1520	chronic obstructive pulmonary disease exacerbation
+T10	treatment 217 227	intubation
+T11	problem 198 202	copd
+T12	problem 373 390	copd exacerbation
+T13	treatment 1346 1353	home 02
+T14	treatment 1881 1910	oxygen 2 liters nasal cannula
+T15	treatment 253 260	home 02
+T16	treatment 1179 1198	frequent nebulizers
+T17	problem 1203 1207	copd
+T18	test 937 955	closer observation
+T19	problem 868 898	his tenuous respiratory status
+T20	treatment 1843 1853	salmeterol
+T21	treatment 608 618	management
+T22	problem 622 639	copd exacerbation
+T23	problem 659 684	more respiratory distress
+T24	test 273 277	fev1
+T25	test 307 321	fev1/fvc ratio
+T26	problem 1286 1296	desaturate
+T27	treatment 1033 1041	chest pt
+T28	treatment 1636 1643	flovent
+T29	treatment 1093 1111	further management
+T30	problem 1115 1136	his copd exacerbation
+T31	treatment 1159 1174	p.o. prednisone
+T32	problem 408 450	upper respiratory tract infection symptoms
+T33	treatment 1750 1767	albuterol inhaler
+T34	treatment 578 591	p.o. steroids
+T35	treatment 1816 1823	aspirin
+T36	treatment 733 757	more frequent nebulizers
+T37	treatment 1942 1958	prednisone taper
+T38	treatment 714 728	iv solu-medrol
+T39	treatment 977 987	intubation
+T40	treatment 1664 1676	levofloxacin
+T41	problem 1585 1606	myocardial infarction
+T42	treatment 1018 1028	nebulizers
+R1	TrAP Arg1:T4 Arg2:T5
+R2	TrAP Arg1:T4 Arg2:T6
+R3	TrAP Arg1:T10 Arg2:T11
+R4	PIP Arg1:T11 Arg2:T12
+R5	TrAP Arg1:T16 Arg2:T17
+R6	TeCP Arg1:T18 Arg2:T19
+R7	TrWP Arg1:T21 Arg2:T22
+R8	TeCP Arg1:T24 Arg2:T11
+R9	TeCP Arg1:T25 Arg2:T11
+R10	TrAP Arg1:T29 Arg2:T30
+R11	TrAP Arg1:T31 Arg2:T17
+R12	TrWP Arg1:T34 Arg2:T22
+R13	TrAP Arg1:T36 Arg2:T7
+R14	TrAP Arg1:T36 Arg2:T23
+R15	TrAP Arg1:T38 Arg2:T7
+R16	TrAP Arg1:T38 Arg2:T23

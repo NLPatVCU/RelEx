@@ -1,0 +1,104 @@
+Admission Date :
+2016-11-21
+Discharge Date :
+2016-11-30
+Date of Birth :
+1953-10-19
+Sex :
+M
+Service :
+CMED CCU
+CHIEF COMPLAINT AND HISTORY OF PRESENT ILLNESS :
+Mr. Jackson is a 63-year-old male with squamous cell carcinoma of the floor of mouth ( stage T2 N0 ) that was biopsied by his dentist .
+Pathology was reviewed revealing invasive squamous cell carcinoma .
+He presented on 2016-11-21 for resection .
+He was admitted on 2016-11-21 following his surgery .
+He underwent a joint procedure by Otolaryngology and Plastic Surgery .
+PAST MEDICAL HISTORY :
+Includes hypertension and chronic obstructive pulmonary disease .
+PAST SURGICAL HISTORY :
+Polypectomy in 2011 , tooth extraction ( all ) in 1980 , and hernia in 1977 .
+ALLERGIES :
+TOMATO ( causing anaphylaxis ) and TETANUS SHOT .
+MEDICATIONS ON ADMISSION :
+Triamterene/hydrochlorothiazide 37.5/25 mg one tablet by mouth once daily and lorazepam 1 mg three times daily as needed ( for anxiety ) .
+SOCIAL HISTORY :
+He has a half-pack per day smoking history and drinks approximately three to four alcoholic beverages per day .
+PROCEDURES PERFORMED:
+1. Tracheostomy .
+2. Diagnostic laryngoscopy and biopsy .
+3. Bilateral supraomohyoid neck dissection .
+4. Resection of floor of mouth tumor .
+SUMMARY OF HOSPITAL COURSE :
+Surgeon was Dr. Kelsey K Sanchez .
+Assistant was Dr. Justin K.. Velez .
+Frozen section sent to pathology revealing invasive squamous cell carcinoma .
+No complications .
+The Plastic Team then took over for reconstruction consisting of radial forearm free flap to floor of mouth .
+Surgeon was Dr. Jude. Christopher Swinney .
+Total intravenous fluids of 7300 cc .
+Estimated blood loss of 300 cc .
+Urine output of 900 cc .
+No complications .
+In addition , the patient was prepared for an attempted percutaneous endoscopic gastrostomy tube .
+The percutaneous endoscopic gastrostomy was unsuccessful , and the procedure was converted to an open gastrostomy tube which then proceeded without complications .
+The patient was admitted to the Surgical Intensive Care Unit postoperatively .
+He was sedated and ventilated by his tracheostomy 6 cuff Shiley tube .
+He had three Westwood-Pocasset drains - two in the neck and one in his right arm .
+G-tube was to gravity , Foley to gravity , left radial A-line .
+The flap was pink with a strong Doppler signal .
+He underwent flap checks every 15 minutes initially with a dextran infusion .
+He was placed on Unasyn 3 grams IV q.6h.
+Nothing by mouth initially with morphine as needed for pain and Ativan around the clock for delirium tremens prophylaxis .
+In addition , he received metoprolol q.4.h. , a regular insulin sliding scale , and adequate gastrointestinal prophylaxis with Protonix .
+Postoperative laboratories revealed sodium was 134 , potassium was 4.1 , chloride was 102 , bicarbonate was 28 , blood urea nitrogen was 18 , creatinine was 0.8 , and glucose was 148 .
+Calcium was 7.6 .
+Magnesium was 2.2 .
+Complete blood count revealed white count was 5.4 , hematocrit was 31.3 , and platelets were 160 .
+ALT was 14 , AST was 31 , alkaline phosphatase was 42 , total bilirubin was 0.9 , albumin was 2.2 .
+A chest x-ray postoperatively showed clear lung fields .
+Tracheostomy tube in good position .
+No pneumothorax .
+By systems :
+CMED CSRU and Plastic Surgery flap checks , tracheostomy care , and Westwood-Pocasset management. 
+Cardiovascular :
+Lopressor 5 intravenously q.4.h.
+Respiratory :
+Nebulizers as needed , weaning from ventilation .
+Gastrointestinal :
+Medications per gastrostomy tube on postoperative day one .
+Genitourinary :
+Foley catheter for strict monitoring of ins and outs .
+Hematologic :
+Hematocrit stable .
+Infectious Disease :
+Unasyn for antibiotic coverage .
+Flap checks carried out q.2h. initially in the Surgical Intensive Care Unit showing positive biphasic Doppler signals .
+Pink flap with good refill .
+Right arm neurovascularly intact .
+He was weaned from ventilation on postoperative day one to pressure support ventilation and then to spontaneous breathing on postoperative day two .
+His Westwood-Pocasset output for postoperative day one on the left was 60 , right neck 93 , in the arm 20 .
+Tube feedings were started 48 hours after the procedure .
+The cuff on his tracheostomy tube was put down on 11-23 , postoperative day two which he tolerated well with minimal secretions and a strong adequate cough .
+Due to bed issues , he was transferred from the Surgical Intensive Care Unit to the Medical Intensive Care Unit on postoperative day three .
+His tube feedings were advanced .
+He was out of bed to a chair .
+He continued with pulmonary toilet and q.2h. flap checks .
+The Westwood-Pocasset in his right arm was removed on 2016-11-25 .
+His tracheostomy was changed to a 6 cuffless Shiley on 2016-11-26 and sutures in place with a 3-0 silk .
+The patient tolerated this procedure well .
+This is the end of part 1 of this dictation summary for Patricia Jackson .
+To be continued in a separate dictation .
+Nola Daniel , Hawaii 31699
+Dictated By:Joe C. Roa , M.D.
+MEDQUIST36
+D :
+2016-11-30 10:56:11
+T :
+2016-11-30 11:44:01
+Job# :
+77004
+Signed electronically by :
+DR. Michael Z Waldroup on :
+MON 2016-12-19 10:13 AM
+( End of Report )

@@ -1,0 +1,125 @@
+194442600 RWH
+1642008
+83328/rh01
+61509
+10/19/1993 12:00:00 AM
+RIGHT CAPSULAR PUTAMENAL HEMORRHAGE .
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+10/19/93
+DISCHARGE DATE :
+10/25/93
+PRINCIPAL DIAGNOSIS :
+Right capsular putamenal hemorrhage .
+ASSOCIATED DIAGNOSIS :
+hypertension .
+HISTORY OF PRESENT ILLNESS :
+Mrs. Dua is a 34 year old white female with an unclear history of hypertension for at least five years .
+She was in her usual state of health until around 12:40 on October 19 , when while on the phone , started to have difficulty in talking .
+Her speech became slurred , this was followed a few seconds after by weakness and numbness of her arm and leg .
+She did not complain of headache , diplopia , or any other neurological symptoms .
+She was seen at A Memorial Hospital where her blood pressure was measured at 240/120 and was found to have a mild left hemiparesis .
+She was then transferred to Ro Woodma Healthcare for further management .
+PAST MEDICAL HISTORY :
+negative .
+HABITS :
+She does not smoke , does not use birth control pills , does not use drugs .
+Denies any abuse of alcohol .
+FAMILY HISTORY :
+Father and brother died of PE .
+REVIEW OF SYSTEMS :
+negative .
+SOCIAL HISTORY :
+She works at TackyMart , is single .
+PHYSICAL EXAMINATION :
+A 34 year old white female lying in bed , anxious ; blood pressure of 220/120 , afebrile .
+Skin :
+no lesions .
+HEENT :
+normocephalic , atraumatic , anicteric .
+Neck :
+supple , no bruits .
+Heart :
+regular rhythm with no murmur , rub or gallop .
+Lungs :
+clear to auscultation .
+Abdomen :
+bowel sounds present , soft , nontender , nondistended , guaiac negative , no hepatosplenomegaly .
+Extremities :
+no clubbing , cyanosis or edema .
+Neurological :
+she was alert and oriented times three .
+Her speech was fluent with no phasic or praxic problems , dysarthric .
+Memory and attention span good .
+Visual fields were full to confrontation .
+Fundi were flat .
+Pupils were 2 millimeters down to 1 millimeter by direct and consensual stimuli .
+Extra ocular movements were full .
+Corneals diminished on the left side .
+V1 through V3 , diminished light touch and pinprick in the left side .
+There was a left central facial paresis .
+Gag was symmetric .
+Tongue deviated to the left .
+There was a left arm pronator .
+The ______________ was normal .
+Strength was 5/5 on the right side , 4/5 on the left side .
+The deep tendon reflexes were 2+ on the left side , 1+ on the right side .
+The plantar was upgoing on the left side .
+On sensory exam there was a mild diminution of light touch , pinprick , position , and vibration sense in the left side .
+Cerebella :
+the fine motor movements of the left hand were diminished , there was a mild dysmetria on the left side to finger / nose and heel / shin .
+The walk was paretic in the left side .
+LABORATORY DATA :
+sodium 140 , potassium 4 , chloride 107 , CO2 25.4 , BUN 9 , creatinine .8 , blood sugar 130 .
+Uric acid 4.7 , cholesterol 150 , triglycerides 74 , HDL 44 , LDL 91 .
+Normal liver function tests .
+Urine and serum toxicology screen negative .
+Thyroid stimulation hormone 1.9 .
+Dexamethasone suppression test negative with a cortisol level at 8 a.m. of 1.7 .
+Twenty-four urine for catecholamine , metanephrines , and VMA pending at the time of discharge .
+White blood cell count 9.8 , hematocrit 44.1 , platelets 262 , prothrombin time 10.4/ 10.3 , partial thromboplastin time 25.9 .
+urinalysis :
+specific gravity 125 , PH 6 .
+Urine culture negative .
+Sedimentation rate 2 , antithrombin 3 .
+Protein C , protein S and plasminogen level within normal limits .
+Electrocardiogram :
+sinus rhythm at 116 , axis of 23 , intervals of .14/ .07/ .42 , no ST-segment abnormalities .
+Chest x-ray negative .
+Head computerized tomography scan on 10/19 : 3 centimeter hyperdensity within the right putamenal area in the right external capsusle consistent with intra-parenchymal hematoma with mild local mass effect and surrounding edema .
+No other areas of hemorrhage identified .
+Head computerized tomography scan of 10/23 :
+the area of hemorrhage the same , slightly more edema and mass effect .
+Pulmonary angiogram :
+no evidence of pulmonary emboli .
+HOSPITAL COURSE :
+Given the localization of the hematoma and the history of hypertension , the most likely cause for Mrs. Dua &apos;s cerebellar hemorrhage is hypertension .
+A magnetic resonance imaging study will be scheduled as an outpatient in three months to rule out a small vascular malformation if responsible for the hemorrhage .
+At the time of discharge , Mrs. Dua has had a remarkable recovery .
+She is now able to walk fitfully and use her left hand with no problem .
+The exam is remarkable for a mild leftsided face , arm and leg weakness and sensory deficit that should further improve with physical therapy and occupational therapy help .
+She will be followed by the OT / PT dept. for that .
+Her hypertension was difficult to manage initially and required three days of Intensive Care Unit with A-line and Nipride intravenously .
+It was finally under control with high doses of Captopril , Nifedipine , and hydrochlorothiazide .
+The workup to rule out secondary cause of hypertension given the patient &apos;s young age and the difficulty controlling the blood pressure was started as an inpatient and will be completed by Dr. ______________as an outpatient .
+So far no secondary causes of hypertension were identified but causes like lymphocytic ? chromocytoma or renal artery stenosis have not been ruled out yet .
+MEDICATIONS ON DISCHARGE :
+hydrochlorothiazide 25 mg. po q.day , Captopril 75 mg. po three times a day , Nifedipine 40 mg. po three times a day .
+CONDITION ON DISCHARGE :
+Stable .
+FOLLOWUP :
+The patient will followup with Dr. ______________at Omend Hospital and with Dr. Deep at the Barb Memorial Hospital .
+DISABILITY :
+100% for now .
+Will be reassessed after a month of intensive physical therapy and occupational therapy .
+MATAANRE TAG , M.D.
+TR :
+ee / bihn
+DD :
+10/25/93
+TD :
+10/27/93
+CC :

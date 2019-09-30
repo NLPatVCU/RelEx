@@ -1,0 +1,118 @@
+T1	problem 2788 2811	a tendency to fall back
+T2	test 4072 4081	csf monos
+T3	test 4021 4036	csf neutrophils
+T4	problem 610 627	increased falling
+T5	test 3808 3819	neutrophils
+T6	problem 1983 1993	non-tender
+T7	test 4647 4672	her admission examination
+T8	test 3786 3803	white blood cells
+T9	problem 1587 1609	some urinary accidents
+T10	treatment 1215 1228	ankle surgery
+T11	test 3857 3860	eos
+T12	test 3388 3404	opening pressure
+T13	test 3762 3777	red blood cells
+T14	problem 1199 1212	heart disease
+T15	test 4086 4093	csf eos
+T16	test 2585 2593	reflexes
+T17	test 4435 4455	the gait examination
+T18	problem 4488 4501	changing gait
+T19	treatment 3309 3327	conscious sedation
+T20	test 3825 3830	bands
+T21	test 4176 4193	the fluid culture
+T22	treatment 1273 1281	lamictal
+T23	problem 2139 2156	back folliculitis
+T24	test 5006 5043	the patient &apos;s neuro examination
+T25	problem 2738 2755	a wide based gait
+T26	treatment 1295 1302	aricept
+T27	test 3710 3715	color
+T28	test 3253 3268	the examination
+T29	test 3723 3732	turbidity
+T30	test 4098 4107	csf basos
+T31	problem 1844 1863	bilateral esotropia
+T32	test 3835 3841	lymphs
+T33	test 3995 4016	csf white blood cells
+T34	test 1885 1897	auscultation
+T35	problem 4159 4168	organisms
+T36	problem 1720 1732	down &apos;s
+T37	problem 570 591	down &apos;s syndrome
+T38	test 3502 3521	total protein level
+T39	test 1900 1919	cardiac examination
+T40	problem 1385 1405	known drug allergies
+T41	test 4253 4271	an aerobic culture
+T42	test 1811 1828	heent examination
+T43	test 4296 4308	lyme capture
+T44	test 817 823	an mri
+T45	problem 860 887	enlarged lateral ventricles
+T46	problem 918 947	normal pressure hydrocephalus
+T47	test 3460 3463	csf
+T48	treatment 1336 1345	trazodone
+T49	problem 764 781	alzheimer &apos;s
+T50	test 3742 3755	xanthochromia
+T51	problem 2393 2412	bilateral esotropia
+T52	problem 1558 1584	a decrease in her language
+T53	test 4042 4051	csf bands
+T54	test 1749 1763	blood pressure
+T55	test 1950 1971	abdominal examination
+T56	problem 632 649	gait unsteadiness
+T57	problem 396 417	down &apos;s syndrome
+T58	problem 436 443	falling
+T59	problem 1085 1111	altzheimer &apos;s disease
+T60	problem 1125 1146	down &apos;s syndrome
+T61	test 3590 3600	folic acid
+T62	test 5071 5102	the admission neuro examination
+T63	test 4507 4522	lumbar puncture
+T64	test 1789 1805	respiratory rate
+T65	test 4235 4250	lumbar puncture
+T66	test 3673 3693	csf labeled tube # 1
+T67	problem 2761 2782	shuffling short steps
+T68	test 4374 4387	rpr card test
+T69	test 3931 3944	csf turbidity
+T70	problem 2705 2732	her feet externally rotated
+T71	test 3356 3371	lumbar puncture
+T72	test 2856 2859	mri
+T73	problem 2923 2939	large ventricles
+T74	test 3847 3852	monos
+T75	test 3978 3986	csf rbcs
+T76	test 3954 3971	csf xanthochromia
+T77	test 1773 1783	heart rate
+T78	problem 1632 1643	a poor gait
+T79	test 4112 4126	csf gram stain
+T80	problem 4146 4151	polys
+T81	treatment 2095 2113	left ankle surgery
+T82	problem 2061 2069	swelling
+T83	problem 654 676	an increased inability
+T84	problem 448 476	a decrease in her activities
+T85	test 3867 3872	basos
+T86	problem 1061 1082	down &apos;s syndrome
+T87	test 4056 4066	csf lymphs
+T88	test 3480 3491	sugar level
+T89	test 3013 3028	lumbar puncture
+T90	problem 1612 1627	increased falls
+T91	test 3057 3072	lumbar puncture
+T92	test 3569 3580	vitamin b12
+T93	test 3611 3617	chem-7
+T94	problem 3209 3226	severely agitated
+T95	test 2159 2176	neuro examination
+T96	problem 1233 1248	an abnormal eeg
+T97	test 3914 3923	csf color
+T98	treatment 1316 1322	buspar
+T99	test 997 1023	diagnostic lumbar puncture
+T100	problem 1179 1193	multiple falls
+T101	problem 308 329	down &apos;s syndrome
+T102	problem 269 294	alzheimer &apos;s disease
+T103	test 3877 3897	csf tube labeled # 4
+T104	problem 1501 1518	decreased ability
+R1	TeCP Arg1:T17 Arg2:T18
+R2	TeRP Arg1:T42 Arg2:T31
+R3	TeRP Arg1:T44 Arg2:T45
+R4	TeRP Arg1:T44 Arg2:T46
+R5	PIP Arg1:T59 Arg2:T60
+R6	PIP Arg1:T70 Arg2:T25
+R7	PIP Arg1:T70 Arg2:T67
+R8	PIP Arg1:T70 Arg2:T1
+R9	TeRP Arg1:T72 Arg2:T73
+R10	TeRP Arg1:T79 Arg2:T35
+R11	TeRP Arg1:T79 Arg2:T80
+R12	TrCP Arg1:T81 Arg2:T82
+R13	TeCP Arg1:T99 Arg2:T46
+R14	PIP Arg1:T101 Arg2:T102

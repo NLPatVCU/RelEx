@@ -1,0 +1,29 @@
+817406016 RWH
+3154334
+554691
+3547577
+7/6/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+JEMSKOP , COT
+MRN :
+3154334
+Age :
+54y
+REGISTRATION DATE :
+07/06/2005 11:11 AM
+PRELIMINARY REPORT
+This is to notify you that your patient , JEMSKOP , COT arrived in the Emergency Department at Ro Woodma Healthcare on 07/06/2005 11:11 AM .
+The patient presented with a chief complaint of CP .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was admitted as an inpatient to Ro Woodma Healthcare .
+The patient &apos;s preliminary admitting physician is KOTEDAIZREKE , LILA and the preliminary admitting diagnosis is CP .
+Please note this information may have been updated on the inpatient unit .
+If you need additional information please call 662-747-1199 .
+PCP Name :
+TITCHEAGNERO , TO
+Provider Number :
+98076

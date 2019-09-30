@@ -1,0 +1,183 @@
+Admission Date :
+2014-02-21
+Discharge Date :
+2014-03-25
+Date of Birth :
+1928-07-25
+Sex :
+F
+Service :
+SURGERY
+Allergies :
+Sulfa ( Sulfonamides )
+Attending : Mattie R. A. Hamilton , M.D.
+Chief Complaint :
+Nausea , vomiting , Abdominal pain , distention .
+Major Surgical or Invasive Procedure :
+1. Subtotal colectomy , end ileostomy , Hartmann's pouch , G-tube
+2. Completion sigmoid colectomy , repair of colovesicular fistula , small bowel repair
+History of Present Illness :
+Ms Crossman is an 84 year old female with complaints of abdominal pain , diarrhea , nausea and vomiting x 1 week , who presented to an outside hospital .
+She was transferred to Arbour Hospital on 2015-02-21 for bowel obstruction , ischemia and worsening abdominal distention and pain .
+Past Medical History :
+CAD s/p MI , HTN , DMII
+Social History :
+Lives independently , but in the same building with daughter .
+Amy 3 children , 2 daughters and 1 son .
+Daughter Lurline is Durable Power of Attorney .
+The other daughter was recently in a car accident and underwent surgery at Saint Vincent Hospital .
+Family History :
+NC
+Physical Exam :
+At time of discharge :
+Afebrile , VSS
+A&O X 3 , NAD
+RRR
+CTAB , mildly decreased breath sounds b/l
+Abd soft , NT/ND , + bs , no masses , ostomy in RLQ pink , with stool
+G-tube in place
+LE trace edema
+Pertinent Results :
+2014-02-21 12:20 PM BLOOD WBC - 10.2 RBC - 5.32 Hgb - 14.9 Hct - 43.4 MCV - 82 MCH - 28.0 MCHC - 34.4 RDW - 16.0 * Plt Ct - 204
+2014-02-21 12:20 PM BLOOD PT - 12.9 PTT - 32.5 INR(PT) - 1.1
+2014-02-21 12:20 PM BLOOD Glucose - 345 * UreaN - 34 * Creat - 1.0 Na - 137 K - 4.3 Cl - 99 HCO3 - 24 AnGap - 18
+2014-02-21 12:20 PM BLOOD ALT - 17 AST - 27 AlkPhos - 119 * Amylase - 27 TotBili - 0.9
+2014-02-21 12:20 PM BLOOD Lipase - 11
+2014-02-21 12:20 PM BLOOD CK-MB - 7 cTropnT -< 0.01
+2014-03-09 02:59 AM BLOOD cTropnT - 0.21 *
+2014-03-09 11:29 AM BLOOD CK-MB - 35 * MB Indx - 25.5 * cTropnT - 0.45 *
+2014-03-09 07:52 PM BLOOD CK-MB - NotDone cTropnT - 0.55 *
+2014-03-10 05:25 PM BLOOD cTropnT - 0.42 *
+2014-03-11 02:00 AM BLOOD cTropnT - 0.45 *
+2014-03-19 07:13 AM BLOOD CK-MB - 3 cTropnT - 0.19 *
+2014-03-19 01:33 PM BLOOD CK-MB - NotDone cTropnT - 0.17 *
+2014-03-21 09:58 AM BLOOD CK-MB - NotDone cTropnT - 0.06 *
+03-07 wound swab : VRE
+CT Abd 02-21 :
+1. Markedly dilated colon throughout ascending , transverse , and descending colon with air-fluid levels , overall unchanged since prior study performed on the same day with pneumatosis in the ascending colon .
+Sigmoid diverticulosis with focal narrowing of the sigmoid colon just distal to the dilatation with wall thickening , due to diverticulitis .
+This area can be a leading point of obstruction .
+An underlying mass lesion or cancer cannot be excluded in this area , and further clinical investigation is recommended .
+2. Limited evaluation for known sigmoid-vesicle fistula .
+3. Small amount of ascites , somewhat increased anterior to the liver .
+4. Bilateral renal cysts .
+5. Heavy calcification of the aorta and SMA and its branches .
+Due to atherosclerosis , assessment of the intraluminal process of these branches is limited .
+CTA/CT abd 03-07 :
+1. No evidence of pulmonary embolism .
+Small bilateral pleural effusions with compressive atelectasis .
+2. Left lower quadrant thick-walled peripherally enhancing fluid collection , which appears to communicate with the sutured end of the proximal sigmoid colon via a small collection of extraluminal gas .
+In the correct clincial setting , this could be consistent with an abscess .
+3. Moderate intraabdominal ascites .
+4. Status post ileostomy without evidence of small-bowel obstruction .
+5. Distended gallbladder .
+6. Diverticulosis within the right remnant sigmoid colon .
+03-21 VCUG - no leak
+Brief Hospital Course :
+Ms Crossman was admitted on 2015-02-21 from an outside hospital to the ICU .
+Neuro : Developed confusion during her first 5 days in the ICU .
+Post-operatively mental status improved .
+Intermitent delirium throughout admission .
+Required restraints to prevent DC of pertinent therapies while in the ICU .
+Currently AAOx3 .
+Cardiovascular : Complained of chest pain during first few days of admission , a cardiology consult was obtained .
+She recieved serial enzymes and EKGs .
+Troponins remained mildly elevated as high as 0.6 throughout her admission , and most recent result now 0.1 .
+She was treated in IUC for unstable angina with nitroglycerin .
+It was recommended to maximize her medical treatment with Beta blockers , aspirin , a statin and an ACE Inhibitor .
+Required diuresis of > 9 L while in the ICU , after 2nd surgery .
+Continues to have trace lower extremity edema , and recieves lasix po .
+Respiratory : She was intubated briefly post-op subtotal colectomy and again for several days after second surgery .
+Recieved nebulizer treatments post-op in the ICU , after successfully extubated .
+Gastrointestinal : Her initial CT scan showed dilated Turner colon , wall thickening and pneumatosis see pertinent results .
+She was initially treated nonoperatively with IV fluids , antibiotics , serial exams and NGT decompression .
+On HD#5 flexible sigmoidoscopy was performed for colonic decompression .
+On HD#6 , colonscopy was performed for decompression , and revealed pseudomembrane and friable colonic tissue .
+Her abdomen remained tender and distended despite attempted decompression .
+She was taken to the OR for Subtotal Colectomy , G tube and ileostomy due to unresponsiveness to non-operative treatment .
+Ileostomy remains pink and intact , draining green-brown soft stool .
+Her post-operative course continued uneventfully in the ICU , and she was transferred to the floor POD#6 .
+She developed additional abdominal tenderness and distention .
+Her HCT dropped and she recieved 1 unit PRBCs .
+Geriatric consult was obtained to assist with management .
+On POD#8 a CT scan was obtained which revealed an abcess with a colovesicular fistula .
+She was taken to the OR for exploration and drainage .
+She recieved further resection of remaining colon , repair of a leak from Relaford pouch and repair of colovesicular fistula .
+After her 2nd surgery she returned to the ICU and improved steadily .
+Abdomen remained soft and nontender .
+She remained on IV antibiotics x 14 days and required pressors for the first few days post-op .
+Her incision has remained clean , dry , intact , with staples removed on POD# 27/18 .
+Genitourinary : She had a foley catheter from the time of admission .
+POD# 23/14 she recieved a cystoscopy which revealed no leak .
+Her foley was subsequently dc 'd .
+Musculoskeletal : Has suffered significant deconditioning since admission , but has consisitently recieved PT .
+See PT note for further assessment and discussion .
+Nutrition : She was held NPO at admission , and initiated on TPN by HD#3 .
+Post-operatively she began on TF s, and the TPN was weaned down .
+By POD# 05-29 she was having high residuals on TF s, so TPN was reinitiated .
+Tf 's were dc 'ed prior to second surgery .
+POD# 15/6 , she resumed TF 's and TPN was tapered again .
+TF goals were achieved and TPN dc 'ed.
+A diet by mouth was initiated .
+At time of discharge she is tolerating a regular diet with TF 's at goal .
+Patient is an insulin dependent diabetic .
+She was followed by Cape Cod Hospital Clinic for treatment of persistent hyperglycemia .
+Pain : Her pain was controlled with IV pain medicines while in ICU .
+She has been adequately controlled with Tylenol , Motrin & Oxycodone by mouth , per recommendations by Geriatrics .
+POD# 22/15 Ms Crossman was transferred to 3 North where she continued to progress well with PT , increasing PO intake , tolerating TF s, and weaning from nasal cannula oxygen .
+She has remained stable with no acute events .
+She is discharged to rehab on POD# 27/18 .
+Medications on Admission :
+Norvasc
+Atenolol
+Isosorbide
+Lasix
+Insulin
+Discharge Medications :
+1. Heparin ( Porcine ) 5,000 unit / mL Solution Sig : One ( 1 ) mL Injection TID ( 3 times a day ).
+2. Acetaminophen 325 mg Tablet Sig : 1-2 Tablets PO Q4-6H ( every 4 to 6 hours ) as needed .
+3. Polyvinyl Alcohol - Povidone 1.4-0.6 % Dropperette Sig : 02-25 Drops Ophthalmic PRN ( as needed ).
+4. Metoprolol Tartrate 25 mg Tablet Sig : One ( 1 ) Tablet PO TID ( 3 times a day ).
+5. Aspirin 81 mg Tablet , Chewable Sig : One ( 1 ) Tablet , Chewable PO DAILY ( Daily ).
+6. Atorvastatin 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+7. Lisinopril 5 mg Tablet Sig : 0.5 Tablet PO DAILY ( Daily ).
+8. Furosemide 40 mg Tablet Sig : 1.5 Tablets PO BID ( 2 times a day ).
+9. Ipratropium Bromide 17 mcg / Actuation Aerosol Sig : Two ( 2 ) Puff Inhalation Q4-6H ( every 4 to 6 hours ) as needed .
+10. Albuterol 90 mcg / Actuation Aerosol Sig : 1-2 Puffs Inhalation Q6H ( every 6 hours ) as needed .
+11. Oxycodone 5 mg Tablet Sig : One ( 1 ) Tablet PO Q4-6H ( every 4 to 6 hours ) as needed for pain .
+12. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ).
+13. Potassium Chloride 20 mEq Tab Sust . Rel . Particle / Crystal Sig : One ( 1 ) Tab Sust . Rel . Particle / Crystal PO once a day .
+14. Glargine  Sig : Twenty Two ( 22 ) units at bedtime .
+15. Miconazole Nitrate 2 % Powder Sig : One ( 1 ) Appl Topical BID ( 2 times a day ) as needed .
+16. Miconazole Nitrate 2 % Cream Sig : One ( 1 ) Appl Topical BID ( 2 times a day ).
+17. Ibuprofen 100 mg/5 mL Suspension Sig : Twenty ( 20 ) mL PO Q8H ( every 8 hours ) as needed .
+18. Debrox 6.5 % Drops Sig : Five ( 5 ) Drop Otic BID ( 2 times a day ) for 5 days : both ears .
+19. Trazodone 50 mg Tablet Sig : 1 / 2-1 Tablet PO HS ( at bedtime ).
+Discharge Disposition :
+Extended Care
+Discharge Diagnosis :
+Hurtado Colon
+Diverticulitis
+S/P Subtotal Colectomy , Ileostomy , Gastrostomy tube
+S/P Exploratory laparotomy , resection of small intestine with primary anastomosis , Sigmoid colectomy , repair of colovesicular fistula
+Unstable Angina
+Discharge Condition :
+stable
+Discharge Instructions :
+Please call the surgeon or return to the Emergency Department if you develop chest pain , shortness of breath , fever greater than 101.5 , foul smelling or colorful drainage from your incisions , redness or swelling , severe abdominal pain or distention , persistent nausea or vomiting , inability to eat or drink , or any 
+other symptoms which are concerning to you .
+No tub baths or swimming .
+You may shower .
+If there is clear drainage from your incisions , cover with a dry dressing .
+Leave white strips above your incisions in place , allow them to fall off on their own .
+Activity : No heavy lifting of items 12-08 pounds until the follow up appointment with your doctor .
+Medications : Resume your home medications .
+You should take a stool softener , Colace 100 mg twice daily as needed for constipation .
+You will be given pain medication which may make you drowsy .
+Followup Instructions :
+Provider : Joe Kari , MD Phone :( 625 ) 747-8259
+Date / Time : 2014-04-11 1:15
+Joe Kari MD 09-697
+Completed by : Carol Robert NP 80-CIY 2014-03-25 @ 0837
+Signed electronically by : DR. Marion SCHNEIDER on : Sandra 2014-03-25 12:56 PM
+( End of Report )

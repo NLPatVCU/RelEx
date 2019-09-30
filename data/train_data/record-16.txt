@@ -1,0 +1,157 @@
+Admission Date :
+2015-10-28
+Discharge Date :
+2015-11-13
+Date of Birth :
+1941-08-30
+Sex :
+F
+Service : CARDIOTHORACIC
+Allergies :
+Tape / Benadryl
+Attending :Jordan U Kostohryz , M.D.
+Chief Complaint :
+Chest discomfort
+Major Surgical or Invasive Procedure :
+2015-10-30 Left Carotid Stenting
+2015-11-02 Coronary Artery Bypass Graft x 2 ( Lima to LAD , SVG to OM )
+History of Present Illness :
+Ms. Bridge is a 74 y/o female admitted to outside hospital on 2015-10-21 with chest discomfort , vomiting and shortness of breath .
+Initial EKG showed ST depressions , but cardiac enzymes were not elevated .
+She eventually underwent a cardiac cath to assess coronary disease which revealed three vessel coronary artery disease .
+She was then transferred to The Hospital for Orthopedics for surgical intervention .
+Past Medical History :
+Coronary Artery Disease , Hypertension , Hyperlipidemia , Diabetes Mellitus , Hypothyroid , h/o Bilateral DVT 's ( on chronic coumadin therapy ), Pleural disorder ? Sarcoidosis , Gastritis , B12 deficiency , Chronic renal insufficiency , s/p Appendectomy , s/p Lap cholectomy , s/p Total abdominal hysterectomy
+Social History :
+Denies tobacco or ETOH use .
+Lives wth husband .
+Family History :
+Mother died of MI at age 55 .
+Brother w/ CAD since age 40 and died in 70 's after cardiac surgery .
+Son died at 14 d/t ASD .
+Physical Exam :
+Gen : NAD
+Neck : Supple , - JVD , - Bruits
+Heart : RRR - c/r/m/g
+Lungs : CTAB , coarse
+Abd : Soft , NT/NT + BS
+Ext : Cool , 1 + pedal pulses , - varicosities , - edema
+Neuro : A&O x 3 , MAE , non-focal
+Some rashes on ACW around EKG leads
+Pertinent Results :
+CNIS 10-29 :
+1. 60-69% stenosis of the right internal carotid artery .
+2. 80-99% stenosis of the left internal carotid artery .
+Echo 11-02 : PRE-BYPASS : Left ventricular wall thickness , cavity size , and systolic function are normal ( LVEF>55% ).
+Resting regional wall motion abnormalities include mild apical hypokinesis .
+The aortic valve leaflets ( 3 ) appear structurally normal with good leaflet excursion and no aortic regurgitation .
+The mitral valve appears structurally normal with trivial mitral regurgitation .
+There are complex (> 4 mm ) atheroma in the descending thoracic aorta .
+Mild tricuspid regurgitation .
+POST-BYPASS : Preserved Kindred / North Shore - ventricular systolic fxn .
+Trivial MR .
+Edith AI .
+Aorta intact .
+CT 11-04 : No acute intracranial hemorrhage .
+Findings consistent with small vessel ischemic changes .
+MRI would be more sensitive for the detection of acute infarction .
+CT angiogram demonstrates no stenosis or aneurysm in the intracranial circulation .
+Slight irregularity of the origin of the right vertebral artery may be atherosclerotic in nature .
+Normal contrast enhancement seen in the left common/internal carotid artery stent .
+Mild stenosis of the proximal right internal carotid artery .
+4 mm left upper lobe lung nodule .
+In the absence of history of malignancy , this is statistically benign .
+One-year followup may be considered .
+CXR 11-06 : Allowing for technical changes , no major adverse interval change has occurred .
+Bibasilar subsegmental atelectasis together with bilateral pleural effusions appear relatively unchanged .
+The mediastinum appears unchanged .
+Left-sided subclavian line is unchanged in position .
+There is evidence of prior cardiac surgery .
+2015-11-13 06:15 AM BLOOD WBC - 8.8 RBC - 2.79 * Hgb - 8.6 * Hct - 25.4 * MCV - 91 MCH - 30.9 MCHC - 33.8 RDW - 15.6 * Plt Ct - 583 *
+2015-11-12 06:00 AM BLOOD WBC - 7.7 RBC - 2.73 * Hgb - 8.3 * Hct - 25.1 * MCV - 92 MCH - 30.4 MCHC - 33.1 RDW - 15.5 Plt Ct - 528 *
+2015-11-13 06:15 AM BLOOD Plt Ct - 583 *
+2015-11-13 06:15 AM BLOOD PT - 18.0 * PTT - 62.3 * INR(PT) - 1.7 *
+2015-11-12 06:00 AM BLOOD PT - 15.5 * PTT - 62.4 * INR(PT) - 1.4 *
+2015-11-11 05:45 AM BLOOD PT - 14.5 * PTT - 51.4 * INR(PT) - 1.3 *
+2015-11-13 06:15 AM BLOOD Glucose - 96 UreaN - 20 Creat - 1.6 * Na - 141 K - 4.3 Cl - 106 HCO3 - 24 AnGap - 15
+2015-11-12 06:00 AM BLOOD Glucose - 85 UreaN - 19 Creat - 1.6 * Na - 140 K - 4.4 Cl - 105 HCO3 - 24 AnGap - 15
+2015-11-11 05:45 AM BLOOD Creat - 1.6 * K - 4.7
+2015-10-28 03:30 PM BLOOD Glucose - 98 UreaN - 26 * Creat - 1.6 * Na - 140 K - 4.6 Cl - 104 HCO3 - 27 AnGap - 14
+Brief Hospital Course :
+Ms. Bridge was admitted from OSH for coronary artery bypass surgery .
+She underwent usual pre-operative testing along with carotid ultrasound .
+CNIS revealed carotid stenosis and she ultimately underwent left carotid stenting by vascular surgery on 10-30 .
+Please see report for details .
+On 11-02 she was brought to the operating room where she underwent a coronary artery bypass graft x 2 .
+Please see operative report for surgical details .
+She tolerated the procedure well and was transferred to the CSRU for invasive monitoring in stable condition .
+Later on op day sedation was weaned , she awoke neurologically intact and was extubated .
+On post-op day one chest tubes were removed and beta blockers and diuretics were initiated .
+She was gently diuresed towards her pre-op weight .
+Also on this day she was transferred to the SDU .
+Early on post-op day two Ms. Bridge had an episode of aphasia .
+She underwent an immediate head CT and Neuro consult and was transferred back to the CSRU .
+CT was negative and she returned to baseline neuro status without deficits by arrival to CSRU .
+Neurology concluded episode was most concerning for TIA .
+Epicardial pacing wires were removed on post-op day four .
+After remaining stable in the CSRU for several days without change in neuro status she was transferred back to the SDU on post-op day four .
+She was then started on Heparin with transition to Coumadin ( goal INR of 2-3 secondary to h/o bilateral DVT 's).
+During entire post-op course she was followed by physical therapy for strength and mobility .
+She continued to improve steadily over the next several days without any other post-op 
+complications .
+She was discharged on post-op day 11 .
+Medications on Admission :
+Meds at home : Coumadin , Levoxyl , Folate , Colace , Byetta , Verapamil , Lisinopril , Pravachol , Nexium , Lasix , Celexa
+Meds at transfer : Levoxyl , Celexa , Folate , Lopressor , Colace , RISS , B12 , Protonix , Lasix , Zocor , Verapamil , Lovenox , Lisinopril
+Discharge Medications :
+1. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 0 *
+2. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 0 *
+3. Levothyroxine 125 mcg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+4. Simvastatin 40 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+5. Citalopram 20 mg Tablet Sig : 0.5 Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+6. Clopidogrel 75 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+7. Ferrous Gluconate 300 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+8. Ascorbic Acid 500 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+9. Folic Acid 1 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+10. Metoprolol Tartrate 25 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 60 Tablet (s)* Refills :* 0 *
+11. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ).
+Disp :* 30 Capsule (s)* Refills :* 0 *
+12. Coumadin 5 mg Tablet Sig : One ( 1 ) Tablet PO once a day : Check INR 11-15 with results called to Dr. Lynn .
+Disp :* 30 Tablet (s)* Refills :* 0 *
+13. Tramadol 50 mg Tablet Sig : One ( 1 ) Tablet PO Q4-6H ( every 4 to 6 hours ) as needed .
+Disp :* 50 Tablet (s)* Refills :* 0 *
+14. Lasix 40 mg Tablet Sig : One ( 1 ) Tablet PO once a day : 40 mg daily x 1 week then 40 mg every other day as prior to surgery .
+Disp :* 30 Tablet (s)* Refills :* 0 *
+Discharge Disposition :
+Extended Care
+Discharge Diagnosis :
+Coronary Artery Disease s/p Coronary Artery Bypass Graft x 2
+Post-operative Transient Ischemic Attack
+Carotid Stenosis s/p Left Carotid Stenting
+PMH : Hypertension , Hyperlipidemia , Diabetes Mellitus , Hypothyroid , h/o Bilateral DVT 's, Pleural disorder ? Sarcoidosis , Gastritis , B12 deficiency , Chronic renal insufficiency , s/p Appendectomy , s/p Lap cholectomy , s/p Total abdominal hysterectomy
+Discharge Condition :
+good
+Discharge Instructions :
+Patient may shower , no baths .
+No creams , lotions or ointments to incisions .
+No driving for at least one month .
+No lifting more than 10 lbs for at least 10 weeks from the date of surgery .
+Monitor wounds for signs of infection . Please call with any concerns or questions .
+VVp Instructions :
+Dr. von Sampson in 4 weeks
+Dr Royer in 2-3 weeks
+Dr. Lynn in 1-2 weeks
+Peterson ver Vasquez MD 07-506
+Completed by : Theresa Leonore NP 80-BXH 2015-11-13 @ 1100
+Signed electronically by : DR. Ruby von der Smith on: WED 2015-12-09 3:34 PM
+( End of Report )

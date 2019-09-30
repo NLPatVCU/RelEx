@@ -1,0 +1,140 @@
+T1	problem 1314 1346	progressive abdominal discomfort
+T2	problem 1349 1370	decreased oral intake
+T3	problem 1377 1385	weakness
+T4	test 1276 1293	review of systems
+T5	problem 1057 1080	coronary artery disease
+T6	problem 1029 1043	adrenal cancer
+T7	problem 978 998	known drug allergies
+T8	treatment 952 960	protonix
+T9	test 1524 1538	blood pressure
+T10	test 1503 1513	heart rate
+T11	treatment 3406 3415	treatment
+T12	problem 3419 3428	pneumonia
+T13	test 1480 1491	temperature
+T14	test 1450 1470	physical examination
+T15	treatment 4160 4167	removal
+T16	problem 4185 4190	fluid
+T17	problem 4251 4256	fluid
+T18	treatment 4226 4233	removal
+T19	problem 1965 1988	decreased breath sounds
+T20	problem 1920 1927	murmurs
+T21	problem 1993 2001	dullness
+T22	test 1826 1852	cardiovascular examination
+T23	problem 1862 1914	tachycardic first heart sound and second heart sound
+T24	test 1582 1599	oxygen saturation
+T25	test 1684 1734	head , eyes , ears , nose , and throat examination
+T26	problem 2056 2065	distended
+T27	test 1552 1568	respiratory rate
+T28	problem 1784 1793	anicteric
+T29	problem 2279 2303	increased abdominal pain
+T30	treatment 2378 2396	further management
+T31	treatment 2518 2530	pain control
+T32	problem 1654 1681	acutely and chronically ill
+T33	problem 2221 2264	recently diagnosed abdominal carcinomatosis
+T34	problem 2146 2154	cyanosis
+T35	problem 2135 2143	clubbing
+T36	test 3629 3652	an abdominal ultrasound
+T37	treatment 3463 3472	treatment
+T38	problem 3476 3496	the pulmonary emboli
+T39	test 2101 2122	extremity examination
+T40	problem 2160 2165	edema
+T41	problem 182 225	recently diagnosed abdominal carcinomatosis
+T42	problem 2694 2723	increased shortness of breath
+T43	problem 2070 2074	firm
+T44	test 2821 2835	his saturation
+T45	problem 255 269	abdominal pain
+T46	problem 274 282	bloating
+T47	problem 2730 2760	difficulty catching his breath
+T48	test 2778 2810	the patient 's oxygen saturation
+T49	treatment 3382 3388	flagyl
+T50	test 328 334	biopsy
+T51	problem 344 358	adenocarcinoma
+T52	problem 2898 2921	a left pleural effusion
+T53	problem 305 325	a large omental mass
+T54	test 3198 3210	an angiogram
+T55	problem 3245 3293	subsegmental pulmonary emboli of the upper lobes
+T56	problem 3305 3316	infiltrates
+T57	problem 3333 3353	aspiration pneumonia
+T58	test 2005 2015	percussion
+T59	treatment 2856 2871	a nonrebreather
+T60	test 2874 2887	a chest x-ray
+T61	problem 3689 3694	fluid
+T62	treatment 3175 3195	nebulizer treatments
+T63	test 425 436	endoscopies
+T64	problem 462 502	an extrinsic mass present on the stomach
+T65	test 361 381	histochemical stains
+T66	problem 531 555	increased abdominal pain
+T67	treatment 2953 2972	intravenous heparin
+T68	problem 2992 3010	pulmonary embolism
+T69	treatment 3658 3670	paracentesis
+T70	treatment 3393 3401	levaquin
+T71	problem 560 576	poor oral intake
+T72	problem 3564 3595	increasing abdominal distention
+T73	problem 1940 1947	gallops
+T74	problem 648 658	chest pain
+T75	problem 588 608	generalized weakness
+T76	treatment 3451 3458	heparin
+T77	problem 1930 1934	rubs
+T78	treatment 3924 3934	octreotide
+T79	problem 3975 3997	the gastric secretions
+T80	problem 2308 2324	poor oral intake
+T81	problem 661 680	shortness of breath
+T82	problem 687 692	cough
+T83	problem 4086 4127	an increasing left-sided pleural effusion
+T84	problem 3790 3819	persistent gastric secretions
+T85	problem 721 749	benign prostatic hypertrophy
+T86	treatment 2553 2571	intravenous fluids
+T87	problem 755 769	osteoarthritis
+T88	treatment 3822 3841	an nasogastric tube
+T89	problem 2651 2669	increased vomiting
+T90	treatment 3857 3870	decompression
+T91	problem 775 806	gastrointestinal adenocarcinoma
+T92	treatment 2483 2513	a patient-controlled analgesia
+T93	treatment 879 885	colace
+T94	problem 4623 4630	hypoxia
+T95	problem 4636 4647	dehydration
+T96	treatment 4347 4363	comfort measures
+T97	treatment 888 893	senna
+T98	treatment 4366 4374	morphine
+T99	problem 4495 4526	gastrointestinal adenocarcinoma
+T100	treatment 896 904	dulcolax
+T101	problem 4653 4658	ileus
+T102	treatment 907 914	tylenol
+T103	treatment 4130 4145	a thoracentesis
+T104	treatment 917 926	oxycodone
+T105	problem 4575 4595	aspiration pneumonia
+T106	problem 4601 4617	pulmonary emboli
+T107	treatment 4193 4207	a paracentesis
+T108	treatment 939 945	ambien
+R1	TeRP Arg1:T4 Arg2:T1
+R2	TeRP Arg1:T4 Arg2:T2
+R3	TeRP Arg1:T4 Arg2:T3
+R4	TrAP Arg1:T11 Arg2:T12
+R5	TrAP Arg1:T15 Arg2:T16
+R6	TrAP Arg1:T18 Arg2:T17
+R7	TeRP Arg1:T22 Arg2:T23
+R8	PIP Arg1:T33 Arg2:T29
+R9	TrAP Arg1:T37 Arg2:T38
+R10	TeRP Arg1:T39 Arg2:T40
+R11	TeRP Arg1:T39 Arg2:T34
+R12	TeRP Arg1:T39 Arg2:T35
+R13	PIP Arg1:T45 Arg2:T46
+R14	PIP Arg1:T47 Arg2:T42
+R15	TrAP Arg1:T49 Arg2:T12
+R16	TeRP Arg1:T50 Arg2:T51
+R17	TeRP Arg1:T54 Arg2:T55
+R18	TeRP Arg1:T54 Arg2:T56
+R19	TeRP Arg1:T54 Arg2:T57
+R20	PIP Arg1:T56 Arg2:T57
+R21	TeRP Arg1:T58 Arg2:T21
+R22	TeRP Arg1:T60 Arg2:T52
+R23	TeRP Arg1:T63 Arg2:T64
+R24	TrAP Arg1:T67 Arg2:T68
+R25	TrAP Arg1:T69 Arg2:T61
+R26	TrAP Arg1:T70 Arg2:T12
+R27	TrAP Arg1:T76 Arg2:T38
+R28	TrAP Arg1:T78 Arg2:T79
+R29	TrAP Arg1:T88 Arg2:T84
+R30	TrAP Arg1:T90 Arg2:T84
+R31	TrAP Arg1:T103 Arg2:T16
+R32	TrAP Arg1:T107 Arg2:T17

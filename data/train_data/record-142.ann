@@ -1,0 +1,350 @@
+T1	problem 1343 1351	cyanotic
+T2	problem 8029 8053	a more pervasive process
+T3	problem 4338 4350	old twi v4-6
+T4	problem 7959 7990	his new , severe global deficit
+T5	problem 8063 8084	anoxic encephalopathy
+T6	test 4314 4318	rate
+T7	test 4353 4356	ekg
+T8	problem 9487 9512	anemia of chronic disease
+T9	problem 682 688	sepsis
+T10	test 6190 6225	the left ventricular inflow pattern
+T11	problem 6235 6254	impaired relaxation
+T12	treatment 1096 1106	vancomycin
+T13	problem 1045 1049	mrsa
+T14	problem 1029 1040	pseudomonas
+T15	problem 6108 6140	mild ( 1+ ) aortic regurgitation
+T16	treatment 8739 8745	jevity
+T17	problem 1333 1338	dusky
+T18	problem 4423 4439	long qt interval
+T19	problem 4456 4477	st depressions v4 , 5
+T20	test 1818 1820	hr
+T21	treatment 8578 8592	the ventilator
+T22	problem 7242 7264	pseudomonas aeruginosa
+T23	test 1807 1809	bp
+T24	test 4442 4445	qtc
+T25	treatment 8936 8948	lansoprazole
+T26	test 1755 1757	ac
+T27	problem 6084 6105	aortic valve stenosis
+T28	problem 9474 9486	hyponatremia
+T29	treatment 8919 8922	asa
+T30	problem 4480 4503	mild st elevation in v3
+T31	test 4559 4562	cxr
+T32	treatment 8837 8847	vancomycin
+T33	test 3091 3093	vt
+T34	test 1490 1493	abg
+T35	treatment 634 657	subsequent tracheostomy
+T36	problem 555 574	respiratory failure
+T37	problem 593 608	pulmonary edema
+T38	treatment 8802 8807	lasix
+T39	test 3082 3086	peep
+T40	treatment 1502 1506	fio2
+T41	problem 4506 4518	old twi v4-6
+T42	treatment 9063 9073	metoprolol
+T43	problem 664 679	failure to wean
+T44	problem 6055 6069	mildly dilated
+T45	test 3074 3076	rr
+T46	treatment 4619 4642	s/p right pneumonectomy
+T47	test 3069 3071	ac
+T48	treatment 1437 1441	fio2
+T49	treatment 8988 8993	zosyn
+T50	test 1467 1469	hr
+T51	problem 4673 4681	effusion
+T52	treatment 8962 8969	heparin
+T53	problem 4645 4665	blunting of left cpa
+T54	test 1478 1480	bp
+T55	test 3103 3107	fio2
+T56	treatment 9178 9195	albuterol inhaler
+T57	problem 1992 2018	non-small cell lung cancer
+T58	treatment 9228 9234	flagyl
+T59	test 1786 1790	fi02
+T60	problem 4684 4717	new lower left lateral cw opacity
+T61	problem 4727 4750	loculated pleural fluid
+T62	treatment 2019 2026	s/p xrt
+T63	treatment 9164 9175	ipratropium
+T64	treatment 5631 5650	right pneumonectomy
+T65	problem 6266 6294	a small pericardial effusion
+T66	treatment 4293 4311	occasional v-paced
+T67	test 4834 4845	resting wma
+T68	test 1777 1779	vt
+T69	problem 9383 9404	pseudomonal pneumonia
+T70	test 4764 4768	echo
+T71	problem 9307 9328	anoxic encephalopathy
+T72	treatment 101 109	medicine
+T73	test 1768 1772	peep
+T74	problem 9405 9420	volume overload
+T75	problem 4771 4820	left-to-right shunt across the interatrial septum
+T76	test 1892 1895	sbp
+T77	problem 9355 9382	chronic respiratory failure
+T78	treatment 8620 8635	a morphine drip
+T79	test 4823 4827	lvef
+T80	test 1760 1762	rr
+T81	treatment 9600 9623	s/p right pneumonectomy
+T82	problem 9642 9652	recurrence
+T83	problem 9528 9554	non-small cell lung cancer
+T84	problem 4854 4883	mid to distal septal akinesis
+T85	problem 4886 4901	apical akinesis
+T86	problem 6151 6179	trivial mitral regurgitation
+T87	test 1631 1634	ekg
+T88	problem 1643 1656	acute changes
+T89	treatment 9567 9579	chemotherapy
+T90	problem 4904 4933	inferior akinesis/hypokinesis
+T91	problem 4940 4979	mid to distal anterolateral hypokinesis
+T92	test 1626 1628	bp
+T93	test 5264 5276	this head ct
+T94	problem 9765 9777	hypertension
+T95	problem 9655 9684	chronic left pleural effusion
+T96	treatment 2031 2043	chemotherapy
+T97	problem 4982 4990	akinesis
+T98	problem 2105 2115	recurrence
+T99	problem 9690 9709	sick sinus syndrome
+T100	treatment 2063 2086	s/p right pneumonectomy
+T101	problem 5005 5020	apical thrombus
+T102	problem 3403 3405	s4
+T103	problem 5053 5055	ar
+T104	test 3901 3907	lymphs
+T105	test 3886 3891	neuts
+T106	test 3873 3876	rdw
+T107	problem 3312 3347	ronchorous breath sounds left chest
+T108	treatment 3437 3440	peg
+T109	test 3981 3987	urea n
+T110	test 3938 3943	basos
+T111	problem 6337 6346	tamponade
+T112	problem 5074 5076	tr
+T113	test 3928 3931	eos
+T114	problem 5058 5068	trivial mr
+T115	problem 9421 9458	chronic obstructive pulmonary disease
+T116	test 5090 5097	ct head
+T117	problem 6942 6963	epileptiform features
+T118	problem 3411 3417	murmur
+T119	test 3157 3173	painful stimulus
+T120	test 3916 3921	monos
+T121	problem 5239 5258	subacute infarction
+T122	test 7789 7796	head ct
+T123	test 3995 4000	creat
+T124	test 3050 3052	hr
+T125	problem 5100 5128	new rounded low-density area
+T126	problem 6895 6936	subcortical dysfunction on the right side
+T127	test 3968 3975	glucose
+T128	problem 5420 5434	fluid overload
+T129	test 5296 5310	the evaluation
+T130	test 3950 3959	plt count
+T131	treatment 2548 2572	status post tracheostomy
+T132	problem 5409 5416	failure
+T133	treatment 8529 8550	comfort measures only
+T134	test 3350 3369	limited examination
+T135	problem 5542 5563	so-called pseudotumor
+T136	test 7799 7802	mri
+T137	test 4036 4044	chloride
+T138	test 6310 6333	echocardiographic signs
+T139	test 4020 4029	potassium
+T140	test 5664 5668	echo
+T141	treatment 8597 8612	all medications
+T142	test 3031 3033	bp
+T143	test 5582 5604	the recent chest x-ray
+T144	problem 5452 5512	small loculated pleural fluid collection along the periphery
+T145	test 2924 2940	painful stimulus
+T146	test 4007 4013	sodium
+T147	test 4080 4087	lactate
+T148	test 5707 5719	overall lvef
+T149	test 4094 4096	k+
+T150	problem 693 712	c.difficile colitis
+T151	test 4051 4060	total co2
+T152	test 5777 5789	the basal lv
+T153	problem 5797 5809	hyperdynamic
+T154	problem 5818 5850	regional contraction abnormality
+T155	treatment 971 973	ac
+T156	test 4066 4075	anion gap
+T157	treatment 726 736	vancomycin
+T158	test 4152 4156	pco2
+T159	treatment 741 747	flagyl
+T160	test 6358 6361	eeg
+T161	test 4162 4164	ph
+T162	problem 910 930	ventilator dependent
+T163	problem 6364 6394	markedly abnormal portable eeg
+T164	problem 6462 6495	the bursts of generalized slowing
+T165	problem 6402 6450	the voltage suppression over the left hemisphere
+T166	problem 6500 6524	right hemisphere slowing
+T167	test 4136 4143	art po2
+T168	treatment 1076 1081	zosyn
+T169	problem 6527 6548	the first abnormality
+T170	problem 6668 6712	widespread cortical dysfunction on that side
+T171	problem 6575 6639	material ( such as subdural fluid ) interposed between the brain
+T172	test 4191 4198	base xs
+T173	treatment 4204 4213	intubated
+T174	test 4174 4183	total co2
+T175	problem 6783 6806	the generalized slowing
+T176	problem 6817 6865	a non specific dysfunction in midline structures
+T177	treatment 9555 9562	s/p xrt
+T178	test 3255 3258	jvp
+T179	problem 7487 7510	a pseudomonal pneumonia
+T180	test 1008 1023	sputum cultures
+T181	problem 9459 9473	bronchiectasis
+T182	problem 4271 4290	atrial fibrillation
+T183	problem 7690 7731	his recent acute decline in mental status
+T184	treatment 4216 4225	intubated
+T185	test 7820 7832	this work-up
+T186	problem 7846 7880	a small left basal ganglia infarct
+T187	problem 7890 7903	cardioembolic
+T188	test 4226 4229	ekg
+T189	treatment 3120 3129	intubated
+T190	treatment 2610 2639	status post partial colectomy
+T191	treatment 2502 2532	status post peg tube placement
+T192	problem 1921 1927	c.diff
+T193	test 5335 5344	cta chest
+T194	treatment 2422 2432	vancomycin
+T195	problem 2389 2395	sepsis
+T196	problem 2363 2384	recent mrsa pneumonia
+T197	test 7000 7039	stool clostridium difficile toxin assay
+T198	problem 5932 5938	masses
+T199	treatment 1938 1944	flagyl
+T200	problem 2189 2208	copd/bronchiectasis
+T201	problem 1358 1375	stopped breathing
+T202	problem 3268 3309	bronchial breathing over right hemithorax
+T203	treatment 9710 9738	status post pm/icd placement
+T204	problem 3465 3473	drainage
+T205	test 3721 3737	painful stimulus
+T206	test 5897 5908	prior study
+T207	problem 3212 3228	sclera anicteric
+T208	problem 3184 3209	pupils minimally reactive
+T209	problem 2324 2347	left femoral av fistula
+T210	problem 3611 3623	sacral edema
+T211	problem 2310 2320	depression
+T212	problem 3626 3642	cool extremities
+T213	problem 2590 2605	failure to wean
+T214	test 7119 7133	fungal culture
+T215	problem 9742 9761	copd/bronchiectasis
+T216	test 3686 3705	limited examination
+T217	problem 5942 5949	thrombi
+T218	problem 2303 2306	bph
+T219	test 2276 2285	last echo
+T220	treatment 3554 3559	foley
+T221	problem 3577 3608	2+ edema both upper extremities
+T222	treatment 9119 9143	protein / soy supplement
+T223	test 3828 3831	hct
+T224	test 3841 3844	mcv
+T225	problem 2437 2457	c. difficile colitis
+T226	test 3850 3853	mch
+T227	treatment 2471 2477	flagyl
+T228	test 3861 3865	mchc
+T229	test 3793 3796	wbc
+T230	test 3803 3806	rbc
+T231	test 7097 7110	fluid culture
+T232	test 3816 3819	hgb
+T233	problem 7414 7433	respiratory failure
+T234	problem 7461 7475	mucus plugging
+T235	test 4395 4399	rate
+T236	problem 9781 9784	cad
+T237	treatment 4374 4392	occasional v-paced
+T238	problem 9856 9859	bph
+T239	problem 9877 9900	left femoral av fistula
+T240	problem 5363 5381	pulmonary embolism
+T241	problem 9329 9354	acute respiratory failure
+T242	problem 2212 2224	hypertension
+T243	test 5995 6007	echo windows
+T244	problem 9863 9873	depression
+T245	problem 4367 4371	afib
+T246	problem 9810 9813	chf
+T247	test 1886 1888	bp
+T248	problem 2228 2231	cad
+T249	test 7814 7817	eeg
+T250	test 7067 7090	spinal fluid gram stain
+T251	problem 2257 2260	chf
+T252	problem 547 552	stemi
+T253	test 9829 9838	last echo
+T254	treatment 1839 1842	ivf
+T255	test 9819 9821	ef
+T256	test 7341 7354	blood culture
+T257	treatment 122 134	sulfonamides
+T258	treatment 765 773	levophed
+T259	treatment 9975 9985	vancomycin
+T260	problem 9942 9948	sepsis
+T261	problem 9916 9937	recent mrsa pneumonia
+T262	test 2266 2268	ef
+T263	problem 2118 2147	chronic left pleural effusion
+T264	test 4103 4106	abg
+T265	test 310 325	lumbar puncture
+T266	treatment 4565 4568	ett
+T267	problem 2153 2156	sss
+T268	treatment 4591 4599	pm wires
+T269	test 7211 7225	sputum culture
+T270	treatment 2157 2185	status post pm/icd placement
+T271	test 7176 7189	viral culture
+T272	problem 1271 1279	coughing
+T273	test 3535 3544	palpation
+T274	problem 3520 3529	grimacing
+T275	test 7308 7321	urine culture
+T276	treatment 1145 1155	vancomycin
+T277	test 7146 7163	acid fast culture
+T278	problem 3489 3499	hypoactive
+T279	problem 240 268	chronic respiratory distress
+T280	treatment 951 953	ps
+T281	test 7805 7807	lp
+T282	test 7278 7291	blood culture
+T283	treatment 825 842	continued weaning
+T284	treatment 1733 1751	further management
+T285	treatment 10101 10125	status post tracheostomy
+T286	problem 10143 10158	failure to wean
+T287	test 1906 1911	stool
+T288	treatment 10163 10192	status post partial colectomy
+T289	problem 1551 1561	bp dropped
+T290	test 1449 1455	vitals
+T291	treatment 1597 1603	ns ivf
+T292	problem 9990 10010	c. difficile colitis
+T293	treatment 10055 10085	status post peg tube placement
+T294	test 1411 1416	pulse
+T295	treatment 10024 10030	flagyl
+T296	test 5755 5767	echo windows
+R1	PIP Arg1:T4 Arg2:T2
+R2	PIP Arg1:T4 Arg2:T5
+R3	TeRP Arg1:T10 Arg2:T11
+R4	TrAP Arg1:T12 Arg2:T13
+R5	TrAP Arg1:T12 Arg2:T14
+R6	TrAP Arg1:T35 Arg2:T36
+R7	PIP Arg1:T36 Arg2:T37
+R8	PIP Arg1:T53 Arg2:T51
+R9	PIP Arg1:T60 Arg2:T61
+R10	TrAP Arg1:T62 Arg2:T57
+R11	TrAP Arg1:T81 Arg2:T82
+R12	TeRP Arg1:T87 Arg2:T88
+R13	TrAP Arg1:T89 Arg2:T83
+R14	TrAP Arg1:T96 Arg2:T57
+R15	TrAP Arg1:T100 Arg2:T98
+R16	PIP Arg1:T125 Arg2:T121
+R17	TeRP Arg1:T138 Arg2:T111
+R18	TeRP Arg1:T143 Arg2:T135
+R19	TeRP Arg1:T143 Arg2:T144
+R20	TeRP Arg1:T152 Arg2:T153
+R21	TeRP Arg1:T152 Arg2:T154
+R22	TrAP Arg1:T157 Arg2:T150
+R23	TrAP Arg1:T159 Arg2:T150
+R24	PIP Arg1:T163 Arg2:T164
+R25	PIP Arg1:T163 Arg2:T165
+R26	PIP Arg1:T163 Arg2:T166
+R27	TrAP Arg1:T168 Arg2:T13
+R28	TrAP Arg1:T168 Arg2:T14
+R29	PIP Arg1:T169 Arg2:T170
+R30	PIP Arg1:T169 Arg2:T171
+R31	PIP Arg1:T175 Arg2:T176
+R32	TrAP Arg1:T177 Arg2:T83
+R33	TeRP Arg1:T180 Arg2:T14
+R34	TeRP Arg1:T180 Arg2:T13
+R35	TeRP Arg1:T185 Arg2:T186
+R36	TeRP Arg1:T185 Arg2:T187
+R37	PIP Arg1:T186 Arg2:T187
+R38	TrAP Arg1:T194 Arg2:T195
+R39	TrAP Arg1:T194 Arg2:T196
+R40	TrAP Arg1:T199 Arg2:T192
+R41	TrAP Arg1:T203 Arg2:T99
+R42	TrAP Arg1:T227 Arg2:T225
+R43	PIP Arg1:T233 Arg2:T234
+R44	PIP Arg1:T233 Arg2:T179
+R45	TrAP Arg1:T258 Arg2:T150
+R46	TrAP Arg1:T259 Arg2:T260
+R47	TrAP Arg1:T259 Arg2:T261
+R48	TeRP Arg1:T269 Arg2:T22
+R49	TrAP Arg1:T270 Arg2:T267
+R50	TeRP Arg1:T273 Arg2:T274
+R51	TrAP Arg1:T285 Arg2:T286
+R52	TeCP Arg1:T287 Arg2:T192
+R53	TrAP Arg1:T291 Arg2:T289
+R54	TrAP Arg1:T295 Arg2:T292

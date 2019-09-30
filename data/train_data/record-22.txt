@@ -1,0 +1,46 @@
+Admission Date :
+2018-10-25
+Discharge Date :
+2018-11-01
+Date of Birth :
+1943-11-06
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Kelly L. Bradley , M.D.
+Addendum :
+Explained to pt which of the meds he should no longer take that he was taking pre-admission .
+Also , explained which meds are new .
+Wife verbally agrees to understanding .
+Discharge Medications :
+1. Diltiazem HCl 240 mg Capsule , Sustained Release Sig : One ( 1 ) Capsule , Sustained Release PO DAILY ( Daily ).
+2. Simvastatin 40 mg Tablet Sig: One ( 1 ) Tablet PO DAILY ( Daily ).
+3. Albuterol-Ipratropium 103-18 mcg / Actuation Aerosol Sig : 02-26 Puffs Inhalation Q6H ( every 6 hours ) as needed .
+4. Fluticasone-Salmeterol 250-50 mcg / Dose Disk with Device Sig : One ( 1 ) Disk with Device Inhalation BID ( 2 times a day ).
+5. Terazosin 1 mg Capsule Sig : Two ( 2 ) Capsule PO HS ( at bedtime ).
+6. Acetaminophen 325 mg Tablet Sig : 1-2 Tablets PO Q4-6H ( every 4 to 6 hours ) as needed .
+7. Nimodipine 30 mg Capsule Sig : Two ( 2 ) Capsule PO Q4H ( every 4 hours ) for 2 weeks .
+Disp :* 168 Capsule (s)* Refills :* 0 *
+8. Ferrous Sulfate 325 ( 65 ) mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+9. Aspirin 81 mg Tablet , Chewable Sig : One ( 1 ) Tablet , Chewable PO DAILY ( Daily ).
+10. Ipratropium Bromide 0.02 % Solution Sig : One ( 1 ) Inhalation Q6H ( every 6 hours ).
+11. Simvastatin 40 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+12. Hydralazine 25 mg Tablet Sig : 1.5 Tablets PO TID ( 3 times a day ).
+Disp :* 135 Tablet (s)* Refills :* 2 *
+13. Metoprolol Tartrate 25 mg Tablet Sig : 1.5 Tablets PO BID ( 2 times a day ).
+Disp :* 90 Tablet (s)* Refills :* 2 *
+14. Isosorbide Dinitrate 20 mg Tablet Sig : One ( 1 ) Tablet PO TID ( 3 times a day ).
+Disp :* 90 Tablet (s)* Refills :* 2 *
+15. Clopidogrel 75 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+16. Glipizide 5 mg Tablet Sig : One ( 1 ) Tablet PO once a day .
+Disp :* 30 Tablet (s)* Refills :* 2 *
+Discharge Disposition :
+Home with Service
+Jacob Montegut MD 71-786
+Completed by : Oscar Jerome Julian MD 39-824 2018-11-01 @ 1610
+Signed electronically by : DR. Joyce Arney on : MON 2018-12-03 10:55 PM
+( End of Report )

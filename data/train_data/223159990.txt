@@ -1,0 +1,25 @@
+223159990
+PUOMC
+3546292
+181083
+366324
+7/31/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+AKOTEBONTKAYS , JUANQUINTLEO
+MRN :
+3546292
+Age :
+37y
+REGISTRATION DATE :
+07/31/2000 07:36 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , AKOTEBONTKAYS , JUANQUINTLEO arrived in the Emergency Department at Ph University Of Medical Center on 07/31/2000 07:36 PM .
+The patient presented with a chief complaint of FEVER .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO PH UNIVERSITY OF MEDICAL CENTER .
+Your patient was admitted under the care of ANER , AEA M with a preliminary diagnosis of LINE SEPSIS .
+If you need additional information please call 639-873-2993 .

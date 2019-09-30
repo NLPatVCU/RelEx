@@ -1,0 +1,38 @@
+T1	test 1414 1425	pelvic exam
+T2	problem 1534 1540	masses
+T3	test 1201 1211	heart rate
+T4	test 1273 1283	percussion
+T5	problem 2138 2153	persistent pain
+T6	problem 1085 1105	known drug allergies
+T7	problem 260 279	undesired fertility
+T8	treatment 504 517	birth control
+T9	test 1256 1268	auscultation
+T10	treatment 1957 2031	liposuction of her abdomen , inner thighs , hips , flanks , chest and arms
+T11	treatment 411 444	definitive surgical sterilization
+T12	test 1173 1187	blood pressure
+T13	problem 1544 1554	tenderness
+T14	test 1158 1164	weight
+T15	treatment 2482 2490	percocet
+T16	treatment 2471 2477	motrin
+T17	treatment 679 694	both procedures
+T18	problem 1510 1519	nontender
+T19	problem 2212 2222	complaints
+T20	treatment 1741 1753	falope rings
+T21	problem 1756 1780	the estimated blood loss
+T22	treatment 1916 1927	the surgery
+T23	problem 1369 1381	nondistended
+T24	problem 956 984	sexually transmitted disease
+T25	problem 285 304	undesired adiposity
+T26	treatment 923 939	ortho-tri-cyclen
+T27	treatment 785 797	appendectomy
+T28	problem 1357 1366	nontender
+T29	treatment 1676 1719	an unremarkable laparoscopic tubal ligation
+T30	treatment 1051 1067	ortho tri-cyclen
+T31	treatment 2249 2258	her foley
+T32	problem 1230 1236	masses
+T33	problem 849 877	spontaneous vaginal delivery
+T34	treatment 610 638	liposuction of varying areas
+T35	test 1131 1137	height
+T36	problem 2238 2246	afebrile
+T37	treatment 546 573	definitive surgical therapy
+T38	treatment 1829 1846	intravenous fluid

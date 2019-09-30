@@ -1,0 +1,461 @@
+T1	problem 11226 11229	mmp
+T2	problem 11287 11309	a hip and arm fracture
+T3	problem 8853 8880	bilateral pleural effusions
+T4	problem 8917 8962	compressive atelectasis at the left lung base
+T5	test 8803 8840	ct of the abdomen without iv contrast
+T6	test 8770 8790	iv nor oral contrast
+T7	test 8693 8716	contiguous axial images
+T8	test 7178 7185	chol/hd
+T9	problem 8604 8618	abdominal pain
+T10	problem 8623 8635	hypertension
+T11	problem 8571 8592	mental status changes
+T12	problem 8521 8534	renal failure
+T13	problem 11833 11853	right wrist fracture
+T14	treatment 11854 11858	orif
+T15	test 9855 9891	ct of the pelvis without iv contrast
+T16	problem 9925 9953	a small amount of free fluid
+T17	problem 9842 9852	nondilated
+T18	test 7174 7177	hdl
+T19	treatment 10253 10263	a catheter
+T20	problem 10456 10496	a fracture of the proximal right humerus
+T21	problem 2483 2497	edema to knees
+T22	problem 10894 10921	bilateral pleural effusions
+T23	problem 10955 10989	left-sided compressive atelectasis
+T24	test 2687 2696	anion gap
+T25	test 8507 8518	iv contrast
+T26	problem 1912 1940	lower gastrointestinal bleed
+T27	treatment 8405 8416	lovenox+asa
+T28	problem 8350 8360	ms changes
+T29	problem 8388 8401	bloody lavage
+T30	problem 1961 1976	spinal stenosis
+T31	problem 8363 8371	abd pain
+T32	problem 3245 3248	lad
+T33	problem 1066 1069	sob
+T34	test 7030 7037	calcium
+T35	test 7059 7066	cholest
+T36	test 2612 2617	creat
+T37	problem 9698 9737	a small amount of nondependent free air
+T38	test 7226 7235	ldl(calc)
+T39	problem 1061 1063	cp
+T40	treatment 9062 9086	a dual chamber pacemaker
+T41	treatment 9160 9176	nasogastric tube
+T42	test 7990 7996	methgb
+T43	test 7389 7393	type
+T44	test 2598 2604	urea n
+T45	problem 8975 9007	coronary vascular calcifications
+T46	problem 4688 4699	underfilled
+T47	test 7969 7976	calchct
+T48	test 7965 7968	hgb
+T49	test 8075 8081	freeca
+T50	test 8157 8180	ct abdomen w/o contrast
+T51	problem 12890 12908	multiorgan failure
+T52	treatment 12828 12835	tylenol
+T53	treatment 12790 12795	imdur
+T54	test 483 505	exploratory laparotomy
+T55	problem 523 546	intra-abdominal abscess
+T56	problem 568 612	gross soilage with bile and gastric contents
+T57	problem 551 562	peritonitis
+T58	test 395 423	examination under anesthesia
+T59	problem 12909 12929	duodenal perforation
+T60	test 7423 7425	o2
+T61	treatment 12617 12622	lasix
+T62	test 7418 7422	fio2
+T63	test 7426 7430	flow
+T64	treatment 12491 12499	pressors
+T65	treatment 12468 12487	ventilatory support
+T66	treatment 12770 12779	glipizide
+T67	treatment 12733 12736	asa
+T68	treatment 12648 12658	levothyrox
+T69	test 7247 7251	trig
+T70	test 7367 7376	blood gas
+T71	problem 1015 1018	loc
+T72	test 7435 7439	pco2
+T73	treatment 785 814	a right femoral arterial line
+T74	problem 934 956	a hip and arm fracture
+T75	test 7443 7450	calhco3
+T76	problem 1024 1043	head or neck trauma
+T77	problem 1072 1088	light headedness
+T78	test 7431 7434	po2
+T79	problem 992 1009	nicholas seizures
+T80	test 7440 7442	ph
+T81	treatment 511 519	drainage
+T82	problem 1632 1653	transfusion dependent
+T83	problem 1623 1629	anemia
+T84	test 7413 7417	peep
+T85	test 6671 6674	ast
+T86	treatment 750 766	tube gastrostomy
+T87	test 6667 6670	alt
+T88	test 6675 6682	ld(ldh)
+T89	treatment 631 644	wide drainage
+T90	problem 648 683	perforated posterior duodenal ulcer
+T91	test 6683 6690	ck(cpk)
+T92	treatment 725 744	feeding jejunostomy
+T93	test 6413 6420	glucose
+T94	test 1788 1804	a b/l creatinine
+T95	problem 1755 1782	chronic renal insufficiency
+T96	problem 1840 1868	first degree a-v heart block
+T97	test 6436 6437	k
+T98	problem 11991 12014	worsening mental status
+T99	problem 11933 11947	abdominal pain
+T100	treatment 1874 1894	beta blocker therapy
+T101	test 6427 6432	creat
+T102	treatment 11807 11828	right orif of the hip
+T103	treatment 1981 1990	pacemaker
+T104	problem 2049 2072	symptomatic bradycardia
+T105	test 6707 6714	totbili
+T106	test 6699 6706	amylase
+T107	problem 11950 11960	distention
+T108	problem 12074 12082	free air
+T109	treatment 1993 2033	ddd dual chamber rate response pacemaker
+T110	test 6715 6722	dirbili
+T111	problem 12019 12032	renal failure
+T112	test 2312 2313	t
+T113	problem 11448 11457	a low hct
+T114	test 6105 6107	pt
+T115	test 2334 2335	r
+T116	problem 2357 2366	somnolent
+T117	treatment 429 462	placement of splint , right elbow
+T118	problem 2369 2377	confused
+T119	problem 11543 11549	anemia
+T120	problem 11560 11581	transfusion dependant
+T121	test 7786 7793	lactate
+T122	treatment 11679 11682	iss
+T123	problem 11662 11664	dm
+T124	test 7405 7412	tidal v
+T125	problem 2518 2541	pain in r arm and r hip
+T126	problem 11648 11652	gerd
+T127	problem 11686 11689	pmr
+T128	treatment 689 719	internal and external drainage
+T129	test 2582 2589	glucose
+T130	test 6116 6119	plt
+T131	test 2626 2632	sodium
+T132	problem 12303 12338	perforated posterior duodenal ulcer
+T133	test 6131 6134	ptt
+T134	problem 230 242	hip fracture
+T135	treatment 12286 12299	wide drainage
+T136	treatment 12344 12374	internal and external drainage
+T137	problem 152 176	known allergies to drugs
+T138	treatment 12380 12399	feeding jejunostomy
+T139	treatment 12405 12421	tube gastrostomy
+T140	problem 1689 1711	polymyalgia rheumatica
+T141	problem 1305 1310	bleed
+T142	treatment 342 389	open placement of dynamic hip screw , right hip
+T143	problem 12448 12462	spiking fevers
+T144	problem 1247 1269	r humerus and r hip fx
+T145	test 6150 6157	inr(pt)
+T146	problem 1300 1302	fx
+T147	test 6014 6021	polychr
+T148	test 12035 12042	ct scan
+T149	problem 12087 12102	massive ascites
+T150	treatment 12118 12125	surgery
+T151	problem 1357 1380	coronary artery disease
+T152	test 5983 5990	anisocy
+T153	test 1460 1483	cardiac catheterization
+T154	problem 1393 1431	non-st-elevation myocardial infarction
+T155	test 5696 5699	mch
+T156	test 12138 12160	exploratory laparotomy
+T157	problem 12178 12201	intra-abdominal abscess
+T158	problem 12206 12217	peritonitis
+T159	problem 12223 12267	gross soilage with bile and gastric contents
+T160	test 1562 1582	an ejection fraction
+T161	problem 1553 1556	chf
+T162	treatment 1489 1536	left anterior descending artery stent placement
+T163	test 5902 5907	metas
+T164	test 1675 1678	hct
+T165	treatment 307 336	closed reduction of right hip
+T166	treatment 12166 12174	drainage
+T167	test 5891 5895	baso
+T168	treatment 5286 5301	successful ptca
+T169	problem 4347 4379	more severe mitral regurgitation
+T170	problem 1828 1835	syncope
+T171	problem 4285 4341	new inferior and inferolateral wall motion abnormalities
+T172	treatment 5306 5334	stenting of the proximal lad
+T173	problem 3662 3713	inferolateral , inferior and mid septal hypokinesis
+T174	test 4403 4423	coronary angiography
+T175	problem 4437 4485	single vessel disease in a right dominant system
+T176	problem 3611 3653	resting regional wall motion abnormalities
+T177	problem 3372 3381	elongated
+T178	test 4390 4394	cath
+T179	problem 3229 3242	1st deg block
+T180	test 5680 5683	rbc
+T181	test 3200 3207	inr(pt)
+T182	test 5655 5675	complete blood count
+T183	problem 1717 1729	hypertension
+T184	test 3143 3152	plt count
+T185	test 3087 3096	polychrom
+T186	test 3069 3077	microcyt
+T187	test 5684 5687	hgb
+T188	test 3032 3041	poikilocy
+T189	test 2958 2961	eos
+T190	test 5874 5880	lymphs
+T191	test 2998 3007	hypochrom
+T192	test 5881 5886	monos
+T193	test 2921 2926	bands
+T194	treatment 5340 5397	overlapping 2.25 x 13 mm and 2.25 x 18 mm hepacoat stents
+T195	test 2946 2951	monos
+T196	test 2906 2911	neuts
+T197	test 7797 7798	k
+T198	problem 5427 5437	dissection
+T199	test 2791 2794	wbc
+T200	test 2863 2867	mchc
+T201	problem 5498 5532	one vessel coronary artery disease
+T202	test 2843 2846	mcv
+T203	test 7799 7801	cl
+T204	problem 3935 3951	mildly thickened
+T205	test 2722 2729	ck(cpk)
+T206	test 7399 7404	rates
+T207	test 2755 2760	ck-mb
+T208	test 5709 5715	plt ct
+T209	test 2655 2663	chloride
+T210	problem 1735 1749	hypothyroidism
+T211	problem 3251 3272	new twi inf/lat leads
+T212	treatment 618 626	exposure
+T213	test 5862 5867	neuts
+T214	test 2670 2679	total co2
+T215	problem 3849 3865	mildly thickened
+T216	test 2639 2648	potassium
+T217	test 5868 5873	bands
+T218	test 6128 6130	pt
+T219	treatment 12749 12758	toprol xl
+T220	test 6110 6113	ptt
+T221	test 2931 2937	lymphs
+T222	test 7014 7021	albumin
+T223	test 6158 6162	lplt
+T224	test 5991 5997	poiklo
+T225	treatment 12692 12702	famotidine
+T226	test 5975 5982	hypochr
+T227	test 6006 6013	microcy
+T228	test 2875 2878	rdw
+T229	treatment 12714 12720	fe so4
+T230	test 5998 6005	macrocy
+T231	test 5896 5901	atyps
+T232	test 2319 2321	bp
+T233	test 5705 5708	rdw
+T234	problem 859 862	mmp
+T235	test 5887 5890	eos
+T236	test 5688 5691	hct
+T237	test 7046 7053	uricacd
+T238	test 5676 5679	wbc
+T239	test 5700 5704	mchc
+T240	test 2329 2330	p
+T241	problem 1602 1617	diabetes type 2
+T242	problem 5538 5596	moderately elevated right and left sided filling pressures
+T243	test 7552 7555	art
+T244	test 7506 7509	art
+T245	treatment 5602 5641	successful stenting of the proximal lad
+T246	problem 4873 4892	significant disease
+T247	test 5692 5695	mcv
+T248	problem 5234 5262	moderate renal insufficiency
+T249	test 5265 5275	creatinine
+T250	problem 5406 5423	residual stenosis
+T251	test 5098 5102	a pa
+T252	problem 5049 5080	moderate pulmonary hypertension
+T253	problem 4726 4745	obstructive disease
+T254	test 5114 5131	the cardiac index
+T255	problem 4614 4622	occluded
+T256	test 5171 5192	left ventriculography
+T257	problem 4527 4556	serial 90% lesions proximally
+T258	problem 4790 4826	hemodynamically significant stenoses
+T259	problem 4928 4975	elevated right and left sided filling pressures
+T260	test 4981 4999	a mean ra pressure
+T261	test 4898 4918	resting hemodynamics
+T262	test 5016 5037	a mean wedge pressure
+T263	test 7794 7796	na
+T264	test 7394 7398	temp
+T265	problem 891 908	a mechanical fall
+T266	problem 959 963	fall
+T267	test 7186 7193	ldlcalc
+T268	test 7977 7983	o2 sat
+T269	problem 3332 3350	moderately dilated
+T270	problem 3275 3298	new st depressions v4-6
+T271	test 7778 7785	glucose
+T272	test 7802 7809	calhco3
+T273	test 3299 3303	echo
+T274	test 7043 7045	mg
+T275	test 7022 7029	globuln
+T276	test 3387 3424	the left ventricular wall thicknesses
+T277	problem 3492 3543	mild regional left ventricular systolic dysfunction
+T278	test 3438 3470	the left ventricular cavity size
+T279	test 7006 7013	totprot
+T280	problem 11965 11985	coffee ground emesis
+T281	test 3554 3588	left ventricular systolic function
+T282	problem 3592 3608	mildly depressed
+T283	problem 1180 1205	pain in her r arm and hip
+T284	test 7166 7173	triglyc
+T285	test 3014 3022	anisocyt
+T286	problem 1122 1130	the fall
+T287	test 7054 7058	iron
+T288	test 2968 2973	basos
+T289	test 2509 2515	pulses
+T290	test 2339 2341	o2
+T291	test 7038 7042	phos
+T292	problem 12930 12945	multiple trauma
+T293	test 6691 6698	alkphos
+T294	treatment 5460 5464	ptca
+T295	test 5955 5974	red cell morphology
+T296	test 6441 6445	hco3
+T297	test 3126 3133	plt smr
+T298	test 5849 5861	differential
+T299	test 6438 6440	cl
+T300	test 3051 3059	macrocyt
+T301	test 3719 3749	right ventricular chamber size
+T302	test 2818 2821	hgb
+T303	test 6957 6964	ctropnt
+T304	problem 6987 6995	acute mi
+T305	test 6821 6827	lipase
+T306	test 3179 3181	pt
+T307	test 4181 4196	the lv function
+T308	test 3762 3797	right ventricular systolic function
+T309	test 6880 6887	ctropnt
+T310	test 3189 3192	ptt
+T311	test 6794 6807	other enzymes
+T312	test 6135 6142	plt smr
+T313	treatment 12807 12817	prednisone
+T314	test 6647 6654	enzymes
+T315	test 6143 6149	plt ct
+T316	test 2805 2808	rbc
+T317	test 6122 6125	inr
+T318	test 6810 6820	bilirubins
+T319	test 2830 2833	hct
+T320	test 6387 6396	chemistry
+T321	problem 1317 1328	dislocation
+T322	test 6085 6102	basic coagulation
+T323	test 1272 1291	ct of head and neck
+T324	test 6446 6451	angap
+T325	test 6421 6426	urean
+T326	treatment 12671 12681	lisinopril
+T327	test 6657 6666	bilirubin
+T328	test 6433 6435	na
+T329	test 2852 2855	mch
+T330	test 7154 7165	cholesterol
+T331	treatment 11697 11707	prednisone
+T332	problem 10737 10748	perforation
+T333	problem 10592 10641	free air and free fluid in the pelvis and abdomen
+T334	treatment 11667 11676	glipizide
+T335	test 7377 7388	blood gases
+T336	treatment 10504 10523	orthopedic hardware
+T337	problem 10532 10555	beam hardening artifact
+T338	test 10789 10807	this limited study
+T339	test 7146 7151	lipid
+T340	treatment 11655 11658	ppi
+T341	test 6866 6871	ck-mb
+T342	test 6996 7005	chemistry
+T343	test 6851 6854	cpk
+T344	problem 10995 11026	right proximal humeral fracture
+T345	treatment 11639 11644	lasix
+T346	test 11050 11059	the study
+T347	test 6855 6865	isoenzymes
+T348	treatment 11039 11047	fixation
+T349	problem 11462 11474	major trauma
+T350	problem 10035 10061	a small amount of free air
+T351	test 4131 4146	the prior study
+T352	treatment 7608 7617	intubated
+T353	treatment 7472 7479	intubat
+T354	problem 11490 11508	new changes on ekg
+T355	treatment 7480 7484	vent
+T356	problem 10114 10137	vascular calcifications
+T357	test 7459 7464	aado2
+T358	problem 2425 2430	m/r/g
+T359	problem 4078 4098	pericardial effusion
+T360	problem 10191 10209	subcutaneous edema
+T361	treatment 7465 7471	req o2
+T362	test 7451 7458	base xs
+T363	problem 10416 10449	degenerative changes of the spine
+T364	treatment 11514 11521	pressor
+T365	problem 11376 11408	injuries to her shoulder and hip
+T366	treatment 9010 9028	a nasogastric tube
+T367	problem 1094 1103	dizziness
+T368	problem 11319 11323	fall
+T369	test 9272 9294	this noncontrast study
+T370	problem 11244 11261	a mechanical fall
+T371	problem 11431 11434	cad
+T372	test 8067 8074	calcium
+T373	problem 9358 9387	a 1.8 cm exophytic renal cyst
+T374	problem 9410 9426	a similar lesion
+T375	test 7952 7962	cooximetry
+T376	problem 11439 11442	chf
+T377	problem 9507 9530	vascular calcifications
+T378	test 7928 7949	hemogloblin fractions
+T379	test 6872 6879	mb indx
+T380	test 7754 7777	miscellaneous chemistry
+T381	problem 9533 9561	a small amount of free fluid
+T382	test 7984 7989	cohgb
+T383	problem 3871 3891	aortic regurgitation
+T384	test 8226 8248	ct pelvis w/o contrast
+T385	test 8200 8223	ct abdomen w/o contrast
+T386	problem 2461 2468	s/nt/nd
+T387	problem 12574 12581	expired
+T388	problem 4013 4060	moderate pulmonary artery systolic hypertension
+T389	test 12508 12515	the bp.
+T390	problem 8274 8295	perf / ischemic bowel
+T391	problem 8372 8383	hypotension
+T392	problem 3954 3990	moderate ( 2 +) mitral regurgitation
+T393	treatment 12273 12281	exposure
+T394	test 3214 3217	ekg
+T395	problem 8274 8295	perf / ischemic bowel
+T396	problem 11779 11792	a recent fall
+R1	PIP Arg1:T3 Arg2:T4
+R2	TeRP Arg1:T5 Arg2:T3
+R3	TeRP Arg1:T5 Arg2:T4
+R4	TrAP Arg1:T14 Arg2:T13
+R5	TeRP Arg1:T15 Arg2:T16
+R6	PIP Arg1:T22 Arg2:T23
+R7	TeRP Arg1:T54 Arg2:T55
+R8	TeRP Arg1:T54 Arg2:T56
+R9	TeRP Arg1:T54 Arg2:T57
+R10	PIP Arg1:T57 Arg2:T56
+R11	TrAP Arg1:T81 Arg2:T55
+R12	TrAP Arg1:T81 Arg2:T56
+R13	TrAP Arg1:T81 Arg2:T57
+R14	PIP Arg1:T82 Arg2:T83
+R15	TrAP Arg1:T89 Arg2:T90
+R16	TeRP Arg1:T94 Arg2:T95
+R17	TrAP Arg1:T100 Arg2:T96
+R18	TrAP Arg1:T103 Arg2:T104
+R19	TrAP Arg1:T109 Arg2:T104
+R20	PIP Arg1:T119 Arg2:T120
+R21	TrAP Arg1:T122 Arg2:T123
+R22	TrAP Arg1:T128 Arg2:T90
+R23	TrAP Arg1:T135 Arg2:T132
+R24	TrAP Arg1:T136 Arg2:T132
+R25	TeRP Arg1:T148 Arg2:T108
+R26	TeRP Arg1:T148 Arg2:T149
+R27	TeCP Arg1:T153 Arg2:T151
+R28	TeCP Arg1:T153 Arg2:T154
+R29	PIP Arg1:T154 Arg2:T151
+R30	TeRP Arg1:T156 Arg2:T157
+R31	TeRP Arg1:T156 Arg2:T158
+R32	TeRP Arg1:T156 Arg2:T159
+R33	PIP Arg1:T159 Arg2:T158
+R34	TeRP Arg1:T160 Arg2:T161
+R35	TrAP Arg1:T162 Arg2:T151
+R36	TrAP Arg1:T162 Arg2:T154
+R37	TrAP Arg1:T166 Arg2:T157
+R38	TrAP Arg1:T166 Arg2:T158
+R39	TrAP Arg1:T166 Arg2:T159
+R40	PIP Arg1:T171 Arg2:T169
+R41	TeRP Arg1:T174 Arg2:T175
+R42	PIP Arg1:T176 Arg2:T173
+R43	TrAP Arg1:T212 Arg2:T90
+R44	TeRP Arg1:T249 Arg2:T248
+R45	TeRP Arg1:T251 Arg2:T252
+R46	TeRP Arg1:T260 Arg2:T259
+R47	TeRP Arg1:T261 Arg2:T259
+R48	TeRP Arg1:T262 Arg2:T259
+R49	PIP Arg1:T265 Arg2:T74
+R50	TeRP Arg1:T281 Arg2:T282
+R51	TeRP Arg1:T303 Arg2:T304
+R52	TeRP Arg1:T323 Arg2:T321
+R53	TeRP Arg1:T323 Arg2:T146
+R54	TeRP Arg1:T323 Arg2:T141
+R55	TrAP Arg1:T331 Arg2:T127
+R56	PIP Arg1:T332 Arg2:T333
+R57	TrAP Arg1:T334 Arg2:T123
+R58	TrCP Arg1:T336 Arg2:T337
+R59	TrAP Arg1:T340 Arg2:T126
+R60	TrAP Arg1:T348 Arg2:T344
+R61	PIP Arg1:T370 Arg2:T2
+R62	TeRP Arg1:T394 Arg2:T179
+R63	TeRP Arg1:T394 Arg2:T211
+R64	TeRP Arg1:T394 Arg2:T270
+R65	TeRP Arg1:T394 Arg2:T32

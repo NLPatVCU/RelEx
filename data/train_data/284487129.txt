@@ -1,0 +1,98 @@
+284487129
+CTMC
+42669672
+466333
+01/16/1996 12:00:00 AM
+Discharge Summary
+Signed
+DIS
+Admission Date :
+01/16/1996
+Report Status :
+Signed
+Discharge Date :
+01/20/1996
+PROBLEM LIST :
+1. INSULIN DEPENDENT DIABETES MELLITUS
+2. PRIOR HISTORY OF ANTERIOR MYOCARDIAL INFARCTION
+3. EPISODE OF PULMONARY EDEMA
+4. HYPERCHOLESTEROLEMIA
+CHIEF COMPLAINT :
+The patient is a 40 year old male with a history of prior anterior myocardial infarction and insulin dependent diabetes mellitus who was transferred from an outside hospital after an episode of acute shortness of breath and pulmonary edema .
+HISTORY OF PRESENT ILLNESS :
+The patient has a history four years ago of being admitted to the Etearal Etsystems/ Hospital after suffering an acute anterior myocardial infarction .
+The course had multiple complications requiring pressors .
+He had a cardiac catheterization performed which revealed a three vessel coronary artery disease with an occluded RCA , 70%-80% proximal LAD , and a high grade left circumflex lesion after the OM with distal left circumflex occlusion .
+The patient was subsequently medically management after this hospitalization and has done very well .
+His most recent echocardiogram in April of 1996 showed an ejection fraction of 20% with a thin fibrotic septum with akinesis and moderately severe hypokinesis in all other regions except for the lateral wall .
+The patient also had an electrocardiogram in April of 1996 which was negative following , however was at a low workload .
+The patient &apos;s was most recently admitted to Centdick Naco Hospital Medical Center on Martin Luther King Day after becoming acutely short of breath after a five minute walk .
+He had no chest pain , palpitations , diaphoresis , or nausea .
+He called the EMT &apos;s and was found to be in pulmonary edema by chest x-ray at Centdick Naco Hospital Medical Center .
+He was diuresed and ruled out for myocardial infarction .
+His ECG showed no ischemic changes .
+He was then transferred to the Retelk County Medical Center for further management .
+PAST MEDICAL HISTORY :
+(1) Insulin dependent diabetes mellitus x 15 years with no retinopathy or foot lesions .
+(2) Bilateral cataracts .
+(3) In 1967 he had an orchiopexy for undescended testicle .
+(4) Coronary artery disease as above .
+ALLERGIES :
+No known drug allergies .
+MEDICATIONS ON ADMISSION :
+Aspirin 325 mg p.o. q. day , Capoten 25 mg p.o. q.8h. , NPH insulin 28 units q.a.m. and 10 units q.p.m. , Regular insulin 4 units q.a.m. and 4 units q.p.m. , simvastatin 20 mg p.o. q. day , digoxin 0.25 mg.
+SOCIAL HISTORY :
+He lives with his two brothers and is on disability .
+He has a ten pack year history of smoking , quit in 1990 .
+He does not drink alcohol .
+FAMILY HISTORY :
+His mother and father both died secondary to myocardial infarction .
+One of his brothers has had a myocardial infarction .
+PHYSICAL EXAMINATION :
+Temperature 100.3 , heart rate 76 , blood pressure 100/78 , respiratory rate 16 , and an oxygen saturation of 96% on two liters .
+NECK :
+No jugular venous distention .
+CHEST :
+Clear to auscultation with no wheezes or rales .
+CARDIOVASCULAR :
+Regular rate and rhythm with no extra heart sounds and no murmurs .
+ABDOMEN :
+Benign .
+EXTREMITIES :
+No edema with 2+ pulses .
+LABORATORY DATA :
+BUN 25 and creatinine 1.4 .
+White count 6 and hematocrit 41.5 .
+PT 14.1 with an INR of 1.4 , PTT 36.7 .
+Chest x-ray showed no infiltrates and no pulmonary edema .
+Urinalysis was negative .
+Electrocardiogram showed normal sinus rhythm at 63 with normal intervals .
+He had flat T waves in I and aVL , which were unchanged from previous ECG .
+HOSPITAL COURSE :
+The patient was admitted for further management of his pulmonary edema .
+It was felt that the patient possibly had a worsening of his coronary artery disease and therefore underwent cardiac catheterization on 01/17/96 .
+At cardiac catheterization he had an RA pressure of 8 , an RV pressure of 52/10 , PA pressure of 60/25 , and wedge of 26 .
+His coronary arteries revealed an 80% stenosis and a large OM .
+The dominant left circumflex was occluded with left-to-left filling .
+He also had a 50% LAD stenosis , a 100% large DT stenosis and a nondominant RCA with left RCA collaterals .
+It was felt that this cardiac catheterization was not significantly changed from his previous catheterization .
+Given his high right-sided filling pressure , he was started on Lasix for diuresis and his Captopril was increased for greater afterload reduction .
+It was felt that the patient should have an augmented medical regimen and as an outpatient undergo an exercise tolerance test with viability evaluation to determine whether he would benefit from revascularization .
+He was restarted on Coumadin for his low ejection fraction and started on diuresis with IV Lasix for two days and then switched to an oral Lasix regimen .
+DISPOSITION :
+He was discharged to home in stable condition and feeling well .
+DISCHARGE MEDICATIONS :
+Insulin NPH 10 units q.p.m. and 28 units q.a.m. , insulin Regular 4 units q.a.m. and 4 units q.p.m. , aspirin 325 mg p.o. q. day , digoxin 0.25 mg p.o. q. day , simvastatin 20 mg p.o. q. day , captopril 37.5 mg p.o. t.i.d. , Coumadin 5 mg p.o. q.h.s. , Lasix 20 mg p.o. q. day .
+FOLLOW-UP :
+He is to see Dr. Ench in two weeks to check his PT and INR , also to check for potassium .
+Dictated By :
+CA X. SCGACH , M.D. YG59
+Attending :
+JEMALKYLE J. EHKOTE , M.D. BI7 PJ387/3762
+Batch :
+37377
+Index No. WDXZUZ7Y9B
+D :
+01/20/96
+T :
+01/20/96

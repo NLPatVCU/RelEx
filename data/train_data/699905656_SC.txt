@@ -1,0 +1,49 @@
+699905656 SC
+06100044
+921737
+1/17/1993 12:00:00 AM
+Discharge Summary
+Signed
+DIS
+Admission Date :
+01/17/1993
+Report Status :
+Signed
+Discharge Date :
+01/21/1993
+DISCHARGE DIAGNOSIS :
+1. RIGHT SIDED SCIATICA PROCEDURE :
+Right laminectomy and discectomy by Dr. Small , Neurosurgery .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 42 year old gentleman who suffered lower back pain during an accident at work in 1990 .
+This gradually increased until June 1992 where he had recurrent severe right sided sciatica .
+In September 1992 CT myelogram showed a lateral L-1 S-1 disc bulge and small L-4-4 bulge .
+He has had no change in pain in the last few months .
+PAST MEDICAL HISTORY :
+Negative .
+ALLERGIES :
+None .
+MEDICATIONS :
+None .
+PHYSICAL EXAMINATION :
+He was found to be healthy .
+His examination was completely unremarkable .
+He had 5 out of 5 strength diffusely , normal deep tendon reflexes and normal sensation .
+HOSPITAL COURSE :
+He was admitted , taken to the operating room where he underwent L5-S1 right hemilaminectomy and discectomy .
+He tolerated the procedure well , was taken to the floor in stable condition .
+Over the next three days he increased his activity gradually , was able to do stairs with Physical Therapy and had pain which could be controlled with oral analgesics .
+DISPOSITION :
+MEDICATIONS :
+He is discharged on Percocet , Colace and Motrin .
+Dictated By :
+NASA R. SMALL , M.D. IX97
+Attending :
+VIENNIEZUTACHANT WAVE , M.D. NN08 QM838/6096
+Batch :
+8704
+Index No. AFUFB928WZ
+D :
+01/20/93
+T :
+01/22/93

@@ -1,0 +1,116 @@
+T1	test 2131 2143	auscultation
+T2	test 340 367	hepatitis b surface antigen
+T3	treatment 6228 6242	tri-vi-michael
+T4	treatment 4821 4831	ampicillin
+T5	problem 3514 3546	some discoordination of his suck
+T6	treatment 4188 4204	frequent feeding
+T7	treatment 2349 2360	circumcised
+T8	problem 795 815	rupture of membranes
+T9	treatment 4703 4717	blood products
+T10	problem 2092 2098	masses
+T11	problem 4096 4122	frequent spitting episodes
+T12	test 379 386	rubella
+T13	test 4876 4890	blood cultures
+T14	test 4006 4012	length
+T15	test 5352 5375	electrographic evidence
+T16	problem 5379 5395	seizure activity
+T17	test 259 269	serologies
+T18	problem 2236 2242	murmur
+T19	test 4391 4411	mother 's blood type
+T20	problem 2785 2797	desaturation
+T21	problem 778 792	maternal fever
+T22	test 4582 4595	a white count
+T23	test 3951 3969	head circumference
+T24	test 278 288	blood type
+T25	test 2652 2677	a cardiopulmonary monitor
+T26	test 5238 5245	the eeg
+T27	problem 5253 5292	transient sharp waves in the left front
+T28	test 4773 4788	a blood culture
+T29	test 5215 5221	an eeg
+T30	problem 5106 5120	dusky episodes
+T31	problem 6997 7014	cyanosis episodes
+T32	test 3894 3906	birth weight
+T33	problem 1689 1709	some facial jaundice
+T34	treatment 6343 6356	immunizations
+T35	test 4666 4675	platelets
+T36	problem 1344 1348	pale
+T37	test 3770 3786	their evaluation
+T38	problem 3820 3843	gastroesophageal reflux
+T39	problem 738 757	sepsis risk factors
+T40	problem 2822 2835	desaturations
+T41	problem 5079 5087	seizures
+T42	test 4468 4474	coombs
+T43	treatment 656 662	zoloft
+T44	problem 619 629	depression
+T45	problem 5596 5606	a coloboma
+T46	test 4612 4617	polys
+T47	problem 5728 5743	other pathology
+T48	test 882 888	apgars
+T49	treatment 827 835	delivery
+T50	treatment 6212 6223	medications
+T51	problem 2986 3006	respiratory distress
+T52	treatment 838 846	delivery
+T53	problem 1141 1146	dusky
+T54	treatment 1039 1059	routine newborn care
+T55	test 4632 4642	hematocrit
+T56	test 1845 1857	red reflexes
+T57	problem 1296 1312	a second episode
+T58	test 4306 4323	a serum bilirubin
+T59	problem 4275 4300	mild physiologic jaundice
+T60	test 5414 5431	hearing screening
+T61	problem 1931 1951	a keyhole appearance
+T62	problem 1968 1978	a coloboma
+T63	problem 1221 1233	this episode
+T64	problem 1258 1273	gagging motions
+T65	test 6268 6288	newborn state screen
+T66	treatment 4149 4182	limitation of volume at each feed
+T67	test 760 763	gbs
+T68	problem 486 498	hsv outbreak
+T69	problem 704 721	spontaneous labor
+T70	treatment 183 206	repeat cesarean section
+T71	problem 7026 7032	sepsis
+T72	test 322 325	rpr
+T73	test 4428 4448	infant 's blood type
+T74	test 2733 2747	pulse oximetry
+T75	problem 449 462	uncomplicated
+T76	test 396 419	group b strep screening
+T77	test 2252 2266	femoral pulses
+T78	test 3846 3852	weight
+T79	test 3194 3208	blood pressure
+T80	treatment 554 562	delivery
+T81	treatment 5006 5017	antibiotics
+T82	test 1557 1575	further evaluation
+T83	treatment 6370 6389	hepatitis b vaccine
+T84	problem 1423 1427	blue
+T85	problem 7035 7048	left coloboma
+T86	test 302 310	antibody
+T87	treatment 675 683	delivery
+T88	problem 5690 5709	an isolated anomaly
+T89	treatment 4836 4846	gentamicin
+T90	test 3163 3167	ap s
+T91	test 2500 2504	tone
+T92	problem 2102 2108	bruits
+T93	test 2573 2581	reflexes
+T94	problem 7060 7068	seizures
+T95	problem 3023 3047	any further dusky spells
+T96	test 4528 4550	a complete blood count
+T97	test 2552 2560	strength
+T98	treatment 4911 4922	antibiotics
+T99	treatment 854 877	repeat cesarean section
+T100	test 3220 3226	a mean
+T101	test 4624 4631	bands .
+T102	problem 5653 5678	this left martha coloboma
+T103	problem 1910 1925	unequal in size
+T104	problem 3051 3064	pale episodes
+R1	TeRP Arg1:T15 Arg2:T16
+R2	TeRP Arg1:T26 Arg2:T27
+R3	TeRP Arg1:T37 Arg2:T38
+R4	PIP Arg1:T41 Arg2:T30
+R5	TrAP Arg1:T43 Arg2:T44
+R6	PIP Arg1:T57 Arg2:T36
+R7	TeRP Arg1:T58 Arg2:T59
+R8	PIP Arg1:T61 Arg2:T62
+R9	PIP Arg1:T63 Arg2:T64
+R10	PIP Arg1:T102 Arg2:T88
+R11	PIP Arg1:T103 Arg2:T61
+R12	PIP Arg1:T103 Arg2:T62

@@ -1,0 +1,144 @@
+T1	treatment 4663 4685	tricuspid annuloplasty
+T2	treatment 4897 4902	lasix
+T3	problem 2395 2421	superficial varicose veins
+T4	treatment 4933 4940	aspirin
+T5	treatment 838 858	anti-platelet agents
+T6	treatment 1461 1472	proteinuria
+T7	treatment 1379 1387	vanceril
+T8	problem 1392 1429	chronic obstructive pulmonary disease
+T9	treatment 1596 1611	cholecystectomy
+T10	test 2453 2463	hematocrit
+T11	problem 2002 2025	right ventricular heave
+T12	problem 4093 4102	epistaxis
+T13	problem 2766 2832	left atrial , right ventricular and pulmonary arterial enlargement
+T14	problem 2109 2121	opening snap
+T15	problem 2861 2888	small , bilateral effusions
+T16	problem 232 255	tricuspid regurgitation
+T17	problem 921 946	progressive heart failure
+T18	treatment 4613 4634	mitral commissurotomy
+T19	problem 2837 2855	interstitial edema
+T20	problem 2079 2091	accentuation
+T21	treatment 698 706	coumadin
+T22	problem 718 750	bleeding from the mouth and nose
+T23	treatment 4354 4367	the procedure
+T24	treatment 4590 4598	coumadin
+T25	test 1972 1986	apical impulse
+T26	problem 304 330	chronic ventricular ectopy
+T27	test 2543 2560	electrocardiogram
+T28	problem 2568 2587	atrial fibrillation
+T29	problem 2590 2619	moderate ventricular response
+T30	problem 2661 2681	right axis deviation
+T31	problem 2684 2713	right ventricular hypertrophy
+T32	problem 2622 2658	incomplete right bundle branch block
+T33	problem 2727 2744	apical infarction
+T34	problem 3612 3646	minimal aortic valve calcification
+T35	problem 2288 2312	liver slightly pulsatile
+T36	problem 2320 2328	enlarged
+T37	test 2494 2504	creatinine
+T38	problem 873 890	recurrent syncope
+T39	problem 1781 1789	headache
+T40	test 3840 3844	fev1
+T41	problem 965 984	atrial fibrillation
+T42	problem 1000 1020	ventricular bigemini
+T43	test 3030 3051	right atrial pressure
+T44	problem 4819 4838	marked hyperkalemia
+T45	treatment 4638 4649	replacement
+T46	treatment 4523 4551	the neuroradiology procedure
+T47	treatment 1748 1773	transdermal nitroglycerin
+T48	treatment 4954 4962	vanceril
+T49	problem 3257 3274	markedly elevated
+T50	problem 2103 2105	s3
+T51	test 1252 1267	her cholesterol
+T52	problem 3348 3369	aortic valve gradient
+T53	treatment 1576 1591	an appendectomy
+T54	problem 393 402	epistaxis
+T55	test 791 807	prothrombin time
+T56	test 2331 2337	pulses
+T57	problem 2366 2392	weak dorsalis pedis pulses
+T58	problem 3131 3155	tricuspid valve gradient
+T59	test 3418 3444	arterial oxygen saturation
+T60	treatment 4757 4778	potassium replacement
+T61	problem 258 271	heart failure
+T62	problem 3092 3115	tricuspid regurgitation
+T63	test 949 957	a holter
+T64	test 2747 2758	chest x-ray
+T65	problem 1540 1561	a &quot; tumor &quot;
+T66	treatment 4186 4194	coumadin
+T67	problem 4166 4182	nasal hemorrhage
+T68	problem 3472 3506	minimal mitral valve calcification
+T69	problem 3551 3599	2+ mitral regurgitation into a large left atrium
+T70	problem 1217 1225	diabetes
+T71	treatment 4729 4734	lasix
+T72	test 2469 2478	potassium
+T73	test 451 474	cardiac catheterization
+T74	problem 4122 4137	bleeding source
+T75	treatment 2909 2932	cardiac catheterization
+T76	test 1893 1907	blood pressure
+T77	problem 1337 1350	heart disease
+T78	problem 2184 2254	grade ii decrescendo diastolic murmur at the left lower sternal border
+T79	test 3879 3906	room air arterial blood gas
+T80	treatment 4214 4253	interventional neuroradiology occlusion
+T81	treatment 1708 1716	vanceril
+T82	test 1853 1863	heart rate
+T83	problem 1201 1213	hypertension
+T84	problem 193 208	mitral stenosis
+T85	problem 1917 1937	neck veins distended
+T86	problem 624 639	rheumatic fever
+T87	problem 2124 2181	grade ii systolic murmur at the left lower sternal border
+T88	test 3372 3391	fich cardiac output
+T89	problem 3649 3679	mild ______________ thickening
+T90	problem 333 365	chronic obstructive lung disease
+T91	problem 65 80	mitral stenosis
+T92	test 3218 3252	pulmonary capillary wedge pressure
+T93	problem 3188 3205	markedly elevated
+T94	problem 3288 3322	a very large mitral valve gradient
+T95	problem 274 301	chronic atrial fibrillation
+T96	test 2485 2488	bun
+T97	treatment 4011 4025	commissurotomy
+T98	treatment 4873 4880	digoxin
+T99	problem 3738 3794	mild atherosclerosis of the mid left anterior descending
+T100	problem 2043 2073	narrowly physiologically split
+T101	problem 2955 2967	complication
+T102	problem 2257 2285	diastolic rumble at the apex
+T103	treatment 1506 1527	a partial gastrectomy
+T104	treatment 3981 3998	valve replacement
+T105	problem 668 695	chronic atrial fibrillation
+T106	test 2529 2536	digoxin
+T107	test 3797 3800	fvc
+T108	treatment 3959 3977	a mechanical valve
+T109	problem 2427 2432	edema
+T110	treatment 1668 1673	lasix
+T111	test 3158 3183	pulmonary artery pressure
+T112	treatment 1689 1696	aspirin
+T113	treatment 1641 1648	digoxin
+T114	problem 3700 3725	mild aortic regurgitation
+T115	treatment 406 414	coumadin
+T116	test 2511 2522	blood sugar
+T117	test 501 524	pulmonary function test
+R1	TrAP Arg1:T7 Arg2:T8
+R2	PIP Arg1:T19 Arg2:T15
+R3	TrCP Arg1:T21 Arg2:T22
+R4	TeRP Arg1:T27 Arg2:T28
+R5	TeRP Arg1:T27 Arg2:T29
+R6	TeRP Arg1:T27 Arg2:T30
+R7	TeRP Arg1:T27 Arg2:T31
+R8	TeRP Arg1:T27 Arg2:T32
+R9	TeRP Arg1:T27 Arg2:T33
+R10	PIP Arg1:T35 Arg2:T36
+R11	PIP Arg1:T41 Arg2:T42
+R12	TrCP Arg1:T47 Arg2:T39
+R13	TeRP Arg1:T56 Arg2:T57
+R14	TrCP Arg1:T60 Arg2:T44
+R15	TeRP Arg1:T63 Arg2:T42
+R16	TeRP Arg1:T63 Arg2:T41
+R17	TeRP Arg1:T64 Arg2:T13
+R18	TeRP Arg1:T64 Arg2:T15
+R19	TeRP Arg1:T64 Arg2:T19
+R20	TrCP Arg1:T66 Arg2:T67
+R21	PIP Arg1:T68 Arg2:T69
+R22	TrAP Arg1:T80 Arg2:T67
+R23	TeRP Arg1:T92 Arg2:T49
+R24	PIP Arg1:T100 Arg2:T20
+R25	TrAP Arg1:T103 Arg2:T65
+R26	TeRP Arg1:T111 Arg2:T93
+R27	TrCP Arg1:T115 Arg2:T54

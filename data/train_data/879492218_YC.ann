@@ -1,0 +1,121 @@
+T1	test 2224 2234	heart rate
+T2	test 3758 3761	pcp
+T3	problem 3236 3253	sinus tachycardia
+T4	problem 868 876	vomiting
+T5	problem 3504 3507	pcp
+T6	problem 1423 1442	withdrawal symptoms
+T7	problem 820 826	fevers
+T8	test 3710 3718	chest ct
+T9	problem 3726 3755	bibasilar diffuse infiltrates
+T10	treatment 5728 5751	bactrim double strength
+T11	problem 52 61	pneumonia
+T12	problem 2601 2615	coarse rhonchi
+T13	treatment 3884 3896	azithromycin
+T14	problem 4732 4735	chf
+T15	test 2967 2977	neuro exam
+T16	treatment 3815 3825	prednisone
+T17	treatment 1567 1577	cefuroxime
+T18	problem 905 921	some weight loss
+T19	treatment 5253 5268	his oxygen tank
+T20	problem 2153 2164	bone cancer
+T21	test 4512 4533	ambulatory saturation
+T22	problem 4801 4823	pulmonary hypertension
+T23	test 4159 4171	bronchoscopy
+T24	test 2205 2216	temperature
+T25	test 3195 3204	platelets
+T26	test 2647 2661	abdominal exam
+T27	test 2582 2592	chest exam
+T28	problem 2621 2644	some bibasilar crackles
+T29	problem 573 592	shortness of breath
+T30	test 4294 4313	review of pathology
+T31	problem 4374 4401	chronic inhalational injury
+T32	problem 4317 4337	organizing pneumonia
+T33	problem 4365 4369	boop
+T34	problem 703 718	short of breath
+T35	test 4925 4941	his electrolytes
+T36	problem 4753 4761	trace tr
+T37	problem 2864 2869	edema
+T38	test 3510 3517	his ppd
+T39	test 2241 2255	blood pressure
+T40	problem 859 865	nausea
+T41	test 3664 3681	an induced sputum
+T42	problem 3704 3707	afb
+T43	problem 3646 3658	tuberculosis
+T44	test 2950 2964	abdominal exam
+T45	problem 2922 2940	hepatosplenomegaly
+T46	treatment 4443 4462	supplemental oxygen
+T47	test 3069 3077	chloride
+T48	problem 2901 2907	rashes
+T49	treatment 1548 1560	azithromycin
+T50	problem 1646 1666	known drug allergies
+T51	treatment 3830 3837	bactrim
+T52	test 3101 3104	bun
+T53	treatment 5097 5108	home oxygen
+T54	treatment 5696 5706	prednisone
+T55	problem 5476 5486	chest pain
+T56	problem 829 835	chills
+T57	test 3109 3119	creatinine
+T58	treatment 3901 3911	cefuroxime
+T59	problem 2850 2858	clubbing
+T60	test 3173 3183	hematocrit
+T61	problem 3479 3500	an atypical pneumonia
+T62	treatment 5777 5792	pcp prophylaxis
+T63	test 4471 4492	his oxygen saturation
+T64	problem 4745 4748	lvh
+T65	problem 402 421	shortness of breath
+T66	test 3566 3569	ppd
+T67	problem 5441 5461	any further troubles
+T68	test 2390 2400	heent exam
+T69	problem 2410 2417	sclerae
+T70	test 2269 2282	o2 saturation
+T71	problem 205 224	shortness of breath
+T72	problem 760 789	a dry and nonproductive cough
+T73	problem 841 853	night sweats
+T74	test 4018 4029	hiv testing
+T75	test 2717 2727	heart exam
+T76	problem 2777 2807	a flat jugular venous pressure
+T77	problem 2758 2769	tachycardic
+T78	problem 4066 4069	hiv
+T79	test 3084 3095	bicarbonate
+T80	test 4693 4707	echocardiogram
+T81	problem 4607 4616	his cough
+T82	treatment 1536 1545	iv fluids
+T83	test 4764 4781	ejection fraction
+T84	problem 5492 5498	fevers
+T85	test 3053 3062	potassium
+T86	problem 2373 2387	acute distress
+T87	problem 2549 2579	right axillary lymphadenopathy
+T88	treatment 5321 5336	his medications
+T89	problem 2839 2847	cyanosis
+T90	problem 3323 3336	consolidation
+T91	test 3130 3137	glucose
+T92	test 2301 2313	general exam
+T93	problem 2485 2500	lymphadenopathy
+T94	problem 4257 4262	micro
+T95	test 3143 3165	white blood cell count
+T96	treatment 4980 4987	lovenox
+T97	problem 444 455	a dry cough
+T98	treatment 4576 4602	supportive medical therapy
+T99	test 3040 3046	sodium
+T100	treatment 5800 5818	his steroid course
+T101	test 4840 4860	hepatitis serologies
+T102	problem 882 890	diarrhea
+T103	problem 3292 3320	diffuse interstitial process
+R1	TeRP Arg1:T8 Arg2:T9
+R2	TeRP Arg1:T27 Arg2:T12
+R3	TeRP Arg1:T27 Arg2:T28
+R4	TeRP Arg1:T30 Arg2:T31
+R5	TeRP Arg1:T30 Arg2:T32
+R6	TeRP Arg1:T30 Arg2:T33
+R7	TeRP Arg1:T41 Arg2:T42
+R8	TeRP Arg1:T41 Arg2:T43
+R9	TeRP Arg1:T44 Arg2:T45
+R10	TeRP Arg1:T68 Arg2:T69
+R11	TeRP Arg1:T75 Arg2:T76
+R12	TeRP Arg1:T75 Arg2:T77
+R13	TeCP Arg1:T80 Arg2:T36
+R14	TeRP Arg1:T80 Arg2:T14
+R15	TeRP Arg1:T80 Arg2:T22
+R16	TeRP Arg1:T80 Arg2:T64
+R17	TeRP Arg1:T92 Arg2:T86
+R18	TrAP Arg1:T98 Arg2:T81

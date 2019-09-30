@@ -1,0 +1,94 @@
+Admission Date :
+2013-11-04
+Discharge Date :
+2013-11-16
+Date of Birth :
+1930-12-19
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Sulfa ( Sulfonamides ) / Penicillins / Macrodantin / Ivp Dye , Iodine Containing
+Attending : Robert E Goldschmidt , M.D.
+Addendum :
+Just prior to discharge on 11-14 , pt 's BP was found to be 70/40 P70 s just after receiving her am BP meds .
+She was asymptomatic .
+The patient was kept in the hospital and the following issues were addressed :
+1. Hypotension : The patient 'd pm BP meds were held 11-14 and she was administered 1.5L NS over the course of the day with subsequent SBP s in the high 90 s, low 100 s,.
+The hypotension was likely due to volume depletion caused by her diarrhea / loose stools in addition to decreased PO intake secondary to her GERD and thrush .
+All of this occurred in the setting of aggressive BP management with metoprolol 25 BID , HCTZ / Triampterene ( as a replacment for lasix due to recurrent hypokalemia ), Benicar 20 mg QD , and Imdur 30 mg QD .
+Infection / sepsis was not likely given she was afebrile and had no localizing sx with an improving lung exam and 02 requirement .
+Given the patient 's recent RP bleed , there was concern for a recurrent bleed .
+Her groin exam was unchanged .
+Her Hct dropped from Hct 38.9 before fluids to 35.5 s/p 1.5L NS and was thought to be dilutional .
+Repeat hcts were stable .
+The patient was kept an additional two days to follow her hcts and titrate her BP meds .
+As volume depletion was thought to be the cause of her low BP , only the BBlocker was restarted .
+She was also placed on on low dose spironolactone as a K sparing diuretic and for BP control in addition to Toprol XL 25 mg QD for her coronary disease .
+She tolerated these meds with SBP s in the high 90 s to 100 s and was therefore discharged on this regimen .
+She will need follow up with her PCP within B week after discharge from the extended care facility for further BP titration and monitoring of her electrolytes .
+2. Thrush : This is likely secondary to her steroid inhalers and PO prednisone for COPD exacerbation .
+She was started on nystatin swish and swallow QID .
+The patient was encouraged to take PO liquids to prevent volume depletion .
+3. diarrhea : The patient has been having loose stools at night and was guiac pos x 2 .
+Stool for C.diff toxin was sent x 1 and was negative .
+Her bowel regimen is prn .
+Gastroenteritis is possible but she has no vomiting and only occ nausea with meds .
+There is no evidence of obstruction on AXR .
+Therefore , the cause of her mild diarrhea ( few loose BM / liquid stool / night ) may be either viral or secondary to resolving abdominal hematoma with resultant irritation of GI system .
+We have advised a BRAT diet .
+4. guiac pos stool : Given the patient 's sx of GERD , current PO steroid regimen , and ASA for her stents , the ddx for her guiac positive stools would include gastritis / gastric ulcer in addition to lower GI pathology .
+However , she has no vomiting and only mild nausea with medications .
+She also has no gross blood per rectum and her hct is stable .
+Upon discharge the patient was changed to a BID protonix regimen .
+Dr. Valerio office was notified about the patient 's discharge plans and status .
+She will need outpatient follow up for her guiac pos stools with endoscopy vs EGD +/- H.pylori serologies .
+A copy of this dc summary will be faxed to her PCP to ensure proper follow up .
+Discharge Medications :
+1. Atorvastatin 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+2. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO twice a day .
+3. Acetaminophen 500 mg Tablet Sig : Two ( 2 ) Tablet PO Q6H ( every 6 hours ).
+Disp :* 240 Tablet (s)* Refills :* 2 *
+4. Oxycodone 5 mg Tablet Sig : One ( 1 ) Tablet PO Q4H ( every 4 hours ) as needed for pain .
+Disp :* 90 Tablet (s)* Refills :* 0 *
+5. Fluticasone 50 mcg / Actuation Aerosol , Spray Sig : Two ( 2 ) Spray Nasal DAILY ( Daily ).
+6. Fluticasone 110 mcg / Actuation Aerosol Sig : Two ( 2 ) Puff Inhalation BID ( 2 times a day ).
+7. Tiotropium Bromide 18 mcg Capsule , w/ Inhalation Device Sig : One ( 1 ) Cap Inhalation DAILY ( Daily ).
+Disp :* 30 Cap (s)* Refills :* 2 *
+8. Clopidogrel 75 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+9. Albuterol Sulfate 0.083 % Solution Sig : One ( 1 ) puff Inhalation Q6H ( every 6 hours ) as needed for shortness of breath or wheezing .
+Disp :* 1 inhaler * Refills :* 1 *
+10. Aluminum - Magnesium Hydroxide 225-200 mg / 5 mL Suspension Sig : 15-30 ML s PO PRN ( as needed ).
+11. Senna 8.6 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) as needed .
+12. Prednisone 10 mg Tablet Sig : 1-2 Tablets PO DAILY ( Daily ) for 4 days : Please take two pills for one day starting 11-17 , then take one pill for three days .
+Disp :* 5 Tablet (s)* Refills : * 0 *
+13. oxygen continue 02 at 1L/min continuous to keep sats in 90 's.
+14. Spironolactone 25 mg Tablet Sig : 0.5 Tablet PO DAILY ( Daily ).
+15. Metoprolol Succinate 25 mg Tablet Sustained Release 24HR Sig : One ( 1 ) Tablet Sustained Release 24HR PO DAILY ( Daily ).
+16. Nystatin 100,000 unit / mL Suspension Sig : Ten ( 10 ) ML PO QID ( 4 times a day ) for 7 days .
+17. Aspirin 325 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ).
+Discharge Disposition :
+Extended Care
+Facility :
+3133 W. Third Ave. Rehab & Nursing Center - Westwood Lodge Hospital
+Discharge Diagnosis :
+1) Rapid atrial fibrillation with demand ischemia
+2) Retroperitoneal bleed
+Discharge Condition :
+Stable
+Discharge Instructions :
+Please follow up with your PCP Richard , Kevin Robinson ( 771 ) 937-5400 upon discharge .
+If you experience CP , SOB , dizzyness , or any other symptoms that concern you please call your PCP or return to the ER .
+Note : you have had a cardiac stent placed during this admission .
+You must take your aspirin and plavix every day to prevent failure of these stents which could be life threatening .
+Please take all medications as prescribed .
+Followup Instructions :
+1) Please follow up with your PCP and cardiologist , David , Larry Robinson ( 771 ) 937-5400 , upon discharge .
+2) You are scheduled to have your staples removed on 2013-11-20 3:00 with provider : Leah , Paula G. Wilson SURGERY ( NHB )
+Date / Time : 2013-11-20 3:00 .
+Lashonda Christopher MD 48-669
+Completed by : Jill Kelly MD 47-482 2013-11-16 @ 1550
+Signed electronically by : DR. Lee V. Young on : FRI 2013-12-20 4:59 PM
+( End of Report )

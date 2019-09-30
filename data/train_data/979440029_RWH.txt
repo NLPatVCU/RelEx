@@ -1,0 +1,51 @@
+979440029 RWH
+2027705
+618070
+3030191
+06/11/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+ELKSFALCBAINKIH , ON
+MRN :
+2027705
+Age :
+47y
+REGISTRATION DATE :
+06/11/2005 12:08 PM
+Provider :
+BURLTIS TROWELKS
+PRELIMINARY REPORT
+PCP notified by MD :
+E-mail
+PCP Benefits Assigned :
+Y
+Discharge Note Date / Time :
+06/11/2005 21:46
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+BODY SHAKING
+Standardized Discharge Instructions :
+The patient was given printed instructions for back pain ( English ) .
+Diagnosis :
+back pain/ mechanical fall
+Treatment Rendered :
+Pt &apos;s labs were checked , he was seen by Neurology , and he received a spine MRI which was negative .
+He received Rx for potassium to help with cramps .
+Advised to contact Pain service for repeat injections , F / U with Neurology , explore PT , massage therapy .
+Discharge Medications :
+K-Dur 20meq PO QD
+Disposition , Follow up and Instructions to Patient :
+F / U with Dr. Wierstkotea within 1 week .
+F / U with Neurology , pain service to schedule an appt .
+PCP Name :
+WIERSTKOTEA , JETA
+Provider Number :
+50927
+This report was created by TROWELKS , BURLTIS 06/11/2005 09:52 PM

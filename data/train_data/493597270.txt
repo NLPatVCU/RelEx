@@ -1,0 +1,100 @@
+493597270
+CMC
+86164445
+3/17/1998 12:00:00 AM
+ACUTE LEUKEMIA
+Signed
+DIS
+Admission Date :
+03/17/1998
+Report Status :
+Signed
+Discharge Date :
+04/12/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is a 68 year old with acute leukemia .
+The patient was in her usual state of health until about three weeks prior to admission when she began to notice increased weakness and bruising .
+She presented to a Wood Emergency Department six days prior to admission .
+Platelets were 9,000 , hemoglobin 9.5 , temperature was 100.4 .
+The patient had a smear there consistent with ALL .
+The patient was transferred to Norri Hospital .
+REVIEW OF SYSTEMS :
+No headache , no nausea , vomiting or diarrhea .
+Some shortness of breath with allergies , particularly cats .
+No chest pain .
+The patient had been doing aerobics three times a week until a couple of weeks before admission .
+PAST MEDICAL HISTORY :
+The patient &apos;s past medical history is significant for allergies , depression and anxiety , pleural thickening / asbestosis , chronic left bundle branch block , tonsillectomy , adenoidectomy , vein stripping ( 1968 ) , left wrist fracture ( 1994 ) , and hypercholesterolemia .
+ALLERGIES :
+The patient &apos;s allergies include a questionable penicillin reaction ; however , the patient tolerated Ampicillin well .
+The patient does not recollect what her reaction to penicillin was .
+The patient also had a history of platelet reaction .
+FAMILY HISTORY :
+The patient &apos;s family history was significant for a brother with colon cancer .
+SOCIAL HISTORY :
+The patient lives with her husband and she has three children .
+PHYSICAL EXAMINATION :
+The patient &apos;s physical examination revealed a well-developed , well-nourished white female in no apparent distress .
+Vital signs :
+Temperature 98.2 , blood pressure 134/80 , respiratory rate 22 , pulse 102 .
+HEENT examination was normocephalic and atraumatic .
+Cranial nerves II-XII were grossly intact .
+There was decreased hearing bilaterally .
+The oropharynx was within normal limits with fillings and a partial upper plate .
+The neck had a full range of motion , no lymphadenopathy .
+The chest exam was clear to auscultation .
+Cardiac exam revealed an S1 and an S2 and a diffuse 2/6 systolic murmur .
+The abdomen was soft , nontender and nondistended with no guarding and no hepatosplenomegaly .
+Bowel sounds were present .
+The skin examination revealed the right breast had a dark two centimeter ecchymosis and the left medial thigh had two pale blue two centimeter macules .
+LABORATORY DATA :
+Admitting labs were :
+Sodium 138 , potassium 4.2 , chloride 98 , BUN 21 , creatinine 0.7 , glucose 117 , white blood cell count 13,200 , hematocrit 22.5 , platelet count 40,000 .
+AST 29 , ALK 151 , total bilirubin 0.2 , total protein 7.2 , albumin 4.3 , globulins 2.9 , calcium 8.9 .
+PT 12.8 , PTT 19.1 .
+Peripheral smear revealed blasts of 62% .
+HOSPITAL COURSE :
+A Hickman catheter was placed and the patient was begun on chemotherapy .
+The regimen included cyclophosphamide , daunorubicin , prednisone , Vincristine and PEG-asparaginase .
+The patient tolerated the chemotherapy regimen well .
+The patient began neutropenic on day five of induction .
+The patient &apos;s liver function tests began to rise and she began to experience pulmonary symptoms including increased crackles .
+The patient began to spike and a blood culture grew out Staphylococcusaureus .
+The patient was begun on Gentamicin , Vancomycin and Piperacillin , which was changed to Gentamicin and Ceftazidime .
+The patient continued to spike and was enrolled in a randomized trial , the patient was randomized to AmBisome antifungal treatment .
+An abdominal MRI was performed to assess continued elevated liver enzymes ; however , the MRI was negative .
+The patient was begun on Nafcillin due to continued spiking .
+The patient began to experience urinary retention and was straight catheterized .
+Thepatient developed a possible drug rash and Nafcillin was changed to Ancef .
+The patient became constipated ; this resolved with laxatives .
+The patient improved significantly and was thought to be ready for discharge by the 11th of April .
+She will follow up with her primary oncologists , Dr A and Dr Dark , at IVMC , after her discharge .
+DISCHARGE MEDICATIONS :
+The patient &apos;s discharge medications include the following :
+1) Albuterol inhaler two puffs q.i.d. p.r.n. breathing difficulties .
+2) Calcium gluconate 1000 mg p.o. q day .
+3) Cefazolin one gram IV q.8h. x 13days .
+4) Colace 100 mg p.o. b.i.d.
+5) Lasix 40 mg p.o. q day .
+6) Lactulose 30 milliliters p.o. q.2h. p.r.n. constipation .
+7) Magnesium hydroxide 30 milliliters p.o. q day .
+8) Miracle Creamtopical q day p.r.n. skin irritation .
+9) Sarna topical b.i.d. p.r.n. itching .
+10) Senna tablets , two tablets p.o. b.i.d.
+11) Simethicone 80 mg p.o. q.i.d. p.r.n. gas pain .
+12) Citrucel one tablespoon p.o. q day .
+13) K-Dur 10 mEq x three , p.o. b.i.d.
+14) Zoloft 25 mg p.o. q day .
+15) Peridex 30 cc p.o. b.i.d. x 14 days .
+16) Robituss in AC five to ten milliliters p.o. q.h.s. p.r.n. cough .
+Dictated By :
+AZEL HIBBSKAYS , M.D. CF66
+Attending :
+TELSHEY K. SWATLLEEBTIK , M.D. NJ38 ME089/6922
+Batch :
+43792
+Index No. CHDNIR25 OK
+D :
+05/13/98
+T :
+05/13/98

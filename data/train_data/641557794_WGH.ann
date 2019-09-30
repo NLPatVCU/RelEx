@@ -1,0 +1,56 @@
+T1	treatment 1748 1755	removal
+T2	problem 1759 1810	a 3.3 centimeter right lobe microfollicular adenoma
+T3	problem 334 353	papillary carcinoma
+T4	test 1643 1667	her deep tendon reflexes
+T5	problem 456 464	migraine
+T6	problem 1879 1917	any middle compartment lymphadenopathy
+T7	test 1075 1087	respirations
+T8	problem 314 353	left thyroid occult papillary carcinoma
+T9	problem 1428 1433	bruit
+T10	problem 767 774	dyspnea
+T11	test 1093 1098	pulse
+T12	problem 722 753	pressure discomfort in the neck
+T13	problem 687 716	a right lower dominant nodule
+T14	problem 673 681	symptoms
+T15	problem 1634 1640	masses
+T16	test 1046 1062	a blood pressure
+T17	treatment 2020 2031	her sutures
+T18	test 932 945	physical exam
+T19	problem 1009 1021	exophthalmos
+T20	problem 356 387	chronic lymphocytic thyroiditis
+T21	problem 839 853	thyroid cancer
+T22	problem 621 652	a non-toxic multinodular goiter
+T23	problem 1618 1630	organomegaly
+T24	problem 478 496	droperidol allergy
+T25	problem 447 453	asthma
+T26	treatment 877 901	prior radiation exposure
+T27	test 1470 1480	percussion
+T28	problem 778 787	dysphagia
+T29	problem 1597 1607	non-tender
+T30	problem 1352 1387	associated cervical lymphadenopathy
+T31	test 1261 1270	palpation
+T32	problem 1293 1314	a multinodular goiter
+T33	treatment 1729 1742	thyroidectomy
+T34	test 1024 1035	vital signs
+T35	problem 334 353	papillary carcinoma
+T36	problem 259 288	non-toxic multinodular goiter
+T37	treatment 402 444	right total and left subtotal oophorectomy
+T38	test 1104 1115	temperature
+T39	treatment 533 546	thyroidectomy
+T40	test 1513 1529	her heart rhythm
+T41	problem 1570 1576	murmur
+T42	test 1453 1465	auscultation
+T43	treatment 2167 2176	synthroid
+T44	problem 1931 1940	the tumor
+T45	test 1123 1129	o2 sat
+T46	problem 1503 1510	stridor
+T47	treatment 2268 2302	the neck suture lines steri-strips
+R1	TrAP Arg1:T1 Arg2:T2
+R2	PIP Arg1:T13 Arg2:T12
+R3	PIP Arg1:T14 Arg2:T13
+R4	PIP Arg1:T14 Arg2:T12
+R5	TeRP Arg1:T18 Arg2:T19
+R6	TeRP Arg1:T31 Arg2:T32
+R7	TeRP Arg1:T31 Arg2:T30
+R8	PIP Arg1:T32 Arg2:T30
+R9	TeRP Arg1:T40 Arg2:T41

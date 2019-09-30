@@ -1,0 +1,47 @@
+333521954
+FIH
+9558642
+616751
+7916543
+2/23/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+WIEGNEIGH , YLA
+MRN :
+9558642
+Age :
+53y
+REGISTRATION DATE :
+02/23/2005 05:41 AM
+Provider :
+GETZSIEH , M.D. WORK
+PRELIMINARY REPORT PCP notified by
+MD :
+Yes-Direct contact with PCP
+Discharge Date / Time :
+02/23/2005 13:38
+Discharge Status :
+Discharged Condition on Discharge :
+Stable
+Patient States Complaint :
+CHEST PAIN / SOB
+Diagnosis :
+R Lung Mass , likely cancer
+Treatment Rendered :
+Physical Examination , Laboratory Evaluation , CXR , Chest CT
+Discharge Medications :
+Vicodin 1-2 TABS PO Q6H PRN pain , # 50 , no refills
+Disposition , Follow up and Instructions to Patient :
+Oncologist , Dr. Ala Aixknoleskaysneighslemteelenortkote , will call you will your appt .
+You can call 576-598-7570 if you need to reschedule .
+We are scheduling you for a needle biopsy by interventional radiology for some time in the next week .
+they will call you to set up appt .
+PCP Name :
+NIQUE , TOYA N
+Provider Number :
+21636
+This report was created by WORK , SHELLBETHA , M.D. 02/23/2005 01:59 PM

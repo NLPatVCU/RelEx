@@ -1,0 +1,469 @@
+T1	treatment 11498 11509	vanco/zosyn
+T2	treatment 1596 1604	drainage
+T3	problem 1521 1533	her effusion
+T4	problem 1550 1557	her sob
+T5	problem 5703 5706	chf
+T6	problem 9617 9637	tamponade physiology
+T7	treatment 11455 11458	ctx
+T8	test 9646 9657	her preload
+T9	problem 4838 4843	fever
+T10	problem 5734 5750	low urine output
+T11	treatment 9772 9780	diuresis
+T12	treatment 10146 10155	dddr mode
+T13	treatment 11661 11673	transfusions
+T14	test 11249 11252	cxr
+T15	problem 11231 11245	consolidations
+T16	treatment 10124 10129	pacer
+T17	problem 4863 4871	diarrhea
+T18	treatment 5486 5498	intervention
+T19	treatment 5549 5569	a left thoracentesis
+T20	problem 5618 5631	her effusions
+T21	problem 5637 5649	transudative
+T22	problem 5665 5668	chf
+T23	problem 10095 10103	afib/sss
+T24	test 11395 11397	ua
+T25	treatment 10217 10221	tube
+T26	problem 10173 10176	ptx
+T27	problem 8691 8718	bilateral pleural effusions
+T28	problem 11164 11175	atelectasis
+T29	problem 4541 4559	transudative fluid
+T30	problem 11134 11159	underlying consolidations
+T31	treatment 8446 8459	atrovent nebs
+T32	problem 4846 4860	abdominal pain
+T33	treatment 8494 8501	boluses
+T34	treatment 11178 11186	levoflox
+T35	test 4481 4488	enzymes
+T36	problem 4475 4477	mi
+T37	treatment 7745 7761	comfort measures
+T38	treatment 8476 8489	iv lasix drip
+T39	treatment 11031 11038	boluses
+T40	problem 10933 10953	low amounts of urine
+T41	problem 1996 2010	hypothyroidism
+T42	test 9954 9966	mary studies
+T43	problem 9971 9981	transudate
+T44	treatment 5767 5782	a lasix drip iv
+T45	problem 5926 5952	net positive fluid balance
+T46	treatment 11014 11026	iv lasix gtt
+T47	test 4562 4567	wbc s
+T48	treatment 6017 6025	dialysis
+T49	problem 8631 8653	right pleural effusion
+T50	test 9552 9562	her pulsus
+T51	problem 11075 11087	leukocytosis
+T52	problem 2538 2542	lbbb
+T53	problem 2548 2564	st or tw changes
+T54	problem 2306 2312	bruits
+T55	treatment 10886 10905	urgent hemodialysis
+T56	problem 8117 8120	sob
+T57	problem 8144 8147	chf
+T58	problem 8196 8204	her copd
+T59	test 2288 2291	jvp
+T60	problem 3825 3839	hydronephrosis
+T61	treatment 10989 11008	aggressive diuresis
+T62	treatment 10507 10531	additional a fib control
+T63	treatment 11921 11928	aranesp
+T64	problem 4742 4755	worsening arf
+T65	problem 2823 2834	atelectasis
+T66	treatment 10723 10731	diuresis
+T67	problem 3585 3588	low
+T68	test 10734 10749	her urine lytes
+T69	problem 10766 10769	atn
+T70	problem 4370 4397	bilateral pleural effusions
+T71	test 10772 10776	fena
+T72	problem 2815 2818	pna
+T73	test 3568 3580	lung volumes
+T74	test 2501 2504	ecg
+T75	problem 4670 4702	persistent pericardial effusions
+T76	test 4637 4654	2 echocardiograms
+T77	treatment 8462 8470	diuresis
+T78	treatment 12118 12131	levothyroxine
+T79	treatment 7026 7046	repeat thoracenteses
+T80	problem 545 548	arf
+T81	problem 4900 4908	headache
+T82	treatment 10498 10502	dilt
+T83	test 5399 5404	pulse
+T84	problem 346 350	copd
+T85	treatment 9459 9474	pacer placement
+T86	problem 9441 9455	a complication
+T87	problem 9381 9411	her large pericardial effusion
+T88	problem 10549 10554	a fib
+T89	test 5358 5372	blood pressure
+T90	problem 4825 4827	cp
+T91	problem 4758 4776	her o2 requirement
+T92	treatment 10251 10256	pacer
+T93	problem 9262 9271	tamponade
+T94	test 2835 2838	tte
+T95	problem 2943 2964	rv diastolic collapse
+T96	problem 2887 2925	mod-lg circumferential pericardial eff
+T97	problem 2992 3001	tamponade
+T98	treatment 4799 4807	diuresis
+T99	problem 4874 4896	black or bloody stools
+T100	test 9275 9279	exam
+T101	problem 4830 4835	cough
+T102	treatment 10350 10360	amiodarone
+T103	problem 1987 1991	gerd
+T104	problem 8371 8381	transudate
+T105	problem 8411 8414	chf
+T106	treatment 728 740	ct placement
+T107	problem 712 717	a ptx
+T108	problem 8233 8259	large pericardial effusion
+T109	problem 2011 2024	legally blind
+T110	test 11638 11644	guiaic
+T111	treatment 658 667	her pacer
+T112	test 8347 8354	studies
+T113	test 8151 8155	exam
+T114	problem 1398 1419	rv diastolic collapse
+T115	test 8572 8585	her 05-28 cxr
+T116	treatment 122 129	codeine
+T117	treatment 10385 10400	anticoagulation
+T118	problem 8288 8310	right pleural effusion
+T119	test 551 553	cr
+T120	problem 6909 6932	multiple co-morbidities
+T121	treatment 12047 12057	amiodarone
+T122	problem 12304 12331	hypoxic respiratory failure
+T123	problem 12284 12299	pulmonary edema
+T124	problem 12518 12541	coronary artery disease
+T125	treatment 7002 7022	pericardial drainage
+T126	problem 3532 3552	mild pulmonary edema
+T127	treatment 12499 12514	pacer placement
+T128	problem 12467 12486	sick sinus syndrome
+T129	test 8504 8517	her 05-27 cxr
+T130	problem 8537 8540	pnx
+T131	problem 8543 8551	effusion
+T132	problem 2424 2433	distended
+T133	problem 12433 12463	paroxysmal atrial fibrillation
+T134	problem 2469 2480	1+ le edema
+T135	problem 2448 2462	cva tenderness
+T136	problem 2436 2442	dec bs
+T137	test 9507 9514	imaging
+T138	problem 12405 12429	congestive heart failure
+T139	problem 4973 5005	her ongoing pericardial effusion
+T140	problem 12365 12401	moderate bilateral pleural effusions
+T141	problem 3973 3987	hydronephrosis
+T142	problem 359 364	pafib
+T143	problem 369 372	sss
+T144	problem 12335 12361	large pericardial effusion
+T145	problem 5173 5205	change in appearance of effusion
+T146	test 5209 5213	echo
+T147	test 4499 4526	a right sided thoracentesis
+T148	problem 353 356	cad
+T149	treatment 12183 12205	albuterol-ipratroprium
+T150	treatment 12145 12151	diovan
+T151	treatment 7664 7676	central line
+T152	treatment 12165 12170	imdur
+T153	treatment 8995 9008	her lasix gtt
+T154	treatment 12028 12034	pepcid
+T155	problem 8107 8111	pain
+T156	treatment 12071 12083	levofloxacin
+T157	treatment 12009 12015	ec asa
+T158	treatment 11950 11962	diltiazem cd
+T159	problem 346 350	copd
+T160	problem 3418 3429	perforation
+T161	treatment 3926 3942	a foley catheter
+T162	treatment 7679 7695	right heart cath
+T163	treatment 11970 11975	paxil
+T164	treatment 3375 3380	pacer
+T165	problem 3090 3097	atrophy
+T166	problem 8088 8102	her air hunger
+T167	problem 3100 3136	dense calcification of the tentorium
+T168	problem 10805 10819	hydronephrosis
+T169	treatment 8276 8284	drainage
+T170	treatment 11765 11768	piv
+T171	problem 6576 6584	afebrile
+T172	test 10782 10791	renal u/s
+T173	test 3034 3041	head ct
+T174	treatment 5103 5123	pericardial drainage
+T175	treatment 6164 6166	nc
+T176	problem 6203 6225	her oxygen requirement
+T177	test 5307 5323	right heart cath
+T178	problem 1181 1208	bilateral pleural effusions
+T179	test 6609 6631	her pulsus parodoxicus
+T180	test 11269 11272	u/a
+T181	problem 11286 11289	uti
+T182	treatment 6547 6552	zosyn
+T183	treatment 1232 1235	ivf
+T184	problem 1240 1247	her arf
+T185	test 1264 1269	a tte
+T186	problem 1449 1458	tamponade
+T187	problem 1334 1377	mod-lg circumferential pericardial effusion
+T188	problem 396 414	symptomatic pauses
+T189	test 6652 6659	her abg
+T190	problem 11560 11567	opacity
+T191	test 3224 3228	echo
+T192	treatment 377 382	pacer
+T193	treatment 7254 7267	thoracentesis
+T194	treatment 7231 7251	pericardial drainage
+T195	test 11571 11574	cxr
+T196	treatment 7348 7351	nrb
+T197	treatment 7295 7300	bipap
+T198	problem 1992 1995	cva
+T199	treatment 1461 1471	pacer wire
+T200	problem 434 460	large pericardial effusion
+T201	treatment 471 479	drainage
+T202	treatment 6239 6242	nrb
+T203	test 8220 8223	tte
+T204	problem 11586 11598	leukocytosis
+T205	treatment 1609 1618	treatment
+T206	problem 1622 1625	chf
+T207	test 6385 6390	a cxr
+T208	problem 6480 6499	stable cardiomegaly
+T209	problem 6515 6529	rll infiltrate
+T210	problem 6435 6477	moderate sized bilateral pleural effusions
+T211	problem 9914 9931	some leukocytosis
+T212	problem 484 487	chf
+T213	problem 9111 9131	pericardial effusion
+T214	problem 9180 9194	rv perforation
+T215	treatment 3004 3014	pacer lead
+T216	problem 192 218	large pericardial effusion
+T217	treatment 6532 6542	vancomycin
+T218	problem 9863 9880	pleural effusions
+T219	problem 9897 9900	chf
+T220	problem 1744 1750	any cp
+T221	problem 4042 4045	sss
+T222	problem 799 806	her ptx
+T223	problem 831 839	vomiting
+T224	problem 11424 11438	levo-resistant
+T225	problem 11362 11379	floridly positive
+T226	test 11355 11357	ua
+T227	problem 10653 10656	n/v
+T228	problem 822 828	nausea
+T229	problem 914 924	her nausea
+T230	problem 10676 10693	poor forward flow
+T231	treatment 936 950	her amiodarone
+T232	problem 10657 10671	poor po intake
+T233	treatment 11988 11997	detrol la
+T234	test 3173 3180	imaging
+T235	problem 4035 4039	afib
+T236	problem 2643 2658	pericardial eff
+T237	treatment 132 138	iodine
+T238	treatment 6379 6382	nrb
+T239	test 2565 2568	cxr
+T240	problem 2617 2638	bilateral pleural eff
+T241	treatment 6329 6331	nc
+T242	problem 1067 1070	n/v
+T243	test 6291 6294	abg
+T244	problem 1054 1062	lethargy
+T245	problem 1140 1143	arf
+T246	problem 3692 3700	mild chf
+T247	treatment 11326 11334	levoflox
+T248	treatment 11302 11316	iv ceftriaxone
+T249	problem 11604 11610	anemia
+T250	problem 1146 1174	a large pericardial effusion
+T251	problem 1861 1864	sss
+T252	problem 1854 1858	afib
+T253	treatment 10033 10045	morphine gtt
+T254	problem 10079 10089	air hunger
+T255	problem 3591 3612	bibasilar atelectasis
+T256	problem 3641 3687	unchanged moderate bilateral pleural effusions
+T257	problem 3488 3515	bilateral pleural effusions
+T258	test 3458 3474	the lung volumes
+T259	treatment 9818 9821	ccb
+T260	treatment 9810 9815	imdur
+T261	test 11108 11116	chest ct
+T262	problem 10615 10627	oliguric arf
+T263	treatment 10187 10197	chest tube
+T264	problem 4085 4088	cad
+T265	problem 11257 11265	afebrile
+T266	problem 353 356	cad
+T267	treatment 10299 10314	her pacer wires
+T268	treatment 7273 7289	right heart cath
+T269	test 8870 8876	o2 sat
+T270	problem 3853 3868	urinary calculi
+T271	test 3769 3775	length
+T272	treatment 4358 4366	drainage
+T273	problem 4187 4214	bilateral pleural effusions
+T274	treatment 1874 1903	pacer dddr ( vitatron cl860 )
+T275	problem 1921 1924	sss
+T276	problem 1930 1953	symptomatic bradycardia
+T277	test 3703 3711	renal us
+T278	treatment 4294 4323	pericardial effusion drainage
+T279	problem 4154 4182	a large pericardial effusion
+T280	problem 4121 4124	arf
+T281	treatment 9322 9348	the placement of pacemaker
+T282	test 2363 2365	bs
+T283	treatment 9200 9205	pacer
+T284	problem 4129 4137	lethargy
+T285	problem 2168 2184	pulsus parodoxus
+T286	treatment 4328 4337	treatment
+T287	problem 4341 4344	chf
+T288	treatment 9804 9807	asa
+T289	treatment 9829 9835	diovan
+T290	test 9694 9697	tte
+T291	problem 9675 9678	chf
+T292	problem 9715 9736	diastolic dysfunction
+T293	problem 3253 3291	moderate to large pericardial effusion
+T294	problem 3294 3318	minimal fluid anteriorly
+T295	problem 3330 3336	bloody
+T296	test 4222 4226	echo
+T297	problem 4250 4259	tamponade
+T298	problem 1780 1788	diarrhea
+T299	problem 4066 4069	ptx
+T300	treatment 8804 8813	face mask
+T301	treatment 4050 4055	pacer
+T302	problem 1850 1853	htn
+T303	test 6094 6103	afterload
+T304	test 4911 4927	her urine output
+T305	problem 4928 4937	decreased
+T306	treatment 8787 8792	zosyn
+T307	problem 8738 8765	right lower lobe infiltrate
+T308	test 6082 6089	preload
+T309	test 2151 2154	sat
+T310	treatment 8822 8827	lasix
+T311	problem 1791 1813	black or bloody stools
+T312	treatment 2162 2167	60%fm
+T313	problem 576 579	sob
+T314	test 2123 2124	t
+T315	problem 1960 1965	r ptx
+T316	problem 1816 1824	headache
+T317	problem 1656 1664	some sob
+T318	test 11703 11708	lytes
+T319	treatment 1976 1986	chest tube
+T320	test 3813 3819	length
+T321	treatment 8911 8926	200 mg iv lasix
+T322	treatment 4080 4082	ct
+T323	test 9038 9053	her oxygen sats
+T324	problem 3343 3372	definite tamponade physiology
+T325	test 8960 8972	urine output
+T326	problem 2745 2762	bilat pleural eff
+T327	problem 2768 2792	underlying consolidation
+T328	test 2146 2147	r
+T329	treatment 6028 6040	a nitro drip
+T330	test 4408 4413	a bnp
+T331	treatment 11734 11752	cardiac/renal diet
+T332	problem 2716 2742	large pericardial effusion
+T333	test 5386 5394	systolic
+T334	treatment 7404 7427	these invasive measures
+T335	problem 1753 1758	cough
+T336	treatment 10114 10121	a-paced
+T337	problem 9753 9755	mi
+T338	test 2136 2138	bp
+T339	treatment 11514 11548	empiric hosp acquired pna coverage
+T340	test 2659 2667	ct chest
+T341	test 2130 2132	hr
+T342	treatment 278 291	thoracentesis
+T343	problem 10274 10277	ptx
+T344	test 3432 3435	cxr
+T345	treatment 7367 7377	intubation
+T346	problem 1761 1766	fever
+T347	test 10281 10296	most recent cxr
+T348	treatment 8779 8784	vanco
+T349	problem 1769 1777	abd pain
+T350	test 6144 6151	satting
+T351	treatment 8430 8443	her albuterol
+T352	problem 2390 2403	consolidation
+T353	problem 2200 2218	mild resp distress
+T354	treatment 5825 5844	boluses of iv lasix
+T355	test 6261 6268	satting
+R1	TrAP Arg1:T2 Arg2:T3
+R2	PIP Arg1:T3 Arg2:T4
+R3	TeRP Arg1:T14 Arg2:T15
+R4	TrNAP Arg1:T19 Arg2:T20
+R5	PIP Arg1:T20 Arg2:T21
+R6	PIP Arg1:T20 Arg2:T22
+R7	PIP Arg1:T20 Arg2:T5
+R8	TrAP Arg1:T25 Arg2:T26
+R9	TeRP Arg1:T35 Arg2:T36
+R10	TrWP Arg1:T39 Arg2:T40
+R11	TeRP Arg1:T42 Arg2:T43
+R12	TrWP Arg1:T44 Arg2:T45
+R13	TrWP Arg1:T46 Arg2:T40
+R14	PIP Arg1:T56 Arg2:T57
+R15	PIP Arg1:T56 Arg2:T58
+R16	TrWP Arg1:T61 Arg2:T40
+R17	TeRP Arg1:T68 Arg2:T69
+R18	TeRP Arg1:T73 Arg2:T67
+R19	TeRP Arg1:T74 Arg2:T52
+R20	TeRP Arg1:T74 Arg2:T53
+R21	TeRP Arg1:T76 Arg2:T75
+R22	TrCP Arg1:T85 Arg2:T86
+R23	TrCP Arg1:T85 Arg2:T87
+R24	PIP Arg1:T87 Arg2:T86
+R25	TeRP Arg1:T94 Arg2:T95
+R26	TeRP Arg1:T94 Arg2:T96
+R27	TeRP Arg1:T94 Arg2:T97
+R28	TrWP Arg1:T98 Arg2:T91
+R29	TeRP Arg1:T100 Arg2:T93
+R30	PIP Arg1:T104 Arg2:T105
+R31	TrAP Arg1:T106 Arg2:T107
+R32	TeRP Arg1:T112 Arg2:T104
+R33	TeRP Arg1:T113 Arg2:T57
+R34	TeRP Arg1:T115 Arg2:T49
+R35	TeRP Arg1:T119 Arg2:T80
+R36	PIP Arg1:T122 Arg2:T123
+R37	TrAP Arg1:T127 Arg2:T128
+R38	TeRP Arg1:T129 Arg2:T130
+R39	TeRP Arg1:T129 Arg2:T131
+R40	TeCP Arg1:T137 Arg2:T86
+R41	PIP Arg1:T142 Arg2:T143
+R42	TeRP Arg1:T146 Arg2:T145
+R43	TeRP Arg1:T147 Arg2:T29
+R44	TrCP Arg1:T164 Arg2:T160
+R45	TrAP Arg1:T169 Arg2:T118
+R46	TeRP Arg1:T172 Arg2:T168
+R47	TeRP Arg1:T173 Arg2:T165
+R48	TeRP Arg1:T173 Arg2:T167
+R49	TrNAP Arg1:T174 Arg2:T145
+R50	TrAP Arg1:T175 Arg2:T176
+R51	TeRP Arg1:T180 Arg2:T181
+R52	TrAP Arg1:T183 Arg2:T184
+R53	TeRP Arg1:T185 Arg2:T114
+R54	TeRP Arg1:T185 Arg2:T186
+R55	TeRP Arg1:T185 Arg2:T187
+R56	TrAP Arg1:T192 Arg2:T188
+R57	TeRP Arg1:T195 Arg2:T190
+R58	TrAP Arg1:T201 Arg2:T200
+R59	TrAP Arg1:T202 Arg2:T176
+R60	TeRP Arg1:T203 Arg2:T108
+R61	TrAP Arg1:T205 Arg2:T206
+R62	TeRP Arg1:T207 Arg2:T208
+R63	TeRP Arg1:T207 Arg2:T209
+R64	TeRP Arg1:T207 Arg2:T210
+R65	PIP Arg1:T213 Arg2:T214
+R66	PIP Arg1:T218 Arg2:T219
+R67	PIP Arg1:T218 Arg2:T211
+R68	PIP Arg1:T225 Arg2:T224
+R69	TeRP Arg1:T226 Arg2:T225
+R70	TeRP Arg1:T226 Arg2:T224
+R71	TrCP Arg1:T231 Arg2:T229
+R72	PIP Arg1:T235 Arg2:T221
+R73	TeRP Arg1:T239 Arg2:T240
+R74	TeRP Arg1:T239 Arg2:T236
+R75	PIP Arg1:T251 Arg2:T252
+R76	TrAP Arg1:T253 Arg2:T254
+R77	TeRP Arg1:T258 Arg2:T257
+R78	TeRP Arg1:T261 Arg2:T30
+R79	TeRP Arg1:T261 Arg2:T28
+R80	PIP Arg1:T262 Arg2:T227
+R81	PIP Arg1:T262 Arg2:T232
+R82	PIP Arg1:T262 Arg2:T230
+R83	TrAP Arg1:T263 Arg2:T26
+R84	TrAP Arg1:T272 Arg2:T70
+R85	TrAP Arg1:T272 Arg2:T273
+R86	TrAP Arg1:T274 Arg2:T275
+R87	TrAP Arg1:T274 Arg2:T276
+R88	PIP Arg1:T275 Arg2:T276
+R89	TrAP Arg1:T278 Arg2:T279
+R90	TrCP Arg1:T283 Arg2:T214
+R91	TrAP Arg1:T286 Arg2:T287
+R92	TeCP Arg1:T290 Arg2:T291
+R93	PIP Arg1:T291 Arg2:T292
+R94	PIP Arg1:T293 Arg2:T294
+R95	PIP Arg1:T293 Arg2:T295
+R96	TeRP Arg1:T296 Arg2:T297
+R97	TrAP Arg1:T301 Arg2:T221
+R98	TrAP Arg1:T301 Arg2:T235
+R99	TeRP Arg1:T304 Arg2:T305
+R100	TrAP Arg1:T306 Arg2:T307
+R101	TrAP Arg1:T319 Arg2:T315
+R102	TrAP Arg1:T322 Arg2:T299
+R103	PIP Arg1:T326 Arg2:T327
+R104	PIP Arg1:T326 Arg2:T72
+R105	PIP Arg1:T326 Arg2:T65
+R106	PIP Arg1:T327 Arg2:T72
+R107	PIP Arg1:T327 Arg2:T65
+R108	TrAP Arg1:T336 Arg2:T23
+R109	TeRP Arg1:T340 Arg2:T332
+R110	TeRP Arg1:T340 Arg2:T326
+R111	TeRP Arg1:T340 Arg2:T327
+R112	TeRP Arg1:T347 Arg2:T343
+R113	TrAP Arg1:T348 Arg2:T307
+R114	TrWP Arg1:T354 Arg2:T45

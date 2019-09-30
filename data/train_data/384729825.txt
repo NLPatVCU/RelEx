@@ -1,0 +1,30 @@
+384729825
+FIH
+0670582
+899158
+790156
+11/20/2002 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+BREUNDAIL , NETFA
+MRN :
+0670582
+Age :
+91y
+REGISTRATION DATE :
+11/20/2002 02:02 AM
+PRELIMINARY REPORT
+This is to notify you that your patient , BREUNDAIL , NETFA arrived in the Emergency Department at Fairm of Ijordcompmac Hospital on 11/20/2002 02:02 AM .
+The patient presented with a chief complaint of SDH .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO FAIRM OF IJORDCOMPMAC HOSPITAL .
+The patient &apos;s preliminary admitting physician is GLYNCRED , NABETH N and the preliminary diagnosis is SDH .
+Please note this information may have been updated on the inpatient unit .
+If you need additional information please call 834-226-3369 .
+PCP Name :
+TRIEVA , WINGENE R
+Provider Number :
+03519

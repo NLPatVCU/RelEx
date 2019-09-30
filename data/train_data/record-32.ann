@@ -1,0 +1,271 @@
+T1	treatment 390 420	anterior instrumentation l3-l4
+T2	treatment 6497 6504	mylanta
+T3	treatment 438 462	bone morphogenic protein
+T4	treatment 6448 6456	atrovent
+T5	treatment 6285 6305	his iron supplements
+T6	treatment 338 353	fusion at l3-l4
+T7	test 6217 6224	his hct
+T8	problem 6208 6214	anemia
+T9	treatment 359 384	vertebral spacer at l3-l4
+T10	treatment 298 332	partial vertebrectomy of l3 and l4
+T11	treatment 6144 6157	his dressings
+T12	treatment 122 133	penicillins
+T13	treatment 6131 6141	ulcer care
+T14	problem 239 255	epidural abscess
+T15	treatment 7725 7736	fluconazole
+T16	problem 7278 7283	fever
+T17	treatment 7092 7110	miconazole nitrate
+T18	treatment 6621 6631	metoprolol
+T19	treatment 6595 6604	metformin
+T20	treatment 6649 6659	vancomycin
+T21	treatment 6571 6580	glipizide
+T22	treatment 6904 6932	aluminum-magnesium hydroxide
+T23	treatment 6547 6568	insulin sliding scale
+T24	treatment 6804 6823	ipratropium bromide
+T25	treatment 6523 6529	pepcid
+T26	treatment 7018 7027	glipizide
+T27	problem 818 827	back pain
+T28	treatment 7460 7475	docusate sodium
+T29	treatment 7545 7550	senna
+T30	treatment 757 769	chemotherapy
+T31	treatment 7377 7384	cepacol
+T32	problem 698 714	serosal implants
+T33	problem 7287 7291	pain
+T34	problem 662 680	colon can to liver
+T35	treatment 687 692	resxn
+T36	treatment 7297 7316	metoprolol tartrate
+T37	treatment 7188 7201	acetaminophen
+T38	treatment 8819 8839	sliding scale-please
+T39	problem 632 648	epidural abscess
+T40	test 524 538	echocardiogram
+T41	treatment 512 520	drainage
+T42	treatment 8173 8195	vancomycin in dextrose
+T43	treatment 7943 7952	bisacodyl
+T44	treatment 8083 8090	aspirin
+T45	treatment 499 507	incision
+T46	treatment 484 495	debridement
+T47	treatment 469 478	allograft
+T48	treatment 7818 7827	oxycodone
+T49	treatment 426 435	autograft
+T50	treatment 7629 7638	oxycodone
+T51	problem 7702 7706	pain
+T52	treatment 8707 8731	insulin lispro ( human )
+T53	test 1156 1164	blood cx
+T54	treatment 2084 2088	cabg
+T55	problem 2076 2079	cad
+T56	treatment 8610 8626	insulin glargine
+T57	treatment 1076 1081	cipro
+T58	problem 2135 2145	neuropathy
+T59	test 1140 1153	a bone biopsy
+T60	problem 9510 9543	loss of bowel or bladder function
+T61	problem 8932 8948	epidural abscess
+T62	treatment 8522 8529	heparin
+T63	problem 2127 2129	dm
+T64	test 938 944	an mri
+T65	problem 970 992	a signal abno in l3 l4
+T66	problem 995 1004	disciitis
+T67	problem 1008 1013	osteo
+T68	problem 1022 1051	a definitive epidural abscess
+T69	treatment 1067 1071	vanc
+T70	treatment 8484 8486	ns
+T71	treatment 1132 1135	abx
+T72	problem 2150 2173	persistent r foot ulcer
+T73	treatment 8542 8549	heparin
+T74	problem 9080 9082	dm
+T75	problem 9088 9098	neuropathy
+T76	problem 2717 2728	mm very dry
+T77	problem 2759 2762	jvd
+T78	problem 9057 9077	hypercholesterolemia
+T79	problem 2750 2753	lad
+T80	problem 9029 9032	cad
+T81	problem 9547 9576	any other concerning symptoms
+T82	treatment 2378 2387	medicines
+T83	treatment 876 884	his cane
+T84	problem 8973 8985	colon cancer
+T85	problem 8991 9004	mets to liver
+T86	problem 2104 2124	hypercholesterolemia
+T87	treatment 9037 9041	cabg
+T88	treatment 2029 2038	resection
+T89	problem 1993 2005	colon cancer
+T90	problem 2011 2024	mets to liver
+T91	treatment 9255 9270	the antibiotics
+T92	problem 1790 1798	weakness
+T93	problem 1842 1853	severe pain
+T94	treatment 9290 9309	the pain medication
+T95	problem 2644 2647	nad
+T96	treatment 9352 9367	this medication
+T97	test 1408 1411	cxr
+T98	problem 1424 1446	small pleural effusion
+T99	problem 9103 9126	persistent r foot ulcer
+T100	problem 1917 1946	bowel or bladder incontinence
+T101	test 1565 1619	a ct-guided aspiration / biopsy at the l3-4 disc space
+T102	problem 9158 9166	afebrile
+T103	problem 9216 9235	an epidural abscess
+T104	problem 1863 1867	pain
+T105	problem 1974 1990	epidural abscess
+T106	test 1380 1391	followup cx
+T107	problem 9432 9442	chest pain
+T108	treatment 8366 8396	heparin lock flush ( porcine )
+T109	problem 9486 9507	weakness in your legs
+T110	treatment 8303 8309	pepcid
+T111	test 1360 1368	blood cx
+T112	problem 1341 1356	corynebacterium
+T113	problem 9418 9423	fever
+T114	problem 9446 9465	shortness of breath
+T115	problem 9468 9482	worsening pain
+T116	problem 1770 1786	sensory deficits
+T117	problem 3026 3050	well healed midline scar
+T118	problem 3096 3101	edema
+T119	problem 3081 3084	hsm
+T120	problem 2857 2873	ii/vi sem at lsb
+T121	problem 2879 2896	radiation to apex
+T122	problem 2948 2969	very tense in abdomen
+T123	problem 2664 2668	pain
+T124	test 3484 3486	na
+T125	test 3141 3150	dp pulses
+T126	problem 3376 3384	swelling
+T127	problem 3124 3134	r le ulcer
+T128	test 3495 3496	k
+T129	treatment 3104 3112	dressing
+T130	problem 2811 2821	tenderness
+T131	test 3557 3569	vanco trough
+T132	problem 3364 3372	erythema
+T133	treatment 2771 2793	port a cath in r chest
+T134	problem 2799 2807	erythema
+T135	problem 3308 3350	ttp of lumbar spine and paraspinal muscles
+T136	test 3619 3631	culture data
+T137	test 3606 3609	inr
+T138	problem 2909 2927	crackles at l base
+T139	test 3596 3599	plt
+T140	problem 4191 4218	moderate l pleural effusion
+T141	problem 3740 3756	epidural abscess
+T142	problem 3725 3733	discitis
+T143	test 3653 3669	mri lumbar spine
+T144	problem 3704 3722	l3-4 osteomyelitis
+T145	test 3585 3588	hct
+T146	test 3548 3550	ca
+T147	problem 5345 5371	corynebacterium bacteremia
+T148	problem 3759 3779	degenerative changes
+T149	problem 3790 3824	multilevel central spinal stenosis
+T150	test 4559 4566	troughs
+T151	problem 3899 3909	disc bulge
+T152	test 3538 3541	glu
+T153	problem 3940 3974	paraspinous extension of infection
+T154	test 3503 3505	cl
+T155	test 3511 3514	co2
+T156	problem 3827 3895	impression on the anterior aspect of the lower spinal cord at t11-12
+T157	test 3575 3578	wbc
+T158	problem 4362 4388	corynebacterium bacteremia
+T159	problem 4341 4357	epidural abscess
+T160	test 3520 3523	bun
+T161	problem 4121 4185	persistent unchanged l mid and lower lung field airspace disease
+T162	test 3529 3531	cr
+T163	test 4083 4086	cxr
+T164	test 5573 5576	cxr
+T165	problem 5558 5569	an effusion
+T166	problem 4297 4309	colon cancer
+T167	problem 4315 4331	known liver mets
+T168	problem 5512 5528	pleural effusion
+T169	problem 4393 4409	epidural abscess
+T170	problem 5473 5488	corynebacterium
+T171	treatment 4676 4689	the surgeries
+T172	test 5450 5464	blood cultures
+T173	treatment 4503 4516	iv vancomycin
+T174	problem 4740 4754	low hematocrit
+T175	treatment 5140 5148	diflucan
+T176	problem 5031 5041	candidemia
+T177	treatment 4984 4996	a back brace
+T178	problem 4759 4771	hyponatremia
+T179	problem 5770 5797	intrapleural tumor implants
+T180	treatment 4887 4898	a picc line
+T181	treatment 4794 4805	the surgery
+T182	problem 5647 5662	malignant cells
+T183	test 5086 5099	blood culture
+T184	test 5604 5619	a thoracentesis
+T185	treatment 4924 4954	a 8 week course of antibiotics
+T186	treatment 6436 6445	albuterol
+T187	problem 5193 5206	ocular spread
+T188	problem 5928 5939	symptomatic
+T189	treatment 1471 1474	tap
+T190	treatment 5209 5233	the patient 's portocath
+T191	treatment 6401 6408	lovenox
+T192	treatment 6337 6349	iron sulfate
+T193	treatment 1504 1517	the procedure
+T194	test 5260 5267	culture
+T195	treatment 6366 6373	procrit
+T196	treatment 5311 5340	a two week course of diflucan
+T197	treatment 6705 6722	albuterol sulfate
+T198	problem 5385 5400	corynebacterium
+T199	problem 5404 5420	epidural abscess
+T200	treatment 6467 6475	morphine
+T201	problem 1253 1261	discitis
+T202	problem 1266 1285	an epidural abscess
+T203	problem 1230 1248	l3-4 osteomyelitis
+T204	test 5622 5629	the tap
+T205	test 1206 1213	the mri
+T206	test 5812 5821	the films
+T207	problem 5694 5712	nodular thickening
+T208	problem 6031 6045	diabetic ulcer
+T209	treatment 6050 6057	surgery
+T210	test 5665 5676	a repeat ct
+T211	treatment 1326 1336	vancomycin
+T212	treatment 5847 5861	oncologic care
+T213	problem 6018 6028	foot ulcer
+T214	treatment 9009 9018	resection
+T215	problem 5946 5964	fluid accumulation
+T216	treatment 5898 5909	pleurodesis
+R1	TeCP Arg1:T7 Arg2:T8
+R2	PIP Arg1:T34 Arg2:T32
+R3	TrAP Arg1:T35 Arg2:T34
+R4	TrAP Arg1:T35 Arg2:T32
+R5	TrAP Arg1:T37 Arg2:T16
+R6	TrAP Arg1:T37 Arg2:T33
+R7	TrAP Arg1:T50 Arg2:T51
+R8	TrAP Arg1:T54 Arg2:T55
+R9	PIP Arg1:T63 Arg2:T58
+R10	TeRP Arg1:T64 Arg2:T65
+R11	TeRP Arg1:T64 Arg2:T66
+R12	TeRP Arg1:T64 Arg2:T67
+R13	TeRP Arg1:T64 Arg2:T68
+R14	PIP Arg1:T65 Arg2:T66
+R15	PIP Arg1:T65 Arg2:T67
+R16	PIP Arg1:T65 Arg2:T68
+R17	PIP Arg1:T74 Arg2:T75
+R18	TrAP Arg1:T83 Arg2:T27
+R19	PIP Arg1:T84 Arg2:T85
+R20	TrAP Arg1:T87 Arg2:T80
+R21	TrAP Arg1:T88 Arg2:T89
+R22	PIP Arg1:T89 Arg2:T90
+R23	TeRP Arg1:T97 Arg2:T98
+R24	TeRP Arg1:T111 Arg2:T112
+R25	PIP Arg1:T120 Arg2:T121
+R26	TrAP Arg1:T129 Arg2:T127
+R27	TrCP Arg1:T133 Arg2:T134
+R28	TrCP Arg1:T133 Arg2:T130
+R29	TeRP Arg1:T143 Arg2:T144
+R30	TeRP Arg1:T143 Arg2:T142
+R31	TeRP Arg1:T143 Arg2:T141
+R32	PIP Arg1:T148 Arg2:T149
+R33	PIP Arg1:T156 Arg2:T151
+R34	PIP Arg1:T158 Arg2:T159
+R35	TeRP Arg1:T163 Arg2:T161
+R36	TeRP Arg1:T163 Arg2:T140
+R37	TeRP Arg1:T164 Arg2:T165
+R38	PIP Arg1:T167 Arg2:T166
+R39	TeCP Arg1:T172 Arg2:T170
+R40	TrCP Arg1:T181 Arg2:T174
+R41	TrCP Arg1:T181 Arg2:T178
+R42	TeRP Arg1:T183 Arg2:T176
+R43	TrAP Arg1:T189 Arg2:T98
+R44	TrAP Arg1:T193 Arg2:T98
+R45	PIP Arg1:T198 Arg2:T199
+R46	TeRP Arg1:T204 Arg2:T182
+R47	TeRP Arg1:T205 Arg2:T203
+R48	TeRP Arg1:T205 Arg2:T201
+R49	TeRP Arg1:T205 Arg2:T202
+R50	PIP Arg1:T207 Arg2:T179
+R51	TrWP Arg1:T209 Arg2:T208
+R52	TeRP Arg1:T210 Arg2:T207
+R53	TrAP Arg1:T211 Arg2:T112
+R54	TrAP Arg1:T214 Arg2:T84
+R55	TrAP Arg1:T216 Arg2:T215

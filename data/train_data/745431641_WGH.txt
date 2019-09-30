@@ -1,0 +1,49 @@
+745431641 WGH
+2464448
+333887
+3473372
+9/16/2004 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+KOTEA , TORTHEOA
+MRN :
+2464448
+Age :
+59y
+REGISTRATION DATE :
+09/16/2004 09:22 AM
+Provider :
+YERTREY SUMCHIRDKAYSMAVVEINDREPS
+PRELIMINARY REPORT
+PCP notified by MD :
+Yes - Direct contact with PCP
+Benefits Assigned :
+N
+Discharge Date / Time :
+09/16/2004 17:48
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+CP
+Standardized Discharge Instructions :
+The patient was given printed instructions for chest pain ( English ) .
+Diagnosis :
+Noncardiac chest pain
+Treatment Rendered :
+Labs stable , NTG sublingual , stress MIBI was negative for ischemia .
+Discharge Medications :
+Continue current medication
+Disposition , Follow up and Instructions to Patient :
+Follow up as scheduled with Dr. Fyfechird .
+Return to the ED for worsening chest pain , shortness of breath , nausea / vomiting , fever / chills , weakness / dizziness/numbness , or any other problems .
+PCP Name :
+SLANDTIF , ASTHEO D
+Provider Number :
+49422
+This report was created by SUMCHIRDKAYSMAVVEINDREPS , YERTREY 09/16/2004 05:53 PM

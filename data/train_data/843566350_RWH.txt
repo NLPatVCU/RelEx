@@ -1,0 +1,47 @@
+843566350 RWH
+0025596
+526208
+0555812
+1/12/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+KOTEA , TORTHEOA
+MRN :
+0025596
+Age :
+47y
+REGISTRATION DATE :
+01/12/2005 06:07 AM
+Provider :
+THAA WAGES
+PRELMINARY REPORT
+Benefits Assigned :
+N
+Discharge Note
+Date / Time :
+01/12/2005 09:17
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+MIGRAINES FOR 10 DAYS
+Standardized Discharge Instructions :
+The patient was given printed instructions for headache ( English ) .
+Diagnosis :
+Headache
+Treatment Rendered :
+MD evaluation , head CT
+Discharge Medications :
+None
+Follow up Service :
+Please follow up with Dr. Ner
+PCP Name :
+ANERM , CHRETTA
+Provider Number :
+25911
+This report was created by WAGES , THAA 01/12/2005 09:18 AM

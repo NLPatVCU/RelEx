@@ -1,0 +1,184 @@
+Admission Date :
+2020-03-11
+Discharge Date :
+2020-03-23
+Date of Birth :
+1946-04-03
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Penicillins
+Attending : Ross Z Kenmore , M.D.
+Chief Complaint :
+Transfer from Newton-Wellesley Hospital hospital for epidural abscess
+Major Surgical or Invasive Procedure :
+1. Partial vertebrectomy of L3 and L4 .
+2. Fusion at L3-L4 .
+3. Vertebral Spacer at L3-L4 .
+4. Anterior instrumentation L3-L4 .
+5. Autograft , bone morphogenic protein , and allograft .
+6. Debridement
+7. Incision and drainage
+8. Echocardiogram
+History of Present Illness :
+73 yo M transferred from Newton-Wellesley Hospital hospital for epidural abscess .
+Pt has h/o colon can to liver , s/p resxn with serosal implants in 9/03 .
+Pt states he has been receiving chemotherapy up until 1 week ago .
+States he first developed back pain 5 weeks ago but was still able to ambulate with his cane .
+Last week it was worse and he was seen in clinic .
+An MRI was done and this showed a signal abno in L3 L4 ? disciitis vs osteo without a definitive epidural abscess .
+Initially on Vanc and Cipro on Friday but then seen by ID who reccommended no abx but a bone biopsy , blood cx .
+He was also seen by spine who repeated the MRI and this showed L3-4 osteomyelitis and discitis and an epidural abscess , 5cm .
+He was subsequently restared on Vancomycin for Corynebacterium in blood cx from Fri ; Followup cx has been NGTD .
+CXR also showed small pleural effusion and attempt was made to tap it , but pt did not tolerate the procedure and asked that it be deferred .
+He did undergo a CT-guided aspiration / biopsy at the L3-4 disc space on 2020-03-11 and the pt was transferred to Mediplex Rehab Hospital immediately following this .
+No results from this were sent .
+Currently pt denies sensory deficits or weakness .
+States he is not able to walk because of severe pain .
+States pain is worst when he sits up or twists his back .
+No bowel or bladder incontinence .
+Past Medical History :
+- epidural abscess
+- colon cancer with mets to liver s/p resection 09-07 .
+Oncologist is Dr. Rowles .
+- CAD s/p CABG x4 in ' 03 .
+- hypercholesterolemia
+- DM with neuropathy .
+- persistent R foot ulcer
+Social History :
+Lives alone in apartment in Boston .
+Is married but " separated " from his wife , although they still help each other - 
+he states he gives her one of his pensions and she helps him with medicines etc .
+Quit tobacco in 2003 after smoking 1 ppd for " a very long time ".
+Drank ETOH heavily until 8 years ago when he quit .
+Denies IVDU .
+Has children but they are not nearby .
+Family History :
+NC
+Physical Exam :
+98.6 , 104/50 , 96 , 20 , 96% RA
+Gen : in NAD , but winces in pain with movements of his back .
+HEENT : Clear OP , MM very dry .
+NECK : Supple , No LAD , No JVD
+CHEST : Port a cath in R chest , no erythema or tenderness .
+CV : RR , NL rate .
+NL S1 , S2 .
+II/VI SEM at LSB with radiation to apex .
+LUNGS : + crackles at L base > R base .
+ABD : Pt very tense in abdomen ( states belly is fine , but he is weary of his back ).
+Well healed midline scar from chest down to pubis .
+No HSM .
+EXT : No edema .
+Dressing c/d/i over R LE ulcer .
+1 + DP pulses BL
+NEURO : A&Ox3 .
+Appropriate .
+CN 02-17 grossly intact .
+Preserved sensation throughout .
+5/5 strength throughout , though weary of moving back .
+Back : + ttp of lumbar spine and paraspinal muscles , R > L .
+No erythema or swelling noted .
+CMED CSRU : Listens and responds to questions appropriately , pleasant
+Pertinent Results :
+Na : 135 , K 4.5 , Cl 96 , CO2 27 , BUN 12 , Cr 0.7 , Glu 167 , Ca 8.4 , Vanco trough 13 , WBC 5.3 , Hct 32.0 , plt 330 , INR 1.0 .
+No culture data was sent .
+STUDIES :
+MRI lumbar spine ( Youville Hospital 2020-03-10 ): L3-4 osteomyelitis , discitis , and epidural abscess .
+Degenerative changes including multilevel central spinal stenosis .
+Impression on the anterior aspect of the lower spinal cord at T11-12 by disc bulge .
+Addendum : Findings are c/w paraspinous extension of infection anteriorly and laterally into the medial aspects of the psoas muscles bilaterally at the L3 and L4 levels .
+CXR ( Youville Hospital 2020-03-09 ): Persistent unchanged L mid and lower lung field airspace disease with moderate L pleural effusion .
+Brief Hospital Course :
+73 yo M transferred from Youville Hospital with h/o colon cancer with known liver mets now with epidural abscess and corynebacterium bacteremia :
+# Epidural abscess : The patient was evaluated by orthopedic spine consult service and ID .
+He was continued on IV vancomycin throughout his course and had therapeutic troughs .
+The patient was taken to the OR twice with orthopaedics .
+Please see the operation notes for details about the surgeries .
+The patient was briefly admitted to the ICU for low hematocrit and hyponatremia immediately following the surgery but was then transferred back to the floor in stable condition .
+The patient had a PICC line placed and will continue a 8 week course of antibiotics .
+The patient will also wear a back brace at all times while out of bed .
+# Candidemia :  The patient was noted to have a positive blood culture from 03-12 .
+The patient was started on Diflucan .
+Ophthalmology was consulted and ruled out ocular spread .
+The patient 's portocath was removed .
+The tip was culture negative .
+The patient will get a total of a two week course of Diflucan .
+# Corynebacterium bacteremia : presumably Corynebacterium in epidural abscess as well .
+The patient had no blood cultures to grow corynebacterium while hospitalized .
+# Pleural effusion : The patient was noted have an effusion on CXR .
+IP was consulted and did a thoracentesis .
+The tap was negative for malignant cells .
+A repeat CT was done showing nodular thickening along the right major and minor fissure , concerning for intrapleural tumor implants .
+IP reviewed the films and recommended continue oncologic care according to 
+outpatient course and pleurodesis if the pt becomes symptomatic 02-07 fluid accumulation .
+The patient will follow up with his oncologist .
+# Foot ulcer : diabetic ulcer s/p surgery but never healed .
+Wound care was consulted and made recommendations for ulcer care .
+His dressings were changed by the nursing staff accordingly .
+# Anemia : His HCT remained stable post-surgery .
+The patient was continued on his iron supplements .
+Medications on Admission :
+- Iron Sulfate 300 mg po tid
+- Procrit 40,000 units SC q Friday
+- Lovenox 40 mg SC q24 for DVT ppx
+- Albuterol / Atrovent nebs q4
+- Morphine 2-4 mg IV q3-4 prn
+- Mylanta 30 cc po q6 prn
+- Pepcid 20 mg po daily
+- insulin sliding scale
+- glipizide 5 mg po bid
+- metformin 500 mg po bid
+- metoprolol 50 mg po daily
+- Vancomycin 1.5 gm q 12 hours
+Discharge Medications :
+1. Albuterol Sulfate 0.083 % Solution Sig : One ( 1 ) Inhalation Q4H ( every 4 hours ) as needed .
+2. Ipratropium Bromide 0.02 % Solution Sig : One ( 1 ) Inhalation Q6H ( every 6 hours ) as needed .
+3. Aluminum-Magnesium Hydroxide 225-200 mg / 5 mL Suspension Sig : 15-30 MLs PO QID ( 4 times a day ) as needed .
+4. Glipizide 5 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+5. Miconazole Nitrate 2 % Powder Sig : One ( 1 ) Appl Topical TID ( 3 times a day ) as needed .
+6. Acetaminophen 325 mg Tablet Sig : Two ( 2 ) Tablet PO Q6H ( every 6 hours ) as needed for fever or pain .
+7. Metoprolol Tartrate 25 mg Tablet Sig : 1.5 Tablets PO BID ( 2 times a day ).
+8. Cepacol 2 mg Lozenge Sig : One ( 1 ) Lozenge Mucous membrane PRN ( as needed ).
+9. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ).
+10. Senna 8.6 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) as needed .
+11. Oxycodone 5 mg Tablet Sig : 1-2 Tablets PO every 4-6 hours as needed for pain for 14 days .
+12. Fluconazole 200 mg Tablet Sig : Two ( 2 ) Tablet PO Q24H ( every 24 hours ) for 7 days .
+13. Oxycodone 10 mg Tablet Sustained Release 12 HR Sig : One ( 1 ) Tablet Sustained Release 12HR PO Q12H ( every 12 hours ).
+14. Bisacodyl 5 mg Tablet , Delayed Release ( E.C. ) Sig : Two ( 2 ) Tablet , Delayed Release ( E.C. ) PO BID ( 2 times a day ) as needed .
+15. Aspirin 81 mg Tablet , Chewable Sig : One ( 1 ) Tablet , Chewable PO DAILY ( Daily ).
+16. Vancomycin in Dextrose 1 g / 200 mL Piggyback Sig : One ( 1 ) Intravenous Q 12H ( Every 12 Hours ): To finish on 2020-05-12 .
+17. Pepcid 20 mg Tablet Sig : One ( 1 ) Tablet PO once a day .
+18. Heparin Lock Flush ( Porcine ) 100 unit / mL Syringe Sig : Two ( 2 ) ML Intravenous DAILY ( Daily ) as needed : 10 ml NS followed by 2 ml of 100 Units / ml heparin ( 200 units heparin ) each lumen Daily and PRN .
+Inspect site every shift .
+19. Insulin Glargine 100 unit / mL Solution Sig : Four ( 4 ) units Subcutaneous at dinner time .
+20. Insulin Lispro ( Human ) 100 unit / mL Cartridge Sig : One ( 1 ) Subcutaneous four times a day : As directed by sliding scale-please see attached scale .
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Primary diagnosis : Epidural abscess
+Secondary diagnosis :
+- colon cancer with mets to liver s/p resection 09-07 .
+- CAD s/p CABG x4 in ' 03 .
+- hypercholesterolemia
+- DM with neuropathy .
+- persistent R foot ulcer
+Discharge Condition :
+Stable , afebrile
+Discharge Instructions :
+You were diagnosed with an epidural abscess .
+Continue to take the antibiotics as directed .
+Take the pain medication as directed and do not drive while taking this medication .
+Call the doctor or return to the Thomas for :
+- fever > 102
+- chest pain or shortness of breath
+- worsening pain or weakness in your legs , loss of bowel or bladder function or any other concerning symptoms .
+Followup Instructions :
+Please follow up with Dr. Scott Ann , MD Phone :( 921 ) 538 8079 on 2020-04-30 at 11:00am .
+Please follow up with Dr Erb - 3/30/07 at 10:00am .
+Please follow up with Dr. Rowles , your oncologist , in 2-3 weeks
+Brooke Donna MD 37-421
+Completed by : Jessica POPE MD 58-704 2020-03-23 @ 1515
+Signed electronically by : DR. Maryjane WS Hammond on : FRI 2020-05-01 12:36 AM
+( End of Report )

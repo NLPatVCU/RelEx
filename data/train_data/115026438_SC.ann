@@ -1,0 +1,20 @@
+T1	treatment 476 485	ibuprofen
+T2	problem 510 514	pain
+T3	treatment 1514 1521	tampons
+T4	problem 1261 1271	post dates
+T5	problem 1573 1578	fever
+T6	problem 1592 1600	bleeding
+T7	problem 1647 1661	abdominal pain
+T8	treatment 442 457	docusate sodium
+T9	problem 1621 1644	foul smelling discharge
+T10	problem 1321 1343	observed abnormalities
+T11	problem 767 771	nsvd
+T12	test 290 303	ho evaluation
+T13	treatment 1527 1535	douching
+T14	problem 1667 1691	other worrisome symptoms
+T15	test 1295 1315	initial newborn exam
+T16	test 1400 1406	apgars
+T17	problem 627 642	known allergies
+T18	problem 661 680	postdates pregnancy
+T19	test 1411 1417	weight
+R1	TrAP Arg1:T1 Arg2:T2

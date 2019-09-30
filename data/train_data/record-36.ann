@@ -1,0 +1,77 @@
+T1	treatment 3209 3220	medications
+T2	problem 3382 3399	increased redness
+T3	treatment 3578 3589	the surgery
+T4	treatment 121 130	trazodone
+T5	treatment 2560 2572	atorvastatin
+T6	problem 3296 3305	infection
+T7	problem 3316 3322	fevers
+T8	problem 3325 3331	chills
+T9	problem 3402 3416	increased pain
+T10	problem 3334 3379	purulent discharge from wound / incision site
+T11	treatment 2533 2550	divalproex sodium
+T12	problem 3784 3789	wound
+T13	treatment 1991 2005	paroxetine hcl
+T14	treatment 2634 2653	oxybutynin chloride
+T15	treatment 2861 2899	bacitracin-polymyxin-neosp hc ointment
+T16	treatment 3744 3763	antibiotic ointment
+T17	problem 3668 3681	incision site
+T18	treatment 133 139	ambien
+T19	problem 3917 3926	her wound
+T20	treatment 333 356	right cheek advancement
+T21	problem 1165 1173	cyanosis
+T22	problem 886 900	acute distress
+T23	treatment 361 380	forehead local flap
+T24	treatment 1336 1347	the surgery
+T25	problem 661 677	bipolar disorder
+T26	problem 204 219	acquired defect
+T27	problem 844 852	afebrile
+T28	problem 633 651	mental retardation
+T29	treatment 295 326	right nose / ala reconstruction
+T30	treatment 225 255	basal cell carcinoma resection
+T31	test 1085 1095	asculation
+T32	problem 488 552	an aquired defect of the right nasal ala and medial cheek region
+T33	treatment 1392 1402	anesthesia
+T34	treatment 1273 1276	npo
+T35	treatment 1297 1304	surgery
+T36	problem 1113 1123	non-tender
+T37	problem 652 660	diabetes
+T38	treatment 3687 3700	normal saline
+T39	problem 559 579	basal cell carcinoma
+T40	problem 957 992	5 cm circular full thickness defect
+T41	treatment 142 150	sinequan
+T42	treatment 2140 2157	divalproex sodium
+T43	problem 1157 1162	edema
+T44	problem 442 459	mentally retarded
+T45	problem 1126 1139	non-distended
+T46	treatment 2055 2075	multivitamin capsule
+T47	test 1438 1449	observation
+T48	treatment 1279 1282	ivf
+T49	problem 3274 3292	signs and symptoms
+T50	treatment 1926 1937	her surgery
+T51	treatment 3106 3136	basal cell carcinoma resection
+T52	problem 3042 3100	aquired deformity of the right ala / nose and medial cheek
+T53	treatment 2733 2758	hydrocodone-acetaminophen
+T54	treatment 1808 1817	pain meds
+T55	treatment 1820 1831	antibiotics
+T56	treatment 2293 2308	docusate sodium
+T57	problem 2385 2397	constipation
+T58	problem 1599 1608	her wound
+T59	problem 1658 1667	infection
+T60	problem 1671 1680	breakdown
+T61	problem 1517 1525	afebrile
+T62	treatment 2442 2465	triamcinolone acetonide
+R1	PIP Arg1:T6 Arg2:T7
+R2	PIP Arg1:T6 Arg2:T8
+R3	PIP Arg1:T6 Arg2:T2
+R4	PIP Arg1:T6 Arg2:T9
+R5	PIP Arg1:T6 Arg2:T10
+R6	TrAP Arg1:T16 Arg2:T12
+R7	TrAP Arg1:T16 Arg2:T17
+R8	TrCP Arg1:T30 Arg2:T26
+R9	TrAP Arg1:T38 Arg2:T17
+R10	PIP Arg1:T39 Arg2:T32
+R11	PIP Arg1:T49 Arg2:T6
+R12	TrCP Arg1:T51 Arg2:T52
+R13	TrAP Arg1:T56 Arg2:T57
+R14	PIP Arg1:T58 Arg2:T59
+R15	PIP Arg1:T58 Arg2:T60

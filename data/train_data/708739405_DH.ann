@@ -1,0 +1,18 @@
+T1	treatment 1553 1564	medications
+T2	treatment 1998 2011	multivitamins
+T3	problem 406 425	undesired fertility
+T4	problem 726 731	labor
+T5	problem 1353 1364	nuchal cord
+T6	treatment 1715 1724	self-care
+T7	treatment 461 496	spontaneous vertex vaginal delivery
+T8	problem 1001 1006	labor
+T9	problem 383 403	isoimmunization , rh
+T10	problem 703 714	early labor
+T11	treatment 645 661	pp sterilization
+T12	treatment 1389 1397	delivery
+T13	treatment 280 303	normal vaginal delivery
+T14	test 1080 1092	apgar scores
+T15	treatment 1169 1204	spontaneous vertex vaginal delivery
+T16	treatment 2016 2022	folate
+T17	problem 357 367	depression
+T18	problem 978 989	early labor

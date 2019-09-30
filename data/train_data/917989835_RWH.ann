@@ -1,0 +1,8 @@
+T1	test 504 508	eval
+T2	problem 995 1007	overwhelming
+T3	problem 971 979	symptoms
+T4	treatment 883 892	risperdal
+T5	problem 775 779	ptsd
+T6	treatment 804 816	.5 risperdal
+T7	treatment 914 921	b and w
+R1	PIP Arg1:T2 Arg2:T3

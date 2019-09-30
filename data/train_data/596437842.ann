@@ -1,0 +1,204 @@
+T1	problem 2182 2193	ppd anergic
+T2	test 3435 3437	pt
+T3	problem 483 492	pneumonia
+T4	test 3360 3371	neutrophils
+T5	problem 4798 4801	ova
+T6	test 3765 3768	po2
+T7	test 5422 5440	his o2 saturations
+T8	problem 4412 4430	gram negative rods
+T9	problem 505 540	adult respiratory distress syndrome
+T10	treatment 5160 5172	erythromycin
+T11	treatment 1897 1908	the bactrim
+T12	problem 1801 1822	a cholestatic picture
+T13	treatment 5369 5381	50% facemask
+T14	test 3394 3410	mononuclear cell
+T15	problem 4712 4730	epstein-barr virus
+T16	treatment 6438 6468	elevated ventilatory pressures
+T17	test 1156 1169	o2 saturation
+T18	treatment 5405 5411	oxygen
+T19	problem 7355 7391	continued worsening pulmonary status
+T20	treatment 1063 1070	bactrim
+T21	test 5935 5975	the patient &apos;s liver function tests
+T22	problem 4378 4407	community acquired pneumonias
+T23	test 4997 5018	his oxygen saturation
+T24	treatment 1075 1090	a steroid taper
+T25	treatment 592 611	ventilatory support
+T26	problem 433 463	pneumocystis carinii pneumonia
+T27	problem 1733 1758	newly palpable liver edge
+T28	treatment 4351 4361	gentamicin
+T29	problem 2958 3008	mid epigastric and right upper quadrant tenderness
+T30	problem 4806 4815	parasites
+T31	problem 949 980	a positive toluidine blue study
+T32	test 3646 3655	bilirubin
+T33	test 1771 1791	liver function tests
+T34	problem 5921 5932	obstruction
+T35	treatment 5562 5573	pentamidine
+T36	problem 2622 2647	an ulcer under his tongue
+T37	treatment 6697 6723	reverse i to e ventilation
+T38	test 3597 3600	ldh
+T39	treatment 6354 6365	100% oxygen
+T40	treatment 7068 7082	blood products
+T41	treatment 4176 4187	pentamidine
+T42	test 3421 3432	eosinophils
+T43	test 3378 3389	lymphocytes
+T44	problem 5900 5913	liver disease
+T45	test 3569 3572	alt
+T46	problem 6917 6934	decreasing counts
+T47	problem 2854 2861	gallops
+T48	problem 394 428	acquired immunodeficiency syndrome
+T49	treatment 5141 5156	the antibiotics
+T50	test 5852 5889	the patient &apos;s abdominal ct scan
+T51	problem 1720 1728	jaundice
+T52	treatment 6738 6746	sedation
+T53	treatment 7584 7605	the endotracheal tube
+T54	test 2439 2455	a blood pressure
+T55	treatment 5177 5187	gentamicin
+T56	test 1318 1333	his temperature
+T57	problem 2844 2848	rubs
+T58	treatment 5097 5108	pentamidine
+T59	problem 6204 6220	a toluidine blue
+T60	problem 4104 4121	a bactrim failure
+T61	problem 4574 4619	several opportunistic infections of the liver
+T62	test 3731 3753	his arterial blood gas
+T63	test 3555 3562	glucose
+T64	treatment 4290 4297	bactrim
+T65	treatment 902 914	bronchoscopy
+T66	test 3451 3454	ptt
+T67	test 6969 6979	hematocrit
+T68	treatment 4643 4650	bactrim
+T69	problem 4480 4503	his liver abnormalities
+T70	problem 4671 4690	these abnormalities
+T71	treatment 5536 5546	gentamicin
+T72	test 3481 3490	potassium
+T73	test 5622 5650	hepatitis c virus serologies
+T74	treatment 6114 6123	acyclovir
+T75	problem 6053 6082	positive herpes simplex virus
+T76	problem 5998 6030	the patient &apos;s penile ulcer
+T77	test 6999 7008	platelets
+T78	problem 227 257	pneumocystis carinii pneumonia
+T79	test 3331 3342	white count
+T80	test 4779 4784	stool
+T81	test 3464 3470	sodium
+T82	treatment 7330 7345	supportive care
+T83	test 4244 4268	his liver function tests
+T84	test 2468 2478	heart rate
+T85	test 3774 3778	pco2
+T86	treatment 5580 5590	prednisone
+T87	problem 2058 2070	hiv positive
+T88	treatment 7161 7168	bactrim
+T89	problem 187 221	acquired immunodeficiency syndrome
+T90	problem 1379 1387	diarrhea
+T91	treatment 5549 5559	vancomycin
+T92	test 4693 4699	titers
+T93	problem 4704 4707	cmv
+T94	problem 2579 2615	the oropharynx with extensive thrush
+T95	test 3788 3790	ph
+T96	treatment 4334 4346	erythromycin
+T97	test 7232 7250	bone marrow biopsy
+T98	problem 1627 1656	increased shortness of breath
+T99	test 4745 4752	a titer
+T100	problem 4757 4767	toxoplasma
+T101	test 3583 3586	ast
+T102	problem 2725 2746	tubular breath sounds
+T103	problem 1661 1668	malaise
+T104	problem 661 695	acquired immunodeficiency syndrome
+T105	treatment 4446 4465	supplemental oxygen
+T106	problem 2099 2109	recent pcp
+T107	test 6657 6675	oxygen saturations
+T108	problem 4523 4538	viral hepatitis
+T109	test 3501 3509	chloride
+T110	problem 2561 2576	icteric sclerae
+T111	test 3534 3544	creatinine
+T112	problem 2834 2841	murmurs
+T113	test 6800 6812	liver biopsy
+T114	test 2507 2518	temperature
+T115	test 7678 7688	an autopsy
+T116	problem 3911 3943	his cholestatic jaundice picture
+T117	test 5833 5838	total
+T118	treatment 7497 7516	ventilatory support
+T119	test 6940 6951	white count
+T120	treatment 6753 6779	other modes of ventilation
+T121	problem 4126 4129	pcp
+T122	problem 2877 2908	costovertebral angle tenderness
+T123	problem 1367 1374	malaise
+T124	problem 2152 2176	venereal disease history
+T125	problem 5770 5791	a cholestatic picture
+T126	problem 5702 5739	his liver function test abnormalities
+T127	problem 708 738	pneumocystis carinii pneumonia
+T128	test 2485 2497	respirations
+T129	problem 263 298	adult respiratory distress syndrome
+T130	problem 3821 3850	bilateral nodular infiltrates
+T131	test 6474 6478	pips
+T132	treatment 5270 5281	pentamidine
+T133	test 3900 3907	work-up
+T134	test 5797 5817	his direct bilirubin
+T135	test 6254 6268	other cultures
+T136	treatment 851 859	steroids
+T137	problem 3242 3261	yellowish discharge
+T138	problem 2667 2686	cervical adenopathy
+T139	treatment 2127 2146	right elbow surgery
+T140	test 4962 4982	his respiratory rate
+T141	problem 3138 3160	guaiac positive stools
+T142	test 7709 7719	an autopsy
+T143	test 5242 5249	his ldh
+T144	problem 3224 3236	1/2 cm ulcer
+T145	test 3686 3699	his bilirubin
+T146	test 6156 6180	a bronchoalveolar lavage
+T147	problem 6226 6242	many pneumocysts
+T148	test 1497 1512	his chest x-ray
+T149	test 2076 2087	a cd4 count
+T150	test 1532 1540	cultures
+T151	test 3798 3813	his chest x-ray
+T152	test 3955 3962	work-up
+T153	problem 3967 3988	his pulmonary process
+T154	test 1446 1467	his oxygen saturation
+T155	test 3611 3631	alkaline phosphatase
+T156	test 1950 1971	his oxygen saturation
+T157	treatment 1011 1021	extubation
+T158	treatment 6726 6735	paralysis
+T159	treatment 6409 6423	the ventilator
+T160	test 3525 3528	bun
+T161	treatment 3993 4002	treatment
+T162	treatment 839 846	bactrim
+T163	treatment 4929 4935	oxygen
+T164	problem 6525 6534	baratroma
+T165	problem 2408 2433	mild respiratory distress
+T166	test 3516 3519	co2
+R1	TrCP Arg1:T11 Arg2:T12
+R2	TrAP Arg1:T25 Arg2:T9
+R3	TrAP Arg1:T25 Arg2:T3
+R4	TrAP Arg1:T25 Arg2:T26
+R5	PIP Arg1:T26 Arg2:T3
+R6	PIP Arg1:T26 Arg2:T9
+R7	TrAP Arg1:T28 Arg2:T22
+R8	TrAP Arg1:T28 Arg2:T8
+R9	TeRP Arg1:T33 Arg2:T12
+R10	TeRP Arg1:T50 Arg2:T44
+R11	TeRP Arg1:T50 Arg2:T34
+R12	TeRP Arg1:T67 Arg2:T46
+R13	TrCP Arg1:T68 Arg2:T61
+R14	TrCP Arg1:T68 Arg2:T69
+R15	TrCP Arg1:T68 Arg2:T70
+R16	TrAP Arg1:T74 Arg2:T75
+R17	TrAP Arg1:T74 Arg2:T76
+R18	PIP Arg1:T76 Arg2:T75
+R19	TeRP Arg1:T77 Arg2:T46
+R20	TeCP Arg1:T80 Arg2:T5
+R21	TeCP Arg1:T80 Arg2:T30
+R22	TeCP Arg1:T92 Arg2:T93
+R23	TeCP Arg1:T92 Arg2:T15
+R24	TrAP Arg1:T96 Arg2:T22
+R25	TrAP Arg1:T96 Arg2:T8
+R26	TeCP Arg1:T99 Arg2:T100
+R27	TrNAP Arg1:T118 Arg2:T19
+R28	TeRP Arg1:T119 Arg2:T46
+R29	PIP Arg1:T121 Arg2:T60
+R30	PIP Arg1:T126 Arg2:T125
+R31	TeCP Arg1:T133 Arg2:T116
+R32	PIP Arg1:T144 Arg2:T137
+R33	TeRP Arg1:T146 Arg2:T59
+R34	TeRP Arg1:T146 Arg2:T147
+R35	TeRP Arg1:T151 Arg2:T130
+R36	TeCP Arg1:T152 Arg2:T153
+R37	TrAP Arg1:T161 Arg2:T116
+R38	TrAP Arg1:T161 Arg2:T153

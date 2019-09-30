@@ -1,0 +1,119 @@
+T1	problem 3411 3418	gallops
+T2	problem 4452 4473	intraluminal thrombus
+T3	problem 4481 4524	a greater than 10% loss in the initial gain
+T4	test 1650 1659	telemetry
+T5	treatment 1853 1868	pressor support
+T6	problem 1815 1839	congestive heart failure
+T7	treatment 4416 4434	a local dissection
+T8	treatment 459 511	coronary atherectomy of the left anterior descending
+T9	test 534 552	coronary angiogram
+T10	treatment 4570 4602	directional coronary atherectomy
+T11	problem 899 924	parkinson &apos;s disease
+T12	problem 2280 2300	a minor 40% stenosis
+T13	problem 2825 2850	parkinson &apos;s disease
+T14	test 1581 1591	a peak cpk
+T15	treatment 716 723	isordil
+T16	test 2876 2900	her physical examination
+T17	problem 2957 2971	acute distress
+T18	problem 3620 3643	left atrial enlargement
+T19	problem 3646 3665	left axis deviation
+T20	problem 3668 3691	poor r-wave progression
+T21	test 2425 2463	the left ventricular ejection fraction
+T22	problem 2230 2251	intraluminal thrombus
+T23	problem 2197 2213	a filling defect
+T24	problem 2161 2191	a severe 80% proximal stenosis
+T25	test 4863 4892	a relook coronary angiography
+T26	treatment 674 679	k-dur
+T27	problem 4662 4696	a less than 10% residual narrowing
+T28	test 4895 4915	coronary angiography
+T29	problem 1674 1694	complete heart block
+T30	problem 1699 1710	hypotension
+T31	treatment 5064 5087	directional atherectomy
+T32	test 3567 3588	her electrocardiogram
+T33	test 3462 3496	the examination of the extremities
+T34	problem 3507 3512	edema
+T35	problem 2684 2709	a positive family history
+T36	test 3421 3448	the examination the abdomen
+T37	test 4808 4846	the cardiac catheterization laboratory
+T38	problem 2111 2125	a 20% stenosis
+T39	treatment 1752 1786	a permanent pacemaker implantation
+T40	treatment 4948 4980	the initial coronary atherectomy
+T41	problem 3771 3817	an old anteroseptal wall myocardial infarction
+T42	problem 2651 2674	coronary artery disease
+T43	treatment 1150 1165	further therapy
+T44	test 3076 3103	the jugular venous pressure
+T45	problem 2337 2361	a dilated left ventricle
+T46	problem 2367 2422	an area of anterolateral , apical , and septal akinesis
+T47	test 1885 1908	cardiac catheterization
+T48	treatment 5215 5245	further rehabilitation therapy
+T49	problem 198 225	acute myocardial infarction
+T50	problem 3917 3953	non-specific st-t wave abnormalities
+T51	treatment 4535 4555	coronary angioplasty
+T52	treatment 4173 4192	intravenous heparin
+T53	problem 57 84	acute myocardial infarction
+T54	problem 1351 1382	a new right bundle branch block
+T55	treatment 4764 4783	intravenous heparin
+T56	treatment 622 629	ecotrin
+T57	treatment 647 656	captopril
+T58	problem 254 277	coronary artery disease
+T59	problem 2714 2743	an elevated cholesterol level
+T60	problem 3874 3903	lateral myocardial infarction
+T61	treatment 1721 1742	temporary pacing wire
+T62	problem 1552 1575	a myocardial infarction
+T63	treatment 739 746	sinemet
+T64	problem 3396 3403	murmurs
+T65	problem 2023 2055	a dominant right coronary artery
+T66	problem 2061 2074	minor disease
+T67	problem 3831 3855	prominent q-waves in avl
+T68	test 1942 1983	a left ventricular end diastolic pressure
+T69	treatment 408 454	percutaneous transluminal coronary angioplasty
+T70	test 2974 2992	the blood pressure
+T71	treatment 4384 4403	balloon angioplasty
+T72	problem 1010 1062	a revolving anterolateral wall myocardial infarction
+T73	treatment 4284 4371	percutaneous transluminal coronary angioplasty of the proximal left anterior descending
+T74	test 1322 1343	her electrocardiogram
+T75	problem 1387 1410	left anterior hemiblock
+T76	treatment 767 776	symmetrel
+T77	problem 4115 4140	parkinson &apos;s disease
+T78	treatment 2584 2604	coronary angioplasty
+T79	test 3029 3038	her pulse
+T80	treatment 1499 1518	her hospital course
+T81	test 2303 2327	cine left ventriculogram
+T82	test 3200 3223	the cardiac examination
+T83	problem 3233 3285	anapical impulse in the fifth left intercostal space
+T84	problem 283 335	unstable angina ( postmyocardial infarction angina )
+T85	problem 1289 1319	severe retrosternal chest pain
+T86	treatment 793 801	parloder
+T87	treatment 696 701	lasix
+T88	problem 2630 2646	her risk factors
+T89	problem 341 366	parkinson &apos;s disease
+T90	treatment 4721 4734	the procedure
+R1	PIP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T5 Arg2:T6
+R3	TeRP Arg1:T16 Arg2:T17
+R4	PIP Arg1:T18 Arg2:T19
+R5	PIP Arg1:T18 Arg2:T20
+R6	PIP Arg1:T19 Arg2:T20
+R7	PIP Arg1:T22 Arg2:T23
+R8	PIP Arg1:T22 Arg2:T24
+R9	PIP Arg1:T29 Arg2:T30
+R10	TeRP Arg1:T32 Arg2:T18
+R11	TeRP Arg1:T32 Arg2:T19
+R12	TeRP Arg1:T32 Arg2:T20
+R13	TeRP Arg1:T33 Arg2:T34
+R14	TrAP Arg1:T39 Arg2:T30
+R15	TrAP Arg1:T39 Arg2:T29
+R16	PIP Arg1:T45 Arg2:T46
+R17	TrCP Arg1:T51 Arg2:T3
+R18	TrAP Arg1:T61 Arg2:T30
+R19	TrAP Arg1:T61 Arg2:T29
+R20	PIP Arg1:T65 Arg2:T66
+R21	PIP Arg1:T67 Arg2:T60
+R22	TeRP Arg1:T74 Arg2:T54
+R23	TeRP Arg1:T74 Arg2:T75
+R24	TeRP Arg1:T81 Arg2:T46
+R25	TeRP Arg1:T81 Arg2:T45
+R26	TeRP Arg1:T82 Arg2:T83
+R27	PIP Arg1:T88 Arg2:T42
+R28	PIP Arg1:T88 Arg2:T35
+R29	PIP Arg1:T88 Arg2:T59

@@ -1,0 +1,74 @@
+T1	problem 1209 1232	this left facial lesion
+T2	treatment 1706 1719	the procedure
+T3	problem 1786 1792	hoarse
+T4	problem 1733 1746	complications
+T5	problem 1033 1049	minimal bleeding
+T6	problem 1005 1017	visible bone
+T7	problem 2458 2478	squamous cell cancer
+T8	problem 927 942	polypoid lesion
+T9	test 799 810	examination
+T10	problem 819 827	afebrile
+T11	treatment 2645 2648	xrt
+T12	problem 2519 2542	positive level ii nodes
+T13	treatment 2411 2414	xrt
+T14	treatment 752 759	aeroseb
+T15	treatment 2323 2328	foley
+T16	treatment 2233 2244	antibiotics
+T17	treatment 2003 2023	further intervention
+T18	test 1798 1805	scoping
+T19	problem 1817 1847	significant supraglottic edema
+T20	treatment 2100 2111	his bolster
+T21	problem 1557 1591	the left face squamous cell cancer
+T22	treatment 2065 2095	his split thickness skin graft
+T23	treatment 1544 1553	resection
+T24	test 1878 1903	observation of his airway
+T25	treatment 1421 1479	a cystoscopy transurethral resection of prostate placement
+T26	problem 1398 1407	hematuria
+T27	test 1915 1927	laryngoscopy
+T28	problem 867 885	somewhat cachectic
+T29	problem 425 453	benign prostatic hypertrophy
+T30	problem 1102 1111	nontender
+T31	problem 407 422	prostate cancer
+T32	test 1087 1099	auscultation
+T33	treatment 739 746	proscar
+T34	test 830 841	vital signs
+T35	problem 1114 1126	nondistended
+T36	treatment 765 770	ancef
+T37	test 612 623	colonoscopy
+T38	problem 554 580	degenerative joint disease
+T39	treatment 2287 2298	antibiotics
+T40	treatment 2174 2188	his skin graft
+T41	problem 525 551	chronic painless hematuria
+T42	problem 596 604	a murmur
+T43	problem 1944 1967	some supraglottic edema
+T44	problem 1023 1030	exudate
+T45	test 2435 2448	his pathology
+T46	problem 1665 1676	the defects
+T47	treatment 709 722	levothyroxine
+T48	treatment 485 494	radiation
+T49	problem 499 522	non hodgkin 's lymphoma
+T50	treatment 728 733	lasix
+T51	problem 643 651	dementia
+T52	problem 456 470	hypothyroidism
+T53	problem 225 243	a left facial mass
+T54	problem 1273 1286	his hematuria
+T55	treatment 1185 1194	resection
+T56	treatment 1613 1661	split thickness and full thickness skin grafting
+T57	treatment 1199 1205	repair
+T58	problem 669 689	known drug allergies
+T59	test 211 221	evaluation
+R1	TrCP Arg1:T2 Arg2:T3
+R2	TrCP Arg1:T2 Arg2:T4
+R3	TeRP Arg1:T9 Arg2:T10
+R4	TrAP Arg1:T13 Arg2:T7
+R5	TrAP Arg1:T13 Arg2:T12
+R6	TeRP Arg1:T18 Arg2:T19
+R7	TrAP Arg1:T23 Arg2:T21
+R8	TrAP Arg1:T25 Arg2:T26
+R9	TeRP Arg1:T45 Arg2:T7
+R10	TeRP Arg1:T45 Arg2:T12
+R11	TrAP Arg1:T48 Arg2:T49
+R12	TrAP Arg1:T55 Arg2:T1
+R13	TrAP Arg1:T56 Arg2:T46
+R14	TrAP Arg1:T57 Arg2:T1
+R15	TeCP Arg1:T59 Arg2:T53
