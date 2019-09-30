@@ -5,6 +5,7 @@ from sklearn import preprocessing
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import os, logging, tempfile
+import psutil
 
 
 def read_from_file(file):
@@ -63,8 +64,8 @@ class Model:
         self.maxlen = maxlen
 
         # read dataset from external files
-        train_data = read_from_file("../data/sentence_train")
-        train_labels = read_from_file("../data/labels_train")
+        train_data = read_from_file("../data/P_Tr/sentence_train")
+        train_labels = read_from_file("../data/P_Tr/labels_train")
         print(train_data)
         print(train_labels)
 
@@ -75,28 +76,26 @@ class Model:
             test_data = None
             test_labels = None
 
-        self.train_label = self.binarize_labels(train_labels)
+        self.train_label = train_labels
         print(self.train_label)
-
         if self.test:
             self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
             self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.y_test = test_labels
         else:
-            self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+            # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
         # divides train data into partial train and validation data
         self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-        self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                  self.train_label)
+        # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,self.train_label)
 
         if segment:
-            train_preceding = read_from_file("../data/preceding_seg")
-            train_middle = read_from_file("../data/middle_seg")
-            train_succeeding = read_from_file("../data/succeeding_seg")
-            train_concept1 = read_from_file("../data/concept1_seg")
-            train_concept2 = read_from_file("../data/concept2_seg")
+            train_preceding = read_from_file("../data/P_Tr/preceding_seg")
+            train_middle = read_from_file("../data/P_Tr/middle_seg")
+            train_succeeding = read_from_file("../data/P_Tr/succeeding_seg")
+            train_concept1 = read_from_file("../data/P_Tr/concept1_seg")
+            train_concept2 = read_from_file("../data/P_Tr/concept2_seg")
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
@@ -220,13 +219,14 @@ class Model:
         Takes the input list and binarizes or vectorizes the labels
         If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
         the one-hot encoding of the input list
-
         :param binarize: binarize flag
         :param label_list: list of text labels
         :return list:list of binarized / vectorized labels
         """
-
-        if self.test or binarize:
+        if self.multilabel:
+            self.encoder = preprocessing.MultiLabelBinarizer()
+            encoder_label = self.encoder.fit_transform(label_list)
+        elif self.test or binarize:
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
