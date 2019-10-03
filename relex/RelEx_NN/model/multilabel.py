@@ -18,6 +18,12 @@ from keras.optimizers import Adam
 import numpy as np
 import evaluate
 
+#flag to set cross validation. If set to true it will run 5 CV or train-test split
+cv = True
+analysis = True
+
+# embedding_path = "../../../word_embeddings/glove.6B.300d.txt"
+embedding_path = "../../../word_embeddings/mimic3_d300.txt"
 
 def read_from_file(file):
     """
@@ -36,6 +42,26 @@ def read_from_file(file):
 
     return content
 
+def read_embeddings_from_file(path):
+    """
+    Function to read external embedding files to build an index mapping words (as strings)
+    to their vector representation (as number vectors).
+    :return dictionary: word vectors
+    """
+    print("Reading external embedding file ......")
+    if not os.path.isfile(path):
+        raise FileNotFoundError("Not a valid file path")
+
+    embeddings_index = {}
+    with open(path) as f:
+        next(f)
+        for line in f:
+            values = line.split()
+            word = values[0]
+            coefs = np.asarray(values[1:], dtype='float32')
+            embeddings_index[word] = coefs
+        f.close()
+    return embeddings_index
 
 def get_features(text_series):
     """
@@ -50,6 +76,21 @@ def prediction_to_label(prediction):
     tag_prob = [(labels[i], prob) for i, prob in enumerate(prediction.tolist())]
     return dict(sorted(tag_prob, key=lambda kv: kv[1], reverse=True))
 
+embeddings_index = read_embeddings_from_file(embedding_path)
+embedding_dim = 300
+maxlen = 100
+max_words = 5000
+
+
+embeddings_index = {}
+with open(embedding_path) as f:
+    next(f)
+    for line in f:
+        values = line.split()
+        word = values[0]
+        coefs = np.asarray(values[1:], dtype='float32')
+        embeddings_index[word] = coefs
+    f.close()
 
 train_data = read_from_file("../../../data/segments/sentence_train")
 train_labels = read_from_file("../../../data/segments/labels_train")
@@ -61,32 +102,12 @@ df_label = pd.DataFrame(train_labels, columns=['label'])
 df_data.reset_index(drop=True, inplace=True)
 df_label.reset_index(drop=True, inplace=True)
 df_new = pd.concat((df_data, df_label), axis=1)
-print("total", df_new.shape[0])
 
-duplicate_count = np.array(df_new.groupby(df_new.columns.tolist(), as_index=False).size())
-
-duplicates =  np.sum(np.where(duplicate_count==1, 0, duplicate_count)) - sum(i > 1 for i in duplicate_count)
-print("duplicates:",duplicates)
 df_new.drop_duplicates(inplace=True)
 df_new.reset_index(inplace = True, drop=True)
 
 df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
 df.reset_index(inplace=True)
-df['count'] = df['label'].str.split(",").str.len()
-
-df_multilabel = df.copy()
-df_singlelabel = df.copy()
-df = df.drop(['count'], axis =1)
-# print(df)
-df_multilabel.drop(df_multilabel.loc[df_multilabel['count']==1].index, inplace=True)
-df_multilabel = df_multilabel.drop(['count'], axis =1)
-print("multi-label: ", df_multilabel.shape[0])
-df_singlelabel.drop(df_singlelabel.loc[df_singlelabel['count']!=1].index, inplace=True)
-df_singlelabel = df_singlelabel.drop(['count'], axis =1)
-print("single-label: ",df_singlelabel.shape[0])
-
-# df_multilabel.to_csv("multilabel.csv", index=False, header=False)
-# df_singlelabel.to_csv("singlelabel.csv", index=False, header=False)
 df['label'] = df['label'].str.split(",")
 
 multilabel_binarizer = MultiLabelBinarizer()
@@ -94,50 +115,124 @@ multilabel_binarizer.fit(df.label)
 labels = multilabel_binarizer.classes_
 print(labels)
 num_classes = len(labels)
-maxlen = 100
-max_words = 5000
 tokenizer = Tokenizer(num_words=max_words, lower=True)
 tokenizer.fit_on_texts(df.sentence)
 X_data = get_features(df.sentence)
+word_index = tokenizer.word_index
+embedding_matrix = np.zeros((max_words, embedding_dim))
+for word, i in word_index.items():
+    embedding_vector = embeddings_index.get(word)
+    if i < max_words:
+        if embedding_vector is not None:
+            # Words not found in embedding index will be all-zeros.
+            embedding_matrix[i] = embedding_vector
 binary_Y = multilabel_binarizer.transform(df.label)
 
-skf = StratifiedKFold(n_splits=5, shuffle=True)
-skf.get_n_splits(X_data, binary_Y)
+if cv:
+    #cross validation
+    skf = StratifiedKFold(n_splits=5, shuffle=True)
+    skf.get_n_splits(X_data, binary_Y)
 
-# fold = 1
-# originalclass = []
-# predictedclass = []
-#
-# for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
-#
-#     x_train, x_test = X_data[train_index], X_data[test_index]
-#     y_train, y_test = binary_Y[train_index], binary_Y[test_index]
-#     print("Training Fold %i", fold)
-#     print(len(x_train), len(x_test))
-#     filter_length = 300
-#
-#     model = Sequential()
-#     model.add(Embedding(max_words, 20, input_length=maxlen))
-#     model.add(Dropout(0.1))
-#     model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
-#     model.add(GlobalMaxPool1D())
-#     model.add(Dense(num_classes))
-#     model.add(Activation('sigmoid'))
-#
-#     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
-#     history = model.fit(x_train, y_train, epochs=20, batch_size=32, validation_split=0.2)
-#
-#     np_pred = np.array(model.predict(x_test))
-#     np_pred[np_pred < 0.5] = 0
-#     np_pred[np_pred > 0.5] = 1
-#     np_pred = np_pred.astype(int)
-#     print(np_pred.shape)
-#     np_true = np.array(y_test)
-#     print(np_true.shape)
-#
-#     originalclass.extend(np_true)
-#     predictedclass.extend(np_pred)
-#     print(classification_report(np_true, np_pred,target_names=labels))
-#     # print(classification_report(np_true, np_pred,target_names=labels))
-#     fold += 1
-# print(classification_report(np.array(originalclass), np.array(predictedclass),target_names=labels))
+    fold = 1
+    originalclass = []
+    predictedclass = []
+    if analysis:
+        true_single=[]
+        true_multiple = []
+        pred_single=[]
+        pred_multiple =[]
+
+    for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
+
+        x_train, x_test = X_data[train_index], X_data[test_index]
+        y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+        print("Training Fold %i", fold)
+        print(len(x_train), len(x_test))
+        filter_length = 300
+
+        model = Sequential()
+        model.add(Embedding(max_words, embedding_dim, weights=[embedding_matrix], input_length=maxlen))
+        model.add(Dropout(0.1))
+        model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
+        model.add(GlobalMaxPool1D())
+        model.add(Dense(num_classes))
+        model.add(Activation('sigmoid'))
+
+        model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+        history = model.fit(x_train, y_train, epochs=20, batch_size=64)
+
+        np_pred = np.array(model.predict(x_test))
+        np_pred[np_pred < 0.5] = 0
+        np_pred[np_pred > 0.5] = 1
+        np_pred = np_pred.astype(int)
+        np_true = np.array(y_test)
+
+        if analysis:
+            np_true_single = np_true[np_true.sum(axis=1)==1]
+            np_true_multiple = np_true[np_true.sum(axis=1)!=1]
+            np_pred_single = np_pred[np_true.sum(axis=1)==1]
+            np_pred_multiple = np_pred[np_true.sum(axis=1)!=1]
+            true_single.extend(np_true_single)
+            true_multiple.extend(np_true_multiple)
+            pred_single.extend(np_pred_single)
+            pred_multiple.extend(np_pred_multiple)
+            print("--------------------- single labels only -----------------------------")
+            print(classification_report(np_true_single, np_pred_single, target_names=labels))
+            print(" --------------------- multiple labels only --------------------------")
+            print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
+
+        originalclass.extend(np_true)
+        predictedclass.extend(np_pred)
+        print("--------------------------- Results ------------------------------------")
+        print(classification_report(np_true, np_pred,target_names=labels))
+        fold += 1
+
+    if analysis:
+        print("---------------- single labels only ------------------------------")
+        print(classification_report(np.array(true_single), np.array(pred_single),target_names=labels))
+        print("----------------- multiple labels only --------------------------")
+        print(classification_report(np.array(true_multiple), np.array(pred_multiple), target_names=labels))
+    print("--------------------- Results --------------------------------")
+    print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+else:
+    # train - test split
+
+    x_train, x_test, y_train, y_test = train_test_split(X_data, binary_Y, test_size=0.2, random_state=9000)
+    filter_length = 300
+
+    model = Sequential()
+    model.add(Embedding(max_words, embedding_dim, weights=[embedding_matrix], input_length=maxlen))
+    model.add(Dropout(0.1))
+    model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
+    model.add(GlobalMaxPool1D())
+    model.add(Dense(len(labels)))
+    model.add(Activation('sigmoid'))
+
+    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+    model.summary()
+
+    history = model.fit(x_train, y_train,
+                        epochs=20,
+                        batch_size=64,
+                        validation_split=0.1)
+    metrics = model.evaluate(x_test, y_test)
+    print("{}: {}".format(model.metrics_names[0], metrics[0]))
+    print("{}: {}".format(model.metrics_names[1], metrics[1]))
+    np_pred = np.array(model.predict(x_test))
+
+    np_pred[np_pred < 0.5] = 0
+    np_pred[np_pred > 0.5] = 1
+    np_pred = np_pred.astype(int)
+    np_true = np.array(y_test)
+
+    if analysis:
+        np_true_single = np_true[np_true.sum(axis=1) == 1]
+        np_true_multiple = np_true[np_true.sum(axis=1) != 1]
+        np_pred_single = np_pred[np_true.sum(axis=1) == 1]
+        np_pred_multiple = np_pred[np_true.sum(axis=1) != 1]
+        print("--------------------- single labels only -----------------------------")
+        print(classification_report(np_true_single, np_pred_single, target_names=labels))
+        print(" --------------------- multiple labels only --------------------------")
+        print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
+    print("--------------------------- Results ------------------------------------")
+    print(classification_report(np_true, np_pred, target_names=labels))
