@@ -1,10 +1,10 @@
 # Author : Samantha Mahendran for RelEx
 
 from data import Annotation
-from operator import itemgetter
 from spacy.pipeline import Sentencizer
 from spacy.lang.en import English
 import spacy
+
 
 def list_to_file(file, input_list):
     """
@@ -101,6 +101,7 @@ def extract_Segments(sentence, span1, span2):
 
 class Segmentation:
 
+<<<<<<< HEAD
     def __init__(self, dataset = None, rel_labels = None, no_rel_label = None, sentence_align = False, test = False,
                  same_entity_relation = False, de_sample = None):
 
@@ -110,11 +111,29 @@ class Segmentation:
         self.same_entity_relation = same_entity_relation
         self.nlp_model = English()
 
+=======
+    def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
+                 same_entity_relation=False, de_sample=None):
+
+        self.dataset = dataset
+        # list of the entities of relations
+        self.rel_labels = rel_labels
+        self.test = test
+        # if relation exists between same entity
+        self.same_entity_relation = same_entity_relation
+        self.nlp_model = English()
+
+        # if there is no relation between entities in a sentence
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
         if no_rel_label:
             self.no_rel_label = no_rel_label
         else:
             self.no_rel_label = False
 
+<<<<<<< HEAD
+=======
+        # desampling - Reduce the size of the dataset to solve the data imbalance problem
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
         if de_sample:
             self.de_sample = de_sample
         else:
@@ -149,6 +168,10 @@ class Segmentation:
 
             self.doc = self.nlp_model(content)
 
+<<<<<<< HEAD
+=======
+            # returns the segments from the sentences
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
             segment = self.get_Segments_from_sentence(self.ann_obj)
             # segment = self.get_Segments_from_relations(self.ann_obj )
 
@@ -172,6 +195,7 @@ class Segmentation:
             # self.segments['sentence'].append(segment['sentence'])
             # self.segments['label'].append(segment['label'])
 
+<<<<<<< HEAD
         if not self.test:
 
             print(set(self.segments['label']))
@@ -189,6 +213,24 @@ class Segmentation:
         # if not self.test:
         #     list_to_file('labels_train', self.segments['label'])
 
+=======
+        # if not self.test:
+        #     print(set(self.segments['label']))
+        #     # print the number of instances of each relation classes
+        #     print([(i, self.segments['label'].count(i)) for i in set(self.segments['label'])])
+
+        # write the segments to a file
+        list_to_file('sentence_train', self.segments['sentence'])
+        list_to_file('preceding_seg', self.segments['seg_preceding'])
+        list_to_file('concept1_seg', self.segments['seg_concept1'])
+        list_to_file('middle_seg', self.segments['seg_middle'])
+        list_to_file('concept2_seg', self.segments['seg_concept2'])
+        list_to_file('succeeding_seg', self.segments['seg_succeeding'])
+        if not self.test:
+            list_to_file('labels_train', self.segments['label'])
+
+    #currently not used
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
     def get_Segments_from_relations(self, ann):
 
         """
@@ -228,7 +270,11 @@ class Segmentation:
                 concept_2 = self.doc.char_span(start_C1, end_C1)
 
             if concept_1 is not None and concept_2 is not None:
+<<<<<<< HEAD
             # get the sentence where the entity is located
+=======
+                # get the sentence where the entity is located
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
                 sentence_C1 = str(concept_1.sent)
                 sentence_C2 = str(concept_2.sent)
             else:
@@ -260,12 +306,21 @@ class Segmentation:
     def get_Segments_from_sentence(self, ann):
 
         """
+<<<<<<< HEAD
 
         In the annotation object, it identifies the sentence each problem entity is located and tries to determine
         the relations between other problem entities and other entity types in the same sentence. When a pair of
         entities is identified first it checks whether a annotated relation type exists, in that case it labels with
         the given annotated label if not it labels as a No - relation pair. finally it passes the sentence and the
         spans of the entities to the function that extracts the following segments:
+=======
+        In the annotation object, it identifies the sentence each problem entity (i2b2) is located and tries to determine
+        the relations between other problem entities and other entity types in the same sentence. When a pair of
+        entities is identified first it checks whether an annotated relation type already exists,
+            yes : label it with the given annotated label
+            no : if no-rel label is active label as a No - relation pair
+        Finally it passes the sentence and the spans of the entities to the function that extracts the following segments:
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
 
         Preceding - (tokenize words before the first concept)
         concept 1 - (tokenize words in the first concept)
@@ -286,7 +341,11 @@ class Segmentation:
 
         for key1, value1 in ann.annotations['entities'].items():
             label1, start1, end1, mention1 = value1
+<<<<<<< HEAD
 
+=======
+            # for problem entitiyy (i2b2)
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
             if label1 == self.rel_labels[0]:
                 for key2, value2 in ann.annotations['entities'].items():
                     label2, start2, end2, mention2 = value2
@@ -298,7 +357,10 @@ class Segmentation:
                             label_rel = None
                             segment = self.extract_sentences(ann, key1, key2, label_rel)
                         else:
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
                             for label_rel, entity1, entity2 in ann.annotations['relations']:
                                 if key2 == entity1 and key1 == entity2:
                                     segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
@@ -309,6 +371,7 @@ class Segmentation:
                             # No relations for the same entity
                             if token and self.no_rel_label:
                                 label_rel = self.no_rel_label[0]
+<<<<<<< HEAD
                                 segment = self.extract_sentences(ann, key1, key2,label_rel)
                                 if segment is not None:
                                     doc_segments = add_file_segments(doc_segments, segment)
@@ -316,6 +379,15 @@ class Segmentation:
                     for i in range(len(self.rel_labels)-1):
                         # for the different entities
                         if not self.same_entity_relation and label2 == self.rel_labels[i+1]:
+=======
+                                segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                if segment is not None:
+                                    doc_segments = add_file_segments(doc_segments, segment)
+
+                    for i in range(len(self.rel_labels) - 1):
+                        # for the different entities
+                        if not self.same_entity_relation and label2 == self.rel_labels[i + 1]:
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
                             if self.test:
                                 label_rel = None
                                 segment = self.extract_sentences(ann, key1, key2, label_rel)
@@ -336,10 +408,16 @@ class Segmentation:
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
 
+<<<<<<< HEAD
 
         return doc_segments
 
     def extract_sentences(self, ann,  entity1, entity2, label_rel = None, from_relation = False):
+=======
+        return doc_segments
+
+    def extract_sentences(self, ann, entity1, entity2, label_rel=None, from_relation=False):
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
         """
         when the two entities are give as input, it identifies the sentences they are located and determines whether the
         entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
@@ -368,7 +446,11 @@ class Segmentation:
             concept_2 = self.doc.char_span(start_C1, end_C1)
 
         if concept_1 is not None and concept_2 is not None:
+<<<<<<< HEAD
         # get the sentence the entity is located
+=======
+            # get the sentence the entity is located
+>>>>>>> cd0a5ae... added new demo_segmentation and added new sgementation.py
             sentence_C1 = str(concept_1.sent.text)
             sentence_C2 = str(concept_2.sent.text)
 
