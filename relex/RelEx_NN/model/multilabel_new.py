@@ -17,7 +17,7 @@ from keras.losses import binary_crossentropy
 from keras.optimizers import Adam
 import numpy as np
 import evaluate
-
+from connection import Connection
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
 cv = True
 write_file=False
@@ -104,7 +104,7 @@ train_data = read_from_file("../../../data/P_Te/sentence_train")
 train_labels = read_from_file("../../../data/P_Te/labels_train")
 # train_data = read_from_file("../../../data/sentence_train")
 # train_labels = read_from_file("../../../data/labels_train")
-
+"""
 df_data = pd.DataFrame(train_data, columns=['sentence'])
 df_label = pd.DataFrame(train_labels, columns=['label'])
 df_data.reset_index(drop=True, inplace=True)
@@ -115,17 +115,21 @@ df_new.drop_duplicates(inplace=True)
 df_new.reset_index(inplace = True, drop=True)
 
 df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
+
 df.reset_index(inplace=True)
 df['label'] = df['label'].str.split(",")
+"""
+
+df = Connection(True, False, None, "../data/P_Te/sentence_train", "../data/P_Te/labels_train" )
 
 multilabel_binarizer = MultiLabelBinarizer()
-multilabel_binarizer.fit(df.label)
+multilabel_binarizer.fit(df[label])
 labels = multilabel_binarizer.classes_
 print(labels)
 num_classes = len(labels)
 tokenizer = Tokenizer(num_words=max_words, lower=True)
-tokenizer.fit_on_texts(df.sentence)
-X_data = get_features(df.sentence)
+tokenizer.fit_on_texts(df[sentence])
+X_data = get_features(df[sentence])
 word_index = tokenizer.word_index
 embedding_matrix = np.zeros((max_words, embedding_dim))
 for word, i in word_index.items():
@@ -134,7 +138,7 @@ for word, i in word_index.items():
         if embedding_vector is not None:
             # Words not found in embedding index will be all-zeros.
             embedding_matrix[i] = embedding_vector
-binary_Y = multilabel_binarizer.transform(df.label)
+binary_Y = multilabel_binarizer.transform(df[label])
 
 if cv:
     #cross validation
@@ -151,7 +155,7 @@ if cv:
         y_train, y_test = binary_Y[train_index], binary_Y[test_index]
         print("Training Fold %i" % fold)
         print(len(x_train), len(x_test))
-        filter_length = 300
+        filter_length = 500
 
         model = Sequential()
         model.add(Embedding(max_words, embedding_dim, weights=[embedding_matrix], input_length=maxlen))
@@ -162,7 +166,7 @@ if cv:
         model.add(Activation('sigmoid'))
 
         model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
-        history = model.fit(x_train, y_train, epochs=20, batch_size=64)
+        history = model.fit(x_train, y_train, epochs=20, batch_size=32)
 
         np_pred = np.array(model.predict(x_test))
         np_pred[np_pred < 0.5] = 0
@@ -197,7 +201,7 @@ else:
 
     history = model.fit(x_train, y_train,
                         epochs=20,
-                        batch_size=64,
+                        batch_size=16,
                         validation_split=0.1)
     metrics = model.evaluate(x_test, y_test)
     print("{}: {}".format(model.metrics_names[0], metrics[0]))
