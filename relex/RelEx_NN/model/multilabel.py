@@ -147,7 +147,6 @@ if cv:
         x_train, x_test = X_data[train_index], X_data[test_index]
         y_train, y_test = binary_Y[train_index], binary_Y[test_index]
         print("Training Fold %i", fold)
-        print(len(x_train), len(x_test))
         filter_length = 300
 
         model = Sequential()
@@ -180,7 +179,9 @@ if cv:
             print(classification_report(np_true_single, np_pred_single, target_names=labels))
             print(" --------------------- multiple labels only --------------------------")
             print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
-
+            print("single count -- ",np.sum(np_pred_multiple.sum(axis=1)==1))
+            print("multiple count -- ",np.sum(np_pred_multiple.sum(axis=1)!=1))
+            print(np_pred_multiple.shape)
         originalclass.extend(np_true)
         predictedclass.extend(np_pred)
         print("--------------------------- Results ------------------------------------")
@@ -194,6 +195,8 @@ if cv:
         print(classification_report(np.array(true_multiple), np.array(pred_multiple), target_names=labels))
     print("--------------------- Results --------------------------------")
     print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+    print("single", np.sum(np.array(pred_multiple).sum(axis=1)==1))
+    print("multiple", np.sum(np.array(pred_multiple).sum(axis=1)!=1))
 else:
     # train - test split
 
@@ -234,5 +237,8 @@ else:
         print(classification_report(np_true_single, np_pred_single, target_names=labels))
         print(" --------------------- multiple labels only --------------------------")
         print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
+        print(np_pred_multiple.sum(axis=1) == 1)
+        print("single count -- ", np.sum(np_pred_single.sum(axis=1) == 1))
+        print("multiple count -- ", np.sum(np_pred_multiple.sum(axis=1) == 1))
     print("--------------------------- Results ------------------------------------")
     print(classification_report(np_true, np_pred, target_names=labels))

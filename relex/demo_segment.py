@@ -1,21 +1,32 @@
+from data import Dataset
 from segment import Segmentation
 
+# path to the dataset
+sample_train = Dataset('../data/sample_train')
 
-sample_train = '/home/mahendrand/NLP/RelEx/data/sample_train'
-# sample_test = Dataset('/home/samantha/Desktop/Research/Data/i2b2/sample_test')
-# training_dataset = Dataset('/home/samantha/Desktop/Research/Data/i2b2/train_data')
-# testing_dataset = Dataset('/home/samantha/Desktop/Research/Data/i2b2/test_data')
-seg_sampleTrain = Segmentation(sample_train)
-# sample_sentTrain = seg_sampleTrain.segments['sentence']
-# sample_labelTrain = seg_sampleTrain.segments['label']
-# seg_train = Segmentation(training_dataset)
-# print(len(seg_train.segments['sentence']))
-# print(len(seg_train.segments['label']))
-# seg_test = Segmentation(testing_dataset)
-# print(seg_test.segments['sentence'])
-# print(seg_test.segments['label'])
+'''
+Running instructions: 
+    1. Run each category of the labels separately. Comment out the rest when running 
+    2. Add the entities in the category to the rel_labels list
+    3. To enable the no_relation, add the label name to the no_rel_label list, if not do not pass the list as an argument
 
+'''
+# To extract the problem - treatment relations object
+rel_labels = ['problem', 'test']
+no_rel_label = ['NTeP']
 
+# To extract the problem - treatment relations object
+# rel_labels = ['problem', 'treatment']
+# no_rel_label = ['NTeP']
 
+# To extract the problem - treatment relations object
+# rel_labels = ['problem', 'test']
+# no_rel_label = ['NTeP']
 
+# to extract the segments from the dataset
+seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label )
+
+#print for testing purposes
+sample_sentTrain = seg_sampleTrain.segments['seg_concept1']
+print(sample_sentTrain)
 
