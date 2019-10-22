@@ -344,7 +344,7 @@ class Segmentation:
     def extract_sentences(self, ann, entity1, entity2, label_rel=None, from_relation=False):
         """
         when the two entities are give as input, it identifies the sentences they are located and determines whether the
-        entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
+        entity pair is in the same sentence or not. if not they combine the sentences. If there is an annotated relation exists
         and returns None if an annotated relation doesn't exist
         :param ann: annotation object
         :param label_rel: relation type
