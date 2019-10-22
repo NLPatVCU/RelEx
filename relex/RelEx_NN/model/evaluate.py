@@ -1,3 +1,5 @@
+# Author : Samantha Mahendran for RelEx
+
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.metrics import precision_score
@@ -14,7 +16,7 @@ def predict(model, x_test, y_test, encoder_classes):
     :param model: trained model
     :param x_test: test data
     :param y_test: test true labels
-    :param encoder_classes:
+    :param encoder_classes: 
     :return: predicted and true labels
     """
     pred = model.predict(x_test)
@@ -32,6 +34,7 @@ def predict(model, x_test, y_test, encoder_classes):
 
 def evaluate_Model(y_pred, y_true, encoder_classes):
     """
+
     :param y_pred:
     :param y_true:
     :param encoder_classes:
