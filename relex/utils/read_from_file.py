@@ -18,3 +18,6 @@ class Read_From_file:
         with open(self.file) as f:
             content = f.readlines()
         self.content = [x.strip() for x in content]
+
+    def __call__(self):
+        return self.content

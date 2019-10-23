@@ -18,11 +18,11 @@ from keras.optimizers import Adam
 import numpy as np
 import evaluate
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
-cv = False
+cv = True
 write_file=True
 embedding_path = "../../../../word_embeddings/mimic3_d300.txt"
-output_txt_path = "/home/cora/Desktop/output/output.txt"
-output_csv_path = "/home/cora/Desktop/output/output.csv"
+output_txt_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.txt"
+output_csv_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.csv"
 
 def read_from_file(file):
     """
@@ -112,8 +112,8 @@ with open(embedding_path) as f:
         embeddings_index[word] = coefs
     f.close()
 
-train_data = read_from_file("../../../data/P_Te/sentence_train")
-train_labels = read_from_file("../../../data/P_Te/labels_train")
+train_data = read_from_file("../../../data/n2c2/sentence_train")
+train_labels = read_from_file("../../../data/n2c2/labels_train")
 # train_data = read_from_file("../../../data/sentence_train")
 # train_labels = read_from_file("../../../data/labels_train")
 
