@@ -100,7 +100,6 @@ def extract_Segments(sentence, span1, span2):
 
 
 class Segmentation:
-=======
     def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
                  same_entity_relation=False, de_sample=None):
 
@@ -177,7 +176,6 @@ class Segmentation:
             # self.segments['sentence'].append(segment['sentence'])
             # self.segments['label'].append(segment['label'])
 
-=======
         # if not self.test:
         #     print(set(self.segments['label']))
         #     # print the number of instances of each relation classes
@@ -304,7 +302,7 @@ class Segmentation:
                             label_rel = None
                             segment = self.extract_sentences(ann, key1, key2, label_rel)
                         else:
-        for label_rel, entity1, entity2 in ann.annotations['relations']:
+                            for label_rel, entity1, entity2 in ann.annotations['relations']:
                                 if key2 == entity1 and key1 == entity2:
                                     segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
                                     doc_segments = add_file_segments(doc_segments, segment)
