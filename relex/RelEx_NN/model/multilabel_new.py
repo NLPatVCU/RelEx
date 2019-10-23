@@ -17,12 +17,13 @@ from keras.losses import binary_crossentropy
 from keras.optimizers import Adam
 import numpy as np
 import evaluate
-from connection import Connection
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
-cv = True
-write_file=False
+cv = False
+write_file=True
 embedding_path = "../../../../word_embeddings/mimic3_d300.txt"
-output_file_path = "output.txt"
+output_txt_path = "/home/cora/Desktop/output/output.txt"
+output_csv_path = "/home/cora/Desktop/output/output.csv"
+
 def read_from_file(file):
     """
     Reads external files and insert the content to a list. It also removes whitespace
@@ -74,15 +75,26 @@ def prediction_to_label(prediction):
     tag_prob = [(labels[i], prob) for i, prob in enumerate(prediction.tolist())]
     return dict(sorted(tag_prob, key=lambda kv: kv[1], reverse=True))
 
-def output_to_file():
+def output_to_file(true, pred, target):
     """
-    Function to create .txt file of classification report
+    Function to create .txt file and csv file of classification report
     """
-    report = classification_report(np.array(originalclass), np.array(predictedclass),target_names=labels)
-    df = pd.DataFrame(report).transpose()
-    file = read(file_name, "w+")
-    file.write(df)
-    file.close()
+    report = classification_report(true, pred, target_names=target)
+    report_dict = classification_report(true, pred, target_names=target, output_dict=True)
+    df_report = pd.DataFrame(report_dict).transpose()
+
+    #writes .txt file with results
+    txt_file = open(output_txt_path, 'a')
+    txt_file.write(report)
+    txt_file.close()
+
+    # writes csv file
+    csv_report = df_report.to_csv()
+    csv_file = open(output_csv_path, 'a')
+    csv_file.write(csv_report)
+    csv_file.close()
+
+
 
 embeddings_index = read_embeddings_from_file(embedding_path)
 embedding_dim = 300
@@ -104,7 +116,7 @@ train_data = read_from_file("../../../data/P_Te/sentence_train")
 train_labels = read_from_file("../../../data/P_Te/labels_train")
 # train_data = read_from_file("../../../data/sentence_train")
 # train_labels = read_from_file("../../../data/labels_train")
-"""
+
 df_data = pd.DataFrame(train_data, columns=['sentence'])
 df_label = pd.DataFrame(train_labels, columns=['label'])
 df_data.reset_index(drop=True, inplace=True)
@@ -118,18 +130,18 @@ df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
 
 df.reset_index(inplace=True)
 df['label'] = df['label'].str.split(",")
-"""
 
-df = Connection(True, False, None, "../data/P_Te/sentence_train", "../data/P_Te/labels_train" )
+
+# df = Connection(True, False, None, "../data/P_Te/sentence_train", "../data/P_Te/labels_train" )
 
 multilabel_binarizer = MultiLabelBinarizer()
-multilabel_binarizer.fit(df[label])
+multilabel_binarizer.fit(df['label'])
 labels = multilabel_binarizer.classes_
 print(labels)
 num_classes = len(labels)
 tokenizer = Tokenizer(num_words=max_words, lower=True)
-tokenizer.fit_on_texts(df[sentence])
-X_data = get_features(df[sentence])
+tokenizer.fit_on_texts(df['sentence'])
+X_data = get_features(df['sentence'])
 word_index = tokenizer.word_index
 embedding_matrix = np.zeros((max_words, embedding_dim))
 for word, i in word_index.items():
@@ -138,7 +150,7 @@ for word, i in word_index.items():
         if embedding_vector is not None:
             # Words not found in embedding index will be all-zeros.
             embedding_matrix[i] = embedding_vector
-binary_Y = multilabel_binarizer.transform(df[label])
+binary_Y = multilabel_binarizer.transform(df['label'])
 
 if cv:
     #cross validation
@@ -215,4 +227,4 @@ else:
 
     print(classification_report(np_true, np_pred, target_names=labels))
     if write_file:
-        output_to_file()
+        output_to_file(np_true, np_pred, labels)

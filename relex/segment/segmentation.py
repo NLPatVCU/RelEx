@@ -101,7 +101,7 @@ def extract_Segments(sentence, span1, span2):
 
 class Segmentation:
 
-    def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
+    def __init__(self, dataset, rel_labels, no_rel_label=None, sentence_align=False, test=False,
                  same_entity_relation=False, de_sample=None):
 
         self.dataset = dataset
