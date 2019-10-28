@@ -1,23 +1,17 @@
 # Author - Samantha Mahendran for RelEx
 import os
 
+def read_from_file(file):
+    """
+    Reads a file and returns its contents as a list
 
-class Read_From_file:
-    def __init__(self, file):
-        """
-        Reads external files and insert the content to a list. It also removes whitespace
-        characters like `\n` at the end of each line
+    @param file: path to file that will be read
+    """
 
-        :param file: name of the input file.
-        """
-        self.file = file
+    if not os.path.isfile(file):
+        raise FileNotFoundError("Not a valid file path")
 
-        if not os.path.isfile(self.file):
-            raise FileNotFoundError("Not a valid file path")
-
-        with open(self.file) as f:
-            content = f.readlines()
-        self.content = [x.strip() for x in content]
-
-    def __call__(self):
-        return self.content
+    with open(file) as f:
+        content = f.readlines()
+        content = [x.strip() for x in content]
+    return content

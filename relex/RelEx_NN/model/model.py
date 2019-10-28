@@ -6,25 +6,7 @@ from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import os, logging, tempfile
 import psutil
-
-
-def read_from_file(file):
-    """
-    Reads external files and insert the content to a list. It also removes whitespace
-    characters like `\n` at the end of each line
-
-    :param file: name of the input file.
-    :return : content of the file in list format
-    """
-    if not os.path.isfile(file):
-        raise FileNotFoundError("Not a valid file path")
-
-    with open(file) as f:
-        content = f.readlines()
-    content = [x.strip() for x in content]
-
-    return content
-
+from segment import SetConnection
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
@@ -63,39 +45,41 @@ class Model:
         self.common_words = common_words
         self.maxlen = maxlen
 
+        train_data = SetConnection(CSV=True, sentences='../data/P_P/sentence_train', labels='../data/P_P/labels_train',preceding_segs='../data/P_P/preceding_seg', concept1_segs='../data/P_P/concept1_seg',middle_segs='../data/P_P/middle_seg',concept2_segs='../data/P_P/concept2_seg', succeeding_segs='../data/P_P/succeeding_seg' ).data_object
+
         # read dataset from external files
-        train_data = read_from_file("../data/P_Tr/sentence_train")
-        train_labels = read_from_file("../data/P_Tr/labels_train")
-        print(train_data)
+        train_sentences = train_data['sentence']
+        train_labels = train_data['label']
         print(train_labels)
 
         if self.test:
-            test_data = read_from_file("../data/sentence_test")
-            test_labels = read_from_file("../data/labels_test")
+            test_data = SetConnection('../data/train_data', ['problem', 'test'], ['NTeP'])
+            test_sentences = test_data['sentence_train']
+            test_labels = test_data['labels_train']
         else:
-            test_data = None
+            test_sentences = None
             test_labels = None
 
         self.train_label = train_labels
-        print(self.train_label)
+
         if self.test:
-            self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
-            self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.y_test = test_labels
+             self.train, self.x_test, self.word_index = self.vectorize_words(train_sentences, test_sentence)
+             # self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_sentences, test_sentence)
+             self.y_test = test_labels
         else:
-            # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.train, self.word_index = self.vectorize_words(train_data, test_data)
+             # self.train_onehot, self.token_index = self.one_hot_encoding(train_sentences, test_data)
+             self.train, self.word_index = self.vectorize_words(train_sentences, test_sentences)
 
         # divides train data into partial train and validation data
         self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
         # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,self.train_label)
 
         if segment:
-            train_preceding = read_from_file("../data/P_Tr/preceding_seg")
-            train_middle = read_from_file("../data/P_Tr/middle_seg")
-            train_succeeding = read_from_file("../data/P_Tr/succeeding_seg")
-            train_concept1 = read_from_file("../data/P_Tr/concept1_seg")
-            train_concept2 = read_from_file("../data/P_Tr/concept2_seg")
+            train_preceding = train_data['seg_preceding']
+            train_middle = train_data['seg_middle']
+            train_succeeding = train_data['seg_succeeding']
+            train_concept1 = train_data['seg_concept1']
+            train_concept2 = train_data['seg_concept2']
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(

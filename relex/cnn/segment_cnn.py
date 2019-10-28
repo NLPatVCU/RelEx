@@ -4,6 +4,7 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
+from utils import output_to_file
 
 
 class Segment_CNN:
@@ -111,3 +112,4 @@ class Segment_CNN:
             fold += 1
 
         evaluate.cv_evaluation(labels, evaluation_statistics)
+        output_to_file(y_true, y_pred, "output.txt", target=labels)

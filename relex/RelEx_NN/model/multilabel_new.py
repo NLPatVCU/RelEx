@@ -193,7 +193,7 @@ if cv:
         fold += 1
     print(classification_report(np.array(originalclass), np.array(predictedclass),target_names=labels))
     if write_file:
-        output_to_file()
+        output_to_file(np_true, np_pred, labels)
 else:
     # train - test split
 

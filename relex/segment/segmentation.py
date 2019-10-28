@@ -4,53 +4,7 @@ from data import Annotation
 from spacy.pipeline import Sentencizer
 from spacy.lang.en import English
 import spacy
-
-
-def list_to_file(file, input_list):
-    """
-    Function to write the contents of a list to a file
-
-    :param file: name of the output file.
-    :param input_list: list needs to be written to file
-    """
-    with open(file, 'w') as f:
-        for item in input_list:
-            f.write("%s\n" % item)
-
-
-def remove_Punctuation(string):
-    """
-    Function to remove punctuation from a given string. It traverses the given string
-    and replaces the punctuation marks with null
-
-    :param string: given string.
-    :return string:string without punctuation
-    """
-    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-
-    for x in string.lower():
-        if x in punctuations:
-            string = string.replace(x, "")
-
-    return string
-
-
-def replace_Punctuation(string):
-    """
-    Function to remove punctuation from a given string. It traverses the given string
-    and replaces the punctuation marks with comma (,)
-
-    :param string: given string.
-    :return string:string without punctuation
-    """
-    punctuations = '''!()-[]{};:'"\,<>/?@#$%^&*_~'''
-
-    for x in string.lower():
-        if x in punctuations:
-            string = string.replace(x, ",")
-
-    return string
-
+from utils import list_to_file, remove_punctuation, replace_punctuation
 
 def add_file_segments(doc_segments, segment):
     """
@@ -88,13 +42,13 @@ def extract_Segments(sentence, span1, span2):
     """
 
     preceding = sentence[0:sentence.find(span1)]
-    preceding = remove_Punctuation(str(preceding)).strip()
+    preceding = remove_punctuation(str(preceding)).strip()
 
     middle = sentence[sentence.find(span1) + len(span1):sentence.find(span2)]
-    middle = remove_Punctuation(str(middle)).strip()
+    middle = remove_punctuation(str(middle)).strip()
 
     succeeding = sentence[sentence.find(span2) + len(span2):]
-    succeeding = remove_Punctuation(str(succeeding)).strip()
+    succeeding = remove_punctuation(str(succeeding)).strip()
 
     return preceding, middle, succeeding
 
@@ -246,9 +200,9 @@ class Segmentation:
             else:
                 sentence = sentence_C1 + " " + sentence_C2
 
-            sentence = remove_Punctuation(str(sentence).strip())
-            concept_1 = remove_Punctuation(str(concept_1).strip())
-            concept_2 = remove_Punctuation(str(concept_2).strip())
+            sentence = remove_punctuation(str(sentence).strip())
+            concept_1 = remove_punctuation(str(concept_1).strip())
+            concept_2 = remove_punctuation(str(concept_2).strip())
             segment['concept1'].append(concept_1)
             segment['concept2'].append(concept_2)
             segment['sentence'].append(sentence.replace('\n', ' '))
@@ -396,9 +350,9 @@ class Segmentation:
             sentence = None
 
         if sentence is not None:
-            sentence = remove_Punctuation(str(sentence).strip())
-            concept_1 = remove_Punctuation(str(concept_1).strip())
-            concept_2 = remove_Punctuation(str(concept_2).strip())
+            sentence = remove_punctuation(str(sentence).strip())
+            concept_1 = remove_punctuation(str(concept_1).strip())
+            concept_2 = remove_punctuation(str(concept_2).strip())
             preceding, middle, succeeding = extract_Segments(sentence, concept_1, concept_2)
 
             # remove the next line character in the extracted segment by replacing the '\n' with ' '
