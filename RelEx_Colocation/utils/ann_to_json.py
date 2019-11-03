@@ -1,8 +1,9 @@
 #Author - Samantha Mahendran for RelEx_Colocation
-"""
-Converts ann file text to spacy annotation
-"""
-class Ann_To_Json:
+
+class AnnToJson:
+    """
+    Converts ann file text to spacy annotation
+    """
 
     def __init__(self, annotation_text):
         self.annotations = {'entities': {}, 'relations': []}
@@ -30,4 +31,3 @@ class Ann_To_Json:
                     relation_start = tags[1].split(':')[1]
                     relation_end = tags[2].split(':')[1]
                     self.annotations['relations'].append((relation_id, relation_name, relation_start, relation_end))
-

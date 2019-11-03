@@ -7,7 +7,7 @@ from operator import itemgetter
 import spacy
 
 from RelEx_Colocation.relation_extractor import traversal
-from RelEx_Colocation.utils.ann_to_json import Ann_To_Json
+from RelEx_Colocation.utils.ann_to_json import AnnToJson
 
 
 class Relation:
@@ -44,7 +44,7 @@ class Relation:
                 file_input_path[f] = file_object.read().strip()
 
             # read files and convert ann files to JSON format
-            ann_to_json = Ann_To_Json(file_input_path[f])
+            ann_to_json = AnnToJson(file_input_path[f])
 
             rel_f = os.path.join(self.data_path, t_file)
 

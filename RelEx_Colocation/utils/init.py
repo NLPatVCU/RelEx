@@ -1,1 +1,1 @@
-from .ann_to_json import Ann_To_Json
+from .ann_to_json import AnnToJson
