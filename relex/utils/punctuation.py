@@ -4,7 +4,7 @@ def remove_punctuation(string):
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with null
 
-    @param string: string to remove punctuation from
+    :param string: string to remove punctuation from
     """
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     for x in string.lower():
@@ -18,7 +18,7 @@ def replace_punctuation(string):
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with comma (,)
 
-    @param string: string to replace punctuation from
+    :param string: string to replace punctuation from
     """
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     for x in string.lower():

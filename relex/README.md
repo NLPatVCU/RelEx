@@ -1,19 +1,18 @@
-# RelEx
+# RelEx CNN
 
-Relation Extractor based on the Collocation information.
+Relation Extractor using a Convolutional Neural Network.
 ![alt text](https://nlp.cs.vcu.edu/images/Edit_NanomedicineDatabase.png "Nanoinformatics")
 
-RelEx is a rule-based framework written based on the co-location information of the drug entity. the co-location information of the drug to determine with respect to the non-drug entity if the entity is referring to the drug. 
+RelEx CNN is a framework that uses a CNN to extract relationships between drug entities.
 
 ## Algorithm
 
-A breadth-first search (BFS) algorithm is used to find the closest occurrence of the drug on either side of the non-drug entity and all the closest occurrences of the drugs within a sentence. 
-Following are the different traversal techniques used: 
-- traverse left side only 
-- traverse right side only
-- traverse left first then right 
-- traverse right first then left
-- traversal bounded within a sentence
+### Sentence CNN
+![sentence CNN]("sentence_cnn_1_.png")
+
+### Segment CNN
+![segment CNN]("segment_cnn_1_.png")
+
 
 ### Examples
 
@@ -32,7 +31,7 @@ pip install requirements.txt
 ```
 ## Deployment
 
-Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx_Colocation/). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
+Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx/relex). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
 
 ## Authors
 

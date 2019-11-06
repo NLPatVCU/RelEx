@@ -5,7 +5,7 @@ def read_from_file(file):
     """
     Reads a file and returns its contents as a list
 
-    @param file: path to file that will be read
+    :param file: path to file that will be read
     """
 
     if not os.path.isfile(file):

@@ -1,5 +1,9 @@
 relex.segment package
 =====================
+.. toctree::
+
+    relex.segment.segmentation
+    relex.segment.set_connection
 
 Submodules
 ----------
