@@ -140,14 +140,11 @@ def traverse_within_sentence(sorted_entities, result, f,doc):
                 span_right = doc.char_span(right_start, right_end)
                 new_span_right = alternative_span.find_alternative_span(start, end, span_right, doc)
 
-                if right_label == 'Drug':
-                    if any(str(new_span_right[0]) in s for s in span_sent):
-                        result['relations'].append((label, right_label, id, right_id, f))
-                    else:
-                        break
+                if right_label == 'Drug' and any(str(new_span_right[0]) in s for s in span_sent):
+                    result['relations'].append((label, right_label, id, right_id, f))
+                elif right_label == 'Drug':
+                    break
 
                 ind_right = ind_right + count_right
 
     return result
-
-
