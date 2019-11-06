@@ -1,7 +1,8 @@
-relex documentation
+relex package
 =============
+
 -----------
 
 .. toctree::
 
-  relex
+    relex

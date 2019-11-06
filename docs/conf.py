@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
 project = 'RelEx'
-copyright = '2019, Samantha Mahendran (main author) and Bridget T McInnes'
-author = 'Samantha Mahendran (main author) and Bridget T McInnes'
+copyright = '2019, add later'
+author = 'add later'
 
 # The short X.Y version
 version = ''
@@ -130,7 +130,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'RelEx.tex', 'RelEx Documentation',
-     'Samantha Mahendran (main author) and Bridget T McInnes', 'manual'),
+     'add later', 'manual'),
 ]
 
 
