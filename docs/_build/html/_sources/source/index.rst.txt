@@ -1,8 +1,0 @@
-relex package
-=============
-
------------
-
-.. toctree::
-
-    relex
