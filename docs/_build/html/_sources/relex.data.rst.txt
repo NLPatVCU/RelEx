@@ -20,11 +20,3 @@ relex.data.dataset module
     :undoc-members:
     :show-inheritance:
 
-
-Module contents
----------------
-
-.. automodule:: relex.data
-    :members:
-    :undoc-members:
-    :show-inheritance:

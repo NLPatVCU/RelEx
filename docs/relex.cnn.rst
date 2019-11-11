@@ -19,12 +19,3 @@ relex.cnn.sentence\_cnn module
     :members:
     :undoc-members:
     :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: relex.cnn
-    :members:
-    :undoc-members:
-    :show-inheritance:

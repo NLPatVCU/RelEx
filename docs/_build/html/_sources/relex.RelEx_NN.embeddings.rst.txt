@@ -13,10 +13,3 @@ relex.RelEx\_NN.embeddings.embeddings module
     :show-inheritance:
 
 
-Module contents
----------------
-
-.. automodule:: relex.RelEx_NN.embeddings
-    :members:
-    :undoc-members:
-    :show-inheritance:

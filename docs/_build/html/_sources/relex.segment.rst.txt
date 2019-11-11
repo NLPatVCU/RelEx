@@ -22,10 +22,4 @@ relex.segment.set\_connection module
 
 
 
-Module contents
----------------
 
-.. automodule:: relex.segment
-    :members:
-    :undoc-members:
-    :show-inheritance:

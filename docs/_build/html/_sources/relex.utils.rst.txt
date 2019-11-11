@@ -37,10 +37,4 @@ relex.utils.read\_from\_file module
     :show-inheritance:
 
 
-Module contents
----------------
 
-.. automodule:: relex.utils
-    :members:
-    :undoc-members:
-    :show-inheritance:

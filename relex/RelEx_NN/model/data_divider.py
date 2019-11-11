@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from utils import read_from_file
 
-train_data = read_from_file("../../../data/segments/sentence_train")
-train_labels = read_from_file("../../../data/segments/labels_train")
+train_data = read_from_file("/home/cora/Sam/RelEx/data/P_P/sentence_train")
+train_labels = read_from_file("/home/cora/Sam/RelEx/data/P_P/labels_train")
 
 
 df_data = pd.DataFrame(train_data, columns=['sentence'])
