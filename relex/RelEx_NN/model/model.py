@@ -29,7 +29,7 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
-    def __init__(self, sentences, labels, preceding_segs, concept1_segs, middle_segs, concept2_segs, succeeding_segs, rel_labels, no_labels, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100 ):
+    def __init__(self, sentences, labels, preceding_segs, concept1_segs, middle_segs, concept2_segs, succeeding_segs, rel_labels, no_labels, dataset, CSV=True segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100 ):
         """
 
         :param segment: Flag to be set to activate segment-CNN (default-True)
@@ -54,17 +54,30 @@ class Model:
         self.multilabel = multilabel
         self.common_words = common_words
         self.maxlen = maxlen
-        self.sentences = sentences
-        self.labels = labels
-        self.preceding_segs = preceding_segs
-        self.concept1_segs = concept1_segs
-        self.middle_segs = middle_segs
-        self.concept2_segs = concept2_segs
-        self.succeeding_segs = succeeding_segs
+        self.CSV = CSV
+        if self.CSV:
+            self.sentences = sentences
+            self.labels = labels
+            self.preceding_segs = preceding_segs
+            self.concept1_segs = concept1_segs
+            self.middle_segs = middle_segs
+            self.concept2_segs = concept2_segs
+            self.succeeding_segs = succeeding_segs
+            self.dataset = None
+        else:
+            self.sentences = None
+            self.labels = None
+            self.preceding_segs = None
+            self.concept1_segs = None
+            self.middle_segs = None
+            self.concept2_segs = None
+            self.succeeding_segs = None
+            self.dataset = dataset
+
         self.rel_labels = rel_labels
         self.no_labels = no_labels
 
-        train_data = SetConnection(CSV=True, sentences=sentences, labels=labels, preceding_segs=preceding_segs, concept1_segs=concept1_segs, middle_segs=middle_segs, concept2_segs=concept2_segs, succeeding_segs=succeeding_segs).data_object
+        train_data = SetConnection(self.dataset, self.rel_labels, self.no_labels, self.CSV, self.sentences, self.labels, self.preceding_segs, self.concept1_segs, self.middle_segs, self.concept2_seg, self.suceeding_segs).data_object
 
         # read dataset from external files
         train_sentences = train_data['sentence']

@@ -1,26 +1,26 @@
 # RelEx CNN
 
-Relation Extractor using a Convolutional Neural Network.
-![alt text](https://nlp.cs.vcu.edu/images/Edit_NanomedicineDatabase.png "Nanoinformatics")
-
+Relation extraction  using a Convolutional Neural Network.
 RelEx CNN is a framework that uses a CNN to extract relationships between drug entities.
 
-## Algorithm
+![alt text](https://nlp.cs.vcu.edu/images/Edit_NanomedicineDatabase.png "Nanoinformatics")
 
-### Sentence CNN
-![sentence CNN]("sentence_cnn_1_.png")
+### Algorithm
+RelEx CNN has two models to be used for relationship extraction: Sentence CNN and Segment CNN. Senetence CNN uses the whole sentence in the CNN, while Segment CNN breaks down the sentence into various segem
+RelEx CNN has two models to be used for relationship extraction: Sentence CNN and Segment CNN. Sentence CNN feeds the whole sentence into the CNN, while Segment CNN breaks down the sentence into various segments to feed into the CNN. Segment CNN has had better results in our experiments. 
 
-### Segment CNN
-![segment CNN]("segment_cnn_1_.png")
+The paths to the data sets are fed into the Model class where the data is segmented  and prepared for the CNN. The path to the word embedding is fed into the Embeddings class.  Then the outputs of Model and Embeddings is fed into one of the CNNs. ents to use in the CNN. Segment CNN has had better results in our experiments. 
+
+#### Sentence CNN
+![Sentence CNN]("sentence_cnn_1_.png")
+
+#### Segment CNN
+![Segment CNN]("segment_cnn_1_.png")
 
 
 ### Examples
 
-For example, the sentence
-```
-Once  her  hematocrit  stabilized,  she  was  started  on  a  heparin  gtt  with  coumadinoverlap
-```
-contains a non-drug entity,gtt  (Route)and two drugsHeparinandCoumadinand the non-drugentity has a relation with the closest drug occurrence Heparin.
+add a sentence here later
 
 ### Installation
 
@@ -31,7 +31,9 @@ pip install requirements.txt
 ```
 ## Deployment
 
-Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx/relex). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
+Add sample dataset
+
+To prepare data for segment CNN, run demo_segment.py.  Then run experiment.py to run the model.
 
 ## Authors
 
