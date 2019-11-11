@@ -48,14 +48,117 @@
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="relex-cnn-segment-cnn-module">
-<h2>relex.cnn.segment_cnn module<a class="headerlink" href="#relex-cnn-segment-cnn-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.cnn.segment_cnn">
+<span id="relex-cnn-segment-cnn-module"></span><h2>relex.cnn.segment_cnn module<a class="headerlink" href="#module-relex.cnn.segment_cnn" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.cnn.segment_cnn.Segment_CNN">
+<em class="property">class </em><code class="descclassname">relex.cnn.segment_cnn.</code><code class="descname">Segment_CNN</code><span class="sig-paren">(</span><em>model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.segment_cnn.Segment_CNN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.cnn.segment_cnn.Segment_CNN.build_segment_cnn">
+<code class="descname">build_segment_cnn</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.segment_cnn.Segment_CNN.build_segment_cnn" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.cnn.segment_cnn.Segment_CNN.cross_validate">
+<code class="descname">cross_validate</code><span class="sig-paren">(</span><em>num_folds=5</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.segment_cnn.Segment_CNN.cross_validate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_folds</strong> – </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.cnn.segment_cnn.Segment_CNN.define_model">
+<code class="descname">define_model</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.segment_cnn.Segment_CNN.define_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
 </div>
-<div class="section" id="relex-cnn-sentence-cnn-module">
-<h2>relex.cnn.sentence_cnn module<a class="headerlink" href="#relex-cnn-sentence-cnn-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.cnn.sentence_cnn">
+<span id="relex-cnn-sentence-cnn-module"></span><h2>relex.cnn.sentence_cnn module<a class="headerlink" href="#module-relex.cnn.sentence_cnn" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.cnn.sentence_cnn.Sentence_CNN">
+<em class="property">class </em><code class="descclassname">relex.cnn.sentence_cnn.</code><code class="descname">Sentence_CNN</code><span class="sig-paren">(</span><em>model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.sentence_cnn.Sentence_CNN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.cnn.sentence_cnn.Sentence_CNN.cross_validate">
+<code class="descname">cross_validate</code><span class="sig-paren">(</span><em>num_folds=5</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.sentence_cnn.Sentence_CNN.cross_validate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_folds</strong> – </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.cnn.sentence_cnn.Sentence_CNN.define_model">
+<code class="descname">define_model</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.sentence_cnn.Sentence_CNN.define_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.cnn.sentence_cnn.Sentence_CNN.fit_Model">
+<code class="descname">fit_Model</code><span class="sig-paren">(</span><em>model</em>, <em>x_train</em>, <em>y_train</em>, <em>validation=None</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.cnn.sentence_cnn.Sentence_CNN.fit_Model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>model</strong> – </li>
+<li><strong>x_train</strong> – </li>
+<li><strong>y_train</strong> – </li>
+<li><strong>validation</strong> – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
 </div>
-<div class="section" id="module-contents">
-<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.cnn">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.cnn" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -69,9 +172,9 @@
   <ul>
 <li><a class="reference internal" href="#">relex.cnn package</a><ul>
 <li><a class="reference internal" href="#submodules">Submodules</a></li>
-<li><a class="reference internal" href="#relex-cnn-segment-cnn-module">relex.cnn.segment_cnn module</a></li>
-<li><a class="reference internal" href="#relex-cnn-sentence-cnn-module">relex.cnn.sentence_cnn module</a></li>
-<li><a class="reference internal" href="#module-contents">Module contents</a></li>
+<li><a class="reference internal" href="#module-relex.cnn.segment_cnn">relex.cnn.segment_cnn module</a></li>
+<li><a class="reference internal" href="#module-relex.cnn.sentence_cnn">relex.cnn.sentence_cnn module</a></li>
+<li><a class="reference internal" href="#module-relex.cnn">Module contents</a></li>
 </ul>
 </li>
 </ul>

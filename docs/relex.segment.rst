@@ -1,5 +1,6 @@
 relex.segment package
 =====================
+
 Submodules
 ----------
 
@@ -18,6 +19,7 @@ relex.segment.set\_connection module
     :members:
     :undoc-members:
     :show-inheritance:
+
 
 
 Module contents

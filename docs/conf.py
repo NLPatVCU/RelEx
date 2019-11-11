@@ -15,6 +15,11 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../'))
+sys.path.insert(0, os.path.abspath('../relex'))
+sys.path.insert(0, os.path.abspath('../relex/RelEx_NN'))
+sys.path.insert(0, os.path.abspath('../relex/RelEx_NN/model'))
+sys.path.insert(0, os.path.abspath('../relex/RelEx_NN/nn'))
+sys.path.insert(0, os.path.abspath('../relex/cnn'))
 
 
 # -- Project information -----------------------------------------------------

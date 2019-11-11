@@ -1,4 +1,5 @@
 # Author : Samantha Mahendran for RelEx
+"Segments dataset"
 
 from data import Annotation
 from spacy.pipeline import Sentencizer
@@ -9,9 +10,9 @@ from utils import list_to_file, remove_punctuation, replace_punctuation
 def add_file_segments(doc_segments, segment):
     """
     Function to add the local segment object to the global segment object
+
     :param doc_segments: global segment object
     :param segment: local segment object
-    :return: doc_segments
     """
     doc_segments['preceding'].extend(segment['preceding'])
     doc_segments['concept1'].extend(segment['concept1'])
@@ -38,7 +39,6 @@ def extract_Segments(sentence, span1, span2):
     :param sentence: the sentence where both entities exist
     :param span1: span of the first entity
     :param span2: span of the second entity
-    :return: preceding, middle, succeeding
     """
 
     preceding = sentence[0:sentence.find(span1)]
@@ -56,6 +56,17 @@ def extract_Segments(sentence, span1, span2):
 class Segmentation:
     def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
                  same_entity_relation=False, de_sample=None):
+        """
+        Class to segments data
+
+        :param datatset: path to datatset
+        :param rel_labels: relationship labels array
+        :param no_rel_labels: array with label for when there is no relation
+        :param sentence_align: sentence align flag
+        :param test: test flag
+        :param same_entity_relation: sentence entity relation flag
+        :param de_sample: de_sample
+        """
 
         self.dataset = dataset
         # list of the entities of relations
@@ -161,7 +172,6 @@ class Segmentation:
         Succeeding - (tokenize words after the second concept)
 
         :param ann: annotation object
-        :return: segments and label
         """
 
         # object to store the segments of a relation object
@@ -231,8 +241,6 @@ class Segmentation:
         Succeeding - (tokenize words after the second concept)
 
         :param ann: annotation object
-        :return: segments and label: preceding, concept_1, middle, concept_2, succeeding, label
-
         """
         # object to store the segments of a relation object for a file
         doc_segments = {'preceding': [], 'concept1': [], 'concept2': [], 'middle': [], 'succeeding': [], 'sentence': [],
@@ -300,12 +308,12 @@ class Segmentation:
         when the two entities are give as input, it identifies the sentences they are located and determines whether the
         entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
         and returns None if an annotated relation doesn't exist
+
         :param ann: annotation object
         :param label_rel: relation type
         :param entity1: first entity in the considered pair
         :param entity2: second entity in the considered pair
         :param from_relation: check for annotated relation in the data
-        :return:
         """
         segment = {'preceding': [], 'concept1': [], 'concept2': [], 'middle': [], 'succeeding': [], 'sentence': [],
                    'label': []}

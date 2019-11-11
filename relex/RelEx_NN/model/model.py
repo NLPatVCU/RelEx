@@ -29,7 +29,7 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
-    def __init__(self, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100, sentences, labels, preceding_segs, concept1_segs, middle_segs, concept2_segs, succeeding_segs, rel_labels, no_labels ):
+    def __init__(self, sentences, labels, preceding_segs, concept1_segs, middle_segs, concept2_segs, succeeding_segs, rel_labels, no_labels, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100 ):
         """
 
         :param segment: Flag to be set to activate segment-CNN (default-True)

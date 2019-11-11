@@ -45,19 +45,169 @@
             
   <div class="section" id="relex-segment-package">
 <h1>relex.segment package<a class="headerlink" href="#relex-segment-package" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-</div>
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="relex-segment-segmentation-module">
-<h2>relex.segment.segmentation module<a class="headerlink" href="#relex-segment-segmentation-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.segment.segmentation">
+<span id="relex-segment-segmentation-module"></span><h2>relex.segment.segmentation module<a class="headerlink" href="#module-relex.segment.segmentation" title="Permalink to this headline">¶</a></h2>
+<p>Segments dataset</p>
+<dl class="class">
+<dt id="relex.segment.segmentation.Segmentation">
+<em class="property">class </em><code class="descclassname">relex.segment.segmentation.</code><code class="descname">Segmentation</code><span class="sig-paren">(</span><em>dataset=None</em>, <em>rel_labels=None</em>, <em>no_rel_label=None</em>, <em>sentence_align=False</em>, <em>test=False</em>, <em>same_entity_relation=False</em>, <em>de_sample=None</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.Segmentation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.segment.segmentation.Segmentation.extract_sentences">
+<code class="descname">extract_sentences</code><span class="sig-paren">(</span><em>ann</em>, <em>entity1</em>, <em>entity2</em>, <em>label_rel=None</em>, <em>from_relation=False</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.Segmentation.extract_sentences" title="Permalink to this definition">¶</a></dt>
+<dd><p>when the two entities are give as input, it identifies the sentences they are located and determines whether the
+entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
+and returns None if an annotated relation doesn’t exist</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>ann</strong> – annotation object</li>
+<li><strong>label_rel</strong> – relation type</li>
+<li><strong>entity1</strong> – first entity in the considered pair</li>
+<li><strong>entity2</strong> – second entity in the considered pair</li>
+<li><strong>from_relation</strong> – check for annotated relation in the data</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.segment.segmentation.Segmentation.get_Segments_from_relations">
+<code class="descname">get_Segments_from_relations</code><span class="sig-paren">(</span><em>ann</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.Segmentation.get_Segments_from_relations" title="Permalink to this definition">¶</a></dt>
+<dd><p>For each relation object, it identifies the label and the entities first, then extracts the span of the
+entities from the text file using the start and end character span of the entities. Then it finds the
+sentence the entities are located in and passes the sentence and the spans of the entities to the function
+that extracts the following segments:</p>
+<p>Preceding - (tokenize words before the first concept)
+concept 1 - (tokenize words in the first concept)
+Middle - (tokenize words between 2 concepts)
+concept 2 - (tokenize words in the second concept)
+Succeeding - (tokenize words after the second concept)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>ann</strong> – annotation object</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.segment.segmentation.Segmentation.get_Segments_from_sentence">
+<code class="descname">get_Segments_from_sentence</code><span class="sig-paren">(</span><em>ann</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.Segmentation.get_Segments_from_sentence" title="Permalink to this definition">¶</a></dt>
+<dd><p>In the annotation object, it identifies the sentence each problem entity (i2b2) is located and tries to determine
+the relations between other problem entities and other entity types in the same sentence. When a pair of
+entities is identified first it checks whether an annotated relation type already exists,</p>
+<blockquote>
+<div>yes : label it with the given annotated label
+no : if no-rel label is active label as a No - relation pair</div></blockquote>
+<p>Finally it passes the sentence and the spans of the entities to the function that extracts the following segments:
+Preceding - (tokenize words before the first concept)
+concept 1 - (tokenize words in the first concept)
+Middle - (tokenize words between 2 concepts)
+concept 2 - (tokenize words in the second concept)
+Succeeding - (tokenize words after the second concept)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>ann</strong> – annotation object</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="relex.segment.segmentation.add_file_segments">
+<code class="descclassname">relex.segment.segmentation.</code><code class="descname">add_file_segments</code><span class="sig-paren">(</span><em>doc_segments</em>, <em>segment</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.add_file_segments" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to add the local segment object to the global segment object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>doc_segments</strong> – global segment object</li>
+<li><strong>segment</strong> – local segment object</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="relex.segment.segmentation.extract_Segments">
+<code class="descclassname">relex.segment.segmentation.</code><code class="descname">extract_Segments</code><span class="sig-paren">(</span><em>sentence</em>, <em>span1</em>, <em>span2</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.segmentation.extract_Segments" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a sentence and the span of both entities as the input. First it locates the entities in the sentence and
+divides the sentence into following segments:</p>
+<p>Preceding - (tokenized words before the first concept)
+concept 1 - (tokenized words in the first concept)
+Middle - (tokenized words between 2 concepts)
+concept 2 - (tokenized words in the second concept)
+Succeeding - (tokenized words after the second concept)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>sentence</strong> – the sentence where both entities exist</li>
+<li><strong>span1</strong> – span of the first entity</li>
+<li><strong>span2</strong> – span of the second entity</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </div>
-<div class="section" id="relex-segment-set-connection-module">
-<h2>relex.segment.set_connection module<a class="headerlink" href="#relex-segment-set-connection-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.segment.set_connection">
+<span id="relex-segment-set-connection-module"></span><h2>relex.segment.set_connection module<a class="headerlink" href="#module-relex.segment.set_connection" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.segment.set_connection.SetConnection">
+<em class="property">class </em><code class="descclassname">relex.segment.set_connection.</code><code class="descname">SetConnection</code><span class="sig-paren">(</span><em>dataset=None</em>, <em>rel_labels=None</em>, <em>no_labels=None</em>, <em>CSV=False</em>, <em>sentences=None</em>, <em>labels=None</em>, <em>preceding_segs=None</em>, <em>concept1_segs=None</em>, <em>middle_segs=None</em>, <em>concept2_segs=None</em>, <em>succeeding_segs=None</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.set_connection.SetConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.segment.set_connection.SetConnection.get_data_object">
+<code class="descname">get_data_object</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.set_connection.SetConnection.get_data_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>creates object from CSVs</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="relex.segment.set_connection.read_from_file">
+<code class="descclassname">relex.segment.set_connection.</code><code class="descname">read_from_file</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.segment.set_connection.read_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Reads external files and insert the content to a list. It also removes whitespace
+characters like `</div></blockquote>
+<p>` at the end of each line</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param file:</th><td class="field-body">name of the input file.</td>
+</tr>
+</tbody>
+</table>
+<p>:return : content of the file in list format</p>
+</div></blockquote>
+</dd></dl>
+
 </div>
-<div class="section" id="module-contents">
-<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.segment">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.segment" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -71,9 +221,9 @@
   <ul>
 <li><a class="reference internal" href="#">relex.segment package</a><ul>
 <li><a class="reference internal" href="#submodules">Submodules</a></li>
-<li><a class="reference internal" href="#relex-segment-segmentation-module">relex.segment.segmentation module</a></li>
-<li><a class="reference internal" href="#relex-segment-set-connection-module">relex.segment.set_connection module</a></li>
-<li><a class="reference internal" href="#module-contents">Module contents</a></li>
+<li><a class="reference internal" href="#module-relex.segment.segmentation">relex.segment.segmentation module</a></li>
+<li><a class="reference internal" href="#module-relex.segment.set_connection">relex.segment.set_connection module</a></li>
+<li><a class="reference internal" href="#module-relex.segment">Module contents</a></li>
 </ul>
 </li>
 </ul>

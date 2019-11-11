@@ -1,9 +1,5 @@
 relex.segment package
 =====================
-.. toctree::
-
-    relex.segment.segmentation
-    relex.segment.set_connection
 
 Submodules
 ----------
@@ -23,6 +19,7 @@ relex.segment.set\_connection module
     :members:
     :undoc-members:
     :show-inheritance:
+
 
 
 Module contents

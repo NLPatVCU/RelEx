@@ -49,11 +49,82 @@
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="relex-relex-nn-nn-simple-nn-module">
-<h2>relex.RelEx_NN.nn.simple_NN module<a class="headerlink" href="#relex-relex-nn-nn-simple-nn-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.RelEx_NN.nn.simple_NN">
+<span id="relex-relex-nn-nn-simple-nn-module"></span><h2>relex.RelEx_NN.nn.simple_NN module<a class="headerlink" href="#module-relex.RelEx_NN.nn.simple_NN" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.RelEx_NN.nn.simple_NN.Simple_NN">
+<em class="property">class </em><code class="descclassname">relex.RelEx_NN.nn.simple_NN.</code><code class="descname">Simple_NN</code><span class="sig-paren">(</span><em>model, embedding=False, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.nn.simple_NN.Simple_NN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.RelEx_NN.nn.simple_NN.Simple_NN.cross_validate">
+<code class="descname">cross_validate</code><span class="sig-paren">(</span><em>num_folds=5</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.nn.simple_NN.Simple_NN.cross_validate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_folds</strong> – </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.nn.simple_NN.Simple_NN.define_OneHot_model">
+<code class="descname">define_OneHot_model</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.nn.simple_NN.Simple_NN.define_OneHot_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.nn.simple_NN.Simple_NN.define_model">
+<code class="descname">define_model</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.nn.simple_NN.Simple_NN.define_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.nn.simple_NN.Simple_NN.fit_Model">
+<code class="descname">fit_Model</code><span class="sig-paren">(</span><em>model</em>, <em>x_train</em>, <em>y_train</em>, <em>validation=None</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.nn.simple_NN.Simple_NN.fit_Model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>model</strong> – </li>
+<li><strong>x_train</strong> – </li>
+<li><strong>y_train</strong> – </li>
+<li><strong>validation</strong> – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
 </div>
-<div class="section" id="module-contents">
-<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-relex.RelEx_NN.nn">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.RelEx_NN.nn" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -67,8 +138,8 @@
   <ul>
 <li><a class="reference internal" href="#">relex.RelEx_NN.nn package</a><ul>
 <li><a class="reference internal" href="#submodules">Submodules</a></li>
-<li><a class="reference internal" href="#relex-relex-nn-nn-simple-nn-module">relex.RelEx_NN.nn.simple_NN module</a></li>
-<li><a class="reference internal" href="#module-contents">Module contents</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.nn.simple_NN">relex.RelEx_NN.nn.simple_NN module</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.nn">Module contents</a></li>
 </ul>
 </li>
 </ul>
