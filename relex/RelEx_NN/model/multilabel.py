@@ -17,13 +17,12 @@ from keras.losses import binary_crossentropy
 from keras.optimizers import Adam
 import numpy as np
 import evaluate
-
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
 cv = True
-analysis = True
-
-# embedding_path = "../../../word_embeddings/glove.6B.300d.txt"
-embedding_path = "../../../word_embeddings/mimic3_d300.txt"
+write_file=False
+embedding_path = "../../../../word_embeddings/glove.6B.200d.txt"
+#output_txt_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.txt"
+#output_csv_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.csv"
 
 def read_from_file(file):
     """
@@ -76,8 +75,29 @@ def prediction_to_label(prediction):
     tag_prob = [(labels[i], prob) for i, prob in enumerate(prediction.tolist())]
     return dict(sorted(tag_prob, key=lambda kv: kv[1], reverse=True))
 
+def output_to_file(true, pred, target):
+    """
+    Function to create .txt file and csv file of classification report
+    """
+    report = classification_report(true, pred, target_names=target)
+    report_dict = classification_report(true, pred, target_names=target, output_dict=True)
+    df_report = pd.DataFrame(report_dict).transpose()
+
+    #writes .txt file with results
+    txt_file = open(output_txt_path, 'a')
+    txt_file.write(report)
+    txt_file.close()
+
+    # writes csv file
+    csv_report = df_report.to_csv()
+    csv_file = open(output_csv_path, 'a')
+    csv_file.write(csv_report)
+    csv_file.close()
+
+
+
 embeddings_index = read_embeddings_from_file(embedding_path)
-embedding_dim = 300
+embedding_dim = 200
 maxlen = 100
 max_words = 5000
 
@@ -92,8 +112,8 @@ with open(embedding_path) as f:
         embeddings_index[word] = coefs
     f.close()
 
-train_data = read_from_file("../../../data/segments/sentence_train")
-train_labels = read_from_file("../../../data/segments/labels_train")
+train_data = read_from_file("../../../data/P_Te/sentence_train")
+train_labels = read_from_file("../../../data/P_Te/labels_train")
 # train_data = read_from_file("../../../data/sentence_train")
 # train_labels = read_from_file("../../../data/labels_train")
 
@@ -107,17 +127,21 @@ df_new.drop_duplicates(inplace=True)
 df_new.reset_index(inplace = True, drop=True)
 
 df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
+
 df.reset_index(inplace=True)
 df['label'] = df['label'].str.split(",")
 
+
+# df = Connection(True, False, None, "../data/P_Te/sentence_train", "../data/P_Te/labels_train" )
+
 multilabel_binarizer = MultiLabelBinarizer()
-multilabel_binarizer.fit(df.label)
+multilabel_binarizer.fit(df['label'])
 labels = multilabel_binarizer.classes_
 print(labels)
 num_classes = len(labels)
 tokenizer = Tokenizer(num_words=max_words, lower=True)
-tokenizer.fit_on_texts(df.sentence)
-X_data = get_features(df.sentence)
+tokenizer.fit_on_texts(df['sentence'])
+X_data = get_features(df['sentence'])
 word_index = tokenizer.word_index
 embedding_matrix = np.zeros((max_words, embedding_dim))
 for word, i in word_index.items():
@@ -126,7 +150,7 @@ for word, i in word_index.items():
         if embedding_vector is not None:
             # Words not found in embedding index will be all-zeros.
             embedding_matrix[i] = embedding_vector
-binary_Y = multilabel_binarizer.transform(df.label)
+binary_Y = multilabel_binarizer.transform(df['label'])
 
 if cv:
     #cross validation
@@ -136,17 +160,13 @@ if cv:
     fold = 1
     originalclass = []
     predictedclass = []
-    if analysis:
-        true_single=[]
-        true_multiple = []
-        pred_single=[]
-        pred_multiple =[]
 
     for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
 
         x_train, x_test = X_data[train_index], X_data[test_index]
         y_train, y_test = binary_Y[train_index], binary_Y[test_index]
-        print("Training Fold %i", fold)
+        print("Training Fold %i" % fold)
+        print(len(x_train), len(x_test))
         filter_length = 300
 
         model = Sequential()
@@ -158,7 +178,7 @@ if cv:
         model.add(Activation('sigmoid'))
 
         model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
-        history = model.fit(x_train, y_train, epochs=20, batch_size=64)
+        history = model.fit(x_train, y_train, epochs=20, batch_size=32)
 
         np_pred = np.array(model.predict(x_test))
         np_pred[np_pred < 0.5] = 0
@@ -166,37 +186,14 @@ if cv:
         np_pred = np_pred.astype(int)
         np_true = np.array(y_test)
 
-        if analysis:
-            np_true_single = np_true[np_true.sum(axis=1)==1]
-            np_true_multiple = np_true[np_true.sum(axis=1)!=1]
-            np_pred_single = np_pred[np_true.sum(axis=1)==1]
-            np_pred_multiple = np_pred[np_true.sum(axis=1)!=1]
-            true_single.extend(np_true_single)
-            true_multiple.extend(np_true_multiple)
-            pred_single.extend(np_pred_single)
-            pred_multiple.extend(np_pred_multiple)
-            print("--------------------- single labels only -----------------------------")
-            print(classification_report(np_true_single, np_pred_single, target_names=labels))
-            print(" --------------------- multiple labels only --------------------------")
-            print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
-            print("single count -- ",np.sum(np_pred_multiple.sum(axis=1)==1))
-            print("multiple count -- ",np.sum(np_pred_multiple.sum(axis=1)!=1))
-            print(np_pred_multiple.shape)
         originalclass.extend(np_true)
         predictedclass.extend(np_pred)
-        print("--------------------------- Results ------------------------------------")
         print(classification_report(np_true, np_pred,target_names=labels))
+        # print(classification_report(np_true, np_pred,target_names=labels))
         fold += 1
-
-    if analysis:
-        print("---------------- single labels only ------------------------------")
-        print(classification_report(np.array(true_single), np.array(pred_single),target_names=labels))
-        print("----------------- multiple labels only --------------------------")
-        print(classification_report(np.array(true_multiple), np.array(pred_multiple), target_names=labels))
-    print("--------------------- Results --------------------------------")
-    print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
-    print("single", np.sum(np.array(pred_multiple).sum(axis=1)==1))
-    print("multiple", np.sum(np.array(pred_multiple).sum(axis=1)!=1))
+    print(classification_report(np.array(originalclass), np.array(predictedclass),target_names=labels))
+    if write_file:
+        output_to_file(np_true, np_pred, labels)
 else:
     # train - test split
 
@@ -216,7 +213,7 @@ else:
 
     history = model.fit(x_train, y_train,
                         epochs=20,
-                        batch_size=64,
+                        batch_size=16,
                         validation_split=0.1)
     metrics = model.evaluate(x_test, y_test)
     print("{}: {}".format(model.metrics_names[0], metrics[0]))
@@ -228,17 +225,6 @@ else:
     np_pred = np_pred.astype(int)
     np_true = np.array(y_test)
 
-    if analysis:
-        np_true_single = np_true[np_true.sum(axis=1) == 1]
-        np_true_multiple = np_true[np_true.sum(axis=1) != 1]
-        np_pred_single = np_pred[np_true.sum(axis=1) == 1]
-        np_pred_multiple = np_pred[np_true.sum(axis=1) != 1]
-        print("--------------------- single labels only -----------------------------")
-        print(classification_report(np_true_single, np_pred_single, target_names=labels))
-        print(" --------------------- multiple labels only --------------------------")
-        print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
-        print(np_pred_multiple.sum(axis=1) == 1)
-        print("single count -- ", np.sum(np_pred_single.sum(axis=1) == 1))
-        print("multiple count -- ", np.sum(np_pred_multiple.sum(axis=1) == 1))
-    print("--------------------------- Results ------------------------------------")
     print(classification_report(np_true, np_pred, target_names=labels))
+    if write_file:
+        output_to_file(np_true, np_pred, labels)
