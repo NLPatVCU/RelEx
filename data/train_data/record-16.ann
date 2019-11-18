@@ -1,0 +1,253 @@
+T1	test 1856 1864	lvef>55%
+T2	test 3460 3466	plt ct
+T3	treatment 6146 6152	folate
+T4	problem 1261 1264	cad
+T5	test 5174 5194	an immediate head ct
+T6	test 3447 3450	rdw
+T7	treatment 6155 6164	lopressor
+T8	test 3511 3514	rbc
+T9	test 3501 3504	wbc
+T10	treatment 6108 6112	meds
+T11	problem 1919 1942	mild apical hypokinesis
+T12	problem 1868 1910	resting regional wall motion abnormalities
+T13	treatment 6137 6143	celexa
+T14	test 3536 3541	hct -
+T15	treatment 6127 6134	levoxyl
+T16	test 3549 3552	mcv
+T17	test 3524 3527	hgb
+T18	treatment 6084 6090	nexium
+T19	problem 1339 1342	asd
+T20	test 3581 3584	rdw
+T21	treatment 6101 6107	celexa
+T22	test 3558 3561	mch
+T23	treatment 6093 6098	lasix
+T24	test 3808 3810	pt
+T25	treatment 6047 6056	verapamil
+T26	test 3569 3573	mchc
+T27	test 3592 3598	plt ct
+T28	treatment 6072 6081	pravachol
+T29	treatment 6059 6069	lisinopril
+T30	test 4097 4102	creat
+T31	treatment 3317 3338	prior cardiac surgery
+T32	test 3367 3370	wbc
+T33	treatment 6029 6035	colace
+T34	test 3006 3009	cxr
+T35	problem 3054 3083	major adverse interval change
+T36	treatment 6038 6044	byetta
+T37	test 4111 4112	k
+T38	test 1619 1623	cnis
+T39	problem 1367 1370	nad
+T40	treatment 5999 6007	coumadin
+T41	test 4145 4152	glucose
+T42	treatment 5984 5988	meds
+T43	treatment 6010 6017	levoxyl
+T44	test 4171 4176	creat
+T45	treatment 6020 6026	folate
+T46	test 4158 4163	urean
+T47	problem 5701 5714	bilateral dvt
+T48	test 2360 2362	ct
+T49	problem 2374 2403	acute intracranial hemorrhage
+T50	treatment 5657 5665	coumadin
+T51	test 5673 5676	inr
+T52	problem 884 901	diabetes mellitus
+T53	treatment 1068 1080	appendectomy
+T54	test 4010 4015	creat
+T55	treatment 5406 5429	epicardial pacing wires
+T56	problem 5525 5547	change in neuro status
+T57	treatment 5630 5637	heparin
+T58	test 4050 4054	hco3
+T59	test 4024 4026	na
+T60	treatment 7558 7573	docusate sodium
+T61	problem 499 518	shortness of breath
+T62	treatment 7434 7453	metoprolol tartrate
+T63	problem 679 715	three vessel coronary artery disease
+T64	treatment 7326 7336	folic acid
+T65	problem 647 663	coronary disease
+T66	treatment 6200 6205	lasix
+T67	test 622 636	a cardiac cath
+T68	test 3753 3756	ptt
+T69	problem 586 594	elevated
+T70	treatment 4889 4898	extubated
+T71	test 521 532	initial ekg
+T72	problem 540 554	st depressions
+T73	test 7748 7751	inr
+T74	problem 486 494	vomiting
+T75	treatment 7682 7690	coumadin
+T76	test 561 576	cardiac enzymes
+T77	problem 1034 1061	chronic renal insufficiency
+T78	treatment 299 327	coronary artery bypass graft
+T79	problem 2153 2212	complex (> 4 mm ) atheroma in the descending thoracic aorta
+T80	treatment 6881 6891	citalopram
+T81	treatment 266 287	left carotid stenting
+T82	treatment 6772 6783	simvastatin
+T83	treatment 135 143	benadryl
+T84	treatment 7834 7842	tramadol
+T85	problem 8859 8877	signs of infection
+T86	treatment 7208 7221	ascorbic acid
+T87	problem 904 915	hypothyroid
+T88	problem 8848 8854	wounds
+T89	treatment 1108 1136	total abdominal hysterectomy
+T90	treatment 7092 7109	ferrous gluconate
+T91	treatment 8830 8837	surgery
+T92	treatment 6983 6994	clopidogrel
+T93	treatment 8702 8711	ointments
+T94	problem 8715 8724	incisions
+T95	problem 467 483	chest discomfort
+T96	treatment 8691 8698	lotions
+T97	problem 852 864	hypertension
+T98	problem 1235 1237	mi
+T99	test 4033 4036	k -
+T100	test 4060 4067	angap -
+T101	test 3766 3773	inr(pt)
+T102	treatment 8566 8594	total abdominal hysterectomy
+T103	test 4041 4043	cl
+T104	problem 8475 8489	b12 deficiency
+T105	test 4340 4367	usual pre-operative testing
+T106	test 3999 4004	urean
+T107	test 3986 3993	glucose
+T108	problem 8463 8472	gastritis
+T109	problem 8374 8391	diabetes mellitus
+T110	treatment 4612 4642	a coronary artery bypass graft
+T111	test 4769 4788	invasive monitoring
+T112	problem 8449 8460	sarcoidosis
+T113	problem 8252 8292	post-operative transient ischemic attack
+T114	treatment 4460 4481	left carotid stenting
+T115	problem 4414 4430	carotid stenosis
+T116	treatment 1087 1101	lap cholectomy
+T117	treatment 8219 8247	coronary artery bypass graft
+T118	problem 8191 8214	coronary artery disease
+T119	treatment 4714 4727	the procedure
+T120	problem 1418 1425	c/r/m/g
+T121	problem 1506 1518	varicosities
+T122	problem 8412 8429	bilateral dvt 's,
+T123	problem 1523 1528	edema
+T124	problem 867 881	hyperlipidemia
+T125	test 3390 3393	hgb
+T126	test 3415 3418	mcv
+T127	treatment 8545 8559	lap cholectomy
+T128	test 3402 3405	hct
+T129	treatment 8682 8688	creams
+T130	treatment 1589 1598	ekg leads
+T131	problem 1563 1581	some rashes on acw
+T132	problem 1635 1687	60-69% stenosis of the right internal carotid artery
+T133	test 3424 3427	mch
+T134	problem 8342 8354	hypertension
+T135	test 3435 3439	mchc
+T136	problem 8430 8446	pleural disorder
+T137	problem 1693 1744	80-99% stenosis of the left internal carotid artery
+T138	test 1747 1751	echo
+T139	treatment 8314 8335	left carotid stenting
+T140	problem 8293 8309	carotid stenosis
+T141	problem 5902 5915	complications
+T142	treatment 334 345	lima to lad
+T143	problem 2039 2059	aortic regurgitation
+T144	test 3377 3380	rbc
+T145	treatment 6167 6173	colace
+T146	problem 2112 2140	trivial mitral regurgitation
+T147	treatment 8526 8538	appendectomy
+T148	problem 2560 2568	stenosis
+T149	test 3699 3706	inr(pt)
+T150	test 2531 2543	ct angiogram
+T151	problem 2572 2612	aneurysm in the intracranial circulation
+T152	problem 2215 2243	mild tricuspid regurgitation
+T153	problem 2321 2331	trivial mr
+T154	problem 8492 8519	chronic renal insufficiency
+T155	problem 826 849	coronary artery disease
+T156	treatment 6238 6248	lisinopril
+T157	treatment 779 800	surgical intervention
+T158	problem 1461 1466	nt/nt
+T159	treatment 6276 6283	aspirin
+T160	treatment 944 968	chronic coumadin therapy
+T161	problem 922 938	bilateral dvt 's
+T162	problem 1005 1014	gastritis
+T163	treatment 6228 6235	lovenox
+T164	treatment 6216 6225	verapamil
+T165	problem 1017 1031	b12 deficiency
+T166	problem 991 1002	sarcoidosis
+T167	treatment 1302 1317	cardiac surgery
+T168	treatment 6176 6180	riss
+T169	treatment 348 357	svg to om
+T170	treatment 6189 6197	protonix
+T171	treatment 6208 6213	zocor
+T172	problem 1389 1392	jvd
+T173	problem 1441 1447	coarse
+T174	treatment 6659 6672	levothyroxine
+T175	problem 1397 1403	bruits
+T176	treatment 6461 6473	pantoprazole
+T177	test 1489 1501	pedal pulses
+T178	treatment 6183 6186	b12
+T179	test 3741 3743	pt
+T180	problem 5318 5326	deficits
+T181	treatment 4293 4323	coronary artery bypass surgery
+T182	test 5252 5254	ct
+T183	test 3674 3676	pt
+T184	test 4221 4226	angap
+T185	treatment 3242 3268	left-sided subclavian line
+T186	test 4211 4215	hco3
+T187	problem 5150 5157	aphasia
+T188	test 4202 4204	cl
+T189	test 3633 3639	plt ct
+T190	problem 5400 5403	tia
+T191	test 4194 4195	k
+T192	problem 5368 5375	episode
+T193	test 4185 4187	na
+T194	problem 3099 3133	bibasilar subsegmental atelectasis
+T195	treatment 4827 4835	sedation
+T196	test 2463 2466	mri
+T197	problem 2512 2528	acute infarction
+T198	treatment 4967 4976	diuretics
+T199	test 4400 4404	cnis
+T200	treatment 4949 4962	beta blockers
+T201	test 4379 4397	carotid ultrasound
+T202	treatment 4920 4931	chest tubes
+T203	test 3899 3904	creat
+T204	problem 199 215	chest discomfort
+T205	test 3949 3954	angap
+T206	problem 2431 2460	small vessel ischemic changes
+T207	treatment 2750 2795	the left common/internal carotid artery stent
+T208	problem 2615 2634	slight irregularity
+T209	problem 2686 2701	atherosclerotic
+T210	test 3939 3943	hco3
+T211	test 3888 3893	urean
+T212	problem 2924 2934	malignancy
+T213	problem 2860 2892	4 mm left upper lobe lung nodule
+T214	problem 8357 8371	hyperlipidemia
+T215	test 3686 3689	ptt
+T216	test 3833 3840	inr(pt)
+T217	test 3820 3823	ptt
+T218	problem 2798 2857	mild stenosis of the proximal right internal carotid artery
+T219	problem 8394 8405	hypothyroid
+T220	test 3922 3923	k
+T221	treatment 7965 7970	lasix
+T222	test 3913 3915	na
+T223	treatment 8083 8090	surgery
+T224	problem 3148 3175	bilateral pleural effusions
+T225	test 3875 3882	glucose
+T226	problem 972 988	pleural disorder
+T227	test 3930 3932	cl
+R1	PIP Arg1:T12 Arg2:T11
+R2	TeRP Arg1:T34 Arg2:T35
+R3	TeRP Arg1:T48 Arg2:T49
+R4	TrAP Arg1:T50 Arg2:T47
+R5	TeCP Arg1:T51 Arg2:T47
+R6	TrAP Arg1:T57 Arg2:T47
+R7	TeCP Arg1:T67 Arg2:T65
+R8	TeRP Arg1:T67 Arg2:T63
+R9	TeRP Arg1:T71 Arg2:T72
+R10	TeRP Arg1:T76 Arg2:T69
+R11	PIP Arg1:T88 Arg2:T85
+R12	TrNAP Arg1:T93 Arg2:T94
+R13	TrNAP Arg1:T96 Arg2:T94
+R14	TrAP Arg1:T114 Arg2:T115
+R15	TrAP Arg1:T117 Arg2:T118
+R16	TrNAP Arg1:T129 Arg2:T94
+R17	TrCP Arg1:T130 Arg2:T131
+R18	TrAP Arg1:T139 Arg2:T140
+R19	TeRP Arg1:T150 Arg2:T148
+R20	TeRP Arg1:T150 Arg2:T151
+R21	TrAP Arg1:T160 Arg2:T161
+R22	TrAP Arg1:T167 Arg2:T4
+R23	PIP Arg1:T192 Arg2:T190
+R24	TeCP Arg1:T196 Arg2:T197
+R25	TeRP Arg1:T199 Arg2:T115
+R26	PIP Arg1:T208 Arg2:T209

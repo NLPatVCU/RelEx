@@ -1,0 +1,60 @@
+688127038 EH
+47449520
+204512
+3/5/2002 12:00:00 AM
+TCA overdose
+DIS
+Admission Date :
+03/05/2002
+Report Status :
+Discharge Date :
+03/07/2002
+****** DISCHARGE ORDERS ******
+HULLEKOTE , AU 329-72-53-3 Z23
+Room :
+29Z-191
+Service :
+MED
+DISCHARGE PATIENT ON :
+03/07/02 AT 11:00 AM
+CONTINGENT UPON
+Not Applicable
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+UPHMADRE , CIOUSALE N. , M.D.
+CODE STATUS :
+Full code
+DISPOSITION :
+Rehabilitation
+DISCHARGE MEDICATIONS :
+FOLATE ( FOLIC ACID ) 1 MG PO QD ZANTAC ( RANITIDINE HCL ) 150 MG PO BID MVI THERAPEUTIC W / MINERALS ( THERAP VITS / MINERALS ) 1 TAB PO QD THIAMINE HCL 100 MG PO QD
+DIET :
+No Restrictions Activity - As tolerated
+FOLLOW UP APPOINTMENT ( S ) :
+Dr. Ee , patient to arrange , No Known Allergies
+ADMIT DIAGNOSIS :
+TCA overdose
+PRINCIPAL DISCHARGE DIAGNOSIS ; Responsible After Study for Causing Admission ) TCA overdose
+OTHER DIAGNOSIS ; Conditions , Infections , Complications , affecting Treatment / Stay depression ( depression )
+OPERATIONS AND PROCEDURES :
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+None
+BRIEF RESUME OF HOSPITAL COURSE :
+32 y / o woman with h / o anxiety and depression and prior suicide attempt presents with TCA and celexa overdose , tremulous / light-headed , felt better post charcoal .
+No EKG changes , marijuana in urine , HCO3 22 .
+Transferred to floor on day of admission with no acute medical issues ; awaiting psych eval .
+Not actively suicidal .
+3/7 -- repeat HCO3 24 and 26 without bicarb drip .
+EKG without changes .
+Patient felt well , tolerating POs .
+BEST team eval found bed at psych rehab facility .
+OF NOTE , Nortriptyline level came back as 43 ( SUBTHERAPEUTIC -- NORMAL 50-150 ) .
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+KOTEKEESECRANKBERF , LA A. , M.D. ( JG92 ) 03/07/02 10:56 AM
+****** END OF DISCHARGE ORDERS ******

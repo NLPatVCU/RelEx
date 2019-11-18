@@ -1,0 +1,92 @@
+T1	test 4128 4138	evaluation
+T2	treatment 462 473	amoxicillin
+T3	problem 3029 3037	her pain
+T4	test 2358 2364	nl ett
+T5	test 2542 2546	hida
+T6	problem 3182 3191	gastritis
+T7	problem 2338 2346	ischemia
+T8	treatment 3323 3344	roux en y anastamosis
+T9	treatment 1217 1234	clarithromycin po
+T10	test 3468 3470	ct
+T11	problem 3992 4000	vomiting
+T12	treatment 849 863	clarithromycin
+T13	treatment 1719 1768	wellbutrin sr ( bupropion hcl sustained release )
+T14	treatment 2022 2030	percocet
+T15	treatment 2609 2622	roux en y gbp
+T16	test 2918 2930	an outpt egd
+T17	problem 2837 2880	intermittent post-prandial nausea / satiety
+T18	test 3732 3746	outpatient mra
+T19	problem 3778 3796	post prandial pain
+T20	test 2421 2435	barium swallow
+T21	problem 4014 4039	increasing pain with food
+T22	treatment 4285 4300	the antibiotics
+T23	problem 4305 4314	h. pylori
+T24	problem 3965 3971	fevers
+T25	treatment 1828 1840	esomeprazole
+T26	problem 3194 3203	stricture
+T27	problem 3092 3104	fever/chills
+T28	treatment 898 909	simvastatin
+T29	test 2936 2938	gi
+T30	treatment 1635 1659	lamictal ( lamotrigine )
+T31	problem 2318 2321	cad
+T32	problem 52 61	gastritis
+T33	treatment 2414 2420	sl ntg
+T34	problem 2286 2302	high cholesterol
+T35	treatment 1409 1458	potassium chloride slow rel. ( kcl slow release )
+T36	problem 2385 2393	nd ische
+T37	treatment 966 985	hydrochlorothiazide
+T38	treatment 3910 3929	h. pylori treatment
+T39	problem 520 528	h.pylori
+T40	treatment 1558 1577	cozaar ( losartan )
+T41	treatment 2047 2057	lisinopril
+T42	test 2538 2541	mri
+T43	treatment 998 1019	zocor ( simvastatin )
+T44	problem 3983 3989	nausea
+T45	treatment 659 670	h.pylori tx
+T46	problem 2282 2285	htn
+T47	test 2448 2451	ugi
+T48	treatment 1276 1287	simvastatin
+T49	treatment 604 618	clarithromycin
+T50	problem 3234 3252	h. pylori positive
+T51	problem 2726 2735	this pain
+T52	problem 2667 2696	mod severe midepigastric pain
+T53	problem 2962 2970	the pain
+T54	test 3417 3426	hida scan
+T55	problem 3450 3461	obstruction
+T56	problem 2087 2096	gastritis
+T57	treatment 1880 1892	h. pylori tx
+T58	problem 3077 3089	brbpr/melena
+T59	test 4174 4177	mra
+T60	test 2347 2351	echo
+T61	problem 2177 2186	gastritis
+T62	treatment 833 844	simvastatin
+T63	treatment 1292 1306	clarithromycin
+T64	test 4182 4205	hida with cck challenge
+T65	test 3137 3140	egd
+T66	problem 3207 3212	ulcer
+T67	treatment 1357 1371	clarithromycin
+T68	problem 2274 2281	obesity
+T69	problem 3068 3074	emesis
+T70	test 2547 2549	ct
+T71	treatment 2322 2325	ett
+T72	problem 3107 3110	sob
+T73	treatment 2060 2068	atenolol
+T74	problem 4003 4011	diarrhea
+T75	treatment 2033 2044	iv contrast
+T76	test 3810 3832	hida with ck challenge
+T77	problem 3849 3867	biliary dyskinesia
+T78	treatment 1341 1352	simvastatin
+T79	treatment 3282 3299	empiric treatment
+T80	test 3547 3561	further workup
+T81	problem 3974 3980	chills
+T82	treatment 914 928	clarithromycin
+R1	TeCP Arg1:T16 Arg2:T17
+R2	TeCP Arg1:T18 Arg2:T19
+R3	TrAP Arg1:T22 Arg2:T23
+R4	TeCP Arg1:T29 Arg2:T17
+R5	TeCP Arg1:T54 Arg2:T55
+R6	TeCP Arg1:T65 Arg2:T26
+R7	TeCP Arg1:T65 Arg2:T66
+R8	TeCP Arg1:T65 Arg2:T6
+R9	TeCP Arg1:T76 Arg2:T77
+R10	TrAP Arg1:T79 Arg2:T50

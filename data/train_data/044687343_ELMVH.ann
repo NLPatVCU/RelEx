@@ -1,0 +1,139 @@
+T1	treatment 4245 4260	lisinopril pump
+T2	treatment 3303 3308	bipap
+T3	problem 3285 3289	copd
+T4	problem 3649 3652	nad
+T5	problem 3349 3356	fatigue
+T6	problem 3324 3344	generalized weakness
+T7	treatment 4565 4567	nc
+T8	test 3880 3883	ekg
+T9	problem 3898 3908	st changes
+T10	problem 4637 4645	symptoms
+T11	problem 4058 4074	diffusely wheezy
+T12	treatment 545 565	acetylsalicylic acid
+T13	test 2626 2633	pt eval
+T14	treatment 2250 2297	combivent ( ipratropium and albuterol sulfate )
+T15	treatment 1509 1534	standing pre-meal novolog
+T16	problem 3446 3460	these symptoms
+T17	treatment 1329 1375	duoneb ( albuterol and ipratropium nebulizer )
+T18	problem 1422 1441	shortness of breath
+T19	problem 1444 1452	wheezing
+T20	treatment 1590 1616	novolog ( insulin aspart )
+T21	problem 3745 3752	wheezes
+T22	test 1853 1855	bs
+T23	test 3618 3625	o2 sats
+T24	treatment 2481 2503	spiriva ( tiotropium )
+T25	problem 4684 4687	uti
+T26	test 3591 3593	hr
+T27	problem 4869 4879	copd flare
+T28	treatment 2313 2336	fosamax ( alendronate )
+T29	treatment 4381 4387	advair
+T30	problem 4185 4207	typical flare symptoms
+T31	problem 4614 4633	stress incontinence
+T32	problem 4651 4666	increased cough
+T33	problem 4937 4948	resp status
+T34	problem 2842 2852	copd flare
+T35	problem 3403 3430	increased sputum production
+T36	problem 5146 5163	sputum production
+T37	problem 2987 2989	dm
+T38	treatment 4239 4242	asa
+T39	problem 4230 4238	ischemia
+T40	treatment 4776 4780	iron
+T41	problem 4740 4768	chronic fe deficiency anemia
+T42	test 3911 3914	cxr
+T43	problem 3918 3937	focal consolidation
+T44	problem 3941 3946	edema
+T45	problem 4303 4308	flare
+T46	treatment 3559 3569	solumedrol
+T47	problem 4032 4055	still poor air movement
+T48	problem 4821 4829	afebrile
+T49	problem 3007 3056	iron deficiency anemia ( iron deficiency anemia )
+T50	test 3971 3974	abg
+T51	test 4605 4607	cr
+T52	treatment 2209 2234	protonix ( pantoprazole )
+T53	problem 4788 4790	dm
+T54	problem 2940 2986	copd ( chronic obstructive pulmonary disease )
+T55	test 4078 4082	exam
+T56	test 4835 4838	wbc
+T57	problem 3840 3854	focal deficits
+T58	problem 5127 5142	increased cough
+T59	problem 4145 4149	copd
+T60	problem 4156 4178	frequent exacerbations
+T61	treatment 4911 4914	ppi
+T62	treatment 4719 4732	bowel regimen
+T63	treatment 4371 4378	duonebs
+T64	problem 3088 3107	osa ( sleep apnea )
+T65	problem 3280 3282	dm
+T66	test 2061 2063	bs
+T67	treatment 3114 3126	tb treatment
+T68	problem 3476 3486	copd flare
+T69	test 2113 2115	bs
+T70	treatment 581 600	albuterol nebulizer
+T71	problem 645 664	shortness of breath
+T72	test 3986 3991	u / a
+T73	treatment 1149 1174	singulair ( montelukast )
+T74	problem 3384 3391	shaking
+T75	test 4492 4498	o2 sat
+T76	problem 3699 3728	poor air movement bilaterally
+T77	problem 3249 3257	weakness
+T78	treatment 1453 1479	novolog ( insulin aspart )
+T79	treatment 4390 4399	singulair
+T80	treatment 1192 1243	advair diskus 500/50 ( fluticasone propionate/... )
+T81	treatment 4311 4319	steroids
+T82	treatment 3293 3298	2l nc
+T83	treatment 1259 1271	caltrate + d
+T84	test 1905 1907	bs
+T85	test 1957 1959	bs
+T86	treatment 4421 4433	azithromycin
+T87	problem 4438 4457	atypical bronchitis
+T88	treatment 4852 4864	azithromycin
+T89	treatment 4097 4114	2l o2 requirement
+T90	problem 3949 3970	old biapical scarring
+T91	treatment 962 985	claritin ( loratadine )
+T92	treatment 4794 4801	insulin
+T93	treatment 4901 4908	lovenox
+T94	problem 2751 2761	copd flare
+T95	test 1795 1797	bs
+T96	treatment 1285 1312	lantus ( insulin glargine )
+T97	treatment 4412 4420	claritin
+T98	treatment 3549 3556	duonebs
+T99	problem 4298 4302	copd
+T100	test 2186 2188	bs
+T101	problem 3796 3801	edema
+T102	treatment 4327 4337	prednisone
+T103	test 2009 2011	bs
+T104	treatment 665 675	lisinopril
+T105	problem 5110 5123	worsening sob
+T106	problem 3359 3379	urinary incontinence
+T107	problem 2990 3002	cervical djd
+T108	treatment 4402 4409	spiriva
+T109	problem 3756 3761	rales
+T110	problem 4276 4283	failure
+T111	problem 55 65	copd flare
+T112	treatment 4807 4815	steroids
+T113	treatment 717 736	prednisone taper po
+T114	treatment 1718 1743	standing pre-meal novolog
+T115	problem 3057 3080	cervical and lumbar djd
+T116	treatment 4507 4526	home nocturnal cpap
+T117	treatment 691 702	niferex-150
+R1	TrAP Arg1:T2 Arg2:T3
+R2	PIP Arg1:T5 Arg2:T6
+R3	TeCP Arg1:T8 Arg2:T9
+R4	TrAP Arg1:T17 Arg2:T18
+R5	TrAP Arg1:T17 Arg2:T19
+R6	PIP Arg1:T31 Arg2:T10
+R7	PIP Arg1:T31 Arg2:T32
+R8	TrAP Arg1:T38 Arg2:T39
+R9	TrAP Arg1:T40 Arg2:T41
+R10	TeCP Arg1:T42 Arg2:T43
+R11	TeRP Arg1:T42 Arg2:T44
+R12	TeRP Arg1:T55 Arg2:T11
+R13	PIP Arg1:T59 Arg2:T60
+R14	PIP Arg1:T59 Arg2:T30
+R15	PIP Arg1:T68 Arg2:T16
+R16	TrAP Arg1:T70 Arg2:T71
+R17	TrAP Arg1:T81 Arg2:T45
+R18	TrAP Arg1:T82 Arg2:T3
+R19	TrAP Arg1:T86 Arg2:T87
+R20	TrAP Arg1:T88 Arg2:T27
+R21	TrAP Arg1:T92 Arg2:T53
+R22	TrAP Arg1:T112 Arg2:T53

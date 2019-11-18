@@ -1,0 +1,178 @@
+T1	treatment 3131 3153	a bid protonix regimen
+T2	treatment 1285 1291	fluids
+T3	problem 3277 3297	her guiac pos stools
+T4	treatment 4092 4110	tiotropium bromide
+T5	treatment 2796 2814	po steroid regimen
+T6	treatment 4910 4916	oxygen
+T7	problem 3042 3064	gross blood per rectum
+T8	problem 1053 1061	afebrile
+T9	problem 4470 4478	wheezing
+T10	problem 2677 2700	irritation of gi system
+T11	test 2303 2325	stool for c.diff toxin
+T12	treatment 865 875	metoprolol
+T13	treatment 2358 2375	her bowel regimen
+T14	problem 2611 2616	viral
+T15	problem 2067 2084	copd exacerbation
+T16	problem 372 384	asymptomatic
+T17	treatment 927 932	lasix
+T18	problem 940 961	recurrent hypokalemia
+T19	treatment 2169 2184	take po liquids
+T20	problem 2196 2212	volume depletion
+T21	problem 5999 6022	failure of these stents
+T22	problem 2257 2269	loose stools
+T23	treatment 1926 1946	further bp titration
+T24	problem 713 725	loose stools
+T25	treatment 1642 1652	bp control
+T26	problem 1691 1711	her coronary disease
+T27	treatment 988 993	imdur
+T28	treatment 5971 5977	plavix
+T29	treatment 3767 3776	oxycodone
+T30	problem 3851 3855	pain
+T31	treatment 1448 1459	her bp meds
+T32	treatment 1531 1543	the bblocker
+T33	test 289 297	pt 's bp
+T34	treatment 185 202	iodine containing
+T35	problem 2977 2985	vomiting
+T36	problem 2428 2436	vomiting
+T37	problem 1119 1133	02 requirement
+T38	treatment 347 361	her am bp meds
+T39	problem 2990 3006	only mild nausea
+T40	treatment 3525 3537	pantoprazole
+T41	treatment 1808 1820	this regimen
+T42	test 1744 1749	sbp s
+T43	problem 2736 2751	guiac pos stool
+T44	test 1427 1435	her hcts
+T45	treatment 5173 5181	nystatin
+T46	treatment 5273 5280	aspirin
+T47	problem 1017 1023	sepsis
+T48	problem 1142 1172	the patient 's recent rp bleed
+T49	problem 1197 1214	a recurrent bleed
+T50	test 4958 4962	sats
+T51	treatment 4344 4361	albuterol sulfate
+T52	problem 4447 4466	shortness of breath
+T53	treatment 2719 2730	a brat diet
+T54	problem 1513 1523	her low bp
+T55	treatment 965 972	benicar
+T56	problem 637 652	the hypotension
+T57	problem 671 687	volume depletion
+T58	problem 698 710	her diarrhea
+T59	problem 741 760	decreased po intake
+T60	problem 774 782	her gerd
+T61	problem 787 793	thrush
+T62	problem 1465 1481	volume depletion
+T63	problem 5768 5770	cp
+T64	problem 5584 5605	retroperitoneal bleed
+T65	treatment 555 557	ns
+T66	problem 469 480	hypotension
+T67	treatment 5046 5066	metoprolol succinate
+T68	treatment 3994 4005	fluticasone
+T69	treatment 4520 4550	aluminum - magnesium hydroxide
+T70	problem 2633 2661	resolving abdominal hematoma
+T71	test 3303 3312	endoscopy
+T72	treatment 2829 2839	her stents
+T73	treatment 1586 1609	low dose spironolactone
+T74	problem 5779 5788	dizzyness
+T75	test 3069 3076	her hct
+T76	treatment 4977 4991	spironolactone
+T77	treatment 2049 2062	po prednisone
+T78	problem 1987 1993	thrush
+T79	problem 2218 2226	diarrhea
+T80	problem 5565 5580	demand ischemia
+T81	treatment 1728 1738	these meds
+T82	treatment 5954 5966	your aspirin
+T83	test 1347 1358	repeat hcts
+T84	problem 5773 5776	sob
+T85	problem 5794 5812	any other symptoms
+T86	treatment 4623 4628	senna
+T87	problem 2854 2879	her guiac positive stools
+T88	problem 2894 2903	gastritis
+T89	problem 2906 2919	gastric ulcer
+T90	problem 2935 2953	lower gi pathology
+T91	test 601 606	sbp s
+T92	problem 2287 2296	guiac pos
+T93	problem 5534 5559	rapid atrial fibrillation
+T94	problem 2446 2456	occ nausea
+T95	treatment 4235 4246	clopidogrel
+T96	treatment 4707 4717	prednisone
+T97	treatment 2462 2466	meds
+T98	treatment 1613 1633	a k sparing diuretic
+T99	problem 2781 2785	gerd
+T100	test 2508 2511	axr
+T101	problem 2493 2504	obstruction
+T102	problem 2385 2400	gastroenteritis
+T103	treatment 4926 4928	02
+T104	problem 2574 2586	liquid stool
+T105	treatment 147 158	penicillins
+T106	test 1269 1272	hct
+T107	treatment 161 172	macrodantin
+T108	problem 1005 1014	infection
+T109	treatment 2024 2044	her steroid inhalers
+T110	treatment 885 889	hctz
+T111	test 3324 3343	h.pylori serologies
+T112	treatment 3453 3465	atorvastatin
+T113	problem 2539 2556	her mild diarrhea
+T114	problem 2559 2571	few loose bm
+T115	treatment 835 859	aggressive bp management
+T116	treatment 3012 3023	medications
+T117	treatment 2106 2114	nystatin
+T118	treatment 892 904	triampterene
+T119	test 1105 1114	lung exam
+T120	problem 1073 1086	localizing sx
+T121	treatment 6069 6084	all medications
+T122	test 1248 1255	her hct
+T123	treatment 483 508	the patient 'd pm bp meds
+T124	treatment 1309 1311	ns
+T125	test 1951 1981	monitoring of her electrolytes
+T126	test 3316 3319	egd
+T127	treatment 3648 3661	acetaminophen
+T128	treatment 3899 3910	fluticasone
+T129	test 1217 1231	her groin exam
+T130	treatment 175 182	ivp dye
+T131	treatment 1668 1677	toprol xl
+T132	treatment 2821 2824	asa
+T133	treatment 122 142	sulfa ( sulfonamides
+T134	treatment 5893 5908	a cardiac stent
+T135	treatment 6266 6278	your staples
+R1	TrNAP Arg1:T17 Arg2:T18
+R2	TrAP Arg1:T19 Arg2:T20
+R3	TrAP Arg1:T25 Arg2:T26
+R4	TrAP Arg1:T28 Arg2:T21
+R5	TrAP Arg1:T29 Arg2:T30
+R6	PIP Arg1:T48 Arg2:T49
+R7	TrAP Arg1:T51 Arg2:T9
+R8	TrAP Arg1:T51 Arg2:T52
+R9	PIP Arg1:T56 Arg2:T57
+R10	PIP Arg1:T56 Arg2:T58
+R11	PIP Arg1:T56 Arg2:T24
+R12	PIP Arg1:T56 Arg2:T59
+R13	PIP Arg1:T57 Arg2:T58
+R14	PIP Arg1:T57 Arg2:T24
+R15	PIP Arg1:T57 Arg2:T59
+R16	PIP Arg1:T59 Arg2:T60
+R17	PIP Arg1:T59 Arg2:T61
+R18	PIP Arg1:T62 Arg2:T54
+R19	TrAP Arg1:T65 Arg2:T66
+R20	PIP Arg1:T70 Arg2:T10
+R21	TeCP Arg1:T71 Arg2:T3
+R22	TrCP Arg1:T77 Arg2:T78
+R23	TrAP Arg1:T77 Arg2:T15
+R24	PIP Arg1:T79 Arg2:T22
+R25	TrAP Arg1:T82 Arg2:T21
+R26	PIP Arg1:T87 Arg2:T88
+R27	PIP Arg1:T87 Arg2:T89
+R28	PIP Arg1:T87 Arg2:T90
+R29	PIP Arg1:T93 Arg2:T80
+R30	TrCP Arg1:T97 Arg2:T94
+R31	TeRP Arg1:T100 Arg2:T101
+R32	TrCP Arg1:T109 Arg2:T78
+R33	TrAP Arg1:T109 Arg2:T15
+R34	TeCP Arg1:T111 Arg2:T3
+R35	PIP Arg1:T113 Arg2:T14
+R36	PIP Arg1:T113 Arg2:T70
+R37	PIP Arg1:T113 Arg2:T10
+R38	PIP Arg1:T113 Arg2:T114
+R39	PIP Arg1:T113 Arg2:T104
+R40	TrCP Arg1:T116 Arg2:T39
+R41	TrNAP Arg1:T123 Arg2:T66
+R42	TeCP Arg1:T126 Arg2:T3
+R43	TrAP Arg1:T131 Arg2:T26

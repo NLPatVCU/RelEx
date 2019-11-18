@@ -1,0 +1,49 @@
+188543380
+NVH
+24217709
+06/07/2000 12:00:00 AM
+CHRONIC MYELOGENOUS LEUKEMIA
+Signed
+DIS
+Admission Date :
+06/07/2000
+Report Status :
+Signed
+Discharge Date :
+07/02/2000
+PRINCIPAL DIAGNOSIS :
+CML .
+OTHER DIAGNOSES :
+1. STATUS POST BONE MARROW TRANSPLANT .
+2. INTRAPARENCHYMAL BLEED .
+HISTORY OF PRESENT ILLNESS :
+Mr. Larsen was a 50-year-old salesman who in 12/26 was noted to have an elevated platelet count of 778,000 .
+He was found to have CML .
+He was admitted on 06/07/00 for a matched , unrelated donor bone marrow transplant .
+PHYSICAL EXAMINATION :
+Unremarkable .
+LABORATORY DATA :
+White blood cell count of 24.409 and platelets of 956,000 .
+HOSPITAL COURSE :
+The patient received his bone marrow transplant on 06/12/00 .
+His course was then complicated by fevers and neutropenia which were treated with antibiotics and a diffuse erythroderm felt to be a drug reaction .
+On 06/24/00 the patient was found to have pulmonary infiltrates and some hemoptysis .
+A bronchoscopy was done and there was blood found in the upper airways but no evidence of blood in alveoli so it was not felt to be DAH .
+On 06/26/00 due to agitation , change in mental status and increased respiratory distress , the patient was intubated .
+It was felt at that time that the changing mental status and respiratory distress might be due to a combination of medication and worsening mucositis .
+Although the patient &apos;s pain and sedation meds were adjusted he continued to be agitated and there was difficulty weaning him off the vent .
+Because of this continued agitation , a head CT was performed on 07/01/00 and it revealed an intraparenchymal hemorrhage .
+Neurosurgery was consulted but due to the severity of the bleed surgery was not considered an option .
+The patient gradually lost brain systolic ejection murmur function and was pronounced dead on 07/02/00 .
+Dictated By :
+LAYMIE LARSEN , M.D. EM08
+Attending :
+ANA V. A , M.D. ZM0 LB414/6537
+Batch :
+67043
+Index No.
+EZCDQ560N8
+D :
+07/19/00
+T :
+07/20/00

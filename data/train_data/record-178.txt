@@ -1,0 +1,97 @@
+Admission Date :
+2012-04-30
+Discharge Date :
+2012-05-14
+Date of Birth :
+1956-11-04
+Sex :
+M
+Service :
+O-CMED CCU
+HISTORY OF PRESENT ILLNESS :
+The patient is a 55 - year-old male with recently diagnosed abdominal carcinomatosis .
+The patient presented with abdominal pain and bloating and was found to have a large omental mass .
+Biopsy revealed adenocarcinoma .
+Histochemical stains are consistent with hepatobiliary origin .
+Endoscopies were negative except for an extrinsic mass present on the stomach .
+The patient presents with increased abdominal pain and poor oral intake as well as generalized weakness .
+On presentation , the patient denied chest pain , shortness of breath , and cough .
+PAST MEDICAL HISTORY :
+1. Benign prostatic hypertrophy .
+2. Osteoarthritis .
+3. Gastrointestinal adenocarcinoma ( as noted in History of Present Illness ) .
+MEDICATIONS ON ADMISSION :
+Colace , Senna , Dulcolax , Tylenol , oxycodone as needed , Ambien , and Protonix .
+ALLERGIES :
+No known drug allergies .
+FAMILY HISTORY :
+Mother had adrenal cancer .
+Father had coronary artery disease .
+SOCIAL HISTORY :
+The patient was employed as a salesman .
+He denied the use of tobacco and drugs .
+He uses alcohol occasionally .
+The patient is married with two children .
+REVIEW OF SYSTEMS :
+Review of systems was significant for progressive abdominal discomfort , decreased oral intake , and weakness in the past nine weeks .
+PHYSICAL EXAMINATION ON PRESENTATION :
+Physical examination revealed temperature was 96.9 , heart rate was 121 , blood pressure was 122/86 , respiratory rate was 22 , and oxygen saturation was 96% on room air .
+In general , the patient looked acutely and chronically ill .
+Head , eyes , ears , nose , and throat examination revealed the oropharynx was clear .
+Sclerae were anicteric .
+Mucous membranes were moist .
+Cardiovascular examination revealed tachycardic first heart sound and second heart sound .
+No murmurs , rubs , or gallops .
+Lungs revealed decreased breath sounds and dullness to percussion in the left lung base .
+The abdomen was distended and firm .
+Positive bowel sounds .
+Extremity examination revealed no clubbing , cyanosis , or edema .
+IMPRESSION :
+This was a 55 - year-old gentleman with recently diagnosed abdominal carcinomatosis admitted with increased abdominal pain and poor oral intake .
+The patient was admitted to the O-CMED Service for further management .
+HOSPITAL COURSE :
+The patient was admitted to the O-CMED
+Service .
+He was placed on a patient-controlled analgesia for pain control .
+He was administered intravenous fluids and oral diet as tolerated .
+On the night of 05-01 , the patient complained of increased vomiting .
+He also complained of increased shortness of breath and " difficulty catching his breath ."
+On room air , the patient 's oxygen saturation was 80% .
+His saturation increased to 87% on a nonrebreather .
+A chest x-ray disclosed a left pleural effusion .
+The patient was bolused with intravenous heparin due to concern for pulmonary embolism .
+The patient expressed a desire to be full code , so he was transferred to the Intensive Care Unit .
+The patient became more comfortable being seated upright with nebulizer treatments .
+An angiogram was done which disclosed possible subsegmental pulmonary emboli of the upper lobes as well as infiltrates consistent with aspiration pneumonia .
+The patient was placed on Flagyl and Levaquin for treatment of pneumonia .
+He was continued on heparin for treatment of the pulmonary emboli .
+While in the Intensive Care Unit , the patient was noted to have increasing abdominal distention .
+On 05-03 the patient underwent an abdominal ultrasound with paracentesis , and 5 liters of fluid were removed .
+On 05-04 , the patient was transferred back to the O-CMED CSRU
+Service .
+Due to persistent gastric secretions , an nasogastric tube was placed for decompression .
+The patient was noted to have a functional ileus .
+Octreotide was initiated in an attempt to decrease the gastric secretions .
+On 05-13 , the patient 's respiratory status declined further .
+He was noted not have an increasing left-sided pleural effusion .
+A thoracentesis was done with removal of 1.5 liters of fluid .
+A paracentesis was repeated with removal of 2.5 liters of fluid .
+On the night of 05-13 , the patient continued to decline .
+The family decided to pursue comfort measures .
+Morphine was administered to insure patient 's comfort .
+The patient expired at 6 p.m. on 05-14 .
+FINAL DISCHARGE DIAGNOSES :
+1. Gastrointestinal adenocarcinoma ; primary unknown ( likely hepatobiliary ) .
+2. Aspiration pneumonia .
+3. Pulmonary emboli .
+4. Hypoxia .
+5. Dehydration .
+6. Ileus .
+Pearl Y. Simmons , M.D. 68-957
+Dictated By : Lynn J Crump , M.D.
+MEDQUIST36
+D : 2012-05-14 19:24
+T : 2012-05-19 05:00
+JOB # : 79196
+Signed electronically by : DR. Catherine GOLDSTEIN on : Andrea 2012-06-07 8:18 AM
+( End of Report )

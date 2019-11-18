@@ -1,0 +1,326 @@
+T1	treatment 10101 10110	clonidine
+T2	problem 5195 5210	demand ischemia
+T3	problem 5225 5245	hypertensive urgency
+T4	treatment 8084 8092	dialysis
+T5	treatment 4908 4912	meds
+T6	test 4257 4270	physical exam
+T7	problem 4919 4931	hypertension
+T8	treatment 6045 6057	hemodialysis
+T9	treatment 9992 10001	clonidine
+T10	treatment 6611 6623	hemodialysis
+T11	problem 3982 3986	esrd
+T12	problem 11670 11694	other worrisome symptoms
+T13	treatment 8769 8781	hemodialysis
+T14	problem 4815 4835	hypertensive urgency
+T15	problem 4791 4810	specific complaints
+T16	treatment 11403 11413	vancomycin
+T17	problem 11446 11465	your line infection
+T18	treatment 8182 8206	interventional radiology
+T19	problem 3723 3733	foot ulcer
+T20	problem 8422 8432	difficulty
+T21	problem 4687 4693	rashes
+T22	treatment 11518 11529	antibiotics
+T23	problem 4081 4089	diabetes
+T24	problem 4360 4369	anicteric
+T25	treatment 7142 7165	current insulin regimen
+T26	treatment 8959 8967	dialysis
+T27	problem 7034 7046	hypoglycemia
+T28	treatment 6946 6959	sliding scale
+T29	problem 6934 6937	dmi
+T30	test 1969 1973	exam
+T31	treatment 11429 11441	hemodialysis
+T32	treatment 9929 9937	dilaudid
+T33	test 4147 4153	vitals
+T34	problem 4120 4128	diabetes
+T35	problem 7642 7644	dm
+T36	test 8047 8068	surveillance cultures
+T37	test 2398 2412	blood cultures
+T38	problem 2477 2496	abscess at the site
+T39	treatment 8129 8162	presumptively replacement of port
+T40	problem 2366 2395	localizing signs of infection
+T41	problem 7548 7552	esrd
+T42	problem 2266 2277	hypotension
+T43	test 2300 2315	cardiac enzymes
+T44	treatment 8256 8271	calcium acetate
+T45	problem 7448 7463	demand ischemia
+T46	problem 7478 7507	original hypertensive urgency
+T47	problem 7513 7541	persistent elevation of trop
+T48	treatment 2170 2190	a 500 cc fluid bolus
+T49	treatment 8496 8507	heparin gtt
+T50	problem 8442 8462	subtherapeuticon inr
+T51	problem 1677 1692	critically high
+T52	treatment 7980 7988	dialysis
+T53	test 1580 1586	sugars
+T54	problem 7925 7948	his port line infection
+T55	treatment 8405 8413	dialysis
+T56	problem 2064 2078	other symptoms
+T57	problem 4638 4659	left arm with fistula
+T58	problem 8368 8377	infection
+T59	treatment 8007 8017	vancomycin
+T60	treatment 8300 8310	av fistula
+T61	test 7964 7970	levels
+T62	problem 1835 1857	somewhat uncomfortable
+T63	problem 1870 1876	nausea
+T64	problem 1881 1895	abdominal pain
+T65	treatment 7693 7701	dialysis
+T66	problem 7613 7617	esrd
+T67	problem 7649 7652	htn
+T68	problem 7710 7720	difficulty
+T69	test 8653 8661	goal inr
+T70	treatment 7575 7582	aspirin
+T71	treatment 7669 7671	hd
+T72	treatment 8755 8765	vancomycin
+T73	problem 8786 8809	his port line infection
+T74	treatment 7781 7806	current dialysis schedule
+T75	treatment 8510 8518	coumadin
+T76	test 2122 2125	sbp
+T77	problem 2107 2118	hypotensive
+T78	treatment 7856 7866	vancomycin
+T79	treatment 8621 8629	coumadin
+T80	treatment 8537 8549	port removal
+T81	treatment 2132 2141	labetalol
+T82	treatment 9195 9210	calcium acetate
+T83	test 7315 7324	troponins
+T84	problem 5778 5794	+ blood cultures
+T85	treatment 9162 9181	metoprolol tartrate
+T86	test 7353 7355	ck
+T87	treatment 9234 9241	anzemet
+T88	test 7049 7053	fsbs
+T89	treatment 7585 7595	metoprolol
+T90	treatment 8891 8899	his port
+T91	problem 6666 6680	abdominal pain
+T92	treatment 9135 9149	metoclopramide
+T93	test 8928 8953	his surveillance cultures
+T94	treatment 7598 7608	nifedipine
+T95	problem 918 922	pain
+T96	treatment 9337 9348	insulin nph
+T97	treatment 5463 5480	antihypertensives
+T98	problem 463 467	esrd
+T99	treatment 9384 9393	clonidine
+T100	test 5391 5400	his sbp s
+T101	treatment 471 473	hd
+T102	problem 7282 7285	sob
+T103	test 5255 5257	mb
+T104	problem 7277 7279	cp
+T105	problem 889 900	diaphoretic
+T106	treatment 9440 9449	clonidine
+T107	treatment 9464 9480	prochlorperazine
+T108	treatment 9254 9270	prochlorperazine
+T109	problem 243 251	vomiting
+T110	problem 7261 7264	cad
+T111	test 5248 5250	ck
+T112	treatment 7216 7219	nph
+T113	problem 5313 5339	pt 's hypertensive urgency
+T114	treatment 9288 9294	ativan
+T115	problem 5150 5181	carduac enzymes mildly elevated
+T116	test 7360 7362	mb
+T117	treatment 9311 9319	dilaudid
+T118	problem 447 460	gastroparesis
+T119	problem 5046 5069	active end organ damage
+T120	treatment 9556 9564	protonix
+T121	treatment 323 337	picc placement
+T122	treatment 6984 6987	nph
+T123	treatment 5092 5105	labetalol gtt
+T124	problem 5007 5028	autonomic dysfunction
+T125	problem 232 238	nausea
+T126	treatment 9598 9612	metoclopramide
+T127	problem 429 438	type i dm
+T128	treatment 9678 9697	metoprolol tartrate
+T129	treatment 6815 6821	reglan
+T130	problem 6752 6765	gastroparesis
+T131	problem 4980 4983	n/v
+T132	problem 4943 4965	inability to take meds
+T133	treatment 9493 9501	coumadin
+T134	problem 4594 4620	multiple well healed scars
+T135	treatment 6842 6849	po meds
+T136	treatment 9516 9526	nifedipine
+T137	treatment 9542 9551	bisacodyl
+T138	treatment 6918 6929	oral reglan
+T139	treatment 1009 1017	dilaudid
+T140	treatment 346 358	picc removal
+T141	problem 5863 5875	endocarditis
+T142	treatment 992 998	ativan
+T143	problem 5889 5904	stigmata of sbe
+T144	test 5817 5820	tte
+T145	treatment 966 972	ativan
+T146	treatment 297 314	port line removal
+T147	test 2427 2439	a ultrasound
+T148	treatment 1143 1156	labetolol gtt
+T149	treatment 5945 5960	removal of port
+T150	problem 1538 1550	hypoglycemia
+T151	problem 6716 6734	similar complaints
+T152	problem 6661 6665	n/v/
+T153	problem 1492 1511	labile blood sugars
+T154	treatment 6031 6041	vancomycin
+T155	problem 3741 3745	clot
+T156	treatment 1047 1058	hydralazine
+T157	treatment 6804 6812	dilaudid
+T158	treatment 8343 8353	av fistula
+T159	problem 8325 8339	numerous clots
+T160	treatment 6103 6109	a picc
+T161	treatment 3749 3757	av graft
+T162	treatment 1020 1029	labetolol
+T163	treatment 5522 5546	clonidine patch and oral
+T164	test 1393 1395	bp
+T165	treatment 5549 5559	nifedipine
+T166	treatment 6795 6801	ativan
+T167	treatment 1241 1254	labetolol gtt
+T168	treatment 1118 1123	2l ns
+T169	treatment 5502 5512	metoprolol
+T170	problem 152 167	known allergies
+T171	test 1161 1163	bp
+T172	problem 5631 5641	bacteremia
+T173	test 6518 6535	port tip cultures
+T174	treatment 5709 5713	port
+T175	problem 1463 1469	nausea
+T176	problem 803 813	somnolence
+T177	problem 1414 1428	abdominal pain
+T178	problem 5664 5678	coag neg staph
+T179	test 738 740	rr
+T180	problem 3034 3045	disoriented
+T181	test 729 730	t
+T182	test 1654 1660	his fs
+T183	test 6573 6601	futher surveillance cultures
+T184	test 2984 2999	his blood sugar
+T185	problem 1472 1480	vomiting
+T186	treatment 2855 2880	pain and anti-nausea meds
+T187	problem 2829 2838	somnolent
+T188	test 720 722	hr
+T189	problem 1978 1988	sleepiness
+T190	test 3229 3250	surveillance cultures
+T191	problem 694 706	hypertensive
+T192	problem 659 673	abdominal pain
+T193	treatment 3268 3278	vancomycin
+T194	problem 3188 3213	gpc in pairs and clusters
+T195	treatment 171 176	drugs
+T196	test 2572 2590	his blood pressure
+T197	problem 2006 2009	sob
+T198	treatment 6196 6200	port
+T199	treatment 11924 11933	your port
+T200	problem 648 656	vomiting
+T201	treatment 6263 6267	port
+T202	problem 2001 2003	cp
+T203	treatment 2642 2673	his home blood pressure regimen
+T204	test 6492 6513	surveillance cultures
+T205	problem 2545 2556	hypotension
+T206	problem 2012 2014	ha
+T207	problem 629 645	his usual nausea
+T208	problem 441 444	htn
+T209	problem 2034 2048	neck stiffness
+T210	treatment 2511 2531	a partial hd session
+T211	problem 2051 2058	dysuria
+T212	problem 3536 3549	gastroparesis
+T213	problem 6335 6355	diabetic gastropathy
+T214	problem 6461 6481	hypertensive urgency
+T215	problem 3511 3533	hypertensive emergency
+T216	problem 6364 6417	inability to toleral oral antihypertensive medication
+T217	problem 2017 2031	vision changes
+T218	test 2195 2213	his blood pressure
+T219	problem 11611 11617	naseau
+T220	problem 11645 11664	shortness of breath
+T221	test 2222 2225	sbp
+T222	problem 11620 11629	vomitting
+T223	problem 3556 3579	orthostatic hypotension
+T224	problem 3374 3381	dm type
+T225	problem 534 554	hypertensive urgency
+T226	treatment 11331 11347	your medications
+T227	problem 3637 3653	1-vessel disease
+T228	problem 3628 3631	cad
+T229	problem 3656 3671	50% stenosis d1
+T230	test 3150 3164	blood cultures
+T231	test 11533 11552	your blood cultures
+T232	treatment 11482 11491	your port
+T233	problem 4200 4206	sleepy
+T234	test 3219 3224	a tte
+T235	problem 11165 11175	bacteremia
+T236	problem 11583 11599	recurrent fevers
+T237	problem 6335 6355	diabetic gastropathy
+T238	problem 11602 11608	chills
+T239	problem 4287 4316	left pupil smaller than right
+T240	problem 534 554	hypertensive urgency
+T241	problem 3387 3391	esrd
+T242	treatment 10768 10775	aspirin
+T243	problem 4372 4378	mm dry
+T244	problem 4384 4394	op lesions
+T245	treatment 10832 10839	humalog
+T246	treatment 3395 3407	hemodialysis
+T247	problem 11182 11201	port line infection
+T248	treatment 10985 11009	insulin nph human recomb
+T249	problem 4414 4417	jvd
+T250	problem 4442 4469	2/6 systolic murmur at lusb
+T251	problem 10554 10566	constipation
+T252	problem 3991 3999	diabetes
+T253	treatment 10573 10595	vancomycin in dextrose
+T254	problem 4521 4529	erythema
+T255	treatment 10658 10670	hemodialysis
+T256	problem 4036 4048	hypertension
+T257	treatment 4496 4503	hd line
+T258	problem 818 832	lack of desire
+T259	treatment 10239 10249	nifedipine
+T260	problem 4543 4545	nd
+T261	treatment 10346 10358	pantoprazole
+T262	treatment 10481 10490	bisacodyl
+T263	treatment 10937 10950	sliding scale
+T264	problem 11632 11642	chest pain
+T265	problem 4548 4557	nontender
+T266	problem 3447 3475	severe autonomic dysfunction
+T267	problem 4570 4578	guarding
+T268	treatment 9765 9780	calcium acetate
+T269	treatment 9871 9877	ativan
+T270	problem 3596 3614	esophageal erosion
+T271	problem 4584 4591	rebound
+T272	treatment 2443 2456	the l arm avf
+T273	problem 3617 3624	mw tear
+T274	problem 4630 4635	c/c/e
+T275	treatment 3131 3134	nph
+T276	treatment 10177 10185	warfarin
+R1	PIP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T16 Arg2:T17
+R3	TrAP Arg1:T28 Arg2:T29
+R4	TeCP Arg1:T37 Arg2:T38
+R5	PIP Arg1:T45 Arg2:T46
+R6	PIP Arg1:T45 Arg2:T47
+R7	PIP Arg1:T46 Arg2:T47
+R8	TrAP Arg1:T49 Arg2:T50
+R9	TrCP Arg1:T55 Arg2:T20
+R10	PIP Arg1:T62 Arg2:T63
+R11	PIP Arg1:T62 Arg2:T64
+R12	TrAP Arg1:T65 Arg2:T66
+R13	TrCP Arg1:T65 Arg2:T68
+R14	PIP Arg1:T66 Arg2:T67
+R15	PIP Arg1:T66 Arg2:T35
+R16	TrAP Arg1:T71 Arg2:T66
+R17	TrAP Arg1:T72 Arg2:T73
+R18	TeRP Arg1:T76 Arg2:T77
+R19	TrAP Arg1:T78 Arg2:T54
+R20	TeRP Arg1:T88 Arg2:T27
+R21	TrAP Arg1:T101 Arg2:T98
+R22	PIP Arg1:T110 Arg2:T104
+R23	PIP Arg1:T110 Arg2:T102
+R24	TrAP Arg1:T122 Arg2:T29
+R25	TrIP Arg1:T129 Arg2:T130
+R26	PIP Arg1:T131 Arg2:T132
+R27	PIP Arg1:T132 Arg2:T7
+R28	TeRP Arg1:T144 Arg2:T141
+R29	TeCP Arg1:T147 Arg2:T38
+R30	PIP Arg1:T151 Arg2:T152
+R31	PIP Arg1:T151 Arg2:T91
+R32	PIP Arg1:T151 Arg2:T130
+R33	PIP Arg1:T153 Arg2:T150
+R34	TrIP Arg1:T157 Arg2:T130
+R35	TrCP Arg1:T158 Arg2:T159
+R36	TrCP Arg1:T161 Arg2:T155
+R37	TrIP Arg1:T166 Arg2:T130
+R38	TeRP Arg1:T182 Arg2:T51
+R39	TrCP Arg1:T186 Arg2:T187
+R40	TrAP Arg1:T193 Arg2:T194
+R41	TrCP Arg1:T195 Arg2:T170
+R42	TrCP Arg1:T210 Arg2:T205
+R43	PIP Arg1:T216 Arg2:T213
+R44	PIP Arg1:T216 Arg2:T214
+R45	PIP Arg1:T228 Arg2:T227
+R46	PIP Arg1:T228 Arg2:T229
+R47	TeRP Arg1:T230 Arg2:T194
+R48	TrAP Arg1:T246 Arg2:T241
+R49	PIP Arg1:T247 Arg2:T235
+R50	TrAP Arg1:T262 Arg2:T251

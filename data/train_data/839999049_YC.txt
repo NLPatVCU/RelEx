@@ -1,0 +1,81 @@
+839999049 YC
+59242403
+431924
+11/01/2000 12:00:00 AM
+Obstructive Sleep Apnea
+DIS
+Admission Date :
+11/01/2000
+Report Status :
+Discharge Date :
+11/04/2000
+****** DISCHARGE ORDERS ******
+BREUNCLONTSTREAUAYLES , BINTRIREE
+766-50-79-4 H55
+Room :
+42Z-770
+Service :
+MED
+DISCHARGE PATIENT ON : 11/04/00 AT 03:00 PM
+CONTINGENT UPON
+Not Applicable
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+AISTAKEFLICHSKI , TAINE D. , M.D.
+CODE STATUS :
+Full code
+DISPOSITION :
+Home
+DISCHARGE MEDICATIONS :
+WELLBUTRIN ( BUPROPION HCL ) 150 MG PO BID FOLATE ( FOLIC ACID ) 1 MG PO QD ATIVAN ( LORAZEPAM ) 1 MG PO Q12H X 1 Days ATIVAN ( LORAZEPAM ) 1 MG PO QHS X 7 Days Starting on 11/5 MVI THERAPEUTIC W / MINERALS ( THERAP VITS / MINERALS ) 1 TAB PO QD
+Alert overridden :
+Override added on 11/03/00 by TWADA , STASTERL ETHESHI , M.D.
+POTENTIALLY SERIOUS INTERACTION :
+SIMVASTATIN and NIACIN , VIT.
+B-3 Reason for override :
+indicated THIAMINE ( THIAMINE HCL ) 100 MG PO QD SIMVASTATIN 40 MG PO QHS
+Override Notice :
+Override added on 11/03/00 by TWADA , STASTERL ETHESHI , M.D. on order for MVI THERAPEUTIC W / MINERALS PO ( ref # 90299469 )
+POTENTIALLY SERIOUS INTERACTION :
+SIMVASTATIN and NIACIN , VIT. B-3
+Reason for override :
+indicated LISINOPRIL 10 MG PO QD NICOTINE PATCH ( NICOTINE ) 21 MG/DAY TP Q24H
+DIET :
+House / NAS / Low chol / low sat. fat &lt; FDI &gt;
+RETURN TO WORK :
+Immediately
+FOLLOW UP APPOINTMENT ( S ) :
+Firmert Hospital 11/6 at 9am scheduled , Cialneinsisters Hospital And Medical Center 11/16 at 8:15pm scheduled , Dr. Condnort 12/04 at 2pm scheduled , Dr. Lila Spielbjaque 12/01 at 1:50pm scheduled , No Known Allergies
+ADMIT DIAGNOSIS :
+r / o MI
+PRINCIPAL DISCHARGE DIAGNOSIS ;
+Responsible After Study for Causing Admission ) Obstructive Sleep Apnea
+OTHER DIAGNOSIS ;
+Conditions , Infections , Complications , affecting Treatment / Stay HTN tobacco EtOh abuse sinus bradycardia
+OPERATIONS AND PROCEDURES :
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+BRIEF RESUME OF HOSPITAL COURSE :
+50 yo M from Taheimpromong admitted w / CP for r / o MI .
+Has significant cardiac
+RF :
+FH , HTN , tobacco .
+Presented w / epigastric pain , SOB at work .
+ETT was negative for ischemia .
+Echo showed ef 45-50% , with mild dilatation and no significant valvular disease , and nl PAP .
+ACE team consulted who arranged for pt to have outpt follow up .
+During this hospitalization , pt was noted to have sinus bradycardia and pauses , associated with desaturations in the 70 &apos;s .
+CPAP at 5 was attempted , but pt did not tolerate this .
+He will have outpt fitting at the sleep center in Sabo .
+Pt also counselled re :
+quitting smoking , and he appears motivated to do so , as well as to cut down on his drinking .
+ADDITIONAL COMMENTS :
+1. llame a su doctor y haga cita para verlo dentro de 1 semana .
+2. llame a la clinica the Wake Valley Hospital 442/961-2446 , si tiene que cambiar la cita .
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+LARDES , COLNKAY , M.D. ( IP09 ) 11/04/00 03:34 PM
+****** END OF DISCHARGE ORDERS ******

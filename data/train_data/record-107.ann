@@ -1,0 +1,103 @@
+T1	problem 2613 2637	his respiratory distress
+T2	test 4242 4258	his state screen
+T3	problem 5024 5035	prematurity
+T4	problem 5009 5020	bradycardia
+T5	problem 4999 5004	apnea
+T6	treatment 2580 2598	intravenous fluids
+T7	treatment 2670 2683	enteral feeds
+T8	treatment 3995 4000	pe-20
+T9	treatment 4982 4993	antibiotics
+T10	problem 4969 4975	sepsis
+T11	treatment 4134 4142	caffeine
+T12	test 3765 3781	cmed examination
+T13	test 3785 3797	hearing test
+T14	problem 4868 4877	influenza
+T15	treatment 2332 2349	additional oxygen
+T16	problem 4927 4938	prematurity
+T17	treatment 2398 2420	low-flow nasal cannula
+T18	treatment 4847 4859	immunization
+T19	treatment 3611 3626	nystatin powder
+T20	problem 3553 3582	an erythematous perianal rash
+T21	treatment 2297 2313	nasal prong cpap
+T22	problem 2213 2218	apnea
+T23	problem 4715 4735	chronic lung disease
+T24	treatment 2168 2184	caffeine therapy
+T25	problem 2222 2240	bradycardic events
+T26	treatment 4626 4647	influenza vaccination
+T27	problem 2056 2066	some apnea
+T28	problem 1550 1559	nontender
+T29	problem 4603 4623	chronic lung disease
+T30	treatment 3972 3977	feeds
+T31	problem 2071 2104	bradycardic spells of prematurity
+T32	test 1815 1843	the neurological examination
+T33	test 3372 3397	a rebound bilirubin level
+T34	treatment 4307 4330	synagis rsv prophylaxis
+T35	treatment 3324 3340	his phototherapy
+T36	treatment 2134 2142	caffeine
+T37	problem 1562 1574	nondistended
+T38	treatment 3218 3239	a single phototherapy
+T39	problem 3119 3149	physiologic hyperbilirubinemia
+T40	test 2916 2920	tco2
+T41	problem 609 625	vaginal bleeding
+T42	problem 1732 1737	clunk
+T43	test 3242 3267	his most recent bilirubin
+T44	test 3041 3049	25 polys
+T45	treatment 794 814	bag mask ventilation
+T46	problem 1805 1812	lesions
+T47	test 2966 3000	his admission complete blood count
+T48	problem 3057 3062	bands
+T49	test 3152 3161	peak bili
+T50	problem 748 778	spontaneous respiratory effort
+T51	test 957 960	rpr
+T52	test 3065 3075	hematocrit
+T53	test 1393 1423	the cardiovascular examination
+T54	problem 1456 1463	murmurs
+T55	test 3085 3099	platelet count
+T56	test 2907 2909	cl
+T57	test 918 945	hepatitis b surface antigen
+T58	problem 5065 5083	feeding immaturity
+T59	test 1466 1483	2+ femoral pulses
+T60	test 3017 3030	a white count
+T61	problem 1580 1598	hepatosplenomegaly
+T62	problem 415 439	increased blood pressure
+T63	problem 5041 5059	hyperbilirubinemia
+T64	problem 1321 1328	defects
+T65	test 2899 2900	k
+T66	treatment 3481 3492	antibiotics
+T67	treatment 525 542	magnesium sulfate
+T68	problem 731 735	limp
+T69	problem 197 214	fetal bradycardia
+T70	test 836 848	apgar scores
+T71	problem 1346 1364	coarse bilaterally
+T72	test 2847 2871	last set of electrolytes
+T73	problem 1370 1390	moderate retractions
+T74	treatment 547 560	betamethasone
+T75	test 2890 2892	na
+T76	test 3495 3512	the blood culture
+T77	problem 444 455	proteinuria
+T78	problem 975 982	rubella
+T79	problem 1079 1116	mild to moderate respiratory distress
+T80	treatment 2808 2825	these pg feedings
+T81	problem 630 647	fetal bradycardia
+T82	test 1433 1435	s1
+T83	test 3430 3443	blood culture
+T84	treatment 2710 2716	his iv
+T85	treatment 672 695	a stat cesarean section
+T86	treatment 171 192	stat cesarean section
+T87	treatment 2783 2788	pe-20
+T88	test 1440 1442	s2
+T89	problem 1311 1317	masses
+R1	PIP Arg1:T3 Arg2:T4
+R2	PIP Arg1:T3 Arg2:T5
+R3	TrAP Arg1:T9 Arg2:T10
+R4	TrAP Arg1:T18 Arg2:T14
+R5	TrAP Arg1:T19 Arg2:T20
+R6	TrIP Arg1:T24 Arg2:T22
+R7	TrIP Arg1:T24 Arg2:T25
+R8	TrAP Arg1:T26 Arg2:T23
+R9	TrAP Arg1:T36 Arg2:T31
+R10	TrAP Arg1:T36 Arg2:T27
+R11	TrAP Arg1:T38 Arg2:T39
+R12	TeRP Arg1:T47 Arg2:T48
+R13	TeRP Arg1:T53 Arg2:T54
+R14	TrAP Arg1:T86 Arg2:T69

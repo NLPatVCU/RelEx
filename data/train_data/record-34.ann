@@ -1,0 +1,95 @@
+T1	treatment 2483 2496	enteral feeds
+T2	treatment 4483 4496	immunizations
+T3	problem 1556 1567	retractions
+T4	problem 422 434	tuberculosis
+T5	treatment 4511 4558	synagis respiratory syncytial virus prophylaxis
+T6	problem 1607 1613	murmur
+T7	treatment 2443 2450	d10 / w
+T8	test 1389 1407	head circumference
+T9	problem 682 692	trisomy 21
+T10	problem 4868 4888	chronic lung disease
+T11	problem 2312 2318	murmur
+T12	test 508 519	chest x-ray
+T13	problem 4973 4976	rsv
+T14	treatment 2626 2632	lipids
+T15	problem 1664 1676	nondistended
+T16	problem 627 643	duodenal atresia
+T17	treatment 5041 5048	synagis
+T18	problem 1716 1722	masses
+T19	treatment 2601 2621	parenteral nutrition
+T20	treatment 2557 2563	promod
+T21	problem 598 612	polyhydramnios
+T22	test 1635 1641	pulses
+T23	treatment 5186 5208	influenza immunization
+T24	treatment 3058 3072	blood products
+T25	treatment 4248 4260	fer-in-james
+T26	test 1181 1209	group b streptococcus status
+T27	problem 1126 1143	fetal tachycardia
+T28	problem 576 590	twin gestation
+T29	treatment 4193 4204	medications
+T30	problem 1090 1109	sepsis risk factors
+T31	test 1509 1522	breath sounds
+T32	problem 1476 1498	nondysmorphic features
+T33	test 2951 2968	rebound bilirubin
+T34	test 4307 4325	car seat screening
+T35	problem 1115 1120	fever
+T36	test 2900 2914	peak bilirubin
+T37	test 1348 1356	a weight
+T38	test 4340 4363	state newborn screening
+T39	treatment 4416 4429	immunizations
+T40	test 1370 1376	length
+T41	test 3124 3152	initial complete blood count
+T42	problem 1273 1281	distress
+T43	test 3158 3180	white blood cell count
+T44	problem 1146 1166	rupture of membranes
+T45	test 3003 3013	hematocrit
+T46	treatment 4441 4460	hepatitis b vaccine
+T47	treatment 4092 4099	enfamil
+T48	test 826 853	nonreassuring fetal tracing
+T49	problem 3102 3121	sepsis risk factors
+T50	test 987 993	apgars
+T51	treatment 970 984	blow-by oxygen
+T52	test 3633 3656	a follow up examination
+T53	test 3204 3214	hematocrit
+T54	test 3186 3196	hemoglobin
+T55	test 2362 2373	birthweight
+T56	treatment 2921 2933	phototherapy
+T57	treatment 942 956	bulb suctioned
+T58	problem 1066 1087	a breech presentation
+T59	treatment 2735 2749	enfamil powder
+T60	treatment 4240 4244	iron
+T61	test 3253 3264	lymphocytes
+T62	treatment 870 896	an urgent cesarean section
+T63	problem 746 767	maternal hypertension
+T64	test 2152 2165	breath sounds
+T65	test 712 725	amniocentesis
+T66	treatment 4207 4220	poly-vi-james
+T67	test 3225 3236	neutrophils
+T68	test 3242 3247	bands
+T69	treatment 4148 4162	enfamil powder
+T70	test 3372 3389	hearing screening
+T71	treatment 2035 2043	caffeine
+T72	treatment 5406 5418	immunization
+T73	problem 5276 5296	chronic lung disease
+T74	test 3267 3281	blood cultures
+T75	test 1774 1778	suck
+T76	test 1979 1996	oxygen saturation
+T77	problem 5427 5436	influenza
+T78	problem 1687 1705	hepatosplenomegaly
+T79	test 3463 3475	hearing test
+T80	problem 655 665	thickening
+T81	test 286 305	maternal blood type
+T82	problem 2194 2205	retractions
+T83	test 319 322	dat
+T84	problem 2652 2671	hypoglycemia issues
+T85	problem 5581 5592	prematurity
+T86	test 2208 2224	respiratory rate
+T87	treatment 1946 1966	nasal cannula oxygen
+T88	problem 529 540	infertility
+T89	treatment 2105 2113	caffeine
+T90	test 1790 1795	grasp
+T91	problem 5637 5643	sepsis
+T92	test 345 348	rpr
+R1	TeCP Arg1:T12 Arg2:T4
+R2	TrAP Arg1:T62 Arg2:T63
+R3	PIP Arg1:T80 Arg2:T9

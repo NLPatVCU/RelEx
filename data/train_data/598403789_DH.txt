@@ -1,0 +1,29 @@
+598403789 DH
+8993683
+816711
+963035
+02/25/2001 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+GLYN , AEA
+MRN :
+8993683
+Age :
+67y
+REGISTRATION DATE :
+02/25/2001 12:20 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , GLYN , AEA arrived in the Emergency Department at Daughtersvillshamen&apos;s Hospital on 02/25/2001 12:20 PM .
+The patient presented with a chief complaint of HEMATURIA .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO DAUGHTERSVILLSHAMEN&apos;S HOSPITAL .
+The patient &apos;s preliminary admitting physician is LINKETHORE , HANSVERLLEN G and the preliminary diagnosis is HEMATURIA .
+Please note this information may have been updated on the inpatient unit .
+If you need additional information please call 613-870-0699 .
+PCP Name :
+SWANKEMANDESSKIAIS , SANTCINET E
+Provider Number :
+42283

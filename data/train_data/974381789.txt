@@ -1,0 +1,78 @@
+974381789 
+PUOMC 
+0520610 
+70648 
+390115 
+12/25/1996 12:00:00 AM 
+ATRIAL FIBRILLATION . 
+Unsigned 
+DIS 
+Report Status : 
+Unsigned 
+DISCHARGE SUMMARY 
+NAME : 
+LENKPRUSKIHKOOGLEKIH , NIEKERO C 
+UNIT NUMBER : 
+449-50-82 
+ADMISSION DATE : 
+12/25/96 
+DISCHARGE DATE : 
+12/29/96 
+PRINCIPAL DIAGNOSIS : 
+Atrial fibrillation . 
+ASSOCIATED DIAGNOSIS : 
+History of multinodular goiter ; history of hypertension ; history of subtotal thyroidectomy . 
+PRINCIPAL PROCEDURE : 
+Electrical cardioversion . 
+HISTORY OF PRESENT ILLNESS : 
+Ms. Lenkpruskihkooglekih is a 63-year-old lady with a history of frequent premature ventricular contractions and infrequent short runs of non-sustained ventricular tachycardia ( one four-beat run ) in 1991 , for which several antiarrhythmic agents including Propranolol , Quinidine , Procainamide , Tenormin , Norpace , Corgard , and Flecainide were used , but were stopped because of intolerance . 
+At that time , she had clear coronary arteries on coronary angiography and an ejection fraction greater than 50% . 
+She did well off antiarrhythmic agents until October of this year when she was noted to have atrial fibrillation with a rapid ventricular rate after several days of decreased exercise tolerance . 
+She was started on Coumadin and had a failed attempt at DC electrical cardioversion on 11/16/96 . 
+She has been on Coumadin since and has continued to have occasional palpitations and mild shortness of breath . 
+PAST MEDICAL HISTORY : 
+Includes a history of hypertension ; multinodular goiter ; subtotal thyroidectomy . 
+MEDICATIONS : 
+Include Cardizem CD 180 mg daily ; Monopril 10 mg daily ; Digoxin .25 mg daily ; and Lasix 40 mg every other day . 
+ALLERGIES : 
+To Quinidine , Procardia , and sulfa antibiotics . 
+PHYSICAL EXAMINATION : 
+On examination , blood pressure was 200/100 ; heart rate 120 per minute ( atrial fibrillation ) . 
+The patient was noted to be anxious . 
+There was no neck vein distension or carotid bruits . 
+Heart sounds were normal . 
+The lungs were clear . 
+The abdominal examination was benign . 
+There was no peripheral edema . 
+Pulses were all easily palpable . 
+LABORATORY DATA : 
+A 12-lead electrocardiogram showed atrial fibrillation with a QT interval of .46 seconds . 
+There were diffuse ST segment and T-wave abnormalities , which were nonspecific . 
+A complete blood count , electrolytes , BUN and creatinine were within normal limits . 
+INR was elevated at 2.5 . 
+An echocardiogram was performed , which showed completely normal left ventricular systolic function with an ejection fraction calculated at .74 . 
+There was no evidence of left ventricular hypertrophy or asymmetric septal hypertrophy , which had been an issue that had been raised on an echocardiogram in Ownra Cin , New Mexico on 12/06/96 . 
+HOSPITAL COURSE AND TREATMENT : 
+The patient was started on Propafenone 300 mg three times a day and underwent an attempt at electrical cardioversion after seven doses of this . 
+This failed , despite one shock at 300 joules and two shocks at 360 joules . 
+The Propafenone was stopped , and the patient was changed to Amiodarone 400 mg t.i.d. , which was continued for two days . 
+The patient was discharged to home on Amiodarone 200 mg daily on 12/29/96 . 
+An electrocardiogram showed no evidence of QT prolongation prior to discharge , and pulmonary function tests will be performed before the patient goes home today . 
+The patient will follow up with Dr. Ther Ludzjesc at Shiekeu Hospital Medical Centers in Connecticut . 
+In addition , she will return to this hospital in early February for repeat attempt at electrical cardioversion on Amiodarone . 
+She will continue her Coumadin until then and arrangements for her readmission can be made through Dr. Iceca Rhaltkaaispehbreun 's office here . 
+MEDICATIONS : 
+Other than the addition of Amiodarone 200 mg daily , will be the same as her admission medications . 
+STA BODEJOVE , M.D. 
+DICTATING FOR : 
+ICECA RHALTKAAISPEHBREUN , M.D. 
+cc : 
+Dr. Ther Ludzjesc Director , Section of Cardiology Shiekeu Hospital Medical Centers NC 
+TR : 
+sip 
+DD : 
+12/29/96 
+TD : 
+12/29/96 10:03 A 
+cc : 
+ICECA RHALTKAAISPEHBREUN , M.D. 

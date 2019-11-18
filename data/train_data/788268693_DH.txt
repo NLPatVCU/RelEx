@@ -1,0 +1,53 @@
+788268693 DH
+7258512
+020586
+0831510
+4/30/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+FREIERMDREPS , RI
+MRN :
+7258512
+Age :
+44y
+REGISTRATION DATE :
+04/30/2005 02:55 PM
+Provider :
+RONRIN SHUFF
+PRELIMINARY REPORT
+Benefits Assigned :
+Y
+Discharge Note Date / Time :
+04/30/2005 15:49
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+R ELBOW INJURY
+Standardized Discharge Instructions :
+The patient was given printed instructions for sprains , fractures and bruises ( English ) .
+The patient was given a work note ( English ) .
+Diagnosis :
+R elbow strain
+Treatment Rendered :
+xray - no evidence of effusion or fracture
+Discharge Medications :
+motrin 400-600 mg every 8 hours as needed for pain
+Follow up Service :
+It is recommended that you receive follow-up care with the Department of Orthopaedics if your symptoms are not improved in 5-7 days .
+Please call ( 890 ) 541-3008 to schedule an appointment .
+For managed care plans , check with your PCP before making this appointment .
+Disposition , Follow up and Instructions to Patient :
+Use ice to sore areas for the next few days .
+Do no strenuous activity until your symptoms are improved .
+Do gentle range of motion exercises for the next few days .
+PCP Name :
+CREDKOTE , ALEN
+Provider Number :
+18160
+This report was created by SHUFF , RONRIN 04/30/2005 03:52 PM

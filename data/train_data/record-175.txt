@@ -1,0 +1,96 @@
+Admission Date :
+2013-05-09
+Discharge Date :
+2013-06-02
+Date of Birth :
+1966-03-19
+Sex :
+M
+Service :
+Scott
+HISTORY OF PRESENT ILLNESS :
+The patient is a 47 year old male , with end stage liver disease secondary to hepatitis C cirrhosis diagnosed about 5 years prior to admission .
+The patient had undergone treatment with interferon and Ribavirin .
+He had been admitted to the St. Margaret 's Center for Women & Infants multiple times early in 2013 for management of encephalopathy and ascites .
+The patient had been discharged from the St. Margaret 's Center for Women & Infants on 2013-05-06 , but was readmitted on 2013-05-09 when noted to have worsening renal function .
+The patient 's serum creatinine on the day of discharge , on 2013-05-06 , was 1.9 , but was noted to increase to
+3.2 on 2013-05-08 , and was further elevated to 3.6 on 2013-05-09 .
+The patient was admitted with concern for hepatorenal syndrome .
+PAST MEDICAL HISTORY :
+1. Hepatitis C cirrhosis for which the patient was on the liver transplant list .
+2. Hypertension .
+3. Nephrolithiasis .
+4. Hemorrhoids .
+5. Knee surgeries .
+6. Back surgery .
+MEDICATIONS :
+1. Miconazole nitrate powder tid prn for groin rash .
+2. Protonix 40 mg po bid .
+3. Lactulose 30 ml tid ( titrated to 4 to 5 bowel movements qd ) .
+4. Vancomycin 1 gm IV bid .
+SOCIAL HISTORY :
+The patient is married with no children .
+He works as a counselor at an alcohol and drug treatment facility for teenagers .
+The patient was previously a heavy alcohol user , but had been sober since 1996 .
+The patient had also used cocaine in the past , but had also stopped in 1996 .
+HOSPITAL COURSE :
+( Part of the patient 's chart from the period 2013-05-09 to 2013-05-23 is currently unavailable , and this dictation will mainly cover the period from 2013-05-23 to 2013-06-02 )
+As previously mentioned , the patient 's creatinine at the time of admission was up to 3.6 from 1.9 at the time of his discharge 3 days prior .
+Over the following 5 days , the patient 's creatinine improved marginally to 2.7 .
+Optimization of his fluid balance was managed by the medical service in consultation with hepatology and renal .
+The patient 's INR on admission was 2.4 , with his PT level being 18.9 .
+The patient periodically required transfusions of fresh frozen plasma , as well as platelets and red cells .
+The patient was thrombocytopenic with a platelet count of 49 on the 23 .
+The patient was continued on vancomycin therapy for his previously diagnosed Methicillin resistant , coagulase negative Staph bacteremia .
+The patient 's nutrition was suboptimal , and the patient was started on tube feeding .
+The patient underwent diagnostic and therapeutic paracentesis on 2013-05-16 , 2013-05-21 , and 2013-05-24 .
+He had no evidence of spontaneous bacterial peritonitis .
+On 2013-05-25 , a liver became available for transplant to the patient .
+The patient was taken to the operating room and underwent an orthotopic liver transplant .
+In order to aid in optimization of the patient 's fluid status , the patient was on continuous Baker Baker dialysis during the procedure .
+His estimated blood loss was 2 liters .
+The patient received 5 liters of crystalloid , 9 units of fresh frozen plasma , 9 units of red cells , 6 units of platelets , as well as 1 liter of Cell Saver .
+The procedure proceeded without complications , and the patient was transferred to the intensive care unit while still intubated following the procedure .
+The patient underwent an uncomplicated recovery in the intensive care unit .
+By postop day 1 , the patient was awake , in no distress , and appeared lucid prior to extubation .
+The patient was extubated on postop day 1 without any problems .
+The patient was on a Lasix drip to aid in diuresis , and was ultimately converted to oral Lasix on postop day 1 .
+The patient 's pain control was with morphine .
+The patient required 2 units of fresh frozen plasma on the night following surgery , and 1 unit of platelets on postop day 1 , but otherwise required no blood products following the liver transplant .
+The patient was started on sips on postop day 2 , and advanced to clear liquids on postop day 3 .
+He was advanced to a regular house diet later on postop day 3 .
+The patient was advanced per protocol to an immunosuppressive regimen of prednisone , Neoral , and CellCept .
+The patient 's mental status remained essentially clear throughout the entire postoperative period .
+The patient started ambulating with the assistance of physical therapy following transfer to the surgical floor .
+At the time of discharge , the patient was independent , ambulating , and functioning well .
+The patient 's appetite improved significantly , and at the time of discharge the patient was on a regular diet with no tube feed supplements deemed necessary .
+The patient 's liver function tests all improved appropriately by the time of discharge .
+The patient 's surgical incision was also healing well by the time of discharge with no evidence of infection .
+The patient was ultimately deemed ready for discharge on postoperative day 8 .
+DISCHARGE CONDITION :
+Stable .
+DISCHARGE MEDICATIONS :
+1. Bactrim single strength 1 tablet po qd .
+2. Protonix 40 mg po qd .
+3. Metoprolol 25 mg po bid .
+4. Fluconazole 200 mg po qd .
+5. CellCept 1 gm po bid .
+6. Prednisone 20 mg po qd .
+7. Dilaudid prn .
+8. Neoral 500 mg po bid .
+9. Valcyte 450 mg po qod .
+10. Lasix 40 mg bid x 21 days .
+11. Colace 100 mg po bid .
+FOLLOW UP :
+1. The patient was to follow-up with Dr. Ronald in the Transplant Center 3 days following discharge .
+2. The patient was to follow-up with Dr. Lueras of hepatology following discharge .
+MAJOR SURGICAL PROCEDURES :
+Liver transplant on 2013-05-25 .
+Elinor Nicole , New York 12428
+Dictated By : Elizabeth F. Wells , M.D.
+MEDQUIST36
+D : 2013-06-05 08:29:54
+T : 2013-06-06 10:40:21
+Job # : 34705
+Signed electronically by : DR. Charles Y.S. Warnock on : Maxine 2013-06-20 5:29 PM
+( End of Report )

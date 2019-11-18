@@ -1,0 +1,85 @@
+388755206 SC
+28741969
+9895112
+12/1/2003 12:00:00 AM
+s / p cesarean
+DIS
+Admission Date :
+12/01/2003
+Report Status :
+Discharge Date :
+12/06/2003
+****** DISCHARGE ORDERS ******
+STENOBE , LANDEM 847-02-84-0 J73
+Room :
+GHA74-9086
+Service :
+OBS
+DISCHARGE PATIENT ON :
+12/06/03 AT 10:00 AM
+CONTINGENT UPON
+Attending evaluation
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+CLOZPLU , A A , M.D.
+DISPOSITION :
+Home
+DISCHARGE MEDICATIONS :
+COLACE ( DOCUSATE SODIUM ) 100 MG PO BID IBUPROFEN 600 MG PO Q6H PRN PAIN ALDOMET ( METHYLDOPA ) 250 MG PO BID PERCOCET 1-2 TAB PO Q4H PRN PAIN
+DIET :
+No Restrictions
+ACTIVITY :
+Resume regular exercise
+FOLLOW UP APPOINTMENT ( S ) :
+Your obstetrician 6 weeks , No Known Allergies
+ADMIT DIAGNOSIS :
+s / p cesarean
+PRINCIPAL DISCHARGE DIAGNOSIS ; Responsible After Study for Causing Admission ) s / p cesarean
+OTHER DIAGNOSIS ; Conditions , Infections , Complications , affecting Treatment / Stay s / p cesarean
+OPERATIONS AND PROCEDURES :
+Primary Anesthesia :
+Epidural Vaginal delivery :
+Undelivered Cesarean Status :
+Primary Urgency :
+Emergent Indications :
+Non-reassuring fetal status , Uterine
+incision type :
+Transverse
+Placenta :
+Delivery :
+Manual Condition :
+Normal Staff Obstetrician ( supervising ) :
+CLOZPLU , A A , M.D. Delivery
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+IV ABX
+BRIEF RESUME OF HOSPITAL COURSE :
+G9 T3 P0 A5 L3
+Estimated EDC :
+11/28/03
+Indications for induction :
+Post dates
+Complications of labor :
+, Other - bradycardia
+Maternal transfer :
+No
+Initial newborn exam :
+No observed abnormalities
+Baby 1
+MRN :
+32859272
+Delivery date :
+12/02/03 03:20 PM Apgars 7,8
+Weight :
+9lb 15 oz 4508 grams
+Sex :
+Male
+ADDITIONAL COMMENTS :
+no heavy lifting ; nothing in the vagina for 6 weeks -- no intercourse , no douching , no tampons ; call for fever above 100.5 , worsening abdominal pain , heavy bleeding , or any other concern ; no driving while taking percocet
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+HAXKOTE , A N. , M.D. ( ZL69 ) 12/06/03 09:04 AM
+****** END OF DISCHARGE ORDERS ******

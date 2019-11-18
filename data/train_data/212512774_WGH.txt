@@ -1,0 +1,78 @@
+212512774 WGH
+6218589
+29021
+9923207
+10/31/2004 12:00:00 AM
+OB Discharge Summary
+Signed
+DIS
+Report Status :
+Signed OB EMR L and D
+DISCHARGE SUMMARY
+NAME :
+RIASHWAN BERLNI VALLEY
+UNIT NUMBER :
+130-93-91
+ADMISSION DATE :
+20041031
+DISCHARGE DATE :
+20041103
+PRINCIPAL DISCHARGE DIAGNOSIS :
+Vaginal Delivery With Second Degree Laceration
+ASSOCIATED DIAGNOSES :
+Abnormal Laboratory Result ; Abnormal Pap Test ; Monilial Vaginitis
+PRINCIPAL PROCEDURE OR OPERATION :
+Spontaneous Vertex Vaginal Delivery
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+POSTPARTUM THERAPEUTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Routine Post Partum Care
+HISTORY AND REASON FOR HOSPITALIZATION :
+Premature Rupture Of Membranes
+PHYSICAL EXAMINATION :
+HEIGHT 63 HEENT NORMAL MOUTH NORMAL NECK NORMAL BREASTS NORMAL No masses NIPPLES NORMAL CHEST NORMAL CTA bilat , neg wheezing COR NORMAL NSR , no murmur ABDOMEN Gravid , vtx .
+EFW = 7# .
+FHTs 140s w/ reactivity .
+Mild irreg. ctx .
+EXTREM NORMAL SKIN NORMAL NODES NORMAL VULVA NORMAL VAGINA Leaking copious amounts clear fluid .
+Fluid amnioswab and fern positive .
+SSE and digital exam deferred CERVIX digital exam deferred at time of admission OS NORMAL see above ADNEXAE NORMAL non-palp d / t advanced gest UTERUS Gravid , vtx .
+EFW = 7# .
+FHTs 140s w/ reactivity .
+Ctx q 6 &apos; .
+UTERINE SIZE IN WEEKS 38
+HOSPITAL COURSE ( include complications if any ) :
+This 27 year old Gravida 1 Para 0000 was admitted to the Life Valley Medical Center Obstetrical service on 10/31/2004 at 08:45 pm for the indication ( s ) :
+premature rupture of membranes .
+She delivered a 3235 gram male infant on 11/01/2004 at 09:31 am with apgar scores of 9 and 9 at one and five minutes respectively at 39.0 weeks gestation via spontaneous vertex vaginal delivery .
+During her labor she encountered the following complication ( s ) :
+none .
+During her delivery she encountered the following complication ( s ) :
+none .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 11/03/2004 at 11:18 am in good condition .
+DISCHARGE ORDERS ( medications instructions to patient , follow-up care ) :
+DISCHARGE ACTIVITY :
+No Restrictions
+DISCHARGE DIET :
+No Restrictions
+POSTPARTUM DISPOSITION :
+Home With Self-Care ( Routine Discharge )
+POSTPARTUM CARE SITE :
+La Community Hospital
+POSTPARTUM RETURN APPOINTMENT ( DAYS ) :
+42
+BREAST FEEDING AT DISCHARGE :
+Yes
+POSTPARTUM RH IMMUNE GLOBULIN :
+Not Indicated
+POSTPARTUM MEASLES / MUMPS / RUBELLA VACCINE :
+Not Indicated
+MEDICATION ( S ) ON DISCHARGE :
+Multivitamins And Folate
+Electronically Signed :
+Fyfe , Lan S 11/03/2004 11:19:27 AM

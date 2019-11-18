@@ -1,0 +1,23 @@
+T1	problem 804 809	scars
+T2	treatment 251 282	bilateral salpingo oophorectomy
+T3	treatment 550 567	operative therapy
+T4	problem 1140 1160	superficial invasion
+T5	problem 187 205	endometrial cancer
+T6	test 812 823	pelvic exam
+T7	treatment 1222 1238	a subfascial j-p
+T8	test 1398 1415	postoperative hct
+T9	test 1086 1116	a normal abdominal exploration
+T10	test 1061 1075	omental biopsy
+T11	treatment 220 248	total abdominal hysterectomy
+T12	treatment 1045 1054	tah / bso
+T13	test 413 434	an endometrial biopsy
+T14	problem 496 518	grade i adenocarcinoma
+T15	problem 875 880	edema
+T16	problem 785 798	abdomen obese
+T17	test 1201 1209	washings
+T18	test 1017 1042	an exploratory laparotomy
+T19	problem 381 404	postmenopausal spotting
+T20	treatment 1343 1358	subfascia drain
+T21	test 1164 1181	gross examination
+R1	TeRP Arg1:T13 Arg2:T14
+R2	TeRP Arg1:T21 Arg2:T4

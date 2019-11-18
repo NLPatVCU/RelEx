@@ -1,0 +1,192 @@
+T1	test 2261 2277	air-fluid levels
+T2	problem 2289 2312	occult facial fractures
+T3	problem 6936 6949	complications
+T4	problem 7398 7418	any further reaction
+T5	problem 7068 7075	his lle
+T6	problem 8539 8547	vomiting
+T7	test 542 545	gcs
+T8	problem 8302 8319	subdural hematoma
+T9	treatment 7173 7189	3 u packed cells
+T10	test 8967 8988	a repeat head ct scan
+T11	test 6662 6682	serial head ct scans
+T12	treatment 6813 6821	dilantin
+T13	problem 4356 4379	significant abnormality
+T14	test 5265 5277	follow up ct
+T15	treatment 7040 7063	a hinged mcdonald brace
+T16	test 858 862	tco2
+T17	problem 445 449	+loc
+T18	problem 8320 8334	skull fracture
+T19	problem 4624 4632	fracture
+T20	problem 3316 3328	pneumothorax
+T21	treatment 8637 8660	your lovenox injections
+T22	test 1071 1074	wbc
+T23	test 1106 1109	hct
+T24	test 1117 1120	mcv
+T25	problem 6115 6128	hydrocephalus
+T26	test 6775 6794	repeat head imaging
+T27	problem 8531 8536	nause
+T28	problem 3164 3209	significant prevertebral soft tissue swelling
+T29	problem 5798 5823	the linear skull fracture
+T30	problem 8490 8506	severe headaches
+T31	problem 7838 7842	pain
+T32	treatment 7886 7901	docusate sodium
+T33	problem 3558 3578	opacified with blood
+T34	problem 5771 5785	pneumocephalus
+T35	problem 4912 4981	a non-displaced comminuted fracture of the proximal fibular diaphysis
+T36	test 2563 2573	ct c-spine
+T37	problem 3368 3410	a linear right temporal calvarial fracture
+T38	problem 8557 8575	any other symptoms
+T39	treatment 7597 7606	phenytoin
+T40	problem 328 351	right tib/fib fractures
+T41	problem 6075 6111	shift of normally midline structures
+T42	problem 5330 5344	pneumocephalus
+T43	test 2551 2560	the study
+T44	treatment 7754 7763	oxycodone
+T45	treatment 4849 4861	a side plate
+T46	problem 4888 4900	the fracture
+T47	treatment 4797 4831	six proximal and two distal screws
+T48	problem 4743 4791	a proximal diaphyseal comminuted tibial fracture
+T49	problem 7544 7552	allergic
+T50	treatment 7564 7569	sulfa
+T51	treatment 4704 4725	an intramedullary rod
+T52	test 1228 1231	ptt
+T53	problem 5938 5955	surrounding edema
+T54	problem 3073 3087	acute fracture
+T55	treatment 7307 7337	his first unit of packed cells
+T56	problem 7272 7292	transfusion reaction
+T57	problem 4515 4526	open rle fx
+T58	problem 3995 4014	postoperative fever
+T59	treatment 4531 4543	s/p fixation
+T60	test 2861 2900	axial mdct images of the cervical spine
+T61	problem 3091 3113	traumatic malalignment
+T62	test 839 841	k+
+T63	treatment 7556 7559	pcn
+T64	test 4658 4701	right tibia / fibula , ap and lateral views
+T65	test 2706 2710	eval
+T66	problem 2715 2717	fx
+T67	treatment 6651 6659	dilantin
+T68	treatment 507 526	ongoing trauma care
+T69	test 4426 4462	eval for alignment , post op changes
+T70	problem 5691 5739	subdural hemorrhage in the right posterior fossa
+T71	problem 1798 1834	shift of normally midline structures
+T72	problem 598 624	attention deficit disorder
+T73	test 888 894	urea n
+T74	problem 2500 2514	pneumocephalus
+T75	problem 2435 2495	small associated right posterior convexity subdural hematoma
+T76	problem 3708 3759	a small right posterior convexity subdural hematoma
+T77	problem 6411 6428	surrounding edema
+T78	problem 3764 3778	pneumocephalus
+T79	problem 6332 6367	right posterior subdural hemorrhage
+T80	treatment 146 157	penicillins
+T81	test 5235 5242	ct head
+T82	problem 2354 2394	linear right temporal calvarial fracture
+T83	problem 6233 6281	bilateral opacification of the mastoid air cells
+T84	problem 3635 3675	linear right temporal calvarial fracture
+T85	problem 6587 6611	his neurosurgical issues
+T86	problem 2148 2169	other acute fractures
+T87	test 799 806	glucose
+T88	test 3785 3792	head ct
+T89	problem 6572 6584	his injuries
+T90	problem 1851 1883	a left occipital scalp contusion
+T91	test 5636 5656	non-contrast head ct
+T92	test 6180 6228	the air- fluid level in the right sphenoid sinus
+T93	problem 1733 1747	pneumocephalus
+T94	problem 8335 8375	right comminuted tibia / fibula fracture
+T95	problem 1891 1916	associated skull fracture
+T96	problem 3909 3922	post-op fever
+T97	problem 3600 3629	acute cervical spine fracture
+T98	problem 4322 4325	chf
+T99	problem 5069 5111	comminuted proximal tibiofibular fractures
+T100	test 813 820	lactate
+T101	problem 1688 1713	a small subdural hematoma
+T102	test 1513 1543	axial mdct images of the brain
+T103	problem 3841 3854	acute process
+T104	problem 5005 5025	soft tissue swelling
+T105	treatment 7970 7989	magnesium hydroxide
+T106	problem 8077 8089	constipation
+T107	treatment 5147 5183	an intramedullary rod and side plate
+T108	problem 4275 4295	focal consolidations
+T109	test 4078 4111	pa and lateral views of the chest
+T110	problem 1402 1407	bleed
+T111	problem 5201 5232	immediate hardware complication
+T112	treatment 121 143	sulfa ( sulfonamides )
+T113	problem 3841 3854	acute process
+T114	treatment 8095 8102	lovenox
+T115	test 5585 5605	non-contrast head ct
+T116	test 1393 1397	eval
+T117	problem 1586 1641	a linear nondepressed right temporal calvarial fracture
+T118	problem 5870 5932	persistent bifrontal and right parietal hemorrhagic contusions
+T119	problem 5969 6011	small left frontal subarachnoid hemorrhage
+T120	problem 4254 4271	pleural effusions
+T121	problem 2125 2142	an acute fracture
+T122	treatment 288 302	open reduction
+T123	test 5552 5569	follow up ct scan
+T124	test 1020 1028	barbitrt
+T125	problem 8472 8478	fevers
+T126	test 1253 1273	ct head w/o contrast
+T127	test 1239 1246	inr(pt)
+T128	problem 5481 5495	pneumocephalus
+T129	test 1218 1220	pt
+T130	test 3802 3820	chest ( pa & lat )
+T131	problem 6373 6406	multifocal hemorrhagic contusions
+T132	test 989 998	acetmnphn
+T133	treatment 307 324	internal fixation
+T134	problem 6838 6866	his right tib / fib fracture
+T135	test 1005 1013	bnzodzpn
+T136	test 1182 1191	plt count
+T137	test 1137 1141	mchc
+T138	treatment 7368 7389	the remaining 2 units
+T139	test 965 968	asa
+T140	test 1151 1154	rdw
+T141	treatment 5112 5141	status post orif of the tibia
+T142	problem 2799 2825	head injury to the occiput
+T143	test 848 851	cl-
+T144	test 1095 1098	hgb
+T145	test 975 982	ethanol
+T146	test 932 939	amylase
+T147	test 1126 1129	mch
+T148	test 900 905	creat
+T149	treatment 1919 1936	prominent sutures
+T150	test 5265 5277	follow up ct
+T151	test 4382 4404	tib / fib ( ap & lat )
+T152	test 7194 7206	a hematocrit
+T153	test 1084 1087	rbc
+T154	problem 8509 8528	visual disturbances
+T155	treatment 1961 1987	the right calvarial suture
+T156	problem 8481 8487	chills
+T157	test 4426 4462	eval for alignment , post op changes
+T158	test 7215 7235	post transfusion hct
+T159	test 1035 1044	tricyclic
+T160	treatment 101 108	surgery
+T161	test 829 832	na+
+T162	treatment 7106 7124	lovenox injections
+T163	problem 2213 2255	mucosal thickening in the sphenoid sinuses
+R1	TeRP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T15 Arg2:T5
+R3	PIP Arg1:T34 Arg2:T29
+R4	TrAP Arg1:T44 Arg2:T31
+R5	TrAP Arg1:T45 Arg2:T46
+R6	TrAP Arg1:T47 Arg2:T48
+R7	TrCP Arg1:T50 Arg2:T49
+R8	TrAP Arg1:T51 Arg2:T48
+R9	TrCP Arg1:T55 Arg2:T56
+R10	TrAP Arg1:T59 Arg2:T57
+R11	TrCP Arg1:T63 Arg2:T49
+R12	TeCP Arg1:T65 Arg2:T66
+R13	PIP Arg1:T75 Arg2:T74
+R14	PIP Arg1:T82 Arg2:T75
+R15	PIP Arg1:T82 Arg2:T74
+R16	PIP Arg1:T84 Arg2:T78
+R17	PIP Arg1:T84 Arg2:T76
+R18	PIP Arg1:T95 Arg2:T90
+R19	PIP Arg1:T101 Arg2:T93
+R20	TrAP Arg1:T105 Arg2:T106
+R21	TrAP Arg1:T107 Arg2:T99
+R22	TeCP Arg1:T116 Arg2:T110
+R23	PIP Arg1:T118 Arg2:T119
+R24	PIP Arg1:T118 Arg2:T53
+R25	TrAP Arg1:T122 Arg2:T40
+R26	PIP Arg1:T131 Arg2:T77
+R27	TrAP Arg1:T133 Arg2:T40
+R28	TrCP Arg1:T138 Arg2:T4
+R29	TrAP Arg1:T141 Arg2:T99

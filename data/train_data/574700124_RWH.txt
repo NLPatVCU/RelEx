@@ -1,0 +1,23 @@
+574700124 RWH
+0587585
+896338
+996098
+11/26/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+CHAFFBITZ , TESSMONDMARV
+MRN :
+0587585
+Age :
+26y
+REGISTRATION DATE :
+11/26/2000 06:47 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , CHAFFBITZ , TESSMONDMARV arrived in the Emergency Department at Ro Woodma Healthcare on 11/26/2000 06:47 PM .
+The patient presented with a chief complaint of ABD PAIN .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was TREATED AND RELEASED .
+If you need additional information please call 662-747-1199 .

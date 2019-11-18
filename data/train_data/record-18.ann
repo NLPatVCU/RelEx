@@ -1,0 +1,202 @@
+T1	treatment 2439 2447	protonix
+T2	test 589 600	chest x-ray
+T3	problem 635 661	left lower lobe infiltrate
+T4	treatment 5918 5936	montelukast sodium
+T5	treatment 2416 2422	ativan
+T6	problem 3801 3819	neurogenic bladder
+T7	treatment 5887 5896	buspirone
+T8	treatment 2391 2398	lipitor
+T9	problem 3747 3762	known gastritis
+T10	treatment 685 704	nebulizer treatment
+T11	treatment 3851 3874	a foley catheterization
+T12	treatment 2364 2373	singulair
+T13	treatment 2539 2550	pamidronate
+T14	problem 4058 4093	persistent carbon dioxide retention
+T15	problem 4098 4118	respiratory acidosis
+T16	problem 4123 4161	the intermittent mental status changes
+T17	treatment 5856 5866	clonazepam
+T18	test 710 728	oxygen saturations
+T19	treatment 5826 5834	baclofen
+T20	treatment 2497 2516	albuterol nebulizer
+T21	problem 794 800	asthma
+T22	treatment 5792 5805	levothyroxine
+T23	treatment 2470 2480	sucralfate
+T24	treatment 6096 6106	tizanidine
+T25	problem 3475 3502	any significant ekg changes
+T26	treatment 5777 5786	vitamin d
+T27	treatment 5992 6000	protonix
+T28	treatment 562 573	ceftriaxone
+T29	treatment 2644 2674	albuterol nebulizer treatments
+T30	problem 2762 2803	her chronic obstructive pulmonary disease
+T31	treatment 550 559	zithromax
+T32	treatment 6128 6141	acetaminophen
+T33	treatment 6153 6169	prednisone taper
+T34	treatment 6240 6256	florinef acetate
+T35	problem 2592 2611	shortness of breath
+T36	problem 3450 3466	chest discomfort
+T37	treatment 6187 6199	levofloxacin
+T38	treatment 580 586	flagyl
+T39	problem 6070 6089	shortness of breath
+T40	problem 2893 2902	pneumonia
+T41	test 1917 1931	abdominal exam
+T42	treatment 2679 2711	ipratropium nebulizer treatments
+T43	treatment 3555 3566	pain relief
+T44	treatment 6021 6047	albuterol sulfate solution
+T45	treatment 5958 5970	atorvastatin
+T46	test 1853 1867	pulmonary exam
+T47	problem 3326 3347	adrenal insufficiency
+T48	problem 1907 1914	wheezes
+T49	test 5016 5021	smear
+T50	problem 4993 5012	megaloblastic cells
+T51	treatment 2950 2959	zithromax
+T52	problem 2828 2841	consolidation
+T53	problem 1053 1076	coronary artery disease
+T54	treatment 2977 2988	ceftriaxone
+T55	problem 983 1005	chronic abdominal pain
+T56	problem 5040 5046	anemia
+T57	problem 4980 4988	high mcv
+T58	treatment 2935 2946	antibiotics
+T59	problem 939 949	duodenitis
+T60	test 4265 4269	pco2
+T61	treatment 3251 3259	mucomyst
+T62	problem 3313 3323	secretions
+T63	problem 1008 1026	neurogenic bladder
+T64	treatment 4286 4301	a nonrebreather
+T65	problem 1029 1050	chronic muscle spasms
+T66	test 4275 4278	po2
+T67	test 4247 4253	her ph
+T68	treatment 3535 3543	percocet
+T69	problem 870 922	chronic inflammatory demyelinating polyradiculopathy
+T70	problem 4597 4609	bradycardiac
+T71	problem 1306 1321	chronic disease
+T72	treatment 3283 3304	a mucolytic component
+T73	treatment 830 840	intubation
+T74	problem 4567 4578	hypotensive
+T75	test 3667 3682	her chest x-ray
+T76	problem 3646 3663	acute rib factors
+T77	problem 925 934	gastritis
+T78	treatment 4320 4325	bipap
+T79	problem 4399 4405	apneic
+T80	problem 4410 4421	obstructing
+T81	treatment 3720 3723	ppi
+T82	problem 3728 3742	reflux disease
+T83	problem 964 980	tyrone esophagus
+T84	problem 843 867	restrictive lung disease
+T85	problem 1214 1229	hyperthyroidism
+T86	treatment 3229 3248	respiratory therapy
+T87	treatment 811 816	bipap
+T88	problem 803 807	copd
+T89	problem 1204 1211	anxiety
+T90	treatment 3206 3224	an acapella device
+T91	problem 1232 1246	igg deficiency
+T92	problem 203 212	pneumonia
+T93	problem 4892 4907	mucous plugging
+T94	treatment 310 340	increased nebulizer treatments
+T95	problem 215 219	copd
+T96	problem 222 241	asthma exacerbation
+T97	problem 260 292	upper respiratory like infection
+T98	treatment 1261 1276	cholecystectomy
+T99	treatment 3133 3152	supplemental oxygen
+T100	treatment 1281 1293	appendectomy
+T101	treatment 4526 4531	bipap
+T102	test 4184 4187	abg
+T103	problem 1296 1302	anemia
+T104	problem 1132 1139	syncope
+T105	test 397 417	an oxygen saturation
+T106	treatment 4452 4474	2 liters nasal cannula
+T107	treatment 4700 4708	florinef
+T108	problem 4724 4745	adrenal insufficiency
+T109	test 1098 1109	stress echo
+T110	treatment 3908 3915	levoxyl
+T111	problem 3945 3960	hyperthyroidism
+T112	treatment 3380 3396	iv solu - medrol
+T113	problem 5058 5072	b12 deficiency
+T114	problem 5109 5134	borderline low b12 levels
+T115	problem 1189 1199	depression
+T116	problem 3411 3425	chest soreness
+T117	treatment 4626 4641	3 fluid boluses
+T118	problem 1166 1186	hypercholesterolemia
+T119	problem 5356 5366	bronchitis
+T120	problem 1142 1163	adrenal insufficiency
+T121	treatment 2314 2322	zanaflex
+T122	test 1633 1647	blood pressure
+T123	problem 5167 5181	b12 deficiency
+T124	problem 5209 5225	poor p.o. intake
+T125	treatment 2291 2297	buspar
+T126	test 1670 1684	her heart rate
+T127	problem 1795 1809	acute distress
+T128	treatment 2339 2347	oxazepam
+T129	test 5228 5253	methylmalonic acid levels
+T130	treatment 2236 2244	florinef
+T131	test 1829 1841	cardiac exam
+T132	problem 5339 5351	asthma flare
+T133	treatment 2206 2214	baclofen
+T134	test 1687 1703	respiratory rate
+T135	problem 1870 1901	diffuse bronchial breath sounds
+T136	treatment 2267 2275	klonopin
+T137	problem 5369 5406	chronic obstructive pulmonary disease
+T138	treatment 1336 1344	azmacort
+T139	problem 5409 5440	demyelinating polyradiculopathy
+T140	test 2845 2856	chest x-ray
+T141	problem 1971 2023	left lower extremity and left upper extremity weaker
+T142	treatment 2183 2190	levoxyl
+T143	treatment 1361 1367	versed
+T144	problem 5443 5459	anxiety disorder
+T145	problem 3077 3100	her shortness of breath
+T146	problem 3042 3073	active airway disease component
+T147	treatment 2158 2167	vitamin d
+T148	problem 5462 5484	chronic abdominal pain
+T149	treatment 3023 3037	solu-medrol iv
+T150	treatment 1347 1358	clindamycin
+T151	test 1943 1957	extremity exam
+T152	problem 5599 5620	an oxygen requirement
+T153	treatment 1370 1378	fentanyl
+T154	problem 1548 1564	wheelchair bound
+T155	problem 1963 1968	edema
+T156	treatment 5756 5771	cholecalciferol
+T157	test 1614 1625	vital signs
+T158	treatment 1385 1393	morphine
+R1	TeRP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T11 Arg2:T6
+R3	PIP Arg1:T14 Arg2:T15
+R4	PIP Arg1:T15 Arg2:T16
+R5	TrAP Arg1:T29 Arg2:T30
+R6	TrAP Arg1:T42 Arg2:T30
+R7	TrAP Arg1:T44 Arg2:T39
+R8	TeRP Arg1:T49 Arg2:T50
+R9	TrAP Arg1:T51 Arg2:T52
+R10	TrAP Arg1:T51 Arg2:T40
+R11	TrAP Arg1:T54 Arg2:T52
+R12	TrAP Arg1:T54 Arg2:T40
+R13	PIP Arg1:T56 Arg2:T57
+R14	PIP Arg1:T56 Arg2:T50
+R15	TrAP Arg1:T58 Arg2:T52
+R16	TrAP Arg1:T58 Arg2:T40
+R17	TrAP Arg1:T61 Arg2:T62
+R18	TrAP Arg1:T68 Arg2:T43
+R19	TrAP Arg1:T72 Arg2:T62
+R20	TeRP Arg1:T75 Arg2:T76
+R21	TrCP Arg1:T78 Arg2:T79
+R22	TrCP Arg1:T78 Arg2:T80
+R23	TrAP Arg1:T81 Arg2:T82
+R24	TrAP Arg1:T81 Arg2:T9
+R25	TrAP Arg1:T87 Arg2:T88
+R26	TrAP Arg1:T87 Arg2:T21
+R27	TrAP Arg1:T94 Arg2:T95
+R28	TrAP Arg1:T94 Arg2:T96
+R29	TrWP Arg1:T94 Arg2:T97
+R30	TrAP Arg1:T94 Arg2:T92
+R31	TrCP Arg1:T101 Arg2:T74
+R32	TrCP Arg1:T101 Arg2:T70
+R33	PIP Arg1:T103 Arg2:T71
+R34	TrAP Arg1:T107 Arg2:T108
+R35	TeRP Arg1:T109 Arg2:T53
+R36	TrAP Arg1:T110 Arg2:T111
+R37	PIP Arg1:T113 Arg2:T114
+R38	TrIP Arg1:T117 Arg2:T70
+R39	TrIP Arg1:T117 Arg2:T74
+R40	PIP Arg1:T123 Arg2:T124
+R41	TeRP Arg1:T140 Arg2:T52
+R42	PIP Arg1:T146 Arg2:T145
+R43	TrAP Arg1:T149 Arg2:T146
+R44	TrAP Arg1:T149 Arg2:T145

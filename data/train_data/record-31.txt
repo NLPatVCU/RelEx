@@ -1,0 +1,105 @@
+Admission Date :
+2013-10-29
+Discharge Date :
+2013-11-04
+Date of Birth :
+1943-01-06
+Sex :
+M
+Service :
+CARDIOTHORACIC
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Angie CM Johnson , M.D.
+Chief Complaint :
+Coronary artery disease requiring surgical intervention
+Major Surgical or Invasive Procedure :
+CABG x 5
+History of Present Illness :
+Mr. Andersen is a 71-year-old male with worsening anginal symptoms who underwent catheterization that showed severe three-vessel disease .
+He is presenting for revascularization .
+Past Medical History :
+DM2 - dx 'd at the age of 48
+Arthritis
+HTN
+Tonsillectomy around the age of 10
+Social History :
+Quit smoking 23 years ago , occasional ETOH , denies illicit drug use .
+Lives with wife , retired 12 years ago after working as electrician for Attleboro Donald
+Family History :
+Father died of colon cancer .
+Mother with pacemaker , alive at 91 years old .
+Physical Exam :
+Awake and alert , NAD
+HEENT : PERRLA , no carotid bruits
+CV : RRR , no M/R/G
+Lungs : CTA b/l
+Abd : Soft , NT/ND , NABS
+Ext : cool , no varicosities , 1+ pedal pulses
+Pertinent Results :
+2013-10-29 11:37 AM BLOOD WBC - 11.4 *# RBC - 3.09 *# Hgb - 9.1 *# Hct - 27.5 *# MCV - 89 MCH - 29.5 MCHC - 33.3 RDW - 14.6 Plt Ct - 180
+2013-10-29 11:37 AM BLOOD PT - 16.2 * PTT - 29.0 INR(PT) - 1.7
+2013-10-29 11:37 AM BLOOD Plt Ct - 180
+2013-10-29 01:09 PM BLOOD Glucose - 172 * UreaN - 11 Creat - 0.9 Na - 142 Cl - 111 * HCO3 - 22
+2013-10-29 01:09 PM BLOOD Mg - 2.6
+Brief Hospital Course :
+The patient was taken to the operating room on 2013-10-29 for a CABG x5 .
+Please see operative note for full details .
+The patient tolerated this procedure well .
+He was taken immediately post-operatively to the CSRU .
+He was extubated that night .
+The did well in the ICU .
+His central line and chest tubes were removed on post-op day #2 and was transferred to the floor in stable condition .
+On post-op day #3 , the patient 's pacing wires were removed , and his lopressor was started .
+On post-op day #4 , the patient failed the first of his void trials .
+He was seen and cleared by physical therapy .
+He was discharged home on post-op day #6 in stable condition with a foley catheter and leg bag .
+Medications on Admission :
+Avandia 8 mg daily
+Glipizide 10 mg bid
+Diovan 160 mg daily
+Metformin 500 mg two tabs bid
+Omeprazole 20 mg q PM
+Discharge Medications :
+1. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) as needed for constipation .
+Disp :* 60 Capsule (s)* Refills :* 2 *
+2. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 2 *
+3. Oxycodone - Acetaminophen 5-325 mg Tablet Sig : 1-2 Tablets PO Q4H ( every 4 hours ) as needed for pain for 30 doses .
+Disp :* 30 Tablet (s)* Refills :* 0 *
+4. Atorvastatin Calcium 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+5. Rosiglitazone Maleate 8 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+6. Glipizide 10 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+7. Tamsulosin 0.4 mg Capsule , Sust. Release 24 HR Sig : One ( 1 ) Capsule , Sust . Release 24 HR PO HS ( at bedtime ).
+Disp :* 30 Capsule , Sust. Release 24 HR (s)* Refills :* 0 *
+8. Metoprolol Tartrate 25 mg Tablet Sig : 0.5 Tablet PO BID ( 2 times a day ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+9. Furosemide 20 mg Tablet Sig : One ( 1 ) Tablet PO every twelve ( 12 ) hours .
+Disp :* 60 Tablet (s)* Refills :* 2 *
+10. Pantoprazole Sodium 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ).
+Disp :* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 2 *
+11. Potassium Chloride 10 mEq Capsule , Sustained Release Sig : Two ( 2 ) Capsule , Sustained Release PO Q12H ( every 12 hours ).
+Disp :* 120 Capsule , Sustained Release (s)* Refills :* 2 *
+Discharge Disposition :
+Home with Service
+Discharge Diagnosis :
+Coronary artery disease
+Discharge Condition :
+Stable
+Discharge Instructions :
+Please return to the hospital or call Dr. Alvarado 's office if you experience chills or fever greater than 101 degrees F.
+Please call if you notice redness , swelling , or tenderness of your chest wound , or if it begins to drain pus .
+No heavy lifting or driving until follow up with Dr. Mullins .
+You may shower .
+Wash incision with mild soap and water , then pat dry .
+You will need to follow up with your primary care physician / urologist prior to removal of your urinary catheter .
+Followup Instructions :
+Provider : Mary , Francis Z. 739-488-1975 Call to schedule appointment .
+Please follow up in 1 month .
+Provider : Laurie , Paul G. ( 858 ) 481-2816 Call to schedule appointment .
+Please follow up in 1 week .
+Bernice Jessica MD 95-512
+Completed by : Carol Lydia MD 27-960 2013-11-05 @ 0029
+Signed electronically by : DR. Elizabeth GS Vega on : FRI 2013-12-06 12:28 PM
+( End of Report )

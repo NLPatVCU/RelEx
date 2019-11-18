@@ -1,0 +1,25 @@
+500472963
+PUOMC
+9506800
+464389
+651486
+9/20/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+FYFEUARDFEL , TADE
+MRN :
+9506800
+Age :
+65y
+REGISTRATION DATE :
+09/20/2000 12:41 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , FYFEUARDFEL , TADE arrived in the Emergency Department at Ph University Of Medical Center on 09/20/2000 12:41 PM .
+The patient presented with a chief complaint of ABD PAIN .
+Following evaluation and treatment , the patient &apos;s disposition at the end of the visit was ADMITTED AS AN INPATIENT TO PH UNIVERSITY OF MEDICAL CENTER .
+Your patient was admitted under the care of FONG , CONEY N with a preliminary diagnosis of PERFORATION .
+If you need additional information please call 639-873-2993 .

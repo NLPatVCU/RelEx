@@ -1,0 +1,153 @@
+T1	problem 3343 3353	diminished
+T2	problem 5540 5561	the surrounding edema
+T3	problem 5486 5510	developing hydrocephalus
+T4	problem 3664 3705	mildly diminished in the finger extensors
+T5	problem 3281 3302	subjectively abnormal
+T6	problem 5577 5612	suppression of the fourth ventricle
+T7	problem 2439 2462	long response latencies
+T8	problem 2323 2336	mildly drowsy
+T9	problem 348 359	an ear ache
+T10	problem 4084 4097	very unsteady
+T11	test 2385 2393	the exam
+T12	treatment 431 446	cortisone drops
+T13	problem 3171 3209	decreased excursion of the right mouth
+T14	problem 5865 5906	a subacute bleed in the mid to lower pons
+T15	problem 4071 4081	wide based
+T16	problem 3214 3262	flattening of the right nasolabial fold ( mild )
+T17	problem 5783 5801	cavernous angiomas
+T18	problem 3442 3468	a mild left pronator drift
+T19	problem 2152 2159	murmurs
+T20	problem 3014 3046	sustained gaze holding nystagmus
+T21	problem 6773 6785	paresthesias
+T22	problem 3092 3108	rotary component
+T23	problem 6613 6643	familial cavernous hemangiomas
+T24	problem 1475 1495	generalized weakness
+T25	problem 1389 1419	at least two bleeding episodes
+T26	problem 2170 2177	gallops
+T27	problem 6658 6687	a subacute pontine hemorrhage
+T28	problem 3119 3158	a mildly widened right palpable fissure
+T29	problem 2209 2218	distended
+T30	problem 4143 4154	retropulsed
+T31	problem 1060 1079	progressively worse
+T32	treatment 6741 6751	gabapentin
+T33	treatment 6818 6824	zantac
+T34	problem 2243 2248	edema
+T35	test 2089 2108	cardiovascular exam
+T36	problem 2162 2166	rubs
+T37	problem 2592 2598	abulic
+T38	problem 2195 2204	nontender
+T39	problem 2418 2422	slow
+T40	treatment 6791 6797	colace
+T41	treatment 1628 1645	an anticonvulsant
+T42	problem 6693 6711	severe gait ataxia
+T43	problem 761 778	decreased hearing
+T44	treatment 6845 6861	prednisone taper
+T45	problem 1124 1137	very fatigued
+T46	problem 6108 6129	right facial weakness
+T47	treatment 6322 6349	aggressive physical therapy
+T48	problem 6074 6103	the subtle left hand weakness
+T49	test 5998 6022	her physical examination
+T50	test 6560 6573	the mri scans
+T51	problem 5962 5995	a slight right-sided predominance
+T52	test 5287 5303	mra of the brain
+T53	problem 6150 6165	severely ataxic
+T54	problem 5232 5261	areas of restricted diffusion
+T55	problem 5274 5284	infarction
+T56	problem 5816 5845	several prior bleeding events
+T57	problem 6188 6211	sensory deafferentation
+T58	test 5405 5417	follow-up ct
+T59	problem 4731 4777	subacute blood products in the mid to low pons
+T60	problem 4789 4831	recent hemorrhage into a cavernous angioma
+T61	test 4391 4393	pt
+T62	problem 1344 1374	multiple cavernous hemangiomas
+T63	problem 6240 6274	crossing pontine cerebellar fibers
+T64	test 4509 4512	co2
+T65	test 3490 3517	rapid alternating movements
+T66	problem 3523 3539	slow on the left
+T67	problem 3552 3597	trouble isolating individual finger movements
+T68	test 3471 3485	finger tapping
+T69	test 4671 4701	gradient echocardiogram images
+T70	test 4478 4487	potassium
+T71	test 4494 4502	chloride
+T72	problem 4590 4644	multiple foci susceptibility artifact within the brain
+T73	problem 533 553	unsteady on her feet
+T74	problem 5394 5402	angiomas
+T75	problem 3907 3935	mistakes with position sense
+T76	problem 898 916	this unsteady gait
+T77	test 4343 4353	hematocrit
+T78	test 4518 4525	calcium
+T79	problem 975 1041	a pins and needle feeling in the face , hands and feet bilaterally
+T80	test 4532 4541	phosphate
+T81	test 4325 4335	hemoglobin
+T82	problem 800 818	static in her ears
+T83	test 4401 4415	platelet count
+T84	problem 719 728	dizziness
+T85	test 4280 4303	polymorphonuclear cells
+T86	problem 484 493	dizziness
+T87	test 4370 4373	inr
+T88	test 4311 4322	lymphocytes
+T89	problem 2710 2720	dysarthria
+T90	treatment 871 895	an oral prednisone taper
+T91	problem 3873 3895	bilateral upgoing toes
+T92	test 1165 1172	head ct
+T93	problem 1182 1227	a 1.5 cm diameter hyperdense mass in the pons
+T94	test 4361 4364	mcv
+T95	test 4448 4458	creatinine
+T96	test 4380 4383	ptt
+T97	problem 2770 2789	any special neglect
+T98	test 4244 4266	white blood cell count
+T99	test 4426 4433	glucose
+T100	problem 1084 1103	the sound of static
+T101	test 4439 4442	bun
+T102	problem 2012 2026	acute distress
+T103	problem 1510 1543	at least two generalized seizures
+T104	problem 821 839	meniere 's disease
+T105	problem 2041 2050	anicteric
+T106	test 1935 1951	respiratory rate
+T107	problem 185 224	multiple familial cavernous hemangiomas
+T108	test 1900 1905	pulse
+T109	test 1911 1925	blood pressure
+T110	test 4564 4580	mri of the brain
+T111	test 1881 1892	temperature
+T112	test 4548 4557	magnesium
+T113	test 4465 4471	sodium
+T114	problem 1844 1855	hemangiomas
+T115	problem 4844 4871	some mild surrounding edema
+T116	treatment 1753 1769	prednisone taper
+T117	problem 5658 5689	the subacute pontine hemorrhage
+T118	problem 5628 5654	significant change in size
+T119	test 3780 3788	reflexes
+T120	problem 3830 3862	clonus at the ankles bilaterally
+T121	problem 4889 4950	tiny foci artifact within the cerebellum and base of the pons
+T122	problem 4980 5092	susceptibility artifact in the left temporal lobe , right frontal lobe , and the splenius of the corpus collasum
+T123	problem 3610 3651	mild finger-to-nose dysmetria on the left
+T124	problem 5149 5197	mild enhancement of the pontine hemorrhagic mass
+R1	PIP Arg1:T2 Arg2:T3
+R2	PIP Arg1:T6 Arg2:T2
+R3	PIP Arg1:T6 Arg2:T3
+R4	TrAP Arg1:T12 Arg2:T9
+R5	PIP Arg1:T16 Arg2:T13
+R6	PIP Arg1:T24 Arg2:T25
+R7	PIP Arg1:T27 Arg2:T23
+R8	TrAP Arg1:T32 Arg2:T21
+R9	TeRP Arg1:T35 Arg2:T19
+R10	TeRP Arg1:T35 Arg2:T36
+R11	TeRP Arg1:T35 Arg2:T26
+R12	TeRP Arg1:T49 Arg2:T48
+R13	TeRP Arg1:T49 Arg2:T46
+R14	PIP Arg1:T54 Arg2:T55
+R15	PIP Arg1:T57 Arg2:T53
+R16	PIP Arg1:T59 Arg2:T60
+R17	PIP Arg1:T63 Arg2:T53
+R18	TeRP Arg1:T65 Arg2:T66
+R19	TeRP Arg1:T65 Arg2:T67
+R20	TeRP Arg1:T68 Arg2:T66
+R21	TeRP Arg1:T68 Arg2:T67
+R22	TeRP Arg1:T92 Arg2:T93
+R23	PIP Arg1:T100 Arg2:T31
+R24	PIP Arg1:T104 Arg2:T84
+R25	PIP Arg1:T104 Arg2:T43
+R26	PIP Arg1:T104 Arg2:T82
+R27	TeRP Arg1:T110 Arg2:T72
+R28	PIP Arg1:T117 Arg2:T118
+R29	TeRP Arg1:T119 Arg2:T120

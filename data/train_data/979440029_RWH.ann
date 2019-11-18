@@ -1,0 +1,15 @@
+T1	treatment 777 779	rx
+T2	problem 807 813	cramps
+T3	test 732 743	a spine mri
+T4	treatment 908 923	massage therapy
+T5	problem 621 636	mechanical fall
+T6	treatment 950 955	k-dur
+T7	treatment 852 869	repeat injections
+T8	treatment 903 905	pt
+T9	problem 610 620	back pain/
+T10	treatment 784 793	potassium
+T11	problem 574 583	back pain
+T12	test 658 673	pt &apos;s labs
+T13	problem 476 488	body shaking
+R1	TrAP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T10 Arg2:T2

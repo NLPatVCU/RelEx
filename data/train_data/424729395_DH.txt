@@ -1,0 +1,63 @@
+424729395 DH
+0011649
+07013
+908447
+6/14/2001 12:00:00 AM
+OB Discharge Summary
+Signed
+DIS
+Report Status :
+Signed OB EMR L and D
+DISCHARGE SUMMARY
+NAME :
+XARAH RATIA SERVICE
+UNIT NUMBER :
+642-07-90
+ADMISSION DATE :
+20010614
+DISCHARGE DATE :
+20010616
+PRINCIPAL DISCHARGE DIAGNOSIS :
+Abnormal Fetal Heart Rate / Rhythm - Delivered
+ASSOCIATED DIAGNOSES :
+Abnormal Pap Test , history of
+PRINCIPAL PROCEDURE OR OPERATION :
+Vacuum Extraction
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+POSTPARTUM THERAPEUTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Routine Post Partum Care
+HISTORY AND REASON FOR HOSPITALIZATION :
+Active Labor
+PHYSICAL EXAMINATION :
+HEIGHT 49 HEENT NORMAL MOUTH NORMAL NECK NORMAL BREASTS NORMAL NIPPLES NORMAL CHEST NORMAL COR NORMAL ABDOMEN NORMAL gravid , + FHR , NT EXTREM NORMAL SKIN NORMAL NODES NORMAL VULVA NORMAL VAGINA NORMAL CERVIX NORMAL 4-5/100% OS NORMAL closed , firm , -CMT ADNEXAE NORMAL UTERUS NORMAL term 7-7.5 # vtx UTERINE SIZE IN WEEKS NORMAL term
+HOSPITAL COURSE ( include complications if any ) :
+This 23 year old Gravida 2 Para 1001 was admitted to the Naliheall County Memorial Hospital Obstetrical service on 06/14/2001 at 01:29 pm for the indication ( s ) :
+active labor .
+She delivered a 3263 gram female infant at 06/14/2001 at 06:40 pm with apgar scores of 8 and 8 at one and five minutes respectively at 40.3 weeks gestation via vacuum extraction .
+During her labor she encountered the following complication ( s ) :
+fetal bradycardia .
+During her delivery she encountered the following complication ( s ) :
+nuchal cord , times two .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 06/16/2001 at 12:00 pm in stable condition .
+DISCHARGE ACTIVITY :
+No Restrictions
+DISCHARGE DIET :
+No Restrictions
+POSTPARTUM DISPOSITION :
+Home With Self-Care ( Routine Discharge )
+POSTPARTUM CARE SITE :
+Burnrise Memorial Hospital
+POSTPARTUM RETURN APPOINTMENT ( DAYS ) :
+42
+BREAST FEEDING AT DISCHARGE :
+Yes
+POSTPARTUM MEASLES / MUMPS/RUBELLA VACCINE :
+Not Indicated
+Electronically Signed :
+American , 06/16/2001 5:14:05 PM

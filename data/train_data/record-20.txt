@@ -1,0 +1,25 @@
+Admission Date :
+2013-06-12
+Discharge Date :
+2013-06-25
+Date of Birth :
+1943-03-31
+Sex :
+M
+Service :
+TRA
+ADDENDUM :
+This is a discharge summary addendum for Discharge Summary number 554108 .
+As follows .
+Patient was discharged to rehabilitation on 2013-06-25 .
+Discharge was delayed by one day to ensure patient could tolerate P.O. which patient did without difficulty .
+Please see original Discharge Summary for discharge medications .
+Josh Harry , Missouri 43478
+Dictated By : Joe J. T. Gochenour , M.D.
+MEDQUIST36
+D : 2013-06-25 07:58:05
+T : 2013-06-25 08:07:03
+Job #:
+79141
+Signed electronically by : DR. Clara M. Odell on : WED 2013-06-26 9:58 AM
+( End of Report )

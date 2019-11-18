@@ -1,0 +1,12 @@
+T1	problem 607 635	recently passed kidney stone
+T2	treatment 881 891	management
+T3	problem 895 913	your kidney stones
+T4	problem 560 573	kidney stones
+T5	test 684 701	abdominal ct scan
+T6	test 667 675	physical
+T7	treatment 726 732	motrin
+T8	problem 987 1000	your symptoms
+T9	problem 1022 1029	a fever
+T10	test 678 681	lab
+T11	problem 466 474	rlq pain
+R1	TrAP Arg1:T2 Arg2:T3

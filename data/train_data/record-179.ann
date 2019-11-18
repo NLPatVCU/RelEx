@@ -1,0 +1,184 @@
+T1	problem 4069 4090	an oxygen requirement
+T2	problem 3432 3444	complex tear
+T3	problem 6035 6050	a meniscal tear
+T4	treatment 728 735	lovenox
+T5	problem 2952 2972	pericardial effusion
+T6	problem 3296 3307	p-pulmonale
+T7	test 703 706	sat
+T8	problem 646 655	saddle pe
+T9	problem 3287 3293	s1q3t3
+T10	problem 2890 2937	moderate pulmonary artery systolic hypertension
+T11	test 5976 5991	your inr levels
+T12	test 6007 6027	the mri of your knee
+T13	test 5928 5940	blood levels
+T14	problem 3265 3284	st depression v3-v5
+T15	test 620 628	ct chest
+T16	test 3176 3187	osh imaging
+T17	problem 568 579	lightheaded
+T18	problem 3149 3173	dvt in either lower limb
+T19	treatment 5871 5886	this medication
+T20	problem 3233 3243	sinus tach
+T21	test 5917 5925	your inr
+T22	test 3103 3120	bilateral leni 's
+T23	problem 540 560	very short of breath
+T24	problem 503 506	loc
+T25	test 2515 2517	ef
+T26	problem 2500 2512	hyperdynamic
+T27	test 2617 2652	right ventricular systolic function
+T28	problem 3021 3056	small , hyperdynamic left ventricle
+T29	problem 6302 6317	lightheadedness
+T30	problem 432 437	faint
+T31	problem 2988 3018	mildly dilated right ventricle
+T32	problem 3068 3099	moderate pulmonary hypertension
+T33	problem 6321 6330	dizziness
+T34	problem 418 429	lightheaded
+T35	test 2462 2496	left ventricular systolic function
+T36	test 2423 2450	the left ventricular cavity
+T37	problem 2857 2878	mitral valve prolapse
+T38	problem 6280 6299	shortness of breath
+T39	problem 2600 2614	mildly dilated
+T40	test 2376 2409	left ventricular wall thicknesses
+T41	problem 327 345	a syncopal episode
+T42	problem 2770 2790	aortic regurgitation
+T43	treatment 6137 6146	treatment
+T44	problem 684 689	tachy
+T45	problem 194 201	syncope
+T46	problem 6267 6277	chest pain
+T47	treatment 122 139	erythromycin base
+T48	problem 2540 2565	ventricular septal defect
+T49	problem 4384 4386	pe
+T50	test 2176 2203	ct of head without contrast
+T51	problem 5226 5239	meniscal tear
+T52	treatment 4364 4380	acute management
+T53	problem 5195 5204	an injury
+T54	problem 2221 2250	acute intracranial hemorrhage
+T55	test 2132 2148	feet-2+dp pulses
+T56	test 5153 5166	physical exam
+T57	test 4970 4980	hematocrit
+T58	treatment 4496 4516	his coumadin therapy
+T59	test 4276 4311	an outpatient thrombophilia work-up
+T60	test 2269 2273	echo
+T61	treatment 4219 4227	coumadin
+T62	test 2324 2359	the estimated right atrial pressure
+T63	problem 4881 4889	ischemia
+T64	problem 2254 2263	fractures
+T65	test 4865 4868	ekg
+T66	treatment 4207 4214	heparin
+T67	test 4810 4823	his tronponin
+T68	treatment 5824 5843	coumadin ( warfarin
+T69	problem 3721 3745	saddle pulmonary embolus
+T70	test 2018 2030	johnson sign
+T71	problem 1979 1984	nd/nt
+T72	problem 3902 3925	known clotting disorder
+T73	treatment 5795 5816	an oral blood thinner
+T74	problem 1995 2013	l leg/calf swollen
+T75	treatment 5753 5767	blood thinners
+T76	test 3680 3702	hemodynamic monitoring
+T77	treatment 5265 5272	therapy
+T78	problem 2121 2129	crepitus
+T79	treatment 3660 3675	anticoagulation
+T80	problem 2037 2042	tense
+T81	problem 5115 5128	l knee injury
+T82	problem 3750 3766	left knee injury
+T83	problem 2074 2104	medial meniscus area inflammed
+T84	problem 4129 4152	hemodynamic instability
+T85	treatment 4462 4481	coumadin management
+T86	problem 5592 5615	left knee meniscal tear
+T87	problem 1848 1875	dried blood in nasal mucosa
+T88	problem 1908 1916	wheezing
+T89	problem 4602 4609	syncope
+T90	problem 1649 1652	htn
+T91	problem 4626 4628	pe
+T92	problem 1894 1902	crackles
+T93	problem 5708 5728	a pulmonary embolism
+T94	problem 3978 3984	stasis
+T95	problem 1920 1927	rhonchi
+T96	problem 3772 3774	pe
+T97	problem 3963 3973	immobility
+T98	problem 5097 5109	asymptomatic
+T99	treatment 5055 5064	iv fluids
+T100	problem 1962 1967	m/r/g
+T101	treatment 4155 4160	lysis
+T102	test 3258 3260	hr
+T103	problem 4773 4784	p-pulmonale
+T104	problem 4796 4807	clot burden
+T105	problem 5070 5085	active bleeding
+T106	problem 1671 1682	prostate ca
+T107	problem 2111 2115	warm
+T108	problem 5041 5050	saddle pe
+T109	problem 1664 1668	copd
+T110	problem 1705 1707	mi
+T111	treatment 5021 5036	anticoagulation
+T112	problem 4956 4964	ischemia
+T113	problem 4915 4944	any wall motion abnormalities
+T114	test 1744 1746	hr
+T115	treatment 1770 1774	2lnc
+T116	test 1761 1765	rr16
+T117	test 4644 4662	his cardiac workup
+T118	test 1751 1753	bp
+T119	problem 1939 1944	tachy
+T120	problem 1781 1784	nad
+T121	problem 4690 4711	a small troponin leak
+T122	problem 4736 4754	right heart strain
+T123	test 4892 4899	an echo
+T124	problem 1358 1368	hemoptysis
+T125	problem 3386 3429	flipped fragment in the intercondylar notch
+T126	problem 1374 1378	f/c/
+T127	test 658 660	vs
+T128	problem 3346 3380	bucket handle medial meniscal tear
+T129	problem 1379 1385	sweats
+T130	problem 1398 1432	any bleeding or clotting disorders
+T131	problem 3491 3519	moderate knee joint effusion
+T132	problem 3534 3575	ganglion cyst at the insertion of the pcl
+T133	problem 1451 1457	a clot
+T134	test 3225 3228	ekg
+T135	problem 1495 1511	left knee injury
+T136	problem 3192 3201	saddle pe
+T137	problem 1298 1300	cp
+T138	problem 1655 1657	dm
+T139	test 1734 1736	vs
+T140	test 3316 3342	mri left knee w/o contrast
+T141	problem 1303 1319	chest discomfort
+T142	problem 3868 3889	dvt from the left leg
+T143	test 5299 5317	an mri of the knee
+T144	problem 1145 1163	unable to ambulate
+T145	treatment 5496 5504	claritin
+T146	problem 1091 1112	essentially bed bound
+T147	test 5425 5442	repeat evaluation
+T148	problem 3939 3952	trauma to leg
+T149	problem 1187 1219	inflammation of his l calf / leg
+T150	treatment 5511 5518	flonase
+T151	problem 1323 1343	difficulty breathing
+T152	problem 1514 1532	seasonal allergies
+T153	problem 3853 3864	his embolus
+T154	problem 1349 1354	cough
+T155	problem 3581 3605	discoid lateral meniscus
+T156	problem 5574 5591	pulmonary embolus
+R1	TeRP Arg1:T12 Arg2:T3
+R2	TeRP Arg1:T15 Arg2:T8
+R3	TeRP Arg1:T25 Arg2:T26
+R4	TeRP Arg1:T35 Arg2:T26
+R5	TrAP Arg1:T52 Arg2:T49
+R6	PIP Arg1:T53 Arg2:T51
+R7	TeRP Arg1:T56 Arg2:T53
+R8	TeRP Arg1:T56 Arg2:T51
+R9	TeRP Arg1:T65 Arg2:T63
+R10	TeCP Arg1:T76 Arg2:T69
+R11	TrAP Arg1:T79 Arg2:T69
+R12	TrAP Arg1:T101 Arg2:T84
+R13	PIP Arg1:T103 Arg2:T104
+R14	TrAP Arg1:T111 Arg2:T108
+R15	PIP Arg1:T112 Arg2:T113
+R16	PIP Arg1:T121 Arg2:T122
+R17	PIP Arg1:T121 Arg2:T103
+R18	PIP Arg1:T121 Arg2:T104
+R19	PIP Arg1:T122 Arg2:T103
+R20	PIP Arg1:T122 Arg2:T104
+R21	TeRP Arg1:T123 Arg2:T113
+R22	TeRP Arg1:T127 Arg2:T44
+R23	PIP Arg1:T128 Arg2:T125
+R24	PIP Arg1:T131 Arg2:T132
+R25	PIP Arg1:T146 Arg2:T144
+R26	PIP Arg1:T148 Arg2:T97
+R27	PIP Arg1:T148 Arg2:T94
+R28	PIP Arg1:T153 Arg2:T142

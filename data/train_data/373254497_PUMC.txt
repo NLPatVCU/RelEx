@@ -1,0 +1,48 @@
+373254497 PUMC
+6211697
+433913
+209987
+3/5/2002 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+SHUFFJESC , NANORA
+MRN :
+6211697
+Age :
+36y
+REGISTRATION DATE :
+03/05/2002 10:11 PM
+Provider :
+QUELOISEVIER DREWEILLTRIEVKEMME
+PRELIMINARY REPORT
+PCP notified by MD :
+E-mail PCP
+Benefits Assigned :
+Y
+Discharge Date / Time :
+03/06/2002 06:23
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+ABD PAIN/ PELVIC PAIN
+Standardized Discharge Instructions :
+The patient was given printed instructions for abdominal pain ( English ) .
+Diagnosis :
+Abdominal pain Treatment Rendered :
+Ct scan shows ovarian cyst
+Discharge Medications :
+Vicodin
+Disposition , Follow up and Instructions to Patient :
+Please follow up with Dr. Wires on Monday .
+If you have continued fevers , worsening abdominal pain , discharge or other worrisome symptoms , please return to the emergency department .
+PCP Name :
+WIRES , PEANTSALL A
+Provider Number :
+16986
+This report was created by DREWEILLTRIEVKEMME , QUELOISEVIER 03/06/2002 06:28 AM

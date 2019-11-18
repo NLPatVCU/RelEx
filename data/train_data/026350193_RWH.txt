@@ -1,0 +1,51 @@
+026350193 RWH
+7093319
+549304
+8417371
+6/5/2002 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+AASCOLESLENT , DIROD
+MRN :
+7093319
+Age :
+50y
+REGISTRATION DATE :
+06/05/2002 02:46 PM
+Provider :
+RYBAM SHOULDER
+PRELIMINARY REPORT
+PCP notified by MD :
+Left message with answering service or PCP office
+Benefits Assigned :
+Y
+Discharge Date / Time :
+06/05/2002 16:17
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+L SHOULDER INJ
+Standardized Discharge Instructions :
+The patient was given printed instructions for neck strains ( English ) .
+Diagnosis :
+Left Shoulder / Neck strain / sprain .
+Treatment Rendered :
+Dilaudid 2mg PO x 1 Flexeril 10 mg x 1
+Discharge Medications :
+Flexeril 10mg TID
+Disposition , Follow up and Instructions to Patient :
+Please follow-up with your Orthopaedic physician on Wednesday 6/9/02 as previously arranged by patient .
+Please follow-up with PCP .
+Take codeine prescribed by PCP with food and water to prevent nausea and constipation .
+Do not drive if taking flexeril and codeine .
+PCP Name :
+DOUET , LAH
+Provider Number :
+19061
+This report was created by SHOULDER , RYBAM 06/05/2002 04:26 PM

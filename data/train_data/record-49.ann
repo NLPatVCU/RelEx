@@ -1,0 +1,21 @@
+T1	problem 995 1019	physically decompensated
+T2	problem 650 702	the patient 's chronic obstructive pulmonary disease
+T3	treatment 361 374	eucerin cream
+T4	problem 840 845	cough
+T5	treatment 1192 1215	viscous lidocaine jelly
+T6	treatment 1136 1157	discharge medications
+T7	treatment 409 424	lidocaine jelly
+T8	treatment 429 441	pain control
+T9	problem 817 836	shortness of breath
+T10	treatment 897 913	her home o2 dose
+T11	treatment 344 354	wound care
+T12	treatment 1107 1133	intensive physical therapy
+T13	treatment 1249 1284	viscous lidocaine swish and swallow
+T14	problem 279 319	stage 1 sacral decubitus on her buttocks
+T15	treatment 617 632	lidocaine jelly
+T16	problem 493 512	the decubitus ulcer
+T17	problem 572 582	discomfort
+R1	TrAP Arg1:T12 Arg2:T1
+R2	TrAP Arg1:T15 Arg2:T16
+R3	TrAP Arg1:T15 Arg2:T17
+R4	PIP Arg1:T17 Arg2:T16

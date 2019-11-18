@@ -1,0 +1,111 @@
+T1	problem 4832 4880	a large hemorrhagic lesion on the occipital lobe
+T2	test 4717 4722	tests
+T3	problem 1670 1687	apparent distress
+T4	test 2711 2720	pin prick
+T5	problem 2545 2581	a dense hemianopsia on the left side
+T6	problem 1497 1510	heart disease
+T7	problem 5152 5239	scattered t2 hyperintense foci within the periventricular and left frontal white matter
+T8	problem 5256 5276	small vessel disease
+T9	problem 5279 5286	gliosis
+T10	problem 5290 5303	demyelination
+T11	problem 1772 1782	atraumatic
+T12	test 1969 1981	auscultation
+T13	problem 2004 2009	rales
+T14	problem 2013 2020	wheezes
+T15	test 3976 3990	platelet count
+T16	test 5580 5601	the ejection fraction
+T17	problem 5836 5859	urinary tract infection
+T18	problem 4122 4150	a right occipital hemorrhage
+T19	problem 6143 6167	a dense left hemianopsia
+T20	problem 5435 5479	some very rare atrial premature contractions
+T21	test 4363 4381	further evaluation
+T22	test 3819 3827	a sodium
+T23	problem 5976 5984	afebrile
+T24	test 3928 3945	white blood count
+T25	problem 1307 1327	known drug allergies
+T26	problem 3296 3307	hemianopsia
+T27	test 3106 3120	proprioception
+T28	problem 343 348	dizzy
+T29	test 5393 5407	the heart rate
+T30	test 3837 3846	potassium
+T31	problem 5739 5748	confusion
+T32	test 3915 3922	glucose
+T33	problem 62 96	right occipital hemorrhagic stroke
+T34	test 4000 4016	prothrombin time
+T35	test 4952 4991	an magnetic resonance imaging angiogram
+T36	problem 5016 5055	the right parietal occipital hemorrhage
+T37	problem 4226 4238	hypertension
+T38	problem 3035 3049	pronator drift
+T39	problem 674 679	dizzy
+T40	problem 3644 3671	difficulty with tandem gait
+T41	problem 1091 1099	diplopia
+T42	test 4386 4393	work up
+T43	problem 3211 3268	considerable difficulty with left finger-to-nose movement
+T44	problem 2097 2106	nontender
+T45	test 3090 3099	pin prick
+T46	test 1591 1611	physical examination
+T47	problem 922 942	the change in vision
+T48	problem 978 986	numbness
+T49	problem 850 858	symptoms
+T50	test 3076 3087	light touch
+T51	problem 2145 2186	2+ pitting edema in the knees bilaterally
+T52	problem 4896 4916	clear enhancing mass
+T53	problem 1022 1032	hoarseness
+T54	test 3895 3905	creatinine
+T55	test 4064 4096	the computerized tomography scan
+T56	test 4027 4054	partial thromboplastin time
+T57	problem 1035 1064	difficulties in finding words
+T58	treatment 6398 6408	bactrim ds
+T59	treatment 4646 4667	surgical intervention
+T60	problem 1698 1706	afebrile
+T61	test 4535 4550	her examination
+T62	test 1711 1726	her vital signs
+T63	test 3853 3861	chloride
+T64	problem 1078 1085	hiccups
+T65	problem 992 996	pain
+T66	problem 5496 5530	ventricular premature contractions
+T67	problem 2109 2121	nondistended
+T68	problem 967 975	weakness
+T69	test 5989 6004	her vital signs
+T70	problem 5073 5103	mild narrowing of the left ica
+T71	problem 5627 5635	thrombus
+T72	test 5306 5322	a holter monitor
+T73	test 3955 3965	hematocrit
+T74	test 4733 4767	a magnetic resonance imaging study
+T75	problem 3323 3332	nystagmus
+T76	problem 448 460	hypertension
+T77	treatment 1251 1259	atenolol
+T78	test 5533 5550	an echocardiogram
+T79	problem 2435 2460	word finding difficulty .
+T80	test 2189 2217	the neurological examination
+T81	problem 4261 4297	a right occipital hemorrhagic stroke
+T82	problem 3346 3407	some fine fast beat nystagmus bilateral extremes of abduction
+T83	treatment 5878 5888	po bactrim
+T84	test 3887 3890	bun
+T85	test 3868 3879	bicarbonate
+T86	test 5058 5065	the mra
+T87	problem 1407 1433	transient ischemic attacks
+T88	problem 2416 2431	notable aphasia
+T89	problem 1169 1181	hypertension
+T90	problem 3158 3192	intention tremor on the right side
+T91	test 3123 3145	cerebellar examination
+T92	test 4772 4808	magnetic resonance imaging angiogram
+T93	test 2695 2706	light touch
+T94	problem 795 847	a dull , right sided headache over the right eyebrow
+T95	problem 209 243	right occipital hemorrhagic stroke
+T96	treatment 6373 6381	tenormin
+R1	PIP Arg1:T7 Arg2:T8
+R2	PIP Arg1:T7 Arg2:T9
+R3	PIP Arg1:T7 Arg2:T10
+R4	TeRP Arg1:T12 Arg2:T13
+R5	TeRP Arg1:T12 Arg2:T14
+R6	TeRP Arg1:T35 Arg2:T36
+R7	PIP Arg1:T43 Arg2:T26
+R8	TeRP Arg1:T55 Arg2:T18
+R9	TeRP Arg1:T74 Arg2:T1
+R10	TeRP Arg1:T78 Arg2:T71
+R11	TrAP Arg1:T83 Arg2:T17
+R12	TeRP Arg1:T86 Arg2:T70
+R13	PIP Arg1:T88 Arg2:T79
+R14	TeRP Arg1:T91 Arg2:T90
+R15	TeRP Arg1:T92 Arg2:T1

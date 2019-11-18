@@ -1,0 +1,219 @@
+T1	treatment 7852 7866	rehabilitation
+T2	problem 6562 6571	the wound
+T3	problem 6587 6600	some erythema
+T4	test 6077 6103	a neurological examination
+T5	problem 6136 6147	abnormality
+T6	treatment 2440 2444	axid
+T7	problem 2036 2043	colitis
+T8	test 1634 1651	aortic valve area
+T9	problem 3724 3726	s3
+T10	test 4715 4725	creatinine
+T11	treatment 7156 7184	the patient &apos;s coumadin
+T12	treatment 868 880	levofloxacin
+T13	problem 759 828	nafcillin sensitive staphylococcus aureus cellulitis of the right leg
+T14	treatment 2496 2502	zyrtec
+T15	test 5470 5490	a neurologic work-up
+T16	test 5610 5619	a glucose
+T17	test 4921 4924	mcv
+T18	problem 6850 6870	mitral regurgitation
+T19	test 1769 1797	calculated ejection fraction
+T20	test 3741 3761	vascular examination
+T21	problem 3778 3797	1+ carotid impulses
+T22	problem 3856 3883	transmitted cardiac murmurs
+T23	problem 200 221	mental status changes
+T24	test 4889 4911	white blood cell count
+T25	test 7006 7020	a head ct scan
+T26	problem 6821 6845	critical aortic stenosis
+T27	problem 54 74	mental status change
+T28	test 1559 1573	echocardiogram
+T29	test 5182 5192	urinalysis
+T30	problem 5202 5229	trace microscopic hematuria
+T31	problem 5279 5290	1+ bacteria
+T32	test 2989 3000	temperature
+T33	treatment 842 863	a course of nafcillin
+T34	problem 5174 5179	bleed
+T35	test 4794 4801	albumin
+T36	test 4822 4835	digoxin level
+T37	test 6209 6232	a cervical spine series
+T38	problem 6248 6274	degenerative joint disease
+T39	problem 6282 6298	obvious fracture
+T40	problem 7204 7233	abnormal liver function tests
+T41	treatment 514 523	treatment
+T42	problem 528 562	a right lower extremity cellulitis
+T43	problem 4223 4236	quite sedated
+T44	test 4706 4709	bun
+T45	problem 3475 3511	a two out of six high pitched murmur
+T46	treatment 4271 4282	medications
+T47	test 4745 4765	alkaline phosphatase
+T48	problem 77 87	cellulitis
+T49	problem 7134 7153	atrial fibrillation
+T50	test 4659 4665	sodium
+T51	problem 5561 5572	acute bleed
+T52	treatment 7784 7790	buspar
+T53	test 4692 4700	chloride
+T54	test 4808 4815	calcium
+T55	treatment 7498 7505	aspirin
+T56	treatment 2468 2474	buspar
+T57	problem 1742 1766	congestive heart failure
+T58	test 4311 4326	painful stimuli
+T59	test 5111 5123	head ct scan
+T60	test 4932 4951	coagulation studies
+T61	problem 598 618	worsening cellulitis
+T62	test 4868 4882	platelet count
+T63	test 5628 5635	protein
+T64	test 7025 7046	cervical spine series
+T65	test 4033 4074	the patient &apos;s extremity examination
+T66	problem 4123 4136	a small ulcer
+T67	problem 4091 4117	erythema of the right calf
+T68	problem 3995 4001	masses
+T69	problem 3124 3135	a leg ulcer
+T70	problem 3140 3150	cellulitis
+T71	test 3052 3077	head and neck examination
+T72	treatment 2305 2314	potassium
+T73	problem 668 690	severe aortic stenosis
+T74	test 1691 1710	continuity equation
+T75	problem 3233 3244	thyromegaly
+T76	problem 5794 5807	her agitation
+T77	problem 5831 5840	infection
+T78	problem 5873 5896	her metabolic condition
+T79	test 4168 4192	neurological examination
+T80	treatment 2869 2882	some sedation
+T81	problem 353 377	cerebrovascular accident
+T82	test 5669 5689	red blood cell count
+T83	problem 325 350	transient ischemic attack
+T84	test 1856 1870	echocardiogram
+T85	problem 1814 1834	mitral regurgitation
+T86	problem 304 308	fall
+T87	treatment 7748 7761	amitriptyline
+T88	treatment 6715 6736	prolonged antibiotics
+T89	problem 6767 6776	infection
+T90	treatment 2402 2414	levofloxacin
+T91	test 4732 4735	ast
+T92	treatment 2117 2124	digoxin
+T93	test 6335 6350	further testing
+T94	test 4772 4787	total bilirubin
+T95	problem 3346 3361	a sustained pmi
+T96	problem 1265 1274	combative
+T97	treatment 7589 7598	zaroxolyn
+T98	problem 1252 1260	confused
+T99	test 6356 6370	a neck ct scan
+T100	test 2831 2846	noxious stimuli
+T101	problem 3945 3955	non-tender
+T102	treatment 7529 7536	digoxin
+T103	test 3267 3291	auscultation bilaterally
+T104	test 2943 2959	respiratory rate
+T105	treatment 7562 7567	lasix
+T106	problem 3958 3971	non-distended
+T107	test 2739 2759	physical examination
+T108	test 3294 3315	the heart examination
+T109	test 7397 7423	these liver function tests
+T110	problem 266 286	mitral regurgitation
+T111	problem 245 260	aortic stenosis
+T112	test 5521 5542	a ct scan of the head
+T113	treatment 2151 2156	lasix
+T114	test 4676 4685	potassium
+T115	treatment 7684 7692	kay ciel
+T116	problem 7375 7394	cholestatic picture
+T117	problem 7320 7356	mildly elevated alkaline phosphatase
+T118	problem 7281 7300	elevated bilirubins
+T119	treatment 2370 2377	fosamax
+T120	problem 383 410	right lower extremity wound
+T121	problem 5400 5413	argumentative
+T122	problem 5438 5467	uncooperative with procedures
+T123	problem 5418 5426	confused
+T124	problem 2060 2084	vertebral body fractures
+T125	problem 5717 5733	xanthrochromasia
+T126	test 3091 3107	skin examination
+T127	problem 6962 6966	fall
+T128	treatment 2238 2247	zaroxolyn
+T129	test 4846 4856	hematocrit
+T130	test 5641 5663	white blood cell count
+T131	test 5003 5006	ptt
+T132	treatment 2178 2185	aspirin
+T133	problem 3419 3471	near complete obliteration of the second heart sound
+T134	test 2965 2979	blood pressure
+T135	test 1595 1610	a peak gradient
+T136	test 3886 3907	abdominal examination
+T137	problem 3977 3989	organomegaly
+T138	problem 1923 1946	cerebrovascular disease
+T139	treatment 5843 5867	her multiple medications
+T140	test 3016 3033	oxygen saturation
+T141	problem 1887 1906	atrial fibrillation
+T142	problem 6463 6495	right lower extremity cellulitis
+T143	treatment 7717 7724	fosamax
+T144	treatment 2209 2217	coumadin
+T145	problem 3635 3664	a blowing holosystolic murmur
+T146	test 2927 2937	heart rate
+T147	problem 898 926	a right leg fluid collection
+T148	treatment 7655 7663	coumadin
+T149	problem 1532 1556	aortic stenosis , severe
+T150	test 6152 6159	imaging
+T151	treatment 1001 1015	rehabilitation
+T152	treatment 2003 2019	chronic steroids
+T153	problem 1981 1999	temporal arteritis
+T154	problem 6199 6204	bleed
+T155	problem 5068 5078	infiltrate
+T156	problem 1952 1964	hypertension
+T157	test 5577 5594	a lumbar puncture
+T158	problem 3190 3206	spider angiomata
+T159	test 5014 5055	the patient &apos;s admission chest x-ray
+T160	problem 5084 5108	congestive heart failure
+T161	problem 7095 7103	deficits
+T162	treatment 1019 1031	levofloxacin
+T163	treatment 6663 6674	antibiotics
+T164	test 6169 6180	a head scan
+T165	test 4987 4993	an inr
+T166	problem 623 636	new confusion
+T167	problem 416 435	atrial fibrillation
+T168	treatment 7624 7634	prednisone
+T169	problem 6625 6640	true cellulitis
+T170	test 4488 4492	pain
+T171	test 2913 2924	vital signs
+T172	problem 2554 2574	known drug allergies
+T173	problem 1180 1194	the cellulitis
+T174	treatment 2339 2349	prednisone
+T175	treatment 2272 2281	toprol xl
+T176	test 4963 4965	pt
+T177	test 4495 4519	her deep tendon reflexes
+R1	PIP Arg1:T3 Arg2:T2
+R2	TeRP Arg1:T4 Arg2:T5
+R3	TrAP Arg1:T12 Arg2:T13
+R4	TeRP Arg1:T20 Arg2:T21
+R5	TeRP Arg1:T20 Arg2:T22
+R6	TeRP Arg1:T29 Arg2:T30
+R7	TeRP Arg1:T29 Arg2:T31
+R8	TrAP Arg1:T33 Arg2:T13
+R9	TeRP Arg1:T37 Arg2:T38
+R10	TeRP Arg1:T37 Arg2:T39
+R11	TrAP Arg1:T41 Arg2:T42
+R12	TrCP Arg1:T46 Arg2:T43
+R13	TeRP Arg1:T59 Arg2:T34
+R14	TeRP Arg1:T65 Arg2:T66
+R15	TeRP Arg1:T65 Arg2:T67
+R16	PIP Arg1:T67 Arg2:T66
+R17	PIP Arg1:T69 Arg2:T70
+R18	PIP Arg1:T76 Arg2:T77
+R19	PIP Arg1:T76 Arg2:T78
+R20	TeRP Arg1:T79 Arg2:T43
+R21	TeRP Arg1:T84 Arg2:T85
+R22	TrNAP Arg1:T88 Arg2:T89
+R23	TeRP Arg1:T108 Arg2:T95
+R24	TeRP Arg1:T112 Arg2:T51
+R25	PIP Arg1:T116 Arg2:T117
+R26	PIP Arg1:T116 Arg2:T118
+R27	PIP Arg1:T121 Arg2:T122
+R28	PIP Arg1:T121 Arg2:T123
+R29	TeRP Arg1:T126 Arg2:T70
+R30	TeRP Arg1:T126 Arg2:T69
+R31	PIP Arg1:T133 Arg2:T45
+R32	TeRP Arg1:T136 Arg2:T137
+R33	TeRP Arg1:T136 Arg2:T101
+R34	TeRP Arg1:T136 Arg2:T106
+R35	TeRP Arg1:T136 Arg2:T68
+R36	TrCP Arg1:T139 Arg2:T76
+R37	TrAP Arg1:T152 Arg2:T153
+R38	TeRP Arg1:T157 Arg2:T125
+R39	TeRP Arg1:T159 Arg2:T155
+R40	TeRP Arg1:T159 Arg2:T160
+R41	TrNAP Arg1:T163 Arg2:T89
+R42	TeRP Arg1:T164 Arg2:T154

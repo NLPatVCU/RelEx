@@ -1,0 +1,25 @@
+655488444
+BH
+7432347
+065055
+2/10/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+FREIREKOTE , SONYLA
+MRN :
+7432347
+Age :
+35y
+REGISTRATION DATE :
+02/10/2000 03:19 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , FREIREKOTE , SONYLA arrived in the Emergency Department at Bri Health on 02/10/2000 03:19 PM .
+The patient presented with a chief complaint of FOUND DOWN .
+Following evaluation and treatment , the patient 's disposition at the end of the visit was ADMITTED AS AN INPATIENT TO BRI HEALTH .
+Your patient was admitted under the care of REEFRAUP , JA Y with a preliminary diagnosis of SYNCOPE .
+If you need additional information please call 442-025-0303 .
+[ report _ end ]

@@ -1,0 +1,156 @@
+T1	test 2926 2937	cholesterol
+T2	problem 1816 1826	dysarthric
+T3	problem 1156 1158	pe
+T4	problem 273 285	hypertension
+T5	test 2944 2957	triglycerides
+T6	problem 707 715	diplopia
+T7	problem 4196 4208	the hematoma
+T8	problem 4228 4240	hypertension
+T9	test 3171 3188	twenty-four urine
+T10	test 4326 4360	a magnetic resonance imaging study
+T11	problem 4424 4453	a small vascular malformation
+T12	problem 4473 4487	the hemorrhage
+T13	problem 5431 5452	renal artery stenosis
+T14	test 3516 3525	protein s
+T15	problem 1417 1426	anicteric
+T16	treatment 5510 5529	hydrochlorothiazide
+T17	problem 4858 4874	her hypertension
+T18	problem 1497 1500	rub
+T19	problem 4133 4149	pulmonary emboli
+T20	test 3229 3232	vma
+T21	problem 1633 1651	hepatosplenomegaly
+T22	test 3439 3452	urine culture
+T23	treatment 5588 5598	nifedipine
+T24	test 2366 2390	the deep tendon reflexes
+T25	treatment 941 959	further management
+T26	test 2815 2821	sodium
+T27	test 3613 3617	axis
+T28	problem 1448 1454	bruits
+T29	test 3315 3324	platelets
+T30	problem 578 585	slurred
+T31	test 3409 3425	specific gravity
+T32	problem 1694 1699	edema
+T33	problem 3858 3884	intra-parenchymal hematoma
+T34	problem 3890 3912	mild local mass effect
+T35	test 3331 3347	prothrombin time
+T36	treatment 4777 4797	occupational therapy
+T37	problem 4682 4702	arm and leg weakness
+T38	problem 4707 4722	sensory deficit
+T39	problem 4658 4679	a mild leftsided face
+T40	test 2743 2754	heel / shin
+T41	problem 2688 2721	a mild dysmetria on the left side
+T42	test 3297 3307	hematocrit
+T43	test 2972 2975	ldl
+T44	test 3396 3406	urinalysis
+T45	treatment 5073 5092	hydrochlorothiazide
+T46	problem 1671 1681	clubbing ,
+T47	treatment 4961 4967	a-line
+T48	problem 5137 5149	hypertension
+T49	problem 1504 1510	gallop
+T50	test 2828 2837	potassium
+T51	test 2487 2499	sensory exam
+T52	problem 2510 2603	a mild diminution of light touch , pinprick , position , and vibration sense in the left side
+T53	problem 4621 4628	problem
+T54	problem 4036 4046	hemorrhage
+T55	problem 4058 4093	slightly more edema and mass effect
+T56	test 5095 5105	the workup
+T57	problem 5118 5133	secondary cause
+T58	test 3464 3482	sedimentation rate
+T59	test 3591 3603	sinus rhythm
+T60	treatment 5886 5906	occupational therapy
+T61	test 3530 3547	plasminogen level
+T62	test 3056 3083	thyroid stimulation hormone
+T63	problem 1349 1357	afebrile
+T64	problem 3753 3778	3 centimeter hyperdensity
+T65	problem 3917 3934	surrounding edema
+T66	problem 383 395	hypertension
+T67	problem 2665 2675	diminished
+T68	problem 5401 5427	lymphocytic ? chromocytoma
+T69	test 4096 4115	pulmonary angiogram
+T70	problem 2160 2189	a left central facial paresis
+T71	problem 1682 1690	cyanosis
+T72	test 1321 1335	blood pressure
+T73	problem 536 557	difficulty in talking
+T74	test 3504 3513	protein c
+T75	test 1973 2002	direct and consensual stimuli
+T76	problem 1585 1594	nontender
+T77	test 2892 2903	blood sugar
+T78	problem 1370 1377	lesions
+T79	test 3979 4012	head computerized tomography scan
+T80	problem 4311 4323	hypertension
+T81	problem 1488 1494	murmur
+T82	problem 3658 3682	st-segment abnormalities
+T83	problem 2252 2271	a left arm pronator
+T84	treatment 5044 5053	captopril
+T85	test 4631 4639	the exam
+T86	treatment 5855 5881	intensive physical therapy
+T87	test 3571 3588	electrocardiogram
+T88	problem 1788 1813	phasic or praxic problems
+T89	test 3268 3290	white blood cell count
+T90	test 3685 3696	chest x-ray
+T91	test 3487 3499	antithrombin
+T92	problem 212 247	right capsular putamenal hemorrhage
+T93	treatment 4756 4772	physical therapy
+T94	treatment 1039 1058	birth control pills
+T95	test 2725 2738	finger / nose
+T96	problem 1597 1609	nondistended
+T97	test 1530 1542	auscultation
+T98	problem 1404 1414	atraumatic
+T99	test 3135 3151	a cortisol level
+T100	test 2106 2117	light touch
+T101	treatment 4972 4993	nipride intravenously
+T102	test 2910 2919	uric acid
+T103	test 2876 2886	creatinine
+T104	test 3708 3741	head computerized tomography scan
+T105	problem 696 704	headache
+T106	test 2842 2850	chloride
+T107	test 2122 2130	pinprick
+T108	treatment 5056 5066	nifedipine
+T109	test 3626 3635	intervals
+T110	test 1889 1902	confrontation
+T111	test 3193 3206	catecholamine
+T112	test 3090 3120	dexamethasone suppression test
+T113	problem 1311 1318	anxious
+T114	problem 862 885	a mild left hemiparesis
+T115	test 3011 3044	urine and serum toxicology screen
+T116	problem 3955 3965	hemorrhage
+T117	treatment 5548 5557	captopril
+T118	test 3209 3222	metanephrines
+T119	test 797 815	her blood pressure
+T120	test 2857 2860	co2
+T121	problem 5336 5352	secondary causes
+T122	problem 5356 5368	hypertension
+T123	problem 2757 2794	the walk was paretic in the left side
+T124	problem 629 669	weakness and numbness of her arm and leg
+T125	test 2868 2871	bun
+T126	test 3361 3388	partial thromboplastin time
+T127	test 2192 2195	gag
+T128	problem 62 97	right capsular putamenal hemorrhage
+T129	problem 721 752	any other neurological symptoms
+T130	problem 4286 4307	cerebellar hemorrhage
+T131	test 2963 2966	hdl
+R1	PIP Arg1:T7 Arg2:T8
+R2	TeCP Arg1:T10 Arg2:T11
+R3	PIP Arg1:T11 Arg2:T12
+R4	PIP Arg1:T33 Arg2:T34
+R5	TrAP Arg1:T36 Arg2:T37
+R6	TrAP Arg1:T36 Arg2:T38
+R7	TrAP Arg1:T36 Arg2:T39
+R8	TeCP Arg1:T40 Arg2:T41
+R9	TrAP Arg1:T47 Arg2:T17
+R10	TeRP Arg1:T51 Arg2:T52
+R11	PIP Arg1:T54 Arg2:T55
+R12	TeCP Arg1:T56 Arg2:T57
+R13	PIP Arg1:T64 Arg2:T34
+R14	PIP Arg1:T64 Arg2:T65
+R15	PIP Arg1:T64 Arg2:T33
+R16	TeRP Arg1:T85 Arg2:T39
+R17	TeRP Arg1:T85 Arg2:T38
+R18	TeRP Arg1:T85 Arg2:T37
+R19	TrAP Arg1:T93 Arg2:T37
+R20	TrAP Arg1:T93 Arg2:T38
+R21	TrAP Arg1:T93 Arg2:T39
+R22	TeCP Arg1:T95 Arg2:T41
+R23	TrAP Arg1:T101 Arg2:T17
+R24	TeRP Arg1:T104 Arg2:T33
+R25	PIP Arg1:T130 Arg2:T80

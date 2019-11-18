@@ -1,0 +1,72 @@
+T1	problem 1431 1471	mild intercostal and sternal retractions
+T2	problem 3887 3892	apnea
+T3	test 362 369	rubella
+T4	test 3782 3809	car seat position screening
+T5	test 2679 2695	discharge weight
+T6	test 342 350	antibody
+T7	treatment 2372 2390	intravenous fluids
+T8	treatment 3710 3721	medications
+T9	treatment 2747 2756	treatment
+T10	problem 2761 2793	unconjungated hyperbilirubinemia
+T11	problem 1212 1225	nondysmorphic
+T12	test 379 382	rpr
+T13	problem 183 239	a spontaneous triamniotic-trichorionic triplet pregnancy
+T14	test 397 424	hepatitis b surface antigen
+T15	treatment 643 651	bed rest
+T16	treatment 2799 2811	phototherapy
+T17	treatment 660 671	terbutaline
+T18	test 436 459	group beta strep status
+T19	treatment 2937 2949	phototherapy
+T20	test 2979 2996	rebound bilirubin
+T21	test 318 328	blood type
+T22	test 1574 1588	femoral pulses
+T23	treatment 4082 4093	hepatitis b
+T24	problem 2259 2266	murmurs
+T25	treatment 4526 4548	influenza immunization
+T26	problem 1565 1571	murmur
+T27	treatment 4192 4215	synagis rsv prophylaxis
+T28	problem 4503 4523	chronic lung disease
+T29	problem 4878 4911	prematurity at 34 weeks gestation
+T30	problem 4616 4636	chronic lung disease
+T31	treatment 4034 4047	immunizations
+T32	test 1474 1487	breath sounds
+T33	problem 4001 4017	abnormal results
+T34	treatment 4748 4760	immunization
+T35	problem 4769 4778	influenza
+T36	test 3921 3942	state newborn screens
+T37	test 1102 1108	weight
+T38	test 1382 1392	red reflex
+T39	problem 4954 4985	unconjugated hyperbilirubinemia
+T40	treatment 2350 2353	npo
+T41	treatment 4164 4177	immunizations
+T42	test 2238 2253	blood pressures
+T43	treatment 1938 1954	nasal cannula o2
+T44	treatment 1008 1017	treatment
+T45	problem 1021 1032	prematurity
+T46	test 2814 2838	his peak serum bilirubin
+T47	problem 577 583	nausea
+T48	treatment 515 528	betamethasone
+T49	problem 3896 3915	oxygen desaturation
+T50	problem 586 594	vomiting
+T51	treatment 3724 3739	ferrous sulfate
+T52	problem 2134 2151	spontaneous apnea
+T53	problem 3167 3188	neurological concerns
+T54	problem 601 619	a shortened cervix
+T55	treatment 674 691	other medications
+T56	treatment 702 708	prozac
+T57	treatment 854 868	blow-by oxygen
+T58	problem 1624 1636	nondistended
+T59	treatment 735 760	elective cesarean section
+T60	problem 1612 1621	nontender
+T61	test 892 898	apgars
+T62	test 1135 1153	head circumference
+T63	treatment 2393 2406	enteral feeds
+T64	test 1118 1124	length
+T65	test 3241 3258	hearing screening
+T66	problem 1242 1267	mild respiratory distress
+T67	problem 1642 1648	masses
+R1	TrAP Arg1:T9 Arg2:T10
+R2	TrAP Arg1:T16 Arg2:T10
+R3	TrAP Arg1:T34 Arg2:T35
+R4	TeRP Arg1:T36 Arg2:T33
+R5	TrAP Arg1:T44 Arg2:T45

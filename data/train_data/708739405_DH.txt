@@ -1,0 +1,66 @@
+708739405 DH
+0606127
+65761
+4209641
+10/29/2003 12:00:00 AM
+OB Discharge Summary
+Signed
+DIS
+Report Status :
+Signed OB EMR L and D
+DISCHARGE SUMMARY
+NAME :
+SYSCO TAMARCE DOSE
+UNIT NUMBER :
+372-13-02
+ADMISSION DATE :
+20031029
+DISCHARGE DATE :
+20041101
+PRINCIPAL DISCHARGE DIAGNOSIS :
+Normal Vaginal Delivery
+ASSOCIATED DIAGNOSES :
+Current Smoker , history of ; Depression , history of ; Isoimmunization , Rh ; Undesired Fertility
+PRINCIPAL PROCEDURE OR OPERATION :
+Spontaneous Vertex Vaginal Delivery
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+POSTPARTUM THERAPEUTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Pp Sterilization
+HISTORY AND REASON FOR HOSPITALIZATION :
+Early Labor / Rule Out Labor
+PHYSICAL EXAMINATION :
+HEIGHT HOSPITAL COURSE ( include complications if any ) :
+This 22 year old Gravida 4 Para 2012 was admitted to the Naliheall County Memorial Hospital Obstetrical service on 10/29/2003 at 11:14 pm for the indication ( s ) : early labor / rule out labor .
+She delivered a 3263 gram female infant on 10/30/2003 at 05:03 am with apgar scores of 8 and 9 at one and five minutes respectively at 40.1 weeks gestation via spontaneous vertex vaginal delivery .
+During her labor she encountered the following complication ( s ) :
+none .
+During her delivery she encountered the following complication ( s ) :
+nuchal cord , x 1- reduced prior to delivery .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 11/01/2004 at 12:00 pm in good condition .
+DISCHARGE ORDERS ( medications instructions to patient , follow-up care ) :
+DISCHARGE ACTIVITY :
+No Restrictions
+DISCHARGE DIET :
+No Restrictions
+POSTPARTUM DISPOSITION :
+Home With Self-Care ( Routine Discharge )
+POSTPARTUM CARE SITE :
+Uval General Hospital
+POSTPARTUM RETURN APPOINTMENT ( DAYS ) :
+42
+BREAST FEEDING AT DISCHARGE :
+No
+POSTPARTUM RH IMMUNE GLOBULIN :
+Given
+POSTPARTUM MEASLES / MUMPS/RUBELLA VACCINE :
+Not Indicated
+MEDICATION ( S ) ON DISCHARGE :
+Multivitamins And Folate
+Electronically Signed :
+Ockgiernruss , Riret R 12/18/2003 7:53:30 PM

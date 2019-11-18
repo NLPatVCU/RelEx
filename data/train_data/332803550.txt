@@ -1,0 +1,79 @@
+332803550
+PUOMC
+6548851
+97371/52b3
+854510
+6/22/1993 12:00:00 AM
+CHRONIC OBSTRUCTIVE PULMONARY DISEASE
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+06-22-93
+DISCHARGE DATE :
+06-27-93
+PRINCIPAL DIAGNOSIS :
+Chronic obstructive pulmonary disease
+ASSOCIATED DIAGNOSES :
+Steroid complications , including cataract , osteoporosis , diffuse fibrocystic breast disease , trigeminal neuralgia .
+HISTORY OF PRESENT ILLNESS :
+Mrs. Cast is a 50 year old white female with a history of chronic obstructive pulmonary disease and evidence of severe lobular emphysema , who has progressive shortness of breath and inability to carry on with activities of daily living without assistance .
+She was admitted to the hospital for a pre lung transplant evaluation .
+The patient has been steroid dependent for two years and has been intubated in the past only once for a surgical repair of trigeminal neuralgia .
+Her previous occupation was an executive secretary , home trainer / nurse , rental aide .
+She has no history of asbestos exposure or tuberculosis exposure .
+PAST MEDICAL HISTORY :
+Notable for a history of trigeminal neuralgia , left shoulder surgery , fibrocystic breast disease , endometriosis and status post total abdominal hysterectomy .
+ALLERGIES :
+History of gastrointestinal intolerance to Tetracycline , Erythromycin , declomycin associated with edema and rash , Talwin associated with disorientation and gastrointestinal symptoms , Dilantin has caused rash and edema , morphine associated with itching and gastrointestinal symptoms , Demerol unclear .
+SOCIAL HISTORY :
+The patient is a divorced mother of two on Medicaid .
+FAMILY HISTORY :
+Non contributory .
+PHYSICAL EXAMINATION :
+Notable for her diffuse expiratory wheezes and scattered expiratory crackles .
+Cranial nerves were intact except for paresthesias on the left in the VII and VIII distribution .
+The breasts were notable for fibrocystic changes .
+LABORATORY DATA :
+Serum sodium 141 , potassium 4.0 , chloride 106 , C02 29.6 , calcium 9.2 , phosphorus 3.6 .
+Magnesium 1.7 .
+BUN 12 , creatinine 0.6 , glucose 92 , uric acid 3.3. Cholesterol 236 , triglycerides 115 , HDL 99 , LDL 114 , total protein 6.2 , globulin 2.6 , direct bilirubin 0 , total bilirubin 0.2 , alkaline phosphatase 59 , amylase 64 , SGOT 16 , LDH 141 , CPK 57 .
+The LH was 4.9 , FSH 3.3 .
+TSH was 124 , cortisol 2.1 , 25 hydroxy vitamin D , and 125 dihydroxy vitamin D levels were pending .
+Urine cotenine level none detected .
+Estradialol pending .
+White blood count 9.6 , hematocrit 38.8 , platelet 348,000 , mean corpuscular volume 85 and 86 , MCH 29 , MCHC 34 .
+PT 9.5/10.0 , PTT 23.9 .
+Urinalysis was normal .
+Sed rate 6 .
+Varicella antibody positive , CMV antibody positive , toxo negative , RPR non reactive .
+The patient was A+ .
+FEV1 0.78 liters , vital capacity 2.12 liters , total lung capacity 5.51 liters , single breath DLCO 5.3 ( 25% predicted ) .
+Cardiopulmonary exercise study results are pending .
+Echocardiogram showed normal right ventricular and left ventricular size and systolic function .
+A left and right heart catheterization and coronary angiogram revealed aortic 120/70 , mean 95 , PA 26/10 , mean 17 , PC 7 , RV 26/6 , RA 4 , cardiac output 5.7 , index 3.8 .
+Systemic arterial resistance 12/81 .
+The electrocardiogram showed a short PR interval with no delta wave , clockwise rotation present .
+A quantitative VQ scan of the lung showed 42% ventilation to the left , 57% ventilation to the right , 42% perfusion to the left , 57% perfusion to the right .
+Abdominal ultrasound was unremarkable .
+HIV testing results pending .
+Hepatitis serologies pending .
+HOSPITAL COURSE :
+The patient was seen in consultation by a variety of consultants including Infectious Disease , Cardiology , Endocrine , Psychiatry , ENT , and Neuro-ophthalmology .
+She was noted to have mild cataracts , possibly due to chronic steroids , as well as a subtle temporal disc pallor OD , possibly due to previous episode of optic neuritis .
+No acute pathology was noted and no treatment was necessary at this time .
+Dr. Koteelks indicated that the patient did not have sinus problems currently but thought that the trigeminal pain might be investigated further and that the sphenoid might account for some of the patient &apos;s discomfort .
+If so , he considers the possibility that this could be opened .
+This is left for further follow up as an outpatient .
+Dr. Tikkerth felt that the patient had mild adjustment related anxiety under good control with a history of tobacco abuse in the past .
+The patient completed the studies and to be informed of the results as an outpatient .
+She knows to return to her local physician for her routine care with her condition unchanged at the time of discharge .
+I L. STERPSKOLK , M.D.
+TR :
+bg / bmot
+DD :
+09-08-93
+TD :
+09/09/93
+CC :

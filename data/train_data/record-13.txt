@@ -1,0 +1,138 @@
+Admission Date :
+2018-10-25
+Discharge Date :
+2018-10-31
+Date of Birth :
+1951-06-15
+Sex :
+M
+Service : 
+CARDIOTHORACIC
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Michael D. Christensen , M.D.
+Chief Complaint :
+Shortness of Breath
+Major Surgical or Invasive Procedure :
+Coronary Artery Bypass Graft x3 ( Left internal mammary -> left anterior descending , saphaneous vein graft -> obtuse marginal , saphaneous vein graft -> posterior descending artery ) 2018-10-25
+History of Present Illness :
+67 y/o male with worsening shortness of breath. Had abnormal ETT and referred for cath .
+Cath revealed severe 3 vessel disease .
+Then referred for surgical intervention .
+Past Medical History :
+Carpal tunnel syndrome , Hypertension , Hyperlipidemia , Arthritis , h/o Bell's Palsy , HOH , s/p Tonsillectomy
+Social History :
+Denies ETOH , rare Tobacco .
+Electrician .
+Family History :
+Father with MI in 50 's and underwent CABG .
+Physical Exam :
+VS : 65 20 160/100 5 ' 7 " 180 #
+General : WD/WN male in NAD
+HEENT : EOMI , PERRL , NC/AT
+Neck : Supple , FROM , - JVD , - carotid bruits
+Chest : CTAB - w/r/r
+Heart : RRR - c/r/m/g
+Abd : Soft , NT/ND +BS
+Ext : Warm , well-perfused - edema , - varicosities
+Neuro : A&Ox3 , MAE , non-focal
+Pertinent Results :
+Echo 10-25 : PRE-BYPASS : Left ventricular wall thicknesses are normal .
+The left ventricular cavity size is normal .
+There is mild inferior wall hypokinesis .
+There is akinesis / dyskinesis and thinning of the mid to distal inferior septum and the apex .
+Overall left ventricular systolic function is mildly depressed .
+Right ventricular chamber size and free wall motion are normal .
+The descending thoracic aorta is mildly dilated .
+There are simple atheroma in the descending thoracic aorta .
+There are three aortic valve leaflets .
+There is no aortic valve stenosis .
+No aortic regurgitation is seen .
+The mitral valve leaflets are mildly thickened .
+Trivial mitral regurgitation is seen .
+POST-BYPASS : LV and RV function is unchanged .
+Aorta is unchanged .
+Other findings are unchanged .
+CXR 10-30 : Left lower lobe atelectasis has partially cleared .
+Upper lungs are clear .
+Mild postoperative widening of the cardiomediastinal silhouette is stable .
+No pneumothorax .
+2018-10-25 11:15 AM BLOOD WBC - 18.3 *# RBC - 3.42 * Hgb - 10.9 * Hct - 31.6 * MCV - 92 MCH - 31.7 MCHC - 34.4 RDW - 13.3 Plt Ct - 134 *
+2018-10-31 06:25 AM BLOOD WBC - 13.6 * RBC - 2.72 * Hgb - 8.6 * Hct - 24.6 * MCV - 91 MCH - 31.7 MCHC - 35.0 RDW - 14.0 Plt Ct - 314
+2018-10-25 11:15 AM BLOOD PT - 13.3 * PTT - 30.0 INR(PT) - 1.2 *
+2018-10-29 06:50 AM BLOOD PT - 11.9 INR(PT) - 1.0
+2018-10-25 12:36 PM BLOOD UreaN - 17 Creat - 0.7 Cl - 111 * HCO3 - 23
+2018-10-31 06:25 AM BLOOD Glucose - 91 UreaN - 19 Creat - 0.8 Na - 134 K - 4.0 Cl - 98 HCO3 - 26 AnGap - 14
+Brief Hospital Course :
+Mr. Kammerer was a same day admit and on 10-25 was brought to the operating room where he underwent a coronary artery bypass graft x 3 .
+Please see operative report for surgical details .
+He tolerated the procedure well and was transferred to the CSRU for invasive monitoring in stable condition .
+Later on op day he was weaned from sedation , awoke neurologically intact , and 
+extubated .
+Beta blockers and diuretics were initiated on post-op day one .
+He was diuresed towards his pre-op weight .
+He appeared to be doing well and was transferred to the SDU on this day .
+He did have burst of atrial fibrillation and was started on a Amiodarone gtt .
+His beta blockers were also titrated for maximal BP and HR control .
+Chest tubes were removed on post-op day two and epicardial pacing wires on post-op day three .
+Over the next several days he continued to improve his ambulation and mobility with physical therapy .
+He had no further episodes of AFIB while on po Amiodarone .
+On post-op day five he appeared to have left arm phlebitis and was started on antibiotics .
+He was discharged home on post-op day six with antibiotics and appropriate meds .
+He will have VNA services and make the appropriate follow-up appointments .
+Medications on Admission :
+Aspirin 81 mg qd , Toprol XL 50 mg qd , MVI , Flexeril 10 mg qhs , Plavix 75 mg qd ( last on 10-18 )
+Discharge Medications :
+1. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ).
+Disp :* 60 Capsule (s)* Refills :* 0 *
+2. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ).
+Disp:* 30 Tablet , Delayed Release ( E.C. )(s)* Refills :* 0 *
+3. Ranitidine HCl 150 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 60 Tablet (s)* Refills :* 0 *
+4. Oxycodone - Acetaminophen 5-325 mg Tablet Sig : 1-2 Tablets PO Q4H ( every 4 hours ) as needed for pain .
+Disp :* 40 Tablet (s)* Refills :* 0 *
+5. Atorvastatin 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+6. Amiodarone 200 mg Tablet Sig : Two ( 2 ) Tablet PO BID ( 2 times a day ): please take 400 mg twice a day until 11-02 then decrease to 400 mg once a day for 1 week and then decrease to 200 mg once a day .
+Disp :* 40 Tablet (s)* Refills :* 0 *
+7. Metoprolol Succinate 50 mg Tablet Sustained Release 24 HR Sig : One ( 1 ) Tablet Sustained Release 24 HR PO DAILY ( Daily ).
+Disp :* 30 Tablet Sustained Release 24 HR (s)* Refills :* 0 *
+8. Ferrous Gluconate 300 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 0 *
+9. Ascorbic Acid 500 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ).
+Disp :* 60 Tablet (s)* Refills :* 0 *
+10. Cephalexin 500 mg Capsule Sig : One ( 1 ) Capsule PO Q6H ( every 6 hours ) for 6 days : please complete full course .
+Disp :* 24 Capsule (s)* Refills :* 0 *
+11. Furosemide 20 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 2 weeks .
+Disp :* 14 Tablet (s)* Refills :* 0 *
+12. Potassium Chloride 10 mEq Capsule , Sustained Release Sig : One ( 1 ) Capsule , Sustained Release PO DAILY ( Daily ) for 2 weeks .
+Disp :* 14 Capsule , Sustained Release (s)* Refills :* 0 *
+13. Lisinopril 5 mg Tablet Sig : 0.5 Tablet PO DAILY ( Daily ).
+Disp :* 15 Tablet (s)* Refills :* 0 *
+Discharge Disposition :
+Home with Service
+Discharge Diagnosis :
+Coronary artery disease s/p Coronary Artery Bypass Graft x3
+PMH : Carpal tunnel syndrome , Hypertension , Hyperlipidemia , Arthritis
+Discharge Condition :
+good
+Discharge Instructions :
+May shower , no baths or swimming
+Monitor wounds for infection - redness , drainage , or increased pain
+Report any fever greater than 101
+Report any weight gain of greater than 2 pounds in 24 hours or 5 pounds in a week
+No creams , lotions , powders , or ointments to incisions
+No driving for approximately one month
+No lifting more than 10 pounds for 10 weeks
+Please call with any questions or concerns
+Left Arm continue with elevation , ice , and complete all antibiotics
+Followup Instructions :
+Dr Day in 4 weeks (( 469 ) 587-0462 ) please call for appointment
+Dr Miller in 1 week ( 262-575-0600 ) please call for appointment
+Dr Scott Raines in 2-3 weeks please call for appointment
+Wound check appointment 4 East as instructed by nurse ( 280-5326 )
+For surgical incision and left arm
+Craig Douglas MD 10-898
+Completed by : Reyes Marengo PA 80 - BMD 2018-11-19 @ 1536
+Signed electronically by : DR. Jeffrey Collins on : WED 2018-11-21 9:28 AM
+( End of Report )

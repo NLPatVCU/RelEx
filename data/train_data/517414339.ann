@@ -1,0 +1,161 @@
+T1	treatment 6602 6607	k-dur
+T2	test 6371 6390	the ionized calcium
+T3	problem 406 445	hypertrophic obstructive cardiomyopathy
+T4	test 5479 5482	inr
+T5	treatment 1013 1037	mitral valve replacement
+T6	treatment 6716 6723	norvasc
+T7	test 4516 4537	the electrocardiogram
+T8	problem 4545 4564	atrial fibrillation
+T9	problem 4600 4616	digitalis effect
+T10	problem 4628 4656	left ventricular hypertrophy
+T11	problem 4570 4595	slow ventricular response
+T12	treatment 2112 2125	cardioversion
+T13	treatment 2500 2528	laparoscopic cholecystectomy
+T14	treatment 1110 1127	parathyroidectomy
+T15	problem 3487 3506	shortness of breath
+T16	problem 471 503	right cheek basal cell carcinoma
+T17	problem 363 375	hypertension
+T18	treatment 4968 4985	parathyroidectomy
+T19	problem 1498 1533	generalized hoarseness in her voice
+T20	treatment 6772 6781	lopressor
+T21	problem 509 517	glaucoma
+T22	problem 2184 2198	osteoarthritis
+T23	problem 4781 4798	increased calcium
+T24	problem 4803 4822	hyperparathyroidism
+T25	problem 3124 3155	parathyroid or thyroid diseases
+T26	problem 1620 1653	some difficulties with swallowing
+T27	treatment 6743 6750	digoxin
+T28	treatment 627 649	dilation and curettage
+T29	test 4410 4417	glucose
+T30	treatment 3002 3010	timoptic
+T31	test 7027 7065	calcium , albumin and phosphate levels
+T32	treatment 2809 2817	coumadin
+T33	test 703 721	left breast biopsy
+T34	problem 5566 5592	some tingling in her hands
+T35	problem 5602 5640	some tingling hear her perioral region
+T36	test 4424 4440	prothrombin time
+T37	test 861 880	surgical evaluation
+T38	problem 885 908	her hyperparathyroidism
+T39	problem 3957 3973	irregular border
+T40	treatment 2554 2576	dilation and curettage
+T41	problem 2589 2595	polyps
+T42	problem 2367 2375	glaucoma
+T43	problem 1298 1312	a high calcium
+T44	problem 3752 3766	acute distress
+T45	test 4481 4508	partial thromboplastin time
+T46	treatment 2729 2734	lopid
+T47	problem 1415 1430	an elevated pth
+T48	test 3699 3719	physical examination
+T49	test 6160 6178	a prothrombin time
+T50	test 6989 7009	her prothrombin time
+T51	treatment 6690 6695	lasix
+T52	test 3853 3865	respirations
+T53	treatment 1206 1242	replacement of her knees bilaterally
+T54	treatment 2888 2895	norvasc
+T55	problem 3982 4006	very sluggishly reactive
+T56	test 4468 4471	inr
+T57	test 5754 5772	an ionized calcium
+T58	test 7012 7015	inr
+T59	test 4347 4357	hematocrit
+T60	treatment 746 763	parathyroidectomy
+T61	test 4365 4377	electrolytes
+T62	problem 2139 2178	hypertrophic obstructive cardiomyopathy
+T63	treatment 6657 6666	rocaltrol
+T64	treatment 5847 5853	os-cal
+T65	problem 3568 3587	shortness of breath
+T66	treatment 5362 5370	coumadin
+T67	treatment 6628 6634	os-cal
+T68	test 3834 3845	temperature
+T69	problem 1582 1596	some dysphagia
+T70	problem 3638 3653	short of breath
+T71	treatment 5940 5950	her os-cal
+T72	problem 2040 2052	hypertension
+T73	problem 60 79	hyperparathyroidism
+T74	test 3334 3355	the review of systems
+T75	problem 3388 3407	dyspnea on exertion
+T76	test 5907 5926	her ionized calcium
+T77	test 5404 5423	her coumadin levels
+T78	treatment 2917 2924	digoxin
+T79	treatment 2219 2252	bilateral total knee replacements
+T80	problem 2071 2090	atrial fibrillation
+T81	treatment 1893 1917	mitral valve replacement
+T82	treatment 6056 6073	calcium gluconate
+T83	problem 5989 6018	her ionized calcium decreased
+T84	treatment 2783 2788	lasix
+T85	test 4323 4340	white blood count
+T86	treatment 1988 1996	coumadin
+T87	test 1252 1275	preoperative evaluation
+T88	problem 2676 2696	known drug allergies
+T89	problem 959 998	hypertrophic obstructive cardiomyopathy
+T90	test 3769 3778	her pulse
+T91	problem 2290 2322	right cheek basal cell carcinoma
+T92	problem 2381 2420	non insulin dependent diabetes mellitus
+T93	problem 5728 5745	muscular weakness
+T94	problem 4759 4778	dyspnea on exertion
+T95	treatment 4048 4076	revision of cataract surgery
+T96	treatment 2977 2986	glucotrol
+T97	test 4245 4263	rectal examination
+T98	treatment 2946 2955	lopressor
+T99	problem 5293 5300	changes
+T100	treatment 6574 6579	lopid
+T101	problem 6280 6303	tingling in her fingers
+T102	treatment 6455 6463	coumadin
+T103	problem 273 292	hyperparathyroidism
+T104	test 5456 5476	the prothrombin time
+T105	test 3811 3825	blood pressure
+T106	problem 4741 4756	cardiac history
+T107	treatment 3042 3057	pilocarpine gel
+T108	problem 451 465	osteoarthritis
+T109	problem 1078 1090	hypertension
+T110	problem 1048 1075	chronic atrial fibrillation
+T111	treatment 668 684	cataract surgery
+T112	problem 1379 1398	hyperparathyroidism
+T113	treatment 6804 6813	glucotrol
+T114	test 4113 4132	cardiovascular exam
+T115	problem 2013 2025	hypertension
+T116	treatment 5350 5357	heparin
+T117	test 6141 6147	an inr
+T118	problem 1456 1474	masses in her neck
+T119	treatment 2642 2658	cataract surgery
+T120	problem 4163 4191	irregularly irregular rhythm
+T121	treatment 1936 1971	a st. jude &apos;s mechanical valve
+T122	test 3871 3923	the head , eyes , ears , nose and throat examination
+T123	test 6189 6200	her calcium
+T124	treatment 580 608	laparoscopic cholecystectomy
+T125	test 6211 6218	albumin
+T126	problem 2462 2470	shingles
+T127	test 1354 1369	further testing
+T128	treatment 1327 1338	the surgery
+T129	treatment 5387 5398	her heparin
+T130	test 2601 2619	left breast biopsy
+T131	test 6229 6238	phosphate
+T132	problem 523 562	non-insulin dependent diabetes mellitus
+T133	problem 5041 5058	markedly enlarged
+T134	problem 5079 5089	an adenoma
+T135	treatment 333 357	mitral valve replacement
+T136	problem 4135 4158	iii / vi systolic click
+T137	treatment 2757 2762	k-dur
+T138	problem 381 400	atrial fibrillation
+T139	treatment 4840 4857	parathyroidectomy
+R1	TeRP Arg1:T7 Arg2:T8
+R2	TeRP Arg1:T7 Arg2:T9
+R3	TeRP Arg1:T7 Arg2:T10
+R4	TeRP Arg1:T7 Arg2:T11
+R5	PIP Arg1:T23 Arg2:T24
+R6	PIP Arg1:T34 Arg2:T35
+R7	TeCP Arg1:T37 Arg2:T38
+R8	TrAP Arg1:T40 Arg2:T41
+R9	TeRP Arg1:T48 Arg2:T44
+R10	PIP Arg1:T69 Arg2:T26
+R11	TeRP Arg1:T74 Arg2:T75
+R12	TrAP Arg1:T79 Arg2:T22
+R13	TrAP Arg1:T82 Arg2:T83
+R14	TeRP Arg1:T87 Arg2:T43
+R15	PIP Arg1:T112 Arg2:T47
+R16	TeRP Arg1:T122 Arg2:T39
+R17	TeRP Arg1:T122 Arg2:T55
+R18	TeRP Arg1:T127 Arg2:T47
+R19	TeRP Arg1:T127 Arg2:T112
+R20	TrNAP Arg1:T128 Arg2:T43
+R21	PIP Arg1:T133 Arg2:T134
+R22	TrAP Arg1:T139 Arg2:T24

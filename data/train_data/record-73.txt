@@ -1,0 +1,98 @@
+Admission Date :
+2015-12-03
+Discharge Date :
+2015-12-08
+Date of Birth :
+1960-04-22
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Geoffrey F Corney , M.D.
+Chief Complaint :
+bright red blood per rectum
+Major Surgical or Invasive Procedure :
+Colonoscopy
+Virtual colonoscopy
+History of Present Illness :
+55 yo M w/ h/o recurrent bladder ca s/p cystectomy w/ ileal conduit p/w BRBPR to OSH .
+Hct dropped 34 -> 22 .
+EGD normal .
+Cscope unable to complete due to blood but tics seen .
+Tagged RBC + activity in RLQ .
+Transferred to Mediplex Rehab Hospital ICU where Hct has remained stable .
+Seen by GI and plan is to continue holding anticoagulation and repeat scope on Monday .
+Pt feeling well , denies abd pain , N/V , LH , SOB , CP .
+Past Medical History :
+Metastatic bladder CA now in remission s/p chemo/xrt s/p cystectomy and ileal loop urinary diversion and also radical prstatectomy with bilateral pelvic lymph node dissection .
+b/l DVT s, most recent seen in IVC to right femoral vein s/p IVC filter 2015-01-15
+Nephrolithiasis .
+Anemia - baseline mid 30 s.
+Social History :
+From Sao Tome originally .
+denies smoking
+works at a deli in beaconhill .
+Family History :
+denies fh of bleeding or clotting disorders .
+Physical Exam :
+per admitting resident :
+T 97.4 BP 100/62 P 56 RR 16
+Mid aged man in NAD
+sclera anicteric , MMM
+supple , no LAD
+CTAB
+RRR S1/S2 no M
+soft , +BS , NT , Midline surgical scar , nephrostomy bag draining
+yellowish urine in RLQ
+no edema , no clubbing
+Pertinent Results :
+2015-12-03 10:27 PM GLUCOSE - 88 UREA N - 12 CREAT - 1.0 SODIUM - 138 POTASSIUM - 3.3 CHLORIDE - 107 TOTAL CO2 - 25 ANION GAP - 9
+2015-12-03 10:27 PM estGFR - Using this
+2015-12-03 10:27 PM CALCIUM - 8.7 PHOSPHATE - 2.4 * MAGNESIUM - 1.5 *
+2015-12-03 10:27 PM WBC - 8.4 RBC - 2.98 * HGB - 9.3 * HCT - 26.3 * MCV - 88 MCH - 31.1 MCHC - 35.3 * RDW - 14.4
+2015-12-03 10:27 PM PLT COUNT - 164
+2015-12-03 10:27 PM PT - 11.4 PTT - 27.5 INR(PT) - 1.0
+Brief Hospital Course :
+55 year old man with history of metastatic bladder cancer and recurrent DVT s on Lovenox admitted with lower GI bleeding .
+Right lower quadrant source of bleed on red blood cell scan .
+Attempts to visualize colon by conventional and CT virtual colonoscopy failed because of sigmoid angulation and inadequate preparation , respectively .
+On Ct scan , a right psoas mass , most consistent with a hematoma , was seen .
+Since the hematocrit of the patient was stable and outside records from 2015-03-28 mentioned a mass in the right pelvis , the patient was discharged .
+Lovenox was held until follow-up with primary care doctor .
+Also , a repeat outpatient CT colonoscopy with better preparation should be considered .
+Medications on Admission :
+Lovenox 0.6 mg / kg SC BID
+Discharge Medications :
+1. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO once a day .
+2. Outpatient Lab Work
+cbc , creatinine
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Primary diagnosis :
+GIB
+Secondary diagnosis :
+Metastatic , recurrent bladder cancer
+h/o DVT s
+Discharge Condition :
+Good .
+Stable Hct of 31 .
+Discharge Instructions :
+We recommend that you do NOT resume your lovenox until talking to your PCP , Dr. Jessie .
+You likely have a bleeding source in your colon that we have been unable to visualize .
+The bleeding has stopped and you have remained hemodynamically stable and your hematocrit is stable , but you are at risk of bleeding from this source again with anticoagulation .
+A CT scan of your abdomen showed a right pelvic mass , most likely a hematoma , which had been described previously in 2015-03-28 .
+Please continue to take your other medications as prescribed .
+Please follow up with your PCP as scheduled .
+Please bring your outpatient lab results to your PCP ( Dr. Hemler )
+Please see a doctor if you feel dizzy , or have blood in your stool again .
+Followup Instructions :
+Please follow up with your PCP S. Saracino on 2015-12-30 at 8:00 AM .
+Her number is ( 512 ) 677-6547 .
+Please go to Dr. Colombo office later this week to have your labs drawn and sent to Dr. Powell .
+James Jennifer MD , PHD 12-944
+Completed by : Kimberly Sarah MD 97-625 2015-12-08 @ 1543
+Signed electronically by : DR. Joanne Gilbert YANG on : MON 2016-02-08 9:27 AM
+( End of Report )

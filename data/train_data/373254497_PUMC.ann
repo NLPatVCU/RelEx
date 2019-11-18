@@ -1,0 +1,12 @@
+T1	test 666 673	ct scan
+T2	problem 680 692	ovarian cyst
+T3	treatment 717 724	vicodin
+T4	problem 492 503	pelvic pain
+T5	problem 854 878	worsening abdominal pain
+T6	problem 894 918	other worrisome symptoms
+T7	problem 630 644	abdominal pain
+T8	problem 881 890	discharge
+T9	problem 589 603	abdominal pain
+T10	problem 482 491	abd pain/
+T11	problem 845 851	fevers
+R1	TeRP Arg1:T1 Arg2:T2

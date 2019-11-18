@@ -1,0 +1,124 @@
+Admission Date :
+2012-06-07
+Discharge Date :
+2012-06-09
+Date of Birth :
+1963-12-03
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Christopher KJ Cater , M.D.
+Chief Complaint :
+Overdose
+Major Surgical or Invasive Procedure :
+NG tube
+History of Present Illness :
+Mr. Vazquez is a 48 year old man with a history of hepatitis C , bipolar disorder with suicide attempts in the past , recent CMED admit earlier in 4/05 who was found alert approximately one hour after taking an unspecified number of pills .
+Per report , there were empty bottles of Inderal and Klonopin found at bedside , as well as 02-26 full bottles of geodon , gabapentin , Lescol and paroxitine .
+The patient was reportedly alert at scene , and then became unresponsive in route to the hospital .
+In the Rita , the patient was intubated and given activated charcoal .
+His initial BP was 60/P with a pulse in the 60 s.
+He was given 4 amps of calcium gluconate , and started on a Calcium gtt .
+He was also given 5mg of glucagon and started on a glucagon drip with good response .
+His urine and serum tox screens were notable only for benzos , otherwise negative .
+He was seen by cardiology , and toxicology was consulted via telephone .
+He was admitted to the CMED , intubated for airway protection and started on both a calcium and glucagon drip .
+There was evidence of possible aspiration pneumonia on CXR , though he was extubated without incident on the AM of transfer to the medicine floor .
+CMED was made aware , and they are actively involved in his care .
+Past Medical History :
+Hep C
+Bipolar D/O with one suicide attempt by overdose several years ago
+Agoraphobia
+Panic disorder
+Narcissism
+No history of head trauma or seizure disorder
+Social History :
+Denies alcohol use .
+Has a history of cocaine abuse - in remission for 6 years , with one relapse 2.5 years ago .
+Has a history of qualude use since high school , also in remission .
+Denies use of AA/NA . Smokes 1ppd .
+Patient lives at home with his mother , father and brother .
+Reports that he has suffered from anxiety since childhood and needed to drop out of college .
+Unemployed and on disability .
+Waiting for a subsidized apartment .
+No current relationship .
+Family History :
+Denies .
+Physical Exam :
+Vitals : 99.3   67 ( 60-70 )   99/53 ( 90-100 s)   96% on RA   3.7L + LOS
+Gen : caucasian man lying in bed , NAD
+HEENT : NCAT , PERRL , EOMI , no icterus , OP clear , MMM , no tongue fasciculations
+Neck : supple , no LAD , no JVD
+CV : RRR , nl s1 s2 , no m/g/r
+Lungs : ? decreased BS over left middle lung , otherwise CTA
+Abd : normal size , nd , no scars , nl bs , soft , nt , palp liver
+Ext : no c/c/e , no edema
+Neuro : no asterixis , CN II-XII intact , 5/5 strength throughout , sensation to LT intact throughout , gait deferred
+CMED : A+Ox3 , mood " great ," affect approp , speech stuttering , linear TP , no SI or HI
+Pertinent Results :
+Labs on admit :
+2012-06-07 09:55 PM BLOOD WBC - 8.9 RBC - 4.94 Hgb - 15.8 Hct - 45.3 MCV - 92 MCH - 31.9 MCHC - 34.8 RDW - 12.4 Plt Ct - 175
+2012-06-07 09:55 PM BLOOD Neuts - 49.9 * Lymphs - 42.4 * Monos - 5.5 Eos - 1.6 Baso - 0.6
+2012-06-07 09:55 PM BLOOD Plt Ct - 175
+2012-06-07 09:55 PM BLOOD PT - 12.8 PTT - 25.7 INR(PT) - 1.0
+2012-06-07 09:55 PM BLOOD Glucose - 108 * UreaN - 13 Creat - 0.7 Na - 146 * K - 3.7 Cl - 109 * HCO3 - 30 * AnGap - 11
+2012-06-07 09:55 PM BLOOD Albumin - 3.9 Calcium - 8.5 Phos - 4.2 Mg - 2.0
+2012-06-07 09:55 PM BLOOD ALT - 44 * AST - 31 AlkPhos - 36 * TotBili - 0.2
+2012-06-07 09:55 PM BLOOD ASA - NEG Ethanol - NEG Acetmnp - NEG Bnzodzp - NEG Barbitr - NEG Tricycl - NEG
+Labs today :
+2012-06-08 09:30 AM BLOOD WBC - 10.1 RBC - 4.35 * Hgb - 14.2 Hct - 39.9 * MCV - 92 MCH - 32.6 * MCHC - 35.6 * RDW - 12.4 Plt Ct - 151
+2012-06-08 09:30 AM BLOOD Glucose - 115 * UreaN - 14 Creat - 0.8 Na - 142 K - 4.1 Cl - 112 * HCO3 - 26 AnGap - 8
+2012-06-08 09:30 AM BLOOD Calcium - 10.4 * Phos - 2.8 Mg - 1.8
+2012-06-08
+CXR :
+An endotracheal tube terminates just above the thoracic inlet approximately 6.5 cm above the carina .
+The nasogastric tube terminates within the stomach .
+Cardiac and mediastinal contours are within normal limits .
+There is a patchy area of increased opacity in the left retrocardiac region , which was not seen on the earlier study .
+Right lung is clear .
+Left costophrenic angle has been excluded from the study and cannot be assessed .
+There is no evidence of right pleural effusion or right pneumothorax .
+IMPRESSION :
+1) Endotracheal tube is slightly proximal in location , and could be advanced approximately 1.5 cm for more optimal placement .
+2) Patchy left retrocardiac opacity which may be due to patchy atelectasis , aspiration , or early pneumonia .
+Followup radiograph suggested
+Brief Hospital Course :
+A/P : 48yo man with h/o HCV , bipolar DO , h/o suicide attempts , a/w overdose of Inderal , Klonopin , Geodon , s/T Jackson stay with intubation for airway protection , with question of L retrocardiac infiltrate , now doing well .
+Overdose :
+- monitor on tele overnight
+- if HR drops , restart glucagon gtt
+- watch for BZD withdrawal , agitation
+Bipolar disorder :
+- appreciate CMED consult ; patient to be discharged to inpatient CMED facility once stable
+- suicide precautions
+Activity : OOB with assist
+FEN : house diet
+PPX : SC heparin , bowel regimen , nicotine patch
+CODE : full
+DISPO : transfer to inpatient CMED likely tomorrow
+Medications on Admission :
+Neurontin 800 mg tid
+Ziprasidone bid
+Propanolol 20 mg tid
+Klonopin 2 mg tid
+Paxil 30 mg qd
+Protonix 40 mg qd
+Folate 1 mg qd
+Lescol 40 qd
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Depression
+Discharge Condition :
+Depressed
+Discharge Instructions :
+Going to UMass Memorial Medical Center 4 .
+Followup Instructions :
+Please f / u with PCP D 2 weeks .
+Joseph Judy MD 35-943
+Completed by : John Konderla MD 01-196 2012-06-09 @ 1707
+Signed electronically by : DR. Felix Garcia on : FRI 2012-06-15 4:29 PM
+( End of Report )

@@ -1,0 +1,339 @@
+T1	treatment 8240 8257	5 mg iv lopressor
+T2	problem 8201 8209	rapid af
+T3	problem 4524 4551	guaiac positive brown stool
+T4	treatment 6199 6207	imipenem
+T5	treatment 8689 8700	the digoxin
+T6	treatment 10090 10109	increasing diuresis
+T7	problem 6696 6731	the organism &apos;s susceptibility
+T8	test 5517 5519	pt
+T9	treatment 10497 10507	tube feeds
+T10	treatment 8495 8502	digoxin
+T11	problem 8507 8541	his paroxysmal atrial fibrillation
+T12	test 10252 10259	his sat
+T13	problem 5749 5765	an epidural mass
+T14	test 892 900	a workup
+T15	treatment 3269 3284	stress steroids
+T16	test 5555 5557	tt
+T17	problem 370 386	thrombocytopenia
+T18	treatment 11369 11375	colace
+T19	problem 4409 4422	non-distended
+T20	problem 3688 3705	diabetes mellitus
+T21	test 10781 10787	his pt
+T22	treatment 6812 6820	imipenem
+T23	treatment 9800 9803	nph
+T24	test 4344 4356	auscultation
+T25	problem 4362 4398	a few fine crackles at the left base
+T26	treatment 6511 6520	cefotetan
+T27	treatment 3931 3936	lasix
+T28	test 6236 6244	cultures
+T29	problem 6333 6355	pseudomonas aeruginosa
+T30	treatment 723 750	this bone marrow transplant
+T31	problem 11433 11454	adrenal insufficiency
+T32	problem 4003 4007	pain
+T33	problem 2392 2415	some fecal incontinence
+T34	test 10048 10062	his saturation
+T35	problem 323 335	plasmacytoma
+T36	problem 2567 2577	dysarthria
+T37	treatment 9945 9953	steroids
+T38	treatment 11619 11642	magnesium sliding scale
+T39	test 5037 5048	examination
+T40	problem 5011 5029	mildly inattentive
+T41	treatment 806 825	three cycles of vad
+T42	problem 5664 5675	infiltrates
+T43	problem 2068 2076	the pain
+T44	problem 1732 1748	cord compression
+T45	problem 4271 4277	bruits
+T46	problem 10843 10863	a low platelet count
+T47	problem 2618 2628	chest pain
+T48	problem 8581 8592	tachycardia
+T49	treatment 6212 6222	tobramycin
+T50	problem 3423 3439	multiple myeloma
+T51	treatment 2985 2995	gentamicin
+T52	treatment 11457 11465	imipenem
+T53	test 3167 3180	cardiac index
+T54	problem 3225 3253	a pseudomonas sepsis picture
+T55	problem 7825 7851	his pseudomonas cellulitis
+T56	test 995 1014	an mri of the spine
+T57	problem 1022 1055	diffuse spinal column involvement
+T58	problem 1061 1081	lesions in t4 and t8
+T59	problem 1090 1106	cord compression
+T60	treatment 6654 6664	gentamicin
+T61	treatment 9514 9531	his decadron dose
+T62	treatment 6928 6936	imipenem
+T63	treatment 11645 11668	potassium sliding scale
+T64	treatment 7649 7671	these dressing changes
+T65	problem 7631 7643	extreme pain
+T66	treatment 10190 10203	nasal cannula
+T67	test 4280 4292	cardiac exam
+T68	problem 4320 4326	murmur
+T69	treatment 9905 9929	the supplemental insulin
+T70	problem 3550 3580	chronically low platelet count
+T71	problem 9305 9323	a cord compression
+T72	test 10140 10158	his o2 saturations
+T73	treatment 10617 10632	this tube feeds
+T74	problem 2597 2603	nausea
+T75	test 5527 5530	ptt
+T76	problem 874 889	lower back pain
+T77	treatment 10637 10658	aspiration precaution
+T78	treatment 399 421	bone marrow transplant
+T79	treatment 6523 6534	ceftriaxone
+T80	treatment 6858 6875	those medications
+T81	problem 1315 1328	mid back pain
+T82	treatment 6463 6476	ciprofloxacin
+T83	test 5702 5708	an mri
+T84	problem 4472 4490	hepatosplenomegaly
+T85	treatment 6825 6835	tobramycin
+T86	problem 2186 2189	red
+T87	treatment 6450 6460	gentamicin
+T88	test 8716 8733	an echocardiogram
+T89	problem 1643 1682	a right posterior lateral epidural mass
+T90	problem 226 256	paroxysmal atrial fibrillation
+T91	problem 9014 9030	the plasmacytoma
+T92	problem 176 220	right lower extremity pseudomonas cellulitis
+T93	problem 4890 4896	drowsy
+T94	treatment 11677 11696	morphine sulfate iv
+T95	problem 11725 11742	breakthrough pain
+T96	treatment 1841 1850	ms contin
+T97	treatment 6537 6548	mezlocillin
+T98	test 8744 8765	his ejection fraction
+T99	treatment 10288 10305	intravenous lasix
+T100	problem 10336 10358	respiratory compromise
+T101	problem 10362 10388	increasing pulmonary edema
+T102	treatment 11590 11599	synthroid
+T103	treatment 1147 1164	radiation therapy
+T104	treatment 11395 11403	florinef
+T105	problem 5870 5884	these findings
+T106	problem 5906 5926	the cord compression
+T107	problem 5998 6036	the patient &apos;s clinical situation
+T108	problem 6062 6086	a pseudomonas cellulitis
+T109	problem 6091 6108	subsequent sepsis
+T110	problem 5341 5366	no reflexes at the ankles
+T111	treatment 3893 3903	gentamicin
+T112	test 2855 2857	ua
+T113	test 2722 2735	a temperature
+T114	treatment 7525 7533	xeroform
+T115	treatment 6414 6422	imipenem
+T116	treatment 6909 6923	the tobramycin
+T117	test 6111 6125	blood cultures
+T118	problem 6165 6176	pseudomonas
+T119	treatment 11277 11285	dulcolax
+T120	treatment 2971 2982	ceftazidime
+T121	treatment 7474 7496	these dressing changes
+T122	test 2874 2888	blood cultures
+T123	problem 2926 2948	pseudomonas aeruginosa
+T124	treatment 3906 3917	solu cortef
+T125	test 9122 9129	the mri
+T126	test 9421 9442	his neurological exam
+T127	problem 9479 9511	increasing lower extremity edema
+T128	problem 6267 6276	the wound
+T129	treatment 7685 7712	parenteral morphine sulfate
+T130	problem 7717 7753	pain control during dressing changes
+T131	problem 4456 4466	non-tender
+T132	problem 2308 2342	the right lower extremity swelling
+T133	test 3138 3152	wedge pressure
+T134	problem 2192 2199	swollen
+T135	problem 10114 10139	improving septic pictures
+T136	treatment 7582 7602	sterile dry bandages
+T137	test 5075 5085	motor exam
+T138	problem 5100 5118	positive asterixis
+T139	treatment 3866 3876	vancomycin
+T140	treatment 3939 3948	synthroid
+T141	treatment 11342 11349	digoxin
+T142	test 8359 8376	an echocardiogram
+T143	problem 8438 8457	decreased global ef
+T144	treatment 7537 7545	betadine
+T145	problem 5856 5867	csf density
+T146	treatment 9334 9342	steroids
+T147	problem 10453 10468	hypoalbuminemia
+T148	problem 10422 10447	a poor nutritional status
+T149	test 1580 1605	an mri without gadolinium
+T150	problem 4557 4575	perirectal lesions
+T151	test 3083 3089	a swan
+T152	problem 9161 9171	infectious
+T153	problem 8313 8332	atrial fibrillation
+T154	problem 8596 8621	blood pressure alteration
+T155	treatment 9578 9595	his decadron dose
+T156	treatment 6479 6489	tobramycin
+T157	problem 9033 9059	the patient &apos;s lesion
+T158	test 2835 2848	urine culture
+T159	treatment 10754 10763	vitamin k
+T160	test 9645 9666	his neurological exam
+T161	treatment 11554 11587	insulin czi sliding scale regular
+T162	treatment 7797 7805	imipenem
+T163	treatment 7441 7449	xeroform
+T164	problem 4225 4237	oral lesions
+T165	treatment 11128 11159	thrombocytopenic inducing drugs
+T166	problem 4660 4667	swollen
+T167	treatment 9762 9789	increasing doses of insulin
+T168	test 2769 2779	heart rate
+T169	treatment 7375 7385	amputation
+T170	problem 4743 4782	pitting edema of both lower extremities
+T171	treatment 11246 11253	tylenol
+T172	treatment 7351 7372	surgical intervention
+T173	treatment 1855 1872	radiation therapy
+T174	test 2746 2760	blood pressure
+T175	treatment 10906 10932	his bone marrow transplant
+T176	test 2790 2796	o2 sat
+T177	problem 4714 4730	extremely tender
+T178	treatment 11058 11084	several blood transfusions
+T179	problem 9200 9212	plasmacytoma
+T180	problem 4639 4644	tense
+T181	problem 530 546	multiple myeloma
+T182	problem 3481 3511	plasmacytoma of t9 through t12
+T183	problem 5614 5637	positive granular casts
+T184	treatment 6425 6436	ceftazidime
+T185	problem 2521 2529	headache
+T186	test 6737 6748	lab studies
+T187	treatment 7096 7107	his regimen
+T188	problem 4494 4500	masses
+T189	treatment 11771 11781	tobramycin
+T190	problem 3445 3475	paroxysmal atrial fibrillation
+T191	treatment 3879 3890	ceftazidime
+T192	treatment 6561 6571	ampicillin
+T193	test 5474 5477	hct
+T194	problem 10685 10704	elevated pt and ptt
+T195	problem 2240 2282	chronic bilateral lower extremity swelling
+T196	treatment 8108 8116	dopamine
+T197	problem 8157 8167	his sepsis
+T198	treatment 3586 3626	failed autologous bone marrow transplant
+T199	test 4843 4873	neurological exam on admission
+T200	problem 427 443	multiple myeloma
+T201	treatment 7455 7463	betadine
+T202	treatment 9239 9260	the radiation therapy
+T203	test 5581 5583	ua
+T204	problem 11021 11038	his bleeding risk
+T205	treatment 3037 3052	a dopamine drip
+T206	problem 3070 3080	his sepsis
+T207	treatment 6574 6589	chloramphenicol
+T208	treatment 9375 9386	iv decadron
+T209	treatment 7047 7064	infection control
+T210	test 5445 5467	white blood cell count
+T211	treatment 3002 3012	vancomycin
+T212	problem 2607 2615	vomiting
+T213	problem 341 364	poor nutritional status
+T214	treatment 3961 3970	ms contin
+T215	treatment 573 609	an autologous bone marrow transplant
+T216	treatment 2289 2303	his transplant
+T217	treatment 7020 7035	intravenous igg
+T218	treatment 3986 3990	mso4
+T219	treatment 7154 7176	improved mrsa coverage
+T220	test 5503 5510	glucose
+T221	treatment 6596 6605	sulbactam
+T222	test 2818 2832	blood cultures
+T223	treatment 6551 6558	bactrim
+T224	problem 4802 4840	cellulitis of the left lower extremity
+T225	problem 6358 6370	the organism
+T226	treatment 10969 10978	platelets
+T227	treatment 3785 3795	penicillin
+T228	problem 3823 3829	a rash
+T229	treatment 1751 1784	the patient &apos;s decadron dose
+T230	treatment 6439 6447	amikacin
+T231	problem 262 278	cord compression
+T232	problem 2206 2226	increasingly painful
+T233	problem 2532 2544	arm weakness
+T234	treatment 3951 3958	insulin
+T235	problem 2547 2564	changes in vision
+T236	problem 1489 1522	numbness in the lower extremities
+T237	test 3127 3130	cvp
+T238	test 4176 4192	respiratory rate
+T239	test 5256 5276	deep tendon reflexes
+T240	test 9964 9974	his sugars
+T241	treatment 7810 7820	tobramycin
+T242	test 10792 10795	ptt
+T243	problem 7201 7249	erythema along the lateral right lower extremity
+T244	treatment 10230 10243	nasal cannula
+T245	problem 3641 3655	hypothyroidism
+T246	treatment 10028 10039	a face mask
+T247	treatment 8886 8903	radiation therapy
+T248	treatment 11319 11327	decadron
+T249	test 10987 10997	his counts
+T250	treatment 3376 3394	further management
+T251	problem 2451 2471	urinary incontinence
+T252	problem 4647 4657	purple-red
+T253	problem 4209 4219	atraumatic
+T254	test 5483 5497	platelet count
+T255	treatment 4013 4021	dopamine
+T256	treatment 6638 6649	ceftazidime
+T257	treatment 9844 9863	a czi sliding scale
+T258	problem 9711 9744	steroid induced diabetes mellitus
+T259	problem 7896 7904	erythema
+T260	test 11108 11115	his hct
+T261	problem 2580 2594	abdominal pain
+T262	treatment 8985 9009	xrt to the spinal region
+T263	problem 1419 1475	noticeably increasing bilateral lower extremity weakness
+T264	test 4198 4208	heent exam
+T265	treatment 11704 11720	dressing changes
+T266	test 5322 5338	patella reflexes
+T267	problem 7968 7981	this erythema
+T268	problem 3517 3544	chronic renal insufficiency
+T269	problem 8424 8430	septic
+T270	problem 1547 1577	difficulty rising from a chair
+T271	treatment 3800 3811	sulfa drugs
+T272	treatment 1235 1243	decadron
+T273	treatment 11745 11753	carafate
+T274	treatment 11482 11493	insulin nph
+T275	treatment 11799 11808	vancomyin
+T276	test 3194 3197	svr
+T277	treatment 686 708	total body irradiation
+T278	problem 2632 2651	shortness of breath
+T279	test 4159 4169	heart rate
+T280	test 5538 5548	fibrinogen
+T281	problem 8827 8841	a plasmacytoma
+T282	test 5640 5651	chest x-ray
+T283	problem 2009 2035	right lower extremity pain
+T284	problem 4579 4587	erythema
+T285	test 4136 4150	blood pressure
+T286	test 5565 5574	magnesium
+T287	treatment 7067 7077	vancomycin
+T288	treatment 11518 11529	insulin nph
+T289	problem 284 317	steroid induced diabetes mellitus
+T290	test 4117 4128	temperature
+R1	TrIP Arg1:T1 Arg2:T2
+R2	TrAP Arg1:T10 Arg2:T11
+R3	TeRP Arg1:T24 Arg2:T25
+R4	TeRP Arg1:T28 Arg2:T29
+R5	TeRP Arg1:T39 Arg2:T40
+R6	TeRP Arg1:T53 Arg2:T54
+R7	TeRP Arg1:T56 Arg2:T57
+R8	TeRP Arg1:T56 Arg2:T58
+R9	TeRP Arg1:T56 Arg2:T59
+R10	PIP Arg1:T57 Arg2:T58
+R11	PIP Arg1:T57 Arg2:T59
+R12	TrCP Arg1:T64 Arg2:T65
+R13	TeRP Arg1:T67 Arg2:T68
+R14	TeRP Arg1:T83 Arg2:T13
+R15	TrAP Arg1:T94 Arg2:T95
+R16	TrAP Arg1:T99 Arg2:T100
+R17	TrAP Arg1:T99 Arg2:T101
+R18	TrAP Arg1:T104 Arg2:T31
+R19	PIP Arg1:T105 Arg2:T106
+R20	PIP Arg1:T107 Arg2:T108
+R21	PIP Arg1:T107 Arg2:T109
+R22	PIP Arg1:T108 Arg2:T109
+R23	TeRP Arg1:T117 Arg2:T118
+R24	TeRP Arg1:T122 Arg2:T123
+R25	TeRP Arg1:T126 Arg2:T127
+R26	TrAP Arg1:T129 Arg2:T130
+R27	TeRP Arg1:T133 Arg2:T54
+R28	TeRP Arg1:T137 Arg2:T138
+R29	TeRP Arg1:T142 Arg2:T143
+R30	TrAP Arg1:T146 Arg2:T71
+R31	PIP Arg1:T147 Arg2:T148
+R32	TeRP Arg1:T149 Arg2:T89
+R33	TeRP Arg1:T151 Arg2:T54
+R34	TrAP Arg1:T162 Arg2:T55
+R35	TeRP Arg1:T186 Arg2:T7
+R36	TrIP Arg1:T196 Arg2:T197
+R37	TeRP Arg1:T199 Arg2:T93
+R38	TrAP Arg1:T202 Arg2:T179
+R39	TeRP Arg1:T203 Arg2:T183
+R40	TrAP Arg1:T205 Arg2:T206
+R41	TrAP Arg1:T218 Arg2:T32
+R42	TrAP Arg1:T226 Arg2:T204
+R43	TrCP Arg1:T227 Arg2:T228
+R44	TeRP Arg1:T237 Arg2:T54
+R45	TrAP Arg1:T241 Arg2:T55
+R46	TrAP Arg1:T262 Arg2:T91
+R47	TrCP Arg1:T271 Arg2:T228
+R48	TeRP Arg1:T276 Arg2:T54
+R49	TeRP Arg1:T282 Arg2:T42

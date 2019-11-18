@@ -1,0 +1,47 @@
+297228405 DH
+0595721
+777098
+4177257
+2/3/2004 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+CHIRDVOLN , IENA
+MRN :
+0595721
+Age :
+46y
+REGISTRATION DATE :
+02/03/2004 11:14 AM
+Provider :
+AGE SHUFF
+PRELIMINARY REPORT
+Discharge Date / Time :
+02/03/2004 19:12
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+VAG BLEEDING
+Diagnosis :
+dysfunctional uterine bleeding
+Treatment Rendered :
+pelvic ultrasound - normal ovaries , thickened endometrium hematocrit - 33
+Discharge Medications :
+percocet as directed for pain
+Follow up Service :
+Please follow up with gynecology - you will need to have your uterine bleeding evaluted
+Please call gynecology clinic at 150-5825 to arrange for follow up .
+Disposition , Follow up and Instructions to Patient :
+Please return to the ED if you develop any worsening pain , vomiting or fevers &gt; 101 .
+If you are unable to keep down liquids or have any fainting episodes we should see you again as well .
+Otherwise you need to see a gynecologist to evaluate this bleeding .
+PCP Name :
+REKE , ATOTA S
+Provider Number :
+26024
+This report was created by SHUFF , RONRIN 02/03/2004 07:23 PM

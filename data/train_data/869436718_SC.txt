@@ -1,0 +1,119 @@
+869436718 SC
+64806295
+6613471
+10/1/2003 12:00:00 AM
+post partum
+DIS
+Admission Date :
+10/01/2003
+Report Status :
+Discharge Date :
+10/04/2003
+****** DISCHARGE ORDERS ******
+KULRINNE , RYYELEGE N
+386-85-38-0 X32
+Room :
+JQL5-545
+Service :
+OBS
+DISCHARGE PATIENT ON :
+10/04/03 AT 10:00 AM
+CONTINGENT UPON
+Not Applicable
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+KOTEJOASTHOREUPHKAYS , GAI , M.D.
+DISPOSITION :
+Home
+DISCHARGE MEDICATIONS :
+TYLENOL ( ACETAMINOPHEN ) 650 MG PO Q4H PRN PAIN
+Alert overridden :
+Override added on 10/01/03 by KOTEJOASTHOREUPHKAYS , GAI , M.D.
+POTENTIALLY SERIOUS INTERACTION :
+ACETAMINOPHEN and ACETAMINOPHEN
+Reason for override :
+ok
+COLACE ( DOCUSATE SODIUM ) 100 MG PO BID IBUPROFEN 600 MG PO Q4H PRN PAIN
+Food / Drug Interaction Instruction
+Take with food MILK OF MAGNESIA ( MAGNESIUM HYDROXIDE ) 30 MILLILITERS PO BID PRN Constipation PERCOCET 1-2 TAB PO Q4H PRN PAIN
+Override Notice :
+Override added on 10/01/03 by KOTEJOASTHOREUPHKAYS , GAI , M.D. on order for TYLENOL PO 650 MG Q4H ( ref # 85225311 )
+POTENTIALLY SERIOUS INTERACTION :
+ACETAMINOPHEN and ACETAMINOPHEN
+Reason for override :
+ok
+DIET :
+No Restrictions
+ACTIVITY :
+Resume regular exercise
+FOLLOW UP APPOINTMENT ( S ) :
+kotejoasthoreuphkays 6 weeks ,
+ALLERGY :
+Sulfa , Bactrim
+ADMIT DIAGNOSIS :
+Pregnancy
+PRINCIPAL DISCHARGE DIAGNOSIS ;
+Responsible After Study for Causing Admission )
+post partum
+OTHER DIAGNOSIS ;
+Conditions , Infections , Complications , affecting Treatment / Stay
+twins
+OPERATIONS AND PROCEDURES :
+Primary Anesthesia :
+Spinal
+Vaginal delivery :
+Undelivered
+Cesarean Status :
+Primary
+Urgency :
+Scheduled
+Indications :
+Breech , Multiple gestation ,
+Uterine incision type :
+Transverse
+Placenta :
+Delivery :
+Spontaneous
+Condition :
+Normal
+Staff Obstetrician ( supervising ) :
+KOTEJOASTHOREUPHKAYS , GAI , M.D. Delivery
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+none
+BRIEF RESUME OF HOSPITAL COURSE :
+G3 T1 P0 A1 L1
+Estimated EDC :
+10/14/03
+Maternal transfer :
+No
+Initial newborn exam :
+No observed abnormalities
+Baby 1
+MRN :
+76306248
+Delivery date :
+10/01/03 09:06 AM
+Apgars 8,9
+Weight :
+7lb 1 oz 3204 grams
+Sex :
+Male
+Baby 2
+MRN :
+62685780
+Delivery date :
+10/01/03 09:08 AM
+Apgars 8,8
+Weight :
+7lb 0 oz 3175 grams
+Sex :
+Female
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+KOTEJOASTHOREUPHKAYS , GAI , M.D. ( CT17 ) 10/04/03 07:11 AM
+****** END OF DISCHARGE ORDERS ******

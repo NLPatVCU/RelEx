@@ -1,0 +1,40 @@
+T1	problem 873 892	flaccid bilaterally
+T2	test 1738 1745	autopsy
+T3	problem 1879 1923	previous right middle cerebral artery stroke
+T4	problem 785 807	poor airway protection
+T5	problem 530 542	unresponsive
+T6	problem 1404 1415	paresthetic
+T7	problem 1230 1276	positional tremors of the left upper extremity
+T8	problem 1634 1647	carotid pulse
+T9	treatment 713 719	ativan
+T10	problem 678 686	seizures
+T11	problem 1183 1197	carotid bruits
+T12	problem 1392 1399	flaccid
+T13	problem 767 779	unresponsive
+T14	treatment 741 752	iv dilantin
+T15	problem 905 927	oculocephalic reflexes
+T16	problem 290 306	unresponsiveness
+T17	problem 392 412	mild aortic stenosis
+T18	problem 548 575	left tonic-clonic movements
+T19	problem 983 995	unresponsive
+T20	problem 1598 1610	unresponsive
+T21	problem 1619 1631	heart sounds
+T22	problem 1650 1672	respiratory excursions
+T23	problem 1678 1697	pupillary reactions
+T24	problem 334 357	ischemic cardiomyopathy
+T25	test 1344 1359	painful stimuli
+T26	problem 1130 1170	generalized slowing without ictal events
+T27	problem 1207 1227	stertorous breathing
+T28	test 363 383	an ejection fraction
+T29	problem 1784 1841	left middle cerebral artery territory cerebral infarction
+T30	problem 261 285	focal left-sided seizure
+T31	problem 1847 1861	cardiomyopathy
+T32	problem 417 464	a right middle cerebral artery territory stroke
+T33	test 1097 1120	an electroencephalogram
+T34	problem 1279 1316	a spastic left hemiparesis in flexion
+R1	TrIP Arg1:T9 Arg2:T10
+R2	PIP Arg1:T20 Arg2:T21
+R3	PIP Arg1:T20 Arg2:T8
+R4	PIP Arg1:T20 Arg2:T22
+R5	PIP Arg1:T20 Arg2:T23
+R6	TeRP Arg1:T33 Arg2:T26

@@ -1,0 +1,244 @@
+T1	treatment 3276 3298	cardiopulmonary bypass
+T2	treatment 9804 9811	aspirin
+T3	treatment 6475 6481	zantac
+T4	problem 6409 6440	gastroesophageal reflux disease
+T5	problem 5519 5551	distinctive psychiatric disorder
+T6	treatment 9725 9735	metoprolol
+T7	problem 1138 1158	stroke like symptoms
+T8	problem 6624 6644	a little bit icteric
+T9	treatment 5881 5892	these drips
+T10	test 6647 6667	liver function tests
+T11	problem 6696 6734	slightly elevated liver function tests
+T12	problem 2683 2711	his critical aortic stenosis
+T13	problem 252 259	dyspnea
+T14	treatment 3192 3219	a super coronary arch graft
+T15	treatment 3036 3057	saphenous vein grafts
+T16	problem 2714 2741	his coronary artery disease
+T17	treatment 364 388	sublingual nitroglycerin
+T18	problem 275 296	exertional chest pain
+T19	treatment 6262 6271	intubated
+T20	treatment 2915 2926	five grafts
+T21	problem 197 222	type ii diabetes mellitus
+T22	test 6739 6742	alt
+T23	treatment 5672 5689	the levophed drip
+T24	test 6752 6755	ast
+T25	problem 973 990	clotting problems
+T26	problem 1062 1074	claudication
+T27	treatment 9832 9838	plavix
+T28	treatment 5741 5750	milrinone
+T29	test 7787 7793	weight
+T30	treatment 2394 2403	homograft
+T31	test 6765 6785	alkaline phosphatase
+T32	problem 961 969	bleeding
+T33	problem 1226 1242	recent pneumonia
+T34	test 2456 2479	preoperative evaluation
+T35	test 6819 6834	total bilirubin
+T36	problem 4751 4768	somewhat confused
+T37	treatment 9859 9866	heparin
+T38	test 1660 1680	physical examination
+T39	problem 1698 1706	afebrile
+T40	test 6845 6852	amylase
+T41	treatment 2408 2436	coronary artery bypass graft
+T42	test 4643 4655	the cat scan
+T43	problem 1366 1386	known drug allergies
+T44	treatment 6524 6534	his nexium
+T45	problem 1184 1204	hypercholesterolemia
+T46	treatment 9954 9965	humalog max
+T47	problem 5573 5595	postoperative delirium
+T48	treatment 2800 2813	the procedure
+T49	treatment 9905 9914	metformin
+T50	treatment 5658 5669	the surgery
+T51	treatment 2868 2908	a coronary artery bypass graft procedure
+T52	test 7616 7626	hematocrit
+T53	problem 9543 9568	chronic blood loss anemia
+T54	treatment 7362 7379	the sliding scale
+T55	problem 9520 9540	perioperative stroke
+T56	test 760 795	his atrioventricular valve gradient
+T57	test 4321 4352	subsequent radiographic imaging
+T58	problem 4607 4623	an acute infarct
+T59	problem 4362 4416	chronic appearing infarcts in the right occipital lobe
+T60	problem 4472 4493	more chronic infarcts
+T61	problem 4268 4281	his confusion
+T62	treatment 7726 7734	diuresis
+T63	treatment 5299 5308	trazodone
+T64	test 1709 1715	weight
+T65	treatment 3245 3273	a .................... graft
+T66	problem 7851 7861	his stroke
+T67	problem 7819 7839	his inability to eat
+T68	problem 9625 9645	hypercholesterolemia
+T69	treatment 8280 8297	boost supplements
+T70	treatment 3447 3460	the procedure
+T71	problem 1847 1853	bruits
+T72	problem 9599 9622	urinary tract infection
+T73	treatment 7521 7543	packed red blood cells
+T74	test 3783 3805	his oxygen saturations
+T75	problem 8021 8039	his initial stroke
+T76	treatment 3513 3522	milrinone
+T77	problem 710 757	90% stenosis of the posterior descending artery
+T78	treatment 8226 8259	a cardiac healthy , diabetic diet
+T79	treatment 9573 9596	chronic rbc transfusion
+T80	treatment 3336 3349	cross clamped
+T81	treatment 4999 5015	physical therapy
+T82	treatment 2361 2388	an elected bental procedure
+T83	problem 2746 2797	his significantly dilated ascending aortic aneurysm
+T84	problem 4833 4857	a right sided hemiplegia
+T85	treatment 8519 8553	the patient 's central venous line
+T86	problem 920 948	paroxysmal nocturnal dyspnea
+T87	test 1816 1841	head and neck examination
+T88	problem 9648 9664	type ii diabetes
+T89	problem 904 917	any orthopnea
+T90	problem 8497 8505	this bug
+T91	problem 1015 1031	any palpitations
+T92	treatment 2851 2865	a tissue valve
+T93	test 856 873	review of systems
+T94	treatment 2818 2845	an aortic valve replacement
+T95	treatment 9761 9770	captopril
+T96	problem 8611 8619	serratia
+T97	problem 5407 5416	confusion
+T98	treatment 5020 5040	occupational therapy
+T99	problem 1317 1348	gastroesophageal reflux disease
+T100	problem 8715 8722	e. coli
+T101	test 808 826	an av surface area
+T102	test 8636 8651	a urine culture
+T103	test 1734 1748	blood pressure
+T104	problem 9667 9698	gastroesophageal reflux disease
+T105	problem 9299 9322	coronary artery disease
+T106	problem 2071 2089	hepatosplenomegaly
+T107	problem 7060 7090	slightly elevated blood sugars
+T108	treatment 9469 9486	aortic arch graft
+T109	problem 9434 9454	aortic arch aneurysm
+T110	treatment 7137 7161	an insulin sliding scale
+T111	problem 9489 9517	acute postoperative delirium
+T112	treatment 1515 1522	lipitor
+T113	problem 8997 9021	the e. coli in his urine
+T114	problem 6991 7004	cholecystitis
+T115	problem 7008 7022	cholelithiasis
+T116	problem 1207 1223	type ii diabetes
+T117	problem 4200 4213	slow to awake
+T118	problem 4124 4150	the major neurologic event
+T119	problem 8733 8757	intermittently resistant
+T120	treatment 8795 8802	bactrim
+T121	problem 1078 1103	gastrointestinal bleeding
+T122	problem 2097 2111	cva tenderness
+T123	treatment 4220 4237	his propofol drip
+T124	problem 1051 1059	wheezing
+T125	treatment 8951 8958	bactrim
+T126	treatment 7166 7179	basal insulin
+T127	problem 9368 9392	critical aortic stenosis
+T128	test 7192 7208	his blood sugars
+T129	treatment 4067 4082	pressor support
+T130	treatment 8761 8774	ciprofloxacin
+T131	test 4040 4062	hemodynamic monitoring
+T132	problem 8082 8100	an aspiration risk
+T133	treatment 1420 1427	aspirin
+T134	problem 5482 5504	his neurologic insults
+T135	problem 1962 1990	3/6 systolic ejection murmur
+T136	problem 2041 2050	nontender
+T137	problem 642 705	70% stenoses of the left circumflex and oblique marginal artery
+T138	treatment 3843 3862	supplemental oxygen
+T139	treatment 9407 9431	aortic valve replacement
+T140	problem 7966 7984	an aspiration risk
+T141	problem 3751 3780	major problems with his lungs
+T142	problem 506 527	a dilated aortic root
+T143	treatment 1436 1442	nexium
+T144	problem 542 590	80% stenosis of the mid left anterior descending
+T145	problem 6949 6976	common bile duct dilatation
+T146	treatment 8921 8937	his aortic graft
+T147	test 1887 1899	auscultation
+T148	treatment 3538 3552	propofol drips
+T149	treatment 9337 9365	coronary artery bypass graft
+T150	problem 2053 2065	nondistended
+T151	problem 8871 8896	his blood borne infection
+T152	treatment 10198 10207	trazodone
+T153	treatment 3525 3533	levophed
+T154	treatment 10114 10120	colace
+T155	problem 6931 6945	any gallstones
+T156	test 5910 5928	his blood pressure
+T157	treatment 3375 3407	pharmacologic circulatory arrest
+T158	test 451 474	cardiac catheterization
+T159	treatment 10024 10036	levofloxacin
+T160	treatment 3500 3509	intubated
+T161	problem 2223 2235	varicosities
+T162	test 8573 8596	the catheterization tip
+T163	test 6882 6915	a right upper quadrant ultrasound
+T164	treatment 3671 3680	intubated
+T165	problem 5437 5459	his psychiatric issues
+T166	problem 172 192	hypercholesterolemia
+T167	problem 6007 6024	his sternal wound
+T168	problem 8337 8370	positive blood and urine cultures
+T169	problem 8395 8438	methicillin resistant staphylococcus aureus
+T170	problem 10156 10168	loose stools
+T171	treatment 10058 10073	bactrim ds tabs
+T172	treatment 6065 6078	the procedure
+T173	test 8451 8464	pan sensitive
+T174	treatment 2676 2682	repair
+T175	test 6865 6871	lipase
+T176	treatment 10287 10290	kcl
+T177	problem 6102 6114	hypertension
+T178	problem 2167 2175	clubbing
+T179	treatment 10248 10253	lasix
+T180	treatment 5988 6002	this procedure
+T181	treatment 1457 1467	carvedilol
+T182	treatment 1485 1495	glucophage
+T183	treatment 10171 10177	nexium
+T184	problem 2156 2164	cyanosis
+T185	problem 5963 5977	any chest pain
+T186	problem 6161 6181	hypercholesterolemia
+T187	problem 414 448	a positive exercise tolerance test
+T188	problem 1266 1284	recent weight loss
+T189	problem 4773 4795	a little bit out of it
+T190	problem 2179 2184	edema
+T191	problem 1301 1314	the pneumonia
+T192	treatment 6139 6149	metoprolol
+R1	TrAP Arg1:T3 Arg2:T4
+R2	TeRP Arg1:T10 Arg2:T11
+R3	TrIP Arg1:T17 Arg2:T18
+R4	TeRP Arg1:T38 Arg2:T39
+R5	PIP Arg1:T47 Arg2:T5
+R6	TeRP Arg1:T57 Arg2:T58
+R7	TeRP Arg1:T57 Arg2:T59
+R8	TeRP Arg1:T57 Arg2:T60
+R9	TeCP Arg1:T57 Arg2:T61
+R10	PIP Arg1:T59 Arg2:T60
+R11	PIP Arg1:T66 Arg2:T67
+R12	TrAP Arg1:T79 Arg2:T53
+R13	TeRP Arg1:T93 Arg2:T89
+R14	TeRP Arg1:T93 Arg2:T86
+R15	TeRP Arg1:T102 Arg2:T100
+R16	TrAP Arg1:T108 Arg2:T109
+R17	TrAP Arg1:T110 Arg2:T107
+R18	PIP Arg1:T114 Arg2:T115
+R19	PIP Arg1:T118 Arg2:T117
+R20	PIP Arg1:T119 Arg2:T100
+R21	TrCP Arg1:T123 Arg2:T117
+R22	TrCP Arg1:T123 Arg2:T118
+R23	TrAP Arg1:T125 Arg2:T113
+R24	TrAP Arg1:T126 Arg2:T107
+R25	TeRP Arg1:T128 Arg2:T107
+R26	TrCP Arg1:T130 Arg2:T119
+R27	TrWP Arg1:T130 Arg2:T100
+R28	TrAP Arg1:T139 Arg2:T127
+R29	PIP Arg1:T145 Arg2:T114
+R30	PIP Arg1:T145 Arg2:T115
+R31	TrAP Arg1:T149 Arg2:T105
+R32	PIP Arg1:T155 Arg2:T114
+R33	PIP Arg1:T155 Arg2:T115
+R34	TeRP Arg1:T158 Arg2:T144
+R35	TeRP Arg1:T158 Arg2:T142
+R36	TeRP Arg1:T158 Arg2:T137
+R37	TeRP Arg1:T158 Arg2:T77
+R38	TeRP Arg1:T162 Arg2:T96
+R39	TeRP Arg1:T163 Arg2:T155
+R40	TeRP Arg1:T163 Arg2:T145
+R41	PIP Arg1:T165 Arg2:T134
+R42	PIP Arg1:T165 Arg2:T5
+R43	PIP Arg1:T165 Arg2:T47
+R44	PIP Arg1:T168 Arg2:T169
+R45	TrCP Arg1:T172 Arg2:T167
+R46	TeRP Arg1:T173 Arg2:T169
+R47	TrAP Arg1:T174 Arg2:T12
+R48	TrAP Arg1:T174 Arg2:T16
+R49	TrAP Arg1:T174 Arg2:T83
+R50	PIP Arg1:T189 Arg2:T36
+R51	PIP Arg1:T191 Arg2:T188
+R52	TrAP Arg1:T192 Arg2:T177

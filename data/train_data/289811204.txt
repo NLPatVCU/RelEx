@@ -1,0 +1,101 @@
+289811204
+FIH
+2696998
+22684/ukjj
+819579
+4/16/1993 12:00:00 AM
+RIGHT HIP , OSTEOARTHRITIS .
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+4/16/93
+DISCHARGE DATE :
+4/23/93
+PRINCIPAL DIAGNOSIS :
+Right hip , osteoarthritis .
+HISTORY OF PRESENT ILLNESS :
+The patient is a generally healthy 85 year old female , who has had a five year history of right hip pain , worsening over the past several months .
+Her pain is located in the groin and thigh .
+It is aggravated by activity and improved by sitting or lying down .
+It is associated with rest pain as well .
+She uses a cane or walker for ambulation , and is limited to one to two blocks .
+She does stairs one at a time and only with help .
+She has difficulty with shoes and socks and foot care .
+The patient &apos;s pain has not been relieved by Darvocet and Advil .
+Radiographs demonstrate right hip osteoarthritis .
+Having failed conservative management , the patient presented for elective right total hip replacement .
+PAST MEDICAL HISTORY :
+Hypertension , possible peptic ulcer disease 1959 , history of left ankle and knee fractures , 1980 .
+Recent urinary tract infection , E. coli 03/93 .
+Recent herpes zoster .
+PAST SURGICAL HISTORY :
+cholecystectomy , total abdominal hysterectomy , cataract excision .
+MEDICATIONS ON ADMISSION :
+hydrochlorothiazide 50 mg. PO qday , KayCiel .
+ALLERGIES :
+The patient has no known drug allergies .
+HABITS :
+The patient does not smoke or drink .
+REVIEW OF SYSTEMS :
+Negative in detail .
+PHYSICAL EXAMINATION :
+The patient was an elderly woman in no acute distress .
+The head and neck exam was within normal limits .
+The lungs were clear to auscultation .
+Cardiac :
+regular rate and rhythm without murmur .
+The abdomen was soft , nontender , nondistended , with normal active bowel sounds .
+Extremities :
+left hip 110 degrees of flexion , 0 degrees of extension , 30 degrees of abduction , 45 degrees of adduction , 10 degrees of internal rotation and flexion , 45 degrees of external rotation and flexion .
+Right hip 90 degrees of flexion , minus 30 degrees of extension , 20 degrees of abduction , 30 degrees of adduction , less than 5 degrees of internal rotation and flexion and less than 5 degrees of external rotation and flexion .
+There was no leg length discrepancy .
+The patient &apos;s gait was halting , stooped and slow .
+The patient used the cane in her left hand .
+The patient &apos;s neurovascular examination was intact .
+LABORATORY DATA :
+the sodium was 140 , potassium 3.7 , chloride 96 , bicarbonate 30 , BUN and creatinine 14/0.9 , glucose 105 , hematocrit 42 , white blood count 8.6 , platelet count 644,000 , prothrombin time 10.4 , partial thromboplastin time 28.7 , urinalysis trace white blood cells , slight occult red blood cells .
+The electrocardiogram showed normal sinus rhythm at a rate of 80 with intraventricular conduction delay and poor R wave progression .
+There were no acute ischemic changes .
+The chest X-ray showed borderline cardiomegaly but no acute cardiac or pulmonary disease .
+HOSPITAL COURSE :
+The patient was admitted to the Orthopedic Service on 4/16/93 .
+On that day she underwent clearance from the Cardiology Service , Dr. Shuff .
+It was his impression that the patient &apos;s hypertension was controlled on hydrochlorothiazide .
+Given the patient &apos;s low potassium level of 2.4 on the day of admission , he suggested supplementation with potassium .
+The patient was cleared from surgery from a cardiology standpoint .
+On the following morning 4/17/93 , the patient was taken to the operating room where she underwent a right total hip replacement , using a hybrid S-ROM system .
+Postoperatively , the patient did extremely well .
+The patient was seen in consultation with the physical therapy service initially for routine rehabilitation after a total hip replacement .
+Her hemovac drains were removed on postoperative day # 2 as was her Foley catheter .
+Her hematocrit remained stable in the low to mid 30 &apos;s and she did not require a transfusion .
+The patient did have postoperatively hypokalemia to a level of 2.7 and subsequently was corrected with oral and intravenous potassium on 4/22/93 , the patient underwent a duplex ultrasound examination , which showed no evidence of of deep venous thrombosis .
+The patient &apos;s Coumadin was thus stopped and she was switched to Bufferin .
+The patient &apos;s hospitalization was uncomplicated .
+She was discharged to the Encharlea Il Medical Center in New Hampshire .
+DISCHARGE DIAGNOSIS :
+Right hip osteoarthritis , status post right total hip replacement on 4/17/93 .
+Hypertension .
+Postoperative hypokalemia , resolved .
+Postoperative confusion , transient and resolved spontaneously .
+CONDITION ON DISCHARGE :
+Satisfactory .
+MEDICATIONS ON DISCHARGE :
+hydrochlorothiazide 50 mg. PO qday , KayCiel 40 mEq. b.i.d. , Ecotrin 1 tablet qday , Ferrous sulfate 325 mg. PO b.i.d. , Folate 1 mg. PO qday , multivitamins one tablet qday , Tylenol # 3 1 to 2 PO q3hours PRN .
+DISPOSITION / PLAN ON DISCHARGE :
+The patient is discharged to the Encharlea Il Medical Center .
+There she should received physical therapy to consist of a routine post total hip replacement rehabilitation protocol , with emphasis on gait training , partial weight bearing on the right lower extremity , using a walker or crutches .
+The patient should also have her potassium levels checked two times per week to insure that she is not becoming hypokalemic .
+The patient should have a follow up appointment arranged with Dr. Level .
+LAYMIE M HE , M.D.
+DICTATING FOR :
+LILLBI SERVICE , M.D.
+TR :
+il / bmot
+DD :
+4/22/93
+TD :
+04/22/93
+CC :
+Dr. Lako Service STAT

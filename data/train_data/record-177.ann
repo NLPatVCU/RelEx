@@ -1,0 +1,191 @@
+T1	problem 2197 2198	m
+T2	problem 4805 4829	any compartment syndrome
+T3	problem 2091 2095	atnc
+T4	problem 4201 4204	dvt
+T5	problem 2247 2250	wwp
+T6	problem 2212 2214	nd
+T7	test 3353 3360	opiates
+T8	problem 4314 4345	painful bullae on hands and arm
+T9	problem 2146 2155	anicteric
+T10	test 2977 2984	calcium
+T11	test 3367 3374	cocaine
+T12	test 3338 3346	barbitrt
+T13	problem 2279 2302	burns on hands and arms
+T14	treatment 1000 1011	medications
+T15	problem 4067 4096	bilateral pulmonary embolisms
+T16	test 3317 3322	urine
+T17	problem 2217 2240	hypoactive bowel sounds
+T18	treatment 4122 4134	heparin drip
+T19	test 3323 3331	bnzodzpn
+T20	problem 2253 2274	multiple linear scars
+T21	test 4139 4166	bilateral lower extremeties
+T22	problem 4492 4512	compartment syndrome
+T23	test 3396 3403	mthdone
+T24	problem 887 902	self mutilation
+T25	problem 1171 1175	gerd
+T26	treatment 645 653	charcoal
+T27	problem 3653 3663	flat t avl
+T28	treatment 4598 4623	her outpatient xanax dose
+T29	problem 429 457	apparent alprazolam overdose
+T30	problem 864 882	suicidal ideations
+T31	treatment 831 836	xanax
+T32	test 3381 3389	amphetmn
+T33	treatment 4640 4648	clozaril
+T34	problem 528 537	lethargic
+T35	treatment 2061 2070	intubated
+T36	problem 4357 4365	swelling
+T37	test 3604 3605	r
+T38	problem 4429 4437	symptoms
+T39	problem 4450 4456	trauma
+T40	problem 2125 2143	minimally reactive
+T41	treatment 2075 2082	sedated
+T42	problem 1124 1130	asthma
+T43	test 3678 3686	ct chest
+T44	problem 3695 3733	bilateral segmental , subsegmental pes
+T45	problem 1136 1165	posttraumatic stress disorder
+T46	test 3734 3746	b/l le lenis
+T47	test 2465 2468	hct
+T48	treatment 5840 5851	lamotrigine
+T49	problem 717 729	unresponsive
+T50	test 2023 2025	hr
+T51	test 3594 3597	ekg
+T52	problem 1102 1118	bipolar disorder
+T53	treatment 6061 6071	folic acid
+T54	treatment 3874 3882	charcoal
+T55	test 2454 2457	hgb
+T56	treatment 6131 6151	multivitamin capsule
+T57	problem 3635 3650	incomplete rbbb
+T58	test 2443 2446	rbc
+T59	treatment 5707 5719	multivitamin
+T60	problem 3542 3563	ateletasis of lingula
+T61	problem 3582 3593	pneumonitis
+T62	test 2015 2017	vs
+T63	test 2044 2049	o2sat
+T64	test 3077 3085	alk phos
+T65	test 3527 3530	cxr
+T66	test 2496 2500	mchc
+T67	problem 1985 1996	suicidality
+T68	test 2485 2488	mch
+T69	treatment 5491 5504	propanolol xl
+T70	test 2476 2479	mcv
+T71	test 2038 2040	rr
+T72	test 3060 3070	ast ( sgot
+T73	test 3998 4007	a d-dimer
+T74	problem 4027 4035	elevated
+T75	problem 1205 1219	laxative abuse
+T76	problem 1179 1199	chronic constipation
+T77	problem 2338 2344	rashes
+T78	test 3091 3098	amylase
+T79	test 3104 3112	tot bili
+T80	test 4050 4053	cta
+T81	test 2321 2325	dtrs
+T82	test 2029 2031	bp
+T83	treatment 2311 2318	sedated
+T84	problem 1970 1980	depression
+T85	treatment 5583 5588	senna
+T86	test 2431 2434	wbc
+T87	problem 3944 3958	benzo overdose
+T88	treatment 5211 5219	coumadin
+T89	test 5378 5399	patient 's urinalysis
+T90	problem 5414 5417	uti
+T91	problem 3974 3994	widened a-a gradient
+T92	problem 2360 2381	linear and burn scars
+T93	test 3510 3517	d-dimer
+T94	test 3961 3964	abg
+T95	problem 2348 2357	petechiae
+T96	treatment 6341 6356	warfarin sodium
+T97	treatment 5665 5674	clozapine
+T98	test 2713 2721	barbitrt
+T99	test 2857 2863	urea n
+T100	treatment 5689 5695	folate
+T101	treatment 5613 5625	clomipramine
+T102	problem 366 382	bipolar disorder
+T103	treatment 5640 5652	pantopraozle
+T104	test 2698 2706	bnzodzpn
+T105	treatment 255 287	intubation for airway protection
+T106	test 2894 2903	potassium
+T107	treatment 5589 5598	trazadone
+T108	test 2910 2918	chloride
+T109	problem 201 215	benzo overdose
+T110	test 2764 2771	lithium
+T111	treatment 5537 5545	lamictal
+T112	treatment 6196 6201	senna
+T113	test 2869 2874	creat
+T114	treatment 136 148	sulfonamides
+T115	treatment 5560 5570	alprazolam
+T116	test 2881 2887	sodium
+T117	treatment 122 133	penicillins
+T118	problem 7400 7423	urinary tract infection
+T119	treatment 6411 6426	docusate sodium
+T120	test 2942 2951	anion gap
+T121	test 2508 2511	rdw
+T122	treatment 6585 6595	alprazolam
+T123	test 3286 3290	leuk
+T124	test 2539 2548	plt count
+T125	test 2575 2580	neuts
+T126	test 2804 2811	digoxin
+T127	treatment 7260 7268	coumadin
+T128	problem 7320 7325	clots
+T129	test 2925 2934	total co2
+T130	test 2590 2596	lymphs
+T131	treatment 6269 6278	clozapine
+T132	problem 7143 7160	swelling in hands
+T133	treatment 5919 5938	pantoprazole sodium
+T134	test 3469 3474	urine
+T135	test 3475 3478	ucg
+T136	treatment 5747 5760	acetaminophen
+T137	test 2604 2609	monos
+T138	test 3430 3441	ck ( cpk )-
+T139	test 2658 2661	asa
+T140	test 2728 2737	tricyclic
+T141	treatment 6497 6510	trazodone hcl
+T142	test 2841 2848	glucose
+T143	problem 7095 7111	bipolar disorder
+T144	treatment 5151 5165	hand exercises
+T145	test 3007 3016	magnesium
+T146	test 3179 3184	blood
+T147	test 3191 3198	nitrite
+T148	treatment 7372 7383	antibiotics
+T149	test 2991 3000	phosphate
+T150	test 3173 3178	urine
+T151	treatment 5170 5177	splints
+T152	test 3043 3056	alt ( sgpt )-
+T153	test 5044 5072	x-ray of the hands and wrist
+T154	test 2616 2619	eos
+T155	problem 5007 5032	some poor range of motion
+T156	test 3139 3145	lipase
+T157	problem 7043 7066	benzodiazapine overdose
+T158	problem 3671 3677	twi v1
+T159	treatment 4886 4904	swelling reduction
+T160	treatment 6890 6898	nicotine
+T161	treatment 4846 4881	aggresive upper extremity elevation
+T162	test 3277 3279	ph
+T163	treatment 6662 6674	levofloxacin
+T164	treatment 5514 5523	modifinal
+T165	treatment 6756 6765	bisacodyl
+T166	treatment 5449 5461	levofloxacin
+T167	test 3245 3254	bilirubin
+T168	test 2626 2631	basos
+T169	test 3261 3270	urobilngn
+T170	test 2668 2675	ethanol
+T171	test 3233 3239	ketone
+T172	test 2682 2691	acetmnphn
+T173	problem 5305 5307	si
+T174	treatment 5255 5270	linr theraputic
+T175	test 3205 3212	protein
+T176	problem 7067 7094	traumatic / pressure bullae
+T177	test 3219 3226	glucose
+T178	treatment 5242 5249	lovenox
+R1	TeRP Arg1:T21 Arg2:T4
+R2	PIP Arg1:T38 Arg2:T39
+R3	TeRP Arg1:T43 Arg2:T44
+R4	PIP Arg1:T60 Arg2:T61
+R5	TeRP Arg1:T73 Arg2:T74
+R6	PIP Arg1:T75 Arg2:T76
+R7	TeRP Arg1:T80 Arg2:T15
+R8	TeRP Arg1:T89 Arg2:T90
+R9	TeRP Arg1:T94 Arg2:T91
+R10	TrAP Arg1:T127 Arg2:T128
+R11	TeRP Arg1:T139 Arg2:T140
+R12	TrAP Arg1:T148 Arg2:T118
+R13	TrAP Arg1:T166 Arg2:T90

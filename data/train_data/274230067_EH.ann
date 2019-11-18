@@ -1,0 +1,68 @@
+T1	test 3251 3262	emg &apos;s
+T2	problem 3149 3166	occasional spells
+T3	problem 3187 3213	some orthostatic dizziness
+T4	problem 3171 3182	jitteriness
+T5	problem 1356 1361	obese
+T6	problem 2301 2319	left shoulder pain
+T7	problem 1099 1118	palpable adenopathy
+T8	problem 311 334	bilateral shoulder pain
+T9	test 2829 2854	his hemoglobin a1c levels
+T10	problem 2714 2748	persistently elevated blood sugars
+T11	problem 2567 2576	his wound
+T12	problem 2614 2632	signs of infection
+T13	problem 510 545	increased pain in his left shoulder
+T14	problem 2802 2826	newly diagnosed diabetes
+T15	treatment 817 825	naprosyn
+T16	treatment 1923 1947	left rotator cuff repair
+T17	treatment 3765 3785	occupational therapy
+T18	problem 3571 3596	his neurologic conditions
+T19	treatment 624 655	repair of the left rotator cuff
+T20	treatment 1954 1990	general endotracheal tube anesthesia
+T21	treatment 3914 3922	naprosyn
+T22	problem 182 204	left rotator cuff tear
+T23	treatment 2245 2273	patient controlled analgesia
+T24	test 3019 3029	his sugars
+T25	treatment 370 388	steroid injections
+T26	problem 843 863	known drug allergies
+T27	test 3552 3567	further work-up
+T28	treatment 3889 3895	valium
+T29	problem 1174 1205	occasional wheezing bilaterally
+T30	problem 1245 1278	a i / vi systolic ejection murmur
+T31	problem 1391 1400	nontender
+T32	problem 469 494	a right rotator cuff tear
+T33	problem 1403 1415	nondistended
+T34	treatment 1816 1840	left rotator cuff repair
+T35	treatment 717 730	ankle surgery
+T36	test 1121 1131	heent exam
+T37	test 1418 1445	examination of his shoulder
+T38	problem 1590 1615	positive joint tenderness
+T39	treatment 3117 3124	insulin
+T40	problem 3711 3744	a well healed left shoulder wound
+T41	treatment 3095 3113	oral hypoglycemics
+T42	problem 3517 3549	some underlying diabetic process
+T43	problem 3469 3497	an autonomic type neuropathy
+T44	treatment 756 778	pilonidal cyst removal
+T45	test 548 551	mri
+T46	problem 2971 2979	diabetes
+T47	problem 2907 2926	the wide excursions
+T48	test 431 441	arthrogram
+T49	problem 1287 1312	jugular venous distention
+T50	test 2930 2940	his sugars
+T51	treatment 569 599	bilateral rotator cuff repairs
+T52	treatment 2999 3014	a diabetic diet
+T53	test 1315 1321	pulses
+T54	test 1798 1812	the assessment
+T55	problem 2007 2035	intraoperative complications
+T56	problem 681 690	back pain
+R1	TeCP Arg1:T1 Arg2:T2
+R2	TeCP Arg1:T1 Arg2:T3
+R3	TeCP Arg1:T1 Arg2:T4
+R4	PIP Arg1:T11 Arg2:T12
+R5	TrAP Arg1:T23 Arg2:T6
+R6	TeCP Arg1:T27 Arg2:T18
+R7	TeRP Arg1:T37 Arg2:T38
+R8	PIP Arg1:T42 Arg2:T43
+R9	PIP Arg1:T46 Arg2:T47
+R10	TeRP Arg1:T48 Arg2:T32
+R11	TeRP Arg1:T50 Arg2:T47
+R12	TeRP Arg1:T50 Arg2:T46

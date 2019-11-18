@@ -1,0 +1,14 @@
+T1	problem 464 474	chest pain
+T2	problem 477 480	sob
+T3	problem 493 504	r lung mass
+T4	problem 514 520	cancer
+T5	treatment 628 635	vicodin
+T6	problem 656 660	pain
+T7	test 565 586	laboratory evaluation
+T8	test 595 603	chest ct
+T9	test 589 592	cxr
+T10	test 542 562	physical examination
+T11	test 905 920	a needle biopsy
+R1	PIP Arg1:T1 Arg2:T2
+R2	PIP Arg1:T3 Arg2:T4
+R3	TrAP Arg1:T5 Arg2:T6

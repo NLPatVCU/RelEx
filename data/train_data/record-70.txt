@@ -1,0 +1,95 @@
+Admission Date :
+2015-06-04
+Discharge Date :
+2015-06-08
+Date of Birth :
+1958-03-17
+Sex :
+F
+Service :
+CCU
+HISTORY OF THE PRESENT ILLNESS :
+The patient is a 57 - year-old female with a history of hypertension and hypercholesterolemia but no prior coronary artery disease history who presented with chest pain .
+The patient reports the pain began at 4:00 p.m. on the day of admission .
+She reports that it had essentially started earlier in the day with some GERD-like symptoms .
+She had taken Maalox but had no relief with this .
+The pain was intermittent through the day and then at 4:00 p.m. increased and was also associated with nausea and diaphoresis .
+She reports that the pain shot through her back .
+The patient has never had these symptoms in the past .
+She arrived in the Emergency Room at 8:00 p.m.
+At that time , the pain was unremitting .
+In the Emergency Room , the patient was given Lopressor , nitroglycerin , and aspirin .
+A TP3A inhibitor was not given for concern for dissection .
+The patient was found to have 5057 E. Sixth Blvd. elevations in I , aVL , and V1 through V2 and ST depressions in II , III , and aVF .
+The patient was taken emergently to the Cardiac Catheterization Laboratory .
+PAST MEDICAL HISTORY :
+1. Hypertension .
+2. Hypercholesterolemia .
+3. Chondrocalcinosis .
+4. Carpal tunnel syndrome .
+5. GERD .
+ADMISSION MEDICATIONS :
+1. Atenolol 25 .
+2. Crestor 10 q.d.
+3. Uniretic 15/25 .
+ALLERGIES : The patient has no known drug allergies .
+SOCIAL HISTORY : The patient denied tobacco .
+The patient denied alcohol or other drug use .
+PHYSICAL EXAMINATION : Vital signs :
+On admission , the patient was afebrile , blood pressure 146/88 , pulse 71 , respirations 18 .
+General : The patient was a well appearing female in no acute distress .
+Cardiac : Regular rate and rhythm , normal S1 , S2 .
+No murmurs were appreciated .
+Lungs : Clear to auscultation bilaterally .
+Abdomen : Soft , nontender , nondistended , good bowel sounds .
+Extremities : There was no edema in the extremities .
+The dorsalis pedis pulses were 2+ bilaterally .
+LABORATORY AND RADIOLOGIC DATA : On admission , white count 10.8 , hematocrit 38.2 , platelets 324,000 .
+HOSPITAL COURSE :
+1. CORONARY ARTERY DISEASE : The patient was taken to Cardiac Catheterization where she was found to have two vessel disease .
+The proximal LAD was found to have a 90% lesion with a septal branch with a 95% stenosis and a diagonal branch with 99% stenosis .
+The patient had twin LAD stents to the LAD diagonal and LAD septal branches with Taxus stents .
+This restored flow appropriately .
+The patient also had proximal RCA lesion of 80% and a mid RCA lesion of 80-90% which were not intervened upon .
+The patient was given an aspirin and Plavix and in addition started on a beta Elmore , Maxine ACE inhibitor , and these were titrated up as her blood pressure tolerated .
+Given the fact that the patient had issues with muscle cramping with Atorvastatin in the past , she was started on Pravastatin which should give less of these side effects .
+The patient will follow-up with Cardiology in one months time for further management of her coronary artery disease and further evaluation of her remaining RCA lesions .
+2. PUMP : The patient had an echocardiogram to assess her LV function .
+She was found to have an ejection fraction of 30-35% as well as an akinetic apex and apical mid and septal akinesis .
+Given the fact that the patient had significant apical akinesis , she was started on heparin with a transition to Coumadin for anticoagulation for stroke prevention in the setting of apical akinesis .
+On discharge , the patient was given Lovenox injections which should be continued until the patient reaches a therapeutic dose of Coumadin .
+3. RHYTHM : The patient was monitored on telemetry throughout her hospitalization with no significant events .
+The patient had an EP evaluation and will be followed-up by Dr. Welch .
+14-087 , the patient had a signal-averaged EKG .
+She will follow-up with Dr. Welch with an echocardiogram on 2015-07-24 in a meeting to discuss risk stratification for sudden cardiac death and possible ICD placement .
+4. NEUROLOGY : The patient complained of left lower extremity weakness with ambulation two days after her cardiac catheterization .
+The patient had no evidence for weakness on examination with good proximal and distal strength in the lower extremities as well as intact sensation .
+The patient worked with Physical Therapy and was able to ambulate without difficulty .
+She was also able to ascend stairs without difficulty .
+The patient was already on an aspirin and Plavix should this represent a small stroke .
+However , there was no evidence for neurologic deficit on examination and this will be followed-up by her primary care physician .
+5. HEMATOLOGY : The patient was discharged on Coumadin for apical akinesis and stroke risk .
+This will be further monitored by her primary care physician , Dr. Banks , who will adjust her Coumadin dose .
+CONDITION ON DISCHARGE : Stable .
+DISCHARGE STATUS : To home .
+DISCHARGE DIAGNOSIS : ST elevation myocardial infarction , status post left anterior descending artery stent .
+DISCHARGE MEDICATIONS :
+1. Aspirin 325 q.d.
+2. Lisinopril 5 q.d.
+3. Toprol XL 100 q.d.
+4. Coumadin 5 q.d.
+5. Plavix 75 q.d.
+6. Lovenox 60 mg b.i.d. until therapeutic on Coumadin .
+7. Pravastatin 80 q.d.
+FOLLOW-UP PLANS : The patient will follow-up with her primary care physician in the week following discharge for further monitoring of her INR and adjustment of her Coumadin dose .
+The patient will also follow-up with Electrophysiology with Dr. Welch on 2015-07-24 .
+In addition to this , the patient will follow-up with Cardiology , Dr. Foster , and Dr. Upshaw , on 2015-07-06 for further monitoring .
+Joshua PINTO , M.D. 12.932
+Dictated By : Greg E. Riordan , M.D.
+MEDQUIST36
+D : 2015-06-10 09:17
+T : 2015-06-12 16:28
+JOB #:
+74717
+Signed electronically by : DR. David PINTO on : FRI 2015-06-19 5:36 PM
+( End of Report )

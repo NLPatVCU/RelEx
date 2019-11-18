@@ -1,0 +1,29 @@
+T1	treatment 1011 1018	tylenol
+T2	treatment 455 480	tylenol ( acetaminophen )
+T3	problem 499 503	pain
+T4	problem 1657 1675	multiple gestation
+T5	problem 1576 1587	undelivered
+T6	treatment 803 843	milk of magnesia ( magnesium hydroxide )
+T7	problem 870 882	constipation
+T8	test 2217 2223	weight
+T9	treatment 1280 1287	bactrim
+T10	problem 1648 1654	breech
+T11	treatment 1104 1117	acetaminophen
+T12	problem 2020 2042	observed abnormalities
+T13	problem 1306 1315	pregnancy
+T14	test 2099 2105	apgars
+T15	treatment 719 728	ibuprofen
+T16	problem 747 751	pain
+T17	treatment 678 704	colace ( docusate sodium )
+T18	test 2206 2212	apgars
+T19	treatment 621 634	acetaminophen
+T20	treatment 639 652	acetaminophen
+T21	treatment 1086 1099	acetaminophen
+T22	problem 911 915	pain
+T23	treatment 883 891	percocet
+T24	treatment 1272 1277	sulfa
+T25	test 2110 2116	weight
+R1	TrAP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T6 Arg2:T7
+R3	TrAP Arg1:T15 Arg2:T16
+R4	TrAP Arg1:T23 Arg2:T22

@@ -1,0 +1,77 @@
+Admission Date :
+2012-04-20
+Discharge Date :
+2012-05-01
+Date of Birth :
+1952-06-24
+Sex :
+M
+Service :
+Medicine
+HISTORY OF PRESENT ILLNESS :
+This is a 59 year old male with a past medical history significant for an atrioseptal defect repair at age 18 , congestive heart failure with an ejection fraction of 45% and a recent cardiac myocardial infarction , pulmonary hypertension and mitral regurgitation , and atrial fibrillation .
+He was seen by his primary care physician the day before admission and complained of two weeks of increasing shortness of breath and fatigue , weight gain and abdominal fullness .
+He was sent to the Emergency Department for further evaluation .
+The patient reported feeling at his baseline with chronic mild dyspnea on exertion until two weeks prior to admission .
+During this period he had also been weaned off of his Digoxin starting early in February .
+Over the two weeks prior to admission he had noticed an increasing heart rate from his baseline in the 60s to a heart rate in the 120s .
+He had also some increased shortness of breath and a 10 pound weight gain and new three to four pillow orthopnea with a dry cough .
+He denied fevers , chills , nausea or vomiting , chest pain or diaphoresis .
+PAST MEDICAL HISTORY :
+Atrioseptal defect repair in 1970 , cardiomyopathy , right-sided congestive heart failure , pulmonary hypertension , history of atrial fibrillation and atrial flutter , history of prostate cancer , status post brachytherapy , history of rectal bleeding , obstructive sleep apnea on CPAP .
+ALLERGIES :
+ACE inhibitors , possible allergy to barium reported by the patient during a barium swallow 25 years ago .
+MEDICATIONS ON ADMISSION :
+Digoxin 0.125 , discontinued one month prior to admission , Toprol XL 100 mg daily , Trazodone 50 mg once daily , Lipitor 10 mg daily , Diovan 40 mg daily , Atrovent / Albuterol prn , Pulmicort , Coumadin 2.5 mg daily , Vitamin E , Vitamin C , iron supplement .
+SOCIAL HISTORY :
+Remote history of tobacco , occasional alcohol use .
+He is a retired fire fighter .
+LABORATORY DATA :
+White blood cell count 10.5 , hematocrit 38.1 , platelets 254 , INR 1.8 .
+Sodium 140 , potassium 5.2 , BUN 38 , creatinine .7 , TSH 1.8 , Digoxin level less than 0.2 .
+Serial cardiac enzymes negative .
+ALT 14 , AST 31 , alkaline phosphatase 283 , total bilirubin 1.0 , amylase 71 , glucose tolerance test 317 .
+Electrocardiogram showed atrial fibrillation with rapid ventricular response and atrial flutter .
+Echocardiogram showed moderate dilated left atrium , no atrioseptal defect , severe global left ventricular hypokinesis with severe left ventricular systolic function and moderately dilated right ventricle .
+There was global hypokinesis apical throughout the right ventricle and abnormal septal motion consistent with right ventricular volume overload .
+Moderate to severe 3+ mitral regurgitation and 3+ tricuspid regurgitation along with moderate pulmonary early systolic hypertension .
+Of note , this echocardiogram was performed when the patient was tachycardiac .
+HOSPITAL COURSE :
+1. Hypotension - The patient was initially mildly hypotensive with systolic blood pressures in the 80s .
+Upon admission it was unclear whether or not the patient was volume overloaded or volume depleted .
+Initially he was treated with intravenous fluids with a dramatic response in his systolic blood pressure .
+However , subsequent it was determined that the patient 's hypotension may have been related to his rapid ventricular response and right heart failure .
+Therefore the focus of treatment was changed to controlling his rate .
+2. Atrial fibrillation - The patient 's Digoxin had been weaned off prior to his admission .
+It was felt that this potentially had lead to his atrial flutter and atrial fibrillation with rapid ventricular response .
+The patient was loaded once again with Digoxin and his beta blocker was increased to 100 mg of Lopressor , three times a day .
+In addition the patient was started on Verapamil since his heart rate had remained mildly tachycardiac in the low 100s .
+3. Congestive heart failure - During the initial course of the patient 's admission , it was unclear as to whether or not he was volume overloaded or volume depleted .
+The patient was initially treated with intravenous fluids , however , subsequently he was diuresed when he became symptomatic and short of breath .
+Chest x-rays revealed evidence of congestive heart failure .
+The decision was made to have the patient undergo a cardiac catheterization to fully evaluate the hemodynamics to determine the etiology of the patient 's heart failure .
+In addition , plans were made to evaluate the patient 's cardiac arteries to determine if he had any component of ischemic cardiomyopathy .
+4. Abnormal liver function tests - The patient had an isolated , elevated alkaline phosphatase with a confirmatory elevation in his gamma glutamyl transferase .
+An ultrasound of the right upper quadrant did not reveal any cholelithiasis or cholecystitis , however , an irregular hepatic contour was seen which is suggestive of underlying chronic liver disease .
+There was some concern that the patient may have a partial biliary obstruction and the patient was sent for an magnetic resonance cholangiopancreatography to further evaluate the biliary system .
+Magnetic resonance cholangiopancreatography did not reveal any evidence of biliary dilatation or of any obstructing pancreatic mass .
+Again seen was a slightly irregular contour of the liver with dilated hepatic veins suggesting chronic hepatic vascular congestion .
+The patient also revealed a prior history of heavy alcohol use for approximately 20 years , during the mid 1950s to mid 1970s .
+It was felt that he may have had some component of vascular congestion from his congestive heart failure as well as possibly some mild cirrhotic changes secondary to his previous alcohol use .
+5. Fall - The patient had a mechanical fall during his admission .
+He did not sleep at all the night before and was extremely fatigued .
+He was walking in the hall , dragging his intravenous pole when he tripped over the foot of the pole and lost his balance .
+He fell backwards , landing on his buttocks and bumped his head .
+His neurological examination at that time was nonfocal and the head was atraumatic without any evidence of a hematoma .
+A computerized axial tomography scan of his head at that time did not reveal any extra or intracranial hemorrhage .
+6. Rectal bleeding - The patient has a history of rectal bleeding , ever since his brachytherapy for his prostate cancer .
+The patient has been treated with Argon laser therapy in the past for his rectal bleeding and it is recommended that he follow up with his gastroenterologist for repeat Argon laser therapy .
+The remainder of the hospital course will be dictated by the covering intern .
+Sheila Providence , M.D. 50-442
+Dictated By : Marjorie I. Taylor , M.D.
+MEDQUIST36
+D : 2012-05-01 22:34
+T : 2012-05-02 06:55
+JOB #: 79270
+Signed electronically by : DR. Jane Nix on : MON 2012-05-07 9:28 AM
+( End of Report )

@@ -1,0 +1,207 @@
+T1	treatment 1175 1196	a normal saline bolus
+T2	test 4808 4828	liver function tests
+T3	problem 4351 4360	nontender
+T4	test 5040 5056	serum osmolality
+T5	problem 1505 1512	dysuria
+T6	problem 2246 2258	hypertension
+T7	treatment 2157 2168	a counselor
+T8	problem 2129 2143	very depressed
+T9	problem 184 196	hypertension
+T10	problem 1515 1523	diarrhea
+T11	test 4701 4709	chloride
+T12	treatment 6271 6290	hydrochlorothiazide
+T13	problem 5488 5500	hypertension
+T14	test 4649 4652	inr
+T15	test 3533 3556	systolic blood pressure
+T16	problem 2275 2289	colonic polyps
+T17	test 4728 4731	bun
+T18	problem 4219 4226	gallops
+T19	problem 8718 8724	tremor
+T20	problem 5357 5369	bran atrophy
+T21	problem 5374 5405	right temporal encephalomalacia
+T22	problem 8393 8405	asymptomatic
+T23	problem 4201 4208	murmurs
+T24	test 4290 4314	auscultation bilaterally
+T25	problem 4237 4268	rare crackles on the right base
+T26	problem 829 837	agitated
+T27	test 3582 3587	pulse
+T28	problem 3661 3677	visibly restless
+T29	treatment 972 992	4 leather restraints
+T30	problem 935 943	agitated
+T31	test 9209 9227	repeat colonoscopy
+T32	problem 9168 9181	colonic polyp
+T33	problem 8414 8424	chest pain
+T34	treatment 9039 9057	potassium chloride
+T35	problem 8454 8475	mental status changes
+T36	problem 4211 4215	rubs
+T37	problem 9116 9133	etoh intoxication
+T38	treatment 6011 6030	fluid resuscitation
+T39	test 4840 4843	ast
+T40	test 4637 4641	pt-t
+T41	test 8121 8135	blood pressure
+T42	problem 8638 8658	notably less anxious
+T43	test 5005 5009	etoh
+T44	treatment 6509 6519	ranitidine
+T45	problem 4021 4031	atraumatic
+T46	test 6192 6201	telemetry
+T47	treatment 7585 7591	valium
+T48	problem 7617 7627	withdrawal
+T49	test 4849 4860	alk phos is
+T50	problem 7771 7781	depression
+T51	test 4597 4607	hematocrit
+T52	treatment 8239 8251	iv hydration
+T53	test 4559 4562	cbc
+T54	problem 9139 9151	hypertension
+T55	treatment 9557 9573	home medications
+T56	test 7065 7068	mag
+T57	treatment 3373 3381	thiamine
+T58	problem 5949 5978	hypotension of cardiac origin
+T59	test 5266 5281	the chest x-ray
+T60	problem 5202 5244	a band-like opacity in the left lower lobe
+T61	treatment 7093 7108	magnesium oxide
+T62	treatment 6543 6571	gastrointestinal prophylaxis
+T63	problem 1483 1502	shortness of breath
+T64	problem 1526 1553	bright red blood per rectum
+T65	test 5639 5663	systolic blood pressures
+T66	treatment 3245 3250	mavik
+T67	test 8686 8696	ciwa scale
+T68	test 3507 3518	vital signs
+T69	problem 4383 4401	hepatosplenomegaly
+T70	problem 1895 1915	mentally handicapped
+T71	problem 6371 6406	atelectasis in the right lower lobe
+T72	test 4613 4622	platelets
+T73	problem 4515 4523	stigmata
+T74	treatment 5732 5751	fluid resuscitation
+T75	problem 5614 5636	subsequent hypotension
+T76	problem 2367 2388	right inguinal hernia
+T77	test 5069 5094	calculated osmolality gap
+T78	test 4884 4896	peak bili is
+T79	treatment 1029 1035	ativan
+T80	problem 4500 4509	asterixis
+T81	problem 3745 3770	slightly pressured speech
+T82	test 4767 4774	calcium
+T83	treatment 9000 9009	mag oxide
+T84	treatment 6889 6907	potassium chloride
+T85	problem 1576 1589	cold symptoms
+T86	test 6933 6940	calcium
+T87	problem 7522 7540	alcohol withdrawal
+T88	problem 5143 5181	linear atelectasis in right lower lobe
+T89	test 7847 7859	observations
+T90	problem 7864 7880	delirium tremens
+T91	treatment 3039 3046	condoms
+T92	problem 1466 1480	any chest pain
+T93	test 5116 5127	chest x-ray
+T94	test 4867 4874	albumin
+T95	test 7554 7568	the ciwa scale
+T96	problem 7372 7387	notably anxious
+T97	test 1087 1112	a systolic blood pressure
+T98	problem 1048 1059	hypotensive
+T99	problem 6033 6044	elevated ck
+T100	problem 6077 6096	mild rhabdomyolysis
+T101	treatment 5690 5696	ativan
+T102	test 5293 5307	ct of the head
+T103	problem 5334 5344	hemorrhage
+T104	test 4425 4439	dorsalis pedis
+T105	test 4781 4785	phos
+T106	test 4663 4669	chem-7
+T107	test 4443 4456	radial pulses
+T108	test 7501 7508	monitor
+T109	test 2317 2335	repeat colonoscopy
+T110	test 4737 4747	creatinine
+T111	test 4672 4678	sodium
+T112	treatment 9579 9589	lisinopril
+T113	problem 4065 4074	anicteric
+T114	treatment 3216 3226	lisinopril
+T115	problem 3124 3144	mentally handicapped
+T116	test 4903 4910	amylase
+T117	problem 5582 5599	etoh intoxication
+T118	treatment 9607 9612	mavik
+T119	problem 7459 7490	underlying psychiatric disorder
+T120	treatment 1674 1700	alcohol treatment programs
+T121	test 3911 3938	strength in all extremities
+T122	problem 6671 6681	difficulty
+T123	treatment 2567 2584	pharmacal therapy
+T124	treatment 5701 5707	haldol
+T125	test 3941 3950	sensation
+T126	test 7016 7033	blood pressure.o.
+T127	test 6410 6421	chest x-ray
+T128	test 4792 4801	magnesium
+T129	test 4935 4937	ua
+T130	treatment 6211 6239	all hypertension medications
+T131	problem 2972 3000	human immunodeficiency virus
+T132	test 3982 4018	head , ears , eyes , nose and throat
+T133	test 6335 6349	o2 saturations
+T134	problem 8772 8790	alcohol withdrawal
+T135	treatment 6263 6268	mavik
+T136	treatment 6838 6863	kidney protective effects
+T137	treatment 8961 8978	calcium carbonate
+T138	test 6866 6867	k
+T139	test 4685 4694	potassium
+T140	treatment 6748 6757	iv fluids
+T141	problem 6818 6832	rhabdomyolysis
+T142	treatment 1012 1018	haldol
+T143	test 5801 5823	hemodynamic monitoring
+T144	test 8138 8167	the patient 's blood pressure
+T145	problem 4459 4491	hands and feet notably tremulous
+T146	problem 4365 4377	nondistended
+T147	treatment 8761 8767	valium
+T148	test 3458 3477	vitals on admission
+T149	test 4716 4722	bicarb
+T150	test 905 924	blood alcohol level
+T151	problem 252 265	very agitated
+T152	test 4953 4962	urine tox
+T153	treatment 8343 8374	home blood pressure medications
+T154	test 8257 8281	systolic blood pressures
+T155	test 4978 4987	serum tox
+T156	treatment 3422 3434	multivitamin
+T157	test 1399 1418	the blood pressures
+T158	treatment 3397 3407	folic acid
+T159	problem 3818 3861	auditory , visual or tactile hallucinations
+T160	problem 8427 8446	shortness of breath
+T161	problem 7392 7401	depressed
+T162	problem 4107 4114	exudate
+T163	test 4831 4834	alt
+T164	treatment 3275 3294	hydrochlorothiazide
+T165	problem 7740 7767	underlying anxiety disorder
+T166	problem 5542 5561	increased agitation
+T167	treatment 3345 3355	ranitidine
+T168	problem 9245 9277	history of right inguinal hernia
+T169	test 4920 4926	lipase
+T170	test 4754 4761	glucose
+T171	problem 3796 3805	depressed
+T172	treatment 6587 6592	foley
+T173	test 4629 4631	pt
+T174	treatment 9633 9652	hydrochlorothiazide
+T175	treatment 6250 6260	lisinopril
+T176	problem 8560 8580	mild tremor on hands
+T177	problem 1134 1160	decreased respiratory rate
+T178	treatment 6988 7005	calcium carbonate
+T179	problem 3168 3188	known drug allergies
+T180	test 3864 3885	cranial nerves ii-xii
+T181	test 1327 1345	his blood pressure
+T182	test 4565 4587	white blood cell count
+R1	TrAP Arg1:T7 Arg2:T8
+R2	PIP Arg1:T20 Arg2:T21
+R3	TeRP Arg1:T24 Arg2:T25
+R4	TrAP Arg1:T29 Arg2:T30
+R5	TeCP Arg1:T31 Arg2:T32
+R6	TrAP Arg1:T47 Arg2:T48
+R7	TeRP Arg1:T59 Arg2:T60
+R8	TeRP Arg1:T67 Arg2:T19
+R9	TrAP Arg1:T79 Arg2:T30
+R10	TeCP Arg1:T89 Arg2:T90
+R11	TeRP Arg1:T93 Arg2:T88
+R12	TeRP Arg1:T93 Arg2:T60
+R13	TeCP Arg1:T95 Arg2:T87
+R14	TeRP Arg1:T97 Arg2:T98
+R15	PIP Arg1:T99 Arg2:T100
+R16	TrCP Arg1:T101 Arg2:T75
+R17	TeRP Arg1:T102 Arg2:T103
+R18	TeCP Arg1:T108 Arg2:T87
+R19	TeCP Arg1:T109 Arg2:T16
+R20	TrCP Arg1:T124 Arg2:T75
+R21	TeRP Arg1:T127 Arg2:T71
+R22	TrAP Arg1:T140 Arg2:T141
+R23	TrAP Arg1:T142 Arg2:T30
+R24	TrAP Arg1:T147 Arg2:T134
+R25	PIP Arg1:T166 Arg2:T117

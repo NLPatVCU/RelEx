@@ -1,0 +1,252 @@
+T1	problem 498 513	a cystic lesion
+T2	treatment 9805 9813	prilosec
+T3	problem 1229 1243	abdominal pain
+T4	problem 1251 1267	his pancreatitis
+T5	problem 1275 1281	nausea
+T6	problem 1286 1294	vomiting
+T7	treatment 3401 3404	nph
+T8	problem 808 850	an enlargement of the head of his pancreas
+T9	problem 4551 4563	nondistended
+T10	treatment 3489 3495	flomax
+T11	test 4428 4449	pulmonary examination
+T12	problem 339 359	chronic pancreatitis
+T13	treatment 9714 9723	augmentin
+T14	problem 4736 4743	rebound
+T15	treatment 3520 3528	prilosec
+T16	problem 4566 4575	nontender
+T17	test 771 783	two ct scans
+T18	test 474 481	an ercp
+T19	problem 2794 2819	right rotator cuff injury
+T20	problem 3624 3632	allergic
+T21	test 2727 2735	his ercp
+T22	problem 2825 2856	gastroesophageal reflux disease
+T23	treatment 3652 3668	morphine sulfate
+T24	treatment 3636 3649	ciprofloxacin
+T25	treatment 2676 2682	unasyn
+T26	test 6273 6292	a ct scan angiogram
+T27	problem 6330 6340	pseudocyst
+T28	problem 6348 6370	enlarged pancreas head
+T29	problem 2764 2788	type 2 diabetes mellitus
+T30	treatment 8791 8814	intravenous antibiotics
+T31	problem 8824 8867	a documented alpha streptococcal septicemia
+T32	test 4501 4522	abdominal examination
+T33	test 486 493	work-up
+T34	treatment 3673 3683	droperidol
+T35	treatment 9172 9183	antibiotics
+T36	treatment 9837 9844	humalog
+T37	problem 9654 9684	alpha streptococcus septicemia
+T38	treatment 9849 9864	regular insulin
+T39	treatment 9634 9648	sphincterotomy
+T40	problem 9559 9571	pancreatitis
+T41	treatment 3255 3270	regular insulin
+T42	treatment 3353 3359	unasyn
+T43	test 9584 9629	endoscopic retrogram cholangiopancreatography
+T44	treatment 3158 3166	prilosec
+T45	problem 4139 4153	acute distress
+T46	treatment 3190 3196	flomax
+T47	test 4013 4030	oxygen saturation
+T48	test 4612 4626	his liver span
+T49	problem 9526 9531	fever
+T50	treatment 3219 3226	humalog
+T51	problem 4379 4386	murmurs
+T52	treatment 3587 3594	tylenol
+T53	problem 4390 4397	gallops
+T54	problem 4316 4323	icterus
+T55	treatment 9774 9780	flomax
+T56	problem 4795 4803	swelling
+T57	treatment 2499 2509	vancomycin
+T58	test 5025 5045	formal strength test
+T59	treatment 2482 2494	penicillin s
+T60	treatment 2467 2479	erythromycin
+T61	test 5406 5409	ast
+T62	test 5361 5381	liver function tests
+T63	test 2330 2359	the patient 's blood cultures
+T64	problem 2389 2419	streptococcus sanguis-gordonii
+T65	test 5391 5397	an alt
+T66	test 5448 5463	total bilirubin
+T67	test 2282 2327	endoscopic retrogram cholangiopancreatography
+T68	test 5344 5351	a sugar
+T69	problem 2195 2221	a long nipple like papilla
+T70	problem 693 707	abdominal pain
+T71	test 2110 2117	ct scan
+T72	problem 2063 2089	a dilated common bile duct
+T73	problem 4784 4789	edema
+T74	test 545 552	ct scan
+T75	problem 4749 4759	munos sign
+T76	problem 2043 2058	wall thickening
+T77	test 1995 2008	an ultrasound
+T78	problem 1986 1992	stones
+T79	test 4806 4828	neurologic examination
+T80	test 1943 1950	an mrcp
+T81	test 5291 5302	bicarbonate
+T82	problem 3752 3775	a psychiatric condition
+T83	test 1881 1895	his hematocrit
+T84	problem 1913 1928	recorded melena
+T85	test 3915 3928	a temperature
+T86	test 1752 1765	a chest x-ray
+T87	test 3942 3952	heart rate
+T88	test 3961 3975	blood pressure
+T89	test 1699 1720	his electrocardiogram
+T90	test 3988 4004	respiratory rate
+T91	test 5418 5438	alkaline phosphatase
+T92	test 5273 5281	chloride
+T93	problem 1648 1660	pancreatitis
+T94	problem 1626 1633	no flow
+T95	test 5254 5263	potassium
+T96	problem 1668 1696	common bile duct obstruction
+T97	test 1579 1598	a total white count
+T98	test 5236 5244	a sodium
+T99	test 1607 1618	a hida scan
+T100	test 5322 5332	creatinine
+T101	test 5311 5314	bun
+T102	test 1529 1553	his complete blood count
+T103	problem 1561 1573	11% bandemia
+T104	problem 5603 5614	white cells
+T105	treatment 6047 6076	a percutaneous sphincterotomy
+T106	treatment 6126 6147	successful extraction
+T107	problem 6151 6166	stone fragments
+T108	problem 6222 6235	complications
+T109	treatment 6089 6111	a full sphincterectomy
+T110	problem 732 744	pancreatitis
+T111	test 5536 5546	urinalysis
+T112	problem 5556 5569	trace glucose
+T113	problem 5575 5582	ketones
+T114	problem 5588 5597	red cells
+T115	treatment 6191 6205	this procedure
+T116	test 6577 6604	an ultrasound guided biopsy
+T117	problem 6522 6532	malignancy
+T118	problem 6608 6617	this mass
+T119	test 5083 5095	a hematocrit
+T120	test 5127 5145	his platelet count
+T121	test 6803 6827	his alkaline phosphatase
+T122	test 5156 5163	his mcv
+T123	problem 6832 6875	all the other abnormal liver function tests
+T124	test 5173 5194	red cell distribution
+T125	problem 6903 6907	pain
+T126	problem 6002 6022	chronic pancreatitis
+T127	problem 5941 5965	dilated pancreatic ducts
+T128	problem 5971 5985	calcifications
+T129	treatment 2862 2883	esophageal dilatation
+T130	problem 2888 2897	stricture
+T131	test 5891 5899	cytology
+T132	treatment 6928 6948	any pain medications
+T133	problem 6992 7000	afebrile
+T134	test 5106 5117	white count
+T135	treatment 2580 2589	sulbactam
+T136	treatment 2567 2577	ampicillin
+T137	problem 6472 6492	a forming pseudocyst
+T138	treatment 2594 2604	gentamycin
+T139	treatment 3106 3119	tonsillectomy
+T140	test 6651 6662	this biopsy
+T141	test 4156 4204	head , eyes , ears , nose and throat examination
+T142	test 6721 6741	these two procedures
+T143	treatment 3552 3581	regular insulin sliding scale
+T144	test 6388 6398	this study
+T145	problem 5820 5842	mild biliary stricture
+T146	test 4474 4486	auscultation
+T147	problem 5868 5888	chronic pancreatitis
+T148	test 5492 5510	his blood cultures
+T149	test 5703 5750	the endoscopic retrogram cholangiopancreatogram
+T150	test 5474 5481	albumin
+T151	problem 858 874	early pseudocyst
+T152	test 5771 5787	this examination
+T153	problem 8350 8377	focal mitral valve prolapse
+T154	treatment 7530 7540	gentamycin
+T155	treatment 7650 7672	intravenous ampicillin
+T156	problem 8222 8238	a complex plaque
+T157	problem 8312 8323	this plaque
+T158	problem 8657 8692	his alpha septicemia from his mouth
+T159	problem 8392 8423	pathologic mitral regurgitation
+T160	test 8042 8052	this study
+T161	problem 8013 8032	other abnormalities
+T162	problem 8456 8482	trace aortic regurgitation
+T163	test 8485 8500	a panorex x-ray
+T164	problem 6754 6767	complications
+T165	treatment 9274 9283	augmentin
+T166	test 7730 7752	a endocarditis work-up
+T167	problem 7679 7705	this documented septicemia
+T168	treatment 8970 8986	home antibiotics
+T169	treatment 9104 9127	intravenous antibiotics
+T170	problem 9508 9515	shaking
+T171	treatment 7545 7551	flagyl
+T172	problem 9516 9522	chills
+T173	test 7559 7582	repeated blood cultures
+T174	treatment 7517 7527	ampicillin
+T175	test 9410 9435	repeat laboratory studies
+T176	test 6298 6315	pancreas protocol
+T177	test 9440 9454	blood cultures
+T178	test 8536 8557	a dental consultation
+T179	treatment 7421 7431	gentamycin
+T180	problem 2943 2965	recurrent pancreatitis
+T181	treatment 7408 7418	ampicillin
+T182	test 8890 8904	blood cultures
+T183	problem 2903 2922	recent pancreatitis
+T184	problem 7315 7336	streptococcus sanguis
+T185	problem 7811 7822	vegetations
+T186	test 7762 7792	a transthoracic echocardiogram
+T187	problem 3008 3023	streptococcemia
+T188	treatment 7441 7447	unasyn
+T189	test 201 249	an endoscopic retrogram cholangiopancreatography
+T190	problem 6775 6800	subsequently pancreatitis
+T191	problem 7871 7897	mildly dilated left atrium
+T192	problem 7900 7943	mild symmetric left ventricular hypertrophy
+T193	problem 1140 1183	significantly elevated alkaline phosphatase
+T194	problem 7040 7082	the patient 's documented strep septicemia
+T195	test 7828 7847	this echocardiogram
+T196	problem 8199 8219	valvular vegetations
+T197	test 8129 8148	this echocardiogram
+T198	test 8082 8114	a transesophageal echocardiogram
+T199	treatment 2453 2464	clindamycin
+T200	test 2136 2153	an attempted ercp
+R1	PIP Arg1:T3 Arg2:T5
+R2	PIP Arg1:T3 Arg2:T6
+R3	PIP Arg1:T4 Arg2:T3
+R4	TeRP Arg1:T17 Arg2:T8
+R5	TeCP Arg1:T18 Arg2:T1
+R6	TrCP Arg1:T23 Arg2:T20
+R7	TrCP Arg1:T24 Arg2:T20
+R8	TeCP Arg1:T26 Arg2:T27
+R9	TeCP Arg1:T26 Arg2:T28
+R10	TrAP Arg1:T30 Arg2:T31
+R11	TeRP Arg1:T32 Arg2:T9
+R12	TeRP Arg1:T32 Arg2:T16
+R13	TeCP Arg1:T33 Arg2:T1
+R14	TrCP Arg1:T34 Arg2:T20
+R15	TrAP Arg1:T39 Arg2:T40
+R16	TeRP Arg1:T63 Arg2:T64
+R17	TeRP Arg1:T71 Arg2:T72
+R18	TeRP Arg1:T74 Arg2:T1
+R19	TeRP Arg1:T77 Arg2:T76
+R20	TeRP Arg1:T77 Arg2:T72
+R21	TeRP Arg1:T80 Arg2:T78
+R22	TeRP Arg1:T99 Arg2:T94
+R23	TeRP Arg1:T99 Arg2:T93
+R24	TeRP Arg1:T99 Arg2:T96
+R25	TeRP Arg1:T102 Arg2:T103
+R26	TrIP Arg1:T106 Arg2:T107
+R27	PIP Arg1:T110 Arg2:T70
+R28	TeRP Arg1:T111 Arg2:T112
+R29	TeRP Arg1:T111 Arg2:T113
+R30	TeRP Arg1:T111 Arg2:T114
+R31	TeRP Arg1:T111 Arg2:T104
+R32	TrCP Arg1:T115 Arg2:T108
+R33	TeCP Arg1:T116 Arg2:T117
+R34	TeCP Arg1:T116 Arg2:T118
+R35	PIP Arg1:T117 Arg2:T118
+R36	PIP Arg1:T126 Arg2:T127
+R37	PIP Arg1:T126 Arg2:T128
+R38	PIP Arg1:T128 Arg2:T127
+R39	TrAP Arg1:T129 Arg2:T130
+R40	TrAP Arg1:T132 Arg2:T125
+R41	TeRP Arg1:T144 Arg2:T137
+R42	PIP Arg1:T147 Arg2:T145
+R43	TeRP Arg1:T152 Arg2:T145
+R44	TeRP Arg1:T160 Arg2:T161
+R45	TeCP Arg1:T166 Arg2:T167
+R46	TeCP Arg1:T176 Arg2:T27
+R47	TeCP Arg1:T176 Arg2:T28
+R48	TeRP Arg1:T182 Arg2:T31
+R49	TeRP Arg1:T186 Arg2:T185
+R50	TeRP Arg1:T195 Arg2:T191
+R51	TeRP Arg1:T195 Arg2:T192
+R52	TeRP Arg1:T197 Arg2:T196

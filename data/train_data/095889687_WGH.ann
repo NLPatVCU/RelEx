@@ -1,0 +1,20 @@
+T1	problem 897 920	blurry or double vision
+T2	problem 872 894	any neurologic changes
+T3	problem 923 932	headaches
+T4	problem 935 950	trouble walking
+T5	problem 827 845	increased swelling
+T6	problem 489 520	l upper lip / l nostril abscess
+T7	problem 848 852	pain
+T8	treatment 579 596	needle aspiration
+T9	problem 550 567	purulent material
+T10	problem 451 476	swollen painful l side fc
+T11	problem 815 824	infection
+T12	problem 855 862	redness
+T13	treatment 621 630	augmentin
+R1	PIP Arg1:T2 Arg2:T1
+R2	PIP Arg1:T2 Arg2:T3
+R3	PIP Arg1:T2 Arg2:T4
+R4	TrAP Arg1:T8 Arg2:T9
+R5	PIP Arg1:T11 Arg2:T5
+R6	PIP Arg1:T11 Arg2:T7
+R7	PIP Arg1:T11 Arg2:T12

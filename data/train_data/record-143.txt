@@ -1,0 +1,268 @@
+Admission Date :
+2018-12-26
+Discharge Date :
+2019-01-10
+Date of Birth :
+1949-02-09
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Losartan / Aspirin / Lisinopril-Hctz
+Attending : Donald I Patrick , M.D.
+Chief Complaint : fever
+Major Surgical or Invasive Procedure :
+Intubation for airway protection tunneled line change over wire 2019-01-08
+History of Present Illness :
+69 y/o female wtih PMH significant for ESRD on HD , type 2 DM , and recent PE resulting in PEA arrest admitted through the Juan with sepsis of unknown etiology .
+Pt was recently admitted to The Hospital for Orthopedics from 12-07 thorugh 12-14 with hypotension thought to be secondary to overdiuresis at HD.
+However , a septic component to the hypotension was also considered as the pt was found to have citrobacter in her urine and C diff in her stool .
+Pt was then discharged to Arbour-Fuller Hospital Senior Life where she was in her normal state of health until three days ago .
+Her son reports that she then developed a headache and fevers started three days ago which were treated with tylenol .
+Then , this morning she developed fatigue and did not eat well .
+He son also notes that she appeared to be working hard to breath .
+She was found to be febrile to 101.9 and received levoflox and vancomycin .
+Pt was then sent to the The Hospital for Orthopedics Juan for further evaluation .
+Per notes , pt denied SOB , CP , and abdominal pain prior to intubation .
+She did complain of a left frontal headache .
+In the Juan , the pt 's VS were singificant for a fever of 103.8 , tachycardia in the 130s-150s , and initial hypertensive in the 140s .
+Her oxygen saturation was 96% on RA but she was tachypneic to 31 .
+She was obtunded and was thus intubated for airway protection .
+Post-intubation , the pt 's BP acutely dropped to 58/19 in the setting of propofol .
+When this medication was discontinued , her BP came back up to the 70s-90s / 30s-50s .
+Pt was then initiated on the sepsis protocol .
+In the Juan , she received vancomycin , levofloxacin , flagyl , and cefepime ( 2 gm ).
+She received a total of 4 liters of NS then was started on levophed for continued hypotension .
+Pt is now transferred to the FICU for further care .
+Per pt 's son , she is bedbound at baseline due to her multiple LE femur fractures .
+Past Medical History :
+1. Type 2 diabetes mellitus
+2. Diabetic nephropathy resulting in ESRD for which she is on HD .
+Pt was due for HD but missed it secondary to her illness .
+She normally receives HD on Mon , Wed , and Fri .
+3. Status post left femur fracture
+4. Hyponatremia
+5. Hypercholesterolemia
+6. Unsteady gait
+7. Cataracts
+8. Back pain
+9. Hypertension
+10. Anemia of chronic disease
+11. S/P L shoulder hemiarthroplasty following a left humeral fracuture in 2018-11-10- Dumas was complicated by a PEA arrest secondary to PE .
+12. PE 2018-11-17 leading to PEA arrest
+Social History :
+Lives with son who is very involved and well informed regarding her care needs .
+Non smoker .
+No EtOH
+Family History :
+Noncontributory
+Physical Exam :
+94.5
+132/50
+108
+15
+100%
+AC 500 / 15 / .50 / PEEP 5
+Gen - Sedated and intubated .
+Grimaces eyes when they are opened .
+HEENT - NC AT .
+Right pupil ERRL .
+Surgical left pupil .
+Anicteric sclera .
+MMM .
+Cardiac - RRR .
+S1 S2 .
+No m,r,g .
+Pulm - CTA anteriorlly .
+Abdomen - Obese .
+Soft .
+NT .
+ND .
+Positive bowel sounds .
+Extremities - Feet mildly cool .
+2+ DP pulses bilaterally .
+2+ pitting edema bilateral LE .
+Skin breakdown between toes .
+Pressure ulcers under bilateral LE right above the ankles .
+Do not appear infected .
+Question mild erythema and warmth of left LE .
+Neuro - Sedated .
+Downgoing toes bilaterally .
+Scruntches eyes closed when try to open them .
+Pertinent Results :
+2018-12-26 11:10 PM
+LACTATE - 1.8
+2018-12-26 10:53 PM
+CRP - 46.2 *
+2018-12-26 10:53 PM
+SED RATE - 33 *
+2018-12-26 09:54 PM
+TYPE - MIX TEMP - 35.6 RATES -/ 15 TIDAL VOL - 500 PEEP - 5 O2 - 50 PO2 - 34 * PCO2 - 39 PH - 7.32 * TOTAL CO2 - 21 BASE XS - -6
+- ASSIST / CON INTUBATED - INTUBATED
+2018-12-26 09:54 PM
+LACTATE - 1.6
+2018-12-26 09:44 PM
+GLUCOSE - 210 * UREA N - 29 * CREAT - 3.2 * SODIUM - 139 POTASSIUM - 3.9 CHLORIDE - 112 * TOTAL CO2 - 17 * ANION GAP - 14
+2018-12-26 09:44 PM
+CALCIUM - 6.2 * PHOSPHATE - 1.7 * MAGNESIUM - 0.9 *
+2018-12-26 09:44 PM
+CORTISOL - 10.3
+2018-12-26 09:44 PM
+WBC - 9.0 RBC - 2.93 * HGB - 9.0 * HCT - 29.7 * MCV - 101 * MCH - 30.8 MCHC - 30.4 * RDW - 24.1 *
+2018-12-26 09:44 PM
+NEUTS - 65.2 LYMPHS - 25.2 MONOS - 6.0 EOS - 3.3 BASOS - 0.4
+2018-12-26 09:44 PM
+HYPOCHROM - 3+ ANISOCYT - 3+ POIKILOCY - 1+ MACROCYT - 3+ MICROCYT - 1+
+2018-12-26 09:44 PM
+PLT COUNT - 177
+2018-12-26 08:28 PM
+CORTISOL - 9.3
+2018-12-26 08:28 PM URINE
+COLOR - Yellow APPEAR - SlHazy SP Barajas - 1.005
+2018-12-26 08:28 PM URINE
+BLOOD - LGE NITRITE - NEG PROTEIN - 500 GLUCOSE - TR KETONE - NEG BILIRUBIN - NEG UROBILNGN - NEG PH - 7.0 LEUK - NEG
+2018-12-26 08:28 PM URINE
+RBC - 225 * WBC - 8 * BACTERIA - NONE YEAST - NONE EPI - < 1
+2018-12-26 02:40 PM
+CK ( CPK )- 350 *
+2018-12-26 02:40 PM
+CK - MB - 3 cTropnT - 0.40 *
+MICRO : sputum 12-27 : grm stn and cx negative
+infl A and B 12-27 : negative
+CSF grm stn / cx : negative
+urine cx 12-26 : > 100K VRE likely colonized , 01-03 yest and VRE
+c diff neg : 12-28 , 12-31 , 01-01 , 01-02 .
+bld cx 12-26 , 12-27 , 12-28 , 12-31 - NG .
+01-01 , 01-02 X 3 , 01-03 , 01-04 , 11/27X 2 NGTD .
+Catheter tip 01-05 , NG .
+C. Diff B - negative
+Tunnled catheter tip 01-08 - ngtd
+HERPES SIMPLEX VIRUS PCR - PND
+Brief Hospital Course :
+A/P :
+69 y/o female wtih PMH significant for ESRD on HD , type 2 DM , and recent PE resulting in PEA arrest admitted through the Juan with sepsis of unknown etiology .
+1. Sepsis / ID- Started on sepsis protocol .
+Unclear etiology headache over the three days prior to admission in association with fever was concerning for a CNS etiology .
+Covered broadly with vancomycin , flagyl , and cefipime .
+Given stress dose steroids empirically and Sanchez stim showed cortisol of 9.3 --> 10.3 therefore steroids continued .
+CXR , LP , UA and abdominal CT showed no sign of infection .
+PICC line was removed empirically .
+Tip could not be cultured due to contamination .
+Cultures drawn off the HD cath are negative to date .
+Patient 's LE ulcers appear chronic and do not appear to be the source of infection .
+Her left knee is slightly erythematous compared to the right but not impressive .
+Joint is mobile .
+Nasal washings for influenza were negative ; culture pending .
+Patient improved over the next few days .
+Steroids were discontinued .
+On 12-18 flagyl and cefepime were discontinued as all culture data negative to date .
+Plan to continue vancomycin for 08-19 day course to treat empiric line infection .
+Urine culture came back positive for VRE , however , since patient improved without treatement ( ie Linezolid ) initially .
+After transfer to the floor when she was stable .
+On the floor the Vancomycin was discontinued as the catheter tip culture was negative .
+ID was consulted who suggested broad spectrum antibiotics if she were to spike .
+When pt spiked a temperature and became hypotensive she was started on Linezolid was started for presumed VRE infection in the urine .
+She will be treated for total 14 day course .
+She was also started on fluconazole for yeast in the urine , to be treated with fluconazole for total 7 days .
+She was given Flagyl for presumed C. Diff. Colitis , however this was stopped when C. Diff B toxin came back negative on 2019-01-10 .
+The tunneled catheter line was changed over a wire and the tip was also negative .
+2. Respiratory - Intubated for airway protection due to change in mental status .
+Extubated 12-28 with no incident .
+3. ECG changes - Patient had an episode of chest pain during her hospital stay that was both right and left sided with no radiation and no associated symptoms .
+ECG showed new diffuse TWI in all leads .
+Cardiac enzymes were cycled and were normal .
+Echo was obtained which showed WMA and EF of 35-40% .
+Pt was note started on ASA as she does not tolerate this well , BB was also not started given SBPs in the 110s .
+Statin was also deffered .
+She may be started on ASA , BB , statin by PCP as Stephen .
+4. Shoulder fracture - Patient is s/p a left hip fracture ( decision not to operate ) and a left shoulder fracture with hemiarthroplasty 11-14 .
+Patient was found to have a new humerus fracture distal to the hardware on film this admission .
+Assumed to be secondary to trauma when moving patient into ambulance .
+CMED service was consulted and recommended wtd woulnd care and sling at all times .
+Wound care should be continued as described after discharge .
+5. Type 2 DM - Patient was initially covered with an insulin drip while septic and then transitioned back to insulin sliding scale .
+6. ESRD on HD - Pt has ESRD secondary to her DM and is on HD .
+She was dialysed but was slightly limited by hypotension .
+Dialyzed 12-28 with plan to dialyze again 12-31 .
+Her dialysis was managed by renal service in house .
+7. PE ( 11-14 )- On heparin drip .
+Restared coumadin on 12-29 .
+Heparin discontinued on 01-01 when INR was 2.0 .
+Coumadin was stopped and she received fFP for tunneled line change over a wire .
+Coumadin was restarted at a dose of 2 mg qhs .
+This should be titrated after discharge for INR goal of 2-3 .
+8. PVD :
+Dry gangrene of toes bilaterally w/ necrosis of the heels and posterior calf .
+Continue to monitor for sign of infection .
+On vit C. and zinc as well to aid w/ wound healing .
+Wound care consult given anasarca to prevent decub .
+9. Left UE markedly more edematous than right UE , this could be from fracture , or there could be a clot , an abscess in the area also a possiblity .
+Ultrasound without clot .
+Continue elevation and tight dressing to LUE >
+10. Access - Left IJ placed 12-26 in Juan was discontinued during the hospitilization .
+Right dialysis catheter ( 2018-11-05 ) was changed over a wire 2019-01-08 .
+PICC line placed 2019-01-08 , this should be discontinued immediately after pt finishes the linezolid course .
+11. Code status - Initially full code then made DNR / DNI after family meeting on 02-27 .
+Made full code again on 12-30 after family meeting with son .
+Larry would like everything done .
+12. Communication - With pt 's son .
+His name is Andrea and his phone number is 794 1029 x. 1385 .
+Medications on Admission :
+1. Ascorbic acid 500 mg BID
+2. Folic acid 1 mg daily
+3. Humulin insulin 2 units QAM
+4. RISS
+5. Pantoprazole 40 mg BID
+6. Neutra phos 2 tabs BID
+7. Vitamin B complex 1 tab daily
+8. Coumadin - Dose unknown
+9. Tylenol 650 mg Q4H PRN
+10. Ondansetron 4 mg Q6H PRN
+Discharge Medications :
+1. Ascorbic Acid 500 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+2. Folic Acid 1 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+3. Zinc Sulfate 220 mg Capsule Sig : One ( 1 ) Capsule PO DAILY ( Daily ) .
+4. Acetaminophen 325 mg Tablet Sig : 1-2 Tablets PO Q4-6H ( every 4 to 6 hours ) as needed .
+5. Papain - Urea 544 287 0616 unit - mg / g Ointment Sig : One ( 1 ) Appl Topical DAILY ( Daily ) .
+6. Ipratropium Bromide 0.02 % Solution Sig : One ( 1 ) Inhalation Q4H ( every 4 hours ) .
+7. Calcium Acetate 667 mg Tablet Sig : One ( 1 ) Tablet PO TID W/ MEALS ( 3 TIMES A DAY WITH MEALS ) .
+8. Metoprolol Tartrate 25 mg Tablet Sig : 0.5 Tablet PO TID ( 3 times a day ) : Hold for SBP < 100 , HR < 60 .
+9. Fluconazole 200 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 2 days .
+10. Insulin Regular Human 300 unit / 3 mL Insulin Pen Sig : as directed Subcutaneous four times a day : Please administer 8 units glargine at dinner and regular insulin sliding scale as prescribed .
+11. Warfarin 2 mg Tablet Sig : One ( 1 ) Tablet PO HS ( at bedtime ) : Titrate dose to Goal INR 03-15 .
+Tablet ( s )
+12. Linezolid 600 mg IV Q12H
+13. Heparin Flush PICC ( 100 units / ml ) 2 ml IV DAILY : PRN 10 ml NS followed by 2 ml of 100 Units / ml heparin ( 200 units heparin ) each lumen Daily and PRN .
+Inspect site every shift .
+14. Heparin Flush CVL ( 100 units / ml ) 1 ml IV DAILY : PRN
+10ml NS followed by 1ml of 100 units/ml heparin ( 100 units heparin ) each lumen QD and PRN .
+Inspect site every shift
+15. Dolasetron Mesylate 12.5 mg IV Q8H : PRN
+16. medication
+Please complete a total 14 day course of linezolid .
+Stop linezolid on 2019-01-17 .
+The PICC line should be discontinued promptly after the linezolid course is completed .
+Discharge Disposition :
+Extended Care
+Facility :
+Newton-Wellesley Hospital for the Aged - Acute Rehab
+Discharge Diagnosis :
+Sepsis -? source
+Chronic Kidney disease - on hemodialysis type 2 diabetes hypercholestrolemia anemia of chornic disease h/o PE , s/p PEA arrest 11-14
+Discharge Condition :
+Stable
+Discharge Instructions :
+You were admitted with low blood pressure and fevers likely due to an infection .
+Although there was never any bacteria isolated from the blood you had some bacteria in the urine which you are being treated for .
+It is important that you complete the antibiotic course as prescribed .
+Please continue to take all medications as prescirbed and follow up with all your appointments .
+If you have chest pain , shortness of breath , diahrrea or fevers please contact your PCP .
+Robert the shortness of breath gets worse please return to emergency room .
+If you have fevers please contact your PCP or return to the emergency room .
+Followup Instructions :
+Please call ( 664 ) 369-9786 to set up an appointment with your primary care doctor Dr. Andrew Shelton in 1-2 wks after discharge .
+Cleveland Barbara MD 00-732
+Completed by : Sharon Frank MD 75-572 2019-01-10 @ 1333
+Signed electronically by : DR. Janice Oconnell on : Kent 2019-01-10 3:28 PM
+( End of Report )

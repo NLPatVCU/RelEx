@@ -1,0 +1,117 @@
+T1	problem 1694 1707	complications
+T2	problem 1633 1653	estimated blood loss
+T3	treatment 1872 1885	the procedure
+T4	treatment 2270 2278	the flap
+T5	treatment 2085 2120	his tracheostomy 6 cuff shiley tube
+T6	treatment 1477 1491	reconstruction
+T7	treatment 2429 2431	iv
+T8	treatment 1506 1530	radial forearm free flap
+T9	problem 1387 1419	invasive squamous cell carcinoma
+T10	problem 1425 1438	complications
+T11	treatment 1595 1619	total intravenous fluids
+T12	treatment 1162 1201	bilateral supraomohyoid neck dissection
+T13	treatment 1207 1216	resection
+T14	problem 1229 1240	mouth tumor
+T15	treatment 2249 2267	left radial a-line
+T16	treatment 769 781	tetanus shot
+T17	treatment 2230 2235	foley
+T18	problem 1957 1970	complications
+T19	treatment 2206 2212	g-tube
+T20	test 1344 1358	frozen section
+T21	treatment 2136 2160	westwood-pocasset drains
+T22	treatment 1903 1927	an open gastrostomy tube
+T23	treatment 1809 1848	the percutaneous endoscopic gastrostomy
+T24	problem 705 711	hernia
+T25	problem 751 762	anaphylaxis
+T26	treatment 1753 1806	an attempted percutaneous endoscopic gastrostomy tube
+T27	test 1666 1678	urine output
+T28	treatment 3900 3911	ventilation
+T29	test 2735 2741	sodium
+T30	problem 938 945	anxiety
+T31	test 2772 2780	chloride
+T32	treatment 4138 4151	tube feedings
+T33	test 2752 2761	potassium
+T34	treatment 2607 2638	a regular insulin sliding scale
+T35	treatment 3940 3968	pressure support ventilation
+T36	treatment 2530 2558	delirium tremens prophylaxis
+T37	treatment 4180 4193	the procedure
+T38	test 2699 2725	postoperative laboratories
+T39	test 4030 4058	his westwood-pocasset output
+T40	treatment 2688 2696	protonix
+T41	treatment 2470 2478	morphine
+T42	problem 2493 2497	pain
+T43	treatment 2587 2597	metoprolol
+T44	test 1122 1145	diagnostic laryngoscopy
+T45	treatment 1104 1116	tracheostomy
+T46	treatment 811 842	triamterene/hydrochlorothiazide
+T47	test 2332 2343	flap checks
+T48	test 2293 2316	a strong doppler signal
+T49	test 1150 1156	biopsy
+T50	treatment 2414 2420	unasyn
+T51	treatment 889 898	lorazepam
+T52	treatment 2376 2394	a dextran infusion
+T53	test 2974 2984	hematocrit
+T54	treatment 4686 4702	his tracheostomy
+T55	test 3000 3009	platelets
+T56	treatment 4756 4763	sutures
+T57	test 2922 2942	complete blood count
+T58	treatment 4813 4827	this procedure
+T59	test 2952 2963	white count
+T60	treatment 4495 4512	his tube feedings
+T61	test 3034 3037	ast
+T62	test 3047 3067	alkaline phosphatase
+T63	treatment 4619 4657	the westwood-pocasset in his right arm
+T64	treatment 4208 4229	his tracheostomy tube
+T65	problem 4305 4323	minimal secretions
+T66	test 3021 3024	alt
+T67	treatment 3362 3371	lopressor
+T68	treatment 3178 3195	tracheostomy tube
+T69	test 2841 2851	creatinine
+T70	test 2791 2802	bicarbonate
+T71	test 2812 2831	blood urea nitrogen
+T72	problem 3218 3230	pneumothorax
+T73	test 2902 2911	magnesium
+T74	test 3121 3134	a chest x-ray
+T75	test 3077 3092	total bilirubin
+T76	test 2866 2873	glucose
+T77	test 3103 3110	albumin
+T78	test 2884 2891	calcium
+T79	treatment 666 682	tooth extraction
+T80	treatment 4578 4594	pulmonary toilet
+T81	treatment 3314 3343	westwood-pocasset management.
+T82	treatment 644 655	polypectomy
+T83	treatment 3478 3489	medications
+T84	problem 580 617	chronic obstructive pulmonary disease
+T85	problem 3781 3814	positive biphasic doppler signals
+T86	treatment 2502 2508	ativan
+T87	test 3697 3708	flap checks
+T88	treatment 3409 3419	nebulizers
+T89	problem 563 575	hypertension
+T90	treatment 473 490	a joint procedure
+T91	treatment 4778 4788	a 3-0 silk
+T92	treatment 3554 3568	foley catheter
+T93	treatment 3445 3456	ventilation
+T94	treatment 4718 4737	a 6 cuffless shiley
+T95	treatment 446 457	his surgery
+T96	test 4599 4616	q.2h. flap checks
+T97	test 3573 3606	strict monitoring of ins and outs
+T98	treatment 394 403	resection
+T99	test 295 304	pathology
+T100	problem 328 360	invasive squamous cell carcinoma
+T101	treatment 3494 3510	gastrostomy tube
+T102	test 3276 3287	flap checks
+T103	treatment 3290 3307	tracheostomy care
+T104	treatment 3675 3694	antibiotic coverage
+T105	problem 246 257	stage t2 n0
+T106	problem 198 221	squamous cell carcinoma
+T107	treatment 3664 3670	unasyn
+T108	test 3623 3633	hematocrit
+R1	TrAP Arg1:T13 Arg2:T14
+R2	TeRP Arg1:T20 Arg2:T9
+R3	TrCP Arg1:T22 Arg2:T18
+R4	TrAP Arg1:T41 Arg2:T42
+R5	TrAP Arg1:T51 Arg2:T30
+R6	TrCP Arg1:T64 Arg2:T65
+R7	TeRP Arg1:T87 Arg2:T85
+R8	TeRP Arg1:T99 Arg2:T100
+R9	PIP Arg1:T106 Arg2:T105

@@ -1,0 +1,109 @@
+044687343 ELMVH
+01719921
+1626859
+3/13/2006 12:00:00 AM
+COPD flare
+DIS
+Admission Date :
+03/13/2006
+Report Status :
+Discharge Date :
+03/19/2006
+****** FINAL DISCHARGE ORDERS ******
+FREIERMLINKENEIGHCAABLINFARST , ANEA
+770-09-54-2 O32
+Room :
+39K-128
+Service :
+MED
+DISCHARGE PATIENT ON :
+03/19/06 AT 01:00 PM
+CONTINGENT UPON
+Not Applicable
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+ALBFYFEAYLES , LORRE EZO , M.D.
+CODE STATUS :
+Full code
+DISPOSITION :
+Villeflardsbroo Ands Tho Cardhako General Hospital
+DISCHARGE MEDICATIONS :
+ACETYLSALICYLIC ACID 81 MG PO DAILY ALBUTEROL NEBULIZER 2.5 MG NEB Q4H Starting Today ( 03/17 ) PRN Shortness of Breath LISINOPRIL 10 MG PO DAILY NIFEREX-150 150 MG PO BID PREDNISONE Taper PO Give 50 mg q 24 h X 1 dose ( s ) , then Give 40 mg q 24 h X 1 dose ( s ) , then Give 30 mg q 24 h X 1 dose ( s ) , then Give 20 mg q 24 h X 1 dose ( s ) , then Give 10 mg q 24 h X 1 dose ( s ) , then Starting Today ( 03/17 ) CLARITIN ( LORATADINE ) 10 MG PO DAILY
+Food / Drug Interaction Instruction
+Avoid grapefruit unless MD instructs otherwise .
+Give on an empty stomach ( give 1hr before or 2hr after food ) SINGULAIR ( MONTELUKAST ) 10 MG PO BEDTIME ADVAIR DISKUS 500/50 ( FLUTICASONE PROPIONATE/... ) 1 PUFF INH BID CALTRATE + D 1 TAB PO BID LANTUS ( INSULIN GLARGINE ) 35 UNITS SC QAM DUONEB ( ALBUTEROL AND IPRATROPIUM NEBULIZER ) 3/0.5 MG NEB Q6H Starting Today ( 03/17 ) PRN Shortness of Breath , Wheezing NOVOLOG ( INSULIN ASPART ) 4 UNITS SC AC
+Instructions :
+standing pre-meal novolog .
+give when patient will eat and food is in the room .
+NOVOLOG ( INSULIN ASPART ) Sliding Scale ( subcutaneously ) SC AC
+Instructions :
+pre-meal correction dose .
+give in addition to standing pre-meal novolog when patient will eat and food is in the room .
+If BS is less than 125 , then give 0 units subcutaneously If BS is 125-150 , then give 2 units subcutaneously If BS is 151-200 , then give 3 units subcutaneously If BS is 201-250 , then give 4 units subcutaneously If BS is 251-300 , then give 6 units subcutaneously If BS is 301-350 , then give 8 units subcutaneously If BS is 351-400 , then give 10 units subcutaneously and call HO Call HO if BS is greater than 400 PROTONIX ( PANTOPRAZOLE ) 40 MG PO DAILY COMBIVENT ( IPRATROPIUM AND ALBUTEROL SULFATE ) 2 PUFF INH QID FOSAMAX ( ALENDRONATE ) 70 MG PO QWEEK
+Food / Drug Interaction Instruction
+Give on an empty stomach ( give 1hr before or 2hr after food )
+Take with 8 oz of plain water SPIRIVA ( TIOTROPIUM ) 18
+MCG INH DAILY DIET :
+House / Low chol / low sat. fat
+DIET :
+House / ADA 1800 cals / dy
+ACTIVITY :
+walk with assist per PT eval
+FOLLOW UP APPOINTMENT ( S ) :
+Dr Zuknocegrend PCP 4/24 130 ,
+Dr. Pump 3/25/05 1:30 ,
+ALLERGY :
+NKA ADMIT DIAGNOSIS :
+COPD flare
+PRINCIPAL DISCHARGE DIAGNOSIS ;
+Responsible After Study for Causing Admission ) COPD flare
+OTHER DIAGNOSIS ;
+Conditions , Infections , Complications , affecting Treatment / Stay
+COPD ( chronic obstructive pulmonary disease ) DM cervical DJD ( ) iron deficiency anemia ( iron deficiency anemia ) cervical and lumbar djd ( 12 ) osa ( sleep apnea ) s / p tb treatment ( 5 )
+OPERATIONS AND PROCEDURES :
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+na
+BRIEF RESUME OF HOSPITAL COURSE :
+CC :
+weakness
+HPI :
+75 y / o F with DM , COPD on 2L NC and Bipap at night p / w generalized weakness and fatigue , urinary incontinence and shaking as well as increased sputum production .
+Per daughter these symptoms are typical of COPD flare .
+ROS otherwise negative .
+Admission Status :
+ED :
+REc&apos;d duonebs , solumedrol 125
+Vitals :
+t97.5 , hr 117 , bp156/81 , rr28 , o2 sats 87% RA ; 95% 4L
+Exam :
+NAD , pleasant , speaking in complete sentences , poor air movement bilaterally , L &gt; R , no wheezes or rales , rrr , distant , abd benign , no edema , alert and oriented times three , no focal deficits , conversant Studies :
+- EKG sinus 92 , no ST changes
+- CXR no focal consolidation or edema , old biapical scarring ABG 7.34/79/74 U / A negative
+Daily Status :
+improving , but still poor air movement , diffusely wheezy on exam , at baseline 2L o2 requirement
+A / P :
+75 y / o F with h / o COPD c / b frequent exacerbations p / w typical flare symptoms .
+Problem List :
+CV - Ischemia ASA , lisinopril Pump no evidence of failure
+Rhythm Resp - COPD
+flare - steroids , cont prednisone 60 , taper slowly as tolerated , duonebs , advair , singulair , spiriva , claritin azithromycin for atypical bronchitis to complete a 5 day course , keep o2 sat 90-94 , home nocturnal CPAP not tolerated in house , does well on nc , appears ato be at baseline
+Renal -
+Cr 0.8 , stress incontinence by symptoms with increased cough , no evidence of uti , cont to closely monitor
+GI - Bowel regimen
+Heme - Chronic Fe deficiency anemia , cont iron
+Endo - DM on insulin with steroids
+ID - afebrile , no wbc , started on Azithromycin for COPD flare
+FEN - ADA diet
+PPx - Lovenox , PPI
+Dispo - to rehab when resp status improved , PT consulted
+Code - FC
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+f / u with PCP and Dr. Pump as scheduled , return to ED with worsening sob or increased cough or sputum production
+No dictated summary
+ENTERED BY :
+TIKWELD , WILLAIDE V. , M.D. ( QT296 ) 03/19/06 10:53 AM
+****** END OF DISCHARGE ORDERS ******

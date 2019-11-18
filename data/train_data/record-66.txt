@@ -1,0 +1,147 @@
+Admission Date :
+2016-07-18
+Discharge Date :
+2016-07-21
+Date of Birth :
+1969-11-05
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Penicillins
+Attending : Daniel Z. H. Walton , M.D.
+Chief Complaint :
+Dyspnea
+Major Surgical or Invasive Procedure :
+None
+History of Present Illness :
+46 - yo-man w/ active cocaine use presents w/ LE edema .
+10 days ago , he developed b/l LE edema that has gotten progressively worse until now .
+Three days ago , he developed dyspnea on exertion when climbing stairs , assoc w/ 2-pillow orthopnea and PND .
+He denies any recent chest pain , palpitations , headache , confusion , weakness , numbness , abd pain , or hematuria .
+No recent viral syndromes or URI s.
+He does admit to cocaine use last night .
+Today , his wife convinced him to present to the Deanna for evaluation .
+In the Deanna , his BP was 230/170 .
+BNP was elevated at 7500 .
+CXR revealed evidence of cardiomegaly and pulm edema .
+He was treated w/ ASA 325 mg , lasix 10 mg IV , and hydralazine 10 mg IV x 2 .
+He responded well to lasix w/ good UOP , but diastolic BP remained elevated at 170 , prompting initiation of nitroprusside gtt .
+He is now admitted to the CCU for further care .
+Past Medical History :
+none
+Social History :
+significant for current tobacco use .
+Drinks 3-4 beers a few times weekly , no h/o withdrawal symptoms , seizures or DT s.
+Snorts cocaine 1-2 times monthly .
+Never injected drugs .
+Family History :
+There is no family history of premature coronary artery disease or sudden death .
+Physical Exam :
+VS : T, BP 181/122 , HR 84 , RR 12 , O2 98% 2L/m
+Gen : lying flat in bed , pleasant and conversational , NAD
+HEENT : NCAT .
+Sclera anicteric .
+PERRL , EOMI .
+OP clear w/ MMM .
+Neck : Supple with JVP of 8 cm .
+CV : reg s1 , loud s2 , + 2/6 systolic murmur radiating to axilla , no s3/s4/r
+Pulm : CTA b/l w/ no crackles or wheezing
+Abd : obese , +BS , soft , NTND .
+Ext : warm , 2+ DP b/l , 2+ pitting edema to knees b/l
+Neuro : a/o x 3 , CN 04-04 intact
+Pertinent Results :
+2016-07-18 05:30 PM
+WBC - 7.7 RBC - 5.00 HGB - 15.0 HCT - 42.8 MCV - 86 MCH - 30.0 MCHC - 35.0 RDW - 14.6
+2016-07-18 05:30 PM
+PLT COUNT - 315
+2016-07-18 05:30 PM
+CK-MB - 4 proBNP - 7489 *
+2016-07-18 05:30 PM
+cTropnT - 0.02 *
+2016-07-18 05:30 PM
+ALT(SGPT) - 77 * AST(SGOT) - 60 * CK(CPK) - 195 * ALK PHOS - 104 AMYLASE - 100 TOT BILI - 0.4
+EKG demonstrated NSR at 87 bpm , nl axis , nl int , LVH w/ strain pattern , no ischemic changes .
+CXR :
+Moderate to severe enlargement of the cardiac silhouette , and  particularly the left atrium accompanied by pulmonary vascular congestion and mild pulmonary edema consistent with heart failure .
+Conclusions :
+The left atrium is moderately dilated .
+There is moderate symmetric left ventricular hypertrophy with mild cavity dilation and severe global hypokinesis .
+No left ventricular thrombus is seen .
+Tissue Doppler imaging suggests an increased left ventricular filling pressure ( PCWP > 18 mmHg ).
+The right ventricular cavity is mildly dilated with severe free wall hypokinesis .
+The aortic valve leaflets ( 3 ) are minimally thickened .
+No aortic stenosis or aortic regurgitation is seen .
+The mitral valve leaflets are structurally normal .
+There is no mitral valve prolapse .
+Mild ( 1+ ) mitral regurgitation is seen .
+There is moderate pulmonary artery systolic hypertension .
+There is a very small circumferential pericardial effusion .
+IMPRESSION : Moderate symmetric eft ventricular hypertrophy with severe global biventricular hypokinesis c/w diffuse process ( toxin , metabolic , cannot exclude myocarditis ; in the absence of LVH on ECG , an infiltrative process should also be considered ).
+Mild mitral regurgitation .
+Moderate pulmonary arterial hypertension .
+Very small circumferential pericardial effusion .
+Possible abnormality on the aortic valve as described above without aortic regurgitation .
+If clinically indicated a TEE would be better able to define an abnormality of the aortic valve .
+Brief Hospital Course :
+46 - yo-man w/ cocaine abuse presents w/ LE edema and DOE likely from diastolic heart failure in the setting of cocaine use complicated by hypertensive urgency .
+Hypertensive urgency :
+BP 230/170 on presentation , most likely from chronic HTN exacerbated by cocaine use .
+No signs of end-organ damage at present except for elevated creatinine , which is more likely a chronic problem .
+The patient was started on labetalol and Lisinopril .
+His blood pressure was taken down from 230 systolic to approx 160 systolic / 100 diastolic on discharge .
+His lower extremity edema improved with diuresis .
+An echo performed on admission showed an LF EF of 25% .
+It is hoped with good blood pressure control and use of an ACE-I with follow up in addition to cocaine abstaining will improved his cardiac function .
+Renal Failure : creatinine on admission was 1.6 Likely acute hypertensive nephropathy plus probalbe long-standing hypertensive disease .
+discharged on ACE-I .
+Substance Use : Social work saw patient and counceled him regarding substance abuse .
+Discharged with Margaret Hallock , cardiology follow up as well as scheduled appointment with a new PCP @ Newton Health Center .
+Medications on Admission :
+none
+Discharge Medications :
+1. Aspirin 325 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+2. Hydrochlorothiazide 25 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+3. Labetalol 200 mg Tablet Sig : Two ( 2 ) Tablet PO BID ( 2 times a day ).
+Disp :* 120 Tablet (s)* Refills :* 2 *
+4. Lisinopril 20 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ).
+Disp :* 30 Tablet (s)* Refills :* 2 *
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Primary :
+- hypertensive emergency
+- ARF
+- mild transaminitis likely 03-25 etoh and cocaine abuse
+- cocaine abuse
+- lower extremity edema improved
+Discharge Condition :
+well
+Discharge Instructions :
+You came in with hypertensive emergency .
+You were treated with medications to improve your blood pressure .
+Notably you were discharged on :
+1. Lisinopril 20 mg daily
+2. HCTZ 25 mg daily
+3. Labetalol 400 mg bid
+4. ASA 162mg daily
+It is extremely important for you to take these medications .
+It is very important that you followup with your cardiology .
+Please return to the Deanna if you experience SOB , chest pain , fevers , chills , dizziness , decreased urine output .
+It is also very important that you abstain from cocaine use .
+Followup Instructions :
+Please see Dr. Villani on Monday 2016-07-25 at 10:00 in Smith 7th .
+It is extremely important for you to keep this appointment .
+You have a Primary Care Physician B. Schumacher on 07-29 @ 1:45 pm .
+Please arrive 1 hour prior to the appointment to complete the Free Care Application there .
+You need to bring a picture ID , proof of citizenship , proof of address .
+The Clinci phone number is ( 754 ) 280-1011
+Please followup with Dr. Lesha Lefebvre on 08-15 at 10:30 am .
+His number is ( 532-803-1162 .
+His secretary can help you clarify your insurance .
+Ralph Katherine MD 31-164
+Completed by : Terry Smith MD 12-201 2016-07-21 @ 1848
+Signed electronically by : DR. Jennifer Applebee on : Sandra 2016-07-21 9:54 PM
+( End of Report )

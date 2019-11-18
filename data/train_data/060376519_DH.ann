@@ -1,0 +1,10 @@
+T1	problem 451 460	dizziness
+T2	problem 582 607	benign positional vertigo
+T3	treatment 689 698	meclizine
+T4	problem 818 823	fever
+T5	problem 829 837	headache
+T6	problem 546 555	dizziness
+T7	test 646 653	head ct
+T8	problem 796 804	symptoms
+T9	problem 611 624	labyrinthitis
+R1	PIP Arg1:T4 Arg2:T5

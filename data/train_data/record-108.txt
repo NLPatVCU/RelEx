@@ -1,0 +1,118 @@
+Admission Date :
+2018-03-04
+Discharge Date :
+2018-03-09
+Date of Birth :
+1957-08-17
+Sex :
+M
+Service :
+UROLOGY
+Allergies :
+Sulfonamides / Penicillins / Tetracyclines / Azithromycin / Iodine / Shellfish / Ace Inhibitors / Ciprofloxacin
+Attending : 
+Donald E. Jacquet , M.D.
+Chief Complaint:
+Chronic prostatitis
+Major Surgical or Invasive Procedure:
+TURP
+History of Present Illness:
+Justin Searle a 60-year-old man with a long history of chronic prostatitis status post two transurethral resection of the prostate procedures in 2007 and 1998 .
+He also has a diagnosis of interstitial cystitis and more significantly has a history of coronary artery disease with a recent catheterization , supraventricular tachycardia , and a progressive mitochondrial myopathy .
+He has had symptoms of dribbling , stress incontinence , hematuria , but has no dysuria .
+He was preadmitted for cardiac clearance by Dr. Lair , his cardiologist .
+Past Medical History:
+1. Coronary artery disease ( s/p stents to LAD and 3rd OM )
+2. Supraventricular tachycardia ( on a beta blocker ) .
+3. Mitochondrial myopathy .
+4. History of orthostasis with tilt table testing done in the past .
+5. Status post transurethral resection of prostate times two ( in 2007 and 1998 ) .
+6. Interstitial cystitis .
+7. Pericarditis .
+8. Hypertension .
+9. Hypercholesterolemia .
+10. Gastrointestinal bleed
+Social History :
+denies any tobacco. Divorced , lives in Wisconsin
+Family History :
+Father had MI at 42
+Mother died of MI at 76
+Physical Exam :
+Gen :
+NAD
+HEENT :
+MMM
+CV :
+RRR , no m/r/g
+Lungs :
+CTAB
+Abd : soft , +distension with tympany , no HSM , hyperactive BS
+Ext : no c/c/e
+Neuro :
+A&O x3 .
+ECG :
+NSR at 62 , nl axis , nl intervals , Q waves in III , avR , V1 .
+TWI 's in III , V1 .
+Pertinent Results:
+2018-03-04 01:02PM
+GLUCOSE - 94 UREA N - 22* CREAT - 1.4* SODIUM - 142
+POTASSIUM - 5.9* CHLORIDE - 108 TOTAL CO2 - 23 ANION GAP - 17
+2018-03-04 01:02PM
+CALCIUM - 9.7 PHOSPHATE - 3.9 MAGNESIUM - 1.9
+2018-03-04 01:02PM
+WBC - 7.5 RBC - 5.09 HGB - 15.4 HCT - 43.7 MCV - 86
+MCH - 30.2 MCHC - 35.2* RDW - 13.6
+2018-03-04 01:02PM
+PLT COUNT - 257#
+2018-03-04 01:02PM
+PT - 12.2 PTT - 23.8 INR ( PT ) - 0.9
+Brief Hospital Course:
+On HD2 , cardiac clearance was obtained by Dr. Sanchez .
+Patient tolerated procedure on 2018-03-05 and was transferred to
+ICU for 24hr post-op cardiac monitoring .
+Stay was uneventful .
+On POD1 , patient was transferred out of FICU to 12R .
+Catheter was removed .
+He was started on Pyridium .
+On POD2 , patient was deemed suitable and stable for discharge .
+On POD4 , patient was discharged .
+Discharge Medications :
+1. Hydroxyzine HCl 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+2. Atorvastatin Calcium 20 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+3. Ezetimibe 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+4. Simethicone 80 mg Tablet , Chewable Sig : 0.5-1 Tablet , Chewable PO QID ( 4 times a day ) as needed for indigestion/gas pain .
+5. Aluminum-Magnesium Hydroxide 225-200 mg/5 mL Suspension Sig : 15-30 MLs PO QID ( 4 times a day ) as needed for indigestion .
+6. Atenolol 100 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+7. Hyoscyamine Sulfate 0.125 mg Tablet Sig : One ( 1 ) Tablet PO QID ( 4 times a day ) .
+8. Phenazopyridine HCl 100 mg Tablet Sig : One ( 1 ) Tablet PO TID ( 3 times a day ) for 3 days .
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Chronic prostatitis
+Interstitial cystitis
+Discharge Condition :
+Good
+Discharge Instructions :
+Go to an Emergency Room if you experience symptoms including , but not necessarily limited to : new and continuing nausea , vomiting , fevers ( >101.5 F ) , chills , or shortness of breath .
+Proceed to the ER/EW/Monica if your wound becomes red , swollen , warm , or produces pus .
+You may remove your dressings 2 days after your surgery if they were not removed in the hospital .
+Leave the steri strips on until they begin to peel , then you may remove them. Staples and stitches will remain until your follow-up appointment .
+If you experience clear drainage from your wounds , cover them with a clean dressing and stop showering until the drainage subsides for at least 2 days .
+No heavy lifting or exertion for at least 6 weeks .
+No driving while taking pain medications .
+Narcotics can cause constipation .
+Please take an over the counter stool softener such as Colace or a gentle laxative such as Milk of Magnesia if you experience constipation .
+You may resume your regular diet as tolerated .
+You may take showers ( no baths ) after your dressings have been removed from your wounds .
+Continue taking your home medications unless otherwise contraindicated and follow up with PCP .
+Followup Instructions :
+F/U with Rau .
+Call for appointment
+F/U with Dr. Ross in 2-3 weeks .
+Michael Morgan MD 43-508
+Completed by :
+Justin RAO MD 71-039 2018-03-09 @ 0842
+Signed electronically by :
+DR. Freddy Darr on :
+FRI 2018-03-23 9:45 AM
+( End of Report )

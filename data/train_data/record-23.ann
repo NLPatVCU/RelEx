@@ -1,0 +1,45 @@
+T1	test 1412 1426	platelet count
+T2	treatment 824 850	the patient 's antibiotics
+T3	test 1297 1323	his white blood cell count
+T4	treatment 969 979	hyper-cvad
+T5	problem 901 904	aml
+T6	problem 893 896	all
+T7	treatment 1023 1036	this protocol
+T8	test 1400 1406	blasts
+T9	treatment 442 451	acyclovir
+T10	test 1380 1389	monocytes
+T11	test 1196 1212	his differential
+T12	treatment 934 961	a new chemotherapy protocol
+T13	treatment 1954 1977	bactrim double strength
+T14	treatment 1739 1757	a neutropenic diet
+T15	test 1563 1580	laboratory checks
+T16	treatment 1844 1866	his next cycle of cvad
+T17	problem 783 791	afebrile
+T18	treatment 2027 2036	compazine
+T19	problem 2064 2070	nausea
+T20	problem 1258 1276	further complaints
+T21	treatment 273 292	several antibiotics
+T22	test 1174 1192	the percent blasts
+T23	treatment 2076 2083	anzemet
+T24	problem 2114 2120	nausea
+T25	treatment 597 613	his central line
+T26	treatment 342 350	ambazone
+T27	test 1039 1065	his white blood cell count
+T28	treatment 618 634	the central line
+T29	treatment 695 717	intravenous vancomycin
+T30	treatment 326 339	ciprofloxacin
+T31	test 1363 1374	lymphocytes
+T32	treatment 313 323	vancomycin
+T33	test 364 397	the patient 's hsv antibody titer
+T34	test 1352 1357	bands
+T35	problem 1121 1132	neutropenic
+T36	treatment 355 361	flagyl
+T37	test 1334 1345	neutrophils
+T38	treatment 302 310	cefepime
+R1	TrAP Arg1:T4 Arg2:T5
+R2	TrAP Arg1:T4 Arg2:T6
+R3	PIP Arg1:T6 Arg2:T5
+R4	TrAP Arg1:T12 Arg2:T5
+R5	TrAP Arg1:T12 Arg2:T6
+R6	TrAP Arg1:T18 Arg2:T19
+R7	TrAP Arg1:T23 Arg2:T24

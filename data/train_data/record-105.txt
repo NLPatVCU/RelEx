@@ -1,0 +1,153 @@
+Admission Date :
+2017-06-13
+Discharge Date :
+2017-06-17
+Date of Birth :
+1956-02-17
+Sex :
+M
+Service :
+CARDIOTHORACIC
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending:Jordan U Kostohryz , M.D.
+Chief Complaint: recent mild angina with exertion
+Major Surgical or Invasive Procedure : 
+emergency CABG X 3 ( 2017-06-13 )( LIMA to LAD , SVG to ramus , SVG to OM )
+History of Present Illness :
+61 yo African-American-Hispanic male had abnormal EKG found as part of pre-op eval. for ventral hernia repair .
+Had subsequent abnormal stress test and pefusion imaging showed EF 38% with perfusion defects .
+Echo prior to scheduled cath showed mild LVH , inferior HK , EF 40% , mild MR , mild LAE .
+Cath at Kindred/North Shore today showed 80% LM lesion with normal LAD , CX , RCA .
+Severe systolic HTN also noted .
+Transferred in urgently for cabg with Dr. Howard .
+Past Medical History :
+ventral hernia
+HTN elev. chol. right facial droop with metal plate secondary to GSW to face right nephrectomy
+Social History :
+current smoker
+Family History :
+not given
+Physical Exam:
+Not done , taken to OR direct from ambulance transfer .
+Pertinent Results:
+2017-06-14 02:06AM BLOOD
+WBC - 9.4 RBC - 3.61* Hgb - 10.4* Hct - 29.9* MCV - 83 MCH - 28.8 MCHC - 34.8 RDW - 14.3 Plt Ct - 154
+2017-06-17 05:14AM BLOOD
+Hct - 25.2*
+2017-06-14 02:06AM BLOOD
+Plt Ct - 154
+2017-06-13 08:05PM BLOOD
+PT - 13.6* PTT - 33.3 INR ( PT ) - 1.2*
+2017-06-17 05:14AM BLOOD
+UreaN - 25* Creat - 1.0 K - 3.9
+2017-06-15 02:02PM BLOOD
+Mg - 2.1
+FINAL REPORT
+TWO VIEW CHEST , 2017-06-17
+COMPARISON :
+2017-06-14 .
+INDICATION :
+Status post coronary bypass surgery .
+There has been removal of a Swan-Ganz catheter and placement of a right internal jugular vascular catheter , with the tip terminating in the proximal right atrium just below the junction with the superior vena cava .
+Cardiac and mediastinal contours are stable in the postoperative period .
+Previously reported interstitial edema has resolved .
+There has been interval improvement in left basilar atelectasis .
+Right basilar atelectasis has slightly worsened .
+Bilateral pleural effusions are unchanged .
+IMPRESSION :
+1. Vascular catheter tip terminates in proximal right atrium .
+2. Bibasilar minor atelectasis , worse on the right and improved on the left .
+Persistent pleural effusions .
+DR. John S. Beauchamp
+Approved :
+SAT 2017-06-17 8:20 PM
+Procedure Date:2017-06-17
+PRE-CPB :
+The left atrium is mildly dilated .
+No spontaneous echo contrast is seen in the body of the left atrium .
+No spontaneous echo contrast or thrombus is seen in the body of the left atrium or left atrial appendage .
+No mass/thrombus is seen in the left atrium or left atrial appendage .
+No atrial septal defect is seen by 2D or color Doppler .
+There is mild symmetric left ventricular hypertrophy with normal cavity size .
+There is mild symmetric left ventricular hypertrophy .
+The left ventricular cavity size is normal .
+No left ventricular aneurysm is seen .
+There is mild regional left ventricular systolic dysfunction .
+Overall left ventricular systolic function is mildly depressed .
+There is no ventricular septal defect .
+Resting regional wall motion abnormalities include mild inferior hypokinesis .
+Right ventricular chamber size and free wall motion are normal .
+The right ventricular cavity is mildly dilated .
+There are simple atheroma in the aortic root .
+There are simple atheroma in the ascending aorta .
+There are simple atheroma in the aortic arch .
+There are simple atheroma in the descending thoracic aorta .
+There are three aortic valve leaflets .
+The aortic valve leaflets are mildly thickened .
+No masses or vegetations are seen on the aortic valve .
+There is no aortic valve stenosis .
+Trace aortic regurgitation is seen .
+The mitral valve leaflets are mildly thickened .
+No mass or vegetation is seen on the mitral valve .
+Trivial mitral regurgitation is seen .
+There is no pericardial effusion .
+POST-CPB :
+Preserved LV systolic function on phenylephrine .
+LVEF now 50% .
+Trace MR , AI as described .
+Normal aortic contours .
+I certify that I was present for this procedure in compliance with HCFA regulations .
+Electronically signed by Tracy Kimball , MD , Interpreting physician
+Brief Hospital Course:
+Admitted directly to OR from ambulance transfer and underwent cabg x3 with Dr. Howard on 06-13 .
+Transferred to the CSRU in stable condition on phenylephrine and propofol drips .
+Extubated early the next morning and chest tubes removed .
+Gentle diuresis and beta blockade started , and he was transferred to the floor to begin increasing his activity level .
+Foley removed on POD #2 and had scattered rales with temp 101.2 .
+Afebrile the next day and pacing wires removed without incident .
+He made excellent progress and was discharged to home with VNA services on POD #4 .
+He is to follow up with providers as per discharge instructions .
+Medications on Admission :
+bisoprolol 5 mg daily crestor 20 mg daily
+HCTZ 25 mg daily lisinopril 40 mg daily
+Discharge Medications:
+1. Metoprolol Tartrate 25 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+Disp : *60 Tablet( s )*
+Refills : *2*
+2. Potassium Chloride 10 mEq Capsule , Sustained Release Sig : Two ( 2 ) Capsule , Sustained Release PO Q12H ( every 12 hours ) for 7 days .
+Disp : *28 Capsule , Sustained Release( s )*
+Refills : *0*
+3. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) .
+Disp : *60 Capsule( s )*
+Refills : *2*
+4. Ranitidine HCl 150 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+Disp : *60 Tablet( s )*
+Refills : *2*
+5. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ) .
+Disp : *30 Tablet , Delayed Release ( E.C. )( s )*
+Refills : *2*
+6. Oxycodone-Acetaminophen 5-325 mg Tablet Sig : 1-2 Tablets PO every 4-6 hours as needed for pain .
+Disp : *50 Tablet( s )*
+Refills : *0*
+7. Rosuvastatin 20 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+Disp : *30 Tablet( s )*
+Refills : *2*
+8. Furosemide 20 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) for 7 days .
+Disp : *14 Tablet( s )*
+Refills : *0*
+Discharge Disposition:
+Home with Service
+Discharge Diagnosis:
+CAD
+HTN ventral hernia right nephrectomy s/p right facial plating
+Discharge Condition : good
+Discharge Instructions : may shower , no bathing or swimming for 1 month no creams , lotions or powders to any incisions no driving for 1 month no lifting > 10 # for 10 weeks
+A. Instructions : with Dr. Matthew in 2-3 weeks with Dr. Dellinger in 2-3 weeks with Dr. les Gokey in 4 weeks
+Curtis van den Moreno MD 07-506
+Completed by :
+Scott Robert NP 80-AUM 2017-06-29 @ 1121
+Signed electronically by :
+DR. Barbara van de Tate on :
+FRI 2017-07-28 1:55 PM
+( End of Report )

@@ -1,0 +1,251 @@
+Admission Date :
+2013-05-18
+Discharge Date :
+2013-05-24
+Date of Birth :
+1811-08-19
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Sarah Q. George , M.D.
+Chief Complaint :
+Hip fracture
+Major Surgical or Invasive Procedure :
+OPERATIVE PROCEDURE :
+1. Closed reduction of right hip with open placement of dynamic hip screw , right hip .
+2. Examination under anesthesia with placement of splint , right elbow .
+PROCEDURE #2 :
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .
+2. Exposure and wide drainage of perforated posterior duodenal ulcer with internal and external drainage .
+3. Feeding jejunostomy .
+4. Tube gastrostomy .
+5. Placement of a right femoral arterial line .
+History of Present Illness :
+90 yo F with MMP ( see below ) who sustained a mechanical fall down stairs resulting in a hip and arm fracture .
+Fall was witnessed by daughter .
+Nicholas seizures , no LOC , no head or neck trauma .
+Patient denies CP , SOB , light headedness , or dizziness prior to of after the fall .
+She fell on her R side and had a great deal of pain in her R arm and hip .
+Presented to Taunton and found to have R humerus and R hip fx .
+Ct of head and neck neg for fx , bleed , and dislocation .
+Past Medical History :
+1. Coronary artery disease status post non-ST-elevation myocardial infarction in 2009-05-05 , status post cardiac catheterization with left anterior descending artery stent placement in 05/2001 .
+2. CHF with an ejection fraction of 40-45% 02-09
+3. Diabetes type 2 .
+4. Anemia , transfusion dependent every three months .
+Hct 28 b/l
+5. Polymyalgia rheumatica .
+6. Hypertension .
+7. Hypothyroidism .
+8. Chronic renal insufficiency with a b/l creatinine of 1.4 .
+9. History of syncope and first degree A-V heart block with beta blocker therapy .
+10. History of lower gastrointestinal bleed in 2009-06-05 .
+11. spinal stenosis
+12. Pacemaker - DDD dual chamber rate response pacemaker 2011-08-22 for symptomatic bradycardia
+Social History :
+Lives alone in elderly housing , a daughter in the area , two children and exercises two times a week by walking and stretching .
+no , tob , no etoh , no drugs
+Family History :
+Noncontributory
+Physical Exam :
+at admission
+T 96.0 BP 177/61 P 70 R 18 O2 97 on RA
+Gen - somnolent , confused
+HEENT - PERRL , OP clear , EOMI
+Cor - rrr , no m/r/g
+Chest - CTAB anteriorly
+Abd - s/nt/nd +BS
+Ext - 2 + edema to knees , warm 2 + pulses , pain in R arm and R hip
+Pertinent Results :
+2013-05-18 06:00 PM GLUCOSE - 188 * UREA N - 48 * CREAT - 1.3 * SODIUM - 138 POTASSIUM - 4.0 CHLORIDE - 106 TOTAL CO2 - 21 * ANION GAP - 15
+2013-05-18 06:00 PM CK(CPK) - 32
+2013-05-18 06:00 PM CK-MB - NotDone
+2013-05-18 06:00 PM WBC - 14.9 *# RBC - 2.91 * HGB - 8.5 * HCT - 24.7 * MCV - 85 MCH - 29.3 MCHC - 34.5 RDW - 14.6
+2013-05-18 06:00 PM NEUTS - 87.9 * BANDS - 0 LYMPHS - 6.3 * MONOS - 5.7 EOS - 0.1 BASOS - 0
+2013-05-18 06:00 PM HYPOCHROM - 1 + ANISOCYT - NORMAL POIKILOCY - NORMAL MACROCYT - NORMAL MICROCYT - NORMAL POLYCHROM - NORMAL
+2013-05-18 06:00 PM PLT SMR - NORMAL PLT COUNT - 216
+2013-05-18 06:00 PM PT - 13.3 PTT - 26.4 INR(PT) - 1.2 EKG - NSR 64 , 1st deg block , LAD , new TWI inf/lat leads , new ST depressions V4-6
+Echo 02-09
+1. The left atrium is moderately dilated .
+The left atrium is elongated .
+2. The left ventricular wall thicknesses are normal .
+The left ventricular cavity size is normal .
+There is mild regional left ventricular systolic dysfunction .
+Overall left ventricular systolic function is mildly depressed .
+Resting regional wall motion abnormalities include inferolateral , inferior and mid septal hypokinesis .
+3. Right ventricular chamber size is normal .
+Right ventricular systolic function is normal .
+4. The aortic valve leaflets ( 3 ) are mildly thickened .
+No aortic regurgitation present .
+5. The mitral valve leaflets are mildly thickened .
+Moderate ( 2 +) mitral regurgitation is seen .
+6. There is moderate pulmonary artery systolic hypertension .
+7. There is no pericardial effusion .
+Compared with the findings of the prior study ( tape reviewed ) of 2009-06-05 , the LV function has improved with an improvementt in function of the apex , septal and anterior walls .
+New inferior and inferolateral wall motion abnormalities with more severe mitral regurgitation present .
+Cath 2001
+1. Coronary angiography demonstrated single vessel disease in a right dominant system .
+The left main was normal .
+The LAD had serial 90% lesions proximally , involving the origin of the first diagonal , which was occluded and filled via left to left collaterals .
+The mid-distal LAD was underfilled initially but was without obstructive disease .
+The non-dominant circumflex system had no hemodynamically significant stenoses .
+The dominant RCA was a large vessel with no significant disease .
+2. Resting hemodynamics revealed elevated right and left sided filling pressures with a mean RA pressure of 12 mm Hg and a mean wedge pressure 24 mm Hg .
+Moderate pulmonary hypertension was present with a PA of 52/28 .
+The cardiac index was preserved at 3.0 L / min / m2 .
+3. Left ventriculography was not performed due to the presence of moderate renal insufficiency ( creatinine 1.6 ).
+4. Successful PTCA and stenting of the proximal LAD with overlapping 2.25 x 13 mm and 2.25 x 18 mm Hepacoat stents with no residual stenosis or dissection and normal flow ( see PTCA comments ).
+FINAL DIAGNOSIS :
+1. One vessel coronary artery disease .
+2. Moderately elevated right and left sided filling pressures .
+3. Successful stenting of the proximal LAD .
+Hematology
+COMPLETE BLOOD COUNT WBC RBC Hgb Hct MCV MCH MCHC RDW Plt Ct
+2013-05-24 09:40 AM 19.3 * 4.46 13.1 39.2 88 29.4 33.5 14.4 159
+2013-05-24 12:52 AM 19.8 *# 4.73 13.8 42.1 # 89 29.3 32.9 14.3 147 *
+DIFFERENTIAL Neuts Bands Lymphs Monos Eos Baso Atyps Metas
+2013-05-22 06:15 AM 90.0 * 0 5.6 * 4.2 0.1 0.2
+RED CELL MORPHOLOGY Hypochr Anisocy Poiklo Macrocy Microcy Polychr 
+2013-05-22 06:15 AM NORMAL NORMAL NORMAL NORMAL NORMAL NORMAL
+BASIC COAGULATION ( PT , PTT , PLT , INR ) PT PTT Plt Smr Plt Ct INR(PT) LPlt
+2013-05-24 09:40 AM 159 1 +
+2013-05-24 09:40 AM 14.9 * 1 31.9 1.5
+1 NOTE NEW NORMAL RANGE AS OF 12 AM 2013-05-04
+2013-05-24 12:52 AM 147 *
+2013-05-24 12:52 AM 14.6 * 1 33.8 1.4
+1 NOTE NEW NORMAL RANGE AS OF 12 AM 2013-05-04
+Chemistry
+RENAL & GLUCOSE Glucose UreaN Creat Na K Cl HCO3 AnGap
+2013-05-24 09:40 AM 192 * 87 * 2.4 * 146 * 5.1 114 * 16 * 21 *
+2013-05-24 12:52 AM 160 * 86 * 2.6 * 148 * 4.4 115 * 14 * 1 23 *
+1 VERIFIED BY DILUTION
+NOTIFIED Y. Welch - TSICU 140 AM 2013-05-24
+ENZYMES & BILIRUBIN ALT AST LD(LDH) CK(CPK) AlkPhos Amylase TotBili DirBili 
+2013-05-24 07:40 AM 628 *
+2013-05-24 12:52 AM 22 65 * 739 * 52 81 1.0
+OTHER ENZYMES & BILIRUBINS Lipase
+2013-05-24 12:52 AM 17
+CPK ISOENZYMES CK-MB MB Indx cTropnT
+2013-05-24 07:40 AM 15 * 2.4
+2013-05-24 12:52 AM 14 * 1.9 0.12 * 1
+1 CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI
+CHEMISTRY TotProt Albumin Globuln Calcium Phos Mg UricAcd Iron Cholest
+2013-05-24 09:40 AM 8.3 * 5.4 * 2.1
+2013-05-24 12:52 AM 2.1 * 7.7 * 5.1 *# 1.6
+LIPID / CHOLESTEROL Triglyc HDL CHOL/HD LDLcalc
+2013-05-19 09:20 AM 1603 - 5419 LDL(CALC) INVALID IF TRIG > 400 OR NON-FASTING SAMPLE LAB USE ONLY GreenHd
+2013-05-18 06:00 PM HOLD1
+1 HOLD
+DISCARD GREATER THAN 4 HOURS OLD
+Blood Gas
+BLOOD GASES Type Temp Rates Tidal V PEEP FiO2 O2 Flow pO2 pCO2 pH calHCO3 Base XS AADO2 REQ O2 Intubat Vent 
+2013-05-24 07:58 AM ART 102 36 7.26 * 17 * -9
+2013-05-24 04:31 AM ART 36.4 16 / 662-15484 * 7.26 * 16 * -10
+ASSIST / CON1 INTUBATED
+1 ASSIST / CONTROL
+2013-05-24 12:58 AM ART 147 * 39 7.22 * 1 17 * -11
+1 VERIFIED
+PROVIDER NOTIFIED PER CURRENT LAB POLICY
+WHOLE BLOOD , MISCELLANEOUS CHEMISTRY Glucose Lactate Na K Cl calHCO3 
+2013-05-24 07:58 AM 4.5 * 1
+1 VERIFIED
+2013-05-24 04:31 AM 5.1 * 1
+1 VERIFIED
+2013-05-24 12:58 AM 6.2 * 1
+1 VERIFIED
+HEMOGLOBLIN FRACTIONS ( COOXIMETRY ) Hgb calcHCT O2 Sat COHgb MetHgb
+2013-05-23 09:36 PM 11.4 * 34 73 1 1
+2013-05-23 01:08 PM 10.9 * 33 96
+CALCIUM freeCa
+2013-05-23 09:36 PM 1.00 *
+2013-05-23 01:08 PM 1.22
+RADIOLOGY Final Report
+CT ABDOMEN W/O CONTRAST 2013-05-23 5:46 PM
+CT ABDOMEN W/O CONTRAST ; CT PELVIS W/O CONTRAST
+Reason : Please eval for perf / ischemic bowel
+UNDERLYING MEDICAL CONDITION :
+92 year old woman with MS changes , abd pain hypotension and bloody lavage on Lovenox+ASA
+REASON FOR THIS EXAMINATION :
+Please eval for perf / ischemic bowel
+CONTRAINDICATIONS for IV CONTRAST : renal failure
+INDICATION : 94-year-old woman with mental status changes , now with abdominal pain and hypertension .
+TECHNIQUE : A multidetector scanner was used to obtain contiguous axial images from the lung bases to the pubic symphysis .
+Neither IV nor oral contrast were used .
+CT OF THE ABDOMEN WITHOUT IV CONTRAST : There are bilateral pleural effusions , right greater the left ; there is compressive atelectasis at the left lung base .
+There are coronary vascular calcifications .
+A nasogastric tube is seen coiling in the stomach .
+A dual chamber pacemaker is seen with leads terminating in the right atrium and right ventricle .
+Nasogastric tube is seen coiling in the stomach , with its tip at the pylorus .
+Allowing for the limitations of this noncontrast study , the liver , pancreas , adrenals , stomach are unremarkable .
+A 1.8 cm exophytic renal cyst is seen on the left .
+A similar lesion is seen on the right , measuring 2.2 cm .
+The aorta is normal in caliber , with vascular calcifications .
+A small amount of free fluid is seen tracking around the liver , right pericolic gutter , along the mesentery and surrounding the right colon , which is collapsed .
+A small amount of nondependent free air is seen in the anterior aspect of the abdomen .
+The remainder of the bowel loops are fluid filled , and nondilated .
+CT OF THE PELVIS WITHOUT IV CONTRAST : As previously noted , there is a small amount of free fluid surrounding the right colon , tracking along the mesentery and into the pelvis .
+A small amount of free air is seen in the nondependent portion of the pelvis .
+Vascular calcifications are seen in the abdominal aorta and iliac arteries .
+Subcutaneous edema is noted in the lower abdomen and pelvis .
+A catheter is seen entering the left inguinal region and coursing along the iliac vessels , terminating in the left pelvis .
+Osseous structures are remarkable for degenerative changes of the spine , and a fracture of the proximal right humerus , with orthopedic hardware causing beam hardening artifact .
+IMPRESSION :
+1. A small amount of free air and free fluid in the pelvis and abdomen , mostly along the right pericolic gutter and surrounding the ascending colon , concerning for perforation .
+Other bowel loops are unremarkable on this limited study .
+This was discussed with Dr. Jason Long at approximately 6:30 p.m. , 2013-05-23 .
+2. Bilateral pleural effusions , right greater than left , with left-sided compressive atelectasis .
+3. Right proximal humeral fracture status post fixation .
+The study and the report were reviewed by the staff radiologist .
+DR. Billy L. Boender
+DR. Pat K. Walton
+Approved : FRI 2013-05-24 4:01 PM
+Brief Hospital Course :
+95 yo F with MMP who sustained a mechanical fall down stairs resulting in a hip and arm fracture .
+1) s/p Fall - unlikely to be mechanical in nature .
+Patient has injuries to her shoulder and hip .
+2) CV - Patient has CAD and CHF with a low hct and major trauma .
+She also has new changes on EKG .
+On pressor to hold mean 60 .
+3) Anemia - patient transfusion dependant with a baseline of 28 .
+- transfuse 2 units today , with lasix
+4) GERD - PPI
+5) DM - glipizide , ISS
+6) PMR - cont prednisone
+7) GI : Ms. Pimental is an unfortunate 95 year old woman , status post a recent fall necessitating right ORIF of the hip and right wrist fracture ORIF , who was in the hospital for this event , when it was noted that she had abdominal pain , distention and coffee ground emesis with worsening mental status and renal failure .
+CT scan was obtained and this revealed free air and massive ascites .
+Pt underwent surgery on 05-23
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .
+2. Exposure and wide drainage of perforated posterior duodenal ulcer with internal and external drainage .
+3. Feeding jejunostomy .
+4. Tube gastrostomy .
+Continue to deteriorate spiking fevers with ventilatory support on pressors to hold the bp. with no improvement in mental staus was made CMO 5/20/5 .
+Expired at 5 pm
+Medications on Admission :
+lasix alt 40 mg and 20 mg qday
+levothyrox 50 mcg qday
+lisinopril 5 mg qday
+famotidine 20 mg qday
+fe so4 325 mg qday
+asa 325 mg qday
+toprol xl 25 mg qday
+glipizide 5 mg qday
+imdur 60 mg qdau
+prednisone 5 mg qday
+tylenol
+Discharge Disposition :
+Expired
+Discharge Diagnosis :
+MULTIORGAN FAILURE
+DUODENAL PERFORATION
+MULTIPLE TRAUMA
+Discharge Condition :
+deceased
+Followup Instructions :
+none
+Frank Linda MD 44-897
+Completed by : Deanna Patague MD 48-130 2013-05-24 @ 1820
+Signed electronically by : DR. Marta Keever on : FRI 2013-06-21 9:40 PM
+( End of Report )

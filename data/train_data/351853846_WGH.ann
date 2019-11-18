@@ -1,0 +1,110 @@
+T1	test 4279 4301	extensive gait testing
+T2	problem 4063 4079	slow bilaterally
+T3	test 2462 2474	auscultation
+T4	problem 4780 4797	her gait disorder
+T5	problem 5487 5504	markedly unstable
+T6	test 5203 5233	the magnetic resonance imaging
+T7	problem 5904 5926	her own symptomatology
+T8	problem 1065 1079	other symptoms
+T9	problem 1089 1125	diffuse and mainly frontal headaches
+T10	problem 1130 1148	mild neck soreness
+T11	treatment 1566 1577	her doxepin
+T12	test 4977 5011	magnetic resonance angiogram study
+T13	problem 5085 5095	infarction
+T14	problem 5099 5125	other pathologic processes
+T15	problem 5061 5081	arterial dissections
+T16	problem 2605 2639	hematomas in the bilaterally shins
+T17	problem 1164 1172	diplopia
+T18	problem 4851 4861	anisocoria
+T19	test 4543 4577	her erythrocyte sedimentation rate
+T20	problem 4425 4431	ataxia
+T21	problem 2543 2551	clubbing
+T22	problem 3702 3736	slightly slow fine finger motility
+T23	problem 4435 4441	tremor
+T24	problem 5758 5774	acutely suicidal
+T25	problem 1189 1207	speech abnormality
+T26	test 3532 3549	motor examination
+T27	problem 561 593	right-sided arm and leg weakness
+T28	problem 5462 5470	her gait
+T29	problem 2554 2562	cyanosis
+T30	test 4587 4613	her coagulation parameters
+T31	problem 2565 2570	edema
+T32	test 4944 4972	a magnetic resonance imaging
+T33	problem 2336 2362	carotid or cervical bruits
+T34	problem 5555 5563	weakness
+T35	treatment 6081 6094	gait training
+T36	problem 3347 3356	nystagmus
+T37	problem 2191 2205	acute distress
+T38	problem 3364 3370	ptosis
+T39	problem 410 428	difficulty walking
+T40	treatment 1505 1528	pharmacologic treatment
+T41	problem 1397 1407	depression
+T42	problem 57 70	gait disorder
+T43	test 4509 4540	complete blood count parameters
+T44	test 3893 3901	reflexes
+T45	test 4492 4504	electrolytes
+T46	test 2266 2277	temperature
+T47	test 2208 2222	blood pressure
+T48	test 2248 2260	respirations
+T49	problem 2760 2784	singing or humming along
+T50	problem 2712 2734	slightly inappropriate
+T51	treatment 5714 5732	psychiatry service
+T52	problem 5682 5691	dysmetria
+T53	test 4628 4657	head ct scan without contrast
+T54	problem 4696 4716	intracranial process
+T55	treatment 6163 6188	counter-balancing methods
+T56	test 5352 5380	carotid non-invasive studies
+T57	problem 771 782	the episode
+T58	problem 5624 5678	reproducible upper extremity or lower extremity ataxia
+T59	problem 1211 1225	sensory change
+T60	treatment 1707 1714	quinine
+T61	problem 1725 1731	a rash
+T62	treatment 5151 5158	heparin
+T63	problem 3653 3658	drift
+T64	problem 3997 4005	jaw jerk
+T65	problem 986 1018	small spells of &quot; imbalance
+T66	treatment 5799 5826	acute psychiatric treatment
+T67	test 2232 2242	heart rate
+T68	treatment 6482 6521	her previous outpatient medical regimen
+T69	treatment 1770 1781	medications
+T70	problem 262 275	gait disorder
+T71	problem 361 405	right-sided greater than left-sided weakness
+T72	problem 2428 2435	murmurs
+T73	problem 2871 2883	the deficits
+T74	problem 2576 2580	rash
+T75	treatment 1821 1828	doxepin
+T76	treatment 1627 1639	appendectomy
+T77	test 2910 2925	the examination
+T78	test 2810 2825	the motor tasks
+T79	test 4829 4840	examination
+T80	problem 4809 4825	notable findings
+T81	problem 1175 1186	visual loss
+T82	test 4344 4387	her heel-to-shin and finger-to-nose testing
+T83	problem 893 900	malaise
+T84	treatment 1852 1860	klonopin
+T85	problem 2855 2867	indifference
+T86	treatment 1796 1801	paxil
+T87	test 5258 5296	posterior transcranial doppler studies
+T88	problem 598 604	ataxia
+T89	problem 909 926	specific deficits
+T90	test 4051 4058	toe tap
+T91	test 6106 6116	evaluation
+R1	PIP Arg1:T8 Arg2:T9
+R2	PIP Arg1:T8 Arg2:T10
+R3	TeRP Arg1:T12 Arg2:T13
+R4	TeRP Arg1:T12 Arg2:T14
+R5	TeRP Arg1:T12 Arg2:T15
+R6	TeRP Arg1:T32 Arg2:T15
+R7	TeRP Arg1:T32 Arg2:T14
+R8	TeRP Arg1:T32 Arg2:T13
+R9	TrAP Arg1:T40 Arg2:T41
+R10	PIP Arg1:T49 Arg2:T50
+R11	TeRP Arg1:T53 Arg2:T54
+R12	TrCP Arg1:T60 Arg2:T61
+R13	TeRP Arg1:T77 Arg2:T73
+R14	TeRP Arg1:T79 Arg2:T80
+R15	TeCP Arg1:T79 Arg2:T4
+R16	TeRP Arg1:T79 Arg2:T18
+R17	TeRP Arg1:T82 Arg2:T20
+R18	TeRP Arg1:T82 Arg2:T23
+R19	TeRP Arg1:T90 Arg2:T2

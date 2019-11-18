@@ -1,0 +1,65 @@
+950452368
+CTMC
+25445040
+808386
+5/9/1998 12:00:00 AM
+EXTERNAL WOUND INFECTIONS
+Signed
+DIS
+Admission Date :
+05/09/1998
+Report Status :
+Signed
+Discharge Date :
+05/25/1998
+PRINCIPAL DIAGNOSIS :
+STERNAL WOUND INFECTION .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 74-year-old woman , well known to the cardiac surgery service , readmitted from Glasmif/putdi Health Network with sternal wound infection .
+She has been previously hospitalized on 12 April 1998 for the same diagnosis .
+She is now coming for surgical treatment , wound debridement , and possible wound closure with bilateral pectoralis flap .
+She underwent coronary artery bypass graft times two with saphenous vein graft on 29 March 1998 .
+Of note , the patient is status post lymphoma with treatment of chemotherapy and radiation six years ago , and is an insulin-dependent diabetic .
+PAST MEDICAL HISTORY :
+Insulin-dependent diabetes mellitus , lymphoma as above , ulcerative colitis , melanoma status post excision in right upper extremity , hypertension , hypothyroidism , congestive heart failure , and coronary artery disease with bypass grafting .
+PAST SURGICAL HISTORY :
+She is status post left knee replacement and status post multiple prior surgeries and reconstruction of the knee .
+Status post cholecystectomy , lumbar diskectomy , and tonsillectomy with adenoidectomy .
+ALLERGIES :
+Erythromycin , vancomycin , and Bacitracin .
+ADMISSION MEDICATIONS :
+Elavil 50 mg p.o. q.h.s. , coated aspirin 325 mg p.o. p.day , Tegretol 100 mg p.o. b.i.d. , Ancef 1 gm IV q.12h. times seven days , Vasotec 5 mg p.o. q.day , Synthroid 0.025 mg p.o. q.day , Asacol 400 mg q.a.m. and 800 mg q.p.m. , Lopressor 25 mg p.o. b.i.d. , Prilosec 20 mg p.o. q.day , and insulin 70/30 26 units in the morning and 12 units at night .
+PHYSICAL EXAMINATION :
+The patient was admitted with a blood pressure of 140/80 , temperature 101.3 , pulse 84 , and respiratory rate 22 .
+The patient is obese with unremarkable physical examination except for a systolic murmur , I / VI and erythema over the sternal wound and upper third .
+The wound had a beefy red cellulitic area surrounding an open area , blanching to touch .
+There was no purulence or discharge noted .
+HOSPITAL COURSE :
+The patient was placed on IV antibiotics , Ancef 1 gm q.8h.
+On 10 May 1998 , she underwent sternal wound debridement and closure , performed by Dr. Falccouette and Dr. Shuffzeln .
+The patient was switched to ampicillin , gentamicin , and clindamycin , according to the culture , Enterococci and Staphylococcus in the wound .
+Due to the persistent fevers , the patient underwent vancomycin desensitization in the surgical Intensive Care Unit followed by a change of antibiotics to vancomycin and levofloxacin .
+Further cultures from sputum and urine revealed yeast sensitive to Diflucan , which was administered shortly after .
+Because of expected long term antibiotic administration , a PICC line was placed and the patient was prepared for transfer back to Fo Hospital .
+As a small complication , the patient opened a left ankle wound post saphenous vein harvest , which persists up until now and is of a size 2 x 1 cm .
+Due to difficult ambulation , the patient developed a small ulcer in the sacral area , which was treated with Duoderm dressing .
+During the course of hospitalization , the patient was followed by cardiac surgery , cardiology , infectious disease , allergy , and medicine , including GI teams .
+DISCHARGE MEDICATIONS :
+Elavil by mouth 15 mg every night , Dulcolax rectally 10 mg once a day , Tegretol by mouth 100 mg twice a day , Benadryl by mouth 25 mg three times a day , Colace by mouth 200 mg twice a day , Vasotec by mouth 10 mg twice a day , EOC / LOC p.r./p.o. one each once a day as needed for constipation , Lasix by mouth 80 mg every morning , insulin regular according to insulin scale , Synthroid by mouth 25 mcg once a day , Maalox Plus Extra Strength by mouth 15 ml every six hours as needed for indigestion , Milk of Magnesia by mouth 30 ml once a day as needed for constipation , Asacol by mouth 400 mg every morning , Asacol 800 mg every night , Lopressor by mouth 25 mg twice a day , Miracle cream topically on skin once a day , nystatin swish and swallow by mouth 5 ml four times a day , Percocet by mouth one tab every four hours as needed for pain , and vancomycin by infusion 1 gm every 18 hours ; instructions in 250 ml slow IV infusion over one hour .
+Note , please draw blood for vancomycin levels on 25 May 1998 , before the next dose , to get the trough level .
+Keep vancomycin trough between 10-20 , but not less due to desensitization .
+Vancomycin levels should be checked every third day for four to six weeks , according to IMD .
+Nizatidine by mouth 150 mg twice a day , insulin 70/30 human injection under skin 12 units every night , insulin 70/30 human injection subcutaneous 26 units every morning , Lovenox injection under skin 40 mg once a day , and levofloxacin by mouth 250 mg once a day .
+Dictated By :
+NALA BEST , M.D. KJ76
+Attending :
+JOFREDD N. FALCCOUETTE , M.D. CA8 XX584/6088
+Batch :
+3679
+Index No. W9YYL76XV1
+D :
+05/25/98
+T :
+05/25/98
+CC :
+1. LAELK MEMORIAL HOSPITAL

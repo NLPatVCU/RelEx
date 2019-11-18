@@ -1,0 +1,27 @@
+262182942
+BH
+2513486
+923091
+05/08/2000 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION
+JEM , ON
+MRN :
+2513486
+Age :
+74y
+REGISTRATION DATE :
+05/08/2000 07:57 PM
+PRELIMINARY REPORT
+This is to notify you that your patient , JEM , ON arrived in the Emergency Department at Bri Health on 05/08/2000 07:57 PM .
+The patient presented with a chief complaint of IV FLUIDS .
+Following triage , the patient LEFT WITHOUT TREATMENT .
+If you need additional information please call 442-025-0303 .
+PCP Name :
+ACKCA , SLAINEAEE L
+Provider Number :
+78369

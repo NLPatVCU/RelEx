@@ -1,0 +1,25 @@
+T1	treatment 1331 1337	iv abx
+T2	treatment 448 474	colace ( docusate sodium )
+T3	problem 1856 1870	heavy bleeding
+T4	test 1626 1632	apgars
+T5	problem 711 726	known allergies
+T6	treatment 489 498	ibuprofen
+T7	problem 1829 1853	worsening abdominal pain
+T8	problem 1876 1893	any other concern
+T9	test 299 319	attending evaluation
+T10	treatment 846 854	cesarean
+T11	treatment 1006 1014	epidural
+T12	problem 1547 1569	observed abnormalities
+T13	treatment 1920 1928	percocet
+T14	treatment 58 66	cesarean
+T15	treatment 948 956	cesarean
+T16	problem 1105 1132	non-reassuring fetal status
+T17	treatment 522 544	aldomet ( methyldopa )
+T18	problem 1809 1826	fever above 100.5
+T19	problem 587 591	pain
+T20	treatment 751 759	cesarean
+T21	problem 1486 1497	bradycardia
+T22	test 1637 1643	weight
+T23	problem 1440 1450	post dates
+T24	treatment 559 567	percocet
+R1	TrAP Arg1:T24 Arg2:T19

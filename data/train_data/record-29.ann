@@ -1,0 +1,146 @@
+T1	test 2537 2551	dorsalis pedis
+T2	test 2511 2518	femoral
+T3	test 4925 4931	weight
+T4	test 4889 4906	oxygen saturation
+T5	test 4867 4883	respiratory rate
+T6	problem 2009 2020	thyromegaly
+T7	test 2883 2892	intervals
+T8	problem 348 372	congestive heart failure
+T9	test 2609 2615	radial
+T10	treatment 1003 1024	right hip replacement
+T11	test 2570 2586	posterior tibial
+T12	test 821 841	an ejection fraction
+T13	problem 2216 2234	hepatosplenomegaly
+T14	treatment 1102 1112	glucovance
+T15	test 5124 5134	creatinine
+T16	problem 956 971	aortic stenosis
+T17	test 5141 5148	glucose
+T18	treatment 903 927	aortic valve replacement
+T19	test 4725 4760	the patient 's physical examination
+T20	test 3468 3486	her blood pressure
+T21	problem 3496 3511	somewhat labile
+T22	treatment 4689 4696	therapy
+T23	problem 2169 2181	nondistended
+T24	treatment 1206 1213	aspirin
+T25	test 4791 4802	temperature
+T26	treatment 1172 1177	lasix
+T27	problem 2307 2312	edema
+T28	treatment 1144 1151	univasc
+T29	test 4810 4820	heart rate
+T30	problem 2284 2292	cyanosis
+T31	problem 2295 2303	clubbing
+T32	test 4843 4857	blood pressure
+T33	problem 5487 5496	nontender
+T34	test 2683 2694	white count
+T35	test 5062 5068	sodium
+T36	problem 2637 2651	carotid bruits
+T37	test 5046 5055	platelets
+T38	test 5115 5118	bun
+T39	problem 2318 2330	varicosities
+T40	treatment 5430 5437	staples
+T41	problem 5416 5424	incision
+T42	test 2717 2726	platelets
+T43	test 5106 5109	co2
+T44	test 2733 2739	sodium
+T45	problem 5601 5609	clubbing
+T46	test 5091 5099	chloride
+T47	test 5075 5084	potassium
+T48	problem 5499 5511	nondistended
+T49	problem 5590 5598	cyanosis
+T50	test 2701 2711	hematocrit
+T51	test 2777 2780	co2
+T52	problem 5254 5271	scattered rhonchi
+T53	problem 5277 5314	diminished breath sounds in the bases
+T54	treatment 3288 3301	the operation
+T55	test 2762 2770	chloride
+T56	treatment 3245 3271	a #21 mosaic porcine valve
+T57	treatment 3547 3568	a neo-synephrine drip
+T58	test 2746 2755	potassium
+T59	test 3581 3606	a systolic blood pressure
+T60	problem 5364 5393	soft systolic ejection murmur
+T61	test 5030 5040	hematocrit
+T62	test 2812 2819	glucose
+T63	test 2786 2789	bun
+T64	test 5012 5023	white count
+T65	test 2795 2805	creatinine
+T66	test 4985 5000	laboratory data
+T67	treatment 5886 5892	colace
+T68	test 2846 2850	rate
+T69	problem 2859 2880	first degree av block
+T70	treatment 5835 5853	potassium chloride
+T71	problem 2916 2944	left ventricular hypertrophy
+T72	treatment 4068 4083	her chest tubes
+T73	problem 1249 1269	known drug allergies
+T74	treatment 5914 5921	niferex
+T75	treatment 4247 4269	cardiac rehabilitation
+T76	problem 1344 1355	myocarditis
+T77	treatment 6005 6014	ibuprofen
+T78	test 2502 2508	pulses
+T79	treatment 3212 3239	an aortic valve replacement
+T80	test 4828 4840	sinus rhythm
+T81	treatment 5942 5950	percocet
+T82	treatment 903 927	aortic valve replacement
+T83	test 1560 1570	heart rate
+T84	test 2985 2993	physical
+T85	problem 6075 6090	aortic stenosis
+T86	test 1613 1629	respiratory rate
+T87	test 2947 2958	chest x-ray
+T88	test 2826 2843	electrocardiogram
+T89	test 1589 1603	blood pressure
+T90	problem 256 268	tires easily
+T91	problem 3767 3789	a respiratory acidosis
+T92	test 1649 1655	weight
+T93	problem 5613 5618	edema
+T94	treatment 5677 5699	enteric-coated aspirin
+T95	problem 1711 1725	acute distress
+T96	treatment 3669 3683	her anesthesia
+T97	test 2419 2427	strength
+T98	treatment 5645 5655	ranitidine
+T99	treatment 3736 3750	the ventilator
+T100	treatment 5762 5772	metoprolol
+T101	test 1635 1641	height
+T102	problem 1873 1882	anicteric
+T103	treatment 3952 3975	her neo-synephrine drip
+T104	treatment 5720 5730	glucovance
+T105	treatment 5793 5803	furosemide
+T106	treatment 4022 4036	the ventilator
+T107	problem 1749 1755	rashes
+T108	treatment 3818 3832	the ventilator
+T109	problem 533 552	her aortic stenosis
+T110	problem 1738 1745	lesions
+T111	test 555 578	cardiac catheterization
+T112	problem 1978 2003	jugular venous distention
+T113	test 489 512	cardiac catheterization
+T114	problem 1889 1897	injected
+T115	problem 1957 1972	lymphadenopathy
+T116	treatment 4213 4242	continuing postoperative care
+T117	problem 221 251	increasing shortness of breath
+T118	treatment 4646 4675	continuing postoperative care
+T119	problem 423 438	aortic stenosis
+T120	problem 2157 2166	nontender
+T121	test 392 406	echocardiogram
+T122	treatment 6103 6127	aortic valve replacement
+T123	test 2040 2052	auscultation
+T124	treatment 6133 6159	a #21 mosaic porcine valve
+T125	problem 2116 2137	iii/vi blowing murmur
+T126	problem 774 796	severe aortic stenosis
+T127	problem 748 771	1+ mitral regurgitation
+T128	problem 6163 6187	diabetes mellitus type 2
+T129	test 600 620	an aortic valve area
+T130	test 802 810	an lvedp
+T131	treatment 6191 6212	right hip replacement
+T132	problem 975 999	diabetes mellitus type 2
+T133	test 642 657	a mean gradient
+T134	problem 694 725	moderate pulmonary hypertension
+T135	problem 1028 1066	noninsulin dependent diabetes mellitus
+T136	test 728 739	pa pressure
+T137	test 670 685	a peak gradient
+R1	TeRP Arg1:T20 Arg2:T21
+R2	TrAP Arg1:T40 Arg2:T41
+R3	PIP Arg1:T52 Arg2:T53
+R4	TeCP Arg1:T113 Arg2:T109
+R5	TeRP Arg1:T121 Arg2:T119
+R6	TrAP Arg1:T122 Arg2:T85
+R7	TrAP Arg1:T124 Arg2:T85
+R8	TeRP Arg1:T130 Arg2:T126
+R9	TeRP Arg1:T136 Arg2:T134

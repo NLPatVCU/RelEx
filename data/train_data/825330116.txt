@@ -1,0 +1,86 @@
+825330116
+HLGMC
+6051380
+10615/2646
+8/15/1993 12:00:00 AM
+ACUTE MYOCARDIAL INFARCTION .
+Unsigned
+DIS
+Report Status :
+Unsigned
+ADMISSION DATE :
+8-15-93
+DISCHARGE DATE :
+08-22-93
+PRINCIPAL DIAGNOSIS :
+Acute myocardial infarction .
+ASSOCIATED DIAGNOSIS :
+1. Coronary artery disease ,
+2. unstable angina ( postmyocardial infarction angina ) ,
+3. Parkinson &apos;s disease .
+SPECIAL PROCEDURES AND OPERATIONS :
+1. Percutaneous transluminal coronary angioplasty and coronary atherectomy of the left anterior descending , 8-17-93 ,
+2. relook coronary angiogram , 08-18-93 .
+DOCTORS DISCHARGE ORDERS AND MEDICATIONS ON DISCHARGE :
+Ecotrin 1 tablet PO qd , Captopril 6.25 mg PO tid , K-Dur 20 mEq. PO qd , Lasix 20 mg PO qd , Isordil 10 mg PO tid , Sinemet 1/2 tablet PO bid , Symmetrel 100 mg PO bid , Parloder 2.5mg PO qd .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 58 year old female with a history of Parkinson &apos;s disease for more than twenty years who presented to the Gemenadentoolpai Medical Center with a revolving anterolateral wall myocardial infarction on 08-01-93 .
+She has been under the care of Dr. Aalv Manual and was referred here for further therapy .
+She had no prior significant cardiac history and presented to her local medical doctor &apos;s office with an episode of severe retrosternal chest pain .
+Her electrocardiogram showed a new right bundle branch block and left anterior hemiblock .
+The patient was transferred to the Gemenadentoolpai Medical Center and was admitted .
+Her hospital course was remarkable for ruling in for a myocardial infarction with a peak CPK of 9,379 units with a 5.9% MB fraction .
+In addition , on telemetry she developed complete heart block and hypotension requiring temporary pacing wire and then a permanent pacemaker implantation on 08-03-93 .
+She developed congestive heart failure and required pressor support .
+She underwent cardiac catheterization on 8-15-93 and was found to have a left ventricular end diastolic pressure of 28 millimeters of mercury .
+She had a dominant right coronary artery with minor disease .
+The main left coronary artery had a 20% stenosis .
+The left anterior descending had a severe 80% proximal stenosis with a filling defect consistent with intraluminal thrombus .
+The circumflex artery had a minor 40% stenosis .
+Cine left ventriculogram revealed a dilated left ventricle with an area of anterolateral , apical , and septal akinesis .
+The left ventricular ejection fraction was estimated to 38% .
+The patient was transferred to the Heaonboburg Linpack Grant Medical Center for consideration of coronary angioplasty .
+CARDIAC RISK FACTORS :
+Her risk factors for coronary artery disease included a positive family history and an elevated cholesterol level .
+PAST MEDICAL HISTORY :
+Her past medical history is remarkable for a history of Parkinson &apos;s disease .
+PHYSICAL EXAMINATION :
+Her physical examination at the time of admission revealed a pleasant lady in no acute distress .
+The blood pressure was 120/70 millimeters of mercury .
+Her pulse was regular at 80 beats per minute .
+The jugular venous pressure was elevated at 6 cm above the sternal angle .
+The carotids were normal .
+The chest was clear .
+The cardiac examination revealed anapical impulse in the fifth left intercostal space , left to mid clavicular line .
+The first sound was normal .
+The second sound was normally split .
+She had no murmurs and no gallops .
+The examination the abdomen was benign .
+The examination of the extremities showed no edema .
+She had good pulses bilaterally .
+LABORATORY DATA :
+Her electrocardiogram revealed normal sinus rhythm , left atrial enlargement , left axis deviation , poor R-wave progression in V1 through V4 , consistent with marked clockwise rotation , cannot rule out an old anteroseptal wall myocardial infarction .
+There were prominent Q-waves in AVL , consistent with lateral myocardial infarction .
+There were non-specific ST-T wave abnormalities .
+HOSPITAL COURSE :
+The patient was admitted to the Medical Service .
+The patient was seen in consultation by the Neurology Department because of the history of Parkinson &apos;s disease .
+The patient was maintained on intravenous heparin .
+On 8-17-93 , she was taken to the cardiac catheterization laboratory where she underwent percutaneous transluminal coronary angioplasty of the proximal left anterior descending .
+Following balloon angioplasty , there was a local dissection with evidence of intraluminal thrombus , with a greater than 10% loss in the initial gain following coronary angioplasty .
+Therefore , directional coronary atherectomy was performed with an excellent angiographic outcome , and a less than 10% residual narrowing .
+The patient tolerated the procedure well .
+She was maintained on intravenous heparin and was brought back to the cardiac catheterization laboratory on 08-18-93 for a relook coronary angiography .
+Coronary angiography demonstrated ongoing benefit of the initial coronary atherectomy .
+Specifically , there was no decrease in the initial gain that she achieved after directional atherectomy .
+The patient remained stable during the rest of the hospitalization .
+She was transferred in stable condition to the Pasi for further rehabilitation therapy .
+RENLAN FYFEZEIS , M.D.
+Dr. Aalv Lorjes Salv Manual Pasi
+TR :
+jb / bmot
+DD :
+9-17-93
+TD :
+09/19/93
+CC :

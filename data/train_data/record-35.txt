@@ -1,0 +1,79 @@
+Admission Date :
+2009-03-27
+Discharge Date :
+2009-04-03
+Date of Birth :
+1960-03-06
+Sex :
+F
+Service :
+GYNECOLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49-year-old gravida III , para II , who was sent from her primary care physician 's office secondary to lower abdominal pain .
+The patient is status post uterine artery embolization on 2009-01-07 secondary to fibroids .
+She has had continuing vaginal discharge , and was diagnosed with bacterial vaginosis one day prior to admission , and was given a prescription for Flagyl .
+She noted increasing abdominal pain two days prior to admission , which became more severe on the day prior to admission .
+She went to her primary care physician 's office on the day of admission complaining of abdominal pain , which she stated was constant but intermittently sharper at times .
+The location was variable .
+She also complained of some loose stools on the day of admission , no nausea or vomiting .
+Her temperature was 100.4 in the office , and she had no chills .
+She was sent for a CT scan of her abdomen , which revealed fluid and question of gas in the endometrial cavity , and she was sent to Pinewood , Norfolk for treatment and admission .
+PAST OBSTETRICAL HISTORY :
+Cesarean section x 2 , spontaneous abortion x 1 .
+PAST GYNECOLOGIC HISTORY :
+Last menstrual period 2009-02-21 .
+Some spotting on the day prior to admission , but not a normal period .
+Periods regular .
+Lupron x three months prior to embolization .
+Fibroid uterus status post embolization on 2009-01-07 .
+Dilatation and curettage x 1 for SAB .
+History of herpes simplex virus , last outbreak in 2000 .
+No history of abnormal Pap smears .
+PAST MEDICAL HISTORY :
+None .
+PAST SURGICAL HISTORY :
+Cesarean section x 2 , dilatation and curettage x 1 , neck fusion after motor vehicle accident , shoulder surgery after motor vehicle accident .
+MEDICATIONS :
+Flagyl .
+ALLERGIES :
+None .
+SOCIAL HISTORY :
+No smoking , alcohol or drugs .
+PHYSICAL EXAMINATION :
+Temperature 100.4 , pulse 108 , respirations 20 , blood pressure 110/70 , oxygen saturation 100% on room air .
+In general , she was in no acute distress .
+Her abdomen was notable for voluntary guarding but no involuntary guarding or rebound , mild right lower quadrant tenderness greater than left lower quadrant , nondistended .
+Her pelvic examination was notable for some brownish discharge .
+Her uterus and adnexa were difficult to assess secondary to voluntary tensing of her abdomen .
+ASSESSMENT :
+This is a 49-year-old gravida III , para II , status post uterine artery embolization on 2009-01-07 due to uterine fibroids , with continued abdominal pain and CT scan revealing fluid and gas in the endometrial cavity .
+HOSPITAL COURSE :
+The patient was admitted and was initially started on intravenous ampicillin , gentamicin and clindamycin .
+Her initial white blood cell count was 11.3 , with a normal differential .
+Her sedimentation rate was elevated at 110 .
+Her electrolytes were within normal limits .
+She was maintained on intravenous antibiotics .
+On hospital day number three , her blood cultures came back positive in the anaerobic culture for gram-positive cocci in pairs and clusters .
+Further identification revealed staphylococcus coag-negative , which was sensitive to gentamicin and clindamycin .
+She was continued on her antibiotics , and was afebrile until hospital day number five , when she had a temperature spike to 102.3 .
+Repeat blood cultures were sent .
+Her white blood cell count was 12.8 , with a normal differential .
+At this time , an Infectious Disease consult was obtained , and the recommendation was to discontinue the ampicillin , gentamicin and clindamycin , and start her on intravenous Unasyn .
+She underwent a pelvic ultrasound and an abdomen and pelvis CT , which revealed continued air in the endometrial cavity vs. in the fundal fibroid .
+Discussion was had at this time with the patient regarding whether or not this represented an infected abscess vs. post-surgical change .
+Extensive discussion was held , and second opinion was obtained regarding the need for
+possible drainage of the abscess vs. hysterectomy .
+The patient requested an outside second opinion , as she was reluctant to undergo hysterectomy at this time .
+She was discharged to home on hospital day number eight , on oral antibiotics .
+The patient was to have a repeat CT scan in one week .
+She was also to obtain a second opinion regarding the question of possible surgical management .
+Claude U Bolanos , M.D.
+95-182
+Dictated By : William MP Lajoie , M.D.
+MEDQUIST36
+D : 2009-04-02 22:09
+T : 2009-04-03 01:26
+JOB #:
+61261
+Signed electronically by : DR. Suzanne Simpson on : FRI 2009-04-24 12:48 PM
+( End of Report )

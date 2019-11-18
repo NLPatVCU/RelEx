@@ -1,0 +1,27 @@
+T1	treatment 608 614	impant
+T2	problem 226 245	a right breast mass
+T3	problem 251 262	a discharge
+T4	problem 353 367	nipple changes
+T5	problem 495 509	a new shawdown
+T6	treatment 1246 1256	two drains
+T7	treatment 569 602	right modified radical mastectomy
+T8	treatment 1452 1473	discharge medications
+T9	test 814 828	pagett &apos;s
+T10	problem 886 901	apparent masses
+T11	treatment 1269 1278	one drain
+T12	test 514 524	the biopsy
+T13	test 265 296	a mammogram of the right breast
+T14	problem 950 983	a biopsy scar on the right breast
+T15	treatment 1482 1490	percocet
+T16	treatment 1140 1176	a saline-filled right breast implant
+T17	test 302 315	shadow biopsy
+T18	treatment 1075 1110	a right modified radical mastectomy
+T19	problem 907 947	scarring supra-areolar and infra-areolar
+T20	test 401 412	a mmamogram
+T21	treatment 1329 1345	the second drain
+T22	treatment 1495 1501	colace
+T23	test 445 455	new biopsy
+T24	problem 372 382	discomfort
+T25	problem 704 724	known drug allergies
+T26	treatment 1215 1228	the procedure
+R1	PIP Arg1:T2 Arg2:T3

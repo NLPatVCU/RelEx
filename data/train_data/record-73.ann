@@ -1,0 +1,124 @@
+T1	test 1896 1899	rdw
+T2	test 1599 1604	creat
+T3	test 1587 1593	urea n
+T4	test 1574 1581	glucose
+T5	problem 1514 1519	edema
+T6	problem 1419 1420	m
+T7	test 1336 1338	rr
+T8	problem 2054 2079	metastatic bladder cancer
+T9	test 1871 1874	mch
+T10	test 1331 1332	p
+T11	test 1321 1323	bp
+T12	test 1314 1315	t
+T13	treatment 171 176	drugs
+T14	problem 152 167	known allergies
+T15	treatment 949 987	bilateral pelvic lymph node dissection
+T16	problem 813 834	metastatic bladder ca
+T17	test 2362 2369	ct scan
+T18	problem 2372 2390	a right psoas mass
+T19	problem 2414 2424	a hematoma
+T20	treatment 923 943	radical prstatectomy
+T21	test 3554 3579	a ct scan of your abdomen
+T22	problem 3587 3606	a right pelvic mass
+T23	treatment 870 880	cystectomy
+T24	problem 3621 3631	a hematoma
+T25	treatment 885 913	ileal loop urinary diversion
+T26	treatment 856 865	chemo/xrt
+T27	problem 774 776	lh
+T28	test 1882 1886	mchc
+T29	test 1862 1865	mcv
+T30	problem 785 787	cp
+T31	treatment 3710 3732	your other medications
+T32	test 2967 2977	creatinine
+T33	problem 3049 3052	gib
+T34	problem 779 782	sob
+T35	problem 757 765	abd pain
+T36	test 2961 2964	cbc
+T37	problem 768 771	n/v
+T38	treatment 687 702	anticoagulation
+T39	treatment 3536 3551	anticoagulation
+T40	problem 3499 3507	bleeding
+T41	test 3448 3463	your hematocrit
+T42	treatment 414 427	ileal conduit
+T43	problem 375 395	recurrent bladder ca
+T44	problem 3117 3122	dvt s
+T45	problem 990 997	b/l dvt
+T46	problem 2296 2314	sigmoid angulation
+T47	problem 3911 3930	blood in your stool
+T48	treatment 1051 1061	ivc filter
+T49	treatment 400 410	cystectomy
+T50	problem 1488 1510	yellowish urine in rlq
+T51	test 4122 4131	your labs
+T52	problem 1240 1248	bleeding
+T53	test 2656 2690	a repeat outpatient ct colonoscopy
+T54	test 545 548	rbc
+T55	treatment 2589 2596	lovenox
+T56	treatment 2819 2831	pantoprazole
+T57	treatment 2765 2772	lovenox
+T58	problem 1073 1088	nephrolithiasis
+T59	test 707 719	repeat scope
+T60	problem 232 259	bright red blood per rectum
+T61	problem 1525 1533	clubbing
+T62	problem 2531 2557	a mass in the right pelvis
+T63	problem 1091 1097	anemia
+T64	treatment 1463 1478	nephrostomy bag
+T65	treatment 3232 3244	your lovenox
+T66	problem 3075 3112	metastatic , recurrent bladder cancer
+T67	problem 1252 1270	clotting disorders
+T68	problem 1439 1460	midline surgical scar
+T69	treatment 311 330	virtual colonoscopy
+T70	problem 3302 3333	a bleeding source in your colon
+T71	problem 3895 3900	dizzy
+T72	problem 3374 3386	the bleeding
+T73	treatment 299 310	colonoscopy
+T74	problem 526 530	tics
+T75	test 1849 1852	hct
+T76	problem 2145 2181	right lower quadrant source of bleed
+T77	test 2185 2204	red blood cell scan
+T78	problem 432 437	brbpr
+T79	test 1758 1767	phosphate
+T80	test 1776 1785	magnesium
+T81	test 447 450	hct
+T82	test 2238 2277	conventional and ct virtual colonoscopy
+T83	test 618 621	hct
+T84	problem 1434 1436	nt
+T85	test 470 473	egd
+T86	test 1824 1827	rbc
+T87	test 483 489	cscope
+T88	test 1837 1840	hgb
+T89	test 2444 2458	the hematocrit
+T90	test 1640 1648	chloride
+T91	test 1927 1936	plt count
+T92	test 1704 1710	estgfr
+T93	problem 1397 1400	lad
+T94	test 1655 1664	total co2
+T95	test 1963 1965	pt
+T96	test 1973 1976	ptt
+T97	problem 516 521	blood
+T98	problem 1362 1378	sclera anicteric
+T99	test 1814 1817	wbc
+T100	test 1744 1751	calcium
+T101	test 1984 1991	inr(pt)
+T102	problem 1358 1361	nad
+T103	treatment 2103 2110	lovenox
+T104	problem 2084 2099	recurrent dvt s
+T105	test 1611 1617	sodium
+T106	problem 2125 2142	lower gi bleeding
+T107	test 1624 1633	potassium
+T108	test 1670 1679	anion gap
+R1	TrCP Arg1:T13 Arg2:T14
+R2	TrAP Arg1:T15 Arg2:T16
+R3	TeRP Arg1:T17 Arg2:T18
+R4	PIP Arg1:T18 Arg2:T19
+R5	TrAP Arg1:T20 Arg2:T16
+R6	TeRP Arg1:T21 Arg2:T22
+R7	TrAP Arg1:T23 Arg2:T16
+R8	PIP Arg1:T24 Arg2:T22
+R9	TrAP Arg1:T25 Arg2:T16
+R10	TrAP Arg1:T26 Arg2:T16
+R11	TrCP Arg1:T39 Arg2:T40
+R12	TrAP Arg1:T42 Arg2:T43
+R13	TrAP Arg1:T49 Arg2:T43
+R14	TeRP Arg1:T77 Arg2:T76
+R15	TeRP Arg1:T87 Arg2:T74
+R16	TrAP Arg1:T103 Arg2:T104

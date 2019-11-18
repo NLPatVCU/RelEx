@@ -1,0 +1,12 @@
+T1	treatment 581 605	routine post partum care
+T2	problem 647 659	active labor
+T3	test 693 698	heent
+T4	treatment 415 432	vacuum extraction
+T5	problem 1236 1248	active labor
+T6	problem 349 366	abnormal pap test
+T7	test 683 689	height
+T8	treatment 1411 1428	vacuum extraction
+T9	problem 279 313	abnormal fetal heart rate / rhythm
+T10	problem 1499 1516	fetal bradycardia
+T11	problem 1590 1601	nuchal cord
+T12	test 1322 1334	apgar scores

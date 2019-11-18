@@ -1,0 +1,97 @@
+405507617
+FIH
+2887168
+132052
+543394
+11/12/2002 12:00:00 AM
+Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+DISCHARGE SUMMARY NAME :
+SPALDFREIERMPLCA , IEOLY E
+UNIT NUMBER :
+251-62-95
+ADMISSION DATE :
+11/12/2002
+DISCHARGE DATE :
+11/15/2002
+PRINCIPAL DIAGNOSIS :
+Alzheimer &apos;s disease secondary to Down &apos;s syndrome .
+CHIEF COMPLAINT :
+This is a 44 year-old right handed woman with Down &apos;s syndrome who presents with falling and a decrease in her activities of daily living .
+HISTORY OF PRESENT ILLNESS :
+This is a 44 year-old right handed woman with Down &apos;s syndrome who presents with increased falling and gait unsteadiness and an increased inability to perform her activities of daily living over the past three years .
+The diagnosis of Alzheimer &apos;s was made in 1998 .
+The patient had an MRI at an outside hospital which showed enlarged lateral ventricles and the possible diagnosis of normal pressure hydrocephalus was entertained and the patient was admitted for diagnostic lumbar puncture .
+PAST MEDICAL HISTORY :
+Notable for Down &apos;s syndrome , Altzheimer &apos;s disease secondary to Down &apos;s syndrome diagnosed in 1998 , status post multiple falls , no heart disease , ankle surgery and an abnormal EEG .
+MEDICATIONS :
+Include Lamictal 50 mgs bid , Aricept 10 mgs qhs , BuSpar 15 mgs bid , Trazodone 100 mgs qhs .
+ALLERGIES :
+There are no known drug allergies .
+SOCIAL HISTORY :
+The patient lives at home with her family .
+REVIEW OF SYSTEMS :
+Notable for decreased ability to do her activities of daily living , a decrease in her language , some urinary accidents , increased falls and a poor gait .
+PHYSICAL EXAMINATION :
+Noted for friendly , jovial 44 year-old woman with Down &apos;s .
+Vital signs :
+Blood pressure 150/82 , heart rate 88 , respiratory rate 18 .
+HEENT examination is notable for bilateral esotropia .
+Chest was clear to auscultation .
+Cardiac examination was regular rate and rhythm .
+Abdominal examination was soft , non-tender , positive bowel sounds .
+Extremities :
+Left ankle was notable for swelling secondary to status post left ankle surgery .
+Skin :
+The patient had back folliculitis .
+Neuro examination was notable for a patient who was alert and oriented x 1 .
+She could identify her siblings .
+She can name several words such as thumb , watch and knuckle .
+She was unable to name glasses .
+Cranial nerves notable for bilateral esotropia .
+Her extraocular motions were full .
+The face was symmetrical .
+The motor tone was within normal limits in the upper and lower extremities .
+The strength was 5 out of 5 .
+Reflexes were 2+ bilaterally with down going toes .
+Her gait was notable for requiring assist .
+The patient walked with her feet externally rotated with a wide based gait with shuffling short steps with a tendency to fall back and she was unable to walk without assist .
+MRI , as discussed , was done at outside hospital and demonstrated large ventricles .
+HOSPITAL COURSE :
+The patient was admitted to the Arkzie- Memorial for lumbar puncture .
+On the night of admission lumbar puncture was attempted on the floor , but we were unable to get cerebral spinal fluid due to difficulty with compliance with the patient who was severely agitated and would not comply with the examination .
+On hospital day the patient underwent conscious sedation in the operating room where lumbar puncture was performed .
+Opening pressure was 17 and approximately 20-25 cc of CSF was removed .
+CSF was notable for sugar level of 65 and total protein level of 56 .
+OTHER LABORATORIES THAT WERE NOTABLE :
+Vitamin B12 of 855 , folic acid of 15.4 .
+Chem-7 was within normal limits .
+Tube and requisition of the CSF labeled tube # 1 was notable for color pink , turbidity slight , xanthochromia yes , red blood cells 3,800 , white blood cells 3 , neutrophils 58 , bands 4 , lymphs 29 , monos 6 , eos 2 and basos 1 .
+CSF tube labeled # 4 was notable for CSF color pink , CSF turbidity slight , CSF xanthochromia yes , CSF RBCs 3,900 , CSF white blood cells 3 , CSF neutrophils 61 , CSF bands 3 , CSF lymphs 31 , CSF monos 1 , CSF eos 3 , CSF basos 1 .
+CSF gram stain was notable for no polys and no organisms seen .
+The fluid culture was no growth to date .
+One day prior to lumbar puncture , an aerobic culture was similarly pending .
+Lyme capture was pending and at the time of discharge .
+Other notable tests :
+RPR card test was negative .
+Because of poor compliance with the gait examination it was very difficult to assess changing gait post lumbar puncture .
+The patient &apos;s gait remained wide based and shuffling and requiring assist .
+Her mental status remained similarly to her admission examination .
+The patient was discharged to home on 11/15/02 with instructions to the family to observe her gait in her home environment and to observe her behavior in her home environment over the next day and to report back to the primary neurologist , Dr. Flythegach , as to changes .
+DISCHARGE MEDICATIONS :
+Were as they were on admission .
+The patient &apos;s neuro examination was largely unchanged from the admission neuro examination .
+LATO TIKFREIERM , M.D.
+DICTATING FOR :
+_____________________________ LATO TIKFREIERM , M.D.
+TR :
+yh
+DD :
+11/14/2002
+TD :
+11/19/2002 3:35 P
+cc :
+SIE FLYTHEGACH , M.D. TIFFILL SAPNINS , M.D. STA THERNLIN BALLOON , M.D. LATO TIKFREIERM , M.D. /PCP , Jofredd Mones , M.D.

@@ -1,0 +1,167 @@
+Admission Date :
+2015-10-05
+Discharge Date :
+2015-10-08
+Date of Birth :
+1815-10-05
+Sex :
+F
+Service :
+MEDICINE
+Allergies :
+Shellfish
+Attending :
+Jacob U. Rolland , M.D.
+Chief Complaint:
+Chest pain
+Major Surgical or Invasive Procedure:
+None
+History of Present Illness:
+The patient is a 91 yo woman with h/o HTN who came from Bridgewater State Hospital Rehab with substernal chest pain after exercise .
+Pt had been in her usual state of health and performed here regular exercises .
+After returning to her room she w noted SSCP without radiation .
+No nausea , vomiting , diaphoresis .
+They did an ECG at Bridgewater State Hospital rehab which demonstarted new ST depressions in V1-V4 .
+She received ASA 81 mg x 2 and nitro SL x 2 with partial relief at nursing home .
+On presentation to Providence Behavioral Health Hospital Amanda , her vitals were HR 68 , BP 142/68 , RR 28 , O2 sat 100% RA .
+Exam was notable for RRR with no murmur , bibasilar crackles , guaiac negative .
+EKG showed sinus brady , with old LAD and new ST depressions in V1-V4 .
+Troponin was 0.07 .
+She received ASA , nitro SL then gtt , morphine , metoprolol , and heparin gtt .
+Cardiology discussed cath however , patient 's family turned down .
+Transferred to CCU for further management and observation .
+Past Medical History:
+HTN
+Hearing difficulty
+Blindness 02-26 macular degeneration
+R ankle fx 2002
+S/p hysterectomy
+Social History :
+currently lives at Bridgewater State Hospital Rehab; no tobacco or EtOH use; used to be housewife
+Family History :
+n/c
+Physical Exam:
+Vitals :
+T 97.8 , HR 53 , BP 156/58 , RR 16 , O2 sat 94% on 2.5 L
+Gen :
+NAD , awake , alert , blind , able to hear loud voices at L ear
+HEENT :
+MMM , OP clear
+Neck :
+JVP 11 cm
+CV :
+Reg rate , nl S1 & S2 , no m/r/g
+Pulm :
+Crackles at base and mid-lungs bilaterally
+Abd :
+Soft , NT , ND , BS present , no masses
+Ext :
+Trace ankle edema bilaterally
+Pertinent Results:
+LABS on admission:
+WBC - 11.4* RBC - 3.61* Hgb - 11.4* Hct - 32.6* MCV - 90 MCH - 31.7
+MCHC - 35.1* RDW - 14.7 Plt Ct - 281
+Glucose - 124* UreaN - 30* Creat - 1.3* Na - 137 K - 4.2 Cl - 102 HCO3 - 27
+AnGap - 12
+CK ( CPK ) - 42 cTropnT - 0.07*
+.
+STUDIES:
+EKG : 
+sinus brady @ 48 bpm , LAD , LVH , RBBB , Q wave in I , ST depressions in V1-V4 , ST elevation in III , aVF , TWI in III , V5 .
+CXR 10-07 :
+There is slight worsening of the still mild pulmonary edema .
+There is no pneumothorax .
+Small right pleural effusion is stable .
+Cardiac size is normal .
+Echo :
+LVEF >70% , LA 6.1 cm , no regional wall motion abnormality .
+Cardiac Enzymes
+2015-10-05 09:00PM BLOOD 
+CK ( CPK ) - 1471* CK-MB - 207* MB Indx - 14.1* cTropnT - 6.00*
+2015-10-06 04:47PM BLOOD 
+CK ( CPK ) - 1288* CK-MB - 158* MB Indx - 12.3* cTropnT - 6.88*
+2015-10-07 07:30AM BLOOD 
+CK ( CPK ) - 627* CK-MB - 55* MB Indx - 8.8* cTropnT - 4.46*
+.
+Labs on Discharge 2015-10-08 08:35AM
+WBC - 13.8* RBC - 3.39* Hgb - 10.7* Hct - 30.2* MCV - 89 MCH - 31.5
+MCHC - 35.3* RDW - 14.8 Plt Ct - 214
+Glucose - 120* UreaN - 30* Creat - 1.2* Na - 134 K - 4.2 Cl - 100 HCO3 - 25
+AnGap - 13
+Calcium - 8.7 Phos - 2.5* Mg - 2.1
+Brief Hospital Course:
+INITIAL IMPRESSION :
+90 year-old woman with h/o of HTN p/w substernal chest pain shortly after exercise at nursing home , with EKG showing ST depressions in V1-V4 and troponin 0.07.
+Likely NSTEMI .
+.
+HOSPITAL COURSE BY SYSTEM :
+.
+* CV :
+The patient 's family refused coronary artery catheterization .
+The patient was given ASA , Plavix , heparin drip x 24 hours , nitro drip , atorvastatin , metoprolol , and lisinopril .
+Her chest pain was controlled with morphine .
+Her SBP remained in the 160s-170s on hospital day 1 and she was gently diuresed .
+On hospital day 2 she experienced atrial fibrillation with HR in the 140s .
+Her metoprolol dose was increased from 25 mg PO bid to 50 mg PO bid then 75 mg PO tid .
+Her HR decreased to 70s-80s .
+Her BP remained stable .
+An ECHO showed that she had preserved EF and no wall motion abnormalities .
+We decided given her age that she would not be a good candidate for cardioversion for her afib nor would she be a good candidate for coumadin .
+Therefore we will continue rate control with metoprolol this can be titrated if needed , and aspirin and plavix for anti-coagulation .
+She should also continue on lipitor and lisinopril .
+She should have her chem 7 checked next week given the start of her new meds .
+Will also need LFT 's checked in 3-6 months .
+.
+* Pulmonary :
+Bilateral crackles at bases and midlungs , elevated JVP , trace bilateral ankle edema , and CXR with diffuse opacities suggest possible pulmonary edema , likely secondary to acute MI .
+Her O2 sat was stable at 94-97% on 2.5L of supplemental O2 .
+She experienced no respiratory difficulty during the hospital stay .
+She was diuresed small amount .
+Her CXR prior to discharge showed mild pulm edema and thus was given 40 of lasix prior to going to rehab .
+She can be given prn lasix for weight gain or shortness of breath .
+.
+* Leukocytosis- She developed mild elevated WBC .
+UA had 12-14
+WBC 's , few bacteria .
+She was initially started on Bactrim , but this was stopped as she was afebrile .
+SHe has a culture pending which needs to be followed up at the nursing home and treated if positive .
+.
+* Code :
+DNR/DNI
+Medications on Admission :
+tylenol PRN lisinopril 5 mg PO qd protonix 20 mg PO qd artifical tears bid metoprolol 25 mg PO bid
+Discharge Medications:
+1. Senna 8.6 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) as needed .
+2. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) as needed for constipation .
+3. Aspirin 325 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+4. Clopidogrel 75 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+5. Atorvastatin 80 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+6. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : 0.5 Tablet , Delayed Release ( E.C. ) PO Q24H ( every 24 hours ) .
+7. Polyvinyl Alcohol 1.4 % Drops Sig : 1-2 Drops Ophthalmic BID ( 2 times a day ) .
+8. Lisinopril 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+9. Metoprolol Tartrate 25 mg Tablet Sig : Three ( 3 ) Tablet PO TID ( 3 times a day ) .
+10. Acetaminophen 325 mg Tablet Sig : Two ( 2 ) Tablet PO BID ( 2 times a day ) .
+11. Maalox 225-200 mg/5 mL Suspension Sig : Five ( 5 ) mL PO every six ( 6 ) hours as needed for indigestion .
+12. Lasix 40 mg Tablet Sig : One ( 1 ) Tablet PO once a day as needed for shortness of breath or wheezing :
+Can give 40 lasix PO if having any weight gain or shortness of breath .
+Discharge Disposition:
+Extended Care
+Discharge Diagnosis:
+NSTEMI
+Atrial Fibrillation
+HTN
+Discharge Condition:
+Patient without chest pain , heart rate and BP stable .
+Discharge Instructions:
+Please take all medications as instructed .
+She has been started on several new medications which are important to protect her heart .
+If the patient experiences any chest pain , shortness of breath , nausea , vomiting , fevers , chills , please return to the emergency room .
+Followup Instructions:
+Please call ( 881-6997 to set up follow up cardiology appointment in 2-3 months .
+Betty Herbert MD 43-075
+Completed by :
+Allison Crystal MD 52-741 2015-10-08 @ 1510
+Signed electronically by :
+DR. Dorothy Z. Alderman on :
+SUN 2015-10-11 11:49 AM
+( End of Report )

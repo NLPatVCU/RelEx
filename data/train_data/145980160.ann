@@ -1,0 +1,101 @@
+T1	test 594 605	repeat exam
+T2	problem 629 651	a firm left-sided lobe
+T3	test 2228 2243	his chest x-ray
+T4	test 1962 1973	bicarbonate
+T5	treatment 247 279	radical retropubic prostatectomy
+T6	treatment 3564 3570	keflex
+T7	problem 684 735	a hypoechoic left-sided mass in the peripheral zone
+T8	problem 1374 1399	jugular venous distention
+T9	treatment 3551 3559	percocet
+T10	problem 583 591	a nodule
+T11	problem 542 564	prominence on the left
+T12	problem 514 536	an asymmetric prostate
+T13	problem 3458 3483	his low grade temperature
+T14	test 654 676	transrectal ultrasound
+T15	problem 3230 3240	chest pain
+T16	test 2589 2603	his hematocrit
+T17	problem 1743 1756	a firm nodule
+T18	test 1436 1446	percussion
+T19	test 3056 3076	a cardiology consult
+T20	test 2711 2722	chest x-ray
+T21	problem 1589 1601	organomegaly
+T22	test 1947 1955	chloride
+T23	problem 3289 3296	changes
+T24	problem 449 457	nocturia
+T25	problem 2166 2198	positive white blood cell screen
+T26	problem 2653 2676	a low grade temperature
+T27	problem 3218 3226	symptoms
+T28	problem 2142 2161	marked occult blood
+T29	test 3156 3162	an ekg
+T30	problem 3184 3205	anterolateral changes
+T31	test 2097 2099	pt
+T32	problem 410 427	urinary frequency
+T33	problem 1607 1638	costovertebral angle tenderness
+T34	test 738 746	a biopsy
+T35	problem 754 829	moderately to poorly differentiated grade iii-iv adenocarcinoma on the left
+T36	problem 436 446	stranguria
+T37	test 2072 2086	platelet count
+T38	treatment 2780 2797	his jackson-pratt
+T39	problem 994 1023	non-insulin diabetes mellitus
+T40	test 2542 2553	vital signs
+T41	test 2563 2576	his potassium
+T42	test 1641 1663	his genitourinary exam
+T43	treatment 2462 2493	bilateral lymph node dissection
+T44	problem 3127 3138	tachycardia
+T45	problem 3110 3121	diaphoresis
+T46	problem 1133 1141	allergic
+T47	test 1862 1868	pulses
+T48	test 2007 2014	glucose
+T49	treatment 1045 1052	diabeta
+T50	problem 943 952	impotence
+T51	problem 193 208	prostate cancer
+T52	treatment 282 313	bilateral lymph node dissection
+T53	test 2120 2134	his urinalysis
+T54	treatment 3005 3038	autologous packed red blood cells
+T55	treatment 1145 1151	motrin
+T56	test 1981 1984	bun
+T57	test 1990 2000	creatinine
+T58	problem 1525 1534	murmurs .
+T59	problem 1403 1414	thyromegaly
+T60	problem 1831 1841	clubbing ,
+T61	problem 63 78	prostate cancer
+T62	problem 2512 2520	afebrile
+T63	test 2021 2042	his white blood count
+T64	problem 1560 1570	non-tender
+T65	problem 1579 1585	masses
+T66	treatment 1181 1188	diabeta
+T67	test 3266 3278	a repeat ekg
+T68	test 3365 3380	the transfusion
+T69	problem 1842 1850	cyanosis
+T70	problem 2931 2951	slightly diaphoretic
+T71	test 492 505	physical exam
+T72	test 2257 2260	ekg
+T73	problem 1064 1082	right eye cataract
+T74	test 1931 1940	potassium
+T75	problem 2957 2973	some tachycardia
+T76	test 2054 2064	hematocrit
+T77	problem 1854 1859	edema
+T78	test 3383 3397	his creatinine
+T79	problem 3244 3263	myocardial ischemia
+T80	test 1918 1924	sodium
+T81	test 2111 2114	ptt
+T82	treatment 2422 2456	a radical retropubic prostatectomy
+T83	test 1451 1463	auscultation
+T84	test 2877 2891	his hematocrit
+T85	test 2688 2706	his blood cultures
+T86	test 3495 3510	his vital signs
+T87	test 3331 3350	a repeat hematocrit
+R1	TeRP Arg1:T1 Arg2:T2
+R2	PIP Arg1:T10 Arg2:T11
+R3	PIP Arg1:T10 Arg2:T12
+R4	TeRP Arg1:T14 Arg2:T7
+R5	TeRP Arg1:T29 Arg2:T30
+R6	TeRP Arg1:T34 Arg2:T35
+R7	PIP Arg1:T45 Arg2:T44
+R8	TrAP Arg1:T49 Arg2:T39
+R9	TeRP Arg1:T53 Arg2:T28
+R10	TrCP Arg1:T55 Arg2:T46
+R11	TeCP Arg1:T67 Arg2:T23
+R12	TeRP Arg1:T71 Arg2:T12
+R13	TeRP Arg1:T71 Arg2:T11
+R14	TeRP Arg1:T71 Arg2:T10

@@ -1,0 +1,203 @@
+T1	test 3415 3422	albumin
+T2	treatment 7124 7131	prempro
+T3	treatment 6936 6944	levaquin
+T4	treatment 7090 7118	a prescription for ten pills
+T5	treatment 7557 7580	a low fat no dairy diet
+T6	problem 495 504	bile leak
+T7	test 3429 3436	calcium
+T8	treatment 4780 4789	placement
+T9	problem 4794 4830	a bile leak from the duct of luschka
+T10	test 377 423	endoscopic retrograde cholangiopancreatography
+T11	test 3495 3512	electrocardiogram
+T12	problem 7758 7769	hypokalemia
+T13	treatment 7320 7340	removal of the stent
+T14	problem 7799 7808	bile leak
+T15	test 4460 4467	amylase
+T16	treatment 5403 5406	npo
+T17	test 6592 6602	her bicarb
+T18	test 3333 3342	potassium
+T19	treatment 650 667	a cholecystectomy
+T20	treatment 6085 6096	a brat diet
+T21	problem 765 769	pain
+T22	test 4431 4455	her liver function tests
+T23	problem 755 769	abdominal pain
+T24	test 3349 3357	chloride
+T25	treatment 6987 6995	protonix
+T26	problem 1004 1012	free air
+T27	treatment 6535 6538	npo
+T28	test 4472 4478	lipase
+T29	test 3376 3379	bun
+T30	treatment 511 526	cholecystectomy
+T31	treatment 7478 7489	a brat diet
+T32	treatment 7016 7024	percocet
+T33	treatment 3015 3027	steri-strips
+T34	problem 2965 2992	post laparoscopic incisions
+T35	problem 3001 3009	erythema
+T36	test 5599 5628	serial abdominal examinations
+T37	treatment 4394 4404	ampicillin
+T38	test 3320 3326	sodium
+T39	problem 3138 3144	rashes
+T40	test 169 186	airway monitoring
+T41	treatment 5417 5449	aggressive intravenous hydration
+T42	treatment 4407 4417	gentamycin
+T43	test 3260 3271	lymphocytes
+T44	test 3279 3288	monocytes
+T45	test 3291 3299	troponin
+T46	test 221 245	cholangiopancreatography
+T47	problem 2943 2951	guarding
+T48	problem 3708 3775	small fluid in the circumferential thickening of the distal stomach
+T49	test 3238 3254	neutrophil count
+T50	test 3645 3657	abdominal ct
+T51	problem 3665 3705	inflammation in the right upper quadrant
+T52	problem 251 267	adverse reaction
+T53	test 5009 5035	her white blood cell count
+T54	problem 5046 5061	really elevated
+T55	problem 5083 5093	a bandemia
+T56	problem 3845 3853	free air
+T57	test 5271 5321	the endoscopic retrograde cholangiopancreatography
+T58	test 3204 3214	hematocrit
+T59	treatment 271 279	fentanyl
+T60	test 5338 5345	amylase
+T61	test 3222 3231	platelets
+T62	problem 284 297	tongue injury
+T63	problem 2866 2878	nondistended
+T64	problem 7746 7752	anemia
+T65	test 5685 5700	an abdominal ct
+T66	problem 5734 5751	mild pancreatitis
+T67	problem 7676 7740	post endoscopic retrograde cholangiopancreatography pancreatitis
+T68	treatment 5819 5831	any drainage
+T69	problem 5768 5801	intra-abdominal fluid collections
+T70	problem 5898 5909	the rebound
+T71	treatment 7172 7181	trazodone
+T72	problem 2854 2863	nontender
+T73	problem 5860 5879	the patient 's pain
+T74	treatment 1553 1561	fentanyl
+T75	test 1319 1369	her endoscopic retrograde cholangiopancreatography
+T76	problem 5327 5335	elevated
+T77	problem 2536 2545	shivering
+T78	problem 1426 1434	rigidity
+T79	problem 2817 2821	rubs
+T80	problem 2807 2814	murmurs
+T81	problem 6145 6160	further rebound
+T82	treatment 6720 6728	dextrose
+T83	test 2450 2456	sating
+T84	treatment 6554 6589	periodic repletion of her potassium
+T85	test 2404 2418	blood pressure
+T86	problem 6174 6192	temperature spikes
+T87	problem 6693 6705	ketoacidosis
+T88	test 6261 6286	the patient 's hematocrit
+T89	problem 2504 2510	groggy
+T90	problem 6635 6656	an anion gap acidosis
+T91	problem 7775 7793	anion gap acidosis
+T92	treatment 6360 6380	aggressive hydration
+T93	problem 2121 2133	her rigidity
+T94	treatment 6732 6754	her intravenous fluids
+T95	test 5927 5938	her enzymes
+T96	problem 6834 6856	her anion gap acidosis
+T97	test 2367 2378	temperature
+T98	treatment 2169 2177	fentanyl
+T99	problem 2138 2151	jaw clenching
+T100	treatment 4890 4896	flagyl
+T101	problem 1852 1869	urinary frequency
+T102	problem 2044 2064	known drug allergies
+T103	treatment 4875 4885	gentamycin
+T104	problem 1883 1904	interstitial cystitis
+T105	treatment 1999 2006	prempro
+T106	treatment 4862 4872	ampicillin
+T107	problem 2932 2939	rebound
+T108	treatment 5978 5991	clear liquids
+T109	problem 1910 1931	mitral valve prolapse
+T110	test 5227 5238	her amylase
+T111	problem 3068 3073	edema
+T112	test 2428 2444	respiratory rate
+T113	treatment 5173 5186	clear liquids
+T114	problem 1771 1784	hiatal hernia
+T115	problem 1659 1665	chills
+T116	treatment 2523 2533	anesthesia
+T117	problem 4972 4996	waxing and waning fevers
+T118	treatment 1937 1951	tubal ligation
+T119	problem 1597 1608	tachycardia
+T120	problem 5524 5538	marked rebound
+T121	problem 1629 1638	infection
+T122	problem 1645 1655	her fevers
+T123	test 5360 5366	lipase
+T124	problem 1575 1592	the tongue injury
+T125	treatment 2012 2026	cmed ccu drops
+T126	test 5243 5249	lipase
+T127	test 2355 2366	vital signs
+T128	test 2387 2397	heart rate
+T129	test 5647 5653	lipase
+T130	test 5631 5642	her amylase
+T131	treatment 1505 1511	flagyl
+T132	treatment 1535 1541	narcan
+T133	test 5542 5566	palpation of her abdomen
+T134	treatment 1802 1817	cholecystectomy
+T135	treatment 1490 1500	gentamycin
+T136	treatment 1477 1487	ampicillin
+T137	problem 3802 3815	a small ulcer
+T138	test 3443 3446	ldh
+T139	test 3474 3481	amylase
+T140	problem 3622 3642	st or t wave changes
+T141	test 3453 3456	ast
+T142	problem 1439 1452	cold / chills
+T143	problem 1410 1423	biting tongue
+T144	test 3076 3097	dorsalis pedis pulses
+T145	test 3487 3489	ck
+T146	treatment 4071 4086	stent placement
+T147	problem 4091 4102	a bile leak
+T148	test 3462 3465	alt
+T149	test 3175 3197	white blood cell count
+T150	test 4008 4057	an endoscopic retrograde cholangiopancreatography
+T151	problem 1394 1407	jaw clenching
+T152	treatment 1279 1286	a stent
+T153	test 1167 1226	a successful endoscopic retrograde cholangiopancreatography
+T154	problem 1242 1276	a bile leak at the duct of luschka
+T155	problem 2585 2613	laceration on the right edge
+T156	problem 4223 4236	tongue biting
+T157	problem 4205 4218	jaw clenching
+T158	problem 2825 2832	gallops
+T159	treatment 6494 6515	aggressively hydrated
+T160	treatment 4116 4131	cholecystectomy
+T161	test 2745 2757	auscultation
+T162	treatment 1141 1156	stent placement
+T163	problem 4191 4199	rigidity
+T164	test 3364 3370	bicarb
+T165	test 1078 1127	an endoscopic retrograde cholangiopancreatography
+T166	treatment 4422 4428	flagyl
+T167	test 4722 4768	endoscopic retrograde cholangiopancreatography
+T168	test 3401 3408	glucose
+T169	problem 982 999	thickened stomach
+T170	treatment 4250 4258	fentanyl
+T171	test 935 950	an abdominal ct
+T172	test 3384 3394	creatinine
+R1	TrAP Arg1:T8 Arg2:T9
+R2	TeCP Arg1:T10 Arg2:T6
+R3	TrCP Arg1:T30 Arg2:T6
+R4	TrAP Arg1:T33 Arg2:T34
+R5	PIP Arg1:T34 Arg2:T35
+R6	TeRP Arg1:T50 Arg2:T48
+R7	TeRP Arg1:T50 Arg2:T51
+R8	TeRP Arg1:T53 Arg2:T54
+R9	TeRP Arg1:T53 Arg2:T55
+R10	TrCP Arg1:T59 Arg2:T52
+R11	PIP Arg1:T62 Arg2:T52
+R12	TeRP Arg1:T65 Arg2:T66
+R13	TrAP Arg1:T68 Arg2:T69
+R14	TrCP Arg1:T98 Arg2:T99
+R15	TrCP Arg1:T98 Arg2:T93
+R16	PIP Arg1:T104 Arg2:T101
+R17	TrCP Arg1:T116 Arg2:T89
+R18	PIP Arg1:T121 Arg2:T122
+R19	PIP Arg1:T121 Arg2:T115
+R20	TeRP Arg1:T133 Arg2:T120
+R21	TrAP Arg1:T146 Arg2:T147
+R22	TeCP Arg1:T150 Arg2:T147
+R23	PIP Arg1:T151 Arg2:T143
+R24	TeRP Arg1:T153 Arg2:T154
+R25	PIP Arg1:T156 Arg2:T157
+R26	TrCP Arg1:T160 Arg2:T147
+R27	TrCP Arg1:T170 Arg2:T157
+R28	TrCP Arg1:T170 Arg2:T156
+R29	TrCP Arg1:T170 Arg2:T163
+R30	TeRP Arg1:T171 Arg2:T169
+R31	TeRP Arg1:T171 Arg2:T26

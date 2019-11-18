@@ -1,0 +1,133 @@
+T1	treatment 5064 5079	ipratropium neb
+T2	problem 3952 3960	pleuricy
+T3	treatment 996 1002	niacin
+T4	treatment 3402 3409	heparin
+T5	problem 3423 3448	a demand ischemic episode
+T6	problem 78 84	nstemi
+T7	problem 55 72	copd exacerbation
+T8	problem 4149 4161	osteoporosis
+T9	treatment 5044 5057	albuterol neb
+T10	test 4279 4287	scalenes
+T11	problem 3548 3561	troponin leak
+T12	problem 3525 3542	copd exacerpation
+T13	test 5499 5513	o2 requirement
+T14	treatment 1803 1815	levofloxacin
+T15	problem 3295 3312	steroid psychosis
+T16	problem 4939 4951	exacerbation
+T17	treatment 1169 1177	zocor po
+T18	treatment 927 942	atorvastatin po
+T19	problem 5544 5565	cardiac troponin leak
+T20	treatment 5086 5097	flovent inh
+T21	problem 4966 4969	uri
+T22	problem 3880 3884	v/ha
+T23	problem 5213 5216	mvi
+T24	treatment 3750 3763	prednisone 40
+T25	problem 4123 4146	r renal artery stenosis
+T26	problem 3272 3285	poor appetite
+T27	problem 3876 3877	n
+T28	test 4486 4489	wbc
+T29	treatment 1240 1243	vit
+T30	test 4073 4077	fev1
+T31	treatment 1984 1995	levaquin po
+T32	treatment 5152 5160	levaquin
+T33	test 4735 4739	leak
+T34	problem 3063 3080	copd exacerbation
+T35	problem 4850 4854	leak
+T36	treatment 541 568	vitamin c ( ascorbic acid )
+T37	treatment 1005 1008	vit
+T38	problem 4502 4524	small pleural effusion
+T39	treatment 5127 5137	prednisone
+T40	test 335 355	attending evaluation
+T41	problem 4545 4558	acute changes
+T42	treatment 4857 4860	asa
+T43	problem 3892 3898	sweats
+T44	problem 3589 3604	demand ischemia
+T45	problem 3569 3575	nstemi
+T46	problem 4007 4020	shoulder pain
+T47	treatment 3316 3322	benzos
+T48	problem 55 72	copd exacerbation
+T49	treatment 5104 5116	serevent inh
+T50	treatment 4058 4072	lung resection
+T51	problem 3180 3191	severe copd
+T52	problem 3086 3092	nstemi
+T53	problem 3251 3271	unexplained hct drop
+T54	problem 3812 3838	1mm lateral st depressions
+T55	problem 4045 4049	copd
+T56	treatment 2118 2128	lisinopril
+T57	treatment 1847 1884	serevent diskus ( salmeterol diskus )
+T58	treatment 1372 1397	levaquin ( levofloxacin )
+T59	problem 4655 4661	demand
+T60	problem 4633 4641	a nstemi
+T61	treatment 687 697	prednisone
+T62	problem 4117 4120	pvd
+T63	treatment 629 672	calcium carbonate ( 500 mg elemental ca++ )
+T64	test 4984 4999	aputum cultures
+T65	problem 4318 4333	bibasilar rales
+T66	problem 3625 3638	worsening sob
+T67	treatment 1511 1523	levofloxacin
+T68	treatment 5644 5666	any further antibiocis
+T69	treatment 2225 2243	potassium chloride
+T70	treatment 1011 1014	b-3
+T71	treatment 4788 4798	metoprolol
+T72	problem 3975 3987	paresthesias
+T73	problem 4086 4114	chronic pericardial effusion
+T74	treatment 1527 1540	ciprofloxacin
+T75	treatment 4746 4753	heparin
+T76	problem 4758 4761	ptt
+T77	treatment 2248 2258	lisinopril
+T78	problem 3887 3888	d
+T79	problem 3966 3969	lee
+T80	treatment 1557 1567	tube feeds
+T81	treatment 1297 1331	flovent ( fluticasone propionate )
+T82	treatment 5025 5037	atrovent neb
+T83	treatment 770 822	multivitamin therapeutic ( therapeutic multivi ... )
+T84	treatment 2049 2069	salmeterol xinafoate
+T85	treatment 2074 2086	levofloxacin
+T86	treatment 4876 4885	telemetry
+T87	problem 4164 4178	presbylaryngis
+T88	treatment 1019 1039	atorvastatin calcium
+T89	problem 3644 3655	sore throat
+T90	problem 3916 3930	abdominal pain
+T91	problem 3499 3516	copd exacerpation
+T92	treatment 1778 1798	salmeterol xinafoate
+T93	treatment 584 616	ecasa ( aspirin enteric coated )
+T94	treatment 5384 5394	prednisone
+T95	problem 4267 4270	nad
+T96	treatment 1458 1471	iron products
+T97	treatment 2466 2477	alendronate
+T98	treatment 1246 1249	b-3
+T99	problem 3660 3701	cough productive of yellow / green sputum
+T100	treatment 1254 1265	simvastatin
+T101	problem 3904 3910	chills
+T102	treatment 2622 2639	albuterol inhaler
+T103	problem 3993 4001	numbness
+T104	treatment 2680 2720	atrovent inhaler ( ipratropium inhaler )
+T105	test 4664 4679	cardiac enzymes
+T106	problem 5613 5630	copd exacerbation
+T107	test 4559 4563	echo
+T108	problem 4303 4315	oral lesions
+T109	problem 3725 3742	worsening dyspnea
+T110	problem 3704 3711	fatigue
+T111	problem 4774 4785	enzyme leak
+T112	problem 2943 2946	nka
+T113	test 4808 4823	cardiac enzymes
+T114	treatment 2290 2341	toprol xl ( metoprolol succinate extended release )
+T115	treatment 1231 1237	niacin
+T116	problem 3843 3870	slight troponin and mb leak
+T117	problem 3936 3946	chest pain
+T118	problem 4972 4981	pneumonia
+T119	problem 4026 4034	jaw pain
+T120	problem 3192 3201	pneumonia
+T121	treatment 5188 5203	ppi prophylaxis
+T122	problem 4893 4912	evidence of failure
+R1	TrAP Arg1:T4 Arg2:T5
+R2	PIP Arg1:T6 Arg2:T7
+R3	PIP Arg1:T11 Arg2:T12
+R4	PIP Arg1:T21 Arg2:T16
+R5	PIP Arg1:T44 Arg2:T45
+R6	TrNAP Arg1:T47 Arg2:T15
+R7	PIP Arg1:T52 Arg2:T34
+R8	PIP Arg1:T59 Arg2:T60
+R9	TrAP Arg1:T75 Arg2:T76
+R10	PIP Arg1:T109 Arg2:T110
+R11	PIP Arg1:T118 Arg2:T16

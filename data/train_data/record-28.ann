@@ -1,0 +1,176 @@
+T1	treatment 4946 4963	airway protection
+T2	problem 2548 2553	m/g/r
+T3	problem 371 382	hepatitis c
+T4	test 3022 3025	mcv
+T5	test 3011 3014	hct
+T6	problem 4983 5008	l retrocardiac infiltrate
+T7	problem 385 401	bipolar disorder
+T8	treatment 4931 4941	intubation
+T9	problem 2519 2522	jvd
+T10	test 3000 3003	hgb
+T11	problem 2097 2104	anxiety
+T12	problem 235 243	overdose
+T13	problem 5133 5142	agitation
+T14	test 3119 3125	lymphs
+T15	test 2989 2992	rbc
+T16	problem 2643 2648	scars
+T17	problem 152 176	known allergies to drugs
+T18	problem 5143 5159	bipolar disorder
+T19	problem 2564 2598	decreased bs over left middle lung
+T20	test 5052 5056	tele
+T21	test 3065 3071	plt ct
+T22	problem 781 793	unresponsive
+T23	test 3135 3140	monos
+T24	problem 2635 2637	nd
+T25	problem 2691 2696	c/c/e
+T26	problem 2702 2707	edema
+T27	test 3715 3718	hct
+T28	problem 1609 1614	hep c
+T29	problem 2666 2668	nt
+T30	treatment 5569 5575	folate
+T31	test 3737 3740	mch
+T32	treatment 5584 5590	lescol
+T33	test 3412 3419	albumin
+T34	test 3704 3707	hgb
+T35	problem 2873 2890	speech stuttering
+T36	test 3691 3694	rbc
+T37	test 3728 3731	mcv
+T38	problem 1402 1422	aspiration pneumonia
+T39	test 2789 2791	lt
+T40	test 1426 1429	cxr
+T41	test 3031 3034	mch
+T42	treatment 1341 1368	a calcium and glucagon drip
+T43	problem 2719 2728	asterixis
+T44	test 2979 2982	wbc
+T45	test 3975 3978	cxr
+T46	test 3451 3453	mg
+T47	treatment 3981 4001	an endotracheal tube
+T48	test 3352 3354	cl
+T49	test 2973 2978	blood
+T50	test 4296 4313	the earlier study
+T51	test 3363 3367	hco3
+T52	problem 2908 2910	si
+T53	test 4385 4394	the study
+T54	test 3375 3380	angap
+T55	test 3944 3948	phos
+T56	test 3955 3957	mg
+T57	test 3506 3513	alkphos
+T58	test 3188 3193	blood
+T59	test 3521 3528	totbili
+T60	test 3104 3109	neuts
+T61	test 3098 3103	blood
+T62	treatment 4083 4103	the nasogastric tube
+T63	test 3497 3500	ast
+T64	test 3288 3293	blood
+T65	problem 4444 4466	right pleural effusion
+T66	treatment 684 694	gabapentin
+T67	treatment 675 681	geodon
+T68	test 3233 3235	pt
+T69	problem 4470 4488	right pneumothorax
+T70	test 3227 3232	blood
+T71	treatment 283 290	ng tube
+T72	test 3194 3200	plt ct
+T73	treatment 614 622	klonopin
+T74	test 3480 3485	blood
+T75	problem 4205 4239	a patchy area of increased opacity
+T76	treatment 602 609	inderal
+T77	test 3426 3433	calcium
+T78	test 3406 3411	blood
+T79	test 3440 3444	phos
+T80	test 3294 3301	glucose
+T81	treatment 4507 4524	endotracheal tube
+T82	treatment 5256 5275	suicide precautions
+T83	test 892 906	his initial bp
+T84	test 3486 3489	alt
+T85	test 921 928	a pulse
+T86	test 3830 3835	urean
+T87	test 3555 3560	blood
+T88	treatment 965 982	calcium gluconate
+T89	test 3561 3564	asa
+T90	problem 5116 5130	bzd withdrawal
+T91	treatment 697 703	lescol
+T92	treatment 5091 5103	glucagon gtt
+T93	test 3571 3578	ethanol
+T94	treatment 708 718	paroxitine
+T95	test 3585 3592	acetmnp
+T96	test 5072 5074	hr
+T97	problem 4725 4740	early pneumonia
+T98	problem 4635 4667	patchy left retrocardiac opacity
+T99	test 3599 3606	bnzodzp
+T100	treatment 871 889	activated charcoal
+T101	test 3613 3620	barbitr
+T102	test 3627 3634	tricycl
+T103	test 1116 1133	serum tox screens
+T104	test 3881 3885	hco3
+T105	treatment 1303 1320	airway protection
+T106	test 3674 3679	blood
+T107	test 3891 3896	angap
+T108	test 3870 3872	cl
+T109	treatment 1000 1013	a calcium gtt
+T110	test 3841 3846	creat
+T111	test 3680 3683	wbc
+T112	treatment 1041 1049	glucagon
+T113	test 3750 3754	mchc
+T114	test 3853 3855	na
+T115	problem 2914 2916	hi
+T116	test 3764 3767	rdw
+T117	test 3862 3863	k
+T118	treatment 1065 1080	a glucagon drip
+T119	test 3775 3781	plt ct
+T120	treatment 553 558	pills
+T121	test 1102 1111	his urine
+T122	test 3808 3813	blood
+T123	test 3147 3150	eos
+T124	problem 1709 1719	narcissism
+T125	problem 5681 5690	depressed
+T126	test 3157 3161	baso
+T127	problem 1694 1708	panic disorder
+T128	test 3921 3926	blood
+T129	problem 1734 1745	head trauma
+T130	problem 5648 5658	depression
+T131	test 3814 3821	glucose
+T132	test 3254 3261	inr(pt)
+T133	treatment 5536 5541	paxil
+T134	test 3243 3246	ptt
+T135	problem 1615 1626	bipolar d/o
+T136	problem 1655 1663	overdose
+T137	treatment 5497 5507	propanolol
+T138	test 3042 3046	mchc
+T139	test 3927 3934	calcium
+T140	test 4743 4762	followup radiograph
+T141	test 3054 3057	rdw
+T142	treatment 5460 5469	neurontin
+T143	problem 1682 1693	agoraphobia
+T144	treatment 5481 5492	ziprasidone
+T145	treatment 5326 5336	sc heparin
+T146	problem 4709 4719	aspiration
+T147	problem 4821 4824	hcv
+T148	treatment 5551 5559	protonix
+T149	problem 2469 2490	tongue fasciculations
+T150	problem 4867 4875	overdose
+T151	treatment 5518 5526	klonopin
+T152	problem 4688 4706	patchy atelectasis
+T153	problem 2510 2513	lad
+T154	problem 2439 2446	icterus
+T155	treatment 1156 1162	benzos
+T156	problem 4827 4837	bipolar do
+T157	test 3310 3315	urean
+T158	test 3321 3326	creat
+T159	treatment 4879 4886	inderal
+T160	treatment 5339 5352	bowel regimen
+T161	problem 1749 1765	seizure disorder
+T162	treatment 4900 4906	geodon
+T163	problem 2402 2405	nad
+T164	test 3333 3335	na
+T165	test 2293 2299	vitals
+T166	test 3344 3345	k
+T167	treatment 4889 4897	klonopin
+T168	treatment 5355 5369	nicotine patch
+R1	TeRP Arg1:T40 Arg2:T38
+R2	PIP Arg1:T97 Arg2:T98
+R3	PIP Arg1:T135 Arg2:T136
+R4	PIP Arg1:T146 Arg2:T98
+R5	PIP Arg1:T152 Arg2:T98
+R6	TrCP Arg1:T159 Arg2:T150
+R7	TrCP Arg1:T162 Arg2:T150
+R8	TrCP Arg1:T167 Arg2:T150

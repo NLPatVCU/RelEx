@@ -1,0 +1,109 @@
+Admission Date :
+2015-06-05
+Discharge Date :
+2015-06-10
+Date of Birth :
+2015-06-05
+Sex :
+M
+Service :
+Neonatology
+HISTORY :
+The patient is a 1,770 gram male infant born by stat cesarean section for fetal bradycardia at 30-6/7 weeks gestation to a 29-year-old gravida 3 , para 0 now 1 mother .
+The pregnancy was unremarkable until 2015-06-01 when the mother presented to Shriner 's Hospital for Crippled Children for increased blood pressure and proteinuria .
+She was transferred to Charles River Hospital and was treated with magnesium sulfate and betamethasone .
+The morning of admission the mother developed vaginal bleeding and fetal bradycardia was noted .
+Therefore , a stat cesarean section was performed .
+The infant emerged limp and without spontaneous respiratory effort .
+He was given bag mask ventilation with good response .
+Apgar scores were 6 at one minute and 8 at five minutes .
+PRENATAL SCREENS :
+O+ , hepatitis B surface antigen negative ,
+RPR nonreactive , rubella immune .
+ADMISSION PHYSICAL EXAMINATION :
+The birth weight was 1,770 grams .
+The patient was in mild to moderate respiratory distress .
+He was a nondysmorphic male .
+Anterior fontanel was soft , open and flat .
+The ears and eyes were normally placed .
+The palate was intact .
+The oropharynx was benign .
+Neck was supple without masses or defects .
+The lungs were coarse bilaterally with moderate retractions .
+The cardiovascular examination revealed S1 and S2 regular , no murmurs , 2+ femoral pulses .
+He was warm and well perfused .
+The abdomen was benign , flat , nontender , nondistended , no hepatosplenomegaly .
+He had a normal male phallus and bilaterally descended testes .
+The anus was patent and normally placed .
+Hips were stable without clunk .
+The extremities were normal in appearance .
+The skin was without lesions .
+The neurological examination was appropriate for age with normal tone and strength and appropriate reflexes .
+HOSPITAL COURSE :
+1. Cardiovascular :
+The patient remained cardiovascularly stable throughout the admission .
+He was noted to have some apnea and bradycardic spells of prematurity and was therefore started on caffeine .
+With the initiation of caffeine therapy the patient has had no more apnea or bradycardic events .
+2. Respiratory :
+The patient was initially started on nasal prong CPAP at 6 and required additional oxygen to 35% .
+However by 24 hours he transitioned to low-flow nasal cannula and on day of life five transitioned to room air where he currently remains .
+3. Fluids , electrolytes and nutrition :
+The patient was initially maintained on intravenous fluids only and when his respiratory distress resolved he was transitioned to enteral feeds .
+The morning of transfer his IV came out so he has just been advanced to 120 cc per kg per day of PE-20 and his tolerating these PG feedings without difficulty .
+Last set of electrolytes on 06-08 , DOL3 :
+Na 145 , K 4.3 , Cl 110 , tCO2 25 .
+Discharge Wt 1645 gms .
+4. Hematology :
+His admission complete blood count was notable for a white count of 11.8 , 25 polys and no bands .
+Hematocrit was 45 , platelet count 270 .
+He developed physiologic hyperbilirubinemia ( peak bili 8.6/0.3 on 06-08 , DOL3 ) for which he was treated with a single phototherapy .
+His most recent bilirubin was 6.6 on day of life six , the day of discharge , and his phototherapy was discontinued. He will need a rebound bilirubin level in am .
+5. Infectious disease :
+Blood culture was sent but he was never started on antibiotics .
+The blood culture remained sterile .
+He was noted to have an erythematous perianal rash and for this was started on Nystatin powder .
+The parents were updated throughout the admission and a family meeting was held on 2015-06-09 .
+6. Sensory :
+The patient has not had an CMED examination or hearing test .
+CONDITION ON DISCHARGE :
+Good .
+DISPOSITION :
+To Kindred Hospital Special Care Nursery .
+NAME OF PEDIATRICIAN :
+Hale Air Force Base Pediatrics .
+CARE AND RECOMMENDATIONS :
+Feeds at discharge are PE-20 currently at 120 cc per kg per day due to advance 15 cc per kg per day to a total of 150 cc per kg per day .
+DISCHARGE MEDICATIONS :
+Caffeine 12 mg pg q day. He has not had his 06-10 dose .
+STATE NEWBORN SCREENING STATUS :
+He is due to have his state screen sent today .
+IMMUNIZATIONS :
+Not yet received .
+Synagis RSV prophylaxis should be considered from October through April for infants who meet any of the following criteria :
+1. Born at less than 32 weeks .
+2. Born at 32-35 weeks with plans for day care during RSV season with a smoker in the household , or with preschool age siblings .
+3. With chronic lung disease .
+Influenza vaccination should be considered annually in the fall for preterm infants with chronic lung disease once they reach six months of age .
+Before this age , the family and other caregivers should be considered for immunization against influenza to protect the infant .
+DISCHARGE DIAGNOSES :
+1. Prematurity at 30-6/7 weeks .
+2. Rule out sepsis , off antibiotics .
+3. Apnea and bradycardia of prematurity .
+4. Hyperbilirubinemia .
+5. Feeding immaturity .
+Freddy Stephen , M.D.
+55-454
+Dictated By:Nathan D. Delgadillo , M.D.
+MEDQUIST36
+D :
+2015-06-10
+09:35
+T :
+2015-06-10
+09:51
+JOB# :
+53951
+Signed electronically by :
+DR. Freddy King on :
+WED 2015-06-10 11:54 AM
+( End of Report )

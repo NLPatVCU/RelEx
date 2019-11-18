@@ -1,0 +1,111 @@
+T1	test 3147 3152	polys
+T2	test 3112 3136	a white blood cell count
+T3	test 260 273	fetal screens
+T4	problem 1911 1937	bradycardia of prematurity
+T5	problem 492 508	demise of twin a
+T6	test 2622 2630	a sodium
+T7	test 3157 3162	bands
+T8	test 2640 2651	a potassium
+T9	test 327 334	rubella
+T10	test 289 297	antibody
+T11	problem 5032 5050	hyperbilirubinemia
+T12	treatment 3209 3219	ampicillin
+T13	problem 5063 5068	apnea
+T14	test 2671 2681	a chloride
+T15	test 344 369	hepatitis surface antigen
+T16	problem 5073 5099	bradycardia of prematurity
+T17	test 2693 2704	a total co2
+T18	test 2065 2077	heart ranges
+T19	treatment 2727 2750	advance calorie density
+T20	test 381 384	gbs
+T21	test 2094 2108	blood pressure
+T22	problem 868 877	abruption
+T23	test 2173 2185	birth weight
+T24	treatment 4213 4226	immunizations
+T25	test 995 1001	length
+T26	problem 4535 4555	weight abnormalities
+T27	test 3249 3263	blood cultures
+T28	test 2252 2270	head circumference
+T29	test 4167 4187	state newborn screen
+T30	test 886 892	apgars
+T31	test 2220 2226	length
+T32	test 3165 3174	platelets
+T33	test 3423 3447	sensory , hearing screen
+T34	treatment 1857 1873	caffeine citrate
+T35	problem 1901 1906	apnea
+T36	problem 431 444	2 vessel cord
+T37	problem 395 408	ivf pregnancy
+T38	problem 424 428	iugr
+T39	problem 4509 4530	neuromuscular disease
+T40	treatment 849 865	cesarean section
+T41	problem 801 806	pprom
+T42	problem 812 820	bleeding
+T43	problem 825 839	transverse lie
+T44	treatment 1744 1748	cpap
+T45	treatment 4607 4629	influenza immunization
+T46	treatment 3268 3279	antibiotics
+T47	problem 4584 4604	chronic lung disease
+T48	treatment 3224 3234	gentamycin
+T49	problem 621 635	iugr of twin a
+T50	treatment 3886 3902	caffeine citrate
+T51	problem 5007 5013	sepsis
+T52	problem 1395 1404	hip click
+T53	problem 4903 4919	premature infant
+T54	problem 1410 1423	sacral dimple
+T55	test 3362 3377	head ultrasound
+T56	treatment 5019 5029	antibiotic
+T57	treatment 3743 3767	special care 20 calories
+T58	treatment 775 786	clindamycin
+T59	test 3927 3954	car seat position screening
+T60	treatment 4763 4794	the child 's life immunizations
+T61	problem 4803 4812	influenza
+T62	problem 1364 1375	vaginal tag
+T63	test 1027 1045	head circumference
+T64	problem 1691 1725	mild respiratory distress syndrome
+T65	treatment 4090 4103	immunizations
+T66	problem 669 682	preterm labor
+T67	problem 1249 1255	murmur
+T68	problem 4966 4995	respiratory distress syndrome
+T69	treatment 3863 3874	medications
+T70	treatment 697 710	betamethasone
+T71	problem 1308 1326	hepatosplenomegaly
+T72	test 3979 3999	state newborn screen
+T73	test 309 312	rpr
+T74	test 2891 2912	most recent bilirubin
+T75	treatment 1669 1673	cpap
+T76	problem 1119 1132	nondysmorphic
+T77	treatment 4139 4156	any immunizations
+T78	test 1676 1681	x-ray
+T79	test 2954 2964	hematocrit
+T80	test 944 950	weight
+T81	treatment 4241 4264	synagis rsv prophylaxis
+T82	treatment 2842 2854	phototherapy
+T83	treatment 1097 1107	prong cpap
+T84	treatment 2340 2344	d10w
+T85	test 3066 3079	blood culture
+T86	treatment 2510 2525	special care 20
+T87	treatment 1500 1526	peripheral iv in left hand
+T88	treatment 2415 2436	full enteral feedings
+T89	problem 1450 1463	decrease tone
+T90	test 2528 2548	her discharge weight
+T91	test 3104 3107	cbc
+T92	treatment 2347 2363	enteral feedings
+T93	treatment 3010 3032	any blood transfusions
+T94	test 3056 3061	a cbc
+T95	test 2771 2785	gi . bilirubin
+T96	problem 1620 1649	moderate respiratory distress
+R1	TrAP Arg1:T34 Arg2:T35
+R2	TrAP Arg1:T34 Arg2:T4
+R3	PIP Arg1:T36 Arg2:T37
+R4	PIP Arg1:T37 Arg2:T38
+R5	TrAP Arg1:T40 Arg2:T41
+R6	TrAP Arg1:T40 Arg2:T42
+R7	TrAP Arg1:T40 Arg2:T43
+R8	PIP Arg1:T42 Arg2:T41
+R9	PIP Arg1:T43 Arg2:T41
+R10	TrAP Arg1:T56 Arg2:T51
+R11	TrAP Arg1:T60 Arg2:T61
+R12	TeRP Arg1:T78 Arg2:T64
+R13	TrAP Arg1:T81 Arg2:T39
+R14	TrAP Arg1:T81 Arg2:T47
+R15	TrAP Arg1:T81 Arg2:T26

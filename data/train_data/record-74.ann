@@ -1,0 +1,69 @@
+T1	test 1607 1618	vital signs
+T2	problem 1235 1250	carotid disease
+T3	treatment 3844 3849	lasix
+T4	treatment 1364 1370	plavix
+T5	treatment 3872 3881	potassium
+T6	treatment 3370 3386	physical therapy
+T7	test 1841 1849	carotids
+T8	treatment 4010 4019	lopressor
+T9	problem 2087 2105	hepatosplenomegaly
+T10	problem 976 1015	right coronary artery dominant diseased
+T11	problem 200 216	high cholesterol
+T12	treatment 3604 3620	pain medications
+T13	problem 1191 1207	high cholesterol
+T14	treatment 3211 3229	endurance training
+T15	problem 695 706	ekg changes
+T16	treatment 3905 3911	colace
+T17	problem 1464 1487	coronary artery disease
+T18	treatment 478 506	mouth-to-mouth resuscitation
+T19	problem 4000 4004	pain
+T20	problem 1652 1662	atraumatic
+T21	problem 2130 2138	cyanosis
+T22	treatment 1305 1312	aspirin
+T23	problem 1807 1822	lymphadenopathy
+T24	problem 2141 2149	clubbing
+T25	treatment 1333 1342	lopressor
+T26	test 2161 2167	pulses
+T27	treatment 3934 3941	aspirin
+T28	treatment 1213 1229	hemorrhoidectomy
+T29	treatment 1278 1285	lipitor
+T30	treatment 2324 2355	coronary artery bypass grafting
+T31	treatment 1424 1431	surgery
+T32	treatment 3962 3970	percocet
+T33	treatment 641 661	thrombolytic therapy
+T34	problem 580 619	an acute inferior myocardial infarction
+T35	treatment 2483 2522	saphenous vein graft to obtuse marginal
+T36	problem 1596 1604	afebrile
+T37	problem 816 836	mitral regurgitation
+T38	treatment 2444 2480	saphenous vein graft to the diagonal
+T39	problem 1994 2001	murmurs
+T40	problem 1579 1593	acute distress
+T41	test 664 676	his troponin
+T42	problem 2075 2081	masses
+T43	test 1921 1933	auscultation
+T44	problem 334 348	mid chest pain
+T45	problem 2057 2069	nondistended
+T46	problem 2045 2054	nontender
+T47	problem 1881 1901	right carotid bruits
+T48	problem 445 457	unresponsive
+T49	problem 353 360	burning
+T50	test 767 803	a left ventricular ejection fraction
+T51	treatment 2724 2748	postoperative management
+T52	test 722 737	catheterization
+T53	problem 839 852	insufficiency
+T54	problem 856 867	hypokinesis
+T55	problem 1827 1838	thyromegaly
+T56	treatment 2769 2782	beta blockers
+T57	treatment 2525 2570	saphenous vein graft to right coronary artery
+T58	treatment 2651 2664	the procedure
+T59	problem 900 908	narrowed
+T60	problem 427 436	breathing
+T61	treatment 2818 2829	chest tubes
+T62	treatment 101 123	cardiothoracic surgery
+T63	treatment 2801 2813	pacing wires
+T64	problem 2153 2158	edema
+R1	TrAP Arg1:T32 Arg2:T19
+R2	TrAP Arg1:T33 Arg2:T34
+R3	TeRP Arg1:T52 Arg2:T37
+R4	TeRP Arg1:T52 Arg2:T53
+R5	TeRP Arg1:T52 Arg2:T54

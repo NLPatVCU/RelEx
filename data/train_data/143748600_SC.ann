@@ -1,0 +1,43 @@
+T1	problem 1608 1611	htn
+T2	problem 52 71	atypical chest pain
+T3	treatment 609 637	wellbutrin ( bupropion hcl )
+T4	test 1970 1973	ett
+T5	problem 1891 1901	dissection
+T6	problem 1347 1366	anxiety ( anxiety )
+T7	problem 1911 1920	back pain
+T8	treatment 753 775	serzone ( nefazodone )
+T9	problem 1559 1575	high cholesterol
+T10	treatment 1984 1993	metformin
+T11	treatment 563 595	ecasa ( aspirin enteric coated )
+T12	problem 1388 1414	gerd ( esophageal reflux )
+T13	problem 1367 1387	htn ( hypertension )
+T14	test 2014 2030	ct with contrast
+T15	problem 1546 1556	dm type ii
+T16	problem 1538 1542	crfs
+T17	problem 1952 1954	mi
+T18	test 1840 1854	lead placement
+T19	problem 1790 1794	pain
+T20	treatment 870 894	glucophage ( metformin )
+T21	treatment 790 812	zyprexa ( olanzapine )
+T22	problem 1693 1700	anxiety
+T23	treatment 528 534	spacer
+T24	problem 1809 1813	pain
+T25	treatment 940 945	actos
+T26	treatment 678 700	zestril ( lisinopril )
+T27	problem 1742 1784	t wave flattening laterally and inferiorly
+T28	treatment 464 481	albuterol inhaler
+T29	treatment 1093 1104	penicillins
+T30	treatment 652 663	gemfibrozil
+T31	treatment 713 738	zantac ( ranitidine hcl )
+T32	problem 1123 1134	atypical cp
+T33	problem 1618 1650	episodes of atypical cp x 1 week
+T34	problem 1705 1709	gerd
+T35	problem 1715 1728	assoicated sx
+T36	problem 1322 1346	dm ( diabetes mellitus )
+T37	test 1873 1881	chest ct
+T38	problem 1215 1234	atypical chest pain
+R1	PIP Arg1:T15 Arg2:T16
+R2	TeRP Arg1:T18 Arg2:T19
+R3	PIP Arg1:T27 Arg2:T19
+R4	TeCP Arg1:T37 Arg2:T7
+R5	TeCP Arg1:T37 Arg2:T5

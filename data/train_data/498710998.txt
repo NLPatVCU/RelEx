@@ -1,0 +1,76 @@
+498710998
+CMC
+14172445
+04/29/1992 12:00:00 AM
+Discharge Summary
+Signed
+DIS
+Admission Date :
+04/29/1992
+Report Status :
+Signed
+Discharge Date :
+05/28/1992
+DISCHARGE DIAGNOSES :
+1. Carotid stenosis .
+2. Aortic stenosis .
+3. Coronary artery disease .
+PRESENT ILLNESS :
+The patient is a 76-year-old female who was admitted to the medicine service on 04-29-92 with a past history significant for aortic stenosis and chest pain who presented for evaluation for aortic valve replace-ment .
+The patient has a history of exertional angina and chest pain associated with light-headedness for nine years which was noted to increase in frequency over the past year , then upon admission had light-headedness and chest pain with a dull pressure in her neck to her substernal area , with only minimal exertion such as &quot; walking across the room &quot; .
+She states this light-headedness is often associated with shortness of breath and diaphoresis occasionally with nausea .
+She denies any vomiting , states that the episodes usually last about five minutes and are relieved with rest .
+The pain and light-headedness is now severely lifestyle limiting and the patient requested evaluation for possible aortic valve replacement .
+Cardiac risk factors hypercholesterolemia , hypertension , no history of tobacco use , diabetes or family history .
+Past medical history is as stated above , aortic stenosis , found to be critical on echocardiogram on 4-13-92 , done in Otte A , New Jersey and was found to have left ventricular hypertrophy and ejection fraction of 58% , no right heart wall motion abnormali-ties and an aortic valve gradient of greater than 100 .
+She also has a history of uterine fibroids , status post total abdominal hysterectomy .
+She has known bilateral carotid disease , stated to be greater than 70% bilaterally .
+She has a history of glaucoma and a questionable history of claudication in her legs as well as a history of hypertension .
+Medications on admission were only aspirin p.r.n. and Timoptic solution 0.5% to the left eye twice a day .
+PHYSICAL EXAMINATION :
+On physical examination she was afebrile with a blood pressure of 170/100 , heart rate of 70 .
+HEENT examination notable for bilateral arcussenilis but otherwise unremarkable .
+Her neck showed no JVD , there was a slow carotid upstroke bilaterally , there were bilateral carotid bruits versus transmitted murmur .
+Chest was clear to auscultation bilaterally .
+Cardiac examination revealed a regular rate and rhythm with a normal S1 and S2 , 3/6 systolic murmur at the right upper sternal border , no gallop was detected .
+Her abdomen was soft , nontender with good bowel sounds .
+Extremi-ties :
+There is no clubbing , cyanosis or edema and her peripheral pulses were trace palpable .
+LAB / X-RAY DATA :
+Labs on admission :
+Sodium 141 , potassium 5.0 , BUN 18 , creatinine 1.0 , PT 12.3 , PTT 24 , WBC 7.6 , hematocrit 41 , platelets 278,000 .
+EKG revealed a normal sinus rhythm with a rate of 69 , left ventricular hyper-trophy with poor anterior progression of R-waves .
+HOSPITAL COURSE :
+She was admitted and evaluated by the cardiac surgery service after having undergone cardiac catheterization which revealed a 70% stenosis of her left circumflex artery , 50% stenosis of the left anterior descending and 10% stenosis of the right coronary artery .
+Carotid angiography revealed left internal carotid stenosis of 90% , right internal carotid artery &quot; critical stenosis &quot; .
+On 05-01-92 she was taken to the operating room at which time she underwent an aortic valve replacement with a # 19 St. Jude valve , coronary artery bypass graft times one with saphenous vein graft from the posterior descending artery to the obtuse marginal and right carotid endarterectomy .
+This was performed by Dr. Medicine and Dr. Room .
+The patient tolerated the procedure well and was found postoperatively to have some left upper extremity weakness on proximal greater than distal musculature .
+She was extubated on postoperative day number one and otherwise had an unremarkable postoperative course with the exception of her left upper extremity weakness .
+On 05-04-92 she was evaluated by the neurology service , who recommended a CT scan , however no evidence of infarction was detected .
+There was only diffuse small vessel disease noted .
+On 05-05-92 she was noted to convert to atrial fibrillation which resolved spontaneously a few days later .
+However , on 05-07-92 there was a a question of a new event with addition to the left upper extremity weakness , some noted right upper and right lower extremity discoordination .
+She was begun on a heparin drip .
+On 5-9-92 the right-sided symptoms worsened and she also had some elements of aphasia .
+She underwent angiography on 5-9-92 which showed the right internal carotid artery to be patent , however there was highly significant stenosis of the left carotid artery and she was taken to the operating room later that day for a left carotid endarterectomy .
+She was taken postoperatively the ICU where she was extubated on postoperative day number one and by 5-11-92 she was noted to have markedly increased use of her right side , resolving aphasia and she was transferred to the floor with the residual deficit only noted to be some left upper extremity weakness .
+She was worked up aggressively with the physical therapy and occupational services , made good progress and began ambulating with assistance with a walker but with minimal assistance from an aid .
+She was feeding herself and was very enthusiastic and energetic in her participation in her rehabilitation activities .
+She was maintained on heparin therapy initially but this was quickly switched over to Coumadin anticoagulation therapy which she will need to be on long-term for her aortic valve replacement .
+DISPOSITION :
+She is transferred to Rockdempbanri Hospital on 05-28-92 to continue her rehabilitation .
+Discharge medications :
+Lopressor 100 mg p.o. b.i.d. ; Nifedipine 10 mg p.o. t.i.d. ; Timoptic solution 0.5% OS b.i.d. ; Coumadin 1 mg alternating with 1.5 mg q.o.d. at q.h.s. and Haldol 2 mg p.o. q.h.s. p.r.n. in the evening , only for agitation associated with confusion .
+Upon discharge it was the recommendation of the cardiology team that the patient &apos;s prothrombin time be monitored weekly and be kept at a ratio of 3-4 IU .
+Dictated By :
+NIEIE FREIERM , M.D. ZX 681 / 0201 / RISHAN MISHON ROOM , M.D.
+BREUNTIK
+D :
+05/26/92
+T :
+05/27/92
+Batch :
+U886
+Report :
+LH486L9

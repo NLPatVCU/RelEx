@@ -1,0 +1,180 @@
+Admission Date :
+2015-10-26
+Discharge Date :
+2015-10-30
+Date of Birth :
+1998-01-05
+Sex :
+M
+Service :
+SURGERY
+Allergies :
+Sulfa ( Sulfonamides ) / Penicillins
+Attending : Mary T Davis , M.D.
+Chief Complaint :
+s/p Pedestrian struck by auto
+Major Surgical or Invasive Procedure :
+2015-10-27 Open reduction and internal fixation of right tib/fib fractures
+History of Present Illness :
+17 yo male pedestrian who was struck by auto at unknown speed ; +LOC .
+He was medflighted to The Hospital for Orthopedics for ongoing trauma care .
+Upon arrival GCS 15 , alert and oriented x3 .
+Past Medical History :
+Attention deficit disorder ( diagnosed @ 14 yrs of age )
+Social History :
+High school student
+Resides with parents and siblings
+Family History :
+Noncontributory
+Pertinent Results :
+2015-10-26 08:48 PM
+GLUCOSE - 101 LACTATE - 2.9 * NA+ - 142 K+ - 3.6 CL- - 102 TCO2 - 26
+2015-10-26 08:34 PM
+UREA N - 12 CREAT - 1.0
+2015-10-26 08:34 PM
+AMYLASE - 44
+2015-10-26 08:34 PM
+ASA - NEG ETHANOL - NEG ACETMNPHN - NEG bnzodzpn - NEG barbitrt - NEG tricyclic - NEG
+2015-10-26 08:34 PM
+WBC - 16.0 * RBC - 4.89 HGB - 14.5 HCT - 40.4 MCV - 83 MCH - 29.7 MCHC - 35.9 * RDW - 13.4
+2015-10-26 08:34 PM
+PLT COUNT - 247
+2015-10-26 08:34 PM
+PT - 12.7 PTT - 23.8 INR(PT) - 1.1
+CT HEAD W/O CONTRAST
+Reason : STUCK BY AUTO
+UNDERLYING MEDICAL CONDITION :
+56 year old man s/p struck by auto
+REASON FOR THIS EXAMINATION :
+eval for bleed
+CONTRAINDICATIONS for IV CONTRAST : None .
+INDICATION : Struck by car .
+COMPARISONS : None .
+TECHNIQUE : Axial MDCT images of the brain without IV contrast .
+FINDINGS : There is a linear nondepressed right temporal calvarial fracture extending into the mastoid process .
+There is a small subdural hematoma with components of pneumocephalus tracking from the mastoid air cells .
+There is no shift of normally midline structures .
+There is also a left occipital scalp contusion but no associated skull fracture .
+Prominent sutures in this young patient , the right calvarial suture extending into the right temporal bones appears more prominent than its counterpart on the left , however , does not appear to represent an acute fracture .
+No other acute fractures are appreciated .
+There is small amount of mucosal thickening in the sphenoid sinuses .
+No air-fluid levels to suggest occult facial fractures .
+Orbits are unremarkable .
+IMPRESSION : Linear right temporal calvarial fracture extending into the mastoid process with small associated right posterior convexity subdural hematoma and pneumocephalus .
+Discussed with trauma team during the study .
+CT C-SPINE W/O CONTRAST
+Reason : STUCK BY AUTO
+UNDERLYING MEDICAL CONDITION :
+56 year old man s/p struck by auto
+REASON FOR THIS EXAMINATION :
+eval for fx
+CONTRAINDICATIONS for IV CONTRAST : None .
+INDICATION : 18-year-old hit by car .
+Head injury to the occiput .
+COMPARISONS : None .
+TECHNIQUE : Axial MDCT images of the cervical spine with coronal and sagittal reformats without IV contrast .
+FINDINGS : C1 through T1 are well visualized .
+There is normal alignment of the cervical vertebral bodies without acute fracture or traumatic malalignment .
+The posterior elements are intact .
+There is no significant prevertebral soft tissue swelling .
+The C1-C2 relationship is within normal limits .
+The dens is intact .
+The lung apices are clear without pneumothorax .
+The upper ribs are intact .
+There is a linear right temporal calvarial fracture extending into the right temporal bones .
+This appears to stop short of the carotid canal .
+Multiple posterior right - sided mastoid air cells are opacified with blood .
+IMPRESSION :
+1) No acute cervical spine fracture .
+2) Linear right temporal calvarial fracture extending into the mastoid with a small right posterior convexity subdural hematoma and pneumocephalus ; see head CT report .
+CHEST ( PA & LAT )
+Reason : Please r/o acute process .
+UNDERLYING MEDICAL CONDITION :
+17 year old man with post-op fever .
+REASON FOR THIS EXAMINATION :
+Please r/o acute process .
+INDICATION : Postoperative fever .
+COMPARISONS : Comparison is made to 2015-10-27 .
+TECHNIQUE : PA and lateral views of the chest .
+FINDINGS : The heart is of normal size .
+Mediastinal and hilar contours are within normal limits .
+The lung fields are clear .
+There are no pleural effusions or focal consolidations .
+There is no evidence of CHF .
+IMPRESSION : No evidence of significant abnormality .
+TIB / FIB ( AP & LAT ) SOFT TISSUE
+Reason : eval for alignment , post op changes
+UNDERLYING MEDICAL CONDITION :
+56 year old man with open RLE fx now s/p fixation
+REASON FOR THIS EXAMINATION :
+eval for alignment , post op changes
+INDICATION : Fracture . Assess for alignment .
+RIGHT TIBIA / FIBULA , AP AND LATERAL VIEWS : An intramedullary rod is seen fixating a proximal diaphyseal comminuted tibial fracture with six proximal and two distal screws .
+Additionally , a side plate is seen medially fixating the fracture .
+There is a non-displaced comminuted fracture of the proximal fibular diaphysis .
+There is surrounding soft tissue swelling .
+Os trigonum is visualized .
+IMPRESSION : Comminuted proximal tibiofibular fractures status post ORIF of the tibia with an intramedullary rod and side plate .
+No evidence of immediate hardware complication .
+CT HEAD W/O CONTRAST
+Reason : follow up ct
+UNDERLYING MEDICAL CONDITION :
+17 year old man with pneumocephalus s/p CMED CCU v. mvc
+REASON FOR THIS EXAMINATION :
+follow up ct
+CONTRAINDICATIONS for IV CONTRAST : None .
+CLINICAL HISTORY : History of pneumocephalus status post pedestrian versus motor vehicle collision .
+Follow up CT scan .
+COMPARISON : Non-contrast head CT from 2015-10-27 .
+TECHNIQUE : Non-contrast head CT .
+FINDINGS : The previously noted subdural hemorrhage in the right posterior fossa appears less conspicuous .
+The pneumocephalus adjacent to the linear skull fracture appears to have decreased in size .
+There are persistent bifrontal and right parietal hemorrhagic contusions with surrounding edema and possible small left frontal subarachnoid hemorrhage ( adjacent to falx ) which are largely unchanged .
+There is no shift of normally midline structures or hydrocephalus .
+The ventricles , cisterns and sulci are normal .
+The air- fluid level in the right sphenoid sinus and bilateral opacification of the mastoid air cells are unchanged .
+IMPRESSION :
+1. Decreased size of right posterior subdural hemorrhage .
+2. Multifocal hemorrhagic contusions and surrounding edema are largely unchanged .
+Brief Hospital Course :
+He was admitted to the trauma service . Orthopedics and Neurosurgery were consulted because of his injuries .
+His Neurosurgical issues were nonoperative ; he was loaded with Dilantin ; serial head CT scans were performed and were stable .
+He will need to follow up with Dr. Mckinney in 4 weeks for repeat head imaging and continue with Dilantin for one month .
+His right tib / fib fracture was repaired by Orthopedics on 10-27 ; postoperatively there were no complications .
+Weight bearing status was increased to weight bearing as tolerated .
+He was fitted with a hinged Mcdonald brace for his LLE .
+He will need to continue on Lovenox injections for at least 4-6 weeks .
+He was transfused with 3 u packed cells for a hematocrit of 21 , post transfusion HCT was 26.1 ; there was a questionable transfusion reaction at the end of his first unit of packed cells ; he did subsequently receive the remaining 2 units without any further reaction .
+Physical and Occupational therapy were consulted and have recommended home with services .
+Medications on Admission :
+None
+Allergic to PCN and Sulfa
+Discharge Medications :
+1. Phenytoin 50 mg Tablet , Chewable Sig : Two ( 2 ) Tablet , Chewable PO three times a day for 1 months .
+Disp :* 180 Tablet , Chewable (s)* Refills :* 0 *
+2. Oxycodone 5 mg Tablet Sig : Two ( 2 ) Tablet PO Q4H ( every 4 hours ) as needed for pain .
+Disp :* 75 Tablet (s)* Refills :* 0 *
+3. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ).
+4. Magnesium Hydroxide 400 mg / 5 mL Suspension Sig : Thirty ( 30 ) ML PO Q6H ( every 6 hours ) as needed for constipation .
+5. Lovenox 40 mg / 0.4 mL Syringe Sig : 0.4 ML 's Subcutaneous once a day for 30 days .
+Disp :* 30 * Refills :* 0 *
+Discharge Disposition :
+Home with Service
+Discharge Diagnosis :
+s/p Pedestrian Struck by Auto
+Subdural hematoma
+Skull fracture
+Right comminuted tibia / fibula fracture
+Discharge Condition :
+Good
+Discharge Instructions :
+Return to the emergency room if you develop fevers , chills , severe headaches , visual disturbances , nause , vomiting and / or any other symptoms that are concerning to you .
+You will need to conrtinue with your Lovenox injections for at least 4-6 weeks as instructed by Orthopedics
+Followup Instructions :
+Follow up with Dr. Garza , Orthopaedics in 10-14 days , call 953 6923 for an appointment .
+Follow up with Dr. Melendez , Neurosurgery in 4 weeks ; call 745 8256 ext - 6468 for an appointment .
+Inform the office that you will need a repeat head CT scan for this appointment .
+Lori Dorothy MD 79-290
+Completed by : Christopher Sandy NP 80-BYL 2015-11-03 @ 1526
+Signed electronically by : DR. Muriel Zech on : WED 2015-11-04 11:30 AM
+( End of Report )

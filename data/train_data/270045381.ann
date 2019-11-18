@@ -1,0 +1,359 @@
+T1	treatment 12014 12019	lasix
+T2	problem 51 81	left proximal humerus fracture
+T3	treatment 13587 13593	colace
+T4	problem 563 587	congestive heart failure
+T5	treatment 13875 13883	prilosec
+T6	test 12421 12433	a hematocrit
+T7	problem 6263 6322	a severely comminuted fracture of the proximal left humerus
+T8	problem 6328 6348	proximal distraction
+T9	problem 6568 6629	the severely comminuted fracture of the proximal left humerus
+T10	problem 8860 8889	thickening of the aortic wall
+T11	problem 8906 8929	atherosclerotic changes
+T12	treatment 3776 3791	cholecystectomy
+T13	test 5905 5921	whiteblood count
+T14	treatment 13480 13486	prozac
+T15	problem 2566 2590	slightly short of breath
+T16	test 5678 5681	bun
+T17	problem 11022 11033	atelectasis
+T18	problem 5559 5602	the patient &apos;s broken humeral fracture
+T19	test 12222 12241	his bun/ creatinine
+T20	test 4763 4767	sa02
+T21	problem 5262 5279	abdomen distended
+T22	problem 5282 5309	mild tenderness on the left
+T23	treatment 9815 9828	prior surgery
+T24	treatment 3297 3338	three-vessel coronary artery bypass graft
+T25	treatment 10890 10898	prilosec
+T26	problem 3010 3020	hemoptysis
+T27	treatment 3845 3864	right femur surgery
+T28	test 5799 5807	globulin
+T29	problem 677 703	blindness in the right eye
+T30	problem 651 671	diabetic retinopathy
+T31	problem 471 503	chronic , stable angina pectoris
+T32	problem 11550 11571	moderate occult blood
+T33	treatment 3995 4002	humulin
+T34	test 5667 5670	c02
+T35	problem 6021 6048	elevated left hemidiaphragm
+T36	problem 9620 9640	decreased hematocrit
+T37	problem 1194 1244	a comminuted fracture of the proximal left humerus
+T38	problem 2194 2202	glaucoma
+T39	treatment 800 830	left shoulder hemiarthroplasty
+T40	test 5704 5711	glucose
+T41	treatment 11168 11190	chest physical therapy
+T42	problem 1534 1553	shortness of breath
+T43	problem 2689 2699	chest pain
+T44	treatment 2157 2164	surgery
+T45	problem 2169 2189	diabetic retinopathy
+T46	test 11867 11886	a repeat urinalysis
+T47	problem 13656 13669	affected area
+T48	treatment 12742 12751	potassium
+T49	treatment 13388 13404	atropine sulfate
+T50	treatment 4211 4219	ventolin
+T51	treatment 13343 13346	czi
+T52	test 4734 4739	pulse
+T53	problem 6885 6906	the fracture fragment
+T54	test 13196 13199	fbs
+T55	test 5785 5792	albumin
+T56	treatment 9241 9254	his procedure
+T57	problem 13868 13872	pain
+T58	problem 7850 7868	right facial droop
+T59	problem 506 531	fournier &apos;s gangrene
+T60	problem 9833 9857	old blood in the stomach
+T61	problem 7956 7966	chest pain
+T62	treatment 8303 8327	chest wall nitroglycerin
+T63	problem 3693 3713	diabetic retinopathy
+T64	problem 3731 3749	blind in right eye
+T65	treatment 852 867	upper endoscopy
+T66	problem 262 292	left proximal humerus fracture
+T67	problem 640 648	glaucoma
+T68	problem 4871 4888	blind in that eye
+T69	problem 9382 9399	mb fractionations
+T70	treatment 13614 13621	senokot
+T71	problem 6417 6427	a fracture
+T72	test 9350 9353	cpk
+T73	treatment 13706 13714	atrovent
+T74	treatment 4083 4089	prozac
+T75	test 4745 4757	respirations
+T76	test 5623 5629	sodium
+T77	treatment 2070 2078	coumadin
+T78	problem 6731 6753	the fracture fragments
+T79	problem 4258 4278	known drug allergies
+T80	test 13231 13234	fbs
+T81	problem 3825 3842	left rib fracture
+T82	test 7728 7747	a bone density scan
+T83	problem 5335 5355	nohepatosplenomegaly
+T84	problem 3578 3595	diabetes mellitus
+T85	test 10926 10967	the patient &apos;s admitting chest x-ray
+T86	problem 10975 11005	an elevated left hemidiaphragm
+T87	problem 11041 11063	splinting on that side
+T88	problem 372 400	silent myocardial infarction
+T89	treatment 1844 1885	three-vessel coronary artery bypass graft
+T90	problem 8716 8740	mild / moderate ischemia
+T91	treatment 2019 2027	coumadin
+T92	treatment 12046 12057	nitro paste
+T93	treatment 14009 14015	ativan
+T94	test 5947 5961	platelet count
+T95	problem 2765 2786	head trauma with fall
+T96	test 8395 8417	an adenosine sestamibi
+T97	test 11627 11641	red blood cell
+T98	problem 1931 1941	arrhythmia
+T99	treatment 11066 11086	incentive spirometry
+T100	test 6516 6528	this ct scan
+T101	treatment 13728 13752	normal saline nebulizers
+T102	problem 8101 8109	bigeminy
+T103	problem 4789 4807	right-sided ptosis
+T104	treatment 9650 9678	his humeral fixation surgery
+T105	problem 4920 4928	cataract
+T106	treatment 4182 4188	ocufen
+T107	problem 3252 3280	silent myocardial infarction
+T108	treatment 11455 11481	czi sliding-scale coverage
+T109	treatment 11351 11358	his nph
+T110	treatment 13424 13430	ocufen
+T111	test 13526 13530	sa02
+T112	treatment 13227 13230	czi
+T113	treatment 403 431	coronary artery bypass graft
+T114	problem 2705 2724	shortness of breath
+T115	problem 539 560	necrotizing fasciitis
+T116	problem 968 985	diabetes mellitus
+T117	problem 1731 1739	ischemia
+T118	test 10403 10417	a gi follow-up
+T119	problem 3216 3239	coronary artery disease
+T120	test 5718 5725	calcium
+T121	problem 12817 12838	slightly hyponatremic
+T122	test 9403 9411	the cpks
+T123	test 5652 5660	chloride
+T124	test 11508 11530	the patient urinalysis
+T125	problem 11670 11682	few bacteria
+T126	problem 11689 11722	moderate bladder epithelial cells
+T127	problem 10036 10051	a gastric ulcer
+T128	treatment 11725 11731	floxin
+T129	test 7006 7009	ekg
+T130	treatment 4154 4162	atropine
+T131	problem 8606 8685	a small / moderate-sized , mild-intensity , reversible posterior lateral defect
+T132	test 5929 5939	hematocrit
+T133	problem 6632 6660	two major fracture fragments
+T134	treatment 12093 12105	beta blocker
+T135	problem 318 347	adult-onset diabetes mellitus
+T136	problem 9880 9906	the blood in the esophagus
+T137	problem 9935 9953	mallory-weiss tear
+T138	problem 2533 2548	short of breath
+T139	treatment 13972 13979	tylenol
+T140	problem 5225 5241	diffusely wheezy
+T141	problem 1676 1699	a myocardial infarction
+T142	problem 6156 6179	acute pulmonary disease
+T143	problem 7871 7883	right ptosis
+T144	problem 6085 6138	postoperative changes of the sternum and media stinum
+T145	problem 3916 3924	glaucoma
+T146	problem 9754 9784	clotted blood in the esophagus
+T147	test 5886 5889	ldh
+T148	treatment 13505 13511	oxygen
+T149	test 13289 13292	fbs
+T150	treatment 717 733	gastric stapling
+T151	treatment 12754 12763	magnesium
+T152	problem 3023 3034	hematemesis
+T153	test 6450 6459	a ct scan
+T154	problem 6351 6392	a lucency and irregularity of the glenoid
+T155	test 5998 6009	chest x-ray
+T156	treatment 8187 8212	reduction of the fracture
+T157	treatment 13677 13686	lopressor
+T158	problem 5098 5112	slurred speech
+T159	problem 2888 2917	stable three-pillow orthopnea
+T160	treatment 13256 13259	czi
+T161	test 5456 5462	guaiac
+T162	test 1777 1800	cardiac catheterization
+T163	treatment 13108 13111	czi
+T164	test 5749 5758	magnesium
+T165	problem 2992 3004	clear sputum
+T166	problem 2368 2374	stress
+T167	test 4956 4977	extraocular movements
+T168	test 11650 11667	white blood cells
+T169	problem 11981 11998	volume overloaded
+T170	problem 12926 12967	elevated glucose fingerstick blood sugars
+T171	problem 1365 1377	the fracture
+T172	test 5850 5870	alkaline phosphatase
+T173	problem 9049 9061	the bigeminy
+T174	test 5687 5697	creatinine
+T175	problem 2301 2329	chest tightness ( pressure )
+T176	problem 1470 1478	bigeminy
+T177	problem 5040 5047	lesions
+T178	test 5830 5844	totalbilirubin
+T179	problem 3054 3075	black or tarry stools
+T180	test 9681 9700	upper endoscopy x 2
+T181	treatment 10824 10834	cimetidine
+T182	treatment 3895 3911	righteye surgery
+T183	problem 1031 1055	congestive heart failure
+T184	test 11768 11785	his urine culture
+T185	test 12700 12712	a hematocrit
+T186	treatment 13903 13908	vexol
+T187	problem 8073 8081	his fall
+T188	problem 8599 8603	scar
+T189	treatment 13761 13770	albuterol
+T190	treatment 9155 9170	the medications
+T191	problem 4568 4581	renal failure
+T192	treatment 4649 4656	a sling
+T193	problem 4661 4686	his left humeral fracture
+T194	test 10380 10398	a repeat endoscopy
+T195	problem 8041 8064	a myocardial infarction
+T196	test 5312 5324	bowel sounds
+T197	test 8118 8135	electrocardiogram
+T198	test 5876 5880	sgot
+T199	test 5636 5645	potassium
+T200	test 1714 1717	ekg
+T201	problem 10119 10134	a gastric ulcer
+T202	problem 2822 2828	chills
+T203	problem 6822 6860	innumerable smaller fracture fragments
+T204	problem 2971 2986	a chronic cough
+T205	treatment 13038 13049	nph insulin
+T206	problem 7337 7396	a severely comminuted fracture of the proximal left humerus
+T207	treatment 7554 7579	passive external rotation
+T208	problem 5372 5394	1+ edema of the ankles
+T209	problem 1520 1530	chest pain
+T210	treatment 11931 11960	the patient &apos;s procedure
+T211	treatment 8256 8268	beta blocker
+T212	test 9956 9974	a second endoscopy
+T213	problem 10110 10116	melena
+T214	test 4713 4724	temperature
+T215	problem 8834 8857	left atrial enlargement
+T216	problem 8492 8500	ischemia
+T217	problem 9269 9282	elevated cpks
+T218	treatment 756 775	right femur surgery
+T219	treatment 13382 13385	czi
+T220	problem 5050 5073	mild right facial droop
+T221	treatment 4120 4125	k-dur
+T222	treatment 12077 12088	his surgery
+T223	problem 3954 3965	retinopathy
+T224	treatment 8278 8289	his regimen
+T225	problem 2812 2818	fevers
+T226	treatment 7417 7435	a hemiarthroplasty
+T227	treatment 13073 13084	nph insulin
+T228	treatment 8347 8354	surgery
+T229	test 13347 13350	fbs
+T230	treatment 4102 4107	lasix
+T231	test 5397 5403	pulses
+T232	problem 2922 2961	occasional paroxysmal nocturnal dyspnea
+T233	problem 7142 7176	old inferior myocardial infarction
+T234	treatment 3936 3949	laser surgery
+T235	problem 3509 3533	congestive heart failure
+T236	problem 3037 3051	abdominal pain
+T237	problem 2230 2240	chest pain
+T238	treatment 11243 11259	diabetes control
+T239	treatment 988 1028	three-vessel coronary artery bypassgraft
+T240	problem 3088 3105	frequency/urgency
+T241	treatment 13637 13645	nystatin
+T242	test 1742 1765	exercise tolerance test
+T243	treatment 13928 13933	lasix
+T244	treatment 7462 7467	ancef
+T245	problem 7972 7991	shortness of breath
+T246	treatment 8244 8251	aspirin
+T247	test 12561 12573	a hematocrit
+T248	test 5968 5971	mcv
+T249	test 11581 11588	albumin
+T250	problem 2738 2759	loss of consciousness
+T251	problem 12127 12147	slightly hypotensive
+T252	problem 2396 2406	chest pain
+T253	problem 3383 3415	chronic , stable angina pectoris
+T254	problem 1076 1094	a humeral fracture
+T255	problem 7994 8008	1+ ankle edema
+T256	problem 8536 8584	a moderate-sized , dense , fixed inferior defect
+T257	test 7038 7052	beats / minute
+T258	test 5732 5742	phosphorus
+T259	test 9194 9208	his hematocrit
+T260	treatment 13951 13954	kcl
+T261	treatment 10839 10847	carafate
+T262	treatment 4060 4067	vasotec
+T263	test 5814 5823	uric acid
+T264	test 11594 11611	white blood cells
+T265	test 12491 12503	a hematocrit
+T266	test 12630 12642	a hematocrit
+T267	problem 2057 2067	arrhythmia
+T268	treatment 7712 7725	the operation
+T269	treatment 13835 13843	percocet
+T270	treatment 11101 11134	albuterol and atrovent nebulizers
+T271	problem 3144 3162	cardiac arrhythmia
+T272	treatment 13314 13317	czi
+T273	problem 7680 7693	brittle bones
+T274	test 8743 8760	an echocardiogram
+T275	test 5765 5778	total protein
+T276	test 8999 9014	cardiac monitor
+T277	problem 9088 9109	myocardial infarction
+T278	treatment 12766 12776	phosphorus
+T279	treatment 13285 13288	czi
+T280	test 11574 11576	ph
+T281	test 8505 8528	cardiac perfusion scans
+T282	problem 7055 7088	intraventricular conduction delay
+T283	test 13318 13321	fbs
+T284	test 10171 10180	pathology
+T285	problem 2850 2869	shortness of breath
+T286	problem 5429 5444	calf tenderness
+T287	problem 3625 3650	fournier &apos;s gangrene
+T288	test 12869 12876	sodiums
+T289	test 12178 12202	systolic blood pressures
+T290	test 5896 5899	cpk
+T291	test 1125 1164	preoperative and orthopedic evaluations
+T292	test 1623 1645	preoperative clearance
+T293	problem 6972 6990	scapular fractures
+T294	test 4689 4703	blood pressure
+T295	treatment 3806 3822	gastric stapling
+T296	problem 7235 7255	ventricular bigeminy
+T297	test 6218 6233	a shoulder film
+T298	problem 3658 3679	necrotizing fasciitis
+T299	problem 3078 3085	dysuria
+T300	problem 736 753	left rib fracture
+T301	problem 9611 9617	melena
+T302	problem 623 637	a rib fracture
+T303	treatment 7650 7677	physical therapy assistance
+T304	test 9368 9371	cpk
+T305	test 13260 13263	fbs
+T306	treatment 1427 1445	conscious sedation
+T307	treatment 13782 13806	normal saline nebulizers
+T308	treatment 13453 13460	vasotec
+T309	problem 3682 3690	glaucoma
+T310	problem 4547 4563	multiple myeloma
+T311	problem 2834 2844	chest pain
+T312	problem 5154 5160	murmur
+T313	test 8804 8824	an ejection fraction
+T314	problem 4844 4852	cataract
+T315	treatment 8161 8179	conscious sedation
+R1	PIP Arg1:T7 Arg2:T8
+R2	PIP Arg1:T10 Arg2:T11
+R3	PIP Arg1:T21 Arg2:T22
+R4	PIP Arg1:T30 Arg2:T29
+R5	TrAP Arg1:T44 Arg2:T45
+R6	PIP Arg1:T45 Arg2:T38
+R7	PIP Arg1:T63 Arg2:T64
+R8	TeRP Arg1:T85 Arg2:T86
+R9	TeRP Arg1:T85 Arg2:T17
+R10	TeRP Arg1:T85 Arg2:T87
+R11	PIP Arg1:T86 Arg2:T17
+R12	PIP Arg1:T86 Arg2:T87
+R13	TeRP Arg1:T100 Arg2:T9
+R14	TeRP Arg1:T122 Arg2:T69
+R15	TeRP Arg1:T124 Arg2:T32
+R16	TeRP Arg1:T124 Arg2:T125
+R17	TeRP Arg1:T124 Arg2:T126
+R18	PIP Arg1:T131 Arg2:T90
+R19	PIP Arg1:T136 Arg2:T137
+R20	TeCP Arg1:T153 Arg2:T154
+R21	TeCP Arg1:T153 Arg2:T71
+R22	PIP Arg1:T154 Arg2:T71
+R23	PIP Arg1:T175 Arg2:T166
+R24	TrAP Arg1:T182 Arg2:T145
+R25	TrAP Arg1:T192 Arg2:T193
+R26	TeRP Arg1:T197 Arg2:T102
+R27	TeRP Arg1:T200 Arg2:T117
+R28	PIP Arg1:T204 Arg2:T165
+R29	TeCP Arg1:T212 Arg2:T127
+R30	TeCP Arg1:T212 Arg2:T213
+R31	PIP Arg1:T215 Arg2:T10
+R32	PIP Arg1:T215 Arg2:T11
+R33	TrAP Arg1:T234 Arg2:T223
+R34	TrAP Arg1:T241 Arg2:T47
+R35	PIP Arg1:T256 Arg2:T188
+R36	TrAP Arg1:T269 Arg2:T57
+R37	TeRP Arg1:T274 Arg2:T215
+R38	TeCP Arg1:T276 Arg2:T173
+R39	TeCP Arg1:T276 Arg2:T277
+R40	TeRP Arg1:T281 Arg2:T256
+R41	TeCP Arg1:T284 Arg2:T201
+R42	TeRP Arg1:T288 Arg2:T121
+R43	TeRP Arg1:T297 Arg2:T7
+R44	TrCP Arg1:T306 Arg2:T176

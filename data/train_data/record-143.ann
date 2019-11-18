@@ -1,0 +1,441 @@
+T1	problem 3309 3311	nt
+T2	problem 7802 7821	associated symptoms
+T3	problem 6410 6419	influenza
+T4	problem 3294 3299	obese
+T5	problem 2720 2744	a left humeral fracuture
+T6	treatment 7577 7594	airway protection
+T7	problem 7602 7625	change in mental status
+T8	problem 1577 1597	initial hypertensive
+T9	test 6436 6443	culture
+T10	problem 3314 3316	nd
+T11	test 6391 6405	nasal washings
+T12	problem 2221 2229	bedbound
+T13	problem 1542 1553	tachycardia
+T14	problem 1523 1530	a fever
+T15	test 6151 6159	cultures
+T16	test 7412 7427	c. diff b toxin
+T17	problem 3357 3373	feet mildly cool
+T18	problem 2631 2643	hypertension
+T19	treatment 2678 2709	s/p l shoulder hemiarthroplasty
+T20	treatment 7628 7637	extubated
+T21	test 8386 8390	film
+T22	problem 8337 8382	a new humerus fracture distal to the hardware
+T23	treatment 6170 6181	the hd cath
+T24	problem 2648 2673	anemia of chronic disease
+T25	test 3376 3400	2+ dp pulses bilaterally
+T26	treatment 101 109	medicine
+T27	treatment 6628 6638	vancomycin
+T28	problem 6669 6691	empiric line infection
+T29	treatment 3068 3072	peep
+T30	treatment 8563 8573	wound care
+T31	test 6575 6591	all culture data
+T32	problem 3577 3594	warmth of left le
+T33	test 5211 5217	c diff
+T34	treatment 3081 3088	sedated
+T35	problem 795 814	c diff in her stool
+T36	treatment 3093 3102	intubated
+T37	problem 5207 5210	vre
+T38	problem 3199 3215	anicteric sclera
+T39	problem 12635 12649	s/p pea arrest
+T40	treatment 6496 6504	steroids
+T41	test 1489 1501	the pt 's vs
+T42	treatment 2396 2398	hd
+T43	problem 2371 2375	esrd
+T44	treatment 6545 6553	cefepime
+T45	problem 7943 7946	wma
+T46	treatment 7989 7992	asa
+T47	treatment 6534 6540	flagyl
+T48	problem 3251 3256	m,r,g
+T49	treatment 9142 9174	tunneled line change over a wire
+T50	problem 2618 2627	back pain
+T51	treatment 6778 6788	treatement
+T52	treatment 6794 6803	linezolid
+T53	problem 12600 12625	anemia of chornic disease
+T54	problem 5718 5726	headache
+T55	problem 7143 7169	vre infection in the urine
+T56	treatment 6881 6895	the vancomycin
+T57	treatment 7108 7117	linezolid
+T58	problem 2785 2797	a pea arrest
+T59	problem 2811 2813	pe
+T60	treatment 9432 9436	zinc
+T61	problem 7029 7034	spike
+T62	test 6694 6707	urine culture
+T63	problem 6731 6734	vre
+T64	treatment 9134 9137	ffp
+T65	treatment 9177 9185	coumadin
+T66	problem 2820 2822	pe
+T67	problem 2845 2855	pea arrest
+T68	problem 13104 13114	chest pain
+T69	problem 6308 6329	slightly erythematous
+T70	problem 7077 7088	hypotensive
+T71	treatment 8734 8755	insulin sliding scale
+T72	problem 2513 2544	status post left femur fracture
+T73	problem 8761 8765	esrd
+T74	problem 2548 2560	hyponatremia
+T75	problem 8846 8862	slightly limited
+T76	problem 8866 8877	hypotension
+T77	treatment 8769 8771	hd
+T78	treatment 7242 7253	fluconazole
+T79	problem 7258 7276	yeast in the urine
+T80	problem 2564 2584	hypercholesterolemia
+T81	problem 8628 8637	type 2 dm
+T82	test 6916 6940	the catheter tip culture
+T83	treatment 6987 7013	broad spectrum antibiotics
+T84	problem 766 790	citrobacter in her urine
+T85	treatment 8675 8690	an insulin drip
+T86	problem 2588 2601	unsteady gait
+T87	problem 6279 6288	infection
+T88	problem 7052 7065	a temperature
+T89	problem 7706 7716	chest pain
+T90	problem 2605 2614	cataracts
+T91	problem 6205 6225	patient 's le ulcers
+T92	problem 8697 8703	septic
+T93	test 4687 4693	appear
+T94	treatment 7463 7489	the tunneled catheter line
+T95	treatment 12346 12366	the linezolid course
+T96	test 4739 4747	pm urine
+T97	problem 2337 2357	diabetic nephropathy
+T98	problem 13117 13136	shortness of breath
+T99	problem 7363 7379	c. diff. colitis
+T100	problem 2309 2333	type 2 diabetes mellitus
+T101	treatment 7343 7349	flagyl
+T102	problem 1392 1406	abdominal pain
+T103	treatment 12294 12307	the picc line
+T104	treatment 7298 7309	fluconazole
+T105	treatment 2482 2484	hd
+T106	test 4748 4753	blood
+T107	test 4774 4781	protein
+T108	problem 2446 2457	her illness
+T109	test 1868 1874	her bp
+T110	treatment 2416 2418	hd
+T111	problem 12506 12512	sepsis
+T112	problem 1383 1385	cp
+T113	problem 7666 7677	ecg changes
+T114	treatment 2030 2038	cefepime
+T115	test 4930 4935	yeast
+T116	treatment 2017 2023	flagyl
+T117	problem 12564 12579	type 2 diabetes
+T118	treatment 2002 2014	levofloxacin
+T119	test 4943 4946	epi
+T120	problem 12523 12545	chronic kidney disease
+T121	treatment 12551 12563	hemodialysis
+T122	test 4973 4984	ck ( cpk )-
+T123	test 5011 5013	ck
+T124	problem 2249 2280	her multiple le femur fractures
+T125	test 7518 7525	the tip
+T126	test 4672 4677	color
+T127	test 4663 4671	pm urine
+T128	problem 12862 12888	some bacteria in the urine
+T129	treatment 7507 7513	a wire
+T130	test 5023 5030	ctropnt
+T131	treatment 1709 1718	intubated
+T132	problem 1687 1695	obtunded
+T133	treatment 12036 12038	ns
+T134	treatment 8030 8032	bb
+T135	test 5048 5054	sputum
+T136	test 7912 7916	echo
+T137	problem 1660 1670	tachypneic
+T138	test 5016 5018	mb
+T139	test 7951 7953	ef
+T140	treatment 11921 11926	lumen
+T141	test 5075 5077	cx
+T142	treatment 12071 12078	heparin
+T143	treatment 1940 1959	the sepsis protocol
+T144	problem 1000 1006	fevers
+T145	problem 985 995	a headache
+T146	test 7866 7881	cardiac enzymes
+T147	treatment 1989 1999	vancomycin
+T148	treatment 12091 12098	heparin
+T149	treatment 1054 1061	tylenol
+T150	test 7824 7827	ecg
+T151	problem 7835 7863	new diffuse twi in all leads
+T152	test 1761 1773	the pt 's bp
+T153	test 5063 5070	grm stn
+T154	treatment 1817 1825	propofol
+T155	problem 13139 13147	diahrrea
+T156	treatment 8139 8145	statin
+T157	treatment 1833 1848	this medication
+T158	problem 1449 1472	a left frontal headache
+T159	test 4788 4795	glucose
+T160	problem 8169 8186	shoulder fracture
+T161	test 4801 4807	ketone
+T162	problem 1377 1380	sob
+T163	problem 12756 12762	fevers
+T164	treatment 12106 12111	lumen
+T165	treatment 8128 8131	asa
+T166	treatment 12154 12173	dolasetron mesylate
+T167	treatment 8134 8136	bb
+T168	treatment 5373 5375	ng
+T169	treatment 12268 12277	linezolid
+T170	test 5256 5262	bld cx
+T171	test 5433 5457	herpes simplex virus pcr
+T172	treatment 12251 12260	linezolid
+T173	test 8060 8064	sbps
+T174	treatment 8079 8085	statin
+T175	treatment 12199 12209	medication
+T176	treatment 6066 6075	picc line
+T177	test 4212 4221	phosphate
+T178	problem 8200 8223	s/p a left hip fracture
+T179	problem 702 717	the hypotension
+T180	test 4230 4239	magnesium
+T181	treatment 666 669	hd.
+T182	problem 650 662	overdiuresis
+T183	treatment 10942 10955	papain - urea
+T184	problem 6135 6148	contamination
+T185	test 1334 1352	further evaluation
+T186	problem 8256 8280	a left shoulder fracture
+T187	treatment 6102 6105	tip
+T188	test 5131 5133	cx
+T189	treatment 2183 2195	further care
+T190	test 6016 6018	ua
+T191	problem 6054 6063	infection
+T192	test 4268 4276	cortisol
+T193	test 6011 6013	lp
+T194	test 4304 4307	wbc
+T195	treatment 11235 11254	metoprolol tartrate
+T196	treatment 8286 8302	hemiarthroplasty
+T197	test 4518 4526	anisocyt
+T198	treatment 10773 10785	zinc sulfate
+T199	problem 8435 8441	trauma
+T200	problem 680 698	a septic component
+T201	treatment 11132 11147	calcium acetate
+T202	test 6023 6035	abdominal ct
+T203	test 4503 4512	hypochrom
+T204	problem 1171 1193	working hard to breath
+T205	treatment 1723 1740	airway protection
+T206	treatment 8542 8547	sling
+T207	test 6005 6008	cxr
+T208	treatment 8522 8537	wtd woulnd care
+T209	test 5929 5941	sanchez stim
+T210	problem 2121 2142	continued hypotension
+T211	treatment 10703 10713	folic acid
+T212	treatment 10849 10862	acetaminophen
+T213	treatment 1246 1254	levoflox
+T214	problem 1216 1223	febrile
+T215	test 4352 4355	mcv
+T216	treatment 2108 2116	levophed
+T217	test 4364 4367	mch
+T218	test 4375 4379	mchc
+T219	treatment 5892 5912	stress dose steroids
+T220	problem 8799 8805	her dm
+T221	treatment 10543 10550	tylenol
+T222	problem 1098 1105	fatigue
+T223	problem 8781 8785	esrd
+T224	test 4389 4392	rdw
+T225	treatment 5875 5883	cefipime
+T226	treatment 10570 10581	ondansetron
+T227	treatment 10622 10635	ascorbic acid
+T228	treatment 8816 8818	hd
+T229	treatment 5984 5992	steroids
+T230	test 4196 4203	calcium
+T231	treatment 273 290	airway protection
+T232	treatment 5849 5859	vancomycin
+T233	treatment 11974 11991	heparin flush cvl
+T234	treatment 258 268	intubation
+T235	treatment 8930 8942	her dialysis
+T236	treatment 11886 11893	heparin
+T237	test 4830 4839	urobilngn
+T238	treatment 5862 5868	flagyl
+T239	test 4314 4317	rbc
+T240	treatment 11755 11764	linezolid
+T241	treatment 291 321	tunneled line change over wire
+T242	test 4814 4823	bilirubin
+T243	treatment 9003 9015	heparin drip
+T244	problem 8986 8988	pe
+T245	problem 5659 5665	sepsis
+T246	treatment 11784 11802	heparin flush picc
+T247	test 4339 4342	hct
+T248	treatment 9027 9035	coumadin
+T249	treatment 5683 5698	sepsis protocol
+T250	treatment 143 158	lisinopril-hctz
+T251	test 4327 4330	hgb
+T252	treatment 11638 11646	warfarin
+T253	treatment 11588 11617	regular insulin sliding scale
+T254	treatment 1259 1269	vancomycin
+T255	problem 213 218	fever
+T256	problem 5786 5791	fever
+T257	treatment 11346 11357	fluconazole
+T258	treatment 9047 9054	heparin
+T259	test 9082 9085	inr
+T260	problem 401 405	esrd
+T261	test 4904 4907	wbc
+T262	treatment 409 411	hd
+T263	treatment 9096 9104	coumadin
+T264	problem 453 463	pea arrest
+T265	problem 5585 5595	pea arrest
+T266	test 4914 4922	bacteria
+T267	test 4883 4891	pm urine
+T268	problem 5627 5633	sepsis
+T269	problem 611 622	hypotension
+T270	test 9268 9276	inr goal
+T271	problem 495 501	sepsis
+T272	test 4892 4895	rbc
+T273	problem 13151 13157	fevers
+T274	problem 9289 9292	pvd
+T275	test 5949 5957	cortisol
+T276	treatment 1416 1426	intubation
+T277	problem 414 423	type 2 dm
+T278	treatment 11565 11573	glargine
+T279	problem 5546 5555	type 2 dm
+T280	test 4846 4848	ph
+T281	problem 430 439	recent pe
+T282	test 9386 9393	monitor
+T283	problem 9406 9415	infection
+T284	treatment 11439 11460	insulin regular human
+T285	problem 5562 5571	recent pe
+T286	treatment 7563 7572	intubated
+T287	test 4855 4859	leuk
+T288	treatment 11042 11061	ipratropium bromide
+T289	problem 9623 9629	a clot
+T290	treatment 5541 5543	hd
+T291	problem 5533 5537	esrd
+T292	test 3765 3768	crp
+T293	problem 9632 9654	an abscess in the area
+T294	test 3731 3738	lactate
+T295	treatment 9892 9898	a wire
+T296	problem 9544 9558	more edematous
+T297	problem 9594 9602	fracture
+T298	treatment 9912 9921	picc line
+T299	problem 5513 5516	pmh
+T300	treatment 9496 9504	anasarca
+T301	treatment 3885 3889	peep
+T302	treatment 5352 5364	catheter tip
+T303	treatment 10339 10352	ascorbic acid
+T304	treatment 5399 5419	tunnled catheter tip
+T305	problem 9694 9698	clot
+T306	test 3869 3878	tidal vol
+T307	test 4111 4120	potassium
+T308	treatment 9710 9719	elevation
+T309	test 9675 9685	ultrasound
+T310	test 3857 3862	rates
+T311	test 5378 5387	c. diff b
+T312	treatment 12957 12978	the antibiotic course
+T313	treatment 133 140	aspirin
+T314	problem 5169 5172	vre
+T315	treatment 2085 2087	ns
+T316	problem 9516 9521	decub
+T317	treatment 11906 11913	heparin
+T318	test 5145 5153	urine cx
+T319	test 3935 3944	total co2
+T320	treatment 122 130	losartan
+T321	test 11726 11729	inr
+T322	test 1612 1633	her oxygen saturation
+T323	test 3923 3925	ph
+T324	problem 12733 12751	low blood pressure
+T325	test 5117 5128	csf grm stn
+T326	treatment 9421 9427	vit c.
+T327	test 5087 5099	infl a and b
+T328	test 3913 3917	pco2
+T329	problem 9331 9371	necrosis of the heels and posterior calf
+T330	problem 9295 9327	dry gangrene of toes bilaterally
+T331	problem 12630 12632	pe
+T332	test 3798 3806	sed rate
+T333	problem 12580 12599	hypercholestrolemia
+T334	test 4449 4454	monos
+T335	problem 12817 12829	any bacteria
+T336	test 4756 4767	lge nitrite
+T337	treatment 3990 3999	intubated
+T338	test 12844 12853	the blood
+T339	treatment 10483 10500	vitamin b complex
+T340	treatment 3978 3987	intubated
+T341	problem 12777 12789	an infection
+T342	problem 13191 13214	the shortness of breath
+T343	test 4461 4464	eos
+T344	test 3950 3957	base xs
+T345	treatment 10457 10468	neutra phos
+T346	test 4435 4441	lymphs
+T347	treatment 10423 10427	riss
+T348	test 4070 4076	urea n
+T349	test 3841 3849	mix temp
+T350	test 3894 3896	o2
+T351	test 4054 4061	glucose
+T352	problem 3605 3612	sedated
+T353	treatment 10516 10524	coumadin
+T354	test 4020 4027	lactate
+T355	test 3902 3905	po2
+T356	test 4471 4476	basos
+T357	treatment 10392 10407	humulin insulin
+T358	treatment 13019 13034	all medications
+T359	problem 3559 3572	mild erythema
+T360	test 4547 4555	macrocyt
+T361	problem 13272 13278	fevers
+T362	test 4098 4104	sodium
+T363	test 4561 4569	microcyt
+T364	treatment 10431 10443	pantoprazole
+T365	test 4532 4541	poikilocy
+T366	test 4084 4089	creat
+T367	test 4161 4170	anion gap
+T368	treatment 10367 10377	folic acid
+T369	problem 3539 3547	infected
+T370	test 4144 4153	total co2
+T371	test 4422 4427	neuts
+T372	problem 3435 3462	skin breakdown between toes
+T373	treatment 9724 9745	tight dressing to lue
+T374	problem 3465 3499	pressure ulcers under bilateral le
+T375	treatment 10000 10020	the linezolid course
+T376	test 4595 4604	plt count
+T377	problem 3403 3432	2+ pitting edema bilateral le
+T378	treatment 9836 9859	right dialysis catheter
+T379	test 4127 4135	chloride
+T380	test 4631 4639	cortisol
+T381	treatment 9761 9768	left ij
+R1	TrAP Arg1:T6 Arg2:T7
+R2	TeRP Arg1:T11 Arg2:T3
+R3	TrAP Arg1:T19 Arg2:T5
+R4	TeRP Arg1:T21 Arg2:T22
+R5	TrAP Arg1:T27 Arg2:T28
+R6	TeRP Arg1:T41 Arg2:T8
+R7	TeRP Arg1:T41 Arg2:T14
+R8	TeRP Arg1:T41 Arg2:T13
+R9	TrAP Arg1:T42 Arg2:T43
+R10	TrAP Arg1:T57 Arg2:T55
+R11	PIP Arg1:T58 Arg2:T59
+R12	TeRP Arg1:T62 Arg2:T63
+R13	PIP Arg1:T66 Arg2:T67
+R14	PIP Arg1:T75 Arg2:T76
+R15	TrAP Arg1:T77 Arg2:T73
+R16	TrAP Arg1:T78 Arg2:T79
+R17	TrAP Arg1:T85 Arg2:T81
+R18	PIP Arg1:T89 Arg2:T2
+R19	PIP Arg1:T91 Arg2:T87
+R20	PIP Arg1:T97 Arg2:T43
+R21	TrAP Arg1:T101 Arg2:T99
+R22	TrAP Arg1:T104 Arg2:T79
+R23	TrNAP Arg1:T110 Arg2:T108
+R24	TrAP Arg1:T121 Arg2:T120
+R25	TrAP Arg1:T131 Arg2:T132
+R26	TeRP Arg1:T136 Arg2:T45
+R27	TrAP Arg1:T149 Arg2:T145
+R28	TrAP Arg1:T149 Arg2:T144
+R29	TeRP Arg1:T150 Arg2:T151
+R30	TrCP Arg1:T181 Arg2:T182
+R31	TeRP Arg1:T190 Arg2:T191
+R32	TeRP Arg1:T193 Arg2:T191
+R33	TrAP Arg1:T196 Arg2:T186
+R34	PIP Arg1:T200 Arg2:T179
+R35	TeRP Arg1:T202 Arg2:T191
+R36	TrAP Arg1:T205 Arg2:T132
+R37	TeRP Arg1:T207 Arg2:T191
+R38	TrAP Arg1:T213 Arg2:T214
+R39	TrAP Arg1:T216 Arg2:T210
+R40	PIP Arg1:T223 Arg2:T220
+R41	TrAP Arg1:T228 Arg2:T223
+R42	TrAP Arg1:T243 Arg2:T244
+R43	TrAP Arg1:T249 Arg2:T245
+R44	TrAP Arg1:T254 Arg2:T214
+R45	TrAP Arg1:T262 Arg2:T260
+R46	PIP Arg1:T269 Arg2:T182
+R47	PIP Arg1:T281 Arg2:T264
+R48	TeCP Arg1:T282 Arg2:T283
+R49	PIP Arg1:T285 Arg2:T265
+R50	TrAP Arg1:T290 Arg2:T291
+R51	PIP Arg1:T296 Arg2:T293
+R52	PIP Arg1:T296 Arg2:T289
+R53	PIP Arg1:T296 Arg2:T297
+R54	TeRP Arg1:T309 Arg2:T305
+R55	TeRP Arg1:T318 Arg2:T314
+R56	PIP Arg1:T329 Arg2:T330
+R57	PIP Arg1:T331 Arg2:T39
+R58	TeRP Arg1:T338 Arg2:T335
+R59	PIP Arg1:T341 Arg2:T324
+R60	PIP Arg1:T341 Arg2:T163

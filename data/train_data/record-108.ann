@@ -1,0 +1,150 @@
+T1	problem 3646 3652	chills
+T2	problem 1064 1086	mitochondrial myopathy
+T3	treatment 466 509	two transurethral resection of the prostate
+T4	problem 434 453	chronic prostatitis
+T5	problem 1008 1036	supraventricular tachycardia
+T6	treatment 346 350	turp
+T7	problem 3624 3630	fevers
+T8	problem 3585 3610	new and continuing nausea
+T9	treatment 2259 2268	procedure
+T10	problem 3613 3621	vomiting
+T11	problem 685 713	supraventricular tachycardia
+T12	treatment 2466 2474	pyridium
+T13	problem 1245 1266	interstitial cystitis
+T14	test 658 682	a recent catheterization
+T15	problem 629 652	coronary artery disease
+T16	test 2087 2096	plt count
+T17	test 2327 2345	cardiac monitoring
+T18	problem 567 588	interstitial cystitis
+T19	treatment 150 163	tetracyclines
+T20	test 2002 2005	hgb
+T21	test 2024 2027	mcv
+T22	treatment 4313 4347	an over the counter stool softener
+T23	problem 4427 4439	constipation
+T24	treatment 121 133	sulfonamides
+T25	treatment 4247 4263	pain medications
+T26	treatment 2425 2433	catheter
+T27	problem 4286 4298	constipation
+T28	test 2044 2048	mchc
+T29	problem 3736 3743	swollen
+T30	test 2033 2036	mch
+T31	treatment 202 216	ace inhibitors
+T32	test 2013 2016	hct
+T33	problem 3658 3677	shortness of breath
+T34	treatment 181 187	iodine
+T35	treatment 166 178	azithromycin
+T36	problem 3730 3733	red
+T37	treatment 219 232	ciprofloxacin
+T38	problem 2936 2956	indigestion/gas pain
+T39	treatment 2831 2842	simethicone
+T40	problem 288 307	chronic prostatitis
+T41	treatment 2761 2770	ezetimibe
+T42	treatment 136 147	penicillins
+T43	problem 1724 1727	twi
+T44	treatment 2680 2700	atorvastatin calcium
+T45	treatment 2604 2619	hydroxyzine hcl
+T46	problem 1587 1594	tympany
+T47	problem 1606 1620	hyperactive bs
+T48	test 2193 2210	cardiac clearance
+T49	problem 3395 3414	chronic prostatitis
+T50	test 1120 1138	tilt table testing
+T51	problem 1103 1114	orthostasis
+T52	problem 1600 1603	hsm
+T53	treatment 3249 3268	phenazopyridine hcl
+T54	problem 1630 1635	c/c/e
+T55	treatment 3160 3179	hyoscyamine sulfate
+T56	treatment 1042 1056	a beta blocker
+T57	treatment 3090 3098	atenolol
+T58	treatment 978 1002	stents to lad and 3rd om
+T59	problem 948 971	coronary artery disease
+T60	problem 3073 3084	indigestion
+T61	problem 1272 1284	pericarditis
+T62	treatment 2962 2990	aluminum-magnesium hydroxide
+T63	test 1822 1828	sodium
+T64	problem 3746 3750	warm
+T65	test 1835 1844	potassium
+T66	problem 1538 1543	m/r/g
+T67	problem 1570 1581	+distension
+T68	treatment 3949 3956	staples
+T69	test 1809 1814	creat
+T70	treatment 3876 3892	the steri strips
+T71	problem 1453 1455	mi
+T72	test 1783 1790	glucose
+T73	treatment 3814 3826	your surgery
+T74	test 1796 1802	urea n
+T75	treatment 4598 4619	your home medications
+T76	test 1981 1984	wbc
+T77	problem 1477 1479	mi
+T78	test 1991 1994	rbc
+T79	problem 1508 1511	nad
+T80	treatment 4266 4275	narcotics
+T81	test 1946 1955	magnesium
+T82	problem 3711 3721	your wound
+T83	problem 3765 3768	pus
+T84	test 2123 2125	pt
+T85	test 2133 2136	ptt
+T86	problem 3531 3539	symptoms
+T87	test 1916 1923	calcium
+T88	test 1930 1939	phosphate
+T89	problem 782 791	dribbling
+T90	problem 770 778	symptoms
+T91	problem 794 813	stress incontinence
+T92	problem 816 825	hematuria
+T93	problem 839 846	dysuria
+T94	test 2144 2154	inr ( pt )
+T95	test 1653 1656	ecg
+T96	test 1659 1662	nsr
+T97	test 1882 1891	anion gap
+T98	test 2057 2060	rdw
+T99	test 1713 1718	avr ,
+T100	test 1867 1876	total co2
+T101	test 1719 1721	v1
+T102	treatment 4366 4383	a gentle laxative
+T103	treatment 4356 4362	colace
+T104	treatment 4530 4544	your dressings
+T105	problem 4568 4579	your wounds
+T106	problem 720 756	a progressive mitochondrial myopathy
+T107	treatment 4392 4408	milk of magnesia
+T108	problem 1308 1328	hypercholesterolemia
+T109	problem 1290 1302	hypertension
+T110	problem 4035 4049	clear drainage
+T111	problem 1335 1357	gastrointestinal bleed
+T112	problem 4127 4139	the drainage
+T113	treatment 3961 3969	stitches
+T114	treatment 1173 1208	transurethral resection of prostate
+T115	problem 1696 1710	q waves in iii
+T116	treatment 4085 4101	a clean dressing
+T117	problem 4055 4066	your wounds
+T118	treatment 3786 3800	your dressings
+T119	test 1852 1860	chloride
+T120	problem 1245 1266	interstitial cystitis
+R1	TrAP Arg1:T3 Arg2:T4
+R2	TeCP Arg1:T14 Arg2:T15
+R3	TrAP Arg1:T22 Arg2:T23
+R4	TrAP Arg1:T39 Arg2:T38
+R5	TeCP Arg1:T50 Arg2:T51
+R6	TrAP Arg1:T56 Arg2:T5
+R7	TrAP Arg1:T58 Arg2:T59
+R8	TrAP Arg1:T62 Arg2:T60
+R9	PIP Arg1:T67 Arg2:T46
+R10	TrCP Arg1:T80 Arg2:T27
+R11	PIP Arg1:T82 Arg2:T64
+R12	PIP Arg1:T82 Arg2:T29
+R13	PIP Arg1:T82 Arg2:T36
+R14	PIP Arg1:T82 Arg2:T83
+R15	PIP Arg1:T86 Arg2:T10
+R16	PIP Arg1:T86 Arg2:T7
+R17	PIP Arg1:T86 Arg2:T33
+R18	PIP Arg1:T86 Arg2:T1
+R19	PIP Arg1:T86 Arg2:T8
+R20	PIP Arg1:T90 Arg2:T89
+R21	PIP Arg1:T90 Arg2:T91
+R22	PIP Arg1:T90 Arg2:T92
+R23	PIP Arg1:T90 Arg2:T93
+R24	TrAP Arg1:T102 Arg2:T23
+R25	TrAP Arg1:T103 Arg2:T23
+R26	TrAP Arg1:T104 Arg2:T105
+R27	TrAP Arg1:T107 Arg2:T23
+R28	TrAP Arg1:T116 Arg2:T117
+R29	TrAP Arg1:T116 Arg2:T110
+R30	PIP Arg1:T117 Arg2:T110

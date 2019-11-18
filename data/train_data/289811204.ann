@@ -1,0 +1,122 @@
+T1	treatment 888 911	conservative management
+T2	problem 2248 2270	leg length discrepancy
+T3	problem 752 776	the patient &apos;s pain
+T4	problem 3207 3239	the patient &apos;s hypertension
+T5	problem 2698 2721	trace white blood cells
+T6	problem 1374 1394	known drug allergies
+T7	treatment 5103 5119	physical therapy
+T8	problem 1547 1561	acute distress
+T9	treatment 2348 2356	the cane
+T10	test 2603 2617	platelet count
+T11	problem 1065 1094	left ankle and knee fractures
+T12	test 3910 3924	her hematocrit
+T13	problem 1137 1144	e. coli
+T14	problem 1104 1134	recent urinary tract infection
+T15	treatment 4944 4955	tylenol # 3
+T16	treatment 4540 4567	right total hip replacement
+T17	problem 4501 4525	right hip osteoarthritis
+T18	treatment 1296 1315	hydrochlorothiazide
+T19	test 2628 2644	prothrombin time
+T20	treatment 3770 3792	routine rehabilitation
+T21	treatment 940 976	elective right total hip replacement
+T22	test 2085 2094	abduction
+T23	test 2504 2515	bicarbonate
+T24	treatment 4767 4786	hydrochlorothiazide
+T25	problem 350 364	right hip pain
+T26	treatment 3994 4007	a transfusion
+T27	treatment 4829 4836	ecotrin
+T28	problem 1153 1173	recent herpes zoster
+T29	treatment 1333 1340	kayciel
+T30	problem 847 871	right hip osteoarthritis
+T31	problem 2904 2926	acute ischemic changes
+T32	test 2376 2421	the patient &apos;s neurovascular examination
+T33	test 2203 2232	external rotation and flexion
+T34	treatment 4269 4297	the patient &apos;s coumadin
+T35	treatment 1218 1246	total abdominal hysterectomy
+T36	problem 2983 3017	acute cardiac or pulmonary disease
+T37	problem 408 416	her pain
+T38	test 2521 2524	bun
+T39	test 1849 1858	extension
+T40	problem 4596 4621	postoperative hypokalemia
+T41	test 2756 2777	the electrocardiogram
+T42	problem 2826 2859	intraventricular conduction delay
+T43	problem 2864 2887	poor r wave progression
+T44	test 2474 2483	potassium
+T45	treatment 3889 3907	her foley catheter
+T46	problem 1002 1014	hypertension
+T47	test 4179 4210	a duplex ultrasound examination
+T48	problem 4244 4266	deep venous thrombosis
+T49	test 2549 2556	glucose
+T50	problem 1026 1046	peptic ulcer disease
+T51	treatment 1269 1293	medications on admission
+T52	test 2929 2944	the chest x-ray
+T53	problem 2952 2975	borderline cardiomegaly
+T54	test 2059 2068	extension
+T55	treatment 573 579	a cane
+T56	test 1564 1586	the head and neck exam
+T57	treatment 1249 1266	cataract excision
+T58	test 2453 2463	the sodium
+T59	treatment 583 589	walker
+T60	treatment 4113 4143	oral and intravenous potassium
+T61	problem 4031 4058	postoperatively hypokalemia
+T62	problem 1695 1701	murmur
+T63	treatment 3610 3631	a hybrid s-rom system
+T64	problem 3286 3325	the patient &apos;s low potassium level
+T65	problem 201 227	right hip , osteoarthritis
+T66	treatment 3258 3277	hydrochlorothiazide
+T67	test 2529 2539	creatinine
+T68	treatment 4853 4868	ferrous sulfate
+T69	problem 4635 4658	postoperative confusion
+T70	test 2029 2036	flexion
+T71	treatment 1200 1215	cholecystectomy
+T72	treatment 5214 5227	gait training
+T73	test 2146 2175	internal rotation and flexion
+T74	test 1638 1650	auscultation
+T75	problem 544 553	rest pain
+T76	treatment 4912 4925	multivitamins
+T77	test 2490 2498	chloride
+T78	test 1973 2002	external rotation and flexion
+T79	test 2111 2120	adduction
+T80	test 1927 1956	internal rotation and flexion
+T81	test 2652 2679	partial thromboplastin time
+T82	treatment 5292 5298	walker
+T83	problem 5425 5436	hypokalemic
+T84	treatment 4339 4347	bufferin
+T85	test 2563 2573	hematocrit
+T86	treatment 3393 3402	potassium
+T87	treatment 3799 3822	a total hip replacement
+T88	test 1875 1884	abduction
+T89	test 2687 2697	urinalysis
+T90	problem 2724 2753	slight occult red blood cells
+T91	problem 704 749	difficulty with shoes and socks and foot care
+T92	test 5342 5362	her potassium levels
+T93	treatment 815 820	advil
+T94	treatment 5134 5194	a routine post total hip replacement rehabilitation protocol
+T95	treatment 4889 4895	folate
+T96	treatment 3572 3601	a right total hip replacement
+T97	test 823 834	radiographs
+T98	problem 4581 4593	hypertension
+T99	problem 62 88	right hip , osteoarthritis
+T100	treatment 5302 5310	crutches
+T101	treatment 802 810	darvocet
+T102	test 2579 2596	white blood count
+T103	treatment 4804 4811	kayciel
+T104	treatment 3825 3843	her hemovac drains
+T105	test 1826 1833	flexion
+T106	test 2808 2814	a rate
+T107	test 1901 1910	adduction
+R1	PIP Arg1:T13 Arg2:T14
+R2	TrAP Arg1:T16 Arg2:T17
+R3	TeRP Arg1:T41 Arg2:T42
+R4	TeRP Arg1:T41 Arg2:T43
+R5	TeRP Arg1:T47 Arg2:T48
+R6	TeRP Arg1:T52 Arg2:T53
+R7	TeRP Arg1:T52 Arg2:T36
+R8	TrIP Arg1:T60 Arg2:T61
+R9	TrIP Arg1:T66 Arg2:T4
+R10	TrAP Arg1:T86 Arg2:T64
+R11	TeRP Arg1:T89 Arg2:T5
+R12	TeRP Arg1:T89 Arg2:T90
+R13	TrWP Arg1:T93 Arg2:T3
+R14	TeRP Arg1:T97 Arg2:T30
+R15	TrWP Arg1:T101 Arg2:T3

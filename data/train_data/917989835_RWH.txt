@@ -1,0 +1,49 @@
+917989835 RWH
+5427551
+405831
+9660879
+01/09/2002 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+STERPMOONE , NY
+MRN :
+5427551
+Age :
+37y
+REGISTRATION DATE :
+01/09/2002 01:27 PM
+Provider :
+NONOK AYREKEMPE
+PRELIMINARY REPORT
+PCP notified by MD :
+Left message with answering service or PCP office
+Benefits Assigned :
+Y
+Discharge Date / Time :
+01/09/2002 17:02
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+EVAL
+Standardized Discharge Instructions :
+Schedule outpatient psychiatry appointment Necrestneysagiles Medical Center .
+Contact BRIDC BRESCA DENONE HEALTH CARE ( 558-927-7217 ) for appointment w/ therapist .
+Needs to speak w/ PCP in order to switch provider Diagnosis :
+PTSD
+Discharge Medications :
+.5 Risperdal
+Disposition , Follow up and Instructions to Patient :
+Continue w/ Risperdal per new psychiatrist
+B and W and work w/ therapist re: historical issues .
+If symptoms continue to be overwhelming return to V or call 1-903-263-5797
+PCP Name :
+SHUFFNEG , SOA W
+Provider Number :
+80157
+This report was created by AYREKEMPE , NONOK 01/09/2002 05:09 PM

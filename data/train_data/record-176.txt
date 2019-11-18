@@ -1,0 +1,49 @@
+Admission Date :
+2016-08-08
+Discharge Date :
+2016-08-15
+Date of Birth :
+1978-08-02
+Sex :
+F
+Service:
+PROCEDURE :
+Cadaveric pancreas transplantation .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 37 year old lady with type 1 diabetes mellitus , who is four months postcadaveric kidney transplantation and now has good graft function .
+She presents for cadaveric pancreas transplantation .
+Her diabetes mellitus has been complicated by retinopathy and nephropathy as well as peripheral neuropathy .
+She takes 14 units of NPH insulin twice a day supplementing with a sliding scale .
+PHYSICAL EXAMINATION :
+On examination , she is in no apparent distress and is alert and oriented .
+Her chest and cardiovascular examinations are unremarkable .
+She is afebrile with stable vital signs .
+Her abdomen is soft and nontender with a well healed left lower quadrant incision from her kidney transplantation .
+She has good femoral pulses bilaterally .
+HOSPITAL COURSE :
+She underwent cadaveric pancreas transplantation without complication .
+She received induction therapy with thymoglobulin intraoperative and postoperatively for five days .
+She was kept on a similar immunosuppressive regimen as with her kidney transplant .
+She had excellent pancreas graft function immediately .
+Her renal function also remained stable in the perioperative period .
+She was quickly placed on a diet and advanced to regular diet .
+She was discharged home in stable condition on postoperative day six .
+CONDITION ON DISCHARGE :
+Stable .
+DISCHARGE INSTRUCTIONS :
+She will begin weekly follow-up in the Transplant Center .
+She is to not lift anything greater than ten pounds for six weeks .
+She is to continue monitoring her blood sugar twice a day .
+She has undergone full teaching in regards to immunosuppressant medications .
+In addition , she will take Valganciclovir for three months posttransplant .
+DISCHARGE DIAGNOSES :
+1. Status post cadaveric pancreas transplant .
+2. Type 1 diabetes mellitus .
+3. End stage renal disease , status post kidney transplantation .
+Dictated By : Jon O Shappy , M.D.
+MEDQUIST36
+D : 2016-11-10 18:28
+T : 2016-11-12 11:51
+JOB # : 63429
+Signed electronically by : DR. Jacob Butler on : WED 2016-11-16 7:45 AM
+( End of Report )

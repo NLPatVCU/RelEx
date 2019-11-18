@@ -1,0 +1,48 @@
+T1	treatment 654 664	ct surgery
+T2	treatment 1605 1626	removal of rca stents
+T3	treatment 690 696	bypass
+T4	treatment 2494 2502	percocet
+T5	problem 2539 2543	pain
+T6	treatment 1573 1602	right coronary endarterectomy
+T7	problem 766 786	coffee ground emesis
+T8	problem 791 823	a bleed from femoral access site
+T9	treatment 2460 2466	colace
+T10	treatment 833 843	ct surgery
+T11	problem 449 457	symptoms
+T12	treatment 1774 1789	pressor support
+T13	treatment 636 643	a stent
+T14	treatment 557 585	a stent procedure to the rca
+T15	treatment 1861 1875	neo-synephrine
+T16	treatment 2629 2636	aspirin
+T17	problem 368 378	chest pain
+T18	problem 440 446	nausea
+T19	treatment 898 906	protonix
+T20	problem 930 950	peptic ulcer disease
+T21	treatment 1793 1807	neo-synephrine
+T22	test 2142 2158	his electrolytes
+T23	problem 1022 1033	fatty liver
+T24	treatment 2575 2581	plavix
+T25	treatment 1939 1953	his chest tube
+T26	treatment 1097 1104	lipitor
+T27	treatment 2061 2079	his foley catheter
+T28	treatment 2004 2024	the patient 's wires
+T29	problem 307 321	hyperlipidemia
+T30	problem 1129 1149	known drug allergies
+T31	treatment 701 721	excision of the wire
+T32	treatment 2666 2671	lasix
+T33	treatment 2301 2310	lopressor
+T34	problem 1292 1315	coronary artery disease
+T35	treatment 2709 2712	kcl
+T36	treatment 2266 2283	his prescriptions
+T37	problem 979 990	hepatitis b
+T38	treatment 2337 2344	lipitor
+T39	problem 1456 1486	an acute myocardial infarction
+T40	treatment 671 684	a thoracotomy
+T41	treatment 1631 1664	retrieval of the aortic guidewire
+T42	problem 996 1016	hypercholesterolemia
+T43	treatment 2423 2431	protonix
+T44	treatment 2372 2379	niferex
+T45	treatment 1562 1570	his cabg
+R1	TrAP Arg1:T4 Arg2:T5
+R2	PIP Arg1:T17 Arg2:T18
+R3	TrAP Arg1:T19 Arg2:T20

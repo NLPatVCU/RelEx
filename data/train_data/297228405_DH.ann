@@ -1,0 +1,15 @@
+T1	problem 1086 1099	this bleeding
+T2	problem 517 538	thickened endometrium
+T3	treatment 579 587	percocet
+T4	problem 604 608	pain
+T5	test 480 497	pelvic ultrasound
+T6	problem 879 897	any worsening pain
+T7	problem 428 458	dysfunctional uterine bleeding
+T8	test 539 549	hematocrit
+T9	problem 403 415	vag bleeding
+T10	problem 686 707	your uterine bleeding
+T11	problem 900 908	vomiting
+T12	problem 977 998	any fainting episodes
+T13	problem 912 918	fevers
+R1	TrAP Arg1:T3 Arg2:T4
+R2	TeRP Arg1:T5 Arg2:T2

@@ -1,0 +1,51 @@
+402389409 WGH
+2852246
+946048
+3205820
+10/18/2005 12:00:00 AM
+ED Discharge Summary
+Unsigned
+DIS
+Report Status :
+Unsigned
+ED DISCHARGE NOTIFICATION / SUMMARY
+SLENTPEASEBUMPS , LISSSOND
+MRN :
+2852246
+Age :
+52y
+REGISTRATION DATE :
+10/18/2005 02:43 PM
+Provider :
+APT SHUFF
+PRELIMINARY REPORT
+Benefits Assigned :
+N
+Discharge Note Date / Time :
+10/18/2005 15:50
+Discharge Status :
+Discharged
+Condition on Discharge :
+Stable
+Patient States Complaint :
+S / P MVA
+Standardized Discharge Instructions :
+The patient was given printed instructions for motor vehicle accident - trauma ( English ) .
+The patient was given printed instructions for sprains , fractures and bruises ( English ) .
+Diagnosis :
+s / p motor vehicle accident , muscle contusions
+Treatment Rendered :
+xray - no evidence of fracture
+Discharge Medications :
+motrin 600 mg every 8 hours for pain - please take with food in your stomach
+Follow up Service :
+Please call your primary care doctor next week and arrange for follow up next week .
+Disposition , Follow up and Instructions to Patient :
+Please use ice to sore areas for the next few days .
+If you develop trouble breathing , worsening pain , vomiting or any other concerns please return to the ED for further evaluation .
+Do no strenuous activity or heavy lifting for the next few days .
+PCP Name :
+CLOPKOORSFONGAYLES , NORBMADE
+Provider Number :
+26318
+This report was created by SHUFF , RONRIN 10/18/2005 03:53 PM

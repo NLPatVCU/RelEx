@@ -1,0 +1,358 @@
+Admission Date :
+2017-09-03
+Discharge Date :
+2017-10-10
+Date of Birth :
+1946-12-27
+Sex :
+M
+Service :
+MEDICINE
+Allergies :
+Patient recorded as having No Known Allergies to Drugs
+Attending : Donald R Virgil , M.D.
+Chief Complaint :
+Shortness of Breath
+Major Surgical or Invasive Procedure :
+Endotracheal Intubation
+Central Venous Catheter and Swan Ganz catheter placement
+Arterial Line Placement
+Right sided thoracentesis
+History of Present Illness :
+70 y/o male with h/o CAD s/p LAD PTCA 33 yrs ago , COPD , T2DM , and AICD pocket infection who presented to the Juan on 2017-09-03 with worsening SOB x 5 days and feeling " cloudy ."
+The patient was currently at Hubbard Regional Hospital and began to develop worsening SOB for the past 5 days .
+This AM while talking with his daughter on the phone , he was noted to desaturate into the high 80s and he was brought to the The Hospital for Orthopedics Juan for further evaluation .
+The patient states that he has felt " cloudy " of late which seems to relate to his worsening SOB .
+He is not ambulatory and is very deconditioned secondary to several complications within the past two months related to an AICD pocket infection .
+He denies any CP , N/V/D , abdominal pain , or HA .
+He states that he only uses one pillow to sleep but admits to sleeping at about 30 degrees at rehab .
+In the Juan , his VS were 97.8 150/80 88 12 89-94% 3L NC .
+He was given Percocet for back pain , Lasix 80 mg IV , and Combivent neb .
+For unclear reasons , he was placed on a NRB in the Juan .
+Upon arrival to the CCU , he was hemodynamically stable .
+He was quickly weaned to 3L O2 via NC , O2 sats 100% .
+Past Medical History :
+- AICD Pocket infection c/b MSSA bacteremia , pericardial effusion s/p mediastinal exploration , evacuation of pericardial effusion & hematoma ( 2017-07-24 )
+- Ischemic colitis and ischemic liver 2017-06-22 ( post air embolism from post mediastinal exploration )
+- CAD s/p LAD PTCA 33 years ago
+- T2DM c/b neuropathy and nephropathy
+- COPD
+- Hypothyroidism
+- CVA
+- s/p Bovine AVR 1999
+- Hyperlipidemia
+- GERD
+- Chronic LBP
+- Lumbar sympathectomy
+Social History :
+The patient is a retired truck driver .
+He is currently married , has 10 children .
+No smoking for last 5 years .
+Prior to that smoked 2 packs a day .
+No EtOH or IVDU .
+Family History :
+Sister with diabetes .
+No other known family hx .
+Physical Exam :
+Vitals :
+97.6 95/48 71 98% 4L NC
+General :
+Oriented to person and time .
+Slight confustion with place but oriented with some re-direction .
+HEENT :
+NC/AT .
+MM dry .
+OP clear .
+PERRLA .
+EOMI .
+Neck :
+JVD difficult to access 02-23 increased neck girth .
+CV :
+S1 , S2 with Grade II/VI SEM . +S3 .
+Pulm :
+Crackles halfway up lung fields B/L .
+Abd :
+Soft , NT/ND with normoactive BS .
+Ext :
+2+ pitting edema to knees B/L .
+Pertinent Results :
+Admission Labs :
+2017-09-03 PT - 13.8 * PTT - 33.1 INR ( PT )- 1.2 *
+2017-09-03 PLT COUNT - 124 *
+2017-09-03 HYPOCHROM - 2+ ANISOCYT - 1+ MACROCYT - 2+
+2017-09-03 NEUTS - 79.5 * LYMPHS - 9.9 * MONOS - 4.9 EOS - 5.4 * BASOS - 0.2
+2017-09-03 WBC - 9.1 RBC - 2.77 * HGB - 8.8 * HCT - 27.2 * MCV - 99 * MCH - 31.9 MCHC - 32.4 RDW - 18.0 *
+2017-09-03 CK - MB - Not Done proBNP - 2656 *
+2017-09-03 CK ( CPK )- 16 *
+2017-09-03 GLUCOSE - 206 * UREA N - 28 * CREAT - 1.8 * SODIUM - 135 POTASSIUM - 4.1 CHLORIDE - 85 * TOTAL CO2 - 42 * ANION GAP - 12
+2017-09-03 CK - MB - Not Done cTropnT - 0.22 *
+2017-09-03 CK ( CPK )- 38
+Discharge Labs :
+2017-10-10 :
+INR 3.5 , PT 32.5 , PTT 41
+Imaging Studies :
+1. CXR ( PA/Lateral ) 2017-09-03
+Congestive heart failure with bilateral effusions ( R > L ) , with possible underlying consolidation in the RLL and to a lesser degree the RML and LLL .
+2. CXR 2017-09-04
+Compared to PA and lateral chest of the prior day .
+Right-sided PICC line with its tip in the distal SVC .
+The heart is markedly enlarged .
+There remains a large right and small left pleural effusion , not significantly changed .
+Patient remains in congestive heart failure , though it may be slightly improved compared to the prior study .
+Underlying infectious consolidation in the right lower lobe not excluded .
+3. Echo 2017-09-04
+The left atrium is mildly dilated .
+There is mild symmetric left ventricular hypertrophy .
+The left ventricular cavity size is normal .
+LV systolic function appears depressed .
+Resting regional wall motion abnormalities include inferior and inferolateral hypokinesis .
+Right ventricular chamber size is normal and free wall motion may be mildly impaired .
+The aortic root is mildly dilated .
+The ascending aorta is mildly dilated .
+The aortic valve leaflets are mildly thickened .
+A bioprosthetic aortic valve prosthesis is present .
+The aortic prosthesis leaflets appear to move normally .
+The transaortic gradient is normal for this prosthesis .
+The mitral valve leaflets are mildly thickened .
+The left ventricular inflow pattern suggests a restrictive filling abnormality , with elevated left atrial pressure .
+Transmitral Doppler and tissue velocity imaging are consistent with Grade III/IV ( severe ) left ventricular diastolic dysfunction .
+The tricuspid valve leaflets are mildly thickened .
+There is mild pulmonary artery systolic hypertension .
+There is no pericardial effusion .
+Compared with the prior study ( images reviewed ) of 2017-08-14 , ventricular function is now similar.
+EF 35-40% .
+4. Echo 2017-09-14
+The left atrium is mildly dilated .
+The left ventricular cavity size is normal .
+Overall left ventricular systolic function cannot be reliably assessed .
+3l .
+The aortic valve leaflets are mildly thickened .
+The mitral valve leaflets are mildly thickened .
+There is no pericardial effusion .
+Compared with the prior study ( images reviewed ) of 2017-09-04 , there is probably no significant change .
+All cultures , including BCx , UCx , pleural fluid culture , and wound culture have been negative .
+5. CT Chest 2017-09-16 :
+1. Increasing large right-sided pleural effusion and pulmonary edema .
+Scattered parenchymal opacities in the left lower lobe represent superimposed infection vs atelectasis .
+There is no evidence of abscess .
+6. 2017-09-28 Chest X Ray :
+SINGLE AP VIEW OF THE CHEST .
+There has been almost complete resolution of pulmonary edema .
+A small right pleural effusion has decreased in size .
+Mild cardiomegaly is stable .
+There is no pneumothorax .
+Right PIC catheter tip ends in the lower SVC .
+Patient is post median sternotomy .
+IMPRESSION :
+Almost complete resolution of pulmonary edema .
+7. 2017-09-29 CT Head :
+FINDINGS :
+There is no evidence of intraaxial or extraaxial hemorrhage , mass effect , shift of normally midline structures , or acute major or minor vascular territorial infarction .
+The ventricles and sulci are mildly prominent , but stable in size and appearance .
+The gray-white matter differentiation is preserved .
+Again seen are subtle hypodensities within the periventricular white matter which is an indication of chronic microvascular ischemic changes , stable .
+Extensive carotid artery calcifications are identified .
+The visualized paranasal sinuses are clear .
+The surrounding osseous and soft tissue structures are unremarkable .
+IMPRESSION :
+No evidence of acute or chronic infarction .
+Stable microvascular ischemic changes in the periventricular white matter .
+8. 2017-09-30 EEG :
+IMPRESSION :
+Abnormal EEG due to the moderately slow posterior background and occasional bursts of generalized slowing .
+These findings indicate a widespread encephalopathic condition affecting both cortical and subcortical structures .
+Medications , metabolic disturbances , and infection are among the most common causes .
+No prominent focal abnormalities were evident , and there were no epileptiform features .
+The cardiac monitor showed occasional irregularities in a PACED rhythm .
+Brief Hospital Course :
+A/P :
+70 y/o male with h/o CAD , T2DM , hyperlipidemia , and COPD who presented to the Juan on 2017-09-03 with worsening SOB x 5 days from Morton Hospital & Medical Center .
+Pt. was initially admitted to CCU on 2017-09-03 , transferred to Pendleton on 2017-09-05 , triggered on 2017-09-10 for hypotension with BP 67/38 and transferred back to CCU on 2017-09-10 .
+He remained fluid overloaded and a swan catheter was placed .
+The following issues were addressed during this hospital admission :
+1# Cardiac :
+Pump
+The patient was initially admitted for likely CHF exacerbation .
+He was started on a lasix gtt the night of admission with a good response .
+He continued to diurese and he was moved to the floor since he no longer required intensive level care .
+While on the floor , he continued to be diuresed .
+After several days , he became hypotensive and triggered for BPs 60s/30s .
+He was given IVF without an adequate response in his pressures .
+He was transferred back to the CCU and started on a dopamine gtt .
+He diuresed well on the dopamine gtt and his BP was supported .
+Gradually , the dopamine gtt was weaned .
+However , he still appeared volume overloaded with minimal improvement in his oxygen requirement .
+A swan was placed for a more accurate picture of his volume status and he was volume overloaded by swan numbers with an elevated PAD and elevated CVP without an obtainable wedge pressure .
+He also had a high CO and low SVR suggestive of sepsis , but he never had an elevated WBC and was afebrile during his entire hospital admission with negative blood , urine , wound , and pleural fluid cultures .
+The Lasix drip was eventually changed to IV Lasix boluses , with a net diuresis of over 36 liters for the hospital stay .
+He was then transitioned to oral Lasix for maintainence .
+The patient had an echo on 2017-09-04 with the results above in detail .
+It was unchanged in comparison to 2017-08-14 with similar ventricular function and inferior and inferolateral hypokinesis .
+The patient had another echo on 2017-09-14 with no new changes .
+At discharge the patient was thought to be euvolemic , satting well on room air and without peripheral edema .
+His dry weight is 70.4 kg .
+Ischemia
+The patient had an initial troponin bump on admission which was most likely secondary to CHF exacerbation .
+He was continued on Aspirin , Metoprolol and Lipitor with no further issues .
+Rhythm
+The patient is completely pacer-dependent , being epicardially paced at 70 .
+He is on Amiodarone for post-op afib and this was continued this entire admission .
+His underlying rhythm is atrial flutter ; it was unclear whether he had previously been cardioverted .
+Anti-coagulation was started with Warfarin 5 mg with a goal of 2-3 and a plan for cardioversion in 6 weeks .
+The patient 's INR became supratherapeutic and Coumadin was held .
+His coumadin was transitioned to 2 mg and then 1 mg .
+His INR continued to flucuate .
+He was discharged on 1 mg , but a stable regimen had not been achieved .
+His INR will have to be monitored closely unitl his levels are stable .
+His INR goal is 02-24 .
+2# SOB on admission :
+Likely due to CHF exacerbation , with diuresis of over 36 L during his admission .
+He had 4 surgeries ( 3 cardiac surgeries ) earlier in the summer , so it is likely that he required copious IVF hydration surrounding these procedures which may have been the cause of his massive fluid overload .
+It appears that his diet was regulated at rehab but there is concern for medication non-compliance at rehab , per previous discharge summaries .
+On discharge , the patient was maintained on standing diuretics as well as PRN nebs and INH COPD meds .
+3# Metabolic Alkalosis / Hypochloremia :
+Etiology most likely a combination of contraction alkalosis and / or post-hypercapnia .
+This acutely worsened on 2017-09-18 , when the patient was found to have mental status changes and an ABG revealed a CO2 of over 100 , likley due to a depressed respiratory drive secondary to sedatives given for agitation on top of a preexisting alkalosis .
+The patient was therefore intubated for ventilation , and continued to be diuresed .
+His CO2 improved and he was extubated after a few days .
+All sedating medications were held and serial ABGs were trended to follow the resolution of the metabolic alkalosis .
+4# Pleural effusions : s/p right thoracentesis on 2017-09-06 , 1600 mL of serosanguinous fluid removed from right pleural space .
+Gram stain and cultures were negative , cytology was negative .
+The right pleural effusion slowly re-accumulated after tap but resolved after continued diuresis .
+Repeat CXR showed improvement of the effusion and on discharge he had been breathing well on room air without complications
+5# T2DM :
+The patient was started on Glargine for tighter glycemic control and was covered with an insulin sliding scale .
+He was monitored with QID fingersticks .
+His blood sugars were in the 100s on discharge .
+6# Hyperlipidemia :
+The patient was continued on his statin .
+7# COPD :
+The patient was continued on nebs
+8# MS changes :
+The patient has a history of baseline dementia which was confounded by delerium in the face of metabolic abnormalities .
+His mental status improved as his metabolic process was resolved as detailed above .
+Neurology was also consulted and a head CT showed old lacunar infarcts but no acute causes for a change in mental status .
+An EEG showed mild encephalopathy , but no other findings .
+His mental status did clear somewhat with the addition of standing lactulose ; he was discharged on this medication .
+9# Hypothyroidism :
+The patient was continued on his outpatient dose of Levothyroxine .
+10# ? UTI :
+The patient was started on levofloxacin at Newton-Wellesley Hospital for a question of UTI based on U/A positive for WBC .
+UCx during this hospitalization were negative and Levofloxacin was d/c 'd .
+11# Chronic lower back pain :
+The patient was treated with a Lidocaine patch and Percocet prn .
+Stronger narcotics were avoided given somnolence and MS changes .
+12# Wound Care :
+The patient has left chest wound and left gluteal pressure ulcer .
+Wound care was consulted on 2017-09-05 and they made several recommendations .
+For the left gluteal pressure ulcer , they recommended gentle cleansing with normal saline or commercial wound cleaner , thin layer of Duoderm gel , air dry , allevyn foam adhesive over the site , and change every 2 days or prn .
+For the left chest wound , they recommended cleansing with commercial wound cleanser , pat dry , pack aquacel AG rope and moisten with saline , cover with dry gauze and change daily .
+These recommendations were followed throughout the admission .
+13# Voiding :
+Pt. failed multiple attempts to void on his own .
+Case was discussed with neurology .
+He was started on finsateride on the day prior to admission .
+He is scheduled to follow up with urology to address this issue .
+Until then , his foley should remain in place .
+14# Code :
+The patient was full code during admission .
+Medications on Admission :
+Levothyroxine 100 mcg PO daily
+Duloxetine 20 mg PO QHS
+Ondansetron PRN
+Percocet 1 tab PRN
+Senna PRN
+Colace PRN
+Lasix 80 mg PO BID
+Lactulose PRN
+Lidocaine patch
+Nystatin powder
+Gabapentin 300 mg PO TID
+Alb nebs
+Fluticasone / Salmeterol
+Tiotropium Bromide
+Spironolactone 25 mg PO daily
+Epoetin 4000 units MWF
+RISS
+Amiodarone 200 mg PO daily
+Calcium Acetate 667 mg PO TID
+SubQ Heparin
+Pantoprazole 40 mg PO daily
+Simvastatin 40 mg PO QHS
+ASA 81 mg PO daily
+MVI
+Tylenol PRN
+Discharge Medications :
+1. Docusate Sodium 100 mg Capsule Sig : One ( 1 ) Capsule PO TID ( 3 times a day ) as needed for Constipation .
+Disp :* 90 Capsule ( s )* Refills :* 0 *
+2. Levothyroxine 100 mcg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+Disp :* 30 Tablet ( s )* Refills :* 2 *
+3. Duloxetine 20 mg Capsule , Delayed Release( E.C. ) Sig : One ( 1 ) Capsule , Delayed Release ( E.C. ) PO QHS ( once a day ( at bedtime ) ) .
+4. Lactulose 10 g / 15 mL Syrup Sig : Thirty ( 30 ) ML PO BID ( 2 times a day ) .
+5. Fluticasone - Salmeterol 100-50 mcg / Dose Disk with Device Sig : One ( 1 ) Disk with Device Inhalation BID ( 2 times a day ) .
+Disp :* qs Disk with Device ( s )* Refills :* 2 *
+6. Tiotropium Bromide 18 mcg Capsule , w/ Inhalation Device Sig : One ( 1 ) Cap Inhalation DAILY ( Daily ) .
+Disp :* qs * Refills :* 2 *
+7. Amiodarone 200 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+Disp :* 30 Tablet ( s )* Refills :* 2 *
+8. Calcium Acetate 667 mg Capsule Sig : One ( 1 ) Capsule PO TID W/MEALS ( 3 TIMES A DAY WITH MEALS ) .
+Disp :* 90 Capsule ( s )* Refills :* 2 *
+9. Oxycodone - Acetaminophen 5-325 mg Tablet Sig : 1-2 Tablets PO Q4-6H ( every 4 to 6 hours ) as needed for pain .
+Disp :* 30 Tablet ( s )* Refills :* 0 *
+10. Multivitamin Capsule Sig : One ( 1 ) Cap PO DAILY ( Daily ) .
+Disp :* 30 tablets * Refills :* 2 *
+11. Miconazole Nitrate 2 % Powder Sig : One ( 1 ) Appl Topical BID ( 2 times a day ) .
+12. Aspirin 81 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ) .
+Disp :* 30 Tablet , Delayed Release ( E.C. )( s )* Refills :* 2 *
+13. Simvastatin 40 mg Tablet Sig : One ( 1 ) Tablet PO QHS ( once a day ( at bedtime ) ) .
+Disp :* 30 Tablet ( s )* Refills :* 2 *
+14. Pantoprazole 40 mg Tablet , Delayed Release ( E.C. ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C. ) PO DAILY ( Daily ) .
+Disp :* 30 Tablet , Delayed Release ( E.C. )( s )* Refills :* 2 *
+15. Lidocaine 5 %( 700 mg / patch ) Adhesive Patch , Medicated Sig : Two ( 2 ) Adhesive Patch , Medicated Topical DAILY ( Daily ) .
+Disp :* qs Adhesive Patch , Medicated ( s )* Refills :* 2 *
+16. Furosemide 40 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+Disp :* 60 Tablet ( s )* Refills :* 2 *
+17. Ferrous Sulfate 325 ( 65 ) mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+Disp :* 30 Tablet ( s )* Refills :* 2 *
+18. Epoetin Alfa 4,000 unit/mL Solution Sig : One ( 1 ) Injection QMOWEFR ( Monday - Wednesday - Friday ) .
+Disp :* qs * Refills :* 2 *
+19. Spironolactone 25 mg Tablet Sig : Two ( 2 ) Tablet PO DAILY ( Daily ) .
+Disp :* 60 Tablet ( s )* Refills :* 2 *
+20. Albuterol 90 mcg/Actuation Aerosol Sig : 4-6 Puffs Inhalation Q6H ( every 6 hours ) .
+Disp :* qs * Refills :* 2 *
+21. Metoprolol Succinate 25 mg Tablet Sustained Release 24HR Sig : One ( 1 ) Tablet Sustained Release 24HR PO DAILY ( Daily ) .
+22. Finasteride 5 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+Disp :* 30 Tablet ( s )* Refills :* 2 *
+23. Gabapentin 300 mg Capsule Sig : One ( 1 ) Capsule PO BID ( 2 times a day ) .
+Disp :* 60 Capsule ( s )* Refills :* 2 *
+24. Warfarin 1 mg Tablet Sig : One ( 1 ) Tablet PO at bedtime : Please monitor INR with goal 02-24 .
+Discharge Disposition :
+Extended Care
+Discharge Diagnosis :
+Primary :
+Congestive Heart Failure exacerbation
+Secondary :
+Coronary Artery Disease
+Hypertension
+Type 2 Diabetes Mellitus
+Chronic Obstructive Pulmonary Disease
+Discharge Condition :
+The patient was discharged hemodynamicallly stable , afebrile with appropriate follow up .
+Discharge Instructions :
+During this admission you have been treated for a CHF exacerbation .
+Weigh yourself every morning , call MD if weight increases by > 3 lbs in 2 days .
+Adhere to 2 gm sodium diet
+Fluid Restriction :
+1500 mL
+1. Please take all medications as prescribed .
+2. Please keep all follow up appointments .
+3. Please call your PCP C. Lettinga or seek medical attention in the Juan if you experience worsening shortness of breath , chest pain , dizziness , passing out , or any other concerning symptom .
+Followup Instructions :
+Please follow up with your PCP C. Lettinga ( 572 8343 ) on 10-10 at 1:00 PM
+Please follow up with Dr. Parker in cardiology ( ( 216 ) 660-0019 ) on 10-17 at 4:45 PM
+Please follow up with Dr. Frye in cardiololgy ( ( 216 ) 660-0019 ) on 10-09 at 2:15 PM .
+Please follow up with Urology on 10-16 @ 1:50 PM on the 3rd floor of the Maricle Building , east campus of Lahey Clinic - North Shore
+Ronald Lyman MD 77-979
+Completed by : Bristol MD 47-191 2017-10-10 @ 1058
+Signed electronically by : DR. Ronald G. Elston on : WED 2017-10-11 5:03 PM
+( End of Report )

@@ -1,0 +1,264 @@
+T1	treatment 5901 5921	his renal transplant
+T2	test 3636 3647	examination
+T3	problem 3602 3616	focal deficits
+T4	problem 6288 6300	not adequate
+T5	problem 5735 5747	the delirium
+T6	treatment 6235 6251	gentle hydration
+T7	problem 1813 1844	significant myocardial ischemia
+T8	treatment 7532 7547	regular insulin
+T9	problem 1903 1924	myocardial infarction
+T10	problem 3561 3572	mass effect
+T11	treatment 3542 3555	the procedure
+T12	problem 1713 1734	diastolic dysfunction
+T13	problem 1740 1760	increased heart rate
+T14	problem 1772 1785	excess volume
+T15	problem 241 262	peripheral neuropathy
+T16	problem 309 329	diabetic nephropathy
+T17	test 3368 3382	urine cultures
+T18	problem 3267 3274	febrile
+T19	problem 6445 6461	other complaints
+T20	problem 6736 6758	postoperative swelling
+T21	test 3353 3363	urinalysis
+T22	test 4455 4469	rpr evaluating
+T23	problem 4483 4502	neurologic syphilis
+T24	problem 644 670	clear cut cord compression
+T25	test 1339 1359	his respiratory rate
+T26	test 4446 4452	folate
+T27	problem 527 546	cervical myelopathy
+T28	problem 581 617	impressive disc herniations at c5-c6
+T29	treatment 1548 1565	intravenous lasix
+T30	test 549 568	a cervical mri scan
+T31	test 4438 4441	b12
+T32	treatment 1370 1379	face mask
+T33	problem 4299 4311	his delirium
+T34	problem 4242 4279	electrolytes or mineral abnormalities
+T35	treatment 785 806	autologous bone graft
+T36	test 1585 1597	urine output
+T37	test 3415 3432	a lumbar puncture
+T38	treatment 744 779	c4-c5 and c5-c6 anterior diskectomy
+T39	problem 4141 4152	head trauma
+T40	test 1461 1471	heart rate
+T41	treatment 5056 5070	the restraints
+T42	problem 5116 5132	acutely agitated
+T43	test 4314 4334	liver function tests
+T44	problem 1048 1061	uncomfortable
+T45	problem 1075 1096	incisional tenderness
+T46	problem 1100 1109	neck site
+T47	problem 1121 1143	right iliac graft site
+T48	test 6272 6283	p.o. intake
+T49	test 4204 4211	chem-10
+T50	treatment 811 830	instrumented fusion
+T51	problem 4589 4622	non-convulsive status epilepticus
+T52	problem 492 510	signs and symptoms
+T53	problem 916 924	afebrile
+T54	problem 3897 3911	midline shifts
+T55	problem 1146 1156	the wounds
+T56	test 4522 4531	the assay
+T57	problem 3863 3893	acute intracranial hemorrhages
+T58	test 4550 4556	an eeg
+T59	problem 3843 3857	such processes
+T60	test 3766 3804	a head and neck ct scan , non-contrast
+T61	problem 6513 6532	his operative sites
+T62	treatment 5527 5533	haldol
+T63	test 1856 1871	cardiac enzymes
+T64	problem 3659 3684	the fluctuating sensorium
+T65	problem 3723 3763	severe underlying structural abnormality
+T66	treatment 1493 1512	some neo-synephrine
+T67	treatment 5434 5452	intravenous haldol
+T68	problem 5508 5524	acutely agitated
+T69	treatment 5409 5422	intramuscular
+T70	problem 1656 1684	his congestive heart failure
+T71	test 5872 5891	his kidney function
+T72	problem 5396 5406	that event
+T73	treatment 2127 2136	lopressor
+T74	problem 4729 4745	acutely agitated
+T75	treatment 5265 5279	the restraints
+T76	treatment 4976 4986	restraints
+T77	treatment 2059 2064	lasix
+T78	problem 2088 2105	the excess volume
+T79	treatment 5379 5389	restraints
+T80	problem 5644 5652	delirium
+T81	problem 6056 6086	a baseline renal insufficiency
+T82	problem 8267 8281	pyelonephritis
+T83	treatment 7364 7374	zithropren
+T84	treatment 2268 2272	tent
+T85	problem 2249 2257	agitated
+T86	treatment 7302 7327	cyclosporin microemulsion
+T87	test 2192 2205	o2 saturation
+T88	problem 201 218	diabetes mellitus
+T89	treatment 7260 7284	nitroglycerin sublingual
+T90	test 6124 6133	a ct scan
+T91	treatment 2395 2423	continued medical management
+T92	test 8352 8369	ejection fraction
+T93	treatment 5932 5961	his immunosuppressive therapy
+T94	treatment 7456 7464	prilosec
+T95	treatment 5769 5776	surgery
+T96	test 2543 2561	a delirium work-up
+T97	problem 2492 2500	confused
+T98	problem 2506 2533	waxing and waning sensorium
+T99	treatment 8314 8341	right coronary artery stent
+T100	treatment 5545 5559	the restraints
+T101	treatment 7393 7403	prednisone
+T102	treatment 265 287	kidney transplantation
+T103	test 2645 2663	his pulse oximetry
+T104	test 4355 4370	total bilirubin
+T105	problem 4375 4392	slightly elevated
+T106	test 5998 6012	his creatinine
+T107	test 2611 2628	his o2 saturation
+T108	treatment 5821 5834	poly-pharmacy
+T109	treatment 7333 7339	neoral
+T110	treatment 2705 2734	his non-essential medications
+T111	problem 2770 2797	his change in mental status
+T112	treatment 8512 8551	transurethral resection of the prostate
+T113	problem 8471 8499	benign prostatic hypertrophy
+T114	problem 6501 6509	soreness
+T115	problem 4158 4179	loss of consciousness
+T116	problem 6578 6590	his delirium
+T117	treatment 2277 2291	bi-pap machine
+T118	treatment 7484 7487	nph
+T119	treatment 2833 2843	temocillin
+T120	treatment 7422 7431	minoxidil
+T121	treatment 6558 6572	p.r.n. tylenol
+T122	treatment 2846 2859	nortriptyline
+T123	test 4402 4405	tsh
+T124	treatment 6157 6165	contrast
+T125	test 1313 1321	his sao2
+T126	problem 8713 8730	cerebral aneurysm
+T127	problem 3934 3952	a soft tissue mass
+T128	problem 1298 1308	tachypneic
+T129	problem 6310 6331	his diabetes mellitus
+T130	treatment 2871 2880	lorazepam
+T131	treatment 2862 2868	haldol
+T132	problem 4063 4069	trauma
+T133	problem 1285 1293	dyspneic
+T134	treatment 6222 6232	restraints
+T135	test 8287 8297	creatinine
+T136	test 941 955	blood pressure
+T137	treatment 445 468	postoperative radiation
+T138	problem 343 356	throat cancer
+T139	treatment 6776 6790	his diskectomy
+T140	treatment 2883 2894	venlafaxine
+T141	treatment 7779 7792	nortriptyline
+T142	test 7094 7121	physical therapy evaluation
+T143	treatment 1006 1022	a non-rebreather
+T144	treatment 7593 7603	wellbutrin
+T145	treatment 8793 8802	ibuprofen
+T146	treatment 2897 2906	bupropion
+T147	treatment 7649 7665	nitroglycerin sr
+T148	problem 8441 8451	neuropathy
+T149	problem 8454 8465	nephropathy
+T150	treatment 7733 7744	medications
+T151	treatment 7624 7629	zocor
+T152	test 976 992	respiratory rate
+T153	treatment 2913 2923	gabapentin
+T154	test 856 890	postoperative physical examination
+T155	test 2940 2962	his cyclosporin levels
+T156	treatment 7960 8011	c4-c5 , c5-c6 , anterior microdiscectomy and fusion
+T157	problem 2981 3002	hypo or hyperglycemia
+T158	problem 6642 6668	difficulty with swallowing
+T159	treatment 8017 8039	right iliac bone graft
+T160	test 965 970	pulse
+T161	test 3092 3105	finger sticks
+T162	problem 3129 3145	acutely agitated
+T163	treatment 7809 7815	flomax
+T164	treatment 8776 8786	gentamicin
+T165	treatment 6690 6710	soft and liquid diet
+T166	treatment 7833 7842	neurontin
+T167	treatment 3074 3089	glucose control
+T168	treatment 8695 8698	xrt
+T169	problem 8643 8656	throat cancer
+T170	problem 8111 8134	end-stage renal disease
+T171	treatment 8554 8574	self catheterization
+T172	problem 8427 8438	retinopathy
+T173	treatment 8737 8752	left prosthetic
+T174	problem 8580 8592	hypertension
+T175	problem 8598 8618	hypercholesterolemia
+T176	test 3187 3201	glucose levels
+T177	problem 8415 8424	triopathy
+T178	problem 3225 3242	infectious causes
+T179	problem 8148 8172	type 1 diabetes mellitus
+T180	treatment 7225 7235	metoprolol
+T181	problem 8625 8636	hepatitis b
+T182	treatment 378 393	local resection
+T183	treatment 7198 7208	furosemide
+T184	problem 8228 8261	multiple urinary tract infections
+T185	problem 8385 8409	type 1 diabetes mellitus
+T186	test 3322 3333	chest x-ray
+T187	treatment 8187 8203	renal transplant
+T188	treatment 8669 8690	right neck dissection
+T189	treatment 398 433	radical neck dissection on the left
+T190	treatment 7166 7180	venlafaxine xr
+T191	test 3336 3350	blood cultures
+R1	TeRP Arg1:T2 Arg2:T3
+R2	TrAP Arg1:T6 Arg2:T4
+R3	PIP Arg1:T12 Arg2:T13
+R4	PIP Arg1:T12 Arg2:T14
+R5	PIP Arg1:T15 Arg2:T16
+R6	TeCP Arg1:T17 Arg2:T18
+R7	TeCP Arg1:T21 Arg2:T18
+R8	TeCP Arg1:T22 Arg2:T23
+R9	PIP Arg1:T28 Arg2:T24
+R10	TeRP Arg1:T30 Arg2:T28
+R11	TeCP Arg1:T30 Arg2:T27
+R12	TeRP Arg1:T30 Arg2:T24
+R13	PIP Arg1:T33 Arg2:T34
+R14	TrAP Arg1:T41 Arg2:T42
+R15	PIP Arg1:T44 Arg2:T45
+R16	PIP Arg1:T44 Arg2:T46
+R17	PIP Arg1:T44 Arg2:T47
+R18	PIP Arg1:T46 Arg2:T45
+R19	TeRP Arg1:T48 Arg2:T4
+R20	PIP Arg1:T52 Arg2:T27
+R21	TeCP Arg1:T58 Arg2:T51
+R22	TeCP Arg1:T60 Arg2:T59
+R23	TeRP Arg1:T63 Arg2:T9
+R24	TeCP Arg1:T63 Arg2:T7
+R25	PIP Arg1:T65 Arg2:T64
+R26	TrAP Arg1:T67 Arg2:T68
+R27	TrAP Arg1:T69 Arg2:T68
+R28	PIP Arg1:T70 Arg2:T14
+R29	PIP Arg1:T70 Arg2:T12
+R30	PIP Arg1:T70 Arg2:T13
+R31	TrAP Arg1:T77 Arg2:T78
+R32	TrAP Arg1:T79 Arg2:T72
+R33	TrCP Arg1:T84 Arg2:T85
+R34	TrCP Arg1:T95 Arg2:T5
+R35	TeCP Arg1:T96 Arg2:T97
+R36	TeCP Arg1:T96 Arg2:T98
+R37	PIP Arg1:T98 Arg2:T97
+R38	TrAP Arg1:T102 Arg2:T16
+R39	TeRP Arg1:T104 Arg2:T105
+R40	TeRP Arg1:T106 Arg2:T81
+R41	TrCP Arg1:T108 Arg2:T5
+R42	TrCP Arg1:T110 Arg2:T111
+R43	TrAP Arg1:T112 Arg2:T113
+R44	PIP Arg1:T114 Arg2:T61
+R45	TrCP Arg1:T117 Arg2:T85
+R46	TrNAP Arg1:T119 Arg2:T111
+R47	TrAP Arg1:T121 Arg2:T114
+R48	TrNAP Arg1:T121 Arg2:T116
+R49	TrNAP Arg1:T122 Arg2:T111
+R50	TrNAP Arg1:T130 Arg2:T111
+R51	TrNAP Arg1:T131 Arg2:T111
+R52	TrAP Arg1:T137 Arg2:T138
+R53	TrCP Arg1:T139 Arg2:T20
+R54	TrNAP Arg1:T140 Arg2:T111
+R55	TrNAP Arg1:T146 Arg2:T111
+R56	TrNAP Arg1:T153 Arg2:T111
+R57	TeRP Arg1:T154 Arg2:T53
+R58	TeCP Arg1:T161 Arg2:T162
+R59	TrAP Arg1:T165 Arg2:T158
+R60	TrAP Arg1:T168 Arg2:T169
+R61	TrAP Arg1:T171 Arg2:T113
+R62	TeCP Arg1:T176 Arg2:T162
+R63	PIP Arg1:T179 Arg2:T170
+R64	TrAP Arg1:T182 Arg2:T138
+R65	PIP Arg1:T185 Arg2:T177
+R66	PIP Arg1:T185 Arg2:T172
+R67	PIP Arg1:T185 Arg2:T148
+R68	PIP Arg1:T185 Arg2:T149
+R69	TeCP Arg1:T186 Arg2:T18
+R70	TrAP Arg1:T187 Arg2:T170
+R71	TrAP Arg1:T188 Arg2:T169
+R72	TrAP Arg1:T189 Arg2:T138
+R73	TeCP Arg1:T191 Arg2:T18

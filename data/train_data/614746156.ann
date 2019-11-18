@@ -1,0 +1,53 @@
+T1	problem 794 808	abdominal pain
+T2	problem 781 787	nausea
+T3	test 1916 1928	abdominal ct
+T4	problem 1979 2012	primary colorectal adenocarcinoma
+T5	problem 2018 2043	multiple liver metastases
+T6	problem 1245 1248	avn
+T7	problem 757 763	melena
+T8	test 2155 2169	the hematocrit
+T9	problem 1427 1432	hives
+T10	problem 243 260	painless jaundice
+T11	treatment 2128 2150	packed red blood cells
+T12	test 2262 2268	biopsy
+T13	treatment 2461 2478	further treatment
+T14	treatment 1332 1341	glucotrol
+T15	problem 1868 1885	painless jaundice
+T16	test 2282 2293	colonoscopy
+T17	problem 880 888	tenesmus
+T18	treatment 2596 2600	iron
+T19	problem 529 550	an increased appetite
+T20	problem 766 778	hematochezia
+T21	test 1174 1193	last hemoglobin a1c
+T22	problem 469 491	a 23 pound weight loss
+T23	problem 705 717	night sweats
+T24	test 2046 2056	hematocrit
+T25	problem 640 659	personality changes
+T26	problem 665 687	increased irritability
+T27	treatment 1356 1364	vitamins
+T28	problem 1906 1913	fatigue
+T29	treatment 2661 2671	bactrim ss
+T30	problem 596 622	&quot; feeling down &quot;
+T31	problem 841 865	occasionally constipated
+T32	treatment 2622 2631	glucotrol
+T33	problem 1201 1218	vocal cord polyps
+T34	treatment 2568 2593	the following medications
+T35	problem 1283 1295	hyperkalemia
+T36	problem 365 403	noninsulin dependent diabetes mellitus
+T37	treatment 2634 2638	acel
+T38	problem 1392 1400	allergic
+T39	problem 1109 1134	type ii diabetes mellitus
+T40	problem 1252 1268	osseous necrosis
+T41	test 2306 2313	head ct
+T42	problem 978 984	yellow
+T43	problem 1639 1642	chf
+T44	problem 584 591	fatigue
+T45	problem 1888 1899	weight loss
+T46	problem 427 444	painless jaundice
+T47	problem 1307 1317	rta type 4
+R1	TeRP Arg1:T3 Arg2:T4
+R2	TeRP Arg1:T3 Arg2:T5
+R3	PIP Arg1:T4 Arg2:T5
+R4	PIP Arg1:T22 Arg2:T19
+R5	PIP Arg1:T25 Arg2:T26
+R6	PIP Arg1:T38 Arg2:T9

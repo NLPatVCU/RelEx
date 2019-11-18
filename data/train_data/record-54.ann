@@ -1,0 +1,262 @@
+T1	problem 3331 3353	intraparenchymal bleed
+T2	test 1007 1014	inr(pt)
+T3	treatment 8577 8584	dobhoff
+T4	problem 3457 3484	intraparenchymal hemorrhage
+T5	test 984 986	pt
+T6	treatment 8489 8508	his bensodiazapines
+T7	test 996 999	ptt
+T8	problem 2752 2793	extensive carotid arterial calcifications
+T9	treatment 8407 8437	decreasing ventillary support.
+T10	problem 8374 8386	complication
+T11	problem 2673 2706	prevertebral soft tissue swelling
+T12	problem 451 471	right sided weakness
+T13	treatment 8343 8355	tracheostomy
+T14	test 948 957	plt count
+T15	problem 3054 3139	minimally displaced , comminuted fractures of the left c7 and t1 transverse processes
+T16	treatment 8209 8214	zosyn
+T17	problem 8188 8198	aspiration
+T18	problem 8156 8170	mrsa pneumonia
+T19	test 917 920	rdw
+T20	problem 2572 2596	atlantoaxial subluxation
+T21	problem 8297 8327	decreased pulmonary secretions
+T22	test 1495 1520	ct c - spine w/o contrast
+T23	test 1143 1152	total co2
+T24	test 1291 1299	bnzodzpn
+T25	problem 8286 8292	fevers
+T26	test 1111 1114	po2
+T27	test 1261 1268	ethanol
+T28	treatment 8257 8266	linazolid
+T29	treatment 8226 8230	levo
+T30	test 1251 1254	asa
+T31	test 1450 1475	ct c - spine w/o contrast
+T32	test 1123 1127	pco2
+T33	test 1421 1429	amphetmn
+T34	test 1436 1443	mthdone
+T35	problem 7652 7657	edema
+T36	treatment 8219 8223	vanc
+T37	test 1052 1056	temp
+T38	test 1133 1135	ph
+T39	problem 7636 7646	congestion
+T40	test 1407 1414	cocaine
+T41	test 1393 1400	opiates
+T42	treatment 9757 9766	bisacodyl
+T43	problem 9889 9901	constipation
+T44	test 1378 1386	barbitrt
+T45	test 1363 1371	bnzodzpn
+T46	treatment 9674 9689	docusate sodium
+T47	treatment 9520 9539	metoprolol tartrate
+T48	test 1357 1362	urine
+T49	test 1321 1330	tricyclic
+T50	treatment 9605 9612	digoxin
+T51	treatment 9328 9340	lansoprazole
+T52	test 1306 1314	barbitrt
+T53	treatment 9419 9428	linezolid
+T54	treatment 406 415	colostomy
+T55	problem 384 402	ulcerative colitis
+T56	treatment 9258 9268	lisinopril
+T57	treatment 429 438	pacemaker
+T58	problem 4961 5000	ovoid 18 - mm density within the atrium
+T59	problem 9099 9114	decreased blood
+T60	test 1988 1997	the study
+T61	test 1787 1816	noncontrast cervical spine ct
+T62	problem 439 442	cva
+T63	treatment 9163 9182	heparin ( porcine )
+T64	test 9075 9089	serial ct head
+T65	test 1957 1967	this study
+T66	test 2301 2324	assessment of alignment
+T67	treatment 8658 8666	g/j tube
+T68	test 277 289	bronchoscopy
+T69	treatment 8938 8969	physical / occupational therapy
+T70	problem 4336 4357	diffuse brain atrophy
+T71	test 3631 3647	an outside study
+T72	treatment 7434 7460	supporting tubes and lines
+T73	test 3534 3554	non-contrast head ct
+T74	test 3573 3586	prior studies
+T75	problem 3509 3519	hemorrhage
+T76	treatment 4782 4792	an ng tube
+T77	treatment 7507 7530	a single lead pacemaker
+T78	problem 10298 10316	left rib fractures
+T79	problem 6073 6132	a small amount of blood layering in both lateral ventricles
+T80	problem 3271 3276	bleed
+T81	problem 3271 3276	bleed
+T82	problem 10242 10297	c7 & t1 mimimally displaced transverse process fracture
+T83	problem 5901 5933	chronic microvascular infarction
+T84	problem 5785 5858	decreased attenuation in the periventricular and subcortical white matter
+T85	problem 7389 7422	multiple left-sided rib fractures
+T86	test 3241 3261	ct head w/o contrast
+T87	problem 4307 4324	surrounding edema
+T88	problem 10168 10205	bilateral intraventricular hemorrhage
+T89	problem 4191 4238	an 18 x 10 mm nodular area of increased density
+T90	treatment 7900 7909	intubated
+T91	problem 7926 7932	desats
+T92	test 3988 4008	non-contrast head ct
+T93	problem 4020 4048	a small amount of hemorrhage
+T94	problem 10206 10241	left t1 transverse process fracture
+T95	problem 4641 4677	shift of normally midline structures
+T96	problem 10014 10026	consitpation
+T97	test 3786 3796	this study
+T98	problem 10141 10164	subarachnoid hemorrhage
+T99	problem 4518 4561	acute major vascular territorial infarction
+T100	test 3753 3776	the outside examination
+T101	problem 4362 4422	chronic microvascular infarction throughout the white matter
+T102	treatment 9907 9926	magnesium hydroxide
+T103	treatment 1093 1097	peep
+T104	treatment 253 265	tracheostomy
+T105	treatment 2435 2461	nasogastric tube placement
+T106	problem 2332 2365	extreme head tilting to the right
+T107	treatment 2739 2749	intubation
+T108	treatment 130 147	iodine containing
+T109	treatment 1102 1104	o2
+T110	treatment 2420 2430	intubation
+T111	problem 7170 7193	some interstitial edema
+T112	test 2075 2104	noncontrast cervical spine ct
+T113	problem 2117 2209	minimally displaced and comminuted fractures through the left c7 and t1 transverse processes
+T114	problem 8511 8531	failed swallow study
+T115	treatment 7914 7921	sedated
+T116	treatment 121 127	iodine
+T117	test 1846 1856	this study
+T118	problem 3157 3198	extension into the foramina transversaria
+T119	problem 7872 7897	multiple spinal fractures
+T120	test 3201 3221	ct head w/o contrast
+T121	problem 2929 2999	opacification of the visualized left mastoid air cells and mastoid tip
+T122	problem 2915 2924	sclerosis
+T123	test 7028 7035	studies
+T124	problem 3031 3038	disease
+T125	problem 2867 2886	mild bronchiectasis
+T126	problem 7714 7744	the right upper lobe pneumonia
+T127	treatment 7747 7773	supporting lines and tubes
+T128	problem 7844 7867	subarachnoid hemorrhage
+T129	problem 2840 2862	biapical lung scarring
+T130	problem 5098 5122	an intraventricular mass
+T131	problem 324 343	atrial fibrillation
+T132	problem 5062 5094	an atypically located blood clot
+T133	problem 7158 7167	pneumonia
+T134	problem 7111 7141	right upper lobe consolidation
+T135	problem 4928 4955	intraventricular hemorrhage
+T136	test 903 907	mchc
+T137	test 5363 5383	ct head w/o contrast
+T138	test 892 895	mch
+T139	test 5322 5342	ct head w/o contrast
+T140	test 5153 5189	contrast - enhanced mri of the brain
+T141	problem 6900 6906	trauma
+T142	test 870 873	hct
+T143	problem 4491 4514	subarachnoid hemorrhage
+T144	test 857 860	hgb
+T145	problem 4434 4464	a remote right frontal infarct
+T146	test 883 886	mcv
+T147	treatment 10403 10423	your cervical collar
+T148	problem 4837 4883	opacified and sclerotic left mastoid air cells
+T149	test 1064 1069	rates
+T150	problem 4718 4777	opacification of the posterior nasal cavity and nasopharynx
+T151	test 844 847	rbc
+T152	problem 4692 4706	skull fracture
+T153	test 1170 1175	aado2
+T154	test 6164 6182	the previous study
+T155	problem 5950 5995	an old right frontal lobe cortical infarction
+T156	test 1275 1284	acetmnphn
+T157	test 1077 1086	tidal vol
+T158	problem 5998 6045	a small right occipital lobe chronic infarction
+T159	problem 6365 6375	some fluid
+T160	problem 416 428	hypertension
+T161	problem 6240 6254	new hemorrhage
+T162	test 1158 1165	base xs
+T163	problem 6278 6316	opacification of the mastoid air cells
+T164	test 1182 1188	req o2
+T165	problem 5393 5414	altered mental status
+T166	problem 360 383	coronary artery disease
+T167	treatment 349 357	coumadin
+T168	problem 5393 5414	altered mental status
+T169	test 5711 5727	a previous study
+T170	problem 9001 9072	an early bilateral upper extermity contracture at the elbows and wrists
+T171	problem 5597 5618	altered mental status
+T172	problem 472 481	cataracts
+T173	treatment 488 504	cataract surgery
+T174	test 5633 5672	axial noncontrast ct scans of the brain
+T175	test 6678 6699	chest ( portable ap )
+T176	treatment 8879 8885	ativan
+T177	problem 8899 8908	agitation
+T178	test 6637 6658	chest ( portable ap )
+T179	treatment 8870 8876	haldol
+T180	problem 6709 6714	fever
+T181	treatment 8697 8710	pmv placement
+T182	problem 6830 6835	fever
+T183	problem 6721 6730	infiltrte
+T184	test 659 664	creat
+T185	test 6806 6818	previous cxr
+T186	test 671 677	sodium
+T187	problem 6491 6501	hemorrhage
+T188	test 684 693	potassium
+T189	problem 6527 6559	decreased intraventricular blood
+T190	problem 6452 6487	new cortical territorial infarction
+T191	treatment 509 513	turp
+T192	test 6574 6592	the previous study
+T193	treatment 8107 8120	soft c-collar
+T194	test 632 639	glucose
+T195	problem 6621 6634	hydrocephalus
+T196	problem 8037 8040	sah
+T197	test 8009 8016	ct head
+T198	problem 7010 7015	edema
+T199	problem 7076 7107	significant radiographic change
+T200	test 780 789	phosphate
+T201	problem 7227 7264	central pulmonary vascular congestion
+T202	test 648 654	urea n
+T203	problem 6775 6781	rib fx
+T204	test 7267 7279	cardiac size
+T205	problem 6786 6792	trauma
+T206	problem 7309 7360	fluid layering at the apices and the pleural spaces
+T207	test 834 837	wbc
+T208	problem 6379 6433	mucosal thickening in the ethmoid and sphenoid sinuses
+T209	problem 7555 7568	calcification
+T210	test 798 807	magnesium
+T211	problem 6709 6714	fever
+T212	problem 6721 6730	infiltrte
+T213	test 700 708	chloride
+T214	test 729 738	anion gap
+T215	test 714 723	total co2
+T216	problem 6936 6941	fever
+T217	problem 6909 6933	congestive heart failure
+T218	test 764 771	calcium
+T219	problem 6944 6953	pneumonia
+T220	test 6956 6988	portable supine chest radiograph
+R1	TrCP Arg1:T13 Arg2:T10
+R2	TrAP Arg1:T16 Arg2:T17
+R3	TrAP Arg1:T16 Arg2:T18
+R4	PIP Arg1:T18 Arg2:T17
+R5	TrIP Arg1:T28 Arg2:T25
+R6	TrIP Arg1:T28 Arg2:T21
+R7	TrAP Arg1:T28 Arg2:T18
+R8	TrAP Arg1:T28 Arg2:T17
+R9	TrAP Arg1:T29 Arg2:T17
+R10	TrAP Arg1:T29 Arg2:T18
+R11	TrAP Arg1:T36 Arg2:T17
+R12	TrAP Arg1:T36 Arg2:T18
+R13	PIP Arg1:T39 Arg2:T35
+R14	TrAP Arg1:T42 Arg2:T43
+R15	TrAP Arg1:T54 Arg2:T55
+R16	PIP Arg1:T62 Arg2:T12
+R17	TeRP Arg1:T64 Arg2:T59
+R18	PIP Arg1:T83 Arg2:T84
+R19	TrAP Arg1:T90 Arg2:T91
+R20	TeRP Arg1:T92 Arg2:T93
+R21	PIP Arg1:T98 Arg2:T88
+R22	TrAP Arg1:T102 Arg2:T96
+R23	TrCP Arg1:T105 Arg2:T106
+R24	TrCP Arg1:T110 Arg2:T106
+R25	TeRP Arg1:T112 Arg2:T113
+R26	TrAP Arg1:T115 Arg2:T91
+R27	PIP Arg1:T122 Arg2:T121
+R28	PIP Arg1:T129 Arg2:T125
+R29	PIP Arg1:T133 Arg2:T134
+R30	TeCP Arg1:T140 Arg2:T130
+R31	TeCP Arg1:T140 Arg2:T132
+R32	TeRP Arg1:T154 Arg2:T79
+R33	TrAP Arg1:T167 Arg2:T131
+R34	TrAP Arg1:T173 Arg2:T172
+R35	TrAP Arg1:T176 Arg2:T177
+R36	TrAP Arg1:T179 Arg2:T177
+R37	TeRP Arg1:T197 Arg2:T196
+R38	PIP Arg1:T199 Arg2:T134
+R39	PIP Arg1:T205 Arg2:T203
+R40	TeRP Arg1:T220 Arg2:T198
+R41	TeRP Arg1:T220 Arg2:T134
+R42	TeRP Arg1:T220 Arg2:T199

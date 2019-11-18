@@ -1,0 +1,341 @@
+T1	test 1668 1671	ast
+T2	problem 1175 1209	mildly decreased breath sounds b/l
+T3	problem 4954 4965	pneumatosis
+T4	problem 4934 4949	wall thickening
+T5	problem 1239 1245	masses
+T6	problem 753 757	pain
+T7	test 1677 1684	alkphos
+T8	test 1693 1700	amylase
+T9	treatment 1248 1261	ostomy in rlq
+T10	problem 9847 9868	colovesicular fistula
+T11	treatment 5048 5059	antibiotics
+T12	problem 718 748	worsening abdominal distention
+T13	problem 1135 1143	afebrile
+T14	test 1794 1801	ctropnt
+T15	treatment 5036 5045	iv fluids
+T16	problem 1160 1163	nad
+T17	test 1892 1899	mb indx
+T18	test 1909 1916	ctropnt
+T19	treatment 5079 5096	ngt decompression
+T20	problem 791 793	mi
+T21	problem 783 786	cad
+T22	treatment 5148 5169	colonic decompression
+T23	problem 2261 2264	vre
+T24	problem 10227 10252	inability to eat or drink
+T25	test 2248 2258	wound swab
+T26	test 5062 5074	serial exams
+T27	problem 5259 5281	friable colonic tissue
+T28	problem 10263 10277	other symptoms
+T29	test 5182 5192	colonscopy
+T30	problem 5240 5254	pseudomembrane
+T31	test 1968 1975	ctropnt
+T32	problem 10157 10178	severe abdominal pain
+T33	treatment 5211 5224	decompression
+T34	test 1706 1713	totbili
+T35	problem 10135 10142	redness
+T36	test 2166 2173	ctropnt
+T37	test 9736 9758	exploratory laparotomy
+T38	problem 10146 10154	swelling
+T39	treatment 5344 5357	decompression
+T40	problem 5305 5311	tender
+T41	problem 5316 5325	distended
+T42	test 2225 2232	ctropnt
+T43	treatment 6066 6072	repair
+T44	problem 6076 6097	colovesicular fistula
+T45	problem 4375 4390	unstable angina
+T46	treatment 9244 9262	miconazole nitrate
+T47	treatment 9795 9814	primary anastomosis
+T48	problem 2454 2488	pneumatosis in the ascending colon
+T49	treatment 4396 4409	nitroglycerin
+T50	treatment 9147 9165	miconazole nitrate
+T51	test 2411 2422	prior study
+T52	treatment 4470 4483	beta blockers
+T53	problem 2283 2305	markedly dilated colon
+T54	treatment 6746 6749	npo
+T55	treatment 9329 9338	ibuprofen
+T56	treatment 10435 10447	white strips
+T57	problem 10454 10468	your incisions
+T58	treatment 4486 4493	aspirin
+T59	problem 2591 2606	wall thickening
+T60	treatment 10645 10661	home medications
+T61	test 2107 2114	ctropnt
+T62	treatment 4496 4504	a statin
+T63	treatment 4688 4697	intubated
+T64	problem 2519 2555	focal narrowing of the sigmoid colon
+T65	problem 2571 2585	the dilatation
+T66	treatment 4509 4525	an ace inhibitor
+T67	treatment 9682 9700	subtotal colectomy
+T68	treatment 4537 4545	diuresis
+T69	problem 2938 2959	bilateral renal cysts
+T70	treatment 4580 4591	2nd surgery
+T71	problem 9649 9662	hurtado colon
+T72	treatment 9426 9432	debrox
+T73	problem 2866 2889	small amount of ascites
+T74	treatment 8956 8974	potassium chloride
+T75	treatment 4714 4732	subtotal colectomy
+T76	test 2265 2271	ct abd
+T77	treatment 4766 4780	second surgery
+T78	test 4884 4903	her initial ct scan
+T79	problem 4911 4931	dilated turner colon
+T80	problem 2965 3022	heavy calcification of the aorta and sma and its branches
+T81	treatment 8871 8886	docusate sodium
+T82	treatment 8769 8778	oxycodone
+T83	problem 8860 8864	pain
+T84	problem 3032 3047	atherosclerosis
+T85	problem 402 423	colovesicular fistula
+T86	treatment 6414 6430	a foley catheter
+T87	problem 558 564	nausea
+T88	problem 569 577	vomiting
+T89	treatment 6358 6365	staples
+T90	problem 6304 6316	her incision
+T91	treatment 121 143	sulfa ( sulfonamides )
+T92	treatment 392 398	repair
+T93	problem 1296 1310	le trace edema
+T94	treatment 6522 6531	her foley
+T95	test 1351 1356	blood
+T96	problem 6515 6519	leak
+T97	test 6484 6496	a cystoscopy
+T98	treatment 1040 1047	surgery
+T99	treatment 316 329	end ileostomy
+T100	treatment 6782 6785	tpn
+T101	test 1446 1452	plt ct
+T102	test 1421 1425	mchc
+T103	treatment 332 348	hartmann's pouch
+T104	test 6685 6703	further assessment
+T105	treatment 295 313	subtotal colectomy
+T106	treatment 6664 6666	pt
+T107	test 1390 1393	hct
+T108	test 1401 1404	mcv
+T109	treatment 6909 6914	tf s,
+T110	problem 6891 6905	high residuals
+T111	test 1410 1413	mch
+T112	problem 10182 10192	distention
+T113	problem 203 209	nausea
+T114	treatment 6918 6921	tpn
+T115	treatment 351 357	g-tube
+T116	treatment 6826 6831	tf s,
+T117	problem 212 220	vomiting
+T118	test 1596 1597	k
+T119	treatment 426 444	small bowel repair
+T120	treatment 5409 5415	g tube
+T121	problem 5437 5453	unresponsiveness
+T122	treatment 5388 5406	subtotal colectomy
+T123	treatment 361 389	completion sigmoid colectomy
+T124	test 1604 1606	cl
+T125	test 1368 1371	rbc
+T126	problem 705 713	ischemia
+T127	test 1379 1382	hgb
+T128	problem 240 250	distention
+T129	treatment 1280 1286	g-tube
+T130	test 5946 5957	exploration
+T131	problem 223 237	abdominal pain
+T132	treatment 5420 5429	ileostomy
+T133	treatment 5457 5480	non-operative treatment
+T134	test 1433 1436	rdw
+T135	problem 530 544	abdominal pain
+T136	problem 6588 6614	significant deconditioning
+T137	test 1562 1567	urean
+T138	treatment 5986 6022	further resection of remaining colon
+T139	problem 796 799	htn
+T140	treatment 6106 6121	her 2nd surgery
+T141	test 1575 1580	creat
+T142	problem 802 806	dmii
+T143	problem 7320 7324	pain
+T144	test 1495 1498	ptt
+T145	treatment 5962 5970	drainage
+T146	test 1506 1513	inr(pt)
+T147	treatment 6224 6238	iv antibiotics
+T148	problem 2368 2384	air-fluid levels
+T149	test 1612 1616	hco3
+T150	treatment 6262 6270	pressors
+T151	problem 2669 2680	obstruction
+T152	problem 547 555	diarrhea
+T153	problem 6196 6205	nontender
+T154	problem 685 702	bowel obstruction
+T155	test 1622 1627	angap
+T156	test 1587 1589	na
+T157	problem 3405 3443	a small collection of extraluminal gas
+T158	problem 3246 3318	left lower quadrant thick-walled peripherally enhancing fluid collection
+T159	test 1952 1957	ck-mb
+T160	treatment 7448 7457	oxycodone
+T161	problem 5892 5915	a colovesicular fistula
+T162	treatment 7439 7445	motrin
+T163	test 5839 5848	a ct scan
+T164	problem 5877 5886	an abcess
+T165	test 2011 2018	ctropnt
+T166	treatment 7429 7436	tylenol
+T167	treatment 5756 5768	1 unit prbcs
+T168	test 2005 2010	blood
+T169	problem 7327 7335	her pain
+T170	test 1873 1878	blood
+T171	problem 5710 5720	distention
+T172	treatment 7356 7373	iv pain medicines
+T173	test 1836 1843	ctropnt
+T174	treatment 7280 7289	treatment
+T175	problem 7293 7317	persistent hyperglycemia
+T176	test 1946 1951	blood
+T177	test 5723 5730	her hct
+T178	test 1879 1884	ck-mb
+T179	test 2144 2149	blood
+T180	treatment 7172 7177	tf 's
+T181	test 2097 2102	ck-mb
+T182	test 2150 2155	ck-mb
+T183	treatment 7069 7072	tpn
+T184	treatment 5483 5492	ileostomy
+T185	problem 5674 5705	additional abdominal tenderness
+T186	treatment 7008 7013	tf 's
+T187	treatment 4792 4812	nebulizer treatments
+T188	problem 4612 4639	trace lower extremity edema
+T189	treatment 7018 7021	tpn
+T190	test 2048 2053	blood
+T191	test 2091 2096	blood
+T192	treatment 6967 6981	second surgery
+T193	test 5107 5129	flexible sigmoidoscopy
+T194	test 2054 2061	ctropnt
+T195	treatment 6940 6945	tf 's
+T196	treatment 9761 9789	resection of small intestine
+T197	test 1540 1545	blood
+T198	problem 9869 9884	unstable angina
+T199	treatment 3575 3584	ileostomy
+T200	treatment 4655 4663	lasix po
+T201	test 1546 1553	glucose
+T202	treatment 9817 9834	sigmoid colectomy
+T203	treatment 4443 4464	her medical treatment
+T204	test 1653 1658	blood
+T205	problem 9663 9677	diverticulitis
+T206	treatment 9837 9843	repair
+T207	problem 3526 3557	moderate intraabdominal ascites
+T208	test 1357 1360	wbc
+T209	treatment 9523 9532	trazodone
+T210	test 1479 1484	blood
+T211	test 3050 3088	assessment of the intraluminal process
+T212	test 1485 1487	pt
+T213	problem 2683 2708	an underlying mass lesion
+T214	test 1778 1783	blood
+T215	treatment 9090 9098	glargine
+T216	problem 2712 2718	cancer
+T217	test 1784 1789	ck-mb
+T218	treatment 7799 7806	norvasc
+T219	problem 3510 3520	an abscess
+T220	test 1830 1835	blood
+T221	test 2808 2826	limited evaluation
+T222	problem 2831 2860	known sigmoid-vesicle fistula
+T223	treatment 7636 7641	tf s,
+T224	test 1659 1662	alt
+T225	treatment 7659 7679	nasal cannula oxygen
+T226	test 1740 1745	blood
+T227	test 2757 2787	further clinical investigation
+T228	test 1746 1752	lipase
+T229	treatment 7597 7599	pt
+T230	treatment 10699 10705	colace
+T231	problem 10739 10751	constipation
+T232	treatment 3999 4009	restraints
+T233	treatment 9715 9731	gastrostomy tube
+T234	treatment 9703 9712	ileostomy
+T235	problem 3946 3966	intermitent delirium
+T236	treatment 10772 10787	pain medication
+T237	problem 10807 10813	drowsy
+T238	problem 10029 10048	shortness of breath
+T239	problem 3857 3866	confusion
+T240	problem 10016 10026	chest pain
+T241	treatment 10412 10426	a dry dressing
+T242	problem 10364 10378	clear drainage
+T243	problem 10384 10398	your incisions
+T244	problem 3733 3737	leak
+T245	problem 10051 10075	fever greater than 101.5
+T246	treatment 10680 10696	a stool softener
+T247	test 3723 3727	vcug
+T248	problem 7714 7726	acute events
+T249	problem 3661 3714	diverticulosis within the right remnant sigmoid colon
+T250	problem 4257 4272	mildly elevated
+T251	problem 10216 10224	vomiting
+T252	treatment 7827 7832	lasix
+T253	treatment 7833 7840	insulin
+T254	treatment 7816 7826	isosorbide
+T255	test 4238 4247	troponins
+T256	test 4231 4235	ekgs
+T257	test 4212 4226	serial enzymes
+T258	treatment 8163 8182	metoprolol tartrate
+T259	treatment 7807 7815	atenolol
+T260	problem 10078 10112	foul smelling or colorful drainage
+T261	problem 10195 10212	persistent nausea
+T262	problem 4115 4125	chest pain
+T263	treatment 8248 8255	aspirin
+T264	treatment 4027 4046	pertinent therapies
+T265	problem 10118 10132	your incisions
+T266	treatment 8081 8089	povidone
+T267	test 3120 3130	cta/ct abd
+T268	treatment 7968 7981	acetaminophen
+T269	problem 1221 1226	nt/nd
+T270	treatment 8061 8078	polyvinyl alcohol
+T271	problem 2616 2630	diverticulitis
+T272	treatment 7868 7887	heparin ( porcine )
+T273	problem 2491 2513	sigmoid diverticulosis
+T274	treatment 8667 8676	albuterol
+T275	treatment 8543 8562	ipratropium bromide
+T276	test 2203 2208	blood
+T277	test 2209 2214	ck-mb
+T278	treatment 8409 8419	lisinopril
+T279	treatment 8472 8482	furosemide
+T280	problem 3634 3655	distended gallbladder
+T281	treatment 8337 8349	atorvastatin
+T282	problem 3605 3628	small-bowel obstruction
+T283	problem 7199 7228	an insulin dependent diabetic
+T284	problem 3178 3211	small bilateral pleural effusions
+T285	problem 3217 3240	compressive atelectasis
+T286	treatment 6836 6843	the tpn
+T287	problem 3157 3175	pulmonary embolism
+T288	problem 6035 6061	a leak from relaford pouch
+T289	treatment 6025 6031	repair
+R1	PIP Arg1:T20 Arg2:T21
+R2	TeRP Arg1:T25 Arg2:T23
+R3	TeRP Arg1:T29 Arg2:T27
+R4	TeRP Arg1:T29 Arg2:T30
+R5	TrWP Arg1:T39 Arg2:T40
+R6	TrWP Arg1:T39 Arg2:T41
+R7	TrAP Arg1:T43 Arg2:T44
+R8	TrAP Arg1:T49 Arg2:T45
+R9	TeRP Arg1:T51 Arg2:T48
+R10	TrAP Arg1:T56 Arg2:T57
+R11	PIP Arg1:T64 Arg2:T65
+R12	PIP Arg1:T64 Arg2:T59
+R13	PIP Arg1:T65 Arg2:T59
+R14	TeRP Arg1:T78 Arg2:T79
+R15	TeRP Arg1:T78 Arg2:T4
+R16	TeRP Arg1:T78 Arg2:T3
+R17	TrAP Arg1:T82 Arg2:T83
+R18	TrAP Arg1:T89 Arg2:T90
+R19	TrAP Arg1:T92 Arg2:T85
+R20	TeRP Arg1:T97 Arg2:T96
+R21	TrCP Arg1:T109 Arg2:T110
+R22	TrAP Arg1:T114 Arg2:T110
+R23	TrAP Arg1:T120 Arg2:T121
+R24	TrAP Arg1:T122 Arg2:T121
+R25	TrAP Arg1:T132 Arg2:T121
+R26	TrCP Arg1:T133 Arg2:T121
+R27	PIP Arg1:T157 Arg2:T158
+R28	TeRP Arg1:T163 Arg2:T164
+R29	TeRP Arg1:T163 Arg2:T161
+R30	PIP Arg1:T164 Arg2:T161
+R31	TrAP Arg1:T172 Arg2:T169
+R32	TrAP Arg1:T174 Arg2:T175
+R33	TrAP Arg1:T200 Arg2:T188
+R34	TrAP Arg1:T206 Arg2:T10
+R35	TeCP Arg1:T221 Arg2:T222
+R36	TeCP Arg1:T227 Arg2:T216
+R37	TeCP Arg1:T227 Arg2:T213
+R38	TrAP Arg1:T230 Arg2:T231
+R39	TrCP Arg1:T236 Arg2:T237
+R40	TrAP Arg1:T241 Arg2:T242
+R41	TrAP Arg1:T241 Arg2:T243
+R42	PIP Arg1:T243 Arg2:T242
+R43	TrAP Arg1:T246 Arg2:T231
+R44	TeRP Arg1:T247 Arg2:T244
+R45	TeRP Arg1:T255 Arg2:T250
+R46	PIP Arg1:T265 Arg2:T260
+R47	PIP Arg1:T271 Arg2:T65
+R48	PIP Arg1:T271 Arg2:T59
+R49	PIP Arg1:T271 Arg2:T64
+R50	PIP Arg1:T273 Arg2:T64
+R51	PIP Arg1:T285 Arg2:T284
+R52	TrAP Arg1:T289 Arg2:T288

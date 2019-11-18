@@ -1,0 +1,85 @@
+320422564
+CTMC
+09300549
+340424
+06/16/1997 12:00:00 AM
+BILIARY OBSTRUCTION
+Signed
+DIS
+Admission Date :
+06/16/1997
+Report Status :
+Signed
+Discharge Date :
+06/18/1997
+PROBLEM LIST :
+1. RECTAL CARCINOMA , STATUS POST PARTIAL COLECTOMY .
+2. METASTATIC COLON CARCINOMA .
+3. HYPERTENSION .
+4. AORTIC STENOSIS WITH PORCINE VALVE .
+5. URINARY TRACT INFECTION .
+6. CHOLANGITIS .
+7. ANEMIA .
+HISTORY OF PRESENT ILLNESS :
+This is a 70 year old gentleman with metastatic rectal cancer who presented with biliary obstruction .
+In the past , he had biliary stents placed which clotted off .
+The patient was admitted to the Short Stay Unit for further evaluation .
+The day prior , the patient had endoscopic retrograde cholangiopancreatography done with dilated ducts times two and eventually had interventional radiology attempt to place percutaneous drains to decompress his biliary tree .
+The patient had two drains placed after a prolonged course and difficult procedure .
+After being transferred from the interventional radiology table to the stretcher , one of his lateral percutaneous drains had been pulled out inadvertently .
+He was admitted to the Short Stay Unit , given Ancef and Gentamicin per the team for antibiotic prophylaxis and observed overnight .
+PAST MEDICAL HISTORY :
+As above .
+ALLERGIES :
+None .
+MEDICATIONS ON ADMISSION :
+Cipro 500 mg p.o. b.i.d. , Vasotec 10 mg q.d.
+SOCIAL HISTORY :
+The patient denies any alcohol or tobacco .
+FAMILY HISTORY :
+Significant for colon carcinoma .
+REVIEW OF SYSTEMS :
+Unremarkable .
+PHYSICAL EXAMINATION :
+Temperature was 99.1 , blood pressure 132/74 , heart rate 80 , respirations 18 , 02 sat 99% on room air .
+The patient was an alert , jaundiced gentleman in no acute distress .
+LUNGS :
+were clear to auscultation .
+HEART :
+had a regular rate and rhythm with a II / VI systolic murmur at the right sternal border .
+ABDOMEN :
+was soft , nontender , with good bowel sounds .
+He had midline catheter that was still in place and was draining bile .
+EXTREMITIES :
+were without edema .
+NEUROLOGICAL :
+exam within normal limits .
+LABORATORY :
+White count was 8.2 , hematocrit 35 .
+AST was 175 , ALT 76 , LDH 454 .
+Total bilirubin was 12 and direct bilirubin 8 .
+Alkaline phosphatase was 372 .
+HOSPITAL COURSE :
+The patient was admitted to the Short Stay Unit and continued to receive antibiotics overnight .
+The next morning , he was doing well with the intact drain draining bilious material without any difficulty .
+The patient was doing well with minimal to no belly pain and no nausea or vomiting .
+The patient was taken back to surgery by the interventional radiology team and had a second drain placed without any difficulty and was transferred back to the Short Stay Unit .
+The patient was observed overnight without any problems .
+He was tolerating p.o. and feeling back to his baseline .
+He was discharged in stable condition .
+DISCHARGE MEDICATIONS :
+Same as admission .
+He will continue Cipro p.o. for prophylaxis .
+FOLLOW-UP :
+Follow-up with Dr. Loydsadd in one to two weeks .
+He is also to have AH for his home stent care .
+Dictated By :
+Attending :
+LILLBI FYFEBREUN , M.D. KE15 TB326/0625
+Batch :
+56777
+Index No. M2ZRS51Y3Q
+D :
+06/18/97
+T :
+06/21/97

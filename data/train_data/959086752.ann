@@ -1,0 +1,114 @@
+T1	problem 4395 4405	a hematoma
+T2	problem 4329 4370	some swelling in her left lower extremity
+T3	problem 3449 3500	small posterior tibial occlusion on the distal calf
+T4	treatment 1775 1787	hysterectomy
+T5	treatment 2031 2038	cytotec
+T6	treatment 2423 2433	ampicillin
+T7	problem 2414 2422	allergic
+T8	treatment 4190 4212	packed red blood cells
+T9	treatment 657 664	surgery
+T10	problem 633 641	her pain
+T11	problem 2887 2897	non-tender
+T12	treatment 2166 2174	prilosec
+T13	treatment 5269 5278	po keflex
+T14	problem 1233 1270	poor distal right extremity perfusion
+T15	test 3348 3363	her angiography
+T16	problem 3371 3407	a right proximal popliteal occlusion
+T17	problem 3410 3446	anterior tibial dominant foot vessel
+T18	problem 261 295	non-healing ulcer on the right leg
+T19	treatment 4510 4515	ancef
+T20	treatment 544 561	6 millimeter ptfe
+T21	problem 951 961	any trauma
+T22	problem 1081 1090	the ulcer
+T23	test 4026 4041	her vital signs
+T24	problem 1802 1808	goiter
+T25	problem 2999 3012	distal pulses
+T26	treatment 2063 2069	ativan
+T27	treatment 1450 1463	ciprofloxacin
+T28	problem 826 863	a non-healing right dorsal foot ulcer
+T29	problem 4586 4610	erythema on her left leg
+T30	treatment 2486 2499	aminophylline
+T31	treatment 504 538	above knee to fem pop bypass graft
+T32	treatment 2232 2237	lasix
+T33	problem 2273 2278	edema
+T34	problem 1618 1623	lupus
+T35	test 4419 4431	her pvr cuff
+T36	treatment 2090 2096	darvon
+T37	test 1388 1399	angiography
+T38	test 2543 2558	her vital signs
+T39	problem 1514 1551	rest pain in the right foot and ankle
+T40	problem 3599 3605	masses
+T41	treatment 1152 1161	silvadene
+T42	problem 3505 3521	a small peroneal
+T43	treatment 2457 2463	biaxin
+T44	test 4133 4147	her hematocrit
+T45	problem 3150 3192	a four centimeter ulcer with necrotic base
+T46	treatment 1337 1366	a revascularization procedure
+T47	treatment 564 578	this operation
+T48	problem 611 630	increased rest pain
+T49	problem 2779 2821	decreased breath sounds at bilateral bases
+T50	treatment 2323 2355	proventil inhaler via nebulizers
+T51	treatment 4659 4669	vancomycin
+T52	problem 4704 4716	her erythema
+T53	problem 1638 1655	multiple decubiti
+T54	problem 2827 2867	minimal expiratory crackles on the right
+T55	treatment 2466 2473	codeine
+T56	treatment 2154 2163	vitamin e
+T57	problem 457 484	peripheral vascular disease
+T58	treatment 1999 2006	trental
+T59	treatment 1745 1760	cholecystectomy
+T60	problem 1491 1497	chills
+T61	problem 1658 1685	peripheral vascular disease
+T62	problem 1846 1899	methicillin resistant staphylococcus aureus pneumonia
+T63	treatment 4886 4900	her respirator
+T64	problem 2745 2770	jugular venous distention
+T65	treatment 2446 2454	clinoril
+T66	problem 1593 1615	guillain-barr syndrome
+T67	test 3550 3570	a rectal examination
+T68	problem 3631 3639	decubiti
+T69	problem 3613 3627	gluteal ulcers
+T70	problem 3084 3097	distal pulses
+T71	treatment 4933 4964	an additional blood transfusion
+T72	treatment 1929 1939	prednisone
+T73	problem 1481 1487	fevers
+T74	problem 913 923	a pin hole
+T75	problem 2900 2913	non-distended
+T76	problem 4782 4788	wounds
+T77	test 1169 1203	lower extremity non-invasive study
+T78	treatment 3770 3818	a right fem to below knee popliteal bypass graft
+T79	treatment 320 360	right fem to below knee pop bypass graft
+T80	treatment 1700 1728	right total knee replacement
+T81	treatment 2376 2384	atrovent
+T82	treatment 2436 2443	tylenol
+T83	treatment 3825 3851	a six millimeter ring ptfe
+T84	treatment 2476 2481	sulfa
+T85	treatment 2281 2289	didronel
+T86	test 4993 5007	her hematocrit
+T87	problem 2733 2739	bruits
+T88	problem 3195 3223	minimal surrounding erythema
+T89	problem 4458 4478	surrounding erythema
+T90	problem 1813 1831	left lung fibrosis
+T91	problem 733 753	minimally ambulatory
+T92	treatment 2123 2130	relafen
+T93	treatment 2202 2208	zantac
+T94	problem 967 987	similar small ulcers
+R1	PIP Arg1:T2 Arg2:T1
+R2	TrCP Arg1:T6 Arg2:T7
+R3	TrIP Arg1:T9 Arg2:T10
+R4	TeRP Arg1:T15 Arg2:T16
+R5	TeRP Arg1:T15 Arg2:T17
+R6	TrCP Arg1:T30 Arg2:T7
+R7	TrAP Arg1:T32 Arg2:T33
+R8	TrAP Arg1:T41 Arg2:T22
+R9	TrCP Arg1:T43 Arg2:T7
+R10	TrAP Arg1:T47 Arg2:T48
+R11	TrAP Arg1:T51 Arg2:T29
+R12	TrIP Arg1:T51 Arg2:T52
+R13	TrCP Arg1:T55 Arg2:T7
+R14	TrCP Arg1:T65 Arg2:T7
+R15	TeRP Arg1:T67 Arg2:T68
+R16	TeRP Arg1:T67 Arg2:T40
+R17	TeRP Arg1:T67 Arg2:T69
+R18	TeRP Arg1:T77 Arg2:T14
+R19	TrCP Arg1:T82 Arg2:T7
+R20	TrCP Arg1:T84 Arg2:T7

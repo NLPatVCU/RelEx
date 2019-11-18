@@ -1,0 +1,157 @@
+T1	problem 3938 3965	persistent pleural effusion
+T2	problem 3990 3999	pneumonia
+T3	problem 4812 4818	nausea
+T4	problem 952 968	urinary symptoms
+T5	treatment 5270 5281	her surgery
+T6	problem 4537 4549	complication
+T7	problem 1172 1182	clear mass
+T8	treatment 4476 4506	carboplatin-taxolchemo therapy
+T9	problem 3045 3061	moderate e. coli
+T10	treatment 866 882	gynecologic care
+T11	treatment 1915 1932	albuterol inhaler
+T12	treatment 4353 4361	decadron
+T13	test 1110 1129	a pelvic ultrasound
+T14	problem 1152 1167	extensive fluid
+T15	treatment 3083 3095	levofloxacin
+T16	problem 314 321	obesity
+T17	treatment 1998 2010	im injection
+T18	problem 1981 1991	ulceration
+T19	treatment 1648 1655	removal
+T20	problem 1659 1675	a renal calculus
+T21	problem 4095 4109	high residuals
+T22	test 2828 2844	her urine output
+T23	treatment 3865 3881	nasogastric tube
+T24	problem 564 568	mass
+T25	problem 1358 1372	an elevated ca
+T26	treatment 5007 5019	chemotherapy
+T27	treatment 4958 4979	her next chemotherapy
+T28	treatment 4002 4018	her levofloxacin
+T29	treatment 484 515	bilateral lymph node dissection
+T30	problem 290 302	hypertension
+T31	treatment 3188 3197	her foley
+T32	treatment 3712 3718	zofran
+T33	problem 3673 3684	some emesis
+T34	problem 3661 3667	nausea
+T35	problem 3724 3733	no relief
+T36	problem 3485 3500	pulmonary edema
+T37	problem 2099 2118	throat constriction
+T38	test 2735 2747	a hematocrit
+T39	treatment 532 537	lysis
+T40	problem 541 550	adhesions
+T41	treatment 3320 3326	a port
+T42	treatment 2280 2297	bowel preparation
+T43	problem 4848 4854	nausea
+T44	problem 933 947	abdominal gerd
+T45	problem 2070 2094	some shortness of breath
+T46	test 4057 4089	nasogastric tube clamping trials
+T47	problem 4779 4786	anxiety
+T48	treatment 2577 2588	the surgery
+T49	problem 3923 3930	dyspnea
+T50	problem 3424 3445	left pleural effusion
+T51	problem 745 777	progressive abdominal distention
+T52	problem 1461 1473	hypertension
+T53	problem 2026 2040	food allergies
+T54	treatment 1686 1701	cholecystectomy
+T55	problem 3364 3383	shortness of breath
+T56	treatment 553 560	removal
+T57	problem 2165 2177	colon cancer
+T58	problem 1476 1482	asthma
+T59	problem 3450 3478	small right pleural effusion
+T60	problem 4748 4752	pain
+T61	problem 3971 3982	atelectasis
+T62	treatment 2462 2467	lysis
+T63	problem 2471 2480	adhesions
+T64	problem 1572 1586	whooping cough
+T65	treatment 2804 2825	packed red blood cell
+T66	treatment 5297 5318	her retention sutures
+T67	problem 1520 1527	obesity
+T68	problem 2761 2777	low urine output
+T69	treatment 518 529	omentectomy
+T70	treatment 4381 4397	her chemotherapy
+T71	test 3565 3580	her vital signs
+T72	treatment 420 448	total abdominal hysterectomy
+T73	treatment 4226 4239	a nasogastric
+T74	test 3619 3631	urine output
+T75	treatment 4821 4830	compazine
+T76	problem 2604 2640	poorly differentiated adenocarcinoma
+T77	problem 1541 1553	heart murmur
+T78	problem 804 821	urinary frequency
+T79	test 1842 1853	a mammogram
+T80	test 2550 2568	the frozen section
+T81	problem 2652 2681	serous carcinoma of the ovary
+T82	treatment 2483 2490	removal
+T83	problem 2494 2498	mass
+T84	problem 3554 3562	afebrile
+T85	treatment 4857 4865	decadron
+T86	treatment 1949 1956	demerol
+T87	problem 350 361	hemorrhoids
+T88	problem 364 378	whooping cough
+T89	problem 1556 1567	hemorrhoids
+T90	treatment 1624 1637	tonsillectomy
+T91	treatment 5286 5293	removal
+T92	treatment 4576 4588	her jp drain
+T93	treatment 451 481	bilateral salpingooophorectomy
+T94	problem 2919 2936	any complications
+T95	problem 780 801	crampy abdominal pain
+T96	problem 335 347	heart murmur
+T97	test 3386 3398	achest x-ray
+T98	problem 3505 3535	left lower lobe consolidations
+T99	treatment 4718 4726	dilaudid
+T100	problem 5103 5118	asthma symptoms
+T101	treatment 4755 4761	ativan
+T102	treatment 2448 2459	omentectomy
+T103	treatment 2355 2384	atotal abdominal hysterectomy
+T104	problem 1779 1790	dyspareunia
+T105	treatment 2387 2417	bilateral salpingooophorectomy
+T106	test 3893 3913	a repeat chest x-ray
+T107	problem 250 264	ovarian cancer
+T108	problem 826 834	diarrhea
+T109	problem 5090 5098	wheezing
+T110	treatment 2305 2316	the surgery
+T111	treatment 2420 2445	bilateral node dissection
+T112	treatment 4789 4795	zofran
+T113	problem 1264 1287	a relatively small mass
+T114	problem 305 311	asthma
+T115	treatment 5022 5028	colace
+T116	treatment 3736 3754	a nasogastric tube
+T117	problem 3791 3804	bilious fluid
+T118	test 1796 1827	regular breast self examination
+T119	test 2996 3029	the patient &apos;s urine culture
+T120	treatment 1887 1895	prinzide
+T121	test 1219 1222	mri
+T122	problem 1230 1258	a large fluid filled abdomen
+T123	treatment 5045 5063	albuterol inhalers
+T124	treatment 1501 1517	hospitalizations
+R1	TeRP Arg1:T13 Arg2:T14
+R2	TeRP Arg1:T13 Arg2:T7
+R3	TrCP Arg1:T17 Arg2:T18
+R4	TrAP Arg1:T19 Arg2:T20
+R5	TrWP Arg1:T32 Arg2:T33
+R6	TrWP Arg1:T32 Arg2:T34
+R7	TrWP Arg1:T32 Arg2:T35
+R8	PIP Arg1:T34 Arg2:T33
+R9	TrAP Arg1:T39 Arg2:T40
+R10	TrAP Arg1:T56 Arg2:T24
+R11	TrAP Arg1:T62 Arg2:T63
+R12	TrAP Arg1:T75 Arg2:T43
+R13	TeRP Arg1:T80 Arg2:T81
+R14	TeRP Arg1:T80 Arg2:T76
+R15	TrAP Arg1:T82 Arg2:T83
+R16	TeRP Arg1:T97 Arg2:T50
+R17	TeRP Arg1:T97 Arg2:T36
+R18	TeRP Arg1:T97 Arg2:T59
+R19	TeRP Arg1:T97 Arg2:T98
+R20	TrAP Arg1:T99 Arg2:T60
+R21	TrAP Arg1:T101 Arg2:T47
+R22	TeRP Arg1:T106 Arg2:T49
+R23	TeRP Arg1:T106 Arg2:T1
+R24	TeRP Arg1:T106 Arg2:T61
+R25	TeRP Arg1:T106 Arg2:T2
+R26	TrAP Arg1:T112 Arg2:T3
+R27	TrAP Arg1:T116 Arg2:T34
+R28	TrAP Arg1:T116 Arg2:T117
+R29	TeRP Arg1:T119 Arg2:T9
+R30	TeRP Arg1:T121 Arg2:T122
+R31	TeRP Arg1:T121 Arg2:T113
+R32	TrAP Arg1:T123 Arg2:T109
+R33	TrAP Arg1:T123 Arg2:T100

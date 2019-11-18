@@ -1,0 +1,353 @@
+T1	test 4142 4147	angap
+T2	treatment 10593 10612	thyroid supplements
+T3	test 3185 3188	sat
+T4	test 10631 10652	follow-up blood tests
+T5	test 4179 4182	alt
+T6	problem 10774 10780	fevers
+T7	test 3169 3171	hr
+T8	test 4188 4191	ast
+T9	test 3177 3179	rr
+T10	problem 10783 10789	chills
+T11	test 4106 4108	na
+T12	problem 10792 10802	chest pain
+T13	test 3266 3269	jvp
+T14	problem 3274 3282	elevated
+T15	test 4123 4125	cl
+T16	problem 3224 3238	flushed cheeks
+T17	test 4132 4136	hco3
+T18	problem 10805 10824	shortness of breath
+T19	problem 3241 3256	slightly dry mm
+T20	treatment 9660 9668	morphine
+T21	test 7388 7395	ct scan
+T22	problem 7406 7428	ground glass opacities
+T23	problem 7445 7477	an underlying infectious process
+T24	problem 9901 9910	pneumonia
+T25	problem 2436 2456	increasing back pain
+T26	problem 3391 3393	s3
+T27	problem 2374 2397	lymphovascular invasion
+T28	problem 9914 9933	acute renal failure
+T29	problem 3292 3311	decreased air entry
+T30	problem 3348 3356	egophony
+T31	problem 3404 3410	murmur
+T32	test 4200 4207	ck(cpk)
+T33	problem 3414 3417	rub
+T34	treatment 10380 10395	this medication
+T35	test 4216 4223	alkphos
+T36	problem 3396 3398	s4
+T37	test 4232 4239	amylase
+T38	problem 10530 10556	low thyroid hormone levels
+T39	test 4245 4252	totbili
+T40	problem 2463 2481	metastatic disease
+T41	problem 6797 6835	interval periosteal new bone formation
+T42	treatment 2530 2539	sorafenib
+T43	treatment 2517 2524	avastin
+T44	treatment 7894 7905	replacement
+T45	problem 7851 7864	abnormal tfts
+T46	treatment 2194 2218	left radical nephrectomy
+T47	problem 2122 2153	metastatic renal cell carcinoma
+T48	problem 2593 2615	ongoing grade iii rash
+T49	treatment 1774 1783	hydration
+T50	problem 6761 6791	predominantly sclerotic lesion
+T51	treatment 2751 2757	sutent
+T52	problem 2298 2338	renal cell carcinoma of chromophobe type
+T53	problem 2344 2364	carter nuclear grade
+T54	problem 2659 2670	proteinuria
+T55	treatment 2724 2745	single timlin therapy
+T56	treatment 2688 2695	avastin
+T57	problem 7104 7123	bibasilar pneumonia
+T58	problem 7150 7178	community-acquired pneumonia
+T59	problem 2885 2903	seasonal allergies
+T60	problem 10827 10836	dizziness
+T61	problem 5430 5448	slightly increased
+T62	treatment 2873 2879	sutent
+T63	problem 2830 2854	mild renal insufficiency
+T64	treatment 171 176	drugs
+T65	problem 152 167	known allergies
+T66	test 6737 6749	l femur xray
+T67	problem 10840 10869	any other concerning symptoms
+T68	problem 6575 6611	mild posterior mitral valve prolapse
+T69	problem 6617 6642	mild mitral regurgitation
+T70	test 3157 3159	bp
+T71	test 5760 5778	further evaluation
+T72	problem 5613 5640	bilateral pleural effusions
+T73	problem 5658 5679	cardiac insufficiency
+T74	problem 5699 5714	volume overload
+T75	test 3148 3149	t
+T76	problem 7055 7060	fever
+T77	problem 3210 3213	nad
+T78	test 3139 3145	vitals
+T79	problem 3316 3343	crackles at both lung bases
+T80	treatment 7907 7914	therapy
+T81	problem 8223 8242	renal insufficiency
+T82	treatment 1603 1605	ra
+T83	treatment 9131 9143	levofloxacin
+T84	test 5184 5204	bilateral le doppler
+T85	problem 5231 5290	deep venous thrombosis in the lower extremities bilaterally
+T86	problem 5374 5406	bilateral small pleural effusion
+T87	treatment 9019 9032	levothyroxine
+T88	problem 633 638	fever
+T89	problem 5313 5341	new bibasilar consolidations
+T90	treatment 101 109	medicine
+T91	problem 5515 5568	marked interval enlargement of the cardiac silhouette
+T92	problem 723 733	chest pain
+T93	treatment 8199 8205	sutent
+T94	treatment 10336 10347	your sutent
+T95	treatment 8397 8413	gentle hydration
+T96	problem 8355 8373	prerenal component
+T97	test 768 783	cardiac enzymes
+T98	treatment 9416 9422	sutent
+T99	problem 5463 5475	pneumothorax
+T100	test 786 803	an echocardiogram
+T101	treatment 8948 8970	fluticasone propionate
+T102	test 8245 8255	creatinine
+T103	test 808 837	a pharmacological stress test
+T104	test 5492 5500	ct torso
+T105	problem 8322 8343	underlying malignancy
+T106	treatment 10236 10251	this medication
+T107	test 7969 7983	recent ct scan
+T108	problem 7991 8020	destruction of l femoral neck
+T109	test 882 895	these studies
+T110	test 5041 5046	creat
+T111	problem 931 939	fatigued
+T112	treatment 10182 10190	levaquin
+T113	problem 10195 10206	a pneumonia
+T114	test 5142 5146	phos
+T115	treatment 10051 10066	all medications
+T116	problem 1060 1071	a new fever
+T117	treatment 7868 7874	sutent
+T118	test 7930 7949	follow-up bloodwork
+T119	test 5153 5155	mg
+T120	treatment 10161 10174	an antibiotic
+T121	problem 8081 8098	an acute fracture
+T122	problem 1131 1143	a mild cough
+T123	problem 1161 1175	non-productive
+T124	treatment 10439 10454	this medication
+T125	problem 1201 1218	aspiration events
+T126	test 5126 5133	calcium
+T127	test 5296 5301	cxray
+T128	test 8036 8058	an xray of the l femur
+T129	test 1733 1739	his bp
+T130	problem 9398 9410	constipation
+T131	treatment 9295 9310	docusate sodium
+T132	test 1638 1641	cxr
+T133	problem 1647 1671	bibasilar consolidations
+T134	treatment 8921 8933	pantoprazole
+T135	test 1592 1595	sat
+T136	problem 6340 6368	diffuse mesenteric stranding
+T137	treatment 8891 8906	docusate sodium
+T138	test 5089 5094	angap
+T139	treatment 1632 1635	nrb
+T140	treatment 8764 8787	ipratropium bromide neb
+T141	problem 9612 9616	pain
+T142	problem 9937 9968	metastatic renal cell carcinoma
+T143	test 5079 5083	hco3
+T144	problem 9972 9981	hypoxemia
+T145	problem 1484 1490	chills
+T146	treatment 9521 9529	morphine
+T147	test 5062 5063	k
+T148	test 5053 5055	na
+T149	problem 1413 1438	his low oxygen saturation
+T150	problem 5784 5825	bilateral basilar compressive atelectasis
+T151	problem 8519 8527	diarrhea
+T152	treatment 8725 8734	albuterol
+T153	problem 6147 6160	drug toxicity
+T154	treatment 8700 8707	heparin
+T155	treatment 8479 8486	imodium
+T156	treatment 8637 8641	msir
+T157	problem 256 261	fever
+T158	problem 6263 6290	new jejunal wall thickening
+T159	treatment 467 476	sorafenib
+T160	problem 375 389	metastatic rcc
+T161	treatment 455 462	avastin
+T162	treatment 8580 8589	ms contin
+T163	problem 6482 6525	mild symmetric left ventricular hypertrophy
+T164	treatment 8854 8870	morphine sulfate
+T165	treatment 8826 8838	levofloxacin
+T166	problem 609 628	shortness of breath
+T167	treatment 8508 8514	sutent
+T168	treatment 496 514	sutent monotherapy
+T169	treatment 8491 8498	lomotil
+T170	problem 6296 6335	persistent distal ileal wall thickening
+T171	treatment 8801 8812	ceftriaxone
+T172	treatment 7276 7288	azithromycin
+T173	problem 6015 6036	an infectious process
+T174	test 1583 1585	rr
+T175	treatment 7291 7294	ctx
+T176	test 1574 1576	hr
+T177	test 1898 1928	a cosyntropin stimulation test
+T178	problem 7362 7383	an oxygen requirement
+T179	problem 6092 6144	viral , fungal and atypical mycobacterial infections
+T180	treatment 7208 7219	ceftriaxone
+T181	problem 5940 5997	scattered ground glass opacities involving the right lung
+T182	test 1938 1946	cortisol
+T183	treatment 2081 2093	ongoing care
+T184	treatment 7222 7230	levaquin
+T185	test 5721 5738	an echocardiogram
+T186	treatment 7237 7243	flagyl
+T187	treatment 1687 1691	levo
+T188	problem 7063 7072	hypoxemia
+T189	test 4645 4652	free t4
+T190	problem 7079 7098	bibasilar pneumonia
+T191	test 4688 4691	wbc
+T192	problem 1496 1506	chest pain
+T193	test 4608 4611	tsh
+T194	test 4549 4556	ferritn
+T195	problem 1512 1523	le swelling
+T196	problem 6997 7011	metastatic rcc
+T197	treatment 7015 7021	sutent
+T198	test 4500 4502	mg
+T199	test 1555 1557	bp
+T200	test 4535 4542	caltibc
+T201	test 1542 1546	tmax
+T202	problem 7781 7817	significant increase in tumor burden
+T203	test 3655 3658	rdw
+T204	test 7738 7761	a staging ct scan torso
+T205	problem 1025 1034	congested
+T206	test 3641 3645	mchc
+T207	test 3630 3633	mch
+T208	test 4489 4493	phos
+T209	test 4473 4480	calcium
+T210	test 3710 3713	wbc
+T211	treatment 7666 7672	sutent
+T212	problem 7707 7722	acute infection
+T213	problem 7649 7663	metastatic rcc
+T214	problem 234 253	shortness of breath
+T215	test 3668 3674	plt ct
+T216	test 3736 3739	hgb
+T217	test 4432 4438	probnp
+T218	test 3723 3726	rbc
+T219	treatment 7576 7582	oxygen
+T220	treatment 1711 1717	flagyl
+T221	treatment 1843 1855	further care
+T222	test 7480 7484	echo
+T223	test 4337 4344	ctropnt
+T224	treatment 1884 1895	ceftriaxone
+T225	test 4380 4385	ck-mb
+T226	treatment 7635 7643	levaquin
+T227	treatment 1875 1879	levo
+T228	treatment 402 426	left radical nephrectomy
+T229	treatment 1795 1797	ns
+T230	test 4285 4292	ck(cpk)
+T231	problem 1963 1985	his oxygen requirement
+T232	test 4389 4396	ctropnt
+T233	test 4327 4332	ck-mb
+T234	test 3909 3915	plt ct
+T235	problem 539 563	mild renal insufficiency
+T236	test 3848 3850	pt
+T237	test 3858 3861	ptt
+T238	test 3994 3996	na
+T239	test 5070 5072	cl
+T240	test 4977 4984	inr(pt)
+T241	test 3967 3972	urean
+T242	test 5030 5035	urean
+T243	test 3608 3611	hct
+T244	test 3951 3958	glucose
+T245	test 3619 3622	mcv
+T246	test 3869 3876	inr(pt)
+T247	test 5017 5024	glucose
+T248	test 3595 3598	hgb
+T249	test 4912 4917	metas
+T250	test 3749 3752	hct
+T251	test 3762 3765	mcv
+T252	test 4967 4969	pt
+T253	test 3572 3575	wbc
+T254	test 3582 3585	rbc
+T255	test 3771 3774	mch
+T256	test 4926 4932	myelos
+T257	problem 3477 3482	edema
+T258	test 4881 4884	eos
+T259	test 3794 3797	rdw
+T260	test 4869 4874	monos
+T261	test 4898 4903	atyps
+T262	test 3782 3786	mchc
+T263	test 3807 3813	plt ct
+T264	test 4889 4893	baso
+T265	problem 3450 3460	non-tender
+T266	problem 1262 1282	mild reflux symptoms
+T267	test 4826 4831	neuts
+T268	problem 6901 6919	displaced fracture
+T269	test 4853 4859	lymphs
+T270	test 4070 4077	glucose
+T271	problem 6645 6698	small ( 0.6 cm ) circumferential pericardial effusion
+T272	test 1294 1305	further ros
+T273	problem 1314 1322	mild sob
+T274	test 4841 4846	bands
+T275	test 4083 4088	urean
+T276	test 4772 4775	rdw
+T277	test 4115 4116	k
+T278	test 4760 4764	mchc
+T279	test 6466 6470	echo
+T280	problem 1222 1229	choking
+T281	problem 6443 6460	metastatic burden
+T282	test 4094 4099	creat
+T283	test 4785 4791	plt ct
+T284	problem 6394 6416	an infectious etiology
+T285	test 4740 4743	mcv
+T286	test 4003 4004	k
+T287	test 4023 4027	hco3
+T288	test 4727 4730	hct
+T289	problem 5905 5935	tree-in-eric nodular opacities
+T290	test 4749 4752	mch
+T291	test 3980 3985	creat
+T292	test 4714 4717	hgb
+T293	problem 5828 5865	superimposed infectious consolidation
+T294	test 4033 4038	angap
+T295	test 4013 4015	cl
+T296	test 4701 4704	rbc
+R1	TeRP Arg1:T13 Arg2:T14
+R2	TeRP Arg1:T21 Arg2:T22
+R3	PIP Arg1:T22 Arg2:T23
+R4	TrAP Arg1:T44 Arg2:T45
+R5	TrAP Arg1:T46 Arg2:T47
+R6	PIP Arg1:T50 Arg2:T41
+R7	PIP Arg1:T52 Arg2:T53
+R8	TrCP Arg1:T56 Arg2:T54
+R9	PIP Arg1:T57 Arg2:T58
+R10	TrCP Arg1:T62 Arg2:T63
+R11	TrCP Arg1:T64 Arg2:T65
+R12	TeRP Arg1:T66 Arg2:T50
+R13	TeRP Arg1:T66 Arg2:T41
+R14	PIP Arg1:T68 Arg2:T69
+R15	TeCP Arg1:T71 Arg2:T72
+R16	TeCP Arg1:T71 Arg2:T73
+R17	TeCP Arg1:T71 Arg2:T74
+R18	PIP Arg1:T72 Arg2:T73
+R19	PIP Arg1:T72 Arg2:T74
+R20	TeRP Arg1:T84 Arg2:T85
+R21	TrIP Arg1:T95 Arg2:T96
+R22	TeCP Arg1:T97 Arg2:T92
+R23	TeCP Arg1:T100 Arg2:T92
+R24	TeCP Arg1:T102 Arg2:T81
+R25	TeCP Arg1:T103 Arg2:T92
+R26	TeRP Arg1:T107 Arg2:T108
+R27	TrAP Arg1:T112 Arg2:T113
+R28	TrCP Arg1:T117 Arg2:T45
+R29	TrAP Arg1:T120 Arg2:T113
+R30	PIP Arg1:T122 Arg2:T123
+R31	TeRP Arg1:T127 Arg2:T89
+R32	TeRP Arg1:T127 Arg2:T86
+R33	TeRP Arg1:T128 Arg2:T121
+R34	TrAP Arg1:T131 Arg2:T130
+R35	TeRP Arg1:T132 Arg2:T133
+R36	TrAP Arg1:T146 Arg2:T141
+R37	TrAP Arg1:T155 Arg2:T151
+R38	TrAP Arg1:T159 Arg2:T160
+R39	TrAP Arg1:T161 Arg2:T160
+R40	TrCP Arg1:T167 Arg2:T151
+R41	TrAP Arg1:T168 Arg2:T160
+R42	TrAP Arg1:T169 Arg2:T151
+R43	PIP Arg1:T181 Arg2:T173
+R44	TeCP Arg1:T185 Arg2:T74
+R45	TeCP Arg1:T185 Arg2:T72
+R46	TeCP Arg1:T185 Arg2:T73
+R47	TrAP Arg1:T197 Arg2:T196
+R48	TeRP Arg1:T204 Arg2:T202
+R49	TrNAP Arg1:T211 Arg2:T212
+R50	TrAP Arg1:T211 Arg2:T213
+R51	TrAP Arg1:T228 Arg2:T160
+R52	TeRP Arg1:T272 Arg2:T273
+R53	TeRP Arg1:T279 Arg2:T163
+R54	PIP Arg1:T284 Arg2:T158
+R55	PIP Arg1:T284 Arg2:T170
+R56	PIP Arg1:T284 Arg2:T136
+R57	PIP Arg1:T289 Arg2:T173

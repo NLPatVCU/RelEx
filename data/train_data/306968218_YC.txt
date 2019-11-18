@@ -1,0 +1,71 @@
+306968218 YC
+24803748
+3232251
+1/20/2003 12:00:00 AM
+IUP at 36 weeks , delivered
+DIS
+Admission Date :
+01/20/2003
+Report Status :
+Discharge Date :
+01/24/2003
+****** DISCHARGE ORDERS ******
+KOTEROSTREUKOTE , ARO MA O. 965-81-64-6 U94
+Room :
+HSN28-1050
+Service :
+OBS
+DISCHARGE PATIENT ON :
+01/24/03 AT 10:00 AM
+CONTINGENT UPON
+Attending evaluation
+WILL D / C ORDER BE USED AS THE D / C SUMMARY :
+YES
+Attending :
+HOUGHTBREUN , TESANT E. , M.D.
+DISPOSITION :
+Home
+DISCHARGE MEDICATIONS :
+TYLENOL ( ACETAMINOPHEN ) 650 MG PO Q4H PRN PAIN COLACE ( DOCUSATE SODIUM ) 100 MG PO BID PRN Constipation IBUPROFEN 600 MG PO Q4-6H PRN PAIN MILK OF MAGNESIA ( MAGNESIUM HYDROXIDE ) 30 MILLILITERS PO QD PRN Constipation PERCOCET 1-2 TAB PO Q4H PRN PAIN
+DIET :
+No Restrictions
+ACTIVITY :
+Walking as tolerated
+FOLLOW UP APPOINTMENT ( S ) :
+Houghtbreun 6 weeks , No Known Allergies
+ADMIT DIAGNOSIS :
+Repeat C / S PPS
+PRINCIPAL DISCHARGE DIAGNOSIS ;
+Responsible After Study for Causing Admission ) IUP at 36 weeks , delivered
+OTHER DIAGNOSIS ;
+Conditions , Infections , Complications , affecting Treatment / Stay IUP at 36 weeks .
+insulin dependent gestational diabetic , prior C / S , RSAP
+OPERATIONS AND PROCEDURES :
+Primary
+Anesthesia :
+Spinal
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+NONE
+BRIEF RESUME OF HOSPITAL COURSE :
+G4 T2 P0 A1 L2 Estimated
+EDC :
+Maternal transfer :
+No
+Baby 1
+MRN :
+23548875
+Delivery date :
+01/20/03 10:49 AM
+Apgars 9,9
+Weight :
+6lb 5 oz 2863 grams
+Sex :
+Female
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+No dictated summary
+ENTERED BY :
+HOUGHTBREUN , TESANT E. , M.D. ( EV89 ) 01/20/03 12:26 PM
+****** END OF DISCHARGE ORDERS ******
