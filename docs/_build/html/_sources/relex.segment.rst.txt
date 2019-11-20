@@ -21,5 +21,10 @@ relex.segment.set\_connection module
     :show-inheritance:
 
 
+Module contents
+---------------
 
-
+.. automodule:: relex.segment
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -20,10 +20,10 @@ def read_from_file(file):
 
     return content
 
-class SetConnection:
-    def __init__(self, dataset=None, rel_labels=None, no_labels=None, CSV=True,
-                sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
-                middle_segs=None, concept2_segs=None, succeeding_segs=None):
+class Set_Connection:
+    def __init__(self,sentences=None, labels=None, preceding_segs=None, concept1_segs=None, 
+                middle_segs=None, concept2_segs=None, succeeding_segs=None, dataset=None,
+                rel_labels=None, no_labels=None, CSV=True,):
         """
         Creates object based on data either from a dataset folder or a set of CSVs
 
@@ -39,8 +39,7 @@ class SetConnection:
         :param succeeding_segs: path to succeeding segments CSV
         """
         self.CSV = CSV
-        self.rel_labels = rel_labels
-        self.no_labels = no_labels
+
         if self.CSV:
             self.sentences = sentences
             self.labels = labels
@@ -53,6 +52,8 @@ class SetConnection:
 
         else: #if there are no CSVs, runs the Segmentation module to get object
             self.dataset = Dataset(dataset)
+            self.rel_labels = rel_labels
+            self.no_labels = no_labels
             self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels).segments
 
     def get_data_object(self):

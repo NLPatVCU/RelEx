@@ -1,0 +1,213 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>relex.RelEx_NN.cnn package &#8212; RelEx 1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">RelEx 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="relex-relex-nn-cnn-package">
+<h1>relex.RelEx_NN.cnn package<a class="headerlink" href="#relex-relex-nn-cnn-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-relex.RelEx_NN.cnn.segment_cnn">
+<span id="relex-relex-nn-cnn-segment-cnn-module"></span><h2>relex.RelEx_NN.cnn.segment_cnn module<a class="headerlink" href="#module-relex.RelEx_NN.cnn.segment_cnn" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.RelEx_NN.cnn.segment_cnn.Segment_CNN">
+<em class="property">class </em><code class="descclassname">relex.RelEx_NN.cnn.segment_cnn.</code><code class="descname">Segment_CNN</code><span class="sig-paren">(</span><em>model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.segment_cnn.Segment_CNN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.build_segment_cnn">
+<code class="descname">build_segment_cnn</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.build_segment_cnn" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.cross_validate">
+<code class="descname">cross_validate</code><span class="sig-paren">(</span><em>num_folds=5</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.cross_validate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_folds</strong> – </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.define_model">
+<code class="descname">define_model</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.segment_cnn.Segment_CNN.define_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-relex.RelEx_NN.cnn.sentence_cnn">
+<span id="relex-relex-nn-cnn-sentence-cnn-module"></span><h2>relex.RelEx_NN.cnn.sentence_cnn module<a class="headerlink" href="#module-relex.RelEx_NN.cnn.sentence_cnn" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN">
+<em class="property">class </em><code class="descclassname">relex.RelEx_NN.cnn.sentence_cnn.</code><code class="descname">Sentence_CNN</code><span class="sig-paren">(</span><em>model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.cross_validate">
+<code class="descname">cross_validate</code><span class="sig-paren">(</span><em>num_folds=5</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.cross_validate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_folds</strong> – </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.define_model">
+<code class="descname">define_model</code><span class="sig-paren">(</span><em>no_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.define_model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_classes</strong> – </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.fit_Model">
+<code class="descname">fit_Model</code><span class="sig-paren">(</span><em>model</em>, <em>x_train</em>, <em>y_train</em>, <em>validation=None</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.cnn.sentence_cnn.Sentence_CNN.fit_Model" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>model</strong> – </li>
+<li><strong>x_train</strong> – </li>
+<li><strong>y_train</strong> – </li>
+<li><strong>validation</strong> – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-relex.RelEx_NN.cnn">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.RelEx_NN.cnn" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">relex.RelEx_NN.cnn package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.cnn.segment_cnn">relex.RelEx_NN.cnn.segment_cnn module</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.cnn.sentence_cnn">relex.RelEx_NN.cnn.sentence_cnn module</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.cnn">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/source/relex.RelEx_NN.cnn.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">RelEx 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, add later.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

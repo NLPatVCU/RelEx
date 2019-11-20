@@ -46,9 +46,9 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
-    def __init__(self, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
         """
-
+        :param data_object: call set_connection here
         :param segment: Flag to be set to activate segment-CNN (default-True)
         :param test: Flag to be set to validate the model on the test dataset (default-False)
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
@@ -61,16 +61,17 @@ class Model:
         self.multilabel = multilabel
         self.common_words = common_words
         self.maxlen = maxlen
+        self.data_object = data_object
 
         # read dataset from external files
-        train_data = read_from_file("../data/segments/sentence_train")
-        train_labels = read_from_file("../data/segments/labels_train")
+        train_data = data_object['sentence']
+        train_labels = data_object['label']
         print(train_data)
         print(train_labels)
 
         if self.test:
-            test_data = read_from_file("../data/segments/sentence_test")
-            test_labels = read_from_file("../data/segments/labels_test")
+            test_data = data_object['sentence']
+            test_labels = data_object['label']
         else:
             test_data = None
             test_labels = None
@@ -82,20 +83,20 @@ class Model:
             self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.y_test = test_labels
         else:
-            self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+            # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
         # divides train data into partial train and validation data
         self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-        self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                  self.train_label)
+        # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
+                                                                                                  #self.train_label)
 
         if segment:
-            train_preceding = read_from_file("../data/segments/preceding_seg")
-            train_middle = read_from_file("../data/segments/middle_seg")
-            train_succeeding = read_from_file("../data/segments/succeeding_seg")
-            train_concept1 = read_from_file("../data/segments/concept1_seg")
-            train_concept2 = read_from_file("../data/segments/concept2_seg")
+            train_preceding = data_object['seg_preceding']
+            train_middle = data_object['seg_middle']
+            train_succeeding = data_object['seg_succeeding']
+            train_concept1 = data_object['seg_concept1']
+            train_concept2 = data_object['seg_concept2']
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(

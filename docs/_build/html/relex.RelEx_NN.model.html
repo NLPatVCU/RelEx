@@ -75,10 +75,19 @@
 <dl class="function">
 <dt id="relex.RelEx_NN.model.evaluate.evaluate_Model">
 <code class="descclassname">relex.RelEx_NN.model.evaluate.</code><code class="descname">evaluate_Model</code><span class="sig-paren">(</span><em>y_pred</em>, <em>y_true</em>, <em>encoder_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.evaluate.evaluate_Model" title="Permalink to this definition">¶</a></dt>
-<dd><p>Prints a classification report and the f1 scores
-:param y_pred:
-:param y_true:
-:param encoder_classes:</p>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>y_pred</strong> – </li>
+<li><strong>y_true</strong> – </li>
+<li><strong>encoder_classes</strong> – </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="function">
@@ -98,17 +107,27 @@ Then evaluates it against the trained model
 <span id="relex-relex-nn-model-model-module"></span><h2>relex.RelEx_NN.model.model module<a class="headerlink" href="#module-relex.RelEx_NN.model.model" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
 <dt id="relex.RelEx_NN.model.model.Model">
-<em class="property">class </em><code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>sentences</em>, <em>labels</em>, <em>preceding_segs</em>, <em>concept1_segs</em>, <em>middle_segs</em>, <em>concept2_segs</em>, <em>succeeding_segs</em>, <em>rel_labels</em>, <em>no_labels</em>, <em>segment=True</em>, <em>test=False</em>, <em>multilabel=True</em>, <em>one_hot=False</em>, <em>common_words=10000</em>, <em>maxlen=100</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>segment=True</em>, <em>test=False</em>, <em>multilabel=True</em>, <em>one_hot=False</em>, <em>common_words=10000</em>, <em>maxlen=100</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="method">
 <dt id="relex.RelEx_NN.model.model.Model.binarize_labels">
 <code class="descname">binarize_labels</code><span class="sig-paren">(</span><em>label_list</em>, <em>binarize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model.binarize_labels" title="Permalink to this definition">¶</a></dt>
 <dd><p>Takes the input list and binarizes or vectorizes the labels
 If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
-the one-hot encoding of the input list
-:param binarize: binarize flag
-:param label_list: list of text labels
-:return list:list of binarized / vectorized labels</p>
+the one-hot encoding of the input list</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>binarize</strong> – binarize flag</li>
+<li><strong>label_list</strong> – list of text labels</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>:return list:list of binarized / vectorized labels</p>
 </dd></dl>
 
 <dl class="method">
@@ -192,6 +211,32 @@ tokenizer and output the vector. If the one-hot flag is set to true, one-hot vec
 <p>:return:train samples, validation samples</p>
 </dd></dl>
 
+<dl class="function">
+<dt id="relex.RelEx_NN.model.model.read_from_file">
+<code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">read_from_file</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.read_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Reads external files and insert the content to a list. It also removes whitespace
+characters like `</div></blockquote>
+<p>` at the end of each line</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param file:</th><td class="field-body">name of the input file.</td>
+</tr>
+</tbody>
+</table>
+<p>:return : content of the file in list format</p>
+</div></blockquote>
+</dd></dl>
+
+</div>
+<div class="section" id="relex-relex-nn-model-multilabel-module">
+<h2>relex.RelEx_NN.model.multilabel module<a class="headerlink" href="#relex-relex-nn-model-multilabel-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-relex.RelEx_NN.model">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.RelEx_NN.model" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -208,6 +253,8 @@ tokenizer and output the vector. If the one-hot flag is set to true, one-hot vec
 <li><a class="reference internal" href="#relex-relex-nn-model-data-divider-module">relex.RelEx_NN.model.data_divider module</a></li>
 <li><a class="reference internal" href="#module-relex.RelEx_NN.model.evaluate">relex.RelEx_NN.model.evaluate module</a></li>
 <li><a class="reference internal" href="#module-relex.RelEx_NN.model.model">relex.RelEx_NN.model.model module</a></li>
+<li><a class="reference internal" href="#relex-relex-nn-model-multilabel-module">relex.RelEx_NN.model.multilabel module</a></li>
+<li><a class="reference internal" href="#module-relex.RelEx_NN.model">Module contents</a></li>
 </ul>
 </li>
 </ul>

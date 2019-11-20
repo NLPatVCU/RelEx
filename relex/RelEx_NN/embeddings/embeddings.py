@@ -5,7 +5,7 @@ import numpy as np
 
 class Embeddings:
 
-    def __init__(self, path, model, embedding_dim = 200):
+    def __init__(self, path, model, embedding_dim = 300):
         self.data_model = model
         self.path = path
         self.embedding_dim = embedding_dim
@@ -51,7 +51,3 @@ class Embeddings:
 
         print("Finished building embedding matrix ....")
         return self
-
-
-
-
