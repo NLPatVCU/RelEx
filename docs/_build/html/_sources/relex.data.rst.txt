@@ -20,6 +20,7 @@ relex.data.dataset module
     :undoc-members:
     :show-inheritance:
 
+<<<<<<< HEAD
 
 Module contents
 ---------------
@@ -28,3 +29,5 @@ Module contents
     :members:
     :undoc-members:
     :show-inheritance:
+=======
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e

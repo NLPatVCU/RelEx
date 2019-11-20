@@ -19,8 +19,13 @@ sys.path.insert(0, os.path.abspath('../relex'))
 sys.path.insert(0, os.path.abspath('../relex/RelEx_NN'))
 sys.path.insert(0, os.path.abspath('../relex/RelEx_NN/model'))
 sys.path.insert(0, os.path.abspath('../relex/RelEx_NN/nn'))
+<<<<<<< HEAD
 sys.path.insert(0, os.path.abspath('../relex/RelEx_NN/cnn'))
 sys.path.insert(0, os.path.abspath('../relex/utils'))
+=======
+sys.path.insert(0, os.path.abspath('../relex/cnn'))
+
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 
 # -- Project information -----------------------------------------------------
 

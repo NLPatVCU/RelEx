@@ -225,6 +225,23 @@ else:
     np_pred = np_pred.astype(int)
     np_true = np.array(y_test)
 
+<<<<<<< HEAD
     print(classification_report(np_true, np_pred, target_names=labels))
     if write_file:
         output_to_file(np_true, np_pred, labels)
+=======
+    if analysis:
+        np_true_single = np_true[np_true.sum(axis=1) == 1]
+        np_true_multiple = np_true[np_true.sum(axis=1) != 1]
+        np_pred_single = np_pred[np_true.sum(axis=1) == 1]
+        np_pred_multiple = np_pred[np_true.sum(axis=1) != 1]
+        print("--------------------- single labels only -----------------------------")
+        print(classification_report(np_true_single, np_pred_single, target_names=labels))
+        print(" --------------------- multiple labels only --------------------------")
+        print(classification_report(np_true_multiple, np_pred_multiple, target_names=labels))
+        print(np_pred_multiple.sum(axis=1) == 1)
+        print("single count -- ", np.sum(np_pred_single.sum(axis=1) == 1))
+        print("multiple count -- ", np.sum(np_pred_multiple.sum(axis=1) == 1))
+    print("--------------------------- Results ------------------------------------")
+    print(classification_report(np_true, np_pred, target_names=labels))
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e

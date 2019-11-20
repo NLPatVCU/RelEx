@@ -7,10 +7,15 @@ Subpackages
 .. toctree::
 
     relex.RelEx_NN
+<<<<<<< HEAD
+=======
+    relex.cnn
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
     relex.data
     relex.segment
     relex.utils
 
+<<<<<<< HEAD
 Submodules
 ----------
 
@@ -46,3 +51,6 @@ Module contents
     :members:
     :undoc-members:
     :show-inheritance:
+=======
+
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e

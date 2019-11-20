@@ -75,6 +75,7 @@
 <dl class="function">
 <dt id="relex.RelEx_NN.model.evaluate.evaluate_Model">
 <code class="descclassname">relex.RelEx_NN.model.evaluate.</code><code class="descname">evaluate_Model</code><span class="sig-paren">(</span><em>y_pred</em>, <em>y_true</em>, <em>encoder_classes</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.evaluate.evaluate_Model" title="Permalink to this definition">¶</a></dt>
+<<<<<<< HEAD
 <dd><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -88,6 +89,12 @@
 </tr>
 </tbody>
 </table>
+=======
+<dd><p>Prints a classification report and the f1 scores
+:param y_pred:
+:param y_true:
+:param encoder_classes:</p>
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 </dd></dl>
 
 <dl class="function">
@@ -107,13 +114,18 @@ Then evaluates it against the trained model
 <span id="relex-relex-nn-model-model-module"></span><h2>relex.RelEx_NN.model.model module<a class="headerlink" href="#module-relex.RelEx_NN.model.model" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
 <dt id="relex.RelEx_NN.model.model.Model">
+<<<<<<< HEAD
 <em class="property">class </em><code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>segment=True</em>, <em>test=False</em>, <em>multilabel=True</em>, <em>one_hot=False</em>, <em>common_words=10000</em>, <em>maxlen=100</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model" title="Permalink to this definition">¶</a></dt>
+=======
+<em class="property">class </em><code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>sentences</em>, <em>labels</em>, <em>preceding_segs</em>, <em>concept1_segs</em>, <em>middle_segs</em>, <em>concept2_segs</em>, <em>succeeding_segs</em>, <em>rel_labels</em>, <em>no_labels</em>, <em>segment=True</em>, <em>test=False</em>, <em>multilabel=True</em>, <em>one_hot=False</em>, <em>common_words=10000</em>, <em>maxlen=100</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model" title="Permalink to this definition">¶</a></dt>
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="method">
 <dt id="relex.RelEx_NN.model.model.Model.binarize_labels">
 <code class="descname">binarize_labels</code><span class="sig-paren">(</span><em>label_list</em>, <em>binarize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.Model.binarize_labels" title="Permalink to this definition">¶</a></dt>
 <dd><p>Takes the input list and binarizes or vectorizes the labels
 If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
+<<<<<<< HEAD
 the one-hot encoding of the input list</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -128,6 +140,12 @@ the one-hot encoding of the input list</p>
 </tbody>
 </table>
 <p>:return list:list of binarized / vectorized labels</p>
+=======
+the one-hot encoding of the input list
+:param binarize: binarize flag
+:param label_list: list of text labels
+:return list:list of binarized / vectorized labels</p>
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 </dd></dl>
 
 <dl class="method">
@@ -211,6 +229,7 @@ tokenizer and output the vector. If the one-hot flag is set to true, one-hot vec
 <p>:return:train samples, validation samples</p>
 </dd></dl>
 
+<<<<<<< HEAD
 <dl class="function">
 <dt id="relex.RelEx_NN.model.model.read_from_file">
 <code class="descclassname">relex.RelEx_NN.model.model.</code><code class="descname">read_from_file</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#relex.RelEx_NN.model.model.read_from_file" title="Permalink to this definition">¶</a></dt>
@@ -237,6 +256,8 @@ characters like `</div></blockquote>
 </div>
 <div class="section" id="module-relex.RelEx_NN.model">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-relex.RelEx_NN.model" title="Permalink to this headline">¶</a></h2>
+=======
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 </div>
 </div>
 
@@ -253,8 +274,11 @@ characters like `</div></blockquote>
 <li><a class="reference internal" href="#relex-relex-nn-model-data-divider-module">relex.RelEx_NN.model.data_divider module</a></li>
 <li><a class="reference internal" href="#module-relex.RelEx_NN.model.evaluate">relex.RelEx_NN.model.evaluate module</a></li>
 <li><a class="reference internal" href="#module-relex.RelEx_NN.model.model">relex.RelEx_NN.model.model module</a></li>
+<<<<<<< HEAD
 <li><a class="reference internal" href="#relex-relex-nn-model-multilabel-module">relex.RelEx_NN.model.multilabel module</a></li>
 <li><a class="reference internal" href="#module-relex.RelEx_NN.model">Module contents</a></li>
+=======
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 </ul>
 </li>
 </ul>

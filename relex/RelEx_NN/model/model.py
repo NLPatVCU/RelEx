@@ -5,25 +5,8 @@ from sklearn import preprocessing
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import os, logging, tempfile
-
-
-def read_from_file(file):
-    """
-    Reads external files and insert the content to a list. It also removes whitespace
-    characters like `\n` at the end of each line
-
-    :param file: name of the input file.
-    :return : content of the file in list format
-    """
-    if not os.path.isfile(file):
-        raise FileNotFoundError("Not a valid file path")
-
-    with open(file) as f:
-        content = f.readlines()
-    content = [x.strip() for x in content]
-
-    return content
-
+import psutil
+from segment import SetConnection
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
@@ -46,7 +29,11 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
+<<<<<<< HEAD
     def __init__(self, data_object, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
+=======
+    def __init__(self, sentences, labels, preceding_segs, concept1_segs, middle_segs, concept2_segs, succeeding_segs, rel_labels, no_labels, dataset, CSV=True segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100 ):
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
         """
         :param data_object: call set_connection here
         :param segment: Flag to be set to activate segment-CNN (default-True)
@@ -54,6 +41,16 @@ class Model:
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
+        :param sentences: path to sentences
+        :param labels: path to labels
+        :param preceding_segs: path to preceding segements
+        :param concept1_segs: path to concpet 1 segements
+        :param middle_segs: path to middle segements
+        :param concept2_segs: path to concept2 segements
+        :param succeeding_segs: path to succeeding segements
+        :param rel_labels: array of relationship labels
+        :param no_labels: label to be used when there is no relationship
+
         """
         self.one_hot = one_hot
         self.segment = segment
@@ -61,6 +58,7 @@ class Model:
         self.multilabel = multilabel
         self.common_words = common_words
         self.maxlen = maxlen
+<<<<<<< HEAD
         self.data_object = data_object
 
         # read dataset from external files
@@ -72,17 +70,54 @@ class Model:
         if self.test:
             test_data = data_object['sentence']
             test_labels = data_object['label']
+=======
+        self.CSV = CSV
+        if self.CSV:
+            self.sentences = sentences
+            self.labels = labels
+            self.preceding_segs = preceding_segs
+            self.concept1_segs = concept1_segs
+            self.middle_segs = middle_segs
+            self.concept2_segs = concept2_segs
+            self.succeeding_segs = succeeding_segs
+            self.dataset = None
         else:
-            test_data = None
+            self.sentences = None
+            self.labels = None
+            self.preceding_segs = None
+            self.concept1_segs = None
+            self.middle_segs = None
+            self.concept2_segs = None
+            self.succeeding_segs = None
+            self.dataset = dataset
+
+        self.rel_labels = rel_labels
+        self.no_labels = no_labels
+
+        train_data = SetConnection(self.dataset, self.rel_labels, self.no_labels, self.CSV, self.sentences, self.labels, self.preceding_segs, self.concept1_segs, self.middle_segs, self.concept2_seg, self.suceeding_segs).data_object
+
+        # read dataset from external files
+        train_sentences = train_data['sentence']
+        train_labels = train_data['label']
+        print(train_labels)
+
+        if self.test:
+            test_data = SetConnection(sentences, rel_labels, no_labels)
+            test_sentences = test_data['sentence_train']
+            test_labels = test_data['labels_train']
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
+        else:
+            test_sentences = None
             test_labels = None
 
         self.train_label = train_labels
 
         if self.test:
-            self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
-            self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.y_test = test_labels
+             self.train, self.x_test, self.word_index = self.vectorize_words(train_sentences, test_sentence)
+             # self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_sentences, test_sentence)
+             self.y_test = test_labels
         else:
+<<<<<<< HEAD
             # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
             self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
@@ -97,6 +132,21 @@ class Model:
             train_succeeding = data_object['seg_succeeding']
             train_concept1 = data_object['seg_concept1']
             train_concept2 = data_object['seg_concept2']
+=======
+             # self.train_onehot, self.token_index = self.one_hot_encoding(train_sentences, test_data)
+             self.train, self.word_index = self.vectorize_words(train_sentences, test_sentences)
+
+        # divides train data into partial train and validation data
+        self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
+        # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,self.train_label)
+
+        if segment:
+            train_preceding = train_data['seg_preceding']
+            train_middle = train_data['seg_middle']
+            train_succeeding = train_data['seg_succeeding']
+            train_concept1 = train_data['seg_concept1']
+            train_concept2 = train_data['seg_concept2']
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
@@ -220,29 +270,17 @@ class Model:
         Takes the input list and binarizes or vectorizes the labels
         If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
         the one-hot encoding of the input list
-
         :param binarize: binarize flag
         :param label_list: list of text labels
         :return list:list of binarized / vectorized labels
         """
-
-        if self.test or binarize:
-            self.encoder = preprocessing.LabelBinarizer()
+        if self.multilabel:
+            self.encoder = preprocessing.MultiLabelBinarizer()
+            encoder_label = self.encoder.fit_transform(label_list)
+        elif self.test or binarize:
+            self.encoder = preprocessing.MultiLabelBinarizer()
+            encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
             self.encoder = preprocessing.LabelEncoder()
-        self.encoder.fit(label_list)
-        encoder_label = self.encoder.transform(label_list)
-        # no_classes = len(self.encoder.classes_)
-
-        # bianry_encoder_label = []
-        # if len(encoder_label[0]) == 1:
-        #     for label in encoder_label:
-        #         if label == 0:
-        #             bianry_encoder_label.append([1, 0])
-        #         else:
-        #             bianry_encoder_label.append([0, 1])
-        #
-        # bianry_encoder_label = np.array(bianry_encoder_label)
-
+            encoder_label = self.encoder.fit_transform(label_list)
         return encoder_label
-        # return bianry_encoder_label

@@ -1,27 +1,10 @@
 import os
 import pandas as pd
 import numpy as np
+from utils import read_from_file
 
-def read_from_file(file):
-    """
-    Reads external files and insert the content to a list. It also removes whitespace
-    characters like `\n` at the end of each line
-
-    :param file: name of the input file.
-    :return : content of the file in list format
-    """
-    if not os.path.isfile(file):
-        raise FileNotFoundError("Not a valid file path")
-
-    with open(file) as f:
-        content = f.readlines()
-    content = [x.strip() for x in content]
-
-    return content
-
-
-train_data = read_from_file("../../../data/segments/sentence_train")
-train_labels = read_from_file("../../../data/segments/labels_train")
+train_data = read_from_file("/home/cora/Sam/RelEx/data/P_P/sentence_train")
+train_labels = read_from_file("/home/cora/Sam/RelEx/data/P_P/labels_train")
 
 
 df_data = pd.DataFrame(train_data, columns=['sentence'])

@@ -1,5 +1,9 @@
 # Author : Samantha Mahendran for RelEx
+<<<<<<< HEAD
 """ This file splits the dataset into sentences to be used in Segment CNN. """
+=======
+"Segments dataset"
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 
 from data import Annotation
 from spacy.pipeline import Sentencizer
@@ -57,7 +61,11 @@ class Segmentation:
     def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
                  same_entity_relation=False, de_sample=None):
         """
+<<<<<<< HEAD
         This class segments the dataset so the data can be used in Segment CNN. 
+=======
+        Class to segments data
+>>>>>>> 8c3c10cca94e4f0182297c5a742e3ec3edb4d11e
 
         :param datatset: path to datatset
         :param rel_labels: relationship labels array
