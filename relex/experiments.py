@@ -5,11 +5,12 @@ from RelEx_NN.cnn import Sentence_CNN
 from RelEx_NN.nn import Simple_NN
 
 embedding_path = "../word_embeddings/mimic3_d200.txt"
-model = Model(False, False, True)
+model = Model(True, False, False)
 
 embedding=Embeddings(embedding_path, model)
 # seg_cnn = Segment_CNN(model, embedding, True)
 sent_cnn = Sentence_CNN(model, embedding, True)
+
 
 
 

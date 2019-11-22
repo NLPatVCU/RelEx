@@ -31,7 +31,6 @@ class Segment_CNN:
 
     def define_model(self):
         """
-
         :return:
         """
         input_shape = Input(shape=(self.data_model.maxlen,))
@@ -46,7 +45,6 @@ class Segment_CNN:
 
     def build_segment_cnn(self, no_classes):
         """
-
         :param no_classes:
         :return:
         """
@@ -72,7 +70,6 @@ class Segment_CNN:
 
     def cross_validate(self, num_folds=5):
         """
-
         :param num_folds:
         """
         Pre_data = self.data_model.preceding

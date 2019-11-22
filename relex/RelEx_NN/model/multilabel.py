@@ -20,10 +20,10 @@ import evaluate
 
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
 cv = True
-analysis = True
+analysis = False
 
-# embedding_path = "../../../word_embeddings/glove.6B.300d.txt"
-embedding_path = "../../../word_embeddings/mimic3_d300.txt"
+embedding_path = "../../../word_embeddings/glove.6B.200d.txt"
+# embedding_path = "../../../word_embeddings/mimic3_d300.txt"
 
 def read_from_file(file):
     """
@@ -77,7 +77,7 @@ def prediction_to_label(prediction):
     return dict(sorted(tag_prob, key=lambda kv: kv[1], reverse=True))
 
 embeddings_index = read_embeddings_from_file(embedding_path)
-embedding_dim = 300
+embedding_dim = 200
 maxlen = 100
 max_words = 5000
 
@@ -92,8 +92,8 @@ with open(embedding_path) as f:
         embeddings_index[word] = coefs
     f.close()
 
-train_data = read_from_file("../../../data/segments/sentence_train")
-train_labels = read_from_file("../../../data/segments/labels_train")
+train_data = read_from_file("../../../data/n2c2/sentence_train")
+train_labels = read_from_file("../../../data/n2c2/labels_train")
 # train_data = read_from_file("../../../data/sentence_train")
 # train_labels = read_from_file("../../../data/labels_train")
 
