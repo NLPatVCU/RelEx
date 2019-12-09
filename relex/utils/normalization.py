@@ -46,7 +46,11 @@ def desample_given_unique_labels_current_ratios(sentences, labels, ratios, uniqu
     # finds amounts of each label that will be in the new list
     new_amount = []
     for ratio, current, label in zip(ratios, current_ratios, unique_labels):
-        reduce_num = ((current - ratio) / current) * labels.count(label)
+        if len(ratios) < 3 and ratio - current < 0:  # when there are only two labels,sometimes you have to get to the
+            # reduce_num in a different manner
+            reduce_num = (((current - ratio) / current) * labels.count(label)) - ratio
+        else:
+            reduce_num = ((current - ratio) / current) * labels.count(label)
         new_amount.append(labels.count(label) - reduce_num)
 
     # shuffles lists
@@ -124,7 +128,7 @@ def desample(sentences, labels, ratios):
     for ratio, current, label in zip(ratios, current_ratios, unique_labels):
         if len(ratios) < 3 and ratio - current < 0:  # when there are only two labels,sometimes you have to get to the
             # reduce_num in a different manner
-            reduce_num = (((current - ratio) / current) * labels.count(label)) + (current - ratio)
+            reduce_num = (((current - ratio) / current) * labels.count(label)) - ratio
         else:
             reduce_num = ((current - ratio) / current) * labels.count(label)
         new_amount.append(labels.count(label) - reduce_num)

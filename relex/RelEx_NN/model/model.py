@@ -6,7 +6,7 @@ from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import os, logging, tempfile
 import psutil
-from segment import SetConnection
+from segment import Set_Connection
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
@@ -29,7 +29,7 @@ def create_validation_data(train_data, train_label, num_data=1000):
 
 class Model:
 
-    def __init__(self, data_object, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object=None, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
 
         """
         :param data_object: call set_connection here
@@ -69,6 +69,7 @@ class Model:
         else:
             test_sentences = None
             test_labels = None
+            test_data = None
 
         self.train_label = train_labels
 

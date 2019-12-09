@@ -21,9 +21,9 @@ def read_from_file(file):
     return content
 
 class Set_Connection:
-    def __init__(self,sentences=None, labels=None, preceding_segs=None, concept1_segs=None, 
+    def __init__(self,sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
                 middle_segs=None, concept2_segs=None, succeeding_segs=None, dataset=None,
-                rel_labels=None, no_labels=None, CSV=True,):
+                rel_labels=None, no_labels=None, CSV=True):
         """
         Creates object based on data either from a dataset folder or a set of CSVs
 
