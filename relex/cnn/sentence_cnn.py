@@ -31,7 +31,6 @@ class Sentence_CNN:
 
     def define_model(self, no_classes):
         """
-
         :param no_classes:
         :return:
         """
@@ -52,14 +51,18 @@ class Sentence_CNN:
         outputs = Dense(no_classes, activation=self.output_activation)(dense1)
 
         model = Model(inputs=input_shape, outputs=outputs)
-        model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+
+        if self.data_model.multilabel:
+            model.compile(loss='binary_crossentropy', optimizer=self.optimizer, metrics=['categorical_accuracy'])
+        else:
+            model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+        # model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
         print(model.summary())
 
         return model
 
     def fit_Model(self, model, x_train, y_train, validation=None):
         """
-
         :param model:
         :param x_train:
         :param y_train:
@@ -70,7 +73,12 @@ class Sentence_CNN:
                             batch_size=self.batch_size, validation_data=validation)
         print("epochs: ", self.epochs)
         loss = history.history['loss']
-        acc = history.history['acc']
+        # acc = history.history['acc']
+        if self.data_model.multilabel:
+            acc = history.history['categorical_accuracy']
+
+        else:
+            acc = history.history['acc']
 
         if validation is not None:
             val_loss = history.history['val_loss']
@@ -86,7 +94,6 @@ class Sentence_CNN:
 
     def cross_validate(self, num_folds=5):
         """
-
         :param num_folds:
         """
         X_data =  self.data_model.train
@@ -103,10 +110,19 @@ class Sentence_CNN:
         evaluation_statistics = {}
         fold = 1
 
-        for train_index, test_index in skf.split(X_data, Y_data):
-            binary_Y = self.data_model.binarize_labels(Y_data, True)
+        binary_Y = self.data_model.binarize_labels(Y_data, True)
+        for train_index, test_index in skf.split(X_data, binary_Y):
+        # if self.data_model.multilabel:
+        #     print("multi")
+        #     binary_Y = self.data_model.binarize_labels(Y_data, True)
+        #     Y_data= binary_Y
+        # for train_index, test_index in skf.split(X_data, Y_data):
+        #     if not self.data_model.multilabel:
+        #         print("no multi")
+        #         binary_Y = self.data_model.binarize_labels(Y_data, True)
+        #         Y_data = binary_Y
             x_train, x_test = X_data[train_index], X_data[test_index]
-            y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+            y_train, y_test = Y_data[train_index], Y_data[test_index]
             print("Training Fold %i", fold)
 
             labels = [str(i) for i in self.data_model.encoder.classes_]

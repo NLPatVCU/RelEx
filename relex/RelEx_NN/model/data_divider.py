@@ -1,10 +1,27 @@
 import os
 import pandas as pd
 import numpy as np
-from utils import read_from_file
 
-train_data = read_from_file("/home/cora/Sam/RelEx/data/P_P/sentence_train")
-train_labels = read_from_file("/home/cora/Sam/RelEx/data/P_P/labels_train")
+def read_from_file(file):
+    """
+    Reads external files and insert the content to a list. It also removes whitespace
+    characters like `\n` at the end of each line
+
+    :param file: name of the input file.
+    :return : content of the file in list format
+    """
+    if not os.path.isfile(file):
+        raise FileNotFoundError("Not a valid file path")
+
+    with open(file) as f:
+        content = f.readlines()
+    content = [x.strip() for x in content]
+
+    return content
+
+
+train_data = read_from_file("../../../data/segments/sentence_train")
+train_labels = read_from_file("../../../data/segments/labels_train")
 
 
 df_data = pd.DataFrame(train_data, columns=['sentence'])
@@ -43,4 +60,8 @@ np.savetxt(r'total/sentence_train.txt', df.sentence, fmt='%s')
 np.savetxt(r'total/labels_train.txt', df.label, fmt='%s')
 
 # df_multilabel.to_csv("multilabel.csv", index=False, header=False)
+<<<<<<< HEAD
 # df_singlelabel.to_csv("singlelabel.csv", index=False, header=False)
+=======
+# df_singlelabel.to_csv("singlelabel.csv", index=False, header=False)
+>>>>>>> relex_Sam

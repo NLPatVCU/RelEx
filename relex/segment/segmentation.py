@@ -5,7 +5,53 @@ from data import Annotation
 from spacy.pipeline import Sentencizer
 from spacy.lang.en import English
 import spacy
-from utils import list_to_file, remove_punctuation, replace_punctuation
+
+
+def list_to_file(file, input_list):
+    """
+    Function to write the contents of a list to a file
+
+    :param file: name of the output file.
+    :param input_list: list needs to be written to file
+    """
+    with open(file, 'w') as f:
+        for item in input_list:
+            f.write("%s\n" % item)
+
+
+def remove_Punctuation(string):
+    """
+    Function to remove punctuation from a given string. It traverses the given string
+    and replaces the punctuation marks with null
+
+    :param string: given string.
+    :return string:string without punctuation
+    """
+    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+    for x in string.lower():
+        if x in punctuations:
+            string = string.replace(x, "")
+
+    return string
+
+
+def replace_Punctuation(string):
+    """
+    Function to remove punctuation from a given string. It traverses the given string
+    and replaces the punctuation marks with comma (,)
+
+    :param string: given string.
+    :return string:string without punctuation
+    """
+    punctuations = '''!()-[]{};:'"\,<>/?@#$%^&*_~'''
+
+    for x in string.lower():
+        if x in punctuations:
+            string = string.replace(x, ",")
+
+    return string
+
 
 def add_file_segments(doc_segments, segment):
     """
@@ -195,7 +241,6 @@ class Segmentation:
                 concept_2 = self.doc.char_span(start_C1, end_C1)
 
             if concept_1 is not None and concept_2 is not None:
-
                 # get the sentence where the entity is located
                 sentence_C1 = str(concept_1.sent)
                 sentence_C2 = str(concept_2.sent)
@@ -234,6 +279,7 @@ class Segmentation:
             yes : label it with the given annotated label
             no : if no-rel label is active label as a No - relation pair
         Finally it passes the sentence and the spans of the entities to the function that extracts the following segments:
+
         Preceding - (tokenize words before the first concept)
         concept 1 - (tokenize words in the first concept)
         Middle - (tokenize words between 2 concepts)
@@ -251,7 +297,6 @@ class Segmentation:
 
         for key1, value1 in ann.annotations['entities'].items():
             label1, start1, end1, mention1 = value1
-
             # for problem entitiyy (i2b2)
             if label1 == self.rel_labels[0]:
                 for key2, value2 in ann.annotations['entities'].items():
@@ -306,7 +351,7 @@ class Segmentation:
     def extract_sentences(self, ann, entity1, entity2, label_rel=None, from_relation=False):
         """
         when the two entities are give as input, it identifies the sentences they are located and determines whether the
-        entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
+        entity pair is in the same sentence or not. if not they combine the sentences. If there is an annotated relation exists
         and returns None if an annotated relation doesn't exist
 
         :param ann: annotation object
@@ -332,7 +377,6 @@ class Segmentation:
             concept_2 = self.doc.char_span(start_C1, end_C1)
 
         if concept_1 is not None and concept_2 is not None:
-
             # get the sentence the entity is located
             sentence_C1 = str(concept_1.sent.text)
             sentence_C2 = str(concept_2.sent.text)
