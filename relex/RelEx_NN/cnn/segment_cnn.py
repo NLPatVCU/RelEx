@@ -4,18 +4,11 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-from utils import output_to_file
-from tensorflow import set_random_seed
-from numpy.random import seed
 
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation = False, testing=False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',optimizer='rmsprop', metrics=['accuracy']):
-        self.testing = testing
-        if self.testing:
-            seed(1)
-            set_random_seed(2)
+    def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',optimizer='rmsprop', metrics=['accuracy']):
         self.data_model = model
         self.embedding = embedding
         self.cv = cross_validation
@@ -30,7 +23,7 @@ class Segment_CNN:
         self.loss = loss
         self.optimizer = optimizer
         self.metrics = metrics
-        self.testing = testing
+
         if self.cv:
             self.cross_validate()
 
@@ -116,4 +109,4 @@ class Segment_CNN:
             fold += 1
 
         evaluate.cv_evaluation(labels, evaluation_statistics)
-        output_to_file(y_true, y_pred, "output.txt", target=labels)
+        # output_to_file(y_true, y_pred, "output.txt", target=labels)

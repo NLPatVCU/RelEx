@@ -19,7 +19,7 @@ def list_to_file(file, input_list):
             f.write("%s\n" % item)
 
 
-def remove_Punctuation(string):
+def remove_punctuation(string):
     """
     Function to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with null
@@ -36,7 +36,7 @@ def remove_Punctuation(string):
     return string
 
 
-def replace_Punctuation(string):
+def replace_punctuation(string):
     """
     Function to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with comma (,)

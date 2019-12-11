@@ -201,22 +201,22 @@ class Model:
 
         return padded_preceding, padded_middle, padded_succeeding, padded_concept1, padded_concept2, word_index
 
+    #cora's fix
     def binarize_labels(self, label_list, binarize=False):
         """
-        Takes the input list and binarizes or vectorizes the labels
-        If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
-        the one-hot encoding of the input list
-        :param binarize: binarize flag
+        Function takes a list as the input and binarizes labels in a one-vs-all fashion
+        Then outputs the one-hot encoding of the input list
+
+    ​
+        :param binarize:
         :param label_list: list of text labels
-        :return list:list of binarized / vectorized labels
+        :return list:list of binarized labels
         """
-        if self.multilabel:
-            self.encoder = preprocessing.MultiLabelBinarizer()
-            encoder_label = self.encoder.fit_transform(label_list)
-        elif self.test or binarize:
+        if self.test or binarize:
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
             self.encoder = preprocessing.LabelEncoder()
             encoder_label = self.encoder.fit_transform(label_list)
+
         return encoder_label
