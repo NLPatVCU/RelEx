@@ -6,17 +6,10 @@ from keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
-
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Embedding, Flatten, GlobalMaxPool1D, Dropout, Conv1D
-from keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint
-from keras.losses import binary_crossentropy
-from keras.optimizers import Adam
 import numpy as np
-import evaluate
+
 
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
 cv = True
@@ -195,8 +188,9 @@ if cv:
         print(classification_report(np.array(true_multiple), np.array(pred_multiple), target_names=labels))
     print("--------------------- Results --------------------------------")
     print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
-    print("single", np.sum(np.array(pred_multiple).sum(axis=1)==1))
-    print("multiple", np.sum(np.array(pred_multiple).sum(axis=1)!=1))
+    if analysis:
+        print("single", np.sum(np.array(pred_multiple).sum(axis=1)==1))
+        print("multiple", np.sum(np.array(pred_multiple).sum(axis=1)!=1))
 else:
     # train - test split
 

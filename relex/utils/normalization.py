@@ -4,7 +4,7 @@ import random
 from functools import reduce
 
 
-def remove_punctuation(string):
+def remove_Punctuation(string):
     """
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with null
@@ -17,7 +17,7 @@ def remove_punctuation(string):
     return string
 
 
-def replace_punctuation(string):
+def replace_Punctuation(string):
     """
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with comma (,)

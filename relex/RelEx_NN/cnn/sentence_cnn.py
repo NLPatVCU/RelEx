@@ -2,8 +2,9 @@
 from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
+from sklearn.preprocessing import MultiLabelBinarizer
 from RelEx_NN.model import evaluate
-
+from sklearn.metrics import classification_report
 
 class Sentence_CNN:
 
@@ -33,24 +34,40 @@ class Sentence_CNN:
         :param no_classes:
         :return:
         """
-        input_shape = Input(shape=(self.data_model.maxlen,))
-        embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
+        if self.data_model.multilabel:
+            filter_length = 300
 
-        if self.embedding:
-            embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
-                                  weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
-        conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
-        pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
+            model = Sequential()
+            model.add(Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                weights=[self.embedding.embedding_matrix], input_length=self.data_model.maxlen))
+            model.add(Dropout(0.1))
+            model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
+            model.add(GlobalMaxPool1D())
+            model.add(Dense(len(self.data_model.encoder.classes_)))
+            model.add(Activation('sigmoid'))
 
-        conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
-        drop = Dropout(self.drop_out)(conv2)
+            model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+        else:
 
-        flat = Flatten()(drop)
-        dense1 = Dense(self.filters, activation=self.activation)(flat)
-        outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+            input_shape = Input(shape=(self.data_model.maxlen,))
+            embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
 
-        model = Model(inputs=input_shape, outputs=outputs)
-        model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+            if self.embedding:
+                embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                      weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
+            conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
+            pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
+
+            conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
+            drop = Dropout(self.drop_out)(conv2)
+
+            flat = Flatten()(drop)
+            dense1 = Dense(self.filters, activation=self.activation)(flat)
+            outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+
+            model = Model(inputs=input_shape, outputs=outputs)
+            model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+
         print(model.summary())
 
         return model
@@ -85,7 +102,7 @@ class Sentence_CNN:
         """
         :param num_folds:
         """
-        X_data =  self.data_model.train
+        X_data = self.data_model.train
         Y_data = self.data_model.train_label
 
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
@@ -98,22 +115,59 @@ class Sentence_CNN:
 
         evaluation_statistics = {}
         fold = 1
+        originalclass = []
+        predictedclass = []
+        binary_Y = self.data_model.binarize_labels(Y_data, False)
+        # multilabel_binarizer = MultiLabelBinarizer()
+        # multilabel_binarizer.fit(Y_data)
+        # binary_Y = multilabel_binarizer.transform(Y_data)
+        # num_classes = len(multilabel_binarizer.classes_)
+        for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
 
-        for train_index, test_index in skf.split(X_data, Y_data):
-            binary_Y = self.data_model.binarize_labels(Y_data, True)
+            # binary_Y = self.data_model.binarize_labels(Y_data, True)
             x_train, x_test = X_data[train_index], X_data[test_index]
             y_train, y_test = binary_Y[train_index], binary_Y[test_index]
             print("Training Fold %i", fold)
 
             labels = [str(i) for i in self.data_model.encoder.classes_]
+            if self.data_model.multilabel:
+                filter_length = 300
 
-            cv_model = self.define_model(len(self.data_model.encoder.classes_))
-            cv_model, loss, acc = self.fit_Model(cv_model, x_train, y_train)
+                model = Sequential()
+                model.add(Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                    weights=[self.embedding.embedding_matrix], input_length=self.data_model.maxlen))
+                model.add(Dropout(0.1))
+                model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
+                model.add(GlobalMaxPool1D())
+                model.add(Dense(len(self.data_model.encoder.classes_)))
+                model.add(Activation('sigmoid'))
 
-            y_pred, y_true = evaluate.predict(cv_model, x_test, y_test, labels)
-            fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+                model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+                history = model.fit(x_train, y_train, epochs=20, batch_size=64)
 
-            evaluation_statistics[fold] = fold_statistics
-            fold += 1
+                np_pred = np.array(model.predict(x_test))
+                np_pred[np_pred < 0.5] = 0
+                np_pred[np_pred > 0.5] = 1
+                np_pred = np_pred.astype(int)
+                np_true = np.array(y_test)
+                originalclass.extend(np_true)
+                predictedclass.extend(np_pred)
+                print("--------------------------- Results ------------------------------------")
+                print(classification_report(np_true, np_pred, target_names=labels))
+            else:
 
-        evaluate.cv_evaluation(labels, evaluation_statistics)
+                cv_model = self.define_model(len(self.data_model.encoder.classes_))
+                cv_model, loss, acc = self.fit_Model(cv_model, x_train, y_train)
+                y_pred, y_true = evaluate.predict(cv_model, x_test, y_test, labels)
+                fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+
+                evaluation_statistics[fold] = fold_statistics
+                fold += 1
+
+            print("--------------------- Results --------------------------------")
+            if self.data_model.multilabel:
+                print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+            else:
+                evaluate.cv_evaluation(labels, evaluation_statistics)
+
+

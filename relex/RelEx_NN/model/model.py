@@ -1,5 +1,6 @@
 # Author : Samantha Mahendran for RelEx
 # Author : Cora Lewis for function binarize_labels
+
 from keras.preprocessing.text import Tokenizer
 from sklearn import preprocessing
 from keras.preprocessing.sequence import pad_sequences
@@ -7,24 +8,6 @@ from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
 import pandas as pd
 import os, logging, tempfile
-
-
-def read_from_file(file):
-    """
-    Reads external files and insert the content to a list. It also removes whitespace
-    characters like `\n` at the end of each line
-    :param file: name of the input file.
-    :return : content of the file in list format
-    """
-    if not os.path.isfile(file):
-        raise FileNotFoundError("Not a valid file path")
-
-    with open(file) as f:
-        content = f.readlines()
-    content = [x.strip() for x in content]
-
-    return content
-
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
@@ -69,14 +52,24 @@ def reduce_duplicate_data(train_data, train_labels):
 
 class Model:
 
-    def __init__(self, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
         """
+        :param data_object: call set_connection here
         :param multilabel: Flag to be set to run sentence-CNN for multi-labels
         :param segment: Flag to be set to activate segment-CNN (default-True)
         :param test: Flag to be set to validate the model on the test dataset (default-False)
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
+        :param sentences: path to sentences
+        :param labels: path to labels
+        :param preceding_segs: path to preceding segements
+        :param concept1_segs: path to concpet 1 segements
+        :param middle_segs: path to middle segements
+        :param concept2_segs: path to concept2 segements
+        :param succeeding_segs: path to succeeding segements
+        :param rel_labels: array of relationship labels
+        :param no_labels: label to be used when there is no relationship
         """
         self.one_hot = one_hot
         self.segment = segment
@@ -84,16 +77,15 @@ class Model:
         self.multilabel = multilabel
         self.common_words = common_words
         self.maxlen = maxlen
+        self.data_object = data_object
 
         # read dataset from external files
-        # train_data = read_from_file("../data/segments/sentence_train")
-        # train_labels = read_from_file("../data/segments/labels_train")
-        train_data = read_from_file("../data/segments/sentence_train")
-        train_labels = read_from_file("../data/segments/labels_train")
+        train_data = data_object['sentence']
+        train_labels = data_object['label']
 
         if self.test:
-            test_data = read_from_file("../data/segments/sentence_test")
-            test_labels = read_from_file("../data/segments/labels_test")
+            test_data = data_object['sentence']
+            test_labels = data_object['label']
         else:
             test_data = None
             test_labels = None
@@ -122,13 +114,12 @@ class Model:
             self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
             self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
                                                                                                       self.train_label)
-
         if segment:
-            train_preceding = read_from_file("../data/segments/preceding_seg")
-            train_middle = read_from_file("../data/segments/middle_seg")
-            train_succeeding = read_from_file("../data/segments/succeeding_seg")
-            train_concept1 = read_from_file("../data/segments/concept1_seg")
-            train_concept2 = read_from_file("../data/segments/concept2_seg")
+            train_preceding = data_object['seg_preceding']
+            train_middle = data_object['seg_middle']
+            train_succeeding = data_object['seg_succeeding']
+            train_concept1 = data_object['seg_concept1']
+            train_concept2 = data_object['seg_concept2']
 
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
@@ -256,9 +247,14 @@ class Model:
         :return list:list of binarized / vectorized labels
         """
         if self.multilabel:
-            self.encoder = preprocessing.MultiLabelBinarizer()
-            encoder_label = self.encoder.fit_transform(label_list)
+            print("multi")
+            self.encoder = MultiLabelBinarizer()
+            self.encoder.fit(label_list)
+            encoder_label = self.encoder.transform(label_list)
+            # self.encoder = preprocessing.MultiLabelBinarizer()
+            # encoder_label = self.encoder.fit_transform(label_list)
         elif self.test or binarize:
+            print("binary ---------------------------------------")
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
@@ -266,36 +262,3 @@ class Model:
             encoder_label = self.encoder.fit_transform(label_list)
         return encoder_label
 
-
-    #on reserve
-    # def binarize_labels(self, label_list, binarize=False):
-    #     """
-    #     Takes the input list and binarizes or vectorizes the labels
-    #     If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
-    #     the one-hot encoding of the input list
-    #     :param binarize: binarize flag
-    #     :param label_list: list of text labels
-    #     :return list:list of binarized / vectorized labels
-    #     """
-    #
-    #     if self.test or binarize:
-    #         self.encoder = preprocessing.LabelBinarizer()
-    #         # self.encoder = MultiLabelBinarizer()
-    #     else:
-    #         self.encoder = preprocessing.LabelEncoder()
-    #     self.encoder.fit(label_list)
-    #     encoder_label = self.encoder.transform(label_list)
-    #     # no_classes = len(self.encoder.classes_)
-    #
-    #     # bianry_encoder_label = []
-    #     # if len(encoder_label[0]) == 1:
-    #     #     for label in encoder_label:
-    #     #         if label == 0:
-    #     #             bianry_encoder_label.append([1, 0])
-    #     #         else:
-    #     #             bianry_encoder_label.append([0, 1])
-    #     #
-    #     # bianry_encoder_label = np.array(bianry_encoder_label)
-    #
-    #     return encoder_label
-    #     # return bianry_encoder_label
