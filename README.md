@@ -24,7 +24,7 @@ pip install requirements.txt
 Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx_Colocation/). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
 
 ## Documentation
-- [RelEx CNN]()
+- [RelEx CNN](https://github.com/SamMahen/RelEx/blob/relex_cora/relex/README.md)
 - [RelEx Co-location]()
 - [Walkthrough guide]()
 
