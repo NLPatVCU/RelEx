@@ -51,6 +51,7 @@ data=Set_Connection(CSV=True,sentence_only = True, sentences='../data/n2c2/sente
 print(data_object['label'])
 ```
 
+[Next Module](https://github.com/SamMahen/RelEx/blob/relex_cora/relex/guide/cnn_module.md)
 
 
 
