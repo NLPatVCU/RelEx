@@ -1,15 +1,28 @@
 # RelEx CNN documentation 
 ## Table of Contents
-1. [Data Segmentation](#data_segmentation)
-2. [Model](#model)
+1. [Installation](#installation)
+2. [Deployment](#deployment)
+3. [Data Segmentation](#data_segmentation)
+4. [Model](#model)
    1. [Keras Tokenizer](#k_tokenizer)
-3. [Word Embeddings](#word_embeddings)
-4. [Sentence CNN](#sen_cnn)
-5. [Multilabel Sentence CNN](#multi_cnn)
-6. [Segment Cnn](#seg_cnn)
-7. [Regularization](#Regularization)
+5. [Word Embeddings](#word_embeddings)
+6. [Sentence CNN](#sen_cnn)
+7. [Multilabel Sentence CNN](#multi_cnn)
+8. [Segment Cnn](#seg_cnn)
+9. [Regularization](#Regularization)
 
 The walkthrough guide can be found [here]()
+
+### Installation
+
+Create a python 3.6 virtual environment and install the packages given in the requirements.txt
+
+```
+pip install requirements.txt
+```
+## Deployment
+
+Sample dataset (some files from N2C2 2018 corpus) and sample script is provided (/RelEx_Colocation/). This takes the paths for the data folder (relative path of the sample dataset) and the prediction folder and predicts relation using the method that traverses both sides of the drug entity within a sentence boundary.
 
 ## Data segmentation <a name="data_segmentation"></a>
 Text and annotation files of a dataset are filtered and passed into a dataset object which is read in along with the entity mentions of each relation category. Dataset is prepossessed to convert it to the standard format before segmentation by removing punctuation, accent marks and other diacritics that do not contribute to the context of the text, converting all letters to lowercase.
