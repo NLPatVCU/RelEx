@@ -25,7 +25,7 @@ Sample dataset (some files from N2C2 2018 corpus) and sample script is provided 
 
 ## Documentation
 - [RelEx CNN](https://github.com/SamMahen/RelEx/blob/relex_cora/relex/README.md)
-- [RelEx Co-location]()
+- [RelEx Colocation](https://github.com/SamMahen/RelEx/blob/relex_cora/RelEx_Colocation/README.md)
 - [Walkthrough guide]()
 
 ## Authors
