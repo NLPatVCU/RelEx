@@ -13,7 +13,7 @@
 
 The walkthrough guide can be found [here]()
 
-### Installation
+## Installation
 
 Create a python 3.6 virtual environment and install the packages given in the requirements.txt
 
