@@ -13,7 +13,8 @@ model = Model(data, False, False, True)
 
 embedding=Embeddings(embedding_path, model)
 # seg_cnn = Segment_CNN(model, embedding, True)
-sent_cnn = Sentence_CNN(model, embedding, True, filters = 300, drop_out=0.1, filter_conv = 3, optimizer= 'adam')
+sent_cnn = Sentence_CNN(model, embedding, True, filters = 300, drop_out=0.1, filter_conv = 3, optimizer= 'adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+# sent_cnn = Sentence_CNN(model, embedding, True)
 
 # sent_cnn = Simple_NN(model, embedding, True)
 # seg_cnn.cross_validate(model.preceding, model.middle, model.succeeding, model.concept1, model.concept2, model.train_label)

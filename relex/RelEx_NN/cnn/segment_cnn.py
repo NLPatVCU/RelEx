@@ -31,7 +31,9 @@ class Segment_CNN:
 
     def define_model(self):
         """
-        :return:
+        define a CNN model with defined parameters when the class is called
+        :param no_classes: no of classes
+        :return: trained model
         """
         input_shape = Input(shape=(self.data_model.maxlen,))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
@@ -45,8 +47,9 @@ class Segment_CNN:
 
     def build_segment_cnn(self, no_classes):
         """
-        :param no_classes:
-        :return:
+        Builds individual units for each segments
+        :param no_classes: no of classes
+        :return: trained model
         """
         flat1, input_shape1 = self.define_model()
         flat2, input_shape2 = self.define_model()
@@ -70,7 +73,7 @@ class Segment_CNN:
 
     def cross_validate(self, num_folds=5):
         """
-        :param num_folds:
+        :param num_folds: no of fold for cross validation (default = 5)
         """
         Pre_data = self.data_model.preceding
         Mid_data = self.data_model.middle

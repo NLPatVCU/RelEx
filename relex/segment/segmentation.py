@@ -57,6 +57,17 @@ class Segmentation:
     def __init__(self, dataset = None, rel_labels = None, no_rel_label = None, sentence_align = False, test = False,
                  same_entity_relation = False, de_sample = None):
 
+        """
+           Dataset is read in and the text and annotation files are segmented along with the labels.
+           :param dataset: path to dataset
+           :param rel_labels: list of options for relationship labels
+           :param no_labels: list with label for when there is no relationship
+           :param sentence_align: options to break sentences
+           :param sentences: path to sentences CSV
+           :param test: test data present
+           :param same_entity_relation: check whether relation exists between same type of entities
+           :param de_sample: reduce the no of samples
+        """
         self.dataset = dataset
         self.rel_labels = rel_labels
         self.test = test
@@ -73,10 +84,6 @@ class Segmentation:
         else:
             self.de_sample = False
 
-        """
-        Simple pipeline component, to allow custom sentence boundary detection logic that doesn’t require the dependency parse.
-        A simpler, rule-based strategy that doesn’t require a statistical model to be loaded
-        """
         if sentence_align:
             sentencizer = Sentencizer(punct_chars=["\n"])
         else:

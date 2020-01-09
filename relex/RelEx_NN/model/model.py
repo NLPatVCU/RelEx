@@ -61,15 +61,7 @@ class Model:
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
-        :param sentences: path to sentences
-        :param labels: path to labels
-        :param preceding_segs: path to preceding segements
-        :param concept1_segs: path to concpet 1 segements
-        :param middle_segs: path to middle segements
-        :param concept2_segs: path to concept2 segements
-        :param succeeding_segs: path to succeeding segements
-        :param rel_labels: array of relationship labels
-        :param no_labels: label to be used when there is no relationship
+
         """
         self.one_hot = one_hot
         self.segment = segment
