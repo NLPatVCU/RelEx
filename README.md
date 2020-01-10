@@ -1,6 +1,6 @@
 # RelEx
 
-RelEx is a clinical **R**elation **E**xtraction **F**ramework to identify relations between two entities. Framework is divided into two main components: co-location based (rule based) Relation Extraction and deep learning based (CNN) Relation Extraction. 
+RelEx is a clinical **Rel**ation **Ex**traction Framework to identify relations between two entities. Framework is divided into two main components: co-location based (rule based) Relation Extraction and deep learning based (CNN) Relation Extraction. 
 ![alt text](https://nlp.cs.vcu.edu/images/Edit_NanomedicineDatabase.png "Nanoinformatics")
 
 System is designed to consider two entities in a sentence and determine whether a relation exists in between the entities. RelEx includes a rule-based approach based on the co-location information of the drug entity. The co-location information of the drug determines with respect to the non-drug entity if the entity that is being referesd is a drug. The Deep learning based approach is further divided into components epending on the representation of what we feed into the Convolutional Neural Network (CNN). Deep learning based approach consists of 2 major components: Sentence-CNN  and Segment-CNN. Sentence-CNN further divides into Single label Sentence-CNN and multi label Sentence-CNN. 
