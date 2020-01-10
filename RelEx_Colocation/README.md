@@ -1,4 +1,5 @@
 # RelEx Colocation Documentation
+This is a rule-based approach to extract and classify clinical relation from clinical text. This uses the colocation information of the entities to determine the relations between the entities.
 
 ## Table of Content
 1.  [Installation](#installation)
@@ -10,7 +11,7 @@
 Create a python 3.6 virtual environment and install the packages given in the requirements.txt
 
 ```
-pip install requirements.txt
+pip install Colocation_requirements.txt
 ```
 ## Deployment
 
