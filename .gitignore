@@ -1,0 +1,5 @@
+data/
+word_embeddings/
+*.txt
+*.csv
+
