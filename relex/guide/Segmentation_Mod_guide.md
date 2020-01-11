@@ -5,8 +5,8 @@ Dataset is read in and the text and annotation files are segmented along with th
 ## Data Segmentation
 
 ### Flags:
-No_relation : If relation doesn't exist between two entities and the flag is enabled, the entity pair is assigned to the no_relation label.
-same_entity_relation: check whether relation exists between same type of entities
+- no_relation : If relation doesn't exist between two entities and the flag is enabled, the entity pair is assigned to the no_relation label.
+- same_entity_relation: check whether relation exists between same type of entities
 
 ### Code
 Following snippet shows how to run segmentation module to extract segments of the i2b2-2010 dataset TeP (test - problem category).
