@@ -21,7 +21,7 @@ In the following the algorithm is explained in detail and a walk thorugh guide i
       2. [Multilabel Sentence CNN](#multi_cnn)
       3. [Segment Cnn](#seg_cnn)
    5. [Regularization](#Regularization)
-3. [Walkthrough Guide](https://github.com/SamMahen/RelEx/blob/relex_cora/relex/guide/guide.md)
+3. [Walkthrough Guide](https://github.com/SamMahen/RelEx/blob/master/relex/guide/GUIDE.md)
 
 ## Installation
 
