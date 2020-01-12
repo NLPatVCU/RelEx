@@ -46,15 +46,24 @@ The segmentation module, identifies and extracts sentences where entities are lo
 When extracting sentences it checks whether the annotated relation type already exists, if not the sentences are labeled as a no-relation pair.
 
 ### Pre-processing
-#### Tokenization <a name="k_tokenizer"></a>
+#### Vectorization <a name="k_tokenizer"></a>
 
-Text in each segment is converted into vector sequences using Keras tokenizer.
+Neural  networks  learn  information  through  numerical representation of the data. We need to convert the text into real number vectors. We cannot feed lists of integers into a neural network, therefore, we have to turn our lists into tensors. There are two ways to vectorize the words.
 
-Keras tokenizer takes input data and creates a tokenizer. The tokenizer considers only the top given number of the most common words in the input data and creates a word index. The data is tokenized using the tokenizer and returns a vector sequence.
+-Pad lists to have same length, and turn them into an integer tensor of shape (samples, word_indices). We used Keras tokenizer to take into account only the top given number of the most common words in data and builds a word index. We used 2 options to vectorize the words. Maximum length of a sequence is determined and the output sequence is padded according to it. Sequences that are shorter than determined length are padded with value at the end whereas sequences longer are truncated so that they fit the desired length. Position of the padding is controlled by the arguments.
+-One-hot-encode lists to turn them into vectors of 0s and 1s.It tokenizes the samples via the `split` method. Assigns a unique index to each unique word and returns a dictionary of unique tokens.
 
-Maximum length of a sequence is determined and the output sequence is padded according to it. Sequences that are shorter than determined length are padded with value at the end whereas sequences longer are truncated so that they fit the desired length. Position of the padding is controlled by the arguments.
 #### Label Binarization<a name="binarizer"></a>
 Binarizes labels in a one-vs-all fashion. Several regression and binary classification algorithms are available in scikit-learn can be utilized for this. It converts multi-class labels to binary labels (belong or does not belong to the class) by assigning a unique value or number to each label in a categorical feature.
+
+Eg: labels - TrCP, TrIP, TeRP
+
+TrCP 			1 0 0 0 0
+TrIP			0 1 0 0 0 
+TeRP			0 0 1 0 0
+
+If the multilabel flag is set to true, then the binarization is done in the following manner.
+TrCP, TrIP, TeRP	1 1 1 0 0
 
 ### Word embeddings<a name="word_embeddings"></a>
 The word embeddings map a set of words or phrases in a vocabulary to real-valued vectors which helps to reduce the dimensionality and learn linguistic patterns in the data. Given a batch of vector sequences as input, the embedding layer converts the sequence into real-valued embedding vectors. Initially the weights are assigned randomly and gradually they are adjusted through backpropagation.
