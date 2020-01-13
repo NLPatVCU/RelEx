@@ -5,12 +5,12 @@ Dataset is read in and the text and annotation files are segmented along with th
 ## Data Segmentation
 
 ### Flags:
-- no_relation : If relation doesn't exist between two entities and the flag is enabled, the entity pair is assigned to the no_relation label.
-- same_entity_relation: check whether relation exists between same type of entities
+- no_relation : If a relation doesn't exist between two entities and the flag is enabled, the entity pair is assigned to the no_relation label.
+- same_entity_relation: check whether a relation exists between same type of entities
 
 ### Code
 Following snippet shows how to run segmentation module to extract segments of the i2b2-2010 dataset TeP (test - problem category).
-*You can find a sample program [here](https://github.com/SamMahen/RelEx/tree/master/relex/samples).
+*You can find a sample program [here](https://github.com/SamMahen/RelEx/tree/master/relex/samples).*
 ```python
 # To extract the problem - treatment relations object
 from data import Dataset
@@ -32,9 +32,9 @@ seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label )
 
 If the dataset contains multiple categories of classes, run each category of the labels separately and follow the above steps.
 
-For example, first locate the sentence where one entity is located and determine the relations between other entity types in the same sentence. When a pair of entities is identified first it checks whether an annotated relation type already exists, if it is
+For example, first locate the sentence where one entity is located and determine the relations between other entity types in the same sentence. When a pair of entities is identified first it checks whether an annotated relation type already exists, if it is:
 - yes : label it with the given annotated label
-- no : if no-rel label is active label as a no_relation pair or ignore
+- no : if no-rel label is active, label as a no_relation pair or ignore
 
 The selected sentences are extracted into the following segments:
 - Preceding - (tokenize words before the first concept)
@@ -44,8 +44,8 @@ The selected sentences are extracted into the following segments:
 - Succeeding - (tokenize words after the second concept)
 
 ## Connecting modules
-To feed the extracted segments into the CNN module the Connection class is called which establishes the connection between two modules:  Connects the segmentation and CNN modules. It has 2 options:
-1.  Pass the dataset and perform data segmentation and feed into the CNN module
+To feed the extracted segments into the CNN module the Connection class is called which establishes the connection between two modules. It connects the segmentation and the CNN modules. It has 2 options:
+1.  Pass the dataset, perform data segmentation, and feed into the CNN module
 2.  Provide path to files of the sentences, labels and the segments (Eg: CSV files)
 
 Following snippet shows how to run connection module to feed the extracted segments or the external files into the CNN modules.
