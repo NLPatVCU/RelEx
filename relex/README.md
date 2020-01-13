@@ -59,7 +59,9 @@ Binarizes labels in a one-vs-all fashion. Several regression and binary classifi
 *Eg: labels - TrCP, TrIP, TeRP*
 
 *TrCP 		1 0 0 0 0*
-*TrIP			0 1 0 0 0 *
+
+*TrIP			0 1 0 0 0*
+
 *TeRP			0 0 1 0 0*
 
 If the multilabel flag is set to true, then the binarization is done in the following manner:
