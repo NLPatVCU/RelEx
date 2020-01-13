@@ -84,7 +84,7 @@ Following figure shows the function of a single label sentence CNN.
 #### Multi-label Sentence CNN <a name="multi_cnn"></a>
 A sentence can have more than one distinct mention which eventually leads to multiple labels. We modified the sentence CNN which predicted a single label for an instance to predict multiple labels for an instance.
 
-The following figure shows when the multi-label flag is enabled the system outputs a multi-hot encoded label. Multi-label Sentence CNN is constructed different in some aspects from the single label Sentence CNN : Loss function, Choice of output layer, Multi-hot-encoding of labels.
+The following figure shows when the multi-label flag is enabled the system outputs a multi-hot encoded label. Multi-label Sentence CNN is constructed different in some aspects from the single label Sentence CNN : loss function, choice of output layer, multi-hot-encoding of labels.
 
 ![](https://lh5.googleusercontent.com/tdwCAwTB0fDpgockkUl8FfwIDVY6BgdExH3yOx99cX6syF00d0bmr7azeTrzSuIxZPCPnnJrQ8g39oADdmPW4J3fTdMs4VWRRecAvNR7kGXtx9wd8dt9PJYOpeXA501ujUsSTjAZ)
 #### Segment CNN <a name="seg_cnn"></a>
