@@ -38,9 +38,9 @@ model = Model(data, segment=False, test=False, multilabel=True, one_hot=False)
 ```
 The following links directs to more guides:
 
--[Word embeddings](https://github.com/SamMahen/RelEx/blob/master/relex/guide/word_embeddings_guide.md)
+-[word embeddings](https://github.com/SamMahen/RelEx/blob/master/relex/guide/word_embeddings_guide.md)
 
--[Simple NN models](https://github.com/SamMahen/RelEx/blob/master/relex/guide/NN_guide.md)
+-[simple NN models](https://github.com/SamMahen/RelEx/blob/master/relex/guide/NN_guide.md)
 
 -[CNN models](https://github.com/SamMahen/RelEx/blob/master/relex/guide/CNN_guide.md)
 
