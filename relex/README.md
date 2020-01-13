@@ -1,6 +1,6 @@
 # RelEx CNN documentation 
 This is a deep learning-based approach to extract and classify clinical relations. This approach introduces 3 Convolutional Neural Network (CNN) models. 
-Convolutional neural  networks  (CNNs)  have  been trending  due  to their  strong  learning  ability of features without manual feature engineering. Initially the convolution layer is a filter which is a set of learnable weights learned using the backpropagation algorithm and it extracts features from the input text. Maxpooling operations use the position information of local features relative to the concept pair and helps to extract the most significant feature from the output of the convolution filter. These advantages of the CNN can be utilized to reduce the dependency on manual feature engineering and learn the features automatically. 
+Convolutional neural  networks  (CNNs)  have  been trending  due  to their  strong  learning  ability of features without manual feature engineering. Initially the convolution layer is a filter which is a set of learnable weights learned using the backpropagation algorithm and it extracts features from the input text. Maxpooling operations use the position information of local features relative to the entity pair and helps to extract the most significant feature from the output of the convolution filter. These advantages of the CNN can be utilized to reduce the dependency on manual feature engineering and learn the features automatically. 
 
 Entity pairs of a relation are normally located in a sentence and we can represent the context of each relation by extracting  the sentence. But one sentence can include multiple distinct mentions of relations, therefore learning the entire sentence at once would not help in determining different relation classes. The sentence can be explicitly divided into segments based on the location and the context of the entities and these segments play different roles in determining the class.
 
@@ -34,7 +34,7 @@ Sample dataset (some files from i2b2 2010 corpus) and sample script are provided
 
 ## Algorithm 
 ### Data segmentation <a name="data_segmentation"></a>
-Text and annotation files (in BRAT format) of a dataset are filtered and passed into a dataset object which is read in along with the entity mentions of each relation category. The dataset is prepossessed to convert it to the standard format before segmentation by removing punctuation, accent marks and other diacritics that do not contribute to the context of the text, converting all letters to lowercase.
+Text and annotation files (in BRAT format) of a dataset are filtered and passed into a dataset object which is read in along with the entity mentions of each relation category. The dataset is prepossessed to convert it to the standard format before segmentation by removing punctuation, accent marks and converting all letters to lowercase.
 
 The segmentation module, identifies and extracts sentences where entities are located. Sentences are divided into the following segments and wrapped into a segmentation object:
 -   preceding segment
@@ -50,19 +50,19 @@ When extracting sentences, it checks whether the annotated relation type already
 
 Neural  networks  learn  information  through  numerical representation of the data. We need to convert the text into real number vectors. We cannot feed lists of integers into a neural network, therefore, we have to turn our lists into tensors. There are two ways to vectorize the words.
 
--Pad lists to have same length, and turn them into an integer tensor of shape (samples, word_indices). We used Keras tokenizer to take into account only the top given number of the most common words in data and builds a word index. We used 2 options to vectorize the words. Maximum length of a sequence is determined and the output sequence is padded according to it. Sequences that are shorter than determined length are padded with value at the end whereas sequences longer are truncated so that they fit the desired length. Position of the padding is controlled by the arguments.
+-Pad lists to have same length, and turn them into an integer tensor of shape (samples, word_indices). We used Keras tokenizer to take into account only the top given number of the most common words in data and builds a word index. We used multiple methods to vectorize the words. Maximum length of a sequence is determined and the output sequence is padded according to it. Sequences that are shorter than determined length are padded with value at the end whereas sequences longer are truncated so that they fit the desired length. Position of the padding is controlled by the arguments.
 -One-hot-encode lists to turn them into vectors of 0s and 1s.It tokenizes the samples via the `split` method. Assigns a unique index to each unique word and returns a dictionary of unique tokens.
 
 #### Label Binarization<a name="binarizer"></a>
 Binarizes labels in a one-vs-all fashion. Several regression and binary classification algorithms are available in scikit-learn can be utilized for this. It converts multi-class labels to binary labels (belong or does not belong to the class) by assigning a unique value or number to each label in a categorical feature.
 
-Eg: labels - TrCP, TrIP, TeRP
+*Eg: labels - TrCP, TrIP, TeRP*
 
-TrCP 			1 0 0 0 0
-TrIP			0 1 0 0 0 
-TeRP			0 0 1 0 0
+*TrCP 		1 0 0 0 0*
+*TrIP			0 1 0 0 0 *
+*TeRP			0 0 1 0 0*
 
-If the multilabel flag is set to true, then the binarization is done in the following manner.
+If the multilabel flag is set to true, then the binarization is done in the following manner:
 TrCP, TrIP, TeRP	1 1 1 0 0
 
 ### Word embeddings<a name="word_embeddings"></a>
@@ -80,9 +80,9 @@ Following figure shows the function of a single label sentence CNN.
 ![](https://lh6.googleusercontent.com/VzMboSkKWKdFSI3E66RiL_s0NLlLJDEGQhbEywKXEIqOnWTHm39w1vPiqy3EUr5NdxRh4q375ejzX-K-znAEifHd-UZnG517UGX11G0y7j2sBb5TD4s-SWWJ2Ptq9GqK1nEZP33c)
 
 #### Multi-label Sentence CNN <a name="multi_cnn"></a>
-A sentence can have more than one distinguish mentions which eventually leads to multiple labels. We modified the sentence CNN which predicted single label for an instance to predict multiple labels for an instance.
+A sentence can have more than one distinct mention which eventually leads to multiple labels. We modified the sentence CNN which predicted a single label for an instance to predict multiple labels for an instance.
 
-Following figure shows when the multi-label flag is enabled the system outputs a multi-hot encoded label. Multi-label Sentence CNN is constructed different in some aspects from the single label Sentence CNN : Loss function, Choice of output layer, Multi-hot-encoding of labels.
+The following figure shows when the multi-label flag is enabled the system outputs a multi-hot encoded label. Multi-label Sentence CNN is constructed different in some aspects from the single label Sentence CNN : Loss function, Choice of output layer, Multi-hot-encoding of labels.
 
 ![](https://lh5.googleusercontent.com/tdwCAwTB0fDpgockkUl8FfwIDVY6BgdExH3yOx99cX6syF00d0bmr7azeTrzSuIxZPCPnnJrQ8g39oADdmPW4J3fTdMs4VWRRecAvNR7kGXtx9wd8dt9PJYOpeXA501ujUsSTjAZ)
 #### Segment CNN <a name="seg_cnn"></a>
