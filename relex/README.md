@@ -13,7 +13,7 @@ In the following, the algorithm is explained in detail and a walk thorugh guide 
 2. [Algorithm](#algorithm)
    1. [Data Segmentation](#data_segmentation)
    2. [Pre-processing](#pre-processing)
-      1. [Tokenization](#k_tokenizer)
+      1. [Vectorization](#Vectorization)
       2. [Label Binarization](#binarizer)
    3. [Word Embeddings](#word_embeddings)
    4. [CNN Models](#models)
@@ -46,7 +46,7 @@ The segmentation module, identifies and extracts sentences where entities are lo
 When extracting sentences, it checks whether the annotated relation type already exists, if not the sentences are labeled as a no-relation pair.
 
 ### Pre-processing
-#### Vectorization <a name="k_tokenizer"></a>
+#### Vectorization 
 
 Neural  networks  learn  information  through  numerical representation of the data. We need to convert the text into real number vectors. We cannot feed lists of integers into a neural network, therefore, we have to turn our lists into tensors. There are two ways to vectorize the words.
 
