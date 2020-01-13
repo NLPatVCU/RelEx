@@ -1,11 +1,11 @@
 # RelEx CNN documentation 
 This is a deep learning-based approach to extract and classify clinical relations. This approach introduces 3 Convolutional Neural Network (CNN) models. 
-Convolutional neural  networks  (CNNs)  have  been trending  due  to its  strong  learning  ability  features without manual feature engineering. Initially the convolution layer is a filter which is a set of learnable weights learned using the backpropagation algorithm and it extracts features from the input text. Maxpooling operations uses the position information of local features relative to the concept pair and helps to extract the most significant feature from the output of the convolution filter. The advantages of the CNN can be utilized to reduce the dependency on manual feature engineering and learn the features automatically. 
+Convolutional neural  networks  (CNNs)  have  been trending  due  to their  strong  learning  ability of features without manual feature engineering. Initially the convolution layer is a filter which is a set of learnable weights learned using the backpropagation algorithm and it extracts features from the input text. Maxpooling operations use the position information of local features relative to the concept pair and helps to extract the most significant feature from the output of the convolution filter. These advantages of the CNN can be utilized to reduce the dependency on manual feature engineering and learn the features automatically. 
 
-Entity pairs of a relation is normally located in a sentence and we can represent the context of each relation by extracting  the sentence. But one sentence can include multiple distinct mentions of relations, therefore learning the entire sentence at once would not help in determining different relation classes. The sentence can be explicitly divided into segments based on the location and the context of the entities and these segments play different roles in determining the class.
+Entity pairs of a relation are normally located in a sentence and we can represent the context of each relation by extracting  the sentence. But one sentence can include multiple distinct mentions of relations, therefore learning the entire sentence at once would not help in determining different relation classes. The sentence can be explicitly divided into segments based on the location and the context of the entities and these segments play different roles in determining the class.
 
-Our system mainly consists  of  three  components:  Single label Sentence-CNN, Multi label Sentence-CNN  and Segment-CNN
-In the following the algorithm is explained in detail and a walk thorugh guide is provided to run the package.
+Our system mainly consists  of  three  components:  Single label Sentence-CNN, Multi label Sentence-CNN  and Segment-CNN.
+In the following, the algorithm is explained in detail and a walk thorugh guide is provided to run the package.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -30,11 +30,11 @@ Create a python 3.6 virtual environment and install the packages given in the re
 pip install CNN_requirements.txt
 ```
 ### Deployment
-Sample dataset (some files from i2b2 2010 corpus) and sample script is provided (/relex/sample). Sample script takes the paths for the data (relative path of the sentence, labels and the segments of the sample dataset) predicts relation using the proposed models and evalautes the predictions.
+Sample dataset (some files from i2b2 2010 corpus) and sample script are provided (/relex/sample). The sample script takes the paths for the data (relative path of the sentence, labels and the segments of the sample dataset)and  predicts relation using the proposed models and evalautes the predictions.
 
 ## Algorithm 
 ### Data segmentation <a name="data_segmentation"></a>
-Text and annotation files (in BRAT format) of a dataset are filtered and passed into a dataset object which is read in along with the entity mentions of each relation category. Dataset is prepossessed to convert it to the standard format before segmentation by removing punctuation, accent marks and other diacritics that do not contribute to the context of the text, converting all letters to lowercase.
+Text and annotation files (in BRAT format) of a dataset are filtered and passed into a dataset object which is read in along with the entity mentions of each relation category. The dataset is prepossessed to convert it to the standard format before segmentation by removing punctuation, accent marks and other diacritics that do not contribute to the context of the text, converting all letters to lowercase.
 
 The segmentation module, identifies and extracts sentences where entities are located. Sentences are divided into the following segments and wrapped into a segmentation object:
 -   preceding segment
@@ -43,7 +43,7 @@ The segmentation module, identifies and extracts sentences where entities are lo
 -   concept2 segment
 -   succeeding segment
 
-When extracting sentences it checks whether the annotated relation type already exists, if not the sentences are labeled as a no-relation pair.
+When extracting sentences, it checks whether the annotated relation type already exists, if not the sentences are labeled as a no-relation pair.
 
 ### Pre-processing
 #### Vectorization <a name="k_tokenizer"></a>
