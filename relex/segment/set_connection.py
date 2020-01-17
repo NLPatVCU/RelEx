@@ -5,7 +5,7 @@ from utils import file
 import os
 
 class Set_Connection:
-    def __init__(self, sentence_only = True, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
+    def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
                  middle_segs=None, concept2_segs=None, succeeding_segs=None, dataset=None,
                  rel_labels=None, no_labels=None, CSV=True ):
         """
