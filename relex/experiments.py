@@ -8,7 +8,8 @@ from segment import Set_Connection
 embedding_path = "../word_embeddings/glove.6B.200d.txt"
 
 # data = Set_Connection(CSV=True, sentences='../data/segments/sentence_train', labels='../data/segments/labels_train',preceding_segs='../data/segments/preceding_seg', concept1_segs='../data/segments/concept1_seg',middle_segs='../data/segments/middle_seg',concept2_segs='../data/segments/concept2_seg', succeeding_segs='../data/segments/succeeding_seg' ).data_object
-data = Set_Connection(CSV=True, sentence_only = True, sentences='../data/n2c2/sentence_train', labels='../data/n2c2/labels_train').data_object
+data = Set_Connection(CSV=True, sentence_only = True, sentences='../data/segments/sentence_train', labels='../data/segments/labels_train').data_object
+# data = Set_Connection(CSV=True, sentence_only = True, sentences='../data/n2c2/sentence_train', labels='../data/n2c2/labels_train').data_object
 model = Model(data, False, False, False)
 
 embedding=Embeddings(embedding_path, model)

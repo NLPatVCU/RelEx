@@ -66,7 +66,7 @@ def evaluate_Model(y_pred, y_true, encoder_classes):
 
 def cv_evaluation_fold(y_pred, y_true, labels):
     """
-    Evaluation metrics for each fold
+    Evaluation metrics for emicroach fold
     :param y_pred: predicted labels
     :param y_true: true labels
     :param labels: list of the classes

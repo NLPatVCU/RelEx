@@ -3,7 +3,7 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix, precision_score, recall_score, f1_score
 
 class Sentence_CNN:
 
@@ -83,7 +83,6 @@ class Sentence_CNN:
         """
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
-        print("epochs: ", self.epochs)
         loss = history.history['loss']
         acc = history.history['acc']
 
@@ -119,38 +118,56 @@ class Sentence_CNN:
         fold = 1
         originalclass = []
         predictedclass = []
-        binary_Y = self.data_model.binarize_labels(Y_data, False)
-        for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
+        if self.data_model.multilabel:
 
-            # binary_Y = self.data_model.binarize_labels(Y_data, True)
-            x_train, x_test = X_data[train_index], X_data[test_index]
-            y_train, y_test = binary_Y[train_index], binary_Y[test_index]
-            print("Training Fold %i", fold)
+            binary_Y = self.data_model.binarize_labels(Y_data, False)
+            for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
 
-            labels = [str(i) for i in self.data_model.encoder.classes_]
-            cv_model = self.define_model(len(self.data_model.encoder.classes_))
-            if self.data_model.multilabel:
+                x_train, x_test = X_data[train_index], X_data[test_index]
+                y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+                print("Training Fold %i", fold)
 
-                cv_model.fit(x_train, y_train, epochs=20, batch_size=64)
+                labels = [str(i) for i in self.data_model.encoder.classes_]
+                cv_model = self.define_model(len(self.data_model.encoder.classes_))
+
+                cv_model.fit(x_train, y_train, epochs=self.epochs, batch_size=self.batch_size)
                 y_pred, y_true = evaluate.multilabel_predict(cv_model, x_test, y_test)
                 originalclass.extend(y_true)
                 predictedclass.extend(y_pred)
                 print("--------------------------- Results ------------------------------------")
                 print(classification_report(y_true, y_pred, target_names=labels))
-            else:
 
+            print("--------------------- Results --------------------------------")
+            print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+
+        else:
+            for train_index, test_index in skf.split(X_data, Y_data):
+                binary_Y = self.data_model.binarize_labels(Y_data, True)
+                x_train, x_test = X_data[train_index], X_data[test_index]
+                y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+                labels = [str(i) for i in self.data_model.encoder.classes_]
                 cv_model = self.define_model(len(self.data_model.encoder.classes_))
                 cv_model, loss, acc = self.fit_Model(cv_model, x_train, y_train)
                 y_pred, y_true = evaluate.predict(cv_model, x_test, y_test, labels)
+                originalclass.extend(y_true)
+                predictedclass.extend(y_pred)
+                print("--------------------------- Results ------------------------------------")
+                print("Precision  =  ---------", precision_score(y_true, y_pred, average='micro',labels=labels))
+                print("Recall  =  ---------", recall_score(y_true, y_pred, average='micro', labels=labels))
+                print("F score   =  ---------", f1_score(y_true, y_pred, average='micro', labels=labels))
+                print(classification_report(y_true, y_pred, labels=labels))
+                print(confusion_matrix(y_true, y_pred))
                 fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
 
                 evaluation_statistics[fold] = fold_statistics
-            fold += 1
-
+                fold += 1
             print("--------------------- Results --------------------------------")
-            if self.data_model.multilabel:
-                print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
-            else:
-                evaluate.cv_evaluation(labels, evaluation_statistics)
+            print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+            print(confusion_matrix(np.array(originalclass), np.array(predictedclass)))
+
+            print("---------------------medacy Results --------------------------------")
+            evaluate.cv_evaluation(labels, evaluation_statistics)
+
+
 
 
