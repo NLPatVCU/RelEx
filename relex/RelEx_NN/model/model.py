@@ -61,7 +61,6 @@ class Model:
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
-
         """
         self.one_hot = one_hot
         self.segment = segment
@@ -253,4 +252,3 @@ class Model:
             self.encoder = preprocessing.LabelEncoder()
             encoder_label = self.encoder.fit_transform(label_list)
         return encoder_label
-
