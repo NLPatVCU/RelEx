@@ -3,7 +3,7 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-from sklearn.metrics import classification_report, confusion_matrix, precision_score, recall_score, f1_score
+from sklearn.metrics import classification_report, confusion_matrix
 
 class Sentence_CNN:
 
@@ -152,9 +152,6 @@ class Sentence_CNN:
                 originalclass.extend(y_true)
                 predictedclass.extend(y_pred)
                 print("--------------------------- Results ------------------------------------")
-                print("Precision  =  ---------", precision_score(y_true, y_pred, average='micro',labels=labels))
-                print("Recall  =  ---------", recall_score(y_true, y_pred, average='micro', labels=labels))
-                print("F score   =  ---------", f1_score(y_true, y_pred, average='micro', labels=labels))
                 print(classification_report(y_true, y_pred, labels=labels))
                 print(confusion_matrix(y_true, y_pred))
                 fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)

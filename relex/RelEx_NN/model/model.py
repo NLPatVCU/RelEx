@@ -239,14 +239,12 @@ class Model:
         :return list:list of binarized / vectorized labels
         """
         if self.multilabel:
-            print("multi")
             self.encoder = MultiLabelBinarizer()
             self.encoder.fit(label_list)
             encoder_label = self.encoder.transform(label_list)
             # self.encoder = preprocessing.MultiLabelBinarizer()
             # encoder_label = self.encoder.fit_transform(label_list)
         elif self.test or binarize:
-            print("binary ---------------------------------------")
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:

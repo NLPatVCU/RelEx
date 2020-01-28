@@ -4,7 +4,7 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-
+from sklearn.metrics import classification_report, confusion_matrix
 
 class Segment_CNN:
 
@@ -88,7 +88,8 @@ class Segment_CNN:
         skf.get_n_splits(C1_data, Y_data)
         evaluation_statistics = {}
         fold = 1
-
+        originalclass = []
+        predictedclass = []
         for train_index, test_index in skf.split(C1_data, Y_data):
             binary_Y = self.data_model.binarize_labels(Y_data, True)
 
@@ -107,7 +108,17 @@ class Segment_CNN:
             y_pred, y_true = evaluate.predict(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test], y_test,
                                               labels)
             fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+            originalclass.extend(y_true)
+            predictedclass.extend(y_pred)
+            print("--------------------------- Results ------------------------------------")
+            print(classification_report(y_true, y_pred, labels=labels))
+            print(confusion_matrix(y_true, y_pred))
             evaluation_statistics[fold] = fold_statistics
             fold += 1
+        print("--------------------- Results --------------------------------")
+        print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+        print(confusion_matrix(np.array(originalclass), np.array(predictedclass)))
+
+        print("---------------------medacy Results --------------------------------")
 
         evaluate.cv_evaluation(labels, evaluation_statistics)
