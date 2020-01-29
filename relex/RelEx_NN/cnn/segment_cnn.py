@@ -112,7 +112,7 @@ class Segment_CNN:
             predictedclass.extend(y_pred)
             print("--------------------------- Results ------------------------------------")
             print(classification_report(y_true, y_pred, labels=labels))
-            print(confusion_matrix(y_true, y_pred))
+            # print(confusion_matrix(y_true, y_pred))
             evaluation_statistics[fold] = fold_statistics
             fold += 1
         print("--------------------- Results --------------------------------")
