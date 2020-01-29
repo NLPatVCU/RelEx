@@ -1,9 +1,12 @@
+import sys
+sys.path.append("../../")
+
 import os
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score
@@ -11,18 +14,16 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 
 from keras.models import Sequential
-from keras.layers import Dense, Activation, Embedding, Flatten, GlobalMaxPool1D, Dropout, Conv1D
+from keras.layers import Dense, Activation, Embedding, LSTM
 from keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint
 from keras.losses import binary_crossentropy
-from keras.optimizers import Adam
 import numpy as np
 import evaluate
 #flag to set cross validation. If set to true it will run 5 CV or train-test split
-cv = True
-write_file=True
+cv = False
+write_file=False
 embedding_path = "../../../../word_embeddings/mimic3_d300.txt"
-output_txt_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.txt"
-output_csv_path = "/home/cora/Desktop/multoutput/n2nc2mimic300.csv"
+
 
 def read_from_file(file):
     """
@@ -121,22 +122,15 @@ df_data = pd.DataFrame(train_data, columns=['sentence'])
 df_label = pd.DataFrame(train_labels, columns=['label'])
 df_data.reset_index(drop=True, inplace=True)
 df_label.reset_index(drop=True, inplace=True)
-df_new = pd.concat((df_data, df_label), axis=1)
+df = pd.concat((df_data, df_label), axis=1)
 
-df_new.drop_duplicates(inplace=True)
-df_new.reset_index(inplace = True, drop=True)
-
-df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
-
-df.reset_index(inplace=True)
-df['label'] = df['label'].str.split(",")
 
 
 # df = Connection(True, False, None, "../data/P_Te/sentence_train", "../data/P_Te/labels_train" )
 
-multilabel_binarizer = MultiLabelBinarizer()
-multilabel_binarizer.fit(df['label'])
-labels = multilabel_binarizer.classes_
+label_binarizer = LabelBinarizer()
+label_binarizer.fit(df['label'])
+labels = label_binarizer.classes_
 print(labels)
 num_classes = len(labels)
 tokenizer = Tokenizer(num_words=max_words, lower=True)
@@ -150,7 +144,7 @@ for word, i in word_index.items():
         if embedding_vector is not None:
             # Words not found in embedding index will be all-zeros.
             embedding_matrix[i] = embedding_vector
-binary_Y = multilabel_binarizer.transform(df['label'])
+binary_Y = label_binarizer.transform(df['label'])
 
 if cv:
     #cross validation
@@ -171,13 +165,11 @@ if cv:
 
         model = Sequential()
         model.add(Embedding(max_words, embedding_dim, weights=[embedding_matrix], input_length=maxlen))
-        model.add(Dropout(0.1))
-        model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
-        model.add(GlobalMaxPool1D())
-        model.add(Dense(num_classes))
-        model.add(Activation('sigmoid'))
+        model.add(LSTM(embedding_dim))
+        model.add(Dense(len(labels), activation='sigmoid'))
 
-        model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+
+        model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
         history = model.fit(x_train, y_train, epochs=20, batch_size=32)
 
         np_pred = np.array(model.predict(x_test))
@@ -202,17 +194,15 @@ else:
 
     model = Sequential()
     model.add(Embedding(max_words, embedding_dim, weights=[embedding_matrix], input_length=maxlen))
-    model.add(Dropout(0.1))
-    model.add(Conv1D(filter_length, 3, padding='valid', activation='relu', strides=1))
-    model.add(GlobalMaxPool1D())
-    model.add(Dense(len(labels)))
-    model.add(Activation('sigmoid'))
+    model.add(LSTM(embedding_dim))
+    model.add(Dense(len(labels), activation='sigmoid'))
 
-    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+
+    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
     model.summary()
 
     history = model.fit(x_train, y_train,
-                        epochs=20,
+                        epochs=10,
                         batch_size=16,
                         validation_split=0.1)
     metrics = model.evaluate(x_test, y_test)

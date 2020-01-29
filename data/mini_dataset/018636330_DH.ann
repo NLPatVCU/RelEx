@@ -1,0 +1,55 @@
+T1	test 643 651	a workup
+T2	problem 2264 2268	pain
+T3	treatment 328 376	microscopic anterior cervical diskectomy at c5-6
+T4	problem 829 843	hyperlipidemia
+T5	treatment 1780 1799	po pain medications
+T6	problem 1743 1751	her pain
+T7	test 1958 1969	wound check
+T8	problem 719 735	cord compression
+T9	treatment 381 387	fusion
+T10	treatment 883 891	flexeril
+T11	problem 2011 2017	chills
+T12	problem 1306 1319	hyperreflexia
+T13	treatment 2167 2173	colace
+T14	test 1466 1489	a postoperative ct scan
+T15	problem 1504 1545	partial decompression of the spinal canal
+T16	treatment 1568 1580	her hardware
+T17	test 1158 1180	a hoffman &apos;s sign
+T18	problem 484 507	bilateral hand numbness
+T19	problem 1228 1246	10 beats of clonus
+T20	treatment 2223 2231	percocet
+T21	problem 246 266	c5-6 disc herniation
+T22	problem 272 288	cord compression
+T23	problem 293 303	myelopathy
+T24	treatment 873 880	lipitor
+T25	problem 557 571	these symptoms
+T26	treatment 2304 2323	hydrochlorothiazide
+T27	treatment 918 925	norvasc
+T28	problem 512 531	occasional weakness
+T29	problem 691 713	a c5-6 disc herniation
+T30	problem 740 758	a t2 signal change
+T31	problem 1639 1656	her hyperreflexia
+T32	problem 814 826	hypertension
+T33	problem 2002 2008	fevers
+T34	problem 2043 2051	numbness
+T35	test 675 681	an mri
+T36	treatment 894 913	hydrochlorothiazide
+T37	treatment 2346 2353	norvasc
+T38	problem 2059 2087	bowel and bladder disruption
+T39	problem 1269 1295	3-5 beats in the left foot
+T40	problem 951 969	known drug allergy
+T41	problem 2020 2039	increasing weakness
+T42	treatment 1412 1423	a c5-6 acdf
+T43	treatment 2274 2281	lipitor
+T44	treatment 2195 2201	zantac
+T45	test 1604 1612	her exam
+R1	TrIP Arg1:T5 Arg2:T6
+R2	TeRP Arg1:T14 Arg2:T15
+R3	TrAP Arg1:T20 Arg2:T2
+R4	PIP Arg1:T21 Arg2:T22
+R5	PIP Arg1:T21 Arg2:T23
+R6	PIP Arg1:T29 Arg2:T8
+R7	TeRP Arg1:T35 Arg2:T29
+R8	TeRP Arg1:T35 Arg2:T8
+R9	TeRP Arg1:T35 Arg2:T30
+R10	TeCP Arg1:T45 Arg2:T31

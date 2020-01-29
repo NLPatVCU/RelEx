@@ -71,12 +71,12 @@ class Set_Connection:
         train_succeeding = read_from_file(self.succeeding_segs)
 
         #Adds segments, labels, and sentences to object
-        object['sentence'] = train_data
-        object['label'] = train_labels
         object['seg_preceding'] = train_preceding
         object['seg_concept1'] = train_concept1
-        object['seg_middle'] = train_middle
         object['seg_concept2'] = train_concept2
+        object['seg_middle'] = train_middle
         object['seg_succeeding'] = train_succeeding
+        object['sentence'] = train_data
+        object['label'] = train_labels
 
         return object

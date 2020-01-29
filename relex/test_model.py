@@ -1,3 +1,4 @@
+# testing for model.py is DONE
 import unittest
 import numpy as np
 from RelEx_NN.model import Model
