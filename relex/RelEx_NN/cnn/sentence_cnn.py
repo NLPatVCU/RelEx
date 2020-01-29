@@ -3,8 +3,7 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-from utils import output_to_file
-
+from sklearn.metrics import classification_report, confusion_matrix
 
 class Sentence_CNN:
 
@@ -31,54 +30,61 @@ class Sentence_CNN:
 
     def define_model(self, no_classes):
         """
-        :param no_classes:
-        :return:
+        define a CNN model with defined parameters when the class is called
+        :param no_classes: no of classes
+        :return: trained model
         """
-        input_shape = Input(shape=(self.data_model.maxlen,))
-        embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
-
-        if self.embedding:
-            embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
-                                  weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
-        conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
-        pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
-
-        conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
-        drop = Dropout(self.drop_out)(conv2)
-
-        flat = Flatten()(drop)
-        dense1 = Dense(self.filters, activation=self.activation)(flat)
-        outputs = Dense(no_classes, activation=self.output_activation)(dense1)
-
-        model = Model(inputs=input_shape, outputs=outputs)
-
+        #Define the model with different parameters and layers when running for multi label sentence CNN
         if self.data_model.multilabel:
-            model.compile(loss='binary_crossentropy', optimizer=self.optimizer, metrics=['categorical_accuracy'])
+
+            model = Sequential()
+            model.add(Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                weights=[self.embedding.embedding_matrix], input_length=self.data_model.maxlen))
+            model.add(Dropout(self.drop_out))
+            model.add(Conv1D(self.filters, self.filter_conv, padding='valid', activation=self.activation, strides=1))
+            model.add(GlobalMaxPool1D())
+            model.add(Dense(len(self.data_model.encoder.classes_)))
+            model.add(Activation(self.output_activation))
+
+            model.compile(optimizer=self.optimizer, loss=self.loss, metrics=self.metrics)
         else:
+
+            input_shape = Input(shape=(self.data_model.maxlen,))
+            embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
+
+            if self.embedding:
+                embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
+                                      weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
+            conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
+            pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
+
+            conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
+            drop = Dropout(self.drop_out)(conv2)
+
+            flat = Flatten()(drop)
+            dense1 = Dense(self.filters, activation=self.activation)(flat)
+            outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+
+            model = Model(inputs=input_shape, outputs=outputs)
             model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
-        # model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+
         print(model.summary())
 
         return model
 
     def fit_Model(self, model, x_train, y_train, validation=None):
         """
-        :param model:
-        :param x_train:
-        :param y_train:
-        :param validation:
+        fit the defined model to train on the data
+        :param model: trained model
+        :param x_train: training data
+        :param y_train: training labels
+        :param validation: validation data
         :return:
         """
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
-        print("epochs: ", self.epochs)
         loss = history.history['loss']
-        # acc = history.history['acc']
-        if self.data_model.multilabel:
-            acc = history.history['categorical_accuracy']
-
-        else:
-            acc = history.history['acc']
+        acc = history.history['acc']
 
         if validation is not None:
             val_loss = history.history['val_loss']
@@ -94,9 +100,10 @@ class Sentence_CNN:
 
     def cross_validate(self, num_folds=5):
         """
-        :param num_folds:
+        Train the CNN model while running cross validation.
+        :param num_folds: no of fold in CV (default = 5)
         """
-        X_data =  self.data_model.train
+        X_data = self.data_model.train
         Y_data = self.data_model.train_label
 
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
@@ -109,32 +116,51 @@ class Sentence_CNN:
 
         evaluation_statistics = {}
         fold = 1
+        originalclass = []
+        predictedclass = []
+        if self.data_model.multilabel:
 
-        binary_Y = self.data_model.binarize_labels(Y_data, True)
-        for train_index, test_index in skf.split(X_data, binary_Y):
-        # if self.data_model.multilabel:
-        #     print("multi")
-        #     binary_Y = self.data_model.binarize_labels(Y_data, True)
-        #     Y_data= binary_Y
-        # for train_index, test_index in skf.split(X_data, Y_data):
-        #     if not self.data_model.multilabel:
-        #         print("no multi")
-        #         binary_Y = self.data_model.binarize_labels(Y_data, True)
-        #         Y_data = binary_Y
-            x_train, x_test = X_data[train_index], X_data[test_index]
-            y_train, y_test = Y_data[train_index], Y_data[test_index]
-            print("Training Fold %i", fold)
+            binary_Y = self.data_model.binarize_labels(Y_data, False)
+            for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
 
-            labels = [str(i) for i in self.data_model.encoder.classes_]
+                x_train, x_test = X_data[train_index], X_data[test_index]
+                y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+                print("Training Fold %i", fold)
 
-            cv_model = self.define_model(len(self.data_model.encoder.classes_))
-            cv_model, loss, acc = self.fit_Model(cv_model, x_train, y_train)
+                labels = [str(i) for i in self.data_model.encoder.classes_]
+                cv_model = self.define_model(len(self.data_model.encoder.classes_))
 
-            y_pred, y_true = evaluate.predict(cv_model, x_test, y_test, labels)
-            fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+                cv_model.fit(x_train, y_train, epochs=self.epochs, batch_size=self.batch_size)
+                y_pred, y_true = evaluate.multilabel_predict(cv_model, x_test, y_test)
+                originalclass.extend(y_true)
+                predictedclass.extend(y_pred)
+                print("--------------------------- Results ------------------------------------")
+                print(classification_report(y_true, y_pred, target_names=labels))
 
-            evaluation_statistics[fold] = fold_statistics
-            fold += 1
+            print("--------------------- Results --------------------------------")
+            print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
 
-        evaluate.cv_evaluation(labels, evaluation_statistics)
-        output_to_file(y_true, y_pred, "output.txt", target=labels)
+        else:
+            for train_index, test_index in skf.split(X_data, Y_data):
+                binary_Y = self.data_model.binarize_labels(Y_data, True)
+                x_train, x_test = X_data[train_index], X_data[test_index]
+                y_train, y_test = binary_Y[train_index], binary_Y[test_index]
+                labels = [str(i) for i in self.data_model.encoder.classes_]
+                cv_model = self.define_model(len(self.data_model.encoder.classes_))
+                cv_model, loss, acc = self.fit_Model(cv_model, x_train, y_train)
+                y_pred, y_true = evaluate.predict(cv_model, x_test, y_test, labels)
+                originalclass.extend(y_true)
+                predictedclass.extend(y_pred)
+                print("--------------------------- Results ------------------------------------")
+                print(classification_report(y_true, y_pred, labels=labels))
+                print(confusion_matrix(y_true, y_pred))
+                fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+
+                evaluation_statistics[fold] = fold_statistics
+                fold += 1
+            print("--------------------- Results --------------------------------")
+            print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+            print(confusion_matrix(np.array(originalclass), np.array(predictedclass)))
+
+            print("---------------------medacy Results --------------------------------")
+            evaluate.cv_evaluation(labels, evaluation_statistics)

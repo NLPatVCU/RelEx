@@ -2,7 +2,7 @@ from data import Dataset
 from segment import Segmentation
 
 # path to the dataset
-sample_train = Dataset('../data/mini_dataset')
+sample_train = Dataset('../data/sample_train')
 
 '''
 Running instructions:

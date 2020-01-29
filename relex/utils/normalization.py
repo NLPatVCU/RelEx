@@ -4,11 +4,10 @@ import random
 from functools import reduce
 
 
-def remove_punctuation(string):
+def remove_Punctuation(string):
     """
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with null
-
     :param string: string to remove punctuation from
     """
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
@@ -18,11 +17,10 @@ def remove_punctuation(string):
     return string
 
 
-def replace_punctuation(string):
+def replace_Punctuation(string):
     """
     method to remove punctuation from a given string. It traverses the given string
     and replaces the punctuation marks with comma (,)
-
     :param string: string to replace punctuation from
     """
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
@@ -35,7 +33,6 @@ def replace_punctuation(string):
 def desample_given_unique_labels_current_ratios(sentences, labels, ratios, unique_labels, current_ratios):
     """
     Function desamples sentences and labels based on goal ratios, unique labels, and current ratios
-
     :param sentences: list of sentences
     :param labels: list of labels
     :param ratios: list of goal ratios in order of occurrence in param labels
@@ -46,11 +43,7 @@ def desample_given_unique_labels_current_ratios(sentences, labels, ratios, uniqu
     # finds amounts of each label that will be in the new list
     new_amount = []
     for ratio, current, label in zip(ratios, current_ratios, unique_labels):
-        if len(ratios) < 3 and ratio - current < 0:  # when there are only two labels,sometimes you have to get to the
-            # reduce_num in a different manner
-            reduce_num = (((current - ratio) / current) * labels.count(label)) - ratio
-        else:
-            reduce_num = ((current - ratio) / current) * labels.count(label)
+        reduce_num = ((current - ratio) / current) * labels.count(label)
         new_amount.append(labels.count(label) - reduce_num)
 
     # shuffles lists
@@ -72,7 +65,6 @@ def desample_given_unique_labels_current_ratios(sentences, labels, ratios, uniqu
 def gcd(n, d):
     """
     function calculates greatest common divisor
-
     :param n: numerator
     :param d: denominator
     :return: greatest common divisor
@@ -89,7 +81,6 @@ def gcd(n, d):
 def find_unique_labels_props(labels):
     """
     function finds labels and unique_labels from a list of labels
-
     :param labels: list containing  the labels for the data
     :return: array containing a list of the unique labels and current ratios of thoes labels in param labels
     """
@@ -108,7 +99,6 @@ def find_unique_labels_props(labels):
 def desample(sentences, labels, ratios):
     """
     function desamples 2 lists based on the ratios given
-
     :param sentences: list of the sentences
     :param labels: list of the labels
     :param ratios: list with each element being the ratio. Ratios should be in order of occurrence in param labels.
@@ -128,7 +118,7 @@ def desample(sentences, labels, ratios):
     for ratio, current, label in zip(ratios, current_ratios, unique_labels):
         if len(ratios) < 3 and ratio - current < 0:  # when there are only two labels,sometimes you have to get to the
             # reduce_num in a different manner
-            reduce_num = (((current - ratio) / current) * labels.count(label)) - ratio
+            reduce_num = (((current - ratio) / current) * labels.count(label)) + (current - ratio)
         else:
             reduce_num = ((current - ratio) / current) * labels.count(label)
         new_amount.append(labels.count(label) - reduce_num)

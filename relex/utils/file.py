@@ -8,7 +8,6 @@ import pandas as pd
 def list_to_file(file, input_list):
     """
     Method  to write the contents of a list to a file.
-
     :param file: name of the output file.
     :param input_list: list needs to be written to file
     """
@@ -21,7 +20,6 @@ def list_to_file(file, input_list):
 def read_from_file(file):
     """
     Reads a file and returns its contents as a list
-
     :param file: path to file that will be read
     """
 
@@ -37,7 +35,6 @@ def read_from_file(file):
 def output_to_file( true_values, pred_values, output_path, target):
     """
     Method  to create .txt file and csv file of classification report
-
     :param true_values: correct labels for dataset
     :param pred_values: labels predicted by model
     :param output_path: path to where txt file of results should be created

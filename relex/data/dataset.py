@@ -1,4 +1,4 @@
-# Author: Samantha Mahendran for RelEx
+# Inspired from MedaCy
 
 import os
 

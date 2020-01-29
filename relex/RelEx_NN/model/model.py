@@ -1,17 +1,17 @@
 # Author : Samantha Mahendran for RelEx
+# Author : Cora Lewis for function binarize_labels
 
 from keras.preprocessing.text import Tokenizer
 from sklearn import preprocessing
 from keras.preprocessing.sequence import pad_sequences
+from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
+import pandas as pd
 import os, logging, tempfile
-import psutil
-from segment import Set_Connection
 
 def create_validation_data(train_data, train_label, num_data=1000):
     """
     Splits the input data into training and validation. By default it takes first 1000 as the validation.
-
     :param num_data: number of files split as validation data
     :param train_label: list of the labels of the training data
     :param train_data: list of the training data
@@ -27,12 +27,35 @@ def create_validation_data(train_data, train_label, num_data=1000):
     return x_train, x_val, y_train, y_val
 
 
+def reduce_duplicate_data(train_data, train_labels):
+    """
+    Reads the data into one dataframe. Removes the duplicated data and merges the respective labels. Also drops the
+    duplicates of the labels. :param train_data: data :param train_labels: labels
+    """
+    df_data = pd.DataFrame(train_data, columns=['sentence'])
+    df_label = pd.DataFrame(train_labels, columns=['label'])
+
+    # concatenate the dataframes
+    df_data.reset_index(drop=True, inplace=True)
+    df_label.reset_index(drop=True, inplace=True)
+    df_new = pd.concat((df_data, df_label), axis=1)
+
+    # drop duplicate data
+    df_new.drop_duplicates(inplace=True)
+    df = df_new.groupby('sentence').agg({'label': lambda x: ','.join(x)})
+    df.reset_index(inplace=True)
+    df['label'] = df['label'].str.split(",")
+    df.columns = ['sentence', 'label']
+
+    return df
+
+
 class Model:
 
-    def __init__(self, data_object=None, segment=True, test=False, multilabel=True, one_hot=False, common_words=10000, maxlen=100):
-
+    def __init__(self, data_object, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
         """
         :param data_object: call set_connection here
+        :param multilabel: Flag to be set to run sentence-CNN for multi-labels
         :param segment: Flag to be set to activate segment-CNN (default-True)
         :param test: Flag to be set to validate the model on the test dataset (default-False)
         :param one_hot: Flag to be set to create one-hot vectors (default-False)
@@ -51,32 +74,38 @@ class Model:
         # read dataset from external files
         train_data = data_object['sentence']
         train_labels = data_object['label']
-        print(train_data)
-        print(train_labels)
 
         if self.test:
             test_data = data_object['sentence']
             test_labels = data_object['label']
         else:
-            test_sentences = None
-            test_labels = None
             test_data = None
+            test_labels = None
 
-        self.train_label = train_labels
-
-        if self.test:
-             self.train, self.x_test, self.word_index = self.vectorize_words(train_sentences, test_sentence)
-             # self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_sentences, test_sentence)
-             self.y_test = test_labels
+        if self.multilabel:
+            df_train = reduce_duplicate_data(train_data, train_labels)
+            self.train, self.word_index = self.vectorize_words(df_train.sentence)
+            self.train_label = df_train.label.tolist()
+            if self.test:
+                df_test = reduce_duplicate_data(test_data, test_labels)
+                self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
+                self.y_test = test_labels
+            else:
+                self.train, self.word_index = self.vectorize_words(df_train.sentence)
         else:
-            # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
-            self.train, self.word_index = self.vectorize_words(train_data, test_data)
+            self.train_label = train_labels
+            if self.test:
+                self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
+                self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                self.y_test = test_labels
+            else:
+                self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
-        # divides train data into partial train and validation data
-        self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-        # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                  #self.train_label)
-
+            # divides train data into partial train and validation data
+            self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
+            self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
+                                                                                                      self.train_label)
         if segment:
             train_preceding = data_object['seg_preceding']
             train_middle = data_object['seg_middle']
@@ -93,7 +122,6 @@ class Model:
         Takes a list as the input and tokenizes the samples via the `split` method.
         Assigns a unique index to each unique word and returns a dictionary of unique tokens.
         Encodes the words into one-hot vectors and stores the results in a matrix
-
         :param test_list: test data
         :param train_list: train data
         :return matrix: matrix with one-hot encoding
@@ -129,7 +157,6 @@ class Model:
         Takes training data as input (test data is optional), creates a Keras tokenizer configured to only take into account the top given number
         of the most common words in the training data and builds the word index. If test data is passed it will be tokenized using the same
         tokenizer and output the vector. If the one-hot flag is set to true, one-hot vector is returned if not vectorized sequence is returned
-
         :param train_list: train data
         :param test_list: test data
         :return: one-hot encoding or the vectorized sequence of the input list, unique word index
@@ -204,19 +231,23 @@ class Model:
     #cora's fix
     def binarize_labels(self, label_list, binarize=False):
         """
-        Function takes a list as the input and binarizes labels in a one-vs-all fashion
-        Then outputs the one-hot encoding of the input list
-
-    ​
-        :param binarize:
+        Takes the input list and binarizes or vectorizes the labels
+        If the binarize flag is set to true, it binarizes the input list in a one-vs-all fashion and outputs
+        the one-hot encoding of the input list
+        :param binarize: binarize flag
         :param label_list: list of text labels
-        :return list:list of binarized labels
+        :return list:list of binarized / vectorized labels
         """
-        if self.test or binarize:
+        if self.multilabel:
+            self.encoder = MultiLabelBinarizer()
+            self.encoder.fit(label_list)
+            encoder_label = self.encoder.transform(label_list)
+            # self.encoder = preprocessing.MultiLabelBinarizer()
+            # encoder_label = self.encoder.fit_transform(label_list)
+        elif self.test or binarize:
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
         else:
             self.encoder = preprocessing.LabelEncoder()
             encoder_label = self.encoder.fit_transform(label_list)
-
         return encoder_label

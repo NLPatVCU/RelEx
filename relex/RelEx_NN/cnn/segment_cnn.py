@@ -4,11 +4,13 @@ from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
-
+from sklearn.metrics import classification_report, confusion_matrix
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',optimizer='rmsprop', metrics=['accuracy']):
+    def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,
+                 activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
+                 optimizer='rmsprop', metrics=['accuracy']):
         self.data_model = model
         self.embedding = embedding
         self.cv = cross_validation
@@ -29,8 +31,9 @@ class Segment_CNN:
 
     def define_model(self):
         """
-
-        :return:
+        define a CNN model with defined parameters when the class is called
+        :param no_classes: no of classes
+        :return: trained model
         """
         input_shape = Input(shape=(self.data_model.maxlen,))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
@@ -44,9 +47,9 @@ class Segment_CNN:
 
     def build_segment_cnn(self, no_classes):
         """
-
-        :param no_classes:
-        :return:
+        Builds individual units for each segments
+        :param no_classes: no of classes
+        :return: trained model
         """
         flat1, input_shape1 = self.define_model()
         flat2, input_shape2 = self.define_model()
@@ -70,8 +73,7 @@ class Segment_CNN:
 
     def cross_validate(self, num_folds=5):
         """
-
-        :param num_folds:
+        :param num_folds: no of fold for cross validation (default = 5)
         """
         Pre_data = self.data_model.preceding
         Mid_data = self.data_model.middle
@@ -86,7 +88,8 @@ class Segment_CNN:
         skf.get_n_splits(C1_data, Y_data)
         evaluation_statistics = {}
         fold = 1
-
+        originalclass = []
+        predictedclass = []
         for train_index, test_index in skf.split(C1_data, Y_data):
             binary_Y = self.data_model.binarize_labels(Y_data, True)
 
@@ -105,8 +108,17 @@ class Segment_CNN:
             y_pred, y_true = evaluate.predict(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test], y_test,
                                               labels)
             fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
+            originalclass.extend(y_true)
+            predictedclass.extend(y_pred)
+            print("--------------------------- Results ------------------------------------")
+            print(classification_report(y_true, y_pred, labels=labels))
+            # print(confusion_matrix(y_true, y_pred))
             evaluation_statistics[fold] = fold_statistics
             fold += 1
+        print("--------------------- Results --------------------------------")
+        print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
+        print(confusion_matrix(np.array(originalclass), np.array(predictedclass)))
+
+        print("---------------------medacy Results --------------------------------")
 
         evaluate.cv_evaluation(labels, evaluation_statistics)
-        # output_to_file(y_true, y_pred, "output.txt", target=labels)

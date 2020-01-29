@@ -1,1 +1,8 @@
+<<<<<<< HEAD
+=======
+data/
+word_embeddings/
+*.txt
+*.csv
+>>>>>>> master
 
