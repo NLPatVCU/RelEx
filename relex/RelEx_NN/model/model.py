@@ -52,7 +52,7 @@ def reduce_duplicate_data(train_data, train_labels):
 
 class Model:
 
-    def __init__(self, data_object, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100, data_object_test=None):
         """
         :param data_object: call set_connection here
         :param multilabel: Flag to be set to run sentence-CNN for multi-labels
@@ -70,17 +70,27 @@ class Model:
         self.common_words = common_words
         self.maxlen = maxlen
         self.data_object = data_object
+        self.data_object_test = data_object_test
 
         # read dataset from external files
         train_data = data_object['sentence']
         train_labels = data_object['label']
 
         if self.test:
-            test_data = data_object['sentence']
-            test_labels = data_object['label']
+            test_data = data_object_test['sentence']
+            test_labels = data_object_test['label']
+
         else:
             test_data = None
             test_labels = None
+            if segment:
+                test_preceding = data_object['seg_preceding']
+                test_middle = data_object['seg_middle']
+                test_succeeding = data_object['seg_succeeding']
+                test_concept1 = data_object['seg_concept1']
+                test_concept2 = data_object['seg_concept2']
+
+                self.test_preceding, self.test_middle, self.test_succeeding, self.test_concept1, self.test_concept2, self.word_index = self.vectorize_segments(test_data, test_preceding, test_middle, test_succeeding, test_concept1, test_concept2)
 
         if self.multilabel:
             df_train = reduce_duplicate_data(train_data, train_labels)
@@ -96,7 +106,7 @@ class Model:
             self.train_label = train_labels
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
-                self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                # self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.y_test = test_labels
             else:
                 self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
@@ -104,8 +114,8 @@ class Model:
 
             # divides train data into partial train and validation data
             self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-            self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                      self.train_label)
+            # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
+                                                                                                      #self.train_label)
         if segment:
             train_preceding = data_object['seg_preceding']
             train_middle = data_object['seg_middle']

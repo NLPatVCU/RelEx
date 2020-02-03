@@ -71,6 +71,14 @@ class Segment_CNN:
         print(model.summary())
         return model
 
+    def test(self):
+        Pre_data = self.data_model.test_preceding
+        Mid_data = self.data_model.test_middle
+        Suc_data = self.data_model.test_succeeding
+        C1_data = self.data_model.test_concept1
+        C2_data = self.data_model.test_concept2
+        Y_data = self.data_model.test_label
+
     def cross_validate(self, num_folds=5):
         """
         :param num_folds: no of fold for cross validation (default = 5)

@@ -8,15 +8,9 @@ from spacy.lang.en import English
 def add_file_segments(doc_segments, segment):
     """
     Function to add the local segment object to the global segment object
-<<<<<<< HEAD
-
-    :param doc_segments: global segment object
-    :param segment: local segment object
-=======
     :param doc_segments: global segment object
     :param segment: local segment object
     :return: doc_segments
->>>>>>> master
     """
     doc_segments['preceding'].extend(segment['preceding'])
     doc_segments['concept1'].extend(segment['concept1'])

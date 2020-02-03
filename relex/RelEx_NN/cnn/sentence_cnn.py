@@ -27,6 +27,8 @@ class Sentence_CNN:
         self.metrics = metrics
         if self.cv:
             self.cross_validate()
+        else:
+            self.test()
 
     def define_model(self, no_classes):
         """
@@ -97,6 +99,30 @@ class Sentence_CNN:
             return model, loss, val_loss, acc, val_acc, max_epoch
 
         return model, loss, acc
+
+    def test(self):
+        """
+        Train - Test - Split
+        """
+
+        x_train = self.data_model.train
+        y_train = self.data_model.train_label
+        binary_y_train = self.data_model.binarize_labels(y_train, True)
+
+        labels = [str(i) for i in self.data_model.encoder.classes_]
+
+        x_test = self.data_model.x_test
+        y_test = self.data_model.y_test
+        binary_y_test = self.data_model.binarize_labels(y_test, True)
+
+        cv_model = self.define_model(len(self.data_model.encoder.classes_))
+        cv_model, loss, acc = self.fit_Model(cv_model, x_train, binary_y_train)
+        y_pred, y_true = evaluate.predict(cv_model, x_test, binary_y_test, labels)
+
+        print(classification_report(y_true, y_pred, target_names=labels))
+
+
+
 
     def cross_validate(self, num_folds=5):
         """

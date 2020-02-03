@@ -2,7 +2,7 @@ from data import Dataset
 from segment import Segmentation
 
 # path to the dataset
-sample_train = Dataset('../data/sample_train')
+sample_train = Dataset('../data/test_data')
 
 '''
 Running instructions:
@@ -12,16 +12,16 @@ Running instructions:
 
 '''
 # To extract the problem - treatment relations object
-rel_labels = ['problem', 'test']
-no_rel_label = ['NTeP']
-
-# To extract the problem - treatment relations object
 # rel_labels = ['problem', 'treatment']
-# no_rel_label = ['NTeP']
+# no_rel_label = ['NtrP']
 
-# To extract the problem - treatment relations object
+# To extract the problem - test relations object
 # rel_labels = ['problem', 'test']
 # no_rel_label = ['NTeP']
+
+# To extract the problem - problem relations object
+rel_labels = ['problem', 'problem']
+no_rel_label = ['NPP']
 
 # to extract the segments from the dataset
 seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label )
