@@ -4,12 +4,15 @@ from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.utils import class_weight
+import numpy as np
+
 
 class Sentence_CNN:
 
-    def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,
-                 activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
-                 optimizer='rmsprop', metrics=['accuracy']):
+    def __init__(self, model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1,
+                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5,
+                 loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']):
 
         self.data_model = model
         self.embedding = embedding
@@ -27,6 +30,8 @@ class Sentence_CNN:
         self.metrics = metrics
         if self.cv:
             self.cross_validate()
+        else:
+            self.test()
 
     def define_model(self, no_classes):
         """
@@ -34,7 +39,7 @@ class Sentence_CNN:
         :param no_classes: no of classes
         :return: trained model
         """
-        #Define the model with different parameters and layers when running for multi label sentence CNN
+        # Define the model with different parameters and layers when running for multi label sentence CNN
         if self.data_model.multilabel:
 
             model = Sequential()
@@ -81,6 +86,10 @@ class Sentence_CNN:
         :param validation: validation data
         :return:
         """
+        # Calculate the weights for each class so that we can balance the data
+        # weights = class_weight.compute_class_weight('balanced', np.unique(y_train), y_train)
+
+        # history = model.fit(x_train, y_train, epochs=self.epochs, batch_size=self.batch_size, validation_data=validation, class_weight=weights)
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
         loss = history.history['loss']
@@ -97,6 +106,34 @@ class Sentence_CNN:
             return model, loss, val_loss, acc, val_acc, max_epoch
 
         return model, loss, acc
+
+    def test(self):
+        """
+        Train - Test - Split
+        """
+
+        x_train = self.data_model.train
+        y_train = self.data_model.train_label
+        binary_y_train = self.data_model.binarize_labels(y_train, True)
+
+        labels = [str(i) for i in self.data_model.encoder.classes_]
+
+        x_test = self.data_model.x_test
+        y_test = self.data_model.y_test
+        binary_y_test = self.data_model.binarize_labels(y_test, True)
+
+        cv_model = self.define_model(len(self.data_model.encoder.classes_))
+
+        if self.data_model.multilabel:
+            cv_model.fit(x_train, binary_y_train, epochs=self.epochs, batch_size=self.batch_size)
+            y_pred, y_true = evaluate.multilabel_predict(cv_model, x_test, binary_y_test)
+        else:
+            cv_model, loss, acc = self.fit_Model(cv_model, x_train, binary_y_train)
+            y_pred, y_true = evaluate.predict(cv_model, x_test, binary_y_test, labels)
+            print(confusion_matrix(y_true, y_pred))
+
+        print(classification_report(y_true, y_pred, target_names=labels))
+
 
     def cross_validate(self, num_folds=5):
         """
@@ -122,7 +159,6 @@ class Sentence_CNN:
 
             binary_Y = self.data_model.binarize_labels(Y_data, False)
             for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
-
                 x_train, x_test = X_data[train_index], X_data[test_index]
                 y_train, y_test = binary_Y[train_index], binary_Y[test_index]
                 print("Training Fold %i", fold)
@@ -164,7 +200,3 @@ class Sentence_CNN:
 
             print("---------------------medacy Results --------------------------------")
             evaluate.cv_evaluation(labels, evaluation_statistics)
-
-
-
-

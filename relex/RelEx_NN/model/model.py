@@ -52,7 +52,7 @@ def reduce_duplicate_data(train_data, train_labels):
 
 class Model:
 
-    def __init__(self, data_object, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object, data_object_test, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
         """
         :param data_object: call set_connection here
         :param multilabel: Flag to be set to run sentence-CNN for multi-labels
@@ -70,27 +70,36 @@ class Model:
         self.common_words = common_words
         self.maxlen = maxlen
         self.data_object = data_object
+        self.data_object_test = data_object_test
 
         # read dataset from external files
         train_data = data_object['sentence']
         train_labels = data_object['label']
 
         if self.test:
-            test_data = data_object['sentence']
-            test_labels = data_object['label']
+            test_data = data_object_test['sentence']
+            test_labels = data_object_test['label']
+            if segment:
+                test_preceding = data_object_test['seg_preceding']
+                test_middle = data_object_test['seg_middle']
+                test_succeeding = data_object_test['seg_succeeding']
+                test_concept1 = data_object_test['seg_concept1']
+                test_concept2 = data_object_test['seg_concept2']
+                self.test_preceding, self.test_middle, self.test_succeeding, self.test_concept1, self.test_concept2, self.word_index = self.vectorize_segments(
+                    test_data, test_preceding, test_middle, test_succeeding, test_concept1, test_concept2)
         else:
             test_data = None
             test_labels = None
 
         if self.multilabel:
             df_train = reduce_duplicate_data(train_data, train_labels)
-            self.train, self.word_index = self.vectorize_words(df_train.sentence)
             self.train_label = df_train.label.tolist()
             if self.test:
                 df_test = reduce_duplicate_data(test_data, test_labels)
                 self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
-                self.y_test = test_labels
+                self.y_test = df_test.label.tolist()
             else:
+
                 self.train, self.word_index = self.vectorize_words(df_train.sentence)
         else:
             self.train_label = train_labels

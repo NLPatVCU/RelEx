@@ -6,9 +6,11 @@ from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
 from sklearn.metrics import classification_report, confusion_matrix
 
+
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,
+    def __init__(self, model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1,
+                 filter_maxPool=5,
                  activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
                  optimizer='rmsprop', metrics=['accuracy']):
         self.data_model = model
@@ -28,6 +30,8 @@ class Segment_CNN:
 
         if self.cv:
             self.cross_validate()
+        else:
+            self.test()
 
     def define_model(self):
         """
@@ -70,6 +74,36 @@ class Segment_CNN:
         # summarize
         print(model.summary())
         return model
+
+    def test(self):
+        #train - data segments
+        pre_train = self.data_model.preceding
+        mid_train = self.data_model.middle
+        suc_train = self.data_model.succeeding
+        c1_train = self.data_model.concept1
+        c2_train = self.data_model.concept2
+        y_train = self.data_model.train_label
+        binary_y_train = self.data_model.binarize_labels(y_train, True)
+
+        # test data segments
+        pre_test = self.data_model.test_preceding
+        mid_test = self.data_model.test_middle
+        suc_test = self.data_model.test_succeeding
+        c1_test = self.data_model.test_concept1
+        c2_test = self.data_model.test_concept2
+        y_test = self.data_model.y_test
+        binary_y_test = self.data_model.binarize_labels(y_test, True)
+
+        labels = [str(i) for i in self.data_model.encoder.classes_]
+
+        cv_model = self.build_segment_cnn(len(self.data_model.encoder.classes_))
+        cv_model.fit([pre_train, mid_train, suc_train, c1_train, c2_train], binary_y_train, epochs=self.epochs,
+                     batch_size=self.batch_size)
+        y_pred, y_true = evaluate.predict(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test], binary_y_test,
+                                          labels)
+
+        print(classification_report(y_true, y_pred, labels=labels))
+        print(confusion_matrix(y_true, y_pred))
 
     def cross_validate(self, num_folds=5):
         """
