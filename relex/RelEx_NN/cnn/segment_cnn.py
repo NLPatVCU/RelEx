@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation=False, epochs=20, batch_size=512, filters=32, filter_conv=1,
+    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=20, batch_size=512, filters=32, filter_conv=1,
                  filter_maxPool=5,
                  activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
                  optimizer='rmsprop', metrics=['accuracy']):
@@ -27,9 +27,12 @@ class Segment_CNN:
         self.loss = loss
         self.optimizer = optimizer
         self.metrics = metrics
+        self.end_to_end = end_to_end
 
         if self.cv:
             self.cross_validate()
+        elif self.end_to_end:
+            self.end_to_end_test()
         else:
             self.test()
 
@@ -104,6 +107,45 @@ class Segment_CNN:
 
         print(classification_report(y_true, y_pred, labels=labels))
         print(confusion_matrix(y_true, y_pred))
+
+    def end_to_end_test(self):
+
+        pre_train = self.data_model.preceding
+        mid_train = self.data_model.middle
+        suc_train = self.data_model.succeeding
+        c1_train = self.data_model.concept1
+        c2_train = self.data_model.concept2
+        y_train = self.data_model.train_label
+        binary_y_train = self.data_model.binarize_labels(y_train, True)
+
+        labels = [str(i) for i in self.data_model.encoder.classes_]
+
+        pre_test = self.data_model.test_preceding
+        mid_test = self.data_model.test_middle
+        suc_test = self.data_model.test_succeeding
+        c1_test = self.data_model.test_concept1
+        c2_test = self.data_model.test_concept2
+        y_test = self.data_model.y_test
+        binary_y_test = self.data_model.binarize_labels(y_test, True)
+
+        cv_model = self.build_segment_cnn(len(self.data_model.encoder.classes_))
+        cv_model.fit([pre_train, mid_train, suc_train, c1_train, c2_train], binary_y_train, epochs=self.epochs,
+                     batch_size=self.batch_size)
+        y_pred, y_true = evaluate.predict(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test], binary_y_test, labels)
+        print("---------------------  binary results ---------------------------------")
+        print(confusion_matrix(y_true, y_pred))
+        print(classification_report(y_true, y_pred, target_names=labels))
+
+        df_train, df_test = self.data_model.remove_instances(y_pred)
+        binary_y_train1 = self.data_model.binarize_labels(df_train.label.tolist(), True)
+        labels1 = [str(i) for i in self.data_model.encoder.classes_]
+        binary_y_test1 = self.data_model.binarize_labels(df_test.true.tolist(), True)
+        cv_model1 = self.build_segment_cnn(len(labels1))
+        cv_model1.fit([df_train.preceding.tolist(), df_train.middle.tolist(), df_train.succeeding.tolist(), df_train.c1.tolist(), df_train.c2.tolist()], binary_y_train1, epochs=self.epochs, batch_size=self.batch_size)
+        y_pred1, y_true1 = evaluate.predict(cv_model1, [df_test.preceding.tolist(), df_test.middle.tolist(), df_test.succeeding.tolist(), df_test.c1.tolist(), df_test.c2.tolist()], binary_y_test1,labels1)
+        print("---------------------  Final results ---------------------------------")
+        print(confusion_matrix(y_true1, y_pred1))
+        print(classification_report(y_true1, y_pred1, target_names=labels1))
 
     def cross_validate(self, num_folds=5):
         """

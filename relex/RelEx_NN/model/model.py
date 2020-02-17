@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import os, logging, tempfile
 
+
 def create_validation_data(train_data, train_label, num_data=1000):
     """
     Splits the input data into training and validation. By default it takes first 1000 as the validation.
@@ -30,8 +31,12 @@ def create_validation_data(train_data, train_label, num_data=1000):
 def reduce_duplicate_data(train_data, train_labels):
     """
     Reads the data into one dataframe. Removes the duplicated data and merges the respective labels. Also drops the
-    duplicates of the labels. :param train_data: data :param train_labels: labels
+    duplicates of the labels.
+    :param train_data: data
+    :param train_labels: labels
+    :return: dataframe
     """
+
     df_data = pd.DataFrame(train_data, columns=['sentence'])
     df_label = pd.DataFrame(train_labels, columns=['label'])
 
@@ -50,9 +55,29 @@ def reduce_duplicate_data(train_data, train_labels):
     return df
 
 
+def convert_binary(train_labels):
+    """
+
+    :param train_labels:
+    :return:
+    """
+    df_label = pd.DataFrame(train_labels, columns=['label'])
+    true_labels = df_label['label'].tolist()
+
+    negative_label_list = ['NTeP', 'NTrP', 'NPP']
+    labels_binary = []
+    for label in true_labels:
+        if label not in negative_label_list:
+            labels_binary.append('yes')
+        else:
+            labels_binary.append('no')
+    return labels_binary
+
+
 class Model:
 
-    def __init__(self, data_object, data_object_test, segment=True, test=False, multilabel=False, one_hot=False, common_words=10000, maxlen=100):
+    def __init__(self, data_object, data_object_test=None, segment=False, test=False, multilabel=False, one_hot=False,
+                 binary_label=False, common_words=10000, maxlen=100):
         """
         :param data_object: call set_connection here
         :param multilabel: Flag to be set to run sentence-CNN for multi-labels
@@ -67,6 +92,7 @@ class Model:
         self.segment = segment
         self.test = test
         self.multilabel = multilabel
+        self.binary_label = binary_label
         self.common_words = common_words
         self.maxlen = maxlen
         self.data_object = data_object
@@ -76,9 +102,19 @@ class Model:
         train_data = data_object['sentence']
         train_labels = data_object['label']
 
+        if self.binary_label:
+            self.true_labels_train = train_labels
+            self.true_train = train_data
+            binary_labels = convert_binary(train_labels)
+            train_labels = binary_labels
         if self.test:
             test_data = data_object_test['sentence']
             test_labels = data_object_test['label']
+            if self.binary_label:
+                self.true_labels_test = test_labels
+                self.true_test = test_data
+                binary_labels = convert_binary(test_labels)
+                test_labels = binary_labels
             if segment:
                 test_preceding = data_object_test['seg_preceding']
                 test_middle = data_object_test['seg_middle']
@@ -98,9 +134,13 @@ class Model:
                 df_test = reduce_duplicate_data(test_data, test_labels)
                 self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
                 self.y_test = df_test.label.tolist()
+                if self.binary_label:
+                    self.true_train_y = train_labels
+                    self.true_test_y = test_labels
+                    self.true_train_x, self.true_test_x, self.word_index1 = self.vectorize_words(train_data, test_data)
             else:
-
                 self.train, self.word_index = self.vectorize_words(df_train.sentence)
+
         else:
             self.train_label = train_labels
             if self.test:
@@ -115,7 +155,7 @@ class Model:
             self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
             self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
                                                                                                       self.train_label)
-        if segment:
+        if self.segment:
             train_preceding = data_object['seg_preceding']
             train_middle = data_object['seg_middle']
             train_succeeding = data_object['seg_succeeding']
@@ -125,6 +165,41 @@ class Model:
             # convert into segments
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
                 train_data, train_preceding, train_middle, train_succeeding, train_concept1, train_concept2)
+
+    def remove_instances(self, y_pred):
+        if self.segment:
+            df_test = pd.DataFrame(list(
+                zip(self.x_test, self.test_preceding, self.test_middle, self.test_succeeding, self.test_concept1,
+                    self.test_concept2, self.true_labels_test, y_pred)),
+                                   columns=['sentence', 'preceding', 'middle', 'succeeding', 'c1', 'c2', 'true',
+                                            'pred'])
+            df_new_test = df_test[df_test.pred != 'no']
+            df_new_test = df_new_test[df_test.true != 'NTeP']
+            df_train = pd.DataFrame(list(
+                zip(self.train, self.preceding, self.middle, self.succeeding, self.concept1, self.concept2,
+                    self.true_labels_train)),
+                                    columns=['sentence', 'preceding', 'middle', 'succeeding', 'c1', 'c2', 'label'])
+            df_new_train = df_train[df_train.label != 'NTeP']
+            return df_new_train, df_new_test
+
+        elif self.multilabel:
+            df_test = pd.DataFrame(list(zip(self.true_test, self.true_labels_test, y_pred)),
+                                   columns=['sentence', 'true', 'pred'])
+            df_new_test = df_test[df_test.pred != 'no']
+            df_new_test = df_new_test[df_test.true != 'NTeP']
+            df_train = pd.DataFrame(list(zip(self.true_train, self.true_labels_train)), columns=['sentence', 'label'])
+            df_new_train = df_train[df_train.label != 'NTeP']
+            return df_new_train['sentence'].tolist(), df_new_train['label'].tolist(), df_new_test['sentence'].tolist(), \
+                   df_new_test['true'].tolist()
+        else:
+            df_test = pd.DataFrame(list(zip(self.x_test, self.true_labels_test, y_pred)),
+                                   columns=['sentence', 'true', 'pred'])
+            df_new_test = df_test[df_test.pred != 'no']
+            df_new_test = df_new_test[df_test.true != 'NTeP']
+            df_train = pd.DataFrame(list(zip(self.train, self.true_labels_train)), columns=['sentence', 'label'])
+            df_new_train = df_train[df_train.label != 'NTeP']
+            return df_new_train['sentence'].tolist(), df_new_train['label'].tolist(), df_new_test['sentence'].tolist(), \
+                   df_new_test['true'].tolist()
 
     def one_hot_encoding(self, train_list, test_list=None):
         """
@@ -237,7 +312,7 @@ class Model:
 
         return padded_preceding, padded_middle, padded_succeeding, padded_concept1, padded_concept2, word_index
 
-    #cora's fix
+    # cora's fix
     def binarize_labels(self, label_list, binarize=False):
         """
         Takes the input list and binarizes or vectorizes the labels
@@ -247,12 +322,11 @@ class Model:
         :param label_list: list of text labels
         :return list:list of binarized / vectorized labels
         """
-        if self.multilabel:
+        if self.multilabel and not self.binary_label:
             self.encoder = MultiLabelBinarizer()
             self.encoder.fit(label_list)
             encoder_label = self.encoder.transform(label_list)
-            # self.encoder = preprocessing.MultiLabelBinarizer()
-            # encoder_label = self.encoder.fit_transform(label_list)
+
         elif self.test or binarize:
             self.encoder = preprocessing.MultiLabelBinarizer()
             encoder_label = self.encoder.fit_transform([[label] for label in label_list])
@@ -260,4 +334,3 @@ class Model:
             self.encoder = preprocessing.LabelEncoder()
             encoder_label = self.encoder.fit_transform(label_list)
         return encoder_label
-
