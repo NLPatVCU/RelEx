@@ -1,4 +1,4 @@
-# RelEx
+   # RelEx
 
 Relation Extractor based on the Collocation information.
 ![alt text](https://nlp.cs.vcu.edu/images/Edit_NanomedicineDatabase.png "Nanoinformatics")

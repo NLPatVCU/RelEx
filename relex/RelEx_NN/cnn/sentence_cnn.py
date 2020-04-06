@@ -1,15 +1,23 @@
 # Author : Samantha Mahendran for RelEx
+import sys
+
+import numpy
 from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
 from RelEx_NN.model import evaluate
+from RelEx_NN.embeddings.elmo_embeddings import Get_ELMo_Embeddings
+from RelEx_NN.embeddings.elmo_embeddings import Convert_Tensor_Into_Numpy_Array
+from RelEx_NN.embeddings.elmo_embeddings import Embed_To_File
+from RelEx_NN.embeddings.elmo_embeddings import threadTime
+import tensorflow as tf
 
 
 class Sentence_CNN:
 
     def __init__(self, model, embedding, cross_validation = False, epochs=20, batch_size=512, filters=32, filter_conv=1, filter_maxPool=5,
                  activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
-                 optimizer='rmsprop', metrics=['accuracy']):
+                 optimizer='rmsprop', metrics=['accuracy'], elmo=None):
 
         self.data_model = model
         self.embedding = embedding
@@ -25,6 +33,14 @@ class Sentence_CNN:
         self.loss = loss
         self.optimizer = optimizer
         self.metrics = metrics
+        self.elmo = elmo
+       # if self.elmo != None:
+
+        #    sentFile = open(self.elmo)
+         #   sents = sentFile.read().split("\n")
+            #threadTime(sents,2)
+          #  self.elmo = Convert_Tensor_Into_Numpy_Array(self.elmo)
+           # sentFile.close()
         if self.cv:
             self.cross_validate()
 
@@ -35,11 +51,23 @@ class Sentence_CNN:
         :return:
         """
         input_shape = Input(shape=(self.data_model.maxlen,))
+        print(self.data_model.maxlen)
+        
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
+        #print(self.embedding.embedding_dim)
+
 
         if self.embedding:
             embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
                                   weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
+       # if self.elmo !=None:
+        #    print(type(self.elmo))
+         #   self.elmo= emo.Convert_Tensor_Into_Numpy_Array(self.elmo)
+            # embedding = self.elmo ##this is a tensor, not a layer
+          #  print("checkpoint")
+
+
+
         conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
         pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
 
@@ -52,7 +80,7 @@ class Sentence_CNN:
 
         model = Model(inputs=input_shape, outputs=outputs)
         model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
-        print(model.summary())
+        #print(model.summary())
 
         return model
 
@@ -65,6 +93,9 @@ class Sentence_CNN:
         :param validation:
         :return:
         """
+        # print(len(x_train[1]))
+        # print(y_train[0])
+    
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
         print("epochs: ", self.epochs)

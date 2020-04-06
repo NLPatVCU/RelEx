@@ -1,10 +1,13 @@
 # Author : Samantha Mahendran for RelEx
+import sys
 
 from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
+from keras import activations
 from RelEx_NN.model import evaluate
-
+from keras_contrib.layers import CRF
+import tensorflow
 
 class Segment_CNN:
 
@@ -61,13 +64,30 @@ class Segment_CNN:
 
         # interpretation
         dense1 = Dense(18, activation=self.activation)(merged)
-        outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+        print(dense1.shape)
+        outputs = Dense(no_classes)(dense1)
+        print(activations.sigmoid(outputs))
+        sys.exit()
+        # sess = tensorflow.Session()
+        # with sess.as_default():
+        #     sess.run(tensorflow.global_variables_initializer())
+        #     dense1.eval()
+
+        #print("test: "+ test)
+
+        #dense1 = tensorflow.reshape(tensor=dense1, shape=[1,18,1])
+        #IF I CAN KNOW HOW MANY THINGS ARE IN DENSE1, I CAN RESHAPE
+        #self.data_model.maxlen
+        #outputs = CRF(10, sparse_target=False)(dense1)
+        #print(type(outputs))
+        #print(outputs.shape)
 
         model = Model(inputs=[input_shape1, input_shape2, input_shape3, input_shape4, input_shape5], outputs=outputs)
         model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
 
         # summarize
         print(model.summary())
+
         return model
 
     def cross_validate(self, num_folds=5):
