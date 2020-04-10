@@ -16,7 +16,7 @@ def predict(model, x_test, y_test, encoder_classes):
     :param model: trained model
     :param x_test: test data
     :param y_test: test true labels
-    :param encoder_classes: 
+    :param encoder_classes:
     :return: predicted and true labels
     """
     pred = model.predict(x_test)
@@ -32,12 +32,28 @@ def predict(model, x_test, y_test, encoder_classes):
     return y_pred, y_true
 
 
+def multilabel_predict(model, x_test, y_test):
+    """
+    Takes the predictions as input and using a threshold (0.5) return the indices as true labels.
+    :param model: trained model
+    :param x_test: test data
+    :param y_test: test true labels
+    :return: predicted and true labels
+    """
+    np_pred = np.array(model.predict(x_test))
+    np_pred[np_pred < 0.5] = 0
+    np_pred[np_pred > 0.5] = 1
+    np_pred = np_pred.astype(int)
+    np_true = np.array(y_test)
+
+    return np_pred, np_true
+
+
 def evaluate_Model(y_pred, y_true, encoder_classes):
     """
-
-    :param y_pred:
-    :param y_true:
-    :param encoder_classes:
+    :param y_pred: predicted labels
+    :param y_true: true labels
+    :param encoder_classes: label classes
     """
     print(classification_report(y_true, y_pred, target_names=encoder_classes))
     print(f1_score(y_true, y_pred, average='micro'))
@@ -50,7 +66,7 @@ def evaluate_Model(y_pred, y_true, encoder_classes):
 
 def cv_evaluation_fold(y_pred, y_true, labels):
     """
-    Evaluation metrics for each fold
+    Evaluation metrics for emicroach fold
     :param y_pred: predicted labels
     :param y_true: true labels
     :param labels: list of the classes

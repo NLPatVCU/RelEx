@@ -6,6 +6,12 @@ import numpy as np
 class Embeddings:
 
     def __init__(self, path, model, embedding_dim = 200):
+        """
+        :param path: path for the pre-trained wordembeddings
+        :param model: model
+        :param embedding_dim: embedding dimensions (default-200)
+
+        """
         self.data_model = model
         self.path = path
         self.embedding_dim = embedding_dim
@@ -34,10 +40,6 @@ class Embeddings:
         return embeddings_index
 
     def build_embedding_layer(self):
-        """
-
-        :return:
-        """
         embeddings_index = self.read_embeddings_from_file()
         self.embedding_matrix = np.zeros((self.data_model.common_words, self.embedding_dim))
 

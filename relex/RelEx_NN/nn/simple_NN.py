@@ -31,13 +31,14 @@ class Simple_NN:
 
     def define_model(self, no_classes):
         """
-
-        :param no_classes:
-        :return:
+        define a simple NN model
+        :param no_classes: no of relations classes
+        :return: trained model
         """
         input_shape = Input(shape=(self.data_model.train.shape[1],))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
 
+        #if flag is set use the pre-trained word embedding weights
         if self.embedding:
             embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
                                   weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
@@ -55,9 +56,10 @@ class Simple_NN:
 
     def define_OneHot_model(self, no_classes):
         """
+        define a simple NN model that takes in the input in the one-hot vector format
 
-        :param no_classes:
-        :return:
+        :param no_classes: no of relations classes
+        :return: trained model
         """
         input_shape = Input(shape=(self.data_model.train.shape[1],self.data_model.train.shape[2]))
         embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim)(input_shape)
@@ -79,12 +81,12 @@ class Simple_NN:
 
     def fit_Model(self, model, x_train, y_train, validation=None):
         """
-
-        :param model:
-        :param x_train:
-        :param y_train:
-        :param validation:
-        :return:
+        fit the defined model to train on the data
+        :param model: defined model
+        :param x_train: data
+        :param y_train:labels
+        :param validation: validation data
+        :return: trained model, loss and accuarcy
         """
         history = model.fit(x_train, y_train, epochs=self.epochs,
                             batch_size=self.batch_size, validation_data=validation)
@@ -106,8 +108,8 @@ class Simple_NN:
 
     def cross_validate(self, num_folds=5):
         """
-
-        :param num_folds:
+        Train the NN model while running cross validation.
+        :param num_folds: no of CV fold (default = 5)
         """
         X_data =  self.data_model.train
         Y_data = self.data_model.train_label
