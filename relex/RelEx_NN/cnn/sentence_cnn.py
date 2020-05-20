@@ -74,12 +74,11 @@ class Sentence_CNN:
                    embedding = Embedding(self.data_model.common_words, self.embedding.embedding_dim,
                             weights=[self.embedding.embedding_matrix], trainable=False)(input_shape)
             else:
-                input_shape = Input(shape=(1,self.data_model.maxlen),dtype=tf.string)
+                input_shape = Input(shape=(1,),dtype=tf.string)
                 embedding = ElmoEmbeddingLayer()(input_shape)
-
+                
             conv1 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(embedding)
             pool1 = MaxPooling1D(pool_size=self.filter_maxPool)(conv1)
-
             conv2 = Conv1D(filters=self.filters, kernel_size=self.filter_conv, activation=self.activation)(pool1)
             drop = Dropout(self.drop_out)(conv2)
 
@@ -87,7 +86,7 @@ class Sentence_CNN:
             dense1 = Dense(self.filters, activation=self.activation)(flat)
             outputs = Dense(no_classes, activation=self.output_activation)(dense1)
 
-            model = Model(inputs=input_shape, outputs=outputs)
+            model = Model(inputs=[input_shape], outputs=outputs)
             model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
 
         print(model.summary())
@@ -212,10 +211,14 @@ class Sentence_CNN:
         Train the CNN model while running cross validation.
         :param num_folds: no of fold in CV (default = 5)
         """
-        exit()
         X_data = self.data_model.train
         Y_data = self.data_model.train_label
-        
+        binary_Y = self.data_model.binarize_labels(Y_data, True)
+        cv_model = self.define_model(len(self.data_model.encoder.classes_))
+        sentences=np.array(self.sentences, dtype=object)[:, np.newaxis]
+        cv_model.fit(sentences, Y_data, epochs=self.epochs, batch_size=self.batch_size)
+
+        """
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
 
         assert X_data is not None and Y_data is not None, \
@@ -275,4 +278,4 @@ class Sentence_CNN:
             print("---------------------medacy Results --------------------------------")
             evaluate.cv_evaluation(labels, evaluation_statistics)
            
-            
+           """ 

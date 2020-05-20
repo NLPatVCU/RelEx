@@ -8,6 +8,6 @@ data = Set_Connection(CSV=True, sentence_only = True, sentences='../data/segment
 sentences = data["sentence"]
 model = Model(data, segment=False, test=False, multilabel=False, one_hot=False)
 embedding = Embeddings("../word_embeddings/mimic3_d200.txt", model, embedding_dim=200)
-sent_cnn = Sentence_CNN(model, embedding, cross_validation=True, sentences=sentences,filters=300, drop_out=0.1, filter_conv=3, optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
+sent_cnn = Sentence_CNN(model, embedding, cross_validation=True,sentences=sentences,filters=300, drop_out=0.1, filter_conv=3, optimizer='adam', loss='binary_crossentropy', metrics=['categorical_accuracy'])
 
 
