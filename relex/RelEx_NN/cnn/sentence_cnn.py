@@ -215,8 +215,14 @@ class Sentence_CNN:
         Y_data = self.data_model.train_label
         binary_Y = self.data_model.binarize_labels(Y_data, True)
         cv_model = self.define_model(len(self.data_model.encoder.classes_))
+        for i in range(0,len(self.sentences)):
+            if(len(self.sentences[i].split())>100):
+                self.sentences[i]=" ".join(self.sentences[i].split()[:100])
         sentences=np.array(self.sentences, dtype=object)[:, np.newaxis]
-        cv_model.fit(sentences, Y_data, epochs=self.epochs, batch_size=self.batch_size)
+        print(sentences.shape)
+        print(X_data.shape)
+        print(binary_Y.shape)
+        cv_model.fit(sentences, binary_Y, epochs=self.epochs, batch_size=self.batch_size)
 
         """
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
