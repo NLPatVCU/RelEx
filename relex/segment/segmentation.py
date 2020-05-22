@@ -4,6 +4,7 @@ from data import Annotation
 from utils import file, normalization
 from spacy.pipeline import Sentencizer
 from spacy.lang.en import English
+import os
 
 
 def add_file_segments(doc_segments, segment):
@@ -20,6 +21,7 @@ def add_file_segments(doc_segments, segment):
     doc_segments['succeeding'].extend(segment['succeeding'])
     doc_segments['sentence'].extend(segment['sentence'])
     doc_segments['label'].extend(segment['label'])
+    doc_segments['track'].extend(segment['track'])
 
     return doc_segments
 
@@ -53,14 +55,28 @@ def extract_Segments(sentence, span1, span2):
     return preceding, middle, succeeding
 
 
+def write_entities_to_file(ann, file, output_folder):
+    """
+    write the entities of a file to the prediction folder where the relations will be added later
+    :param ann: annotations
+    :param output_folder: folder where the predicted files are stored for evaluation
+    """
+    f = open(output_folder + file, "a")
+    # print(annotations['entities'])
+    for key in ann.annotations['entities']:
+        for label, start, end, context in [ann.annotations['entities'][key]]:
+            f.write(str(key) + '\t' + str(label) + ' ' + str(start) + ' ' + str(end) + '\t' + str(context) + '\n')
+
+
 class Segmentation:
 
     def __init__(self, dataset=None, rel_labels=None, no_rel_label=None, sentence_align=False, test=False,
-                 same_entity_relation=False, generalize=False, de_sample=None):
+                 same_entity_relation=False, generalize=False, write_Predictions = False, prediction_folder = None, de_sample=None):
 
         """
            Dataset is read in and the text and annotation files are segmented along with the labels.
            :param dataset: path to dataset
+           :param prediction_folder: path to predictions folder
            :param rel_labels: list of options for relationship labels
            :param no_labels: list with label for when there is no relationship
            :param sentence_align: options to break sentences
@@ -69,15 +85,16 @@ class Segmentation:
            :param same_entity_relation: check whether relation exists between same type of entities
            :param de_sample: reduce the no of samples
            :param generalize: relations not dependent on the first given relation label
+           :param write_Predictions: write entities and predictions to file
 
         """
+        self.write_Predictions = write_Predictions
         self.dataset = dataset
         self.rel_labels = rel_labels
         self.test = test
         self.same_entity_relation = same_entity_relation
         self.generalize = generalize
         self.nlp_model = English()
-
         if no_rel_label:
             self.no_rel_label = no_rel_label
         else:
@@ -93,17 +110,23 @@ class Segmentation:
         else:
             sentencizer = Sentencizer(punct_chars=["\n", ".", "?"])
 
+        if self.write_Predictions and prediction_folder is not None:
+            ext = ".ann"
+            file.delete_all_files(prediction_folder, ext)
+
         self.nlp_model.add_pipe(sentencizer)
 
         # self.nlp_model = spacy.load('en_core_web_sm')
 
         # global segmentation object that returns all segments and the label
         self.segments = {'seg_preceding': [], 'seg_concept1': [], 'seg_concept2': [], 'seg_middle': [],
-                         'seg_succeeding': [], 'sentence': [], 'label': []}
+                         'seg_succeeding': [], 'sentence': [], 'label': [], 'track':[]}
+
 
         for datafile, txt_path, ann_path in dataset:
-            print(datafile)
+            print("File",datafile)
 
+            self.file = datafile
             self.ann_path = ann_path
             self.txt_path = txt_path
             self.ann_obj = Annotation(self.ann_path)
@@ -112,6 +135,13 @@ class Segmentation:
             # content_text = normalization.replace_Punctuation(content)
 
             self.doc = self.nlp_model(content)
+
+            file_name = str(datafile )+".ann"
+            if write_Predictions:
+                if prediction_folder is not None:
+                    write_entities_to_file(self.ann_obj, file_name, prediction_folder)
+                else:
+                    print("Define the path to the folder to save predictions ")
 
             segment = self.get_Segments_from_sentence(self.ann_obj)
             # segment = self.get_Segments_from_relations(self.ann_obj )
@@ -123,8 +153,9 @@ class Segmentation:
             self.segments['seg_concept2'].extend(segment['concept2'])
             self.segments['seg_succeeding'].extend(segment['succeeding'])
             self.segments['sentence'].extend(segment['sentence'])
-            if not self.test:
-                self.segments['label'].extend(segment['label'])
+            self.segments['track'].extend(segment['track'])
+            # if not self.test:
+            self.segments['label'].extend(segment['label'])
 
             # To add lists of segments to the segments object for the dataset while maintaining the list separate
             # self.segments['seg_preceding'].append(segment['preceding'])
@@ -137,7 +168,7 @@ class Segmentation:
             # self.segments['label'].append(segment['label'])
 
         if not self.test:
-            print(set(self.segments['label']))
+            # print(set(self.segments['label']))
             # print the number of instances of each relation classes
             print([(i, self.segments['label'].count(i)) for i in set(self.segments['label'])])
 
@@ -148,8 +179,9 @@ class Segmentation:
         file.list_to_file('middle_seg', self.segments['seg_middle'])
         file.list_to_file('concept2_seg', self.segments['seg_concept2'])
         file.list_to_file('succeeding_seg', self.segments['seg_succeeding'])
-        if not self.test:
-            file.list_to_file('labels_train', self.segments['label'])
+        file.list_to_file('track', self.segments['track'])
+        # if not self.test:
+        file.list_to_file('labels_train', self.segments['label'])
 
     def get_Segments_from_relations(self, ann):
 
@@ -241,27 +273,30 @@ class Segmentation:
         """
         # object to store the segments of a relation object for a file
         doc_segments = {'preceding': [], 'concept1': [], 'concept2': [], 'middle': [], 'succeeding': [], 'sentence': [],
-                        'label': []}
+                        'label': [], 'track': []}
 
         # list to store the identified relation pair when both entities are same
         self.entity_holder = []
 
         for key1, value1 in ann.annotations['entities'].items():
             label1, start1, end1, mention1 = value1
+            # when relations are dependent on one entity (dominant)
             if not self.generalize:
-
+                # dominant label
                 if label1 == self.rel_labels[0]:
+                # if label1 == self.rel_labels[0] or label1 == self.rel_labels[1]:
                     for key2, value2 in ann.annotations['entities'].items():
                         label2, start2, end2, mention2 = value2
                         token = True
-
-                        # for the same entity
+                        # if relation exists between the same entities
                         if self.same_entity_relation and label2 == self.rel_labels[0] and key1 != key2:
+                            #needs checking
                             if self.test:
-                                label_rel = None
-                                segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                label_rel = "No Label"
+                                segment = self.extract_sentences(ann, key2, key1, label_rel)
+                                if segment is not None:
+                                    doc_segments = add_file_segments(doc_segments, segment)
                             else:
-
                                 for label_rel, entity1, entity2 in ann.annotations['relations']:
                                     if key2 == entity1 and key1 == entity2:
                                         segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
@@ -272,21 +307,24 @@ class Segmentation:
                                 # No relations for the same entity
                                 if token and self.no_rel_label:
                                     label_rel = self.no_rel_label[0]
-                                    segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                    segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
-
+                        # when the entity pair do not contain entities of the same type
                         for i in range(len(self.rel_labels) - 1):
-                            # for the different entities
-                            if not self.same_entity_relation and label2 == self.rel_labels[i + 1]:
+                            # match the dominant entity with other entities
+                            if not self.same_entity_relation and label2 == self.rel_labels[i + 1]:#label2 - second entity label
                                 if self.test:
-                                    label_rel = None
-                                    segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                    label_rel = "No Label"
+                                    segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
                                 else:
+                                    # for the relations that exist in the ann files
                                     for label_rel, entity1, entity2 in ann.annotations['relations']:
+                                        # if key2 == entity2 and key1 == entity1:
                                         if key2 == entity1 and key1 == entity2:
+                                        # when a match with an existing relation is found
                                             segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
                                             doc_segments = add_file_segments(doc_segments, segment)
                                             token = False
@@ -294,12 +332,13 @@ class Segmentation:
 
                                     # No relations for the different entities
                                     if token and self.no_rel_label:
-                                        label_rel = self.no_rel_label[i]
-                                        segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                        label_rel = self.no_rel_label[0]
+                                        segment = self.extract_sentences(ann, key2, key1, label_rel)
                                         if segment is not None:
                                             doc_segments = add_file_segments(doc_segments, segment)
 
             else:
+                # when relation exists between all entity pairs
                 for key2, value2 in ann.annotations['entities'].items():
                     label2, start2, end2, mention2 = value2
                     token = True
@@ -307,10 +346,12 @@ class Segmentation:
                     # for the same entity
                     if self.same_entity_relation and label2 == self.rel_labels[0] and key1 != key2:
                         if self.test:
-                            label_rel = None
-                            segment = self.extract_sentences(ann, key1, key2, label_rel)
+                            label_rel = "No Label"
+                            segment = self.extract_sentences(ann, key2, key1, label_rel)
+                            if segment is not None:
+                                doc_segments = add_file_segments(doc_segments, segment)
                         else:
-
+                            #when relation exists in the ann file
                             for label_rel, entity1, entity2 in ann.annotations['relations']:
                                 if key2 == entity1 and key1 == entity2:
                                     segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
@@ -321,7 +362,7 @@ class Segmentation:
                             # No relations for the same entity
                             if token and self.no_rel_label:
                                 label_rel = self.no_rel_label[0]
-                                segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                segment = self.extract_sentences(ann, key2, key1, label_rel)
                                 if segment is not None:
                                     doc_segments = add_file_segments(doc_segments, segment)
 
@@ -329,11 +370,12 @@ class Segmentation:
                         # for the different entities
                         if not self.same_entity_relation and label2 == self.rel_labels[i + 1]:
                             if self.test:
-                                label_rel = None
-                                segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                label_rel = "No Label"
+                                segment = self.extract_sentences(ann, key2, key1, label_rel)
                                 if segment is not None:
                                     doc_segments = add_file_segments(doc_segments, segment)
                             else:
+                                # when relation exists in the ann file
                                 for label_rel, entity1, entity2 in ann.annotations['relations']:
                                     if key2 == entity1 and key1 == entity2:
                                         segment = self.extract_sentences(ann, entity1, entity2, label_rel, True)
@@ -343,14 +385,14 @@ class Segmentation:
 
                                 # No relations for the different entities
                                 if token and self.no_rel_label:
-                                    label_rel = self.no_rel_label[i]
-                                    segment = self.extract_sentences(ann, key1, key2, label_rel)
+                                    label_rel = self.no_rel_label[0]
+                                    segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
 
         return doc_segments
 
-    def extract_sentences(self, ann, entity1, entity2, label_rel=None, from_relation=False):
+    def extract_sentences(self, ann, entity1, entity2, label_rel=None, join_sentences=False):
         """
         when the two entities are give as input, it identifies the sentences they are located and determines whether the
         entity pair is in the same sentence or not. if not they combine the sentences if there an annotated relation exist
@@ -359,11 +401,12 @@ class Segmentation:
         :param label_rel: relation type
         :param entity1: first entity in the considered pair
         :param entity2: second entity in the considered pair
-        :param from_relation: check for annotated relation in the data
-        :return:
+        :param join_sentences: check for annotated relation in the data
+        :return: segments and sentences and label
         """
         segment = {'preceding': [], 'concept1': [], 'concept2': [], 'middle': [], 'succeeding': [], 'sentence': [],
-                   'label': []}
+                   'label': [], 'track':[]}
+
         start_C1 = ann.annotations['entities'][entity1][1]
         end_C1 = ann.annotations['entities'][entity1][2]
 
@@ -379,21 +422,22 @@ class Segmentation:
             concept_2 = self.doc.char_span(start_C1, end_C1)
 
         if concept_1 is not None and concept_2 is not None:
-            # get the sentence the entity is located
+            # get the sentence the entities are located
             sentence_C1 = str(concept_1.sent.text)
             sentence_C2 = str(concept_2.sent.text)
 
-            # if both entities are located in the same sentence return the sentence or
-            # concatenate the individual sentences where the entities are located in to one sentence
-            if from_relation:
+            # if both entities are located in the same sentence return the sentence or concatenate the individual sentences where the entities are located in to one sentence
+            if join_sentences:
                 if sentence_C1 == sentence_C2:
                     sentence = sentence_C1
                 else:
                     sentence = sentence_C1 + " " + sentence_C2
             else:
+                #if the entity pair considered do not come from an annotated relation, strictly restrict to one sentence
                 if sentence_C1 == sentence_C2:
                     sentence = sentence_C1
                     entity_pair = entity1 + '-' + entity2
+                    # to make sure the same entity pair is not considered twice
                     if entity_pair not in self.entity_holder:
                         self.entity_holder.append(entity2 + '-' + entity1)
                     else:
@@ -417,5 +461,9 @@ class Segmentation:
             segment['middle'].append(middle.replace('\n', ' '))
             segment['succeeding'].append(succeeding.replace('\n', ' '))
             segment['label'].append(label_rel)
-
+            # print( int(self.file),int(entity1[1:]),int(entity2[1:]))
+            segment['track'].append(int(self.file))
+            segment['track'].append(int(entity1[1:]))
+            segment['track'].append(int(entity2[1:]))
+            # segment['track'].append(track)
         return segment

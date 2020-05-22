@@ -3,10 +3,13 @@ from data import Dataset
 from segment import Segmentation
 from utils import file
 import os
+import numpy as np
+from csv import reader
+
 
 class Set_Connection:
     def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
-                 middle_segs=None, concept2_segs=None, succeeding_segs=None, dataset=None,
+                 middle_segs=None, concept2_segs=None, succeeding_segs=None, track=None, dataset=None,
                  rel_labels=None, no_labels=None, CSV=True ):
         """
         Creates object based on data either from a dataset folder or a set of CSVs
@@ -26,7 +29,7 @@ class Set_Connection:
         if self.CSV:
             self.sentences = sentences
             self.labels = labels
-
+            self.track = track
             if not self.sentence_only:
                 self.preceding_segs = preceding_segs
                 self.concept1_segs = concept1_segs
@@ -51,6 +54,8 @@ class Set_Connection:
         # gets segments, labels, and sentences from file
         train_data = file.read_from_file(self.sentences)
         train_labels = file.read_from_file(self.labels)
+        track_list = file.read_from_file(self.track, read_as_int=True)
+
         if not self.sentence_only:
             train_preceding = file.read_from_file(self.preceding_segs)
             train_concept1 = file.read_from_file(self.concept1_segs)
@@ -61,6 +66,7 @@ class Set_Connection:
         # Adds segments, labels, and sentences to object
         obj['sentence'] = train_data
         obj['label'] = train_labels
+        obj['track'] = track_list
         if not self.sentence_only:
             obj['seg_preceding'] = train_preceding
             obj['seg_concept1'] = train_concept1

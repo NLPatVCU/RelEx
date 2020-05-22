@@ -1,2 +1,2 @@
 from .model import Model
-from .evaluate import *
+from RelEx_NN.evaluation.evaluate import *
