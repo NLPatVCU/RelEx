@@ -11,8 +11,8 @@ import numpy as np
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=20, batch_size=512, filters=32, filter_conv=1,
-                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
+    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=5, batch_size=512, filters=32, filter_conv=1,
+                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.2, loss='categorical_crossentropy',
                  optimizer='rmsprop', metrics=['accuracy'], final_predictions= '../Predictions/final_predictions/', No_Rel = False):
 
         self.data_model = model
@@ -39,7 +39,7 @@ class Segment_CNN:
             self.end_to_end_test()
         else:
             self.test()
-            self.data_model.write_Predictions = True
+            # self.data_model.write_Predictions = True
 
     def define_model(self):
         """
@@ -113,7 +113,8 @@ class Segment_CNN:
         if self.data_model.write_Predictions:
             pred= evaluate.predict_test_only(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test],labels)
             # save files in numpy to write predictions in BRAT format
-            np.save('predictions/track', np.array(track_test))
+            # np.save('predictions/track', np.array(track_test))
+            np.save('predictions/track', np.array(track_test).reshape((-1, 3)))
             np.save('predictions/pred', np.array(pred))
             Predictions(self.final_predictions, self.No_rel)
         else:

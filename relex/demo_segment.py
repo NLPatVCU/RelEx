@@ -4,10 +4,10 @@ from segment import Segmentation
 # path to the dataset
 # sample_train = Dataset('../data/sample/train')
 # sample_train = Dataset('../data/medacy')
-sample_train = Dataset('../data/train')
+# sample_train = Dataset('../data/train')
 # predictions = '../Predictions/sample_pred/'
 # predictions = '../Predictions/final_predictions/'
-# sample_train = Dataset('../data/test')
+sample_train = Dataset('../data/test')
 
 '''
 Running instructions: 
@@ -50,19 +50,19 @@ no_rel_label = ['No-Relation']
 #               'US_patents', 'Vehicle', 'Volume', 'Volume_of_distribution', 'Water_solubility', 'Yield', 'Zeta_potential']
 
 #CLEF Data entities
-rel_labels= ['WORKUP', 'TIME']
+rel_labels= ['REACTION_STEP','TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
 # rel_labels = ['WORKUP', 'REACTION_STEP', 'EXAMPLE_LABEL', 'REACTION_PRODUCT', 'STARTING_MATERIAL', 'REAGENT_CATALYST', 'SOLVENT', 'OTHER_COMPOUND', 'TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
 # rel_labels = ['Action', 'Duration', 'Frequency', 'Volume', 'Solvent','Concentration','Surfactant']
 
 # to extract the segments from the dataset
-# seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True, generalize=False)
+seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True, generalize=False)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False, write_Predictions=True, prediction_folder=predictions)
-seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False)
+# seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, generalize=False)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label, same_entity_relation = True)
 
 #print for testing purposes
 sample_track = seg_sampleTrain.segments['track']
 sample_label = seg_sampleTrain.segments['label']
-# print(sample_track)
+print(sample_track)
 # print(sample_label)

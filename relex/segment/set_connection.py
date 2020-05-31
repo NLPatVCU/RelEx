@@ -10,7 +10,7 @@ from csv import reader
 class Set_Connection:
     def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
                  middle_segs=None, concept2_segs=None, succeeding_segs=None, track=None, dataset=None,
-                 rel_labels=None, no_labels=None, CSV=True ):
+                 rel_labels=None, no_labels=None, CSV=True, test=False ):
         """
         Creates object based on data either from a dataset folder or a set of CSVs
         :param dataset: path to dataset
@@ -26,6 +26,7 @@ class Set_Connection:
         """
         self.CSV = CSV
         self.sentence_only = sentence_only
+        self.test = test
         if self.CSV:
             self.sentences = sentences
             self.labels = labels
@@ -42,7 +43,7 @@ class Set_Connection:
             self.dataset = Dataset(dataset)
             self.rel_labels = rel_labels
             self.no_labels = no_labels
-            self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels).segments
+            self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test ).segments
 
     @property
     def get_data_object(self):

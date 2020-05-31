@@ -11,11 +11,14 @@ if sys.argv[1] == 'mimic':
         embedding_path = "../word_embeddings/mimic3_d200.txt"
     else:
         embedding_path = "../word_embeddings/mimic3_d300.txt"
-else:
+elif sys.argv[1] == 'glove':
     if int(sys.argv[2]) == 200:
         embedding_path = "../word_embeddings/glove.6B.200d.txt"
     else:
         embedding_path = "../word_embeddings/glove.6B.300d.txt"
+else:
+    if int(sys.argv[2]) == 200:
+        embedding_path = "../word_embeddings/patent_w2v.txt"
 
 if sys.argv[3] == 'segment':
     data = Set_Connection(CSV=True, sentences='../data/segments/sentence_train', labels='../data/segments/labels_train', preceding_segs='../data/segments/preceding_seg', concept1_segs='../data/segments/concept1_seg',middle_segs='../data/segments/middle_seg',concept2_segs='../data/segments/concept2_seg', succeeding_segs='../data/segments/succeeding_seg',track='../data/segments/track' ).data_object

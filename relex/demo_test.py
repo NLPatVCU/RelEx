@@ -10,11 +10,15 @@ if sys.argv[1] == 'mimic':
         embedding_path = "../word_embeddings/mimic3_d200.txt"
     else:
         embedding_path = "../word_embeddings/mimic3_d300.txt"
-else:
+elif sys.argv[1] == 'glove':
     if int(sys.argv[2]) == 200:
         embedding_path = "../word_embeddings/glove.6B.200d.txt"
     else:
         embedding_path = "../word_embeddings/glove.6B.300d.txt"
+else:
+    if int(sys.argv[2]) == 200:
+        embedding_path = "../word_embeddings/patent_w2v.txt"
+
 
 if sys.argv[3] == 'segment':
     connection_test = Set_Connection(CSV=True, sentences='../data/test_segments/sentence_train',
@@ -34,13 +38,12 @@ if sys.argv[3] == 'segment':
                                       concept2_segs='../data/segments/concept2_seg',
                                       succeeding_segs='../data/segments/succeeding_seg',
                                       track='../data/segments/track').data_object
-    model = Model(data_object=connection_train, data_object_test=connection_test, segment=True, test=True)
+    model = Model(data_object=connection_train, data_object_test=connection_test, segment=True, test=True, write_Predictions=True)
     embedding=Embeddings(embedding_path, model, embedding_dim=int(sys.argv[2]))
-    # if sys.argv[4]!= None and sys.argv[5] != None:
-    #     print("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
-    #     seg_cnn = Segment_CNN(model, embedding, final_predictions=sys.argv[5], No_Rel=sys.argv[4])
-    # else:
-    seg_cnn = Segment_CNN(model, embedding)
+    if sys.argv[4] is not None and sys.argv[5] is not None:
+        seg_cnn = Segment_CNN(model, embedding, final_predictions=sys.argv[5], No_Rel=sys.argv[4])
+    else:
+        seg_cnn = Segment_CNN(model, embedding)
 
 else:
     connection_test = Set_Connection(CSV=True, sentence_only=True, sentences='../data/test_segments/sentence_train',

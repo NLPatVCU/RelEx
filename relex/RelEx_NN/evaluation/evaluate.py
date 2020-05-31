@@ -40,6 +40,7 @@ def predict_test_only(model, x_test, encoder_classes):
     :param encoder_classes:
     :return: predicted labels
     """
+    print(np.array(x_test).shape)
     pred = model.predict(x_test)
     y_pred_ind = np.argmax(pred, axis=1)
     y_pred = [encoder_classes[i] for i in y_pred_ind]
