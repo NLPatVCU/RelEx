@@ -3,11 +3,14 @@ from data import Dataset
 from segment import Segmentation
 from utils import file
 import os
+import numpy as np
+from csv import reader
+
 
 class Set_Connection:
     def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
-                 middle_segs=None, concept2_segs=None, succeeding_segs=None, dataset=None,
-                 rel_labels=None, no_labels=None, CSV=True ):
+                 middle_segs=None, concept2_segs=None, succeeding_segs=None, track=None, dataset=None,
+                 rel_labels=None, no_labels=None, CSV=True, test=False, parallelize= False, no_of_cores = 64):
         """
         Creates object based on data either from a dataset folder or a set of CSVs
         :param dataset: path to dataset
@@ -23,10 +26,12 @@ class Set_Connection:
         """
         self.CSV = CSV
         self.sentence_only = sentence_only
+        self.test = test
+        self.parallelize = parallelize
         if self.CSV:
             self.sentences = sentences
             self.labels = labels
-
+            self.track = track
             if not self.sentence_only:
                 self.preceding_segs = preceding_segs
                 self.concept1_segs = concept1_segs
@@ -35,11 +40,15 @@ class Set_Connection:
                 self.succeeding_segs = succeeding_segs
             self.data_object = self.get_data_object
 
-        else:  # if there are no CSVs, runs the Segmentation module to get object
+        else:
+            # if there are no CSVs, runs the Segmentation module to get object
             self.dataset = Dataset(dataset)
             self.rel_labels = rel_labels
             self.no_labels = no_labels
-            self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels).segments
+            if self.parallelize:
+                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test, parallelize = True, no_of_cores=no_of_cores ).segments
+            else:
+                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test ).segments
 
     @property
     def get_data_object(self):
@@ -51,6 +60,8 @@ class Set_Connection:
         # gets segments, labels, and sentences from file
         train_data = file.read_from_file(self.sentences)
         train_labels = file.read_from_file(self.labels)
+        track_list = file.read_from_file(self.track, read_as_int=True)
+
         if not self.sentence_only:
             train_preceding = file.read_from_file(self.preceding_segs)
             train_concept1 = file.read_from_file(self.concept1_segs)
@@ -61,6 +72,7 @@ class Set_Connection:
         # Adds segments, labels, and sentences to object
         obj['sentence'] = train_data
         obj['label'] = train_labels
+        obj['track'] = track_list
         if not self.sentence_only:
             obj['seg_preceding'] = train_preceding
             obj['seg_concept1'] = train_concept1

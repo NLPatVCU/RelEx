@@ -3,7 +3,7 @@
 from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
-from RelEx_NN.model import evaluate
+from RelEx_NN.evaluation import evaluate
 
 
 class Simple_NN:

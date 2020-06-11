@@ -1,8 +1,6 @@
 # Inspired from MedaCy
 
 import os
-
-
 class Dataset:
 
     def __init__(self, data_directory, text_extension="txt", ann_extension="ann"):
