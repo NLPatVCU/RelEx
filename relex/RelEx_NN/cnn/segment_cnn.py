@@ -101,7 +101,6 @@ class Segment_CNN:
         c1_test = self.data_model.test_concept1
         c2_test = self.data_model.test_concept2
         track_test = self.data_model.test_track
-
         if not self.data_model.write_Predictions:
             y_test = self.data_model.y_test
             binary_y_test = self.data_model.binarize_labels(y_test, True)
@@ -115,7 +114,6 @@ class Segment_CNN:
             pred= evaluate.predict_test_only(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test],labels)
             # save files in numpy to write predictions in BRAT format
             # np.save('predictions/track', np.array(track_test))
-
             np.save('predictions/track', np.array(track_test).reshape((-1, 3)))
             np.save('predictions/pred', np.array(pred))
             Predictions(self.final_predictions, self.No_rel)

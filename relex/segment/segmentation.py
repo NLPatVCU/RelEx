@@ -332,7 +332,6 @@ class Segmentation:
                 # dominant label
                 if label1 == self.rel_labels[0]:
                 # if label1 == self.rel_labels[0] or label1 == self.rel_labels[1]:
-
                     for key2, value2 in ann.annotations['entities'].items():
                         label2, start2, end2, mention2 = value2
                         token = True
@@ -358,7 +357,6 @@ class Segmentation:
                                     segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
-
                         # when the entity pair do not contain entities of the same type
                         for i in range(len(self.rel_labels) - 1):
                             # match the dominant entity with other entities
