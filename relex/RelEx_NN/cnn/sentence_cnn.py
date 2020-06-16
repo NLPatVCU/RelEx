@@ -214,6 +214,14 @@ class Sentence_CNN:
         X_data = self.data_model.train
         Y_data = self.data_model.train_label
         binary_Y = self.data_model.binarize_labels(Y_data, True)
+        labelfile = open("binarylabel","w")
+        for thing in binary_Y:
+            for t in thing:
+                labelfile.write(str(t))
+                labelfile.write(" ")
+            labelfile.write("\n")
+        labelfile.close()
+        exit()
         cv_model = self.define_model(len(self.data_model.encoder.classes_))
         for i in range(0,len(self.sentences)):
             if(len(self.sentences[i].split())>100):
