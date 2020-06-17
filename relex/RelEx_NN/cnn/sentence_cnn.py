@@ -2,25 +2,26 @@
 from keras.layers import *
 from keras.models import *
 from sklearn.model_selection import StratifiedKFold
-from RelEx_NN.model import evaluate
+from RelEx_NN.evaluation import evaluate
 from RelEx_NN.model import model
+from RelEx_NN.evaluation import Predictions
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils import class_weight
-from RelEx_NN.embeddings.elmo_embeddings import ElmoEmbeddingLayer
+from utils import file, normalization
 import numpy as np
 import tensorflow as tf
 
-
 class Sentence_CNN:
 
-    def __init__(self, model, embedding, sentences=None,cross_validation=False, end_to_end=False, epochs=20, batch_size=512,
-                 filters=32, filter_conv=1,
-                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5,
-                 loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']):
+    def __init__(self, model, embedding, cross_validation=False, end_to_end=False, epochs=20, batch_size=512,
+                 filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5,
+                 loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'], final_predictions= '../Predictions/final_predictions/', No_Rel = False):
+
 
         self.data_model = model
         self.embedding = embedding
         self.cv = cross_validation
+        self.No_rel = No_Rel
         self.epochs = epochs
         self.batch_size = batch_size
         self.filters = filters
@@ -33,7 +34,8 @@ class Sentence_CNN:
         self.optimizer = optimizer
         self.metrics = metrics
         self.end_to_end = end_to_end
-        self.sentences = sentences
+        self.final_predictions = final_predictions
+
         if self.cv:
             self.cross_validate()
         elif self.end_to_end:
@@ -89,6 +91,7 @@ class Sentence_CNN:
             model = Model(inputs=[input_shape], outputs=outputs)
             model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
 
+        # summarize
         print(model.summary())
         return model
 
@@ -128,7 +131,6 @@ class Sentence_CNN:
         """
         Train - Test - Split
         """
-
         x_train = self.data_model.train
         y_train = self.data_model.train_label
         binary_y_train = self.data_model.binarize_labels(y_train, True)
@@ -136,21 +138,31 @@ class Sentence_CNN:
         labels = [str(i) for i in self.data_model.encoder.classes_]
 
         x_test = self.data_model.x_test
-        y_test = self.data_model.y_test
-        binary_y_test = self.data_model.binarize_labels(y_test, True)
+        track_test = self.data_model.test_track
+        if not self.data_model.write_Predictions:
+            y_test = self.data_model.y_test
+            binary_y_test = self.data_model.binarize_labels(y_test, True)
 
         cv_model = self.define_model(len(self.data_model.encoder.classes_))
 
         if self.data_model.multilabel:
             cv_model.fit(x_train, binary_y_train, epochs=self.epochs, batch_size=self.batch_size)
             y_pred, y_true = evaluate.multilabel_predict(cv_model, x_test, binary_y_test)
+            print(classification_report(y_true, y_pred, target_names=labels))
         else:
             cv_model= self.fit_Model(cv_model, x_train, binary_y_train)
-            y_pred, y_true = evaluate.predict(cv_model, x_test, binary_y_test, labels)
-            print(confusion_matrix(y_true, y_pred))
+            if self.data_model.write_Predictions:
+                pred = evaluate.predict_test_only(cv_model,x_test, labels)
+                # save files in numpy to write predictions in BRAT format
+                np.save('predictions/track', np.array(track_test))
+                np.save('predictions/pred', np.array(pred))
+                Predictions(self.final_predictions, self.No_rel)
+            else:
+                y_pred, y_true = evaluate.predict(cv_model, x_test, binary_y_test, labels)
+                print(confusion_matrix(y_true, y_pred))
+                print(classification_report(y_true, y_pred, target_names=labels))
 
-        print(classification_report(y_true, y_pred, target_names=labels))
-
+    # Experiment purposes for i2b2 (Not a main functionality)
     def end_to_end_test(self):
         if self.data_model.multilabel:
             x_train = self.data_model.true_train_x
@@ -196,6 +208,7 @@ class Sentence_CNN:
         labels1 = [str(i) for i in self.data_model.encoder.classes_]
         binary_y_test1 = self.data_model.binarize_labels(y_test1, True)
         cv_model1 = self.define_model(len(labels1))
+
         if self.data_model.multilabel:
             cv_model1.fit(x_train1, binary_y_train1, epochs=self.epochs, batch_size=self.batch_size)
             y_pred1, y_true1 = evaluate.multilabel_predict(cv_model1, x_test1, binary_y_test1)
@@ -245,9 +258,12 @@ class Sentence_CNN:
 
         originalclass = []
         predictedclass = []
+        #to track the entity pairs for each relation
+        brat_track = []
+
         if self.data_model.multilabel:
 
-            binary_Y = self.data_model.binarize_labels(Y_data, False)
+            binary_Y = self.data_model.binarize_labels(Y_data, True)
             for train_index, test_index in skf.split(X_data, binary_Y.argmax(1)):
                 x_train, x_test = X_data[train_index], X_data[test_index]
                 y_train, y_test = binary_Y[train_index], binary_Y[test_index]
@@ -267,9 +283,12 @@ class Sentence_CNN:
             print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
 
         else:
+            Track = self.data_model.train_track
+
             for train_index, test_index in skf.split(X_data, Y_data):
                 binary_Y = self.data_model.binarize_labels(Y_data, True)
                 x_train, x_test = X_data[train_index], X_data[test_index]
+                train_track, test_track = Track[train_index], Track[test_index]
                 y_train, y_test = binary_Y[train_index], binary_Y[test_index]
                 labels = [str(i) for i in self.data_model.encoder.classes_]
                 cv_model = self.define_model(len(self.data_model.encoder.classes_))
@@ -278,9 +297,11 @@ class Sentence_CNN:
 
                 originalclass.extend(y_true)
                 predictedclass.extend(y_pred)
+                brat_track.extend(test_track)
+
                 print("--------------------------- Results ------------------------------------")
                 print(classification_report(y_true, y_pred, labels=labels))
-                print(confusion_matrix(y_true, y_pred))
+                # print(confusion_matrix(y_true, y_pred))
                 fold_statistics = evaluate.cv_evaluation_fold(y_pred, y_true, labels)
 
                 evaluation_statistics[fold] = fold_statistics
@@ -289,6 +310,14 @@ class Sentence_CNN:
             print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))
             print(confusion_matrix(np.array(originalclass), np.array(predictedclass)))
 
+            if self.data_model.write_Predictions:
+                # save files in numpy to write predictions in BRAT format
+                np.save('predictions/track', np.array(brat_track))
+                np.save('predictions/pred', np.array(predictedclass))
+                Predictions(self.final_predictions, self.No_rel)
+
+
+            #print results using MedaCy evaluation (similar to the sklearn evaluation above)
             print("---------------------medacy Results --------------------------------")
             evaluate.cv_evaluation(labels, evaluation_statistics)
            

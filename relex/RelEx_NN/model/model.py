@@ -78,8 +78,9 @@ def convert_binary(train_labels):
 class Model:
 
     def __init__(self, data_object, data_object_test=None, segment=False, test=False, multilabel=False, one_hot=False,
-                 binary_label=False, common_words=10000, maxlen=100):
+                 binary_label=False, write_Predictions = False, de_sample = False, common_words=10000, maxlen=100):
         """
+        :type write_Predictions: write entities and predictions to file
         :param data_object: call set_connection here
         :param multilabel: Flag to be set to run sentence-CNN for multi-labels
         :param segment: Flag to be set to activate segment-CNN (default-True)
@@ -88,6 +89,8 @@ class Model:
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
         """
+        self.de_sample = de_sample
+        self.write_Predictions = write_Predictions
         self.one_hot = one_hot
         self.segment = segment
         self.test = test
@@ -101,20 +104,31 @@ class Model:
         # read dataset from external files
         train_data = data_object['sentence']
         train_labels = data_object['label']
+        # tracks the entity pair details for a relation
+        train_track = data_object['track']
 
+        # Experiment purposes for i2b2 (Not a main functionality)
         if self.binary_label:
             self.true_labels_train = train_labels
             self.true_train = train_data
             binary_labels = convert_binary(train_labels)
             train_labels = binary_labels
+
+        #test files only
         if self.test:
             test_data = data_object_test['sentence']
             test_labels = data_object_test['label']
+            # tracks the entity pair details for a relation
+            test_track = data_object_test['track']
+
+            # Experiment purposes for i2b2 (Not a main functionality)
             if self.binary_label:
                 self.true_labels_test = test_labels
                 self.true_test = test_data
                 binary_labels = convert_binary(test_labels)
                 test_labels = binary_labels
+
+            #to read in segments
             if segment:
                 test_preceding = data_object_test['seg_preceding']
                 test_middle = data_object_test['seg_middle']
@@ -124,9 +138,11 @@ class Model:
                 self.test_preceding, self.test_middle, self.test_succeeding, self.test_concept1, self.test_concept2, self.word_index = self.vectorize_segments(
                     test_data, test_preceding, test_middle, test_succeeding, test_concept1, test_concept2)
         else:
+            #when running only with train data
             test_data = None
             test_labels = None
 
+        # for multilabel sentence CNN
         if self.multilabel:
             df_train = reduce_duplicate_data(train_data, train_labels)
             self.train_label = df_train.label.tolist()
@@ -134,19 +150,23 @@ class Model:
                 df_test = reduce_duplicate_data(test_data, test_labels)
                 self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
                 self.y_test = df_test.label.tolist()
+                self.test_track = test_track
+
+                # Experiment purposes for i2b2 (Not a main functionality)
                 if self.binary_label:
                     self.true_train_y = train_labels
                     self.true_test_y = test_labels
                     self.true_train_x, self.true_test_x, self.word_index1 = self.vectorize_words(train_data, test_data)
             else:
                 self.train, self.word_index = self.vectorize_words(df_train.sentence)
-
         else:
             self.train_label = train_labels
+            self.train_track = train_track
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
                 #self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.y_test = test_labels
+                self.test_track = test_track
             else:
                 #self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.train, self.word_index = self.vectorize_words(train_data, test_data)
@@ -166,6 +186,7 @@ class Model:
             self.preceding, self.middle, self.succeeding, self.concept1, self.concept2, self.word_index = self.vectorize_segments(
                 train_data, train_preceding, train_middle, train_succeeding, train_concept1, train_concept2)
 
+    #function used for experiment purposes for i2b2 (Not a main functionality): in end-to-end testing
     def remove_instances(self, y_pred):
         if self.segment:
             df_test = pd.DataFrame(list(
@@ -186,9 +207,9 @@ class Model:
             df_test = pd.DataFrame(list(zip(self.true_test, self.true_labels_test, y_pred)),
                                    columns=['sentence', 'true', 'pred'])
             df_new_test = df_test[df_test.pred != 'no']
-            df_new_test = df_new_test[df_test.true != 'NTeP']
+            df_new_test = df_new_test[df_test.true != 'NTrP']
             df_train = pd.DataFrame(list(zip(self.true_train, self.true_labels_train)), columns=['sentence', 'label'])
-            df_new_train = df_train[df_train.label != 'NTeP']
+            df_new_train = df_train[df_train.label != 'NTrP']
             return df_new_train['sentence'].tolist(), df_new_train['label'].tolist(), df_new_test['sentence'].tolist(), \
                    df_new_test['true'].tolist()
         else:

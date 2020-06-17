@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-=======
 data/
->>>>>>> 9e6dd0ba7a0ea770e248053bf120e42407b8da57
 word_embeddings/
 *.txt
 *.csv
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 9e6dd0ba7a0ea770e248053bf120e42407b8da57

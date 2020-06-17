@@ -3,7 +3,7 @@
 import os
 from sklearn.metrics import classification_report
 import pandas as pd
-
+import numpy as np
 
 def list_to_file(file, input_list):
     """
@@ -17,18 +17,24 @@ def list_to_file(file, input_list):
             f.write("%s\n" % item)
 
 
-def read_from_file(file):
+def read_from_file(file, read_as_int=False):
     """
     Reads a file and returns its contents as a list
-    :param file: path to file that will be read
+    :param read_as_int: read as integer instead of strings
+    :param file: path to file to be read
     """
 
     if not os.path.isfile(file):
         raise FileNotFoundError("Not a valid file path")
 
-    with open(file) as f:
-        content = f.readlines()
-        content = [x.strip() for x in content]
+    #load as numpy files
+    if read_as_int:
+        content = np.loadtxt(file, dtype='int')
+        content = content.reshape((-1, 3))
+    else:
+        with open(file) as f:
+            content = f.readlines()
+            content = [x.strip() for x in content]
     return content
 
 
@@ -54,3 +60,10 @@ def output_to_file( true_values, pred_values, output_path, target):
     csv_file = open(output_path, 'a')
     csv_file.write(csv_report)
     csv_file.close()
+
+def delete_all_files( folder, ext):
+
+    # Delete all files in the folder before the prediction
+    filelist = [f for f in os.listdir(folder) if f.endswith(ext)]
+    for f in filelist:
+        os.remove(os.path.join(folder, f))
