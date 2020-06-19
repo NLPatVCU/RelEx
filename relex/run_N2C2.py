@@ -6,15 +6,7 @@ from segment import Segmentation
 from CLEF import re_number, convert_back, convert_Test, convert_Train,convert_Train_binary, re_number_entities
 
 config = configparser.ConfigParser()
-config.read('configs/CLEF_pre.ini')
 config.read('configs/binary_test.ini')
-config.read('configs/CLEF_post.ini')
-
-# convert_Train_binary.convert(config['CONVERSION']['train'], config['CONVERSION']['binary'])
-# convert_Train.convert(config['CONVERSION']['train'], config['CONVERSION']['ARG1_train'], config['CONVERSION']['ARGM_train'])
-# convert_Test.convert(config['CONVERSION']['test'], config['CONVERSION']['ARG1_test'], config['CONVERSION']['ARGM_test'])
-# convert_Test.convert(config['CONVERSION']['dev'], config['CONVERSION']['ARG1_dev'], config['CONVERSION']['ARGM_dev'])
-# convert_Test.convert(config['CONVERSION']['task2'], config['CONVERSION']['ARG1_task2'], config['CONVERSION']['ARGM_task2'])
 
 if config.getboolean('DEFAULT', 'no_label'):
     no_rel_label = ast.literal_eval(config.get("SEGMENTATION", "no_rel_label"))

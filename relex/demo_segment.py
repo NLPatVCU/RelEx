@@ -50,15 +50,18 @@ no_rel_label = ['No-Relation']
 #               'US_patents', 'Vehicle', 'Volume', 'Volume_of_distribution', 'Water_solubility', 'Yield', 'Zeta_potential']
 
 #CLEF Data entities
-rel_labels= ['REACTION_STEP','TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
+# rel_labels= ['REACTION_STEP','TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
 # rel_labels = ['WORKUP', 'REACTION_STEP', 'EXAMPLE_LABEL', 'REACTION_PRODUCT', 'STARTING_MATERIAL', 'REAGENT_CATALYST', 'SOLVENT', 'OTHER_COMPOUND', 'TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
 # rel_labels = ['Action', 'Duration', 'Frequency', 'Volume', 'Solvent','Concentration','Surfactant']
 
+#WNUT entities
+rel_labels = ['Reagent','Location','Device','Mention','Seal','Amount','Concentration','Size','Time','Temperature','pH','Speed','Numerical','Generic-Measure','Modifier','Measure-Type','Method']
+
 # to extract the segments from the dataset
-seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True, generalize=False)
+# seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True, generalize=False)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False, write_Predictions=True, prediction_folder=predictions)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False)
-# seg_sampleTrain = Segmentation(sample_train, rel_labels, generalize=False)
+seg_sampleTrain = Segmentation(sample_train, rel_labels, generalize=True, same_entity_relation=True)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label, same_entity_relation = True)
 
 #print for testing purposes
