@@ -7,17 +7,22 @@ import numpy as np
 import pandas as pd
 
 class Predictions:
-    def __init__(self, final_predictions, No_Rel):
-        # self.CLEF = CLEF
+    def __init__(self, initial_predictions, final_predictions, No_Rel= False):
+        '''
+        Write predictions back to files
+        :param final_predictions: predicted relations
+        :param No_Rel: flag whether to write the relations with No-relation label back to files
+        '''
         self.No_Rel = No_Rel
+        print("No rel:", self.No_Rel)
         #path to the file which tracks the entity pair details
-        input_track = 'predictions/track.npy'
+        input_track = 'track.npy'
 
         #path to the file which tracks the predicted la
-        input_pred = 'predictions/pred.npy'
+        input_pred = 'pred.npy'
 
         #path to the folder to save the predictions
-        self.initial_predictions = 'predictions/initial/'
+        self.initial_predictions = initial_predictions
 
         #path to the folder to save the re-ordered predictions to the files where the entities are already appended
         self.final_predictions = final_predictions
@@ -42,7 +47,7 @@ class Predictions:
         :param pred: relation predictions
         """
         for x in range(0, self.track.shape[0]):
-            #file name
+            #check the length of file name and padding
             if len(str(self.track[x, 0])) == 1:
                 file = "000"+str(self.track[x, 0]) + ".ann"
             elif len(str(self.track[x, 0])) == 2:
@@ -60,20 +65,22 @@ class Predictions:
             if self.No_Rel:
                 # predicted label for the relation
                 label = self.pred[x]
-                if label != 'No-Relation':
-                    #open and append relation the respective files in BRAT format
-                    f1.write(str(key) + '\t' + str(label) + ' ' + 'Arg1:' + str(e1) + ' ' + 'Arg2:' + str(e2) + '\n')
-                    f1.close()
+                #open and append relation the respective files in BRAT format
+                f1.write(str(key) + '\t' + str(label) + ' ' + 'Arg1:' + str(e1) + ' ' + 'Arg2:' + str(e2) + '\n')
+                f1.close()
             else:
                 # predicted label for the relation
                 label = self.pred[x]
+                if label != 'No-Relation':
                 # open and append relation the respective files in BRAT format
-                f1.write(str(key) + '\t' + str(label) + ' ' + 'Arg1:' + str(e1) + ' ' + 'Arg2:' + str(e2) + '\n')
-                f1.close()
+                    f1.write(str(key) + '\t' + str(label) + ' ' + 'Arg1:' + str(e1) + ' ' + 'Arg2:' + str(e2) + '\n')
+                    f1.close()
 
     def renumber_relations(self):
         """
-        Renumber the appended predicted relations
+        When writing predictions to file the key of the relations are not ordered based on individual files.
+        This function renumbers the appended predicted relations in each file
+
         :param initial_predictions: folder where the predicted relations are initially stored
         :param final_predictions: folder where the predicted relations along with the original entities are stored
         """

@@ -41,7 +41,7 @@ if sys.argv[3] == 'segment':
     model = Model(data_object=connection_train, data_object_test=connection_test, segment=True, test=True, write_Predictions=True)
     embedding=Embeddings(embedding_path, model, embedding_dim=int(sys.argv[2]))
     if sys.argv[4] is not None and sys.argv[5] is not None:
-        seg_cnn = Segment_CNN(model, embedding, final_predictions=sys.argv[5], No_Rel=sys.argv[4])
+        seg_cnn = Segment_CNN(model, embedding, final_predictions=sys.argv[5], write_No_rel=sys.argv[4])
     else:
         seg_cnn = Segment_CNN(model, embedding)
 

@@ -54,12 +54,11 @@ def reduce_duplicate_data(train_data, train_labels):
 
     return df
 
-
 def convert_binary(train_labels):
     """
-
-    :param train_labels:
-    :return:
+    # Experiment purposes for i2b2
+    :param train_labels: multiclass labels
+    :return: binary labels
     """
     df_label = pd.DataFrame(train_labels, columns=['label'])
     true_labels = df_label['label'].tolist()
@@ -79,12 +78,14 @@ class Model:
     def __init__(self, data_object, data_object_test=None, segment=False, test=False, multilabel=False, one_hot=False,
                  binary_label=False, write_Predictions = False, de_sample = False, common_words=10000, maxlen=100):
         """
-        :type write_Predictions: write entities and predictions to file
-        :param data_object: call set_connection here
-        :param multilabel: Flag to be set to run sentence-CNN for multi-labels
-        :param segment: Flag to be set to activate segment-CNN (default-True)
+        :param data_object: training data object
+        :param data_object_test: testing data object (None -during 5 CV)
+        :param segment: Flag to be set to activate segment-CNN (default-False)
         :param test: Flag to be set to validate the model on the test dataset (default-False)
-        :param one_hot: Flag to be set to create one-hot vectors (default-False)
+        :param multilabel: Flag to be set to run sentence-CNN for multi-labels (default-False)
+        :param one_hot: Flag to be set to create one-hot vectors during vectorization (default-False)
+        :param binary_label: Turn labels to binary (Experiment purposes for i2b2)
+        :type write_Predictions: write entities and predictions to file
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
 
@@ -150,7 +151,7 @@ class Model:
                 df_test = reduce_duplicate_data(test_data, test_labels)
                 self.train, self.x_test, self.word_index = self.vectorize_words(df_train.sentence, df_test.sentence)
                 self.y_test = df_test.label.tolist()
-                self.test_track = test_track
+                self.test_track = np.asarray(test_track).reshape((-1, 3))
 
                 # Experiment purposes for i2b2 (Not a main functionality)
                 if self.binary_label:
@@ -161,12 +162,13 @@ class Model:
                 self.train, self.word_index = self.vectorize_words(df_train.sentence)
         else:
             self.train_label = train_labels
-            self.train_track = train_track
+            self.train_track = np.asarray(train_track).reshape((-1, 3))
+
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
                 self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.y_test = test_labels
-                self.test_track = test_track
+                self.test_track = np.asarray(test_track).reshape((-1, 3))
             else:
                 self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.train, self.word_index = self.vectorize_words(train_data, test_data)
@@ -188,6 +190,11 @@ class Model:
 
     #function used for experiment purposes for i2b2 (Not a main functionality): in end-to-end testing
     def remove_instances(self, y_pred):
+        """
+        Takes a list as the input and tokenizes the samples via the `split` method.
+        :param y_pred: takes the multi class predicted labels and converts them to binary
+        """
+
         if self.segment:
             df_test = pd.DataFrame(list(
                 zip(self.x_test, self.test_preceding, self.test_middle, self.test_succeeding, self.test_concept1,
