@@ -1,64 +1,43 @@
 import configparser
-import train_test
+import CV, train_test
 import ast
 from data import Dataset
 from segment import Segmentation
-from CLEF import re_number, convert_back, convert_Test, convert_Train,convert_Train_binary, re_number_entities
 
 config = configparser.ConfigParser()
-config.read('configs/binary_test.ini')
+config.read('N2C2/configs/n2c2.ini')
 
-if config.getboolean('DEFAULT', 'no_label'):
+if config.getboolean('SEGMENTATION', 'no_relation'):
     no_rel_label = ast.literal_eval(config.get("SEGMENTATION", "no_rel_label"))
 else:
     no_rel_label = None
 
-labels = ast.literal_eval(config.get("SEGMENTATION", "rel_labels"))
+test = config.getboolean('DEFAULT', 'test')
 binary = config.getboolean('DEFAULT', 'binary_classification')
+write_predictions = config.getboolean('DEFAULT', 'write_predictions')
+write_no_relations = config.getboolean('PREDICTIONS', 'write_no_relations')
 
-model_01 = ast.literal_eval(config.get("CNN_MODELS", "model_1"))
-model_02 = ast.literal_eval(config.get("CNN_MODELS", "model_2"))
-model_03 = ast.literal_eval(config.get("CNN_MODELS", "model_3"))
+rel_labels = ast.literal_eval(config.get("SEGMENTATION", "rel_labels"))
+if test:
+    if binary:
+        for label in labels[1:]:
+            rel_labels = [labels[0], label]
+            seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'], config['SEGMENTATION']['test_path'], rel_labels,no_rel_label, config.getboolean('SEGMENTATION', 'parallelize'),
+                                   config.getint('SEGMENTATION', 'no_of_cores'), config['PREDICTIONS']['final_predictions'])
 
-num_01 = ast.literal_eval(config.get("NUMBERING", "num_1"))
-num_02 = ast.literal_eval(config.get("NUMBERING", "num_2"))
-num_03 = ast.literal_eval(config.get("NUMBERING", "num_3"))
-num_04 = ast.literal_eval(config.get("NUMBERING", "num_4"))
+            train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
+                         config['CNN_MODELS']['model'], write_predictions, write_no_relations,
+                         config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
+    else:
+        seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'], config['SEGMENTATION']['test_path'], rel_labels,no_rel_label, config.getboolean('SEGMENTATION', 'parallelize'),
+                                   config.getint('SEGMENTATION', 'no_of_cores'), config['PREDICTIONS']['final_predictions'])
 
-final_01 = ast.literal_eval(config.get("BACK_CONVERSION", "final_1"))
-final_02 = ast.literal_eval(config.get("BACK_CONVERSION", "final_2"))
-final_03 = ast.literal_eval(config.get("BACK_CONVERSION", "final_3"))
-
-if binary:
-    for label in labels[1:]:
-        rel_labels = [labels[0], label]
-        seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'],  config['SEGMENTATION']['test_path'],rel_labels,  no_rel_label)
-#         # print("glove 200 segment")
-#         # train_test.run_CNN_model(model_01, seg_train, seg_test)
-#
-        # print("glove 300 segment")
-        # train_test.run_CNN_model(model_02, seg_train, seg_test)
-#
-        print("chem 200 segment")
-        train_test.run_CNN_model(model_03, seg_train, seg_test)
-
+        train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
+                             config['CNN_MODELS']['model'], write_predictions, write_no_relations,
+                             config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
 else:
-    seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'],config['SEGMENTATION']['test_path'],
-                                             labels, no_rel_label)
-    # print("glove 200 segment")
-    # train_test.run_CNN_model(model_01, seg_train, seg_test)
-    #
-    # print("glove 300 segment")
-    # train_test.run_CNN_model(model_02, seg_train, seg_test)
+    seg_train = CV.segment(config['SEGMENTATION']['train_path'], rel_labels, no_rel_label,
+                           config.getboolean('SEGMENTATION', 'parallelize'), config.getint('SEGMENTATION', 'no_of_cores'),config['PREDICTIONS']['final_predictions'])
 
-    # print("chem 200 segment")
-    # train_test.run_CNN_model(model_03, seg_train, seg_test)
-
-# re_number.append(num_01[0], num_01[1])
-# re_number.append(num_02[0], num_02[1])
-# re_number.append(num_03[0], num_03[1])
-# re_number_entities.append(num_04[0], num_04[1])
-#
-# convert_back.convert(final_01[0], final_01[1])
-# convert_back.convert(final_02[0], final_02[1])
-# convert_back.convert(final_03[0], final_03[1])
+    CV.run_CNN_model(seg_train, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
+                     config['CNN_MODELS']['model'], write_predictions, write_no_relations,config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
