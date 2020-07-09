@@ -8,7 +8,6 @@ class InvalidAnnotationError(ValueError):
     """Raised when a given input is not in the valid format for that annotation type."""
     pass
 
-
 class Annotation:
 
     def __init__(self, ann_file_path):
@@ -29,7 +28,9 @@ class Annotation:
             line = line.split("\t")
             if not line[0][0] in valid_IDs:
                 raise InvalidAnnotationError("Ill formated annotation file, each line must contain of the IDs: %s"
+
                                              % valid_IDs)
+            # extract entities
             if 'T' == line[0][0]:
                 if len(line) == 2:
                     logging.warning("Incorrectly formatted entity line in ANN file (%s): %s", ann_file_path, line)
@@ -39,7 +40,8 @@ class Annotation:
                 entity_end = int(tags[-1])
                 self.annotations['entities'][line[0]] = (entity_name, entity_start, entity_end, line[-1])
 
-            if 'R' == line[0][0]:  # TODO TEST THIS
+            # extract relations
+            if 'R' == line[0][0]:
                 tags = line[1].split(" ")
                 assert len(tags) == 3, "Incorrectly formatted relation line in ANN file"
                 relation_name = tags[0]
