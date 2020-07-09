@@ -11,14 +11,30 @@ import numpy as np
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=5, batch_size=512, filters=32, filter_conv=1,
-                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.2, loss='categorical_crossentropy',
-                 optimizer='rmsprop', metrics=['accuracy'], final_predictions= '../Predictions/final_predictions/', No_Rel = False):
+    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=20, batch_size=512, filters=32, filter_conv=1,
+                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
+                 optimizer='rmsprop', metrics=['accuracy'], initial_predictions = None, final_predictions= None, write_No_rel = False):
+
+        '''
+        Builds and run Segment CNN model
+        :param model: data after prepocessing
+        :param embedding: word embeddings
+        :param cross_validation: flag to perform CV (default fold = 5)
+        :param initial_predictions: folder to save the initial relation predictions
+        :param final_predictions: folder to save the final relation predictions
+        :param write_No_rel: Write the no-relation predictions back to files
+        :param end_to_end: for experimental purpose
+        '''
 
         self.data_model = model
         self.embedding = embedding
         self.cv = cross_validation
-        self.No_rel = No_Rel
+        self.write_No_rel = write_No_rel
+        self.initial_predictions = initial_predictions
+        self.final_predictions = final_predictions
+        self.end_to_end = end_to_end
+
+        #model parameters
         self.epochs = epochs
         self.batch_size = batch_size
         self.filters = filters
@@ -30,8 +46,6 @@ class Segment_CNN:
         self.loss = loss
         self.optimizer = optimizer
         self.metrics = metrics
-        self.end_to_end = end_to_end
-        self.final_predictions = final_predictions
 
         if self.cv:
             self.cross_validate()
@@ -101,6 +115,7 @@ class Segment_CNN:
         c1_test = self.data_model.test_concept1
         c2_test = self.data_model.test_concept2
         track_test = self.data_model.test_track
+
         if not self.data_model.write_Predictions:
             y_test = self.data_model.y_test
             binary_y_test = self.data_model.binarize_labels(y_test, True)
@@ -113,17 +128,16 @@ class Segment_CNN:
         if self.data_model.write_Predictions:
             pred= evaluate.predict_test_only(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test],labels)
             # save files in numpy to write predictions in BRAT format
-            # np.save('predictions/track', np.array(track_test))
-            np.save('predictions/track', np.array(track_test).reshape((-1, 3)))
-            np.save('predictions/pred', np.array(pred))
-            Predictions(self.final_predictions, self.No_rel)
+            np.save('track', np.array(track_test))
+            np.save('pred', np.array(pred))
+            Predictions(self.initial_predictions, self.final_predictions, self.write_No_rel)
         else:
             y_pred, y_true = evaluate.predict(cv_model, [pre_test, mid_test, suc_test, c1_test, c2_test], binary_y_test,
                                               labels)
             print(classification_report(y_true, y_pred, labels=labels))
             print(confusion_matrix(y_true, y_pred))
 
-
+    # needed for a customized experiment with i2b2-2010 data
     def end_to_end_test(self):
 
         pre_train = self.data_model.preceding
@@ -165,6 +179,7 @@ class Segment_CNN:
 
     def cross_validate(self, num_folds=5):
         """
+        Perform cross validation
         :param num_folds: no of fold for cross validation (default = 5)
         """
         Pre_data = self.data_model.preceding
@@ -172,8 +187,9 @@ class Segment_CNN:
         Suc_data = self.data_model.succeeding
         C1_data = self.data_model.concept1
         C2_data = self.data_model.concept2
-        Track = self.data_model.train_track
+        Track = self.data_model.train_track.reshape((-1, 3))
         Y_data = self.data_model.train_label
+        print(Track)
 
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
 
@@ -214,12 +230,11 @@ class Segment_CNN:
             # print(confusion_matrix(y_true, y_pred))
             evaluation_statistics[fold] = fold_statistics
             fold += 1
-
         if self.data_model.write_Predictions:
             # save files in numpy to write predictions in BRAT format
-            np.save('predictions/track', np.array(brat_track))
-            np.save('predictions/pred', np.array(predictedclass))
-            Predictions(self.final_predictions, self.No_rel)
+            np.save('track', np.array(brat_track))
+            np.save('pred', np.array(predictedclass))
+            Predictions(self.initial_predictions, self.final_predictions, self.write_No_rel)
 
         print("--------------------- Results --------------------------------")
         print(classification_report(np.array(originalclass), np.array(predictedclass), target_names=labels))

@@ -1,14 +1,14 @@
 import configparser
-import train_test
+import train_test_CLEF
 import ast
 from data import Dataset
 from segment import Segmentation
 from CLEF import re_number, convert_back, convert_Test, convert_Train,convert_Train_binary, re_number_entities
 
 config = configparser.ConfigParser()
-config.read('configs/CLEF_pre.ini')
-config.read('configs/binary_test.ini')
-config.read('configs/CLEF_post.ini')
+config.read('CLEF/configs/CLEF_pre.ini')
+config.read('CLEF/configs/binary_test.ini')
+config.read('CLEF/configs/CLEF_post.ini')
 
 # convert_Train_binary.convert(config['CONVERSION']['train'], config['CONVERSION']['binary'])
 # convert_Train.convert(config['CONVERSION']['train'], config['CONVERSION']['ARG1_train'], config['CONVERSION']['ARGM_train'])
@@ -40,7 +40,7 @@ final_03 = ast.literal_eval(config.get("BACK_CONVERSION", "final_3"))
 if binary:
     for label in labels[1:]:
         rel_labels = [labels[0], label]
-        seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'],  config['SEGMENTATION']['test_path'],rel_labels,  no_rel_label)
+        seg_train, seg_test = train_test_CLEF.segment(config['SEGMENTATION']['train_path'], config['SEGMENTATION']['test_path'], rel_labels, no_rel_label)
 #         # print("glove 200 segment")
 #         # train_test.run_CNN_model(model_01, seg_train, seg_test)
 #
@@ -48,11 +48,11 @@ if binary:
         # train_test.run_CNN_model(model_02, seg_train, seg_test)
 #
         print("chem 200 segment")
-        train_test.run_CNN_model(model_03, seg_train, seg_test)
+        train_test_CLEF.run_CNN_model(model_03, seg_train, seg_test)
 
 else:
-    seg_train, seg_test = train_test.segment(config['SEGMENTATION']['train_path'],config['SEGMENTATION']['test_path'],
-                                             labels, no_rel_label)
+    seg_train, seg_test = train_test_CLEF.segment(config['SEGMENTATION']['train_path'], config['SEGMENTATION']['test_path'],
+                                                  labels, no_rel_label)
     # print("glove 200 segment")
     # train_test.run_CNN_model(model_01, seg_train, seg_test)
     #

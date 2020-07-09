@@ -29,11 +29,11 @@
 ##python demo_test.py glove 200 segment
 #python demo_test.py glove 200 segment True '../Predictions/Rel_Predictions/initial/Chem_200/'
 
-#python utils/re_number.py '../Predictions/Rel_Predictions/initial/GloVe_200/' '../Predictions/Rel_Predictions/final/GloVe_200/'
-#python utils/re_number.py '../Predictions/Rel_Predictions/initial/GloVe_300/' '../Predictions/Rel_Predictions/final/GloVe_300/'
-#python utils/re_number.py '../Predictions/Rel_Predictions/initial/MIMIC_200/' '../Predictions/Rel_Predictions/final/MIMIC_200/'
-#python utils/re_number.py '../Predictions/Rel_Predictions/initial/MIMIC_300/' '../Predictions/Rel_Predictions/final/MIMIC_300/'
-#python CLEF/re_number.py '../Predictions/Rel_Predictions/initial/Chem_200/' '../Predictions/Rel_Predictions/final/Chem_200/'
+#python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/GloVe_200/' '../Predictions/Rel_Predictions/final/GloVe_200/'
+#python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/GloVe_300/' '../Predictions/Rel_Predictions/final/GloVe_300/'
+#python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/MIMIC_200/' '../Predictions/Rel_Predictions/final/MIMIC_200/'
+#python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/MIMIC_300/' '../Predictions/Rel_Predictions/final/MIMIC_300/'
+#python CLEF/re_number_old.py '../Predictions/Rel_Predictions/initial/Chem_200/' '../Predictions/Rel_Predictions/final/Chem_200/'
 
 #python CLEF/convert_back.py '../Predictions/Rel_Predictions/final/Chem_200/' '../Predictions/Rel_Predictions/Chem_200/'
 

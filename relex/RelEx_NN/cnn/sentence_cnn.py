@@ -14,13 +14,27 @@ class Sentence_CNN:
 
     def __init__(self, model, embedding, cross_validation=False, end_to_end=False, epochs=20, batch_size=512,
                  filters=32, filter_conv=1, filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5,
-                 loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'], final_predictions= '../Predictions/final_predictions/', No_Rel = False):
+                 loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'], initial_predictions = None, final_predictions= None, write_No_rel = False):
 
-
+        '''
+        Builds and run Sentence CNN model
+        :param model: data after prepocessing
+        :param embedding: word embeddings
+        :param cross_validation: flag to perform CV (default fold = 5)
+        :param initial_predictions: folder to save the initial relation predictions
+        :param final_predictions: folder to save the final relation predictions
+        :param write_No_rel: Write the no-relation predictions back to files
+        :param end_to_end: for experimental purpose
+        '''
         self.data_model = model
         self.embedding = embedding
         self.cv = cross_validation
-        self.No_rel = No_Rel
+        self.write_No_rel = write_No_rel
+        self.initial_predictions = initial_predictions
+        self.final_predictions = final_predictions
+        self.end_to_end = end_to_end
+
+        # model parameters
         self.epochs = epochs
         self.batch_size = batch_size
         self.filters = filters
@@ -32,8 +46,6 @@ class Sentence_CNN:
         self.loss = loss
         self.optimizer = optimizer
         self.metrics = metrics
-        self.end_to_end = end_to_end
-        self.final_predictions = final_predictions
 
         if self.cv:
             self.cross_validate()
@@ -144,9 +156,9 @@ class Sentence_CNN:
             if self.data_model.write_Predictions:
                 pred = evaluate.predict_test_only(cv_model,x_test, labels)
                 # save files in numpy to write predictions in BRAT format
-                np.save('predictions/track', np.array(track_test))
-                np.save('predictions/pred', np.array(pred))
-                Predictions(self.final_predictions, self.No_rel)
+                np.save('track', np.array(track_test))
+                np.save('pred', np.array(pred))
+                Predictions(self.initial_predictions,self.final_predictions, self.write_No_rel)
             else:
                 y_pred, y_true = evaluate.predict(cv_model, x_test, binary_y_test, labels)
                 print(confusion_matrix(y_true, y_pred))
@@ -284,9 +296,9 @@ class Sentence_CNN:
 
             if self.data_model.write_Predictions:
                 # save files in numpy to write predictions in BRAT format
-                np.save('predictions/track', np.array(brat_track))
-                np.save('predictions/pred', np.array(predictedclass))
-                Predictions(self.final_predictions, self.No_rel)
+                np.save('track', np.array(brat_track))
+                np.save('pred', np.array(predictedclass))
+                Predictions(self.initial_predictions, self.final_predictions, self.write_No_rel)
 
 
             #print results using MedaCy evaluation (similar to the sklearn evaluation above)

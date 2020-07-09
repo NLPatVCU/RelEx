@@ -24,11 +24,11 @@
 #python experiments.py glove 300 segment True '../Predictions/Rel_Predictions/initial/GloVe_300/'
 
 
-python utils/re_number.py '../Predictions/Rel_Predictions/initial/GloVe_200/' '../Predictions/Rel_Predictions/final/GloVe_200/'
-python utils/re_number.py '../Predictions/Rel_Predictions/initial/GloVe_300/' '../Predictions/Rel_Predictions/final/GloVe_300/'
-python utils/re_number.py '../Predictions/Rel_Predictions/initial/MIMIC_200/' '../Predictions/Rel_Predictions/final/MIMIC_200/'
-python utils/re_number.py '../Predictions/Rel_Predictions/initial/MIMIC_300/' '../Predictions/Rel_Predictions/final/MIMIC_300/'
-#python utils/re_number.py '../Predictions/Rel_Predictions/initial/sample/' '../Predictions/Rel_Predictions/final/sample/'
+python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/GloVe_200/' '../Predictions/Rel_Predictions/final/GloVe_200/'
+python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/GloVe_300/' '../Predictions/Rel_Predictions/final/GloVe_300/'
+python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/MIMIC_200/' '../Predictions/Rel_Predictions/final/MIMIC_200/'
+python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/MIMIC_300/' '../Predictions/Rel_Predictions/final/MIMIC_300/'
+#python utils/re_number_old.py '../Predictions/Rel_Predictions/initial/sample/' '../Predictions/Rel_Predictions/final/sample/'
 
 
 #python RelEx_NN/evaluation/BRAT_evaluator.py '../data/train/' '../Predictions/Rel_Predictions/final/MIMIC_200/'
