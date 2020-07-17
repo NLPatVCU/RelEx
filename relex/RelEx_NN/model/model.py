@@ -76,7 +76,7 @@ def convert_binary(train_labels):
 class Model:
 
     def __init__(self, data_object, data_object_test=None, segment=False, test=False, multilabel=False, one_hot=False,
-                 binary_label=False, write_Predictions = False, de_sample = False, common_words=10000, maxlen=100):
+                 binary_label=False, write_Predictions = False, with_Labels = False, generalize=False, de_sample = False, common_words=10000, maxlen=100):
         """
         :param data_object: training data object
         :param data_object_test: testing data object (None -during 5 CV)
@@ -86,12 +86,16 @@ class Model:
         :param one_hot: Flag to be set to create one-hot vectors during vectorization (default-False)
         :param binary_label: Turn labels to binary (Experiment purposes for i2b2)
         :type write_Predictions: write entities and predictions to file
+        :type with_labels: Take labels of the entities into consideration
+        :param generalize: flag when relations are not dependent on the first given relation label
         :param common_words: Number of words to consider as features (default = 10000)
         :param maxlen: maximum length of the vector (default = 100)
 
         """
         self.de_sample = de_sample
         self.write_Predictions = write_Predictions
+        self.with_Labels = with_Labels
+        self.generalize = generalize
         self.one_hot = one_hot
         self.segment = segment
         self.test = test
@@ -107,6 +111,9 @@ class Model:
         train_labels = data_object['label']
         # tracks the entity pair details for a relation
         train_track = data_object['track']
+        if self.with_Labels:
+            train_concept1_label = data_object['seg_concept1_label']
+            train_concept2_label = data_object['seg_concept2_label']
 
         # Experiment purposes for i2b2 (Not a main functionality)
         if self.binary_label:
@@ -121,6 +128,9 @@ class Model:
             test_labels = data_object_test['label']
             # tracks the entity pair details for a relation
             test_track = data_object_test['track']
+            if self.with_Labels:
+                test_concept1_label = data_object['seg_concept1_label']
+                test_concept2_label = data_object['seg_concept2_label']
 
             # Experiment purposes for i2b2 (Not a main functionality)
             if self.binary_label:
@@ -141,6 +151,8 @@ class Model:
         else:
             #when running only with train data
             test_data = None
+            test_concept1_label = None
+            test_concept2_label = None
             test_labels = None
 
         # for multilabel sentence CNN
@@ -163,12 +175,18 @@ class Model:
         else:
             self.train_label = train_labels
             self.train_track = np.asarray(train_track).reshape((-1, 3))
+            if self.with_Labels:
+                self.train_concept1_label = train_concept1_label
+                self.train_concept2_label = train_concept2_label
 
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
                 self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.y_test = test_labels
                 self.test_track = np.asarray(test_track).reshape((-1, 3))
+                if self.with_Labels:
+                    self.test_concept1_label = test_concept1_label
+                    self.test_concept2_label = test_concept2_label
             else:
                 self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.train, self.word_index = self.vectorize_words(train_data, test_data)
@@ -229,6 +247,7 @@ class Model:
             return df_new_train['sentence'].tolist(), df_new_train['label'].tolist(), df_new_test['sentence'].tolist(), \
                    df_new_test['true'].tolist()
 
+    # haven't updated for a while - does not include recent changes
     def one_hot_encoding(self, train_list, test_list=None):
         """
         Takes a list as the input and tokenizes the samples via the `split` method.

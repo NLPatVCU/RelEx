@@ -187,9 +187,8 @@ class Segment_CNN:
         Suc_data = self.data_model.succeeding
         C1_data = self.data_model.concept1
         C2_data = self.data_model.concept2
-        Track = self.data_model.train_track.reshape((-1, 3))
+        Track = self.data_model.train_track
         Y_data = self.data_model.train_label
-        print(Track)
 
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
 

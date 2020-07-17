@@ -41,11 +41,11 @@ def define_model(self):
   return flat, input_shape
 
 def build_segment_cnn(self, no_classes):
-  flat1, input_shape1 = self.define_model()
-  flat2, input_shape2 = self.define_model()
-  flat3, input_shape3 = self.define_model()
-  flat4, input_shape4 = self.define_model()
-  flat5, input_shape5 = self.define_model()
+  flat1, input_shape1 = self.model_without_Label()
+  flat2, input_shape2 = self.model_without_Label()
+  flat3, input_shape3 = self.model_without_Label()
+  flat4, input_shape4 = self.model_without_Label()
+  flat5, input_shape5 = self.model_without_Label()
 
   # merge
   merged = concatenate([flat1, flat2, flat3, flat4, flat5])

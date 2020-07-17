@@ -9,7 +9,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils import class_weight
 from utils import file, normalization
 import numpy as np
-import tensorflow.keras.backend as K
 
 class Sentence_CNN:
 
@@ -72,16 +71,16 @@ class Sentence_CNN:
         flat = Flatten()(drop)
         return flat, input_shape
 
-    def model_with_Label(self, no_classes, C1_label=None, C2_label=None):
+    def model_with_Label(self, no_classes):
 
         flat1, input_shape1 = self.define_model()
-        C1_tensor = K.constant(np.array(C1_label))
-        C2_tensor = K.constant(np.array(C2_label))
-
+        flat2, input_shape2 = self.define_model()
         if self.data_model.generalize:
-            merged = concatenate([flat1, C1_tensor, C2_tensor])
+            flat3, input_shape3 = self.define_model()
+            # merge
+            merged = concatenate([flat1, flat2, flat3])
         else:
-            merged = concatenate([flat1, C1_tensor])
+            merged = concatenate([flat1, flat2])
 
         dense1 = Dense(self.filters, activation=self.activation)(merged)
         outputs = Dense(no_classes, activation=self.output_activation)(dense1)
@@ -327,16 +326,15 @@ class Sentence_CNN:
                     if self.data_model.generalize:
                         train_C1_label, test_C1_label = binary_C1_label[train_index], binary_C1_label[test_index]
                         train_C2_label, test_C2_label = binary_C2_label[train_index], binary_C2_label[test_index]
-                        cv_model = self.model_with_Label(len(self.data_model.encoder.classes_),train_C1_label, train_C2_label)
+                        cv_model = self.model_with_Label(len(self.data_model.encoder.classes_))
                         cv_model.fit([x_train, train_C1_label, train_C2_label], y_train,epochs=self.epochs, batch_size=self.batch_size)
                         y_pred, y_true = evaluate.predict(cv_model, [x_test, test_C1_label, test_C2_label], y_test, labels)
                     else:
                         train_C1_label, test_C1_label = binary_C1_label[train_index], binary_C1_label[test_index]
 
-                        cv_model = self.model_with_Label(len(self.data_model.encoder.classes_),train_C1_label)
+                        cv_model = self.model_with_Label(len(self.data_model.encoder.classes_))
                         cv_model.fit([x_train, train_C1_label], y_train, epochs=self.epochs, batch_size=self.batch_size)
                         y_pred, y_true = evaluate.predict(cv_model, [x_test, test_C1_label], y_test, labels)
-                        print(y_true, y_pred)
                 else:
                     cv_model = self.model_without_Label(len(self.data_model.encoder.classes_))
                     cv_model= self.fit_Model(cv_model, x_train, y_train)
