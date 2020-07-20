@@ -11,7 +11,6 @@ e.g.: python gold_annotations system_annotations
 
 Please note that you must use Python 3 to get the correct results with this script
 
-
 """
 
 
@@ -272,32 +271,31 @@ class SingleEvaluator(object):
         if key:
             gol = [t for t in doc1.tags.values() if t.ttype == key]
             sys = [t for t in doc2.tags.values() if t.ttype == key]
-            sys_check = [t for t in doc2.tags.values() if t.ttype == key]
         else:
             gol = [t for t in doc1.tags.values()]
             sys = [t for t in doc2.tags.values()]
-            sys_check = [t for t in doc2.tags.values()]
-
-        #pare down matches -- if multiple system tags overlap with only one
-        #gold standard tag, only keep one sys tag
-        gol_matched = []
-        for s in sys:
-            for g in gol:
-                if (g.equals(s,mode)):
-                    if g not in gol_matched:
-                        gol_matched.append(g)
-                    else:
-                        if s in sys_check:
-                            sys_check.remove(s)
-
-
-        sys = sys_check
-        #now evaluate
-        self.scores['tags']['tp'] = len({s.tid for s in sys for g in gol if g.equals(s, mode)})
-        self.scores['tags']['fp'] = len({s.tid for s in sys}) - self.scores['tags']['tp']
-        self.scores['tags']['fn'] = len({g.tid for g in gol}) - self.scores['tags']['tp']
-        self.scores['tags']['tn'] = 0
-
+        if mode == 'strict':
+            self.scores['tags']['tp'] = len({s.tid for s in sys for g in gol if g.equals(s, mode)})
+            self.scores['tags']['fp'] = len({s.tid for s in sys}) - self.scores['tags']['tp']
+            self.scores['tags']['fn'] = len({g.tid for g in gol}) - self.scores['tags']['tp']
+            self.scores['tags']['tn'] = 0
+        else: #lenient
+            #pare down matches -- if multiple system tags overlap with only one
+            #gold standard tag, only keep one sys tag
+            gol_matched = []
+            sys_matched = []
+            for s in sys:
+                for g in gol:
+                    if (g.equals(s,mode)):
+                        if g not in gol_matched:
+                            sys_matched.append(s)
+                            gol_matched.append(g)
+            sys = sys_matched
+            #now evaluate
+            self.scores['tags']['tp'] = len({s.tid for s in sys for g in gol if g.equals(s, mode)})
+            self.scores['tags']['fp'] = len({s.tid for s in sys}) - self.scores['tags']['tp']
+            self.scores['tags']['fn'] = len({g.tid for g in gol}) - self.scores['tags']['tp']
+            self.scores['tags']['tn'] = 0
         if verbose and track == 2:
             tps = {s for s in sys for g in gol if g.equals(s, mode)}
             fps = set(sys) - tps
@@ -313,25 +311,9 @@ class SingleEvaluator(object):
             if key:
                 gol = [r for r in doc1.relations.values() if r.rtype == key]
                 sys = [r for r in doc2.relations.values() if r.rtype == key]
-                sys_check = [r for r in doc2.relations.values() if r.rtype == key]
             else:
                 gol = [r for r in doc1.relations.values()]
                 sys = [r for r in doc2.relations.values()]
-                sys_check = [r for r in doc2.relations.values()]
-
-            #pare down matches -- if multiple system tags overlap with only one
-            #gold standard tag, only keep one sys tag
-            gol_matched = []
-            for s in sys:
-                for g in gol:
-                    if (g.equals(s,mode)):
-                        if g not in gol_matched:
-                            gol_matched.append(g)
-                        else:
-                            if s in sys_check:
-                                sys_check.remove(s)
-            sys = sys_check
-            #now evaluate
             self.scores['relations']['tp'] = len({s.rid for s in sys for g in gol if g.equals(s, mode)})
             self.scores['relations']['fp'] = len({s.rid for s in sys}) - self.scores['relations']['tp']
             self.scores['relations']['fn'] = len({g.rid for g in gol}) - self.scores['relations']['tp']
@@ -430,11 +412,9 @@ class MultipleEvaluator(object):
                                      'macro': {'precision': 0,
                                                'recall': 0,
                                                'f1': 0}}}
-        self.tags = ('Drug', 'Strength', 'Duration', 'Route', 'Form',
-                     'ADE', 'Dosage', 'Reason', 'Frequency')
-        self.relations = ('Strength-Drug', 'Dosage-Drug', 'Duration-Drug',
-                          'Frequency-Drug', 'Form-Drug', 'Route-Drug',
-                          'Reason-Drug', 'ADE-Drug')
+        self.tags = ('WORKUP', 'REACTION_STEP', 'EXAMPLE_LABEL', 'REACTION_PRODUCT', 'STARTING_MATERIAL', 'REAGENT_CATALYST', 'SOLVENT', 'OTHER_COMPOUND', 'TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT')
+        # self.relations = ('YIELD_OTHER-REACTION_STEP','TIME-WORKUP')
+        self.relations = ('ARG1', 'ARGM')
         for g, s in corpora.docs:
             evaluator = SingleEvaluator(g, s, 2, mode, tag_type, verbose=verbose)
             for target in ('tags', 'relations'):
@@ -560,7 +540,7 @@ def evaluate(corpora, mode='strict', verbose=False):
             evaluator_tag_s = MultipleEvaluator(corpora, rel, mode='strict', verbose=verbose)
             evaluator_tag_l = MultipleEvaluator(corpora, rel, mode='lenient', verbose=verbose)
             print('{:>20}  {:<5.4f}  {:<5.4f}  {:<5.4f}    {:<5.4f}  {:<5.4f}  {:<5.4f}'.format(
-                '{} -> {}'.format(rel.split('-')[0], rel.split('-')[1].capitalize()),
+                rel.capitalize(),
                 evaluator_tag_s.scores['relations']['micro']['precision'],
                 evaluator_tag_s.scores['relations']['micro']['recall'],
                 evaluator_tag_s.scores['relations']['micro']['f1'],
