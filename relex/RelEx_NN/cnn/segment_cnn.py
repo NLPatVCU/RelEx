@@ -11,8 +11,8 @@ import numpy as np
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=5, batch_size=512, filters=32, filter_conv=1,
-                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
+    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=10, batch_size=512, filters=3, filter_conv=1,
+                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='binary_crossentropy',
                  optimizer='rmsprop', metrics=['accuracy'], initial_predictions = None, final_predictions= None, write_No_rel = False):
 
         '''
@@ -187,9 +187,8 @@ class Segment_CNN:
         Suc_data = self.data_model.succeeding
         C1_data = self.data_model.concept1
         C2_data = self.data_model.concept2
-        Track = self.data_model.train_track.reshape((-1, 3))
+        Track = self.data_model.train_track
         Y_data = self.data_model.train_label
-        print(Track)
 
         if num_folds <= 1: raise ValueError("Number of folds for cross validation must be greater than 1")
 
