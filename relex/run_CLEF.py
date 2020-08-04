@@ -31,7 +31,7 @@ if test:
                                    config.getint('SEGMENTATION', 'no_of_cores'))
 
             train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
-                         config['CNN_MODELS']['model'], write_predictions, with_labels, write_no_relations,
+                         config['CNN_MODELS']['model'], write_predictions, write_no_relations,
                          config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['binary_predictions'])
 
     else:
@@ -39,14 +39,14 @@ if test:
                                    config.getint('SEGMENTATION', 'no_of_cores'), config['PREDICTIONS']['final_predictions'])
 
         train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
-                             config['CNN_MODELS']['model'], write_predictions, with_labels, write_no_relations,
+                             config['CNN_MODELS']['model'], write_predictions, write_no_relations,
                              config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
 else:
     seg_train = CV.segment(config['SEGMENTATION']['train_path'], rel_labels, no_rel_label,
                            config.getboolean('SEGMENTATION', 'parallelize'), config.getint('SEGMENTATION', 'no_of_cores'),config['PREDICTIONS']['final_predictions'])
 
     CV.run_CNN_model(seg_train, config['CNN_MODELS']['embedding_path'], config.getint('CNN_MODELS', 'embedding_dim'),
-                     config['CNN_MODELS']['model'], write_predictions, with_labels, write_no_relations,config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
+                     config['CNN_MODELS']['model'], write_predictions, write_no_relations,config['PREDICTIONS']['initial_predictions'], config['PREDICTIONS']['final_predictions'])
 
-re_number.append(config['PREDICTIONS']['binary_predictions'], config['PREDICTIONS']['final_predictions'])
-convert_back.convert(config['PREDICTIONS']['final_predictions'], config['PREDICTIONS']['converted_predictions'])
+# re_number.append(config['PREDICTIONS']['binary_predictions'], config['PREDICTIONS']['final_predictions'])
+# convert_back.convert(config['PREDICTIONS']['final_predictions'], config['PREDICTIONS']['converted_predictions'])
