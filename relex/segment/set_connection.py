@@ -9,7 +9,7 @@ from csv import reader
 
 class Set_Connection:
     def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
-                 middle_segs=None, concept2_segs=None, succeeding_segs=None, track=None, dataset=None,
+                 middle_segs=None, concept2_segs=None, succeeding_segs=None, concept1_label_segs=None,concept2_label_segs=None, track=None, dataset=None,
                  rel_labels=None, no_labels=None, CSV=True, test=False, parallelize= False, no_of_cores = 64, predictions_folder = None, write_Entites = False):
         """
         Creates data objects directly from the dataset folder and call for segmentation or take in segments (a set of CSVs)
@@ -22,6 +22,8 @@ class Set_Connection:
         :param middle_segs: path to middle segements CSV
         :param succeeding_segs: path to succeeding segments CSV
         :param track: path to track information (file, first entity, second entity)
+        :param concept1_label_segs: path to concept1 label segments CSV
+        :param concept2_label_segs: path to concept2 label segments CSV
         :param dataset: path to dataset
         :param rel_labels: list of entities that create the relations
         :param no_labels: name the label when entities that do not have relations in a sentence are considered
@@ -39,6 +41,8 @@ class Set_Connection:
             self.sentences = sentences
             self.labels = labels
             self.track = track
+            self.concept1_label_segs = concept1_label_segs
+            self.concept2_label_segs = concept2_label_segs
             if not self.sentence_only:
                 self.preceding_segs = preceding_segs
                 self.concept1_segs = concept1_segs
@@ -58,7 +62,7 @@ class Set_Connection:
                 self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test, predictions_folder = predictions_folder,write_Entites = write_Entites).segments
 
     @property
-    def get_data_object(self):
+    def get_daata_object(self):
         """
         creates segmentation object from CSVs
         """
@@ -68,6 +72,8 @@ class Set_Connection:
         train_data = file.read_from_file(self.sentences)
         train_labels = file.read_from_file(self.labels)
         track_list = file.read_from_file(self.track)
+        train_concept1_label = file.read_from_file(self.concept1_label_segs)
+        train_concept2_label = file.read_from_file(self.concept2_label_segs)
         # track_list = file.read_from_file(self.track, read_as_int=True)
 
         if not self.sentence_only:
@@ -80,6 +86,8 @@ class Set_Connection:
         # Adds segments, labels, and sentences to object
         obj['sentence'] = train_data
         obj['label'] = train_labels
+        obj['seg_concept1_label'] = train_concept1_label
+        obj['seg_concept2_label'] = train_concept2_label
         obj['track'] = track_list
         if not self.sentence_only:
             obj['seg_preceding'] = train_preceding

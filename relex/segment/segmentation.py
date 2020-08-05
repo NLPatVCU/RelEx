@@ -525,7 +525,8 @@ class Segmentation:
             segment['label'].append(label_rel)
             # Adding the track information
             # print( int(self.file),int(entity1[1:]),int(entity2[1:]))
-            segment['track'].append(int(self.file))
+            segment['track'].append(self.file)
+            # segment['track'].append(int(self.file))
             segment['track'].append(int(entity1[1:]))
             segment['track'].append(int(entity2[1:]))
         return segment

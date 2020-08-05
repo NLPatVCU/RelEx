@@ -15,6 +15,7 @@ else:
 
 test = config.getboolean('DEFAULT', 'test')
 binary = config.getboolean('DEFAULT', 'binary_classification')
+with_labels = config.getboolean('DEFAULT', 'with_labels')
 write_predictions = config.getboolean('DEFAULT', 'write_predictions')
 write_no_relations = config.getboolean('PREDICTIONS', 'write_no_relations')
 

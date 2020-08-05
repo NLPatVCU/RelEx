@@ -25,8 +25,10 @@ def segment (train, test, entites, no_rel=None, parallelize= False, no_of_cores 
         seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, no_labels=no_rel, write_Entites = False,
                                    parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
     else:
+        print("Start segmentation of train set")
         seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, write_Entites = False,
                                    parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
+    print("Start segmentation of test set")
     seg_test = Set_Connection(CSV=False, dataset=test, rel_labels=entites, test= True, parallelize=True, write_Entites = True,
                               no_of_cores=64, predictions_folder = predictions_folder).data_object
 
