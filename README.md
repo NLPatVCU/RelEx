@@ -23,7 +23,8 @@ pip install Colocation_requirements.txt
 ```
 For the deep learning-based approach:
 ```
-pip install CNN_requirements.txt
+pip install -r requirements.txt - to install required softwares to the env
+python -m spacy download en_core_web_sm - to install the SpaCy model for training
 ```
 
 ## Deployment
