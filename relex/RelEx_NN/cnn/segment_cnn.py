@@ -11,8 +11,8 @@ import numpy as np
 
 class Segment_CNN:
 
-    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=20, batch_size=512, filters=32, filter_conv=1,
-                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='categorical_crossentropy',
+    def __init__(self, model, embedding, cross_validation=False, end_to_end = False, epochs=5, batch_size=512, filters=3, filter_conv=1,
+                 filter_maxPool=5, activation='relu', output_activation='sigmoid', drop_out=0.5, loss='binary_crossentropy',
                  optimizer='rmsprop', metrics=['accuracy'], initial_predictions = None, final_predictions= None, write_No_rel = False):
 
         '''
@@ -20,7 +20,7 @@ class Segment_CNN:
         :param model: data after prepocessing
         :param embedding: word embeddings
         :param cross_validation: flag to perform CV (default fold = 5)
-        :param initial_predictions: folder to save the initial relation predictions
+        :param initial_predictions: folder to save the initial relation predictisons
         :param final_predictions: folder to save the final relation predictions
         :param write_No_rel: Write the no-relation predictions back to files
         :param end_to_end: for experimental purpose

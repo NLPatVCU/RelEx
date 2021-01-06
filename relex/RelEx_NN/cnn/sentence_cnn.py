@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils import class_weight
 from utils import file, normalization
 import numpy as np
-import tensorflow.keras.backend as K
+# import tensorflow.keras.backend as K
 
 class Sentence_CNN:
 
@@ -72,29 +72,29 @@ class Sentence_CNN:
         flat = Flatten()(drop)
         return flat, input_shape
 
-    def model_with_Label(self, no_classes, C1_label=None, C2_label=None):
-
-        flat1, input_shape1 = self.define_model()
-        C1_tensor = K.constant(np.array(C1_label))
-        C2_tensor = K.constant(np.array(C2_label))
-
-        if self.data_model.generalize:
-            merged = concatenate([flat1, C1_tensor, C2_tensor])
-        else:
-            merged = concatenate([flat1, C1_tensor])
-
-        dense1 = Dense(self.filters, activation=self.activation)(merged)
-        outputs = Dense(no_classes, activation=self.output_activation)(dense1)
-
-        if self.data_model.generalize:
-            model = Model(inputs=[input_shape1, input_shape2, input_shape3], outputs=outputs)
-        else:
-            model = Model(inputs=[input_shape1, input_shape2], outputs=outputs)
-        model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
-
-        # summarize
-        print(model.summary())
-        return  model
+    # def model_with_Label(self, no_classes, C1_label=None, C2_label=None):
+    #
+    #     flat1, input_shape1 = self.define_model()
+    #     C1_tensor = K.constant(np.array(C1_label))
+    #     C2_tensor = K.constant(np.array(C2_label))
+    #
+    #     if self.data_model.generalize:
+    #         merged = concatenate([flat1, C1_tensor, C2_tensor])
+    #     else:
+    #         merged = concatenate([flat1, C1_tensor])
+    #
+    #     dense1 = Dense(self.filters, activation=self.activation)(merged)
+    #     outputs = Dense(no_classes, activation=self.output_activation)(dense1)
+    #
+    #     if self.data_model.generalize:
+    #         model = Model(inputs=[input_shape1, input_shape2, input_shape3], outputs=outputs)
+    #     else:
+    #         model = Model(inputs=[input_shape1, input_shape2], outputs=outputs)
+    #     model.compile(loss=self.loss, optimizer=self.optimizer, metrics=self.metrics)
+    #
+    #     # summarize
+    #     print(model.summary())
+    #     return  model
 
     def model_without_Label(self, no_classes):
         """

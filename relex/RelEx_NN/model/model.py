@@ -181,20 +181,19 @@ class Model:
 
             if self.test:
                 self.train, self.x_test, self.word_index = self.vectorize_words(train_data, test_data)
-                self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                # self.train_onehot, self.x_test_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.y_test = test_labels
                 self.test_track = np.asarray(test_track).reshape((-1, 3))
                 if self.with_Labels:
                     self.test_concept1_label = test_concept1_label
                     self.test_concept2_label = test_concept2_label
             else:
-                self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
+                # self.train_onehot, self.token_index = self.one_hot_encoding(train_data, test_data)
                 self.train, self.word_index = self.vectorize_words(train_data, test_data)
 
             # divides train data into partial train and validation data
             self.x_train, self.x_val, self.y_train, self.y_val = create_validation_data(self.train, self.train_label)
-            self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,
-                                                                                                      self.train_label)
+            # self.x_train_onehot, self.x_val_onehot, self.y_train, self.y_val = create_validation_data(self.train_onehot,self.train_label)
         if self.segment:
             train_preceding = data_object['seg_preceding']
             train_middle = data_object['seg_middle']

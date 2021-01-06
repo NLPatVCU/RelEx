@@ -25,8 +25,10 @@ def segment (train, test, entites, no_rel=None, parallelize= False, no_of_cores 
         seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, no_labels=no_rel, write_Entites = False,
                                    parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
     else:
+        print("Start segmentation of train set")
         seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, write_Entites = False,
                                    parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
+    print("Start segmentation of test set")
     seg_test = Set_Connection(CSV=False, dataset=test, rel_labels=entites, test= True, parallelize=True, write_Entites = True,
                               no_of_cores=64, predictions_folder = predictions_folder).data_object
 
@@ -45,13 +47,13 @@ def run_CNN_model (seg_train, seg_test, embedding_path, embed_dim, cnn_model, wr
     :return: None
     """
     if cnn_model == 'segment':
-        model = Model(data_object=seg_train, data_object_test=seg_test, segment=True, test=True, write_Predictions=write_predictions, with_Labels=with_Labels)
+        model = Model(data_object=seg_train, data_object_test=seg_test, segment=True, test=True, write_Predictions=write_predictions)
         embedding = Embeddings(embedding_path, model, embedding_dim=embed_dim)
         seg_cnn = Segment_CNN(model, embedding, initial_predictions = initial_predictions,
                               final_predictions= final_predictions, write_No_rel=write_No_rel)
 
     elif cnn_model == 'sentence':
-        model = Model(data_object=seg_train, data_object_test=seg_test, test=True, write_Predictions=write_predictions, with_Labels=with_Labels)
+        model = Model(data_object=seg_train, data_object_test=seg_test, test=True, write_Predictions=write_predictions)
         embedding = Embeddings(embedding_path, model, embedding_dim=embed_dim)
         single_sent_cnn = Sentence_CNN(model, embedding,initial_predictions=initial_predictions,
                               final_predictions=final_predictions, write_No_rel=write_No_rel)
