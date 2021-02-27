@@ -8,7 +8,8 @@ from segment import Segmentation
 import sys
 import ast
 
-def segment (train, test, entites, no_rel=None, parallelize= False, no_of_cores = 64, predictions_folder = None):
+
+def segment(train, test, entites, no_rel=None, no_rel_multiple=False, parallelize=False, no_of_cores=64, predictions_folder=None):
     """
     Perform segmentation for the training and testing data
     :param write_Entites:
@@ -18,23 +19,29 @@ def segment (train, test, entites, no_rel=None, parallelize= False, no_of_cores 
     :param test: path to test data
     :param entites: list of entities that create the relations
     :param no_rel: name the label when entities that do not have relations in a sentence are considered
+    :param no_rel_multiple: flag whether multiple labels are possibles for No-relation
     :param predictions_folder: path to predictions (output) folder
     :return: segments of train and test data
     """
     if no_rel:
-        seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, no_labels=no_rel, write_Entites = False,
-                                   parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
+        seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, no_labels=no_rel, no_rel_multiple=no_rel_multiple, write_Entites=False,
+                                   parallelize=parallelize, no_of_cores=no_of_cores,
+                                   predictions_folder=predictions_folder).data_object
     else:
         print("Start segmentation of train set")
-        seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, write_Entites = False,
-                                   parallelize= parallelize, no_of_cores = no_of_cores, predictions_folder = predictions_folder).data_object
+        seg_train = Set_Connection(CSV=False, dataset=train, rel_labels=entites, write_Entites=False,
+                                   parallelize=parallelize, no_of_cores=no_of_cores,
+                                   predictions_folder=predictions_folder).data_object
     print("Start segmentation of test set")
-    seg_test = Set_Connection(CSV=False, dataset=test, rel_labels=entites, test= True, parallelize=True, write_Entites = True,
-                              no_of_cores=64, predictions_folder = predictions_folder).data_object
+    seg_test = Set_Connection(CSV=False, dataset=test, rel_labels=entites, test=True, parallelize=True,
+                              write_Entites=True,
+                              no_of_cores=64, predictions_folder=predictions_folder).data_object
 
     return seg_train, seg_test
 
-def run_CNN_model (seg_train, seg_test, embedding_path, embed_dim, cnn_model, write_predictions = False, write_No_rel = False, initial_predictions = None, final_predictions=None):
+
+def run_CNN_model(seg_train, seg_test, embedding_path, embed_dim, cnn_model, write_predictions=False,
+                  write_No_rel=False, initial_predictions=None, final_predictions=None):
     """
     Call CNN models
     :param seg_test: test segments
@@ -47,18 +54,19 @@ def run_CNN_model (seg_train, seg_test, embedding_path, embed_dim, cnn_model, wr
     :return: None
     """
     if cnn_model == 'segment':
-        model = Model(data_object=seg_train, data_object_test=seg_test, segment=True, test=True, write_Predictions=write_predictions)
+        model = Model(data_object=seg_train, data_object_test=seg_test, segment=True, test=True,
+                      write_Predictions=write_predictions)
         embedding = Embeddings(embedding_path, model, embedding_dim=embed_dim)
-        seg_cnn = Segment_CNN(model, embedding, initial_predictions = initial_predictions,
-                              final_predictions= final_predictions, write_No_rel=write_No_rel)
+        seg_cnn = Segment_CNN(model, embedding, initial_predictions=initial_predictions,
+                              final_predictions=final_predictions, write_No_rel=write_No_rel)
 
     elif cnn_model == 'sentence':
         model = Model(data_object=seg_train, data_object_test=seg_test, test=True, write_Predictions=write_predictions)
         embedding = Embeddings(embedding_path, model, embedding_dim=embed_dim)
-        single_sent_cnn = Sentence_CNN(model, embedding,initial_predictions=initial_predictions,
-                              final_predictions=final_predictions, write_No_rel=write_No_rel)
+        single_sent_cnn = Sentence_CNN(model, embedding, initial_predictions=initial_predictions,
+                                       final_predictions=final_predictions, write_No_rel=write_No_rel)
     else:
-        #multilabel sentence-CNN does not have the option to write the predictions back
+        # multilabel sentence-CNN does not have the option to write the predictions back
         model = Model(data_object=seg_train, data_object_test=seg_test, test=True, multilabel=True)
         embedding = Embeddings(embedding_path, model, embedding_dim=embed_dim)
         multi_sent_cnn = Sentence_CNN(model, embedding)

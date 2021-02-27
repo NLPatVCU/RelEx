@@ -76,7 +76,7 @@ def write_entities_to_file(ann, file, output_folder):
 
 class Segmentation:
 
-    def __init__(self, dataset=None, entity_labels=None, no_rel_label=None, sentence_align=False, test=False,
+    def __init__(self, dataset=None, entity_labels=None, no_rel_label=None,  no_rel_multiple=False, sentence_align=False, test=False,
                  same_entity_relation=False, write_Entites = False, generalize=False, parallelize= False, no_of_cores = 64,
                  predictions_folder = None, de_sample=None):
 
@@ -88,6 +88,7 @@ class Segmentation:
            :param predictions_folder: path to predictions (output) folder
            :param entity_labels: labels of the list of entities that create the relations
            :param no_labels: name the label when entities that do not have relations in a sentence are considered
+           :param no_rel_multiple: flag whether multiple labels are possibles for No-relation
            :param sentence_align: options to break sentences
            :param test: flag to run test-segmentation options
            :param same_entity_relation: flag when relation exists between same type of entities
@@ -108,10 +109,12 @@ class Segmentation:
         self.parallelize = parallelize
         self.write_Entites = write_Entites
         self.nlp_model = English()
+        self.nlp_model.max_length = 2000000
         if no_rel_label:
             self.no_rel_label = no_rel_label
         else:
             self.no_rel_label = False
+        self.no_rel_multiple = no_rel_multiple
 
         if de_sample:
             self.de_sample = de_sample
@@ -163,8 +166,8 @@ class Segmentation:
                 self.segments['track'].extend(segment['track'])
                 # if not self.test:
                 self.segments['label'].extend(segment['label'])
-                self.segments['seg_concept1_label'].extend(segment['concept1_label'])
-                self.segments['seg_concept2_label'].extend(segment['concept2_label'])
+                # self.segments['seg_concept1_label'].extend(segment['concept1_label'])
+                # self.segments['seg_concept2_label'].extend(segment['concept2_label'])
         else:
             segment = self.process_file_serial(dataset)
 
@@ -187,17 +190,17 @@ class Segmentation:
             print([(i, self.segments['label'].count(i)) for i in set(self.segments['label'])])
 
         # write the segments to a file
-        file.list_to_file('sentence_train', self.segments['sentence'])
+        file.list_to_file('sentence_test', self.segments['sentence'])
         file.list_to_file('preceding_seg', self.segments['seg_preceding'])
         file.list_to_file('concept1_seg', self.segments['seg_concept1'])
         file.list_to_file('middle_seg', self.segments['seg_middle'])
         file.list_to_file('concept2_seg', self.segments['seg_concept2'])
         file.list_to_file('succeeding_seg', self.segments['seg_succeeding'])
-        file.list_to_file('track', self.segments['track'])
+        file.list_to_file('track_test', self.segments['track'])
         # if not self.test:
-        file.list_to_file('labels_train', self.segments['label'])
-        file.list_to_file('concept1_seg_label', self.segments['seg_concept1_label'])
-        file.list_to_file('concept2_seg_label', self.segments['seg_concept2_label'])
+        # file.list_to_file('labels_test', self.segments['label'])
+        # file.list_to_file('concept1_seg_label', self.segments['seg_concept1_label'])
+        # file.list_to_file('concept2_seg_label', self.segments['seg_concept2_label'])
 
     def process_file_parallel(self, dataset):
         """
@@ -245,8 +248,8 @@ class Segmentation:
             self.doc = self.nlp_model(content)
 
             file_name = str(datafile )+".ann"
-            if self.write_Entites and prediction_folder is not None:
-                write_entities_to_file(self.ann_obj, file_name, prediction_folder)
+            if self.write_Entites and self.prediction_folder is not None:
+                write_entities_to_file(self.ann_obj, file_name, self.prediction_folder)
             # else:
             #     print("Define the path to the folder to save predictions ")
 
@@ -375,7 +378,10 @@ class Segmentation:
 
                                 # No relations for the same entity
                                 if token and self.no_rel_label:
-                                    label_rel = self.no_rel_label[0]
+                                    if self.no_rel_multiple:
+                                        label_rel = self.no_rel_label
+                                    else:
+                                        label_rel = self.no_rel_label[0]
                                     segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)
@@ -402,7 +408,10 @@ class Segmentation:
 
                                     # No relations for the different entities
                                     if token and self.no_rel_label:
-                                        label_rel = self.no_rel_label[0]
+                                        if self.no_rel_multiple:
+                                            label_rel = self.no_rel_label
+                                        else:
+                                            label_rel = self.no_rel_label[0]
                                         segment = self.extract_sentences(ann, key2, key1, label_rel)
                                         if segment is not None:
                                             doc_segments = add_file_segments(doc_segments, segment)
@@ -431,7 +440,10 @@ class Segmentation:
 
                             # No relations for the same entity
                             if token and self.no_rel_label:
-                                label_rel = self.no_rel_label[0]
+                                if self.no_rel_multiple:
+                                    label_rel = self.no_rel_label
+                                else:
+                                    label_rel = self.no_rel_label[0]
                                 segment = self.extract_sentences(ann, key2, key1, label_rel)
                                 if segment is not None:
                                     doc_segments = add_file_segments(doc_segments, segment)
@@ -455,7 +467,10 @@ class Segmentation:
 
                                 # No relations for the different entities
                                 if token and self.no_rel_label:
-                                    label_rel = self.no_rel_label[0]
+                                    if self.no_rel_multiple:
+                                        label_rel = self.no_rel_label
+                                    else:
+                                        label_rel = self.no_rel_label[0]
                                     segment = self.extract_sentences(ann, key2, key1, label_rel)
                                     if segment is not None:
                                         doc_segments = add_file_segments(doc_segments, segment)

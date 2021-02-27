@@ -6,8 +6,9 @@ class InvalidAnnotationError(ValueError):
     """Raised when a given input is not in the valid format for that annotation type."""
     pass
 
-input_folder = '../../new_data/CLEF/test/files/'
-output_folder = '../../new_data/CLEF/test/ann/'
+input_folder = '../../../data/CLEF/'
+output_folder = '../../../CLEF/final_predictions/'
+
 # Delete all files in the folder initially to prevent appending
 ext =".ann"
 filelist = [f for f in os.listdir(output_folder) if f.endswith(ext)]

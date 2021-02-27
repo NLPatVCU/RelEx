@@ -4,10 +4,7 @@ from segment import Segmentation
 # path to the dataset
 # sample_train = Dataset('../data/sample/train')
 # sample_train = Dataset('../data/medacy')
-sample_train = Dataset('../data/train')
-# predictions = '../Predictions/sample_pred/'
-# predictions = '../Predictions/final_predictions/'
-# sample_train = Dataset('../data/test')
+sample_train = Dataset('../../data/CLEF/test')
 
 '''
 Running instructions: 
@@ -35,8 +32,9 @@ Running instructions:
 no_rel_label = ['No-Relation']
 
 #N2C2 data entities
-# rel_labels = ['Drug', 'Form']
-rel_labels = ['Drug', 'Reason', 'ADE', 'Route', 'Frequency', 'Duration', 'Strength', 'Form', 'Dosage']
+# rel_labels = ['Drug', 'Frequency']
+rel_labels = ['WORKUP', 'YIELD_PERCENT']
+# rel_labels = ['Drug', 'Reason', 'ADE', 'Route', 'Frequency', 'Duration', 'Strength', 'Form', 'Dosage']
 # rel_labels = ['Drug', 'Symptom', 'Route', 'Frequency', 'Duration', 'Strength', 'Form', 'Dosage']
 
 #END data entities
@@ -51,7 +49,7 @@ rel_labels = ['Drug', 'Reason', 'ADE', 'Route', 'Frequency', 'Duration', 'Streng
 
 #CLEF Data entities
 # rel_labels= ['REACTION_STEP','TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
-# rel_labels = ['WORKUP', 'REACTION_STEP', 'EXAMPLE_LABEL', 'REACTION_PRODUCT', 'STARTING_MATERIAL', 'REAGENT_CATALYST', 'SOLVENT', 'OTHER_COMPOUND', 'TIME', 'TEMPERATURE', 'YIELD_OTHER', 'YIELD_PERCENT']
+# rel_labels = ['WORKUP', 'REACTION_STEP', 'EXAMPLE_LABEL', 'REACTION_PRODUCT', 'STARTING_MATERIAL', 'REAGENT_CATALYST', 'SOLVENT', 'OTHER_COMPOUND', c]
 # rel_labels = ['Action', 'Duration', 'Frequency', 'Volume', 'Solvent','Concentration','Surfactant']
 
 #WNUT entities
@@ -59,17 +57,18 @@ rel_labels = ['Drug', 'Reason', 'ADE', 'Route', 'Frequency', 'Duration', 'Streng
 
 # to extract the segments from the dataset
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True, generalize=False)
-# seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False, write_Predictions=True, prediction_folder=predictions)
-seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False)
+# seg_sampleTrain = Segmentation(sample_train, rel_labels,  test= True, generalize=False, write_Predictions=True, prediction_folder=predictions)
+seg_sampleTrain = Segmentation(sample_train, rel_labels, test= True,generalize=False, parallelize=True, no_of_cores=16)
+# seg_sampleTrain = Segmentation(sample_train, rel_labels,  no_rel_label, generalize=False, parallelize=True, no_of_cores=20)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, generalize=True, same_entity_relation=True)
 # seg_sampleTrain = Segmentation(sample_train, rel_labels, no_rel_label, same_entity_relation = True)
 
 #print for testing purposes
-sample_track = seg_sampleTrain.segments['track']
-sample_label = seg_sampleTrain.segments['label']
-sample_c1 = seg_sampleTrain.segments['seg_concept1_label']
-sample_c2 = seg_sampleTrain.segments['seg_concept2_label']
+# sample_track = seg_sampleTrain.segments['track']
+# sample_label = seg_sampleTrain.segments['label']
+# sample_c1 = seg_sampleTrain.segments['seg_concept1_label']
+# sample_c2 = seg_sampleTrain.segments['seg_concept2_label']
 # print(sample_track)
-print(sample_label)
-print(sample_c1)
-print(sample_c2)
+# print(sample_label)
+# print(sample_c1)
+# print(sample_c2)

@@ -10,7 +10,7 @@ from csv import reader
 class Set_Connection:
     def __init__(self, sentence_only = False, sentences=None, labels=None, preceding_segs=None, concept1_segs=None,
                  middle_segs=None, concept2_segs=None, succeeding_segs=None, concept1_label_segs=None,concept2_label_segs=None, track=None, dataset=None,
-                 rel_labels=None, no_labels=None, CSV=True, test=False, parallelize= False, no_of_cores = 64, predictions_folder = None, write_Entites = False):
+                 rel_labels=None, no_labels=None, no_rel_multiple=False, CSV=True, test=False, parallelize= False, no_of_cores = 64, predictions_folder = None, write_Entites = False):
         """
         Creates data objects directly from the dataset folder and call for segmentation or take in segments (a set of CSVs)
         :type write_Entites: write entities and predictions to file
@@ -27,6 +27,7 @@ class Set_Connection:
         :param dataset: path to dataset
         :param rel_labels: list of entities that create the relations
         :param no_labels: name the label when entities that do not have relations in a sentence are considered
+        :param no_rel_multiple: flag whether multiple labels are possibles for No-relation
         :param CSV: flag to decide to read from the CSVs directly
         :param test: flag to run test-segmentation options
         :param parallelize: flag to parallelize the segmentation
@@ -56,10 +57,12 @@ class Set_Connection:
             self.dataset = Dataset(dataset)
             self.rel_labels = rel_labels
             self.no_labels = no_labels
+            self.no_rel_multiple = no_rel_multiple
+
             if self.parallelize:
-                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test, parallelize = True, no_of_cores=no_of_cores, predictions_folder = predictions_folder,write_Entites = write_Entites ).segments
+                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, self.no_rel_multiple, test=self.test, parallelize = True, no_of_cores=no_of_cores, predictions_folder = predictions_folder,write_Entites = write_Entites ).segments
             else:
-                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, test=self.test, predictions_folder = predictions_folder,write_Entites = write_Entites).segments
+                self.data_object = Segmentation(self.dataset, self.rel_labels, self.no_labels, self.no_rel_multiple, test=self.test, predictions_folder = predictions_folder,write_Entites = write_Entites).segments
 
     @property
     def get_data_object(self):
