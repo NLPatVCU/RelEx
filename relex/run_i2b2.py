@@ -34,11 +34,11 @@ if test:
                                                          config.getboolean('SEGMENTATION', 'parallelize'),
                                                          config.getint('SEGMENTATION', 'no_of_cores'))
 
-                # train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'],
-                #                          config.getint('CNN_MODELS', 'embedding_dim'),
-                #                          config['CNN_MODELS']['model'], write_predictions, write_no_relations,
-                #                          config['PREDICTIONS']['initial_predictions'],
-                #                          config['PREDICTIONS']['binary_predictions'])
+                train_test.run_CNN_model(seg_train, seg_test, config['CNN_MODELS']['embedding_path'],
+                                         config.getint('CNN_MODELS', 'embedding_dim'),
+                                         config['CNN_MODELS']['model'], write_predictions, write_no_relations,
+                                         config['PREDICTIONS']['initial_predictions'],
+                                         config['PREDICTIONS']['binary_predictions'])
         else:
             for label in rel_labels[1:]:
                 rel_labels = [rel_labels[0], label]
