@@ -59,7 +59,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 pycparser==2.18
 pyemd==0.5.1
-Pygments==2.2.0
+Pygments==2.7.4
 Pyphen==0.9.4
 pyrsistent==0.15.2
 python-dateutil==2.6.1
