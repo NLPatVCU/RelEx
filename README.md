@@ -19,11 +19,11 @@ contains a non-drug entity,gtt (Route)and two drugs Heparin and Coumadin. The no
 Create a python 3.6 virtual environment and install the requirements as given for each respective approach.
 For the rule-based approach: 
 ```
-pip install Colocation_requirements.txt
+pip install -r Colocation_requirements.txt
 ```
 For the deep learning-based approach:
 ```
-pip install CNN_requirements.txt
+pip install -r CNN_requirements.txt
 ```
 
 ## Deployment
